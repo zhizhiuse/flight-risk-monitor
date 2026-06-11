@@ -120,7 +120,7 @@ function createEventItem(event) {
   const airports = event.affectedAirports ? event.affectedAirports.join(', ') : '-';
   const airlines = event.affectedAirlines ? event.affectedAirlines.slice(0, 3).join(', ') : '-';
   
-  const summary = event.summary ? `<div class="event-summary">${event.summary.length > 80 ? event.summary.substring(0, 80) + '...' : event.summary}</div>` : '';
+  const summary = event.summary ? `<div class="event-summary">${event.summary.length > 80 ? event.summary.substring(0, 80) + '...' : event.summary}</div>` : (event.description ? `<div class="event-summary">${event.description.length > 60 ? event.description.substring(0, 60) + '...' : event.description}</div>` : '');
   
   return `
     <div class="event-item" data-id="${event.id}">

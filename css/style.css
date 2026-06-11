@@ -383,6 +383,66 @@ body {
   border-left: 3px solid var(--accent-blue);
 }
 
+.event-card-description {
+  margin-bottom: 0.75rem;
+}
+
+.desc-content {
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  line-height: 1.75;
+  padding: 0.625rem 0.75rem;
+  background: var(--bg-secondary);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.desc-content p {
+  margin: 0 0 0.5rem 0;
+}
+
+.desc-content p:last-child {
+  margin-bottom: 0;
+}
+
+.desc-content.collapsed {
+  max-height: 3.6em;
+  position: relative;
+}
+
+.desc-content.collapsed::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2em;
+  background: linear-gradient(transparent, var(--bg-secondary));
+  pointer-events: none;
+}
+
+.desc-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  color: var(--accent-blue);
+  font-size: 0.75rem;
+  cursor: pointer;
+  padding: 4px 0;
+  margin-top: 2px;
+}
+
+.desc-toggle:hover {
+  opacity: 0.8;
+}
+
+.desc-toggle svg {
+  transition: transform 0.2s ease;
+}
+
 .event-meta {
   display: flex;
   flex-wrap: wrap;

@@ -95,10 +95,24 @@ function renderPrioritySection(priority, title, events) {
 }
 
 function renderEventCard(event) {
+  const descId = 'desc-' + event.id;
+  const hasLongDesc = event.description && event.description.length > 0;
+  
   return `
     <div class="event-card">
       <div class="event-card-title">${event.title}</div>
       ${event.summary ? `<div class="event-card-summary">${event.summary}</div>` : ''}
+      ${hasLongDesc ? `
+        <div class="event-card-description" id="${descId}">
+          <div class="desc-content collapsed" id="${descId}-content">
+            ${event.description.split('\n').map(p => p.trim() ? `<p>${p}</p>` : '').join('')}
+          </div>
+          <button class="desc-toggle" onclick="toggleDesc('${descId}-content', this)">
+            <span class="toggle-text">展开详情</span>
+            <svg viewBox="0 0 24 24" width="16" height="16"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </button>
+        </div>
+      ` : ''}
       <div class="event-details">
         <div class="detail-item">
           <div class="detail-label">✈️ 影响机场</div>
@@ -125,6 +139,21 @@ function renderEventCard(event) {
       ` : ''}
     </div>
   `;
+}
+
+function toggleDesc(contentId, btn) {
+  const content = document.getElementById(contentId);
+  const textEl = btn.querySelector('.toggle-text');
+  const svgEl = btn.querySelector('svg');
+  if (content.classList.contains('collapsed')) {
+    content.classList.remove('collapsed');
+    textEl.textContent = '收起';
+    svgEl.style.transform = 'rotate(180deg)';
+  } else {
+    content.classList.add('collapsed');
+    textEl.textContent = '展开详情';
+    svgEl.style.transform = 'rotate(0deg)';
+  }
 }
 
 function renderFlightAnomalies(anomalies) {
