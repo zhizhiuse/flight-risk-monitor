@@ -459,6 +459,19 @@ body {
   background: var(--bg-card-hover);
 }
 
+.event-item.clickable {
+  cursor: pointer;
+}
+
+.event-item.clickable:hover {
+  background: var(--bg-card-hover);
+  transform: translateX(4px);
+}
+
+.event-item.clickable:active {
+  transform: translateX(2px);
+}
+
 .event-header {
   display: flex;
   align-items: flex-start;
@@ -1205,4 +1218,16 @@ body {
     transform: scale(2.5);
     opacity: 0;
   }
+}
+
+/* Highlight animation for anchored event card */
+@keyframes highlight-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.5); }
+  50% { box-shadow: 0 0 0 8px rgba(59, 130, 246, 0.15); }
+  100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+}
+
+.event-card.highlight-card {
+  animation: highlight-pulse 1s ease-in-out 2;
+  border-color: var(--accent-blue) !important;
 }

@@ -248,7 +248,7 @@ function createEventItem(event) {
   const summary = event.summary ? `<div class="event-summary">${event.summary.length > 80 ? event.summary.substring(0, 80) + '...' : event.summary}</div>` : (event.description ? `<div class="event-summary">${event.description.length > 60 ? event.description.substring(0, 60) + '...' : event.description}</div>` : '');
 
   return `
-    <div class="event-item" data-id="${event.id}">
+    <div class="event-item clickable" data-id="${event.id}" onclick="window.location.href='report.html?date=${window._currentReportDate || ''}#event-${event.id}'">
       <div class="event-header">
         <span class="event-priority ${priorityClass}">${event.priority}</span>
         <div>

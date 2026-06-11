@@ -25,6 +25,19 @@ async function loadReport(date) {
     // Init mini map
     initReportMap(report.events);
 
+    // Scroll to anchor if present
+    const hash = window.location.hash;
+    if (hash) {
+      setTimeout(() => {
+        const target = document.querySelector(hash);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          target.classList.add('highlight-card');
+          setTimeout(() => target.classList.remove('highlight-card'), 3000);
+        }
+      }, 300);
+    }
+
   } catch (error) {
     console.error('Error loading report:', error);
     showError(`无法加载 ${date} 的报告`);
@@ -180,7 +193,7 @@ function renderEventCard(event) {
   const hasLongDesc = event.description && event.description.length > 0;
 
   return `
-    <div class="event-card">
+    <div class="event-card" id="event-${event.id}">
       <div class="event-card-title">${event.title}</div>
       ${event.summary ? `<div class="event-card-summary">${event.summary}</div>` : ''}
       ${hasLongDesc ? `
