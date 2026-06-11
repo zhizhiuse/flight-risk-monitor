@@ -1,73 +1,154 @@
 // Report Detail Page Logic
 
+let reportMap = null;
+
 document.addEventListener('DOMContentLoaded', async () => {
   const date = getUrlParam('date');
-  
+
   if (!date) {
     showError('未指定报告日期');
     return;
   }
-  
+
   await loadReport(date);
 });
 
 async function loadReport(date) {
   try {
     const report = await fetchData(`reports/${date}.json`);
-    
+
     document.getElementById('reportTitle').textContent = `${formatDate(date)} 风险日报`;
     document.title = `${formatDate(date)} 风险日报 - 全球机票风险事件监测`;
-    
+
     renderReport(report);
-    
+
+    // Init mini map
+    initReportMap(report.events);
+
   } catch (error) {
     console.error('Error loading report:', error);
     showError(`无法加载 ${date} 的报告`);
   }
 }
 
+function initReportMap(events) {
+  const container = document.getElementById('reportMap');
+  if (!container) return;
+
+  reportMap = L.map('reportMap', {
+    center: [30, 0],
+    zoom: 2,
+    minZoom: 2,
+    maxZoom: 8,
+    worldCopyJump: true,
+    zoomControl: true
+  });
+
+  const isLight = document.body.classList.contains('light-theme');
+  const tileUrl = isLight
+    ? 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}'
+    : 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}';
+
+  L.tileLayer(tileUrl, {
+    attribution: '&copy; Esri',
+    maxZoom: 16
+  }).addTo(reportMap);
+
+  // Add markers
+  const markerMap = new Map();
+  events.forEach(event => {
+    if (event.coordinates && Array.isArray(event.coordinates)) {
+      event.coordinates.forEach(coord => {
+        const key = coord.code;
+        if (!markerMap.has(key) || getPriorityWeight(event.priority) > getPriorityWeight(markerMap.get(key).priority)) {
+          markerMap.set(key, { lat: coord.lat, lng: coord.lng, priority: event.priority, event: event });
+        }
+      });
+    }
+  });
+
+  const priorityColors = { 'P0': '#ef4444', 'P1': '#f59e0b', 'P2': '#eab308' };
+
+  markerMap.forEach((data, code) => {
+    const color = priorityColors[data.priority] || '#6b7280';
+    let icon;
+    if (data.priority === 'P0') {
+      icon = L.divIcon({
+        className: 'custom-marker',
+        html: `<div class="p0-marker"><div class="p0-pulse" style="background-color:${color};"></div><div class="p0-core" style="background-color:${color};"></div></div>`,
+        iconSize: [24, 24], iconAnchor: [12, 12]
+      });
+    } else {
+      const size = data.priority === 'P1' ? 14 : 10;
+      icon = L.divIcon({
+        className: 'custom-marker',
+        html: `<div style="width:${size}px;height:${size}px;background-color:${color};border:2px solid rgba(255,255,255,0.8);border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.3);"></div>`,
+        iconSize: [size, size], iconAnchor: [size/2, size/2]
+      });
+    }
+
+    const marker = L.marker([data.lat, data.lng], { icon }).addTo(reportMap);
+    marker.bindPopup(`
+      <div class="popup-title">${code}</div>
+      <span class="popup-priority ${data.priority.toLowerCase()}">${data.priority} ${data.event.category}</span>
+      <div class="popup-summary">${data.event.title}</div>
+    `, { maxWidth: 260, className: 'dark-popup' });
+  });
+
+  // Fit bounds
+  if (markerMap.size > 0) {
+    const bounds = L.latLngBounds([...markerMap.values()].map(d => [d.lat, d.lng]));
+    reportMap.fitBounds(bounds.pad(0.3));
+  }
+}
+
+function getPriorityWeight(priority) {
+  const weights = { 'P0': 3, 'P1': 2, 'P2': 1 };
+  return weights[priority] || 0;
+}
+
 function renderReport(report) {
   const container = document.getElementById('reportContent');
-  
+
   let html = '';
-  
+
   const p0Events = report.events.filter(e => e.priority === 'P0');
   const p1Events = report.events.filter(e => e.priority === 'P1');
   const p2Events = report.events.filter(e => e.priority === 'P2');
-  
+
   if (p0Events.length > 0) {
     html += renderPrioritySection('P0', '紧急事件', p0Events);
   }
-  
+
   if (p1Events.length > 0) {
     html += renderPrioritySection('P1', '重要事件', p1Events);
   }
-  
+
   if (p2Events.length > 0) {
     html += renderPrioritySection('P2', '关注事件', p2Events);
   }
-  
+
   if (report.flightAnomalies && report.flightAnomalies.length > 0) {
     html += renderFlightAnomalies(report.flightAnomalies);
   }
-  
+
   if (report.sources && report.sources.length > 0) {
     html += renderSources(report.sources);
   }
-  
+
   container.innerHTML = html;
 }
 
 function renderPrioritySection(priority, title, events) {
   const priorityClass = priority.toLowerCase();
-  
+
   const categories = {};
   events.forEach(event => {
     const cat = event.category || '其他';
     if (!categories[cat]) categories[cat] = [];
     categories[cat].push(event);
   });
-  
+
   let dimensionsHtml = '';
   for (const [category, categoryEvents] of Object.entries(categories)) {
     dimensionsHtml += `
@@ -80,7 +161,7 @@ function renderPrioritySection(priority, title, events) {
       </div>
     `;
   }
-  
+
   return `
     <div class="report-section ${priorityClass}">
       <div class="report-section-header">
@@ -97,7 +178,7 @@ function renderPrioritySection(priority, title, events) {
 function renderEventCard(event) {
   const descId = 'desc-' + event.id;
   const hasLongDesc = event.description && event.description.length > 0;
-  
+
   return `
     <div class="event-card">
       <div class="event-card-title">${event.title}</div>
@@ -172,7 +253,7 @@ function renderFlightAnomalies(anomalies) {
     }).join('');
     return flights;
   }).join('');
-  
+
   return `
     <div class="flight-section">
       <div class="section-header">
@@ -223,7 +304,7 @@ function getCategoryIcon(category) {
     '极端天气': '<svg viewBox="0 0 24 24"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM13 3v2h4l-5 10v-6H8l5-10V3h0z"/></svg>',
     '地缘政治': '<svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM4 12c0-.61.08-1.21.21-1.78L8.99 15v1c0 1.1.9 2 2 2v1.93C7.06 19.43 4 16.07 4 12zm13.89 5.4c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41C17.92 5.77 20 8.65 20 12c0 2.08-.81 3.98-2.11 5.4z"/></svg>'
   };
-  return icons[category] || '<svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-8h-2V7h2v2z"/></svg>';
+  return icons[category] || '<svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>';
 }
 
 function getUrlParam(param) {

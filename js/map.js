@@ -10,16 +10,20 @@ class RiskMap {
       worldCopyJump: true
     });
 
-    // 主底图：CartoDB暗色（全球覆盖，效果最好）
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-      subdomains: 'abcd',
-      maxZoom: 19
-    }).addTo(this.map);
+    // ESRI暗灰底图（国内加载更稳定）
+    this.darkTile = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+      attribution: '&copy; Esri, OpenStreetMap contributors',
+      maxZoom: 16
+    });
 
-    // 备用底图：ESRI暗灰（国内加载更稳定）
-    // 如需切换，将上面替换为：
-    // https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}
+    this.lightTile = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+      attribution: '&copy; Esri, OpenStreetMap contributors',
+      maxZoom: 16
+    });
+
+    // Default dark
+    this.currentBaseLayer = this.darkTile;
+    this.darkTile.addTo(this.map);
 
     this.markers = [];
     this.priorityColors = {
@@ -27,6 +31,12 @@ class RiskMap {
       'P1': '#f59e0b',
       'P2': '#eab308'
     };
+  }
+
+  updateBaseLayer(isLight) {
+    this.map.removeLayer(this.currentBaseLayer);
+    this.currentBaseLayer = isLight ? this.lightTile : this.darkTile;
+    this.currentBaseLayer.addTo(this.map);
   }
 
   clearMarkers() {
@@ -37,27 +47,26 @@ class RiskMap {
   addAirportMarker(code, lat, lng, priority, eventInfo) {
     const color = this.priorityColors[priority] || '#6b7280';
     const icon = this.createCustomIcon(color, priority);
-    
+
     const marker = L.marker([lat, lng], { icon }).addTo(this.map);
-    
+
     const popupContent = `
       <div class="popup-title">${code}</div>
       <span class="popup-priority ${priority.toLowerCase()}">${priority} ${eventInfo.category}</span>
       <div class="popup-summary">${eventInfo.title}</div>
     `;
-    
+
     marker.bindPopup(popupContent, {
       maxWidth: 280,
       className: 'dark-popup'
     });
-    
+
     this.markers.push(marker);
     return marker;
   }
 
   createCustomIcon(color, priority) {
     if (priority === 'P0') {
-      // P0：脉冲动画标记
       return L.divIcon({
         className: 'custom-marker',
         html: `
@@ -70,7 +79,6 @@ class RiskMap {
         iconAnchor: [12, 12]
       });
     }
-    // P1/P2：静态圆点
     const size = priority === 'P1' ? 16 : 12;
     return L.divIcon({
       className: 'custom-marker',
@@ -104,16 +112,16 @@ function initMap() {
 
 function updateMapMarkers(events) {
   if (!riskMap) return;
-  
+
   riskMap.clearMarkers();
-  
+
   const markerMap = new Map();
-  
+
   events.forEach(event => {
     if (event.coordinates && Array.isArray(event.coordinates)) {
       event.coordinates.forEach(coord => {
         const key = coord.code;
-        
+
         if (!markerMap.has(key) || getPriorityWeight(event.priority) > getPriorityWeight(markerMap.get(key).priority)) {
           markerMap.set(key, {
             lat: coord.lat,
@@ -125,11 +133,11 @@ function updateMapMarkers(events) {
       });
     }
   });
-  
+
   markerMap.forEach((data, code) => {
     riskMap.addAirportMarker(code, data.lat, data.lng, data.priority, data.event);
   });
-  
+
   riskMap.fitBounds();
 }
 

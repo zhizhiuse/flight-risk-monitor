@@ -2,49 +2,146 @@
 
 document.addEventListener('DOMContentLoaded', async () => {
   initMap();
+  initFilters();
   await loadDashboardData();
   startPolling();
+  // Listen for theme changes to update map tiles
+  window.addEventListener('themeChanged', (e) => {
+    if (riskMap) riskMap.updateBaseLayer(e.detail.isLight);
+  });
 });
 
+// ============ Filters ============
+let allEvents = [];
+
+function initFilters() {
+  const priorityBtns = document.querySelectorAll('.filter-priority .filter-btn');
+  const categoryBtns = document.querySelectorAll('.filter-category .filter-btn');
+  const searchInput = document.getElementById('searchInput');
+
+  priorityBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      priorityBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      applyFilters();
+    });
+  });
+
+  categoryBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      categoryBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      applyFilters();
+    });
+  });
+
+  if (searchInput) {
+    searchInput.addEventListener('input', debounce(applyFilters, 300));
+  }
+}
+
+function debounce(fn, ms) {
+  let timer;
+  return function(...args) {
+    clearTimeout(timer);
+    timer = setTimeout(() => fn(...args), ms);
+  };
+}
+
+function applyFilters() {
+  const priorityFilter = document.querySelector('.filter-priority .filter-btn.active')?.dataset.value || 'all';
+  const categoryFilter = document.querySelector('.filter-category .filter-btn.active')?.dataset.value || 'all';
+  const searchText = document.getElementById('searchInput')?.value?.trim().toLowerCase() || '';
+
+  let filtered = [...allEvents];
+
+  if (priorityFilter !== 'all') {
+    filtered = filtered.filter(e => e.priority === priorityFilter);
+  }
+
+  if (categoryFilter !== 'all') {
+    filtered = filtered.filter(e => e.category === categoryFilter);
+  }
+
+  if (searchText) {
+    filtered = filtered.filter(e =>
+      (e.title && e.title.toLowerCase().includes(searchText)) ||
+      (e.summary && e.summary.toLowerCase().includes(searchText)) ||
+      (e.description && e.description.toLowerCase().includes(searchText)) ||
+      (e.affectedAirports && e.affectedAirports.some(a => a.toLowerCase().includes(searchText))) ||
+      (e.affectedAirlines && e.affectedAirlines.some(a => a.toLowerCase().includes(searchText)))
+    );
+  }
+
+  // Sort
+  filtered.sort((a, b) => {
+    const weightA = getPriorityWeight(a.priority);
+    const weightB = getPriorityWeight(b.priority);
+    if (weightA !== weightB) return weightB - weightA;
+    return a.id.localeCompare(b.id);
+  });
+
+  updateFilteredEventList(filtered);
+  updateMapMarkers(filtered);
+
+  // Update count
+  const countEl = document.getElementById('filteredCount');
+  if (countEl) {
+    countEl.textContent = `${filtered.length}/${allEvents.length}`;
+  }
+}
+
+function updateFilteredEventList(events) {
+  const container = document.getElementById('eventList');
+
+  if (events.length === 0) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        <p>没有匹配的事件</p>
+      </div>
+    `;
+    return;
+  }
+
+  container.innerHTML = events.map(event => createEventItem(event)).join('');
+}
+
+// ============ Data Loading ============
 async function loadDashboardData() {
   try {
     const latest = await fetchData('latest.json');
-    
+
     document.getElementById('currentDate').textContent = formatDate(latest.reportDate);
     document.getElementById('lastUpdate').textContent = formatTime(latest.generatedAt);
-    
+
     await loadReport(latest.reportDate);
-    
-    // 记录当前状态用于轮询比对
+
     window._currentReportDate = latest.reportDate;
     window._lastGeneratedAt = latest.generatedAt;
-    
+
   } catch (error) {
     console.error('Error loading dashboard data:', error);
     showError('加载数据失败，请刷新页面重试');
   }
 }
 
-// 轮询检查新数据
 function startPolling() {
   setInterval(async () => {
     try {
       const latest = await fetchData('latest.json');
-      if (latest.reportDate !== window._currentReportDate || 
+      if (latest.reportDate !== window._currentReportDate ||
           latest.generatedAt !== window._lastGeneratedAt) {
         showUpdateNotification(latest);
       }
-    } catch (e) {
-      // 静默失败，不影响用户
-    }
+    } catch (e) {}
   }, SITE_CONFIG.pollInterval);
 }
 
-// 显示更新通知
 function showUpdateNotification(latest) {
   const existing = document.getElementById('updateNotification');
   if (existing) existing.remove();
-  
+
   const banner = document.createElement('div');
   banner.id = 'updateNotification';
   banner.className = 'update-notification';
@@ -54,15 +151,14 @@ function showUpdateNotification(latest) {
     <button onclick="this.parentElement.remove()" class="btn-dismiss">稍后</button>
   `;
   document.body.appendChild(banner);
-  
+
   window._pendingUpdate = latest;
 }
 
-// 刷新仪表盘
 async function refreshDashboard() {
   const notification = document.getElementById('updateNotification');
   if (notification) notification.remove();
-  
+
   if (window._pendingUpdate) {
     const latest = window._pendingUpdate;
     document.getElementById('currentDate').textContent = formatDate(latest.reportDate);
@@ -77,15 +173,44 @@ async function refreshDashboard() {
 async function loadReport(date) {
   try {
     const report = await fetchData(`reports/${date}.json`);
-    
+
+    allEvents = report.events;
     updateStats(report.summary);
     updateEventList(report.events);
     updateMapMarkers(report.events);
-    
+
+    // Populate category filter buttons dynamically
+    populateCategoryFilters(report.events);
+
   } catch (error) {
     console.error('Error loading report:', error);
     showError('加载报告数据失败');
   }
+}
+
+function populateCategoryFilters(events) {
+  const container = document.querySelector('.filter-category');
+  if (!container) return;
+
+  const categories = [...new Set(events.map(e => e.category).filter(Boolean))];
+  const existing = container.querySelectorAll('.filter-btn');
+  // Keep "全部" button, remove others
+  existing.forEach(btn => {
+    if (btn.dataset.value !== 'all') btn.remove();
+  });
+
+  categories.forEach(cat => {
+    const btn = document.createElement('button');
+    btn.className = 'filter-btn';
+    btn.dataset.value = cat;
+    btn.textContent = cat;
+    btn.addEventListener('click', () => {
+      container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      applyFilters();
+    });
+    container.appendChild(btn);
+  });
 }
 
 function updateStats(summary) {
@@ -97,31 +222,31 @@ function updateStats(summary) {
 
 function updateEventList(events) {
   const container = document.getElementById('eventList');
-  
+
   const sortedEvents = [...events].sort((a, b) => {
     const weightA = getPriorityWeight(a.priority);
     const weightB = getPriorityWeight(b.priority);
     if (weightA !== weightB) return weightB - weightA;
     return a.id.localeCompare(b.id);
   });
-  
+
+  allEvents = sortedEvents;
+
   container.innerHTML = sortedEvents.map(event => createEventItem(event)).join('');
-  
-  container.querySelectorAll('.event-item').forEach(item => {
-    item.addEventListener('click', () => {
-      const date = window._currentReportDate || '2026-06-10';
-      window.location.href = `report.html?date=${date}`;
-    });
-  });
+
+  const countEl = document.getElementById('filteredCount');
+  if (countEl) {
+    countEl.textContent = `${sortedEvents.length}/${sortedEvents.length}`;
+  }
 }
 
 function createEventItem(event) {
   const priorityClass = event.priority.toLowerCase();
   const airports = event.affectedAirports ? event.affectedAirports.join(', ') : '-';
   const airlines = event.affectedAirlines ? event.affectedAirlines.slice(0, 3).join(', ') : '-';
-  
+
   const summary = event.summary ? `<div class="event-summary">${event.summary.length > 80 ? event.summary.substring(0, 80) + '...' : event.summary}</div>` : (event.description ? `<div class="event-summary">${event.description.length > 60 ? event.description.substring(0, 60) + '...' : event.description}</div>` : '');
-  
+
   return `
     <div class="event-item" data-id="${event.id}">
       <div class="event-header">

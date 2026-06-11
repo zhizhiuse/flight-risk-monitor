@@ -18,9 +18,14 @@
         </div>
         <span class="nav-title">全球机票风险事件监测</span>
       </div>
-      <div class="nav-links">
-        <a href="index.html" class="nav-link">看板</a>
-        <a href="archive.html" class="nav-link active">历史报告</a>
+      <div class="nav-right">
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">看板</a>
+          <a href="archive.html" class="nav-link active">历史报告</a>
+        </div>
+        <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="切换主题">
+          <svg viewBox="0 0 24 24"><path d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79 1.42-1.41zM4 10.5H1v2h3v-2zm9-9.95h-2V3.5h2V.55zm7.45 3.91l-1.41-1.41-1.79 1.79 1.41 1.41 1.79-1.79zm-3.21 13.7l1.79 1.8 1.41-1.41-1.8-1.79-1.4 1.4zM20 10.5v2h3v-2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm-1 16.95h2V19.5h-2v2.95zm-7.45-3.91l1.41 1.41 1.79-1.8-1.41-1.41-1.79 1.8z"/></svg>
+        </button>
       </div>
     </div>
   </nav>
@@ -33,6 +38,19 @@
         <h1 class="page-title">历史报告</h1>
         <div class="page-meta">
           <span>按日期浏览历史风险日报</span>
+        </div>
+      </div>
+
+      <!-- Trend Chart -->
+      <div class="trend-section">
+        <div class="section-header">
+          <h2 class="section-title">
+            <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/></svg>
+            事件趋势
+          </h2>
+        </div>
+        <div class="trend-chart-wrapper">
+          <canvas id="trendChart"></canvas>
         </div>
       </div>
 
