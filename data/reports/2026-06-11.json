@@ -1,0 +1,185 @@
+{
+  "reportDate": "2026-06-11",
+  "generatedAt": "2026-06-11T17:05:00+08:00",
+  "summary": {
+    "total": 7,
+    "p0": 2,
+    "p1": 3,
+    "p2": 2
+  },
+  "events": [
+    {
+      "id": "P0-001",
+      "priority": "P0",
+      "category": "地缘政治",
+      "title": "科威特领空因伊朗袭击短暂关闭后恢复",
+      "summary": "科威特因伊朗袭击事件宣布暂时关闭领空约5小时，科威特航空暂停所有航班，现已恢复",
+      "description": "【起因】6月11日，伊朗对美军基地发动袭击，科威特因安全考量宣布暂时关闭领空。\n【原因】伊朗-海湾地区军事冲突升级，科威特领空处于潜在军事行动区域，民航安全无法保障。\n【影响范围】科威特国际机场(KWI)所有进出港航班暂停，科威特航空全部航班停飞。科威特当地时间4:50关闭至10:00恢复，影响约5小时。海湾地区多个机场航班出现备降和延误。\n【当前进展】科威特已宣布空中交通恢复正常，科威特航空复飞。但海湾地区整体空域限制仍在持续评估中。\n【OTA影响】KWI出发/到达航班今日受影响，建议关注后续空域状况，如涉及中东中转航线需提醒旅客可能延误。",
+      "affectedAirports": ["KWI"],
+      "affectedAirlines": ["科威特航空"],
+      "affectedRoutes": ["科威特进出港航线"],
+      "estimatedPassengers": "2-5万",
+      "duration": "已恢复",
+      "action": "关注后续空域状况，提醒中东中转旅客可能延误",
+      "coordinates": [
+        {"code": "KWI", "lat": 29.2266, "lng": 47.9757}
+      ]
+    },
+    {
+      "id": "P0-002",
+      "priority": "P0",
+      "category": "极端天气",
+      "title": "台风Yagi登陆台湾，381航班取消",
+      "summary": "台风Yagi登陆台东，风速191km/h，台湾民航局取消252国内+129国际航班",
+      "description": "【起因】台风Yagi（菲律宾命名Podul）于6月11日凌晨登陆台湾台东地区，最大风速达191km/h。\n【原因】西北太平洋台风季活跃，Yagi为6月罕见强台风，路径直穿台湾。\n【影响范围】台湾民航局取消252个国内航班和129个国际航班，合计381班。桃园(TPE)、松山(TSA)等主要机场受影响。两岸航线及亚洲区域航线大面积中断。\n【当前进展】台风正在过境，预计今日全天影响台湾及东南沿海航班运营。亚洲多国机场当周也出现航班混乱。\n【OTA影响】两岸航线及台湾出发/到达航班建议暂停预售，关注台风路径后续变化及大陆东南沿海机场影响。",
+      "affectedAirports": ["TPE", "TSA", "RMQ", "KHH"],
+      "affectedAirlines": ["中华航空", "长荣航空", "立荣航空"],
+      "affectedRoutes": ["两岸航线", "台湾-日本/韩国/东南亚航线"],
+      "estimatedPassengers": "8-15万",
+      "duration": "1-2天",
+      "action": "暂停两岸及台湾航线预售，关注东南沿海机场影响",
+      "coordinates": [
+        {"code": "TPE", "lat": 25.0777, "lng": 121.2328},
+        {"code": "TSA", "lat": 25.0494, "lng": 121.5174},
+        {"code": "RMQ", "lat": 24.2647, "lng": 120.6206},
+        {"code": "KHH", "lat": 22.5776, "lng": 120.3498}
+      ]
+    },
+    {
+      "id": "P1-001",
+      "priority": "P1",
+      "category": "地缘政治",
+      "title": "多家航司持续暂停中东航线",
+      "summary": "汉莎/KLM/国泰/达美等国际航司继续暂停中东航线运营，恢复时间从7月到12月不等",
+      "description": "【起因】中东地区军事冲突持续，多家国际航司此前已暂停中东航线，本期仍未见大规模恢复。\n【原因】伊朗-海湾地区紧张局势未缓解，各国航司出于安全考量维持航线暂停决定。\n【影响范围】汉莎7月1日恢复特拉维夫、SWISS推迟至8月、布鲁塞尔航空暂停至10月24日；KLM暂停迪拜至8月2日、利雅得至7月26日、特拉维夫至另行通知；国泰暂停迪拜至8月31日；达美暂停亚特兰大-特拉维夫至12月18日；LOT暂停利雅得至6月30日；Eurowings暂停迪拜/阿布扎比/安曼至10月24日。\n【当前进展】各航司按月评估恢复计划，部分航线有望7月逐步恢复，但整体恢复时间表不确定。\n【OTA影响】涉及航司的中东航线需标注暂停状态，推荐经IST/Doha替代中转方案。",
+      "affectedAirports": ["DXB", "AUH", "TLV", "RUH", "AMM"],
+      "affectedAirlines": ["汉莎", "KLM", "国泰航空", "达美航空", "LOT", "Eurowings"],
+      "affectedRoutes": ["欧洲-中东航线", "亚太-中东航线", "美国-以色列航线"],
+      "estimatedPassengers": "10-30万/月",
+      "duration": "7月-12月分批恢复",
+      "action": "标注航线暂停状态，推荐IST/Doha替代中转",
+      "coordinates": [
+        {"code": "DXB", "lat": 25.2532, "lng": 55.3657},
+        {"code": "AUH", "lat": 24.4330, "lng": 54.6511},
+        {"code": "TLV", "lat": 32.0113, "lng": 34.8867},
+        {"code": "RUH", "lat": 24.9576, "lng": 46.6988},
+        {"code": "AMM", "lat": 31.7226, "lng": 35.9913}
+      ]
+    },
+    {
+      "id": "P1-002",
+      "priority": "P1",
+      "category": "极端天气",
+      "title": "热带风暴Jangmi致日本取消约600航班",
+      "summary": "热带风暴Jangmi影响日本西南部，ANA和JAL取消约600个航班，宫崎39万人疏散",
+      "description": "【起因】热带风暴Jangmi于6月9-10日影响日本西南部地区。\n【原因】西太平洋热带气旋活跃期，Jangmi路径覆盖九州及西南诸岛。\n【影响范围】全日空(ANA)和日本航空(JAL)共取消约600个航班。宫崎县约39万人被要求疏散。HND、NRT等主要枢纽受影响，日美、日韩、日本国内航线大面积中断。\n【当前进展】JAL官网持续更新航班运营信息，预计灾后恢复需要1-2天。\n【OTA影响】日本出发/中转航班受影响，建议关注航司官网最新动态，日韩航线可能受波及。",
+      "affectedAirports": ["HND", "NRT", "KIX", "FUK"],
+      "affectedAirlines": ["全日空", "日本航空"],
+      "affectedRoutes": ["日本国内", "日美航线", "日韩航线"],
+      "estimatedPassengers": "5-10万",
+      "duration": "1-2天",
+      "action": "关注日本航司官网动态，日韩航线可能受波及",
+      "coordinates": [
+        {"code": "HND", "lat": 35.5522, "lng": 139.7796},
+        {"code": "NRT", "lat": 35.7647, "lng": 140.3864},
+        {"code": "KIX", "lat": 34.4347, "lng": 135.2440},
+        {"code": "FUK", "lat": 33.5897, "lng": 130.4516}
+      ]
+    },
+    {
+      "id": "P1-003",
+      "priority": "P1",
+      "category": "极端天气",
+      "title": "美国JFK/ORD雷暴发布地面停飞令",
+      "summary": "JFK因雷暴发布地面停飞令，ORD/MDW早前同样停飞，全美当日721航班取消5600+延误",
+      "description": "【起因】6月10日晚间，纽约JFK因雷暴发布地面停飞令，此前芝加哥ORD和MDW也因强风暴实施地面停飞。\n【原因】美国中西部至东北部强对流天气系统，引发大面积雷暴和强风。\n【影响范围】芝加哥地区超过1000个进出港航班延误或取消。全美当日至少721个航班取消、超过5600个航班延误。JFK、ORD、MDW三大机场均受影响，航班平均延误近5小时。\n【当前进展】风暴系统正在移动，机场逐步恢复正常运营。\n【OTA影响】美国东北部至中西部往返航班受影响，已基本恢复，关注后续航班调度情况。",
+      "affectedAirports": ["JFK", "ORD", "MDW"],
+      "affectedAirlines": ["美联航", "美国航空", "达美航空", "西南航空"],
+      "affectedRoutes": ["美国东北部-中西部航线"],
+      "estimatedPassengers": "3-8万",
+      "duration": "已基本恢复",
+      "action": "关注后续航班调度，美国国内航线已基本恢复",
+      "coordinates": [
+        {"code": "JFK", "lat": 40.6413, "lng": -73.7781},
+        {"code": "ORD", "lat": 41.9742, "lng": -87.9073},
+        {"code": "MDW", "lat": 41.7859, "lng": -87.7524}
+      ]
+    },
+    {
+      "id": "P2-001",
+      "priority": "P2",
+      "category": "地缘政治",
+      "title": "AirAsia X推迟巴林航线至8月至少",
+      "summary": "AirAsia X因中东冲突推迟原定6月开通的吉隆坡-巴林-伦敦盖特威克航线至8月至少",
+      "description": "【起因】AirAsia X原计划6月开通经巴林至伦敦盖特威克的航线。\n【原因】中东冲突持续，巴林空域安全风险升高，航线商业运营可行性不确定。\n【影响范围】吉隆坡-巴林-伦敦盖特威克航线推迟，影响亚欧经中东中转旅客。\n【当前进展】推迟至8月至少，具体恢复时间视中东局势而定。",
+      "affectedAirports": ["KUL", "BAH", "LGW"],
+      "affectedAirlines": ["AirAsia X"],
+      "affectedRoutes": ["吉隆坡-巴林-伦敦盖特威克"],
+      "estimatedPassengers": "5000-1万/月",
+      "duration": "推迟至8月至少",
+      "action": "关注AirAsia X后续公告",
+      "coordinates": [
+        {"code": "KUL", "lat": 2.7456, "lng": 101.7099},
+        {"code": "BAH", "lat": 26.2703, "lng": 50.6340},
+        {"code": "LGW", "lat": 51.1537, "lng": -0.1821}
+      ]
+    },
+    {
+      "id": "P2-002",
+      "priority": "P2",
+      "category": "航空安全",
+      "title": "AA735航班雷击后返航希思罗",
+      "summary": "American Airlines AA735（B777-300ER，伦敦→夏洛特）起飞30分钟后遭雷击，7700紧急状态，安全返航",
+      "description": "【起因】6月10日，AA735（B777-300ER）从伦敦希思罗飞往夏洛特，起飞约30分钟后在曼彻斯特空域遭遇雷击。\n【原因】雷击属航空常见天气风险，B777-300ER具备防雷设计但需强制检查确认适航性。\n【影响范围】航班返航希思罗后安全降落，因需适航检查航班取消。单次航班影响。\n【当前进展】飞机接受强制适航检查，无人员伤亡。",
+      "affectedAirports": ["LHR"],
+      "affectedAirlines": ["American Airlines"],
+      "affectedRoutes": ["伦敦-夏洛特航线"],
+      "estimatedPassengers": "300-400",
+      "duration": "单次事件，已安全降落",
+      "action": "无需特别行动",
+      "coordinates": [
+        {"code": "LHR", "lat": 51.4700, "lng": -0.4543}
+      ]
+    }
+  ],
+  "flightAnomalies": [
+    {
+      "flight": "AK6116",
+      "route": "KUL→PEN",
+      "airline": "AirAsia",
+      "status": "CANCELLED",
+      "airport": "KUL"
+    },
+    {
+      "flight": "AK6318",
+      "route": "KUL→LGK",
+      "airline": "AirAsia",
+      "status": "CANCELLED",
+      "airport": "KUL"
+    },
+    {
+      "flight": "AK6034",
+      "route": "KUL→JHB",
+      "airline": "AirAsia",
+      "status": "CANCELLED",
+      "airport": "KUL"
+    },
+    {
+      "flight": "5F5326",
+      "route": "IST→KIV",
+      "airline": "Aircompany Airlines",
+      "status": "CANCELLED",
+      "airport": "IST"
+    }
+  ],
+  "sources": [
+    {"name": "央视新闻", "url": "https://news.cctv.com/2026/06/11/ARTImyDaSmNWhuw2JJNXU56w260611.shtml"},
+    {"name": "新华网", "url": "http://www.xinhuanet.com/world/20260611/23e5ad4833e44cde972638d789f151ad/c.html"},
+    {"name": "Gulf News", "url": "https://gulfnews.com/world/gulf/kuwait/kuwait-airways-suspends-all-flights-after-airspace-closure-amid-regional-tensions-1.500570439"},
+    {"name": "AP News", "url": "https://apnews.com/article/severe-weather-storms-midwest-chicago-c318b02d9cc46da26b11910adfc31509"},
+    {"name": "Manila Times", "url": "https://manilatimes.com/zrkbrr-typhoon-yagi-podul-is-hitting-taitung-taiwan-with-winds-reaching-191-km-h"},
+    {"name": "AIRLIVE", "url": "https://airlive.net/emergency/2026/06/10/american-airlines-flight-aa735-to-charlotte-is-declaring-an-emergency-and-turning-around-over-uk/"},
+    {"name": "Zawya", "url": "https://www.zawya.com/en/business/aviation/airasia-x-postpones-bahrain-flight-route-due-to-regional-conflict-oumpt5uf"},
+    {"name": "AirLabs API", "url": "https://airlabs.co/"}
+  ]
+}
