@@ -1,0 +1,203 @@
+{
+  "reportDate": "2026-06-12",
+  "generatedAt": "2026-06-12T07:39:00+08:00",
+  "summary": {
+    "total": 7,
+    "p0": 1,
+    "p1": 2,
+    "p2": 4
+  },
+  "events": [
+    {
+      "id": "P0-001",
+      "priority": "P0",
+      "category": "航司运营",
+      "title": "Collins Aerospace系统遭网络攻击，欧洲多机场值机系统故障",
+      "summary": "航空技术服务商Collins Aerospace系统遭网络攻击，布鲁塞尔/希思罗等欧洲多枢纽机场值机登机系统故障，布鲁塞尔机场被要求取消约50%进出港航班",
+      "description": "【起因】2026年6月11日，Collins Aerospace（航空技术服务商）为多家欧洲机场提供的值机和登机系统遭到网络攻击，导致布鲁塞尔机场、伦敦希思罗机场、柏林勃兰登堡机场、都柏林机场等主要枢纽出现大面积值机和登机系统故障。\n【原因】Collins Aerospace母公司RTX（Raytheon Technologies）已向美国证券交易委员会（SEC）提交8-K表格报告此次网络事件。英国国家犯罪局已逮捕一名40多岁嫌疑人，具体攻击手法和动机仍在调查中。\n【影响范围】布鲁塞尔机场最为严重，Eurocontrol要求6月10日至12日期间进出港航班削减50%。伦敦希思罗机场（欧洲最繁忙机场）也报告值机和登机系统受到影响。布鲁塞尔机场日均处理约700架次进出港航班，50%削减意味着每日约350个航班受影响，旅客影响约3.5万人次/天。\n【当前进展】Collins Aerospace正在抢修系统，英国NCA已介入调查。Eurocontrol要求航班削减政策持续至6月12日（周一）02:00 GMT。\n【OTA影响】欧洲至布鲁塞尔/希思罗航线可能出现大面积取消或延误，建议暂停受影响航线当日预售，密切关注航司后续公告，及时通知已购票旅客改期或退票。",
+      "affectedAirports": ["BRU", "LHR", "BER", "DUB"],
+      "affectedAirlines": ["欧洲各主要航司"],
+      "affectedRoutes": ["布鲁塞尔=欧洲各主要城市", "希思罗=全球各航线"],
+      "estimatedPassengers": "3.5万+/天",
+      "duration": "至6月12日02:00 GMT",
+      "action": "暂停布鲁塞尔/希思罗进出港当日预售，联系旅客改期",
+      "coordinates": [
+        {"code": "BRU", "lat": 50.9014, "lng": 4.4843},
+        {"code": "LHR", "lat": 51.4700, "lng": -0.4543},
+        {"code": "BER", "lat": 52.3667, "lng": 13.5033},
+        {"code": "DUB", "lat": 53.4264, "lng": -6.2499}
+      ]
+    },
+    {
+      "id": "P1-001",
+      "priority": "P1",
+      "category": "极端天气",
+      "title": "美国中西部风暴导致三大枢纽机场地面停飞",
+      "summary": "强雷暴和龙卷风系统袭击美国中西部，芝加哥ORD/MDW和纽约JFK三大枢纽发布地面停飞令，超1000航班延误或取消",
+      "description": "【起因】6月11日晚间，严重雷暴再次席卷美国中西部和东北部地区。国家气象局收到超过12起龙卷风报告，涉及密苏里州、艾奥瓦州、堪萨斯州和伊利诺伊州。\n【原因】强对流天气系统配合高温高湿环境，在美国中西部形成大范围雷暴带，伴有破坏性大风、冰雹和龙卷风。国家气象局发布多州龙卷风警告。\n【影响范围】芝加哥奥黑尔国际机场(ORD)和芝加哥中途国际机场(MDW)因雷暴暂时停飞所有航班。纽约肯尼迪国际机场(JFK)同样发布地面停飞令。截至6月11日晚间，FlightAware数据显示芝加哥地区进出港航班延误和取消超过1000架次。\n【当前进展】6月12日早间，航班运营已基本恢复正常，全美仅约24-25个航班取消，34-300个延误。AirLabs数据显示ORD出发的102个航班仍显示取消状态，涉及美联航、达美、加航、汉莎等多个航司。\n【OTA影响】ORD/MDW/JFK进出港航班需密切关注恢复情况，建议关注当日航班实际执飞状态，协助旅客办理改期或退票。",
+      "affectedAirports": ["ORD", "MDW", "JFK"],
+      "affectedAirlines": ["美国航空", "联合航空", "达美航空", "JetBlue", "Envoy", "SkyWest"],
+      "affectedRoutes": ["芝加哥/纽约进出港航班"],
+      "estimatedPassengers": "10万+",
+      "duration": "6月11日晚-6月12日早",
+      "action": "关注ORD/MDW/JFK航班恢复状态，协助旅客改期",
+      "coordinates": [
+        {"code": "ORD", "lat": 41.9742, "lng": -87.9073},
+        {"code": "MDW", "lat": 41.7868, "lng": -87.7520},
+        {"code": "JFK", "lat": 40.6413, "lng": -73.7781}
+      ]
+    },
+    {
+      "id": "P1-002",
+      "priority": "P1",
+      "category": "地缘政治",
+      "title": "加拿大航空延长中东航线暂停期至10月24日",
+      "summary": "Air Canada宣布将特拉维夫和迪拜航线暂停期从9月8日延长至10月24日，反映航司对中东地区安全形势的审慎评估",
+      "description": "【起因】加拿大航空（Air Canada）于6月11日宣布将特拉维夫和迪拜航线暂停期延长至10月24日，此前暂停期截止日为9月8日。\n【原因】中东地区安全形势持续紧张，加拿大航空评估后决定延长航线暂停期。该决定反映出航司对以色列和阿联酋两个中东主要航空枢纽安全形势的审慎态度。维兹航空同日宣布将于6月12日恢复特拉维夫航线，显示不同航司风险评估存在差异。\n【影响范围】涉及以色列特拉维夫本·古里安机场(TLV)和阿联酋迪拜国际机场(DXB)两大中东枢纽。Air Canada是加拿大最大航司，其跨大西洋航线（多伦多/温哥华=迪拜/特拉维夫）是中东出行重要选择。\n【当前进展】航线暂停已正式生效至10月24日。Wizz Air等其他航司对中东航线持不同态度，维兹航空6月12日恢复特拉维夫航班。\n【OTA影响】涉及加拿大-中东航线旅客需提前调整出行计划，建议提供改签至其他航司或退票方案。预计10月24日后航线将逐步恢复。",
+      "affectedAirports": ["TLV", "DXB"],
+      "affectedAirlines": ["加拿大航空"],
+      "affectedRoutes": ["多伦多/温哥华-特拉维夫/迪拜航线"],
+      "estimatedPassengers": "持续影响中",
+      "duration": "至10月24日",
+      "action": "建议旅客改签其他航司，密切关注10月后续动态",
+      "coordinates": [
+        {"code": "TLV", "lat": 32.0055, "lng": 34.8854},
+        {"code": "DXB", "lat": 25.2532, "lng": 55.3657}
+      ]
+    },
+    {
+      "id": "P2-001",
+      "priority": "P2",
+      "category": "航空安全",
+      "title": "Air Arabia A320航班鸟击导致发动机受损紧急返航",
+      "summary": "Air Arabia A320-200从Thiruvananthapuram起飞后遭遇鸟击，发动机受损，紧急返航安全降落",
+      "description": "【起因】6月10日上午，Air Arabia一架从印度Thiruvananthapuram飞往阿联酋Sharjah的A320-200客机（注册号A6-ANL，航班号G9-449）在从32号跑道起飞爬升时遭遇鸟击。\n【原因】机组随即停止爬升并在7000英尺高度盘旋，随后决定返航。机场方面报告称发动机（CFM56）受到鸟击影响。\n【影响范围】涉事航班从印度Thiruvananthapuram机场(TRV)起飞，机上约180名乘客。飞机在起飞约20分钟后安全降落TRV机场32号跑道。该航班随后取消，涉事飞机在印度接受工程检查。Air Arabia运营全空客A320系列机队共84架以上。\n【当前进展】涉事飞机在印度接受工程检查，航班已取消。Thiruvananthapuram航线可能出现后续航班调整。",
+      "affectedAirports": ["TRV", "SHJ"],
+      "affectedAirlines": ["Air Arabia"],
+      "affectedRoutes": ["Thiruvananthapuram-Sharjah"],
+      "estimatedPassengers": "~180",
+      "duration": "单次事件",
+      "action": "关注TRV-SHJ航线后续航班调整",
+      "coordinates": [
+        {"code": "TRV", "lat": 8.4821, "lng": 76.9201},
+        {"code": "SHJ", "lat": 25.5093, "lng": 55.5174}
+      ]
+    },
+    {
+      "id": "P2-002",
+      "priority": "P2",
+      "category": "航空安全",
+      "title": "Turkish Airlines 777客机安塔利亚机场滑行时撞上雷达天线杆",
+      "summary": "Turkish Airlines 777-300ER在安塔利亚机场滑行时右翼撞上雷达天线杆，267名乘客安全撤离，1人轻伤",
+      "description": "【起因】6月11日晚间，Turkish Airlines一架执行伊斯坦布尔-安塔利亚航班的波音777-300ER客机（注册号TC-LKD，航班号TK2430）在安塔利亚机场降落滑行至停机位过程中，右翼与地面雷达天线杆发生接触。\n【原因】飞机在从跑道滑行至停机位期间，右翼翼尖与地面雷达天线杆发生物理接触。具体原因仍在调查中，Turkish Airlines已启动技术调查。\n【影响范围】涉事航班267名乘客已安全撤离，其中1名乘客在疏散过程中受轻伤。事故导致机场运营短暂中断。Turkish Airlines是土耳其主要航司，安塔利亚是热门旅游航线目的地。\n【当前进展】乘客已安全撤离，Turkish Airlines已启动技术调查。机场运营已恢复。",
+      "affectedAirports": ["AYT"],
+      "affectedAirlines": ["Turkish Airlines"],
+      "affectedRoutes": ["伊斯坦布尔-安塔利亚"],
+      "estimatedPassengers": "267",
+      "duration": "当日有效",
+      "action": "关注TK安塔利亚航线后续运营",
+      "coordinates": [
+        {"code": "AYT", "lat": 36.8987, "lng": 30.8005}
+      ]
+    },
+    {
+      "id": "P2-003",
+      "priority": "P2",
+      "category": "地缘政治",
+      "title": "维兹航空宣布恢复特拉维夫航班（6月12日）",
+      "summary": "维兹航空宣布将于6月12日恢复特拉维夫航班服务，此前列车因安全顾虑暂停运营，地区安全形势有所缓和",
+      "description": "【起因】维兹航空（Wizz Air）宣布将于6月12日恢复特拉维夫航班服务，此前列车因安全顾虑暂停运营。\n【原因】该决定表明地区安全形势有所缓和，航司对以色列航线恢复运营的信心正在重建。与加拿大航空延长停飞期形成对比，显示不同航司风险评估存在差异。\n【影响范围】维兹航空恢复特拉维夫航班后，将增加以色列航线运力。维兹航空是以色列-欧洲低成本航线的主要运营商之一。\n【当前进展】6月12日已恢复特拉维夫航班运营。",
+      "affectedAirports": ["TLV"],
+      "affectedAirlines": ["维兹航空"],
+      "affectedRoutes": ["特拉维夫-欧洲航线"],
+      "estimatedPassengers": "已恢复",
+      "duration": "已恢复",
+      "action": "可正常销售维兹航空特拉维夫航线",
+      "coordinates": [
+        {"code": "TLV", "lat": 32.0055, "lng": 34.8854}
+      ]
+    },
+    {
+      "id": "P2-004",
+      "priority": "P2",
+      "category": "地缘政治",
+      "title": "叙利亚阿勒颇国际机场国际航班逐步恢复",
+      "summary": "土耳其航空旗下Pegasus Airlines于6月10日执飞伊斯坦布尔至阿勒颇首个航班，Fly Sham同步恢复多条国际航线",
+      "description": "【起因】叙利亚阿勒颇国际机场陆续恢复国际航班运营。土耳其航空旗下Pegasus Airlines于6月10日执飞伊斯坦布尔至阿勒颇的首个航班；同日，Fly Sham恢复从阿勒颇飞往沙迦、梅尔辛和伊斯坦布尔的航班服务。\n【原因】叙利亚局势逐步稳定，地区航空运营正在恢复。Pegasus Airlines作为土耳其主要低成本航司，率先恢复叙利亚航线具有标志性意义。\n【影响范围】阿勒颇机场(ALP)恢复至沙迦(SHJ)、梅尔辛(MER)、伊斯坦布尔(SAW/IST)航线。叙利亚其他机场（如大马士革）的航班恢复也在推进中。\n【当前进展】阿勒颇机场国际航班运营已部分恢复。",
+      "affectedAirports": ["ALP"],
+      "affectedAirlines": ["Pegasus Airlines", "Fly Sham"],
+      "affectedRoutes": ["阿勒颇-伊斯坦布尔/沙迦/梅尔辛"],
+      "estimatedPassengers": "逐步恢复",
+      "duration": "已恢复",
+      "action": "可正常销售叙利亚相关航线机票",
+      "coordinates": [
+        {"code": "ALP", "lat": 36.1891, "lng": 37.2252}
+      ]
+    }
+  ],
+  "flightAnomalies": [
+    {
+      "airport": "ORD",
+      "airportName": "芝加哥奥黑尔",
+      "destination": "美国国内多目的",
+      "destinationName": "美国国内",
+      "flights": [
+        {"flightNumber": "UA8458", "status": "cancelled"},
+        {"flightNumber": "UA2812", "status": "cancelled"},
+        {"flightNumber": "UA2298", "status": "cancelled"},
+        {"flightNumber": "AC8484", "status": "cancelled"},
+        {"flightNumber": "LH9306", "status": "cancelled"}
+      ]
+    },
+    {
+      "airport": "YYZ",
+      "airportName": "多伦多皮尔逊",
+      "destination": "LGA/ORD",
+      "destinationName": "纽约拉瓜迪亚/芝加哥",
+      "flights": [
+        {"flightNumber": "DL5306", "status": "cancelled"},
+        {"flightNumber": "AC8909", "status": "cancelled"}
+      ]
+    },
+    {
+      "airport": "SYD",
+      "airportName": "悉尼金斯福史密斯",
+      "destination": "CBR",
+      "destinationName": "堪培拉",
+      "flights": [
+        {"flightNumber": "EK5270", "status": "cancelled"},
+        {"flightNumber": "QF1427", "status": "cancelled"}
+      ]
+    },
+    {
+      "airport": "AMS",
+      "airportName": "阿姆斯特丹史基浦",
+      "destination": "LIN",
+      "destinationName": "米兰林阿迪",
+      "flights": [
+        {"flightNumber": "EC5408", "status": "cancelled"},
+        {"flightNumber": "U25408", "status": "cancelled"}
+      ]
+    },
+    {
+      "airport": "CDG",
+      "airportName": "巴黎戴高乐",
+      "destination": "VCE",
+      "destinationName": "威尼斯",
+      "flights": [
+        {"flightNumber": "MU1777", "status": "cancelled"},
+        {"flightNumber": "AF1126", "status": "cancelled"}
+      ]
+    }
+  ],
+  "sources": [
+    "Collins Aerospace/RTX SEC Filing",
+    "Eurocontrol",
+    "英国国家犯罪局",
+    "AP News",
+    "FlightAware",
+    "AirLabs API",
+    "AeroInside",
+    "Haberler"
+  ]
+}
