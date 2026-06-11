@@ -13,16 +13,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function loadReport(date) {
   try {
-    const response = await fetch(`data/reports/${date}.json`);
-    if (!response.ok) throw new Error('Report not found');
+    const report = await fetchData(`reports/${date}.json`);
     
-    const report = await response.json();
-    
-    // Update page title
     document.getElementById('reportTitle').textContent = `${formatDate(date)} 风险日报`;
     document.title = `${formatDate(date)} 风险日报 - 全球机票风险事件监测`;
     
-    // Render report content
     renderReport(report);
     
   } catch (error) {
@@ -36,46 +31,36 @@ function renderReport(report) {
   
   let html = '';
   
-  // Group events by priority
   const p0Events = report.events.filter(e => e.priority === 'P0');
   const p1Events = report.events.filter(e => e.priority === 'P1');
   const p2Events = report.events.filter(e => e.priority === 'P2');
   
-  // Render P0 events
   if (p0Events.length > 0) {
     html += renderPrioritySection('P0', '紧急事件', p0Events);
   }
   
-  // Render P1 events
   if (p1Events.length > 0) {
     html += renderPrioritySection('P1', '重要事件', p1Events);
   }
   
-  // Render P2 events
   if (p2Events.length > 0) {
     html += renderPrioritySection('P2', '关注事件', p2Events);
   }
   
-  // Render flight anomalies
   if (report.flightAnomalies && report.flightAnomalies.length > 0) {
     html += renderFlightAnomalies(report.flightAnomalies);
   }
   
-  // Render sources
   if (report.sources && report.sources.length > 0) {
     html += renderSources(report.sources);
   }
   
   container.innerHTML = html;
-  
-  // Initialize map if there are coordinates
-  initMapForReport(report.events);
 }
 
 function renderPrioritySection(priority, title, events) {
   const priorityClass = priority.toLowerCase();
   
-  // Group by category
   const categories = {};
   events.forEach(event => {
     const cat = event.category || '其他';
@@ -208,29 +193,7 @@ function getCategoryIcon(category) {
     '极端天气': '<svg viewBox="0 0 24 24"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM13 3v2h4l-5 10v-6H8l5-10V3h0z"/></svg>',
     '地缘政治': '<svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM4 12c0-.61.08-1.21.21-1.78L8.99 15v1c0 1.1.9 2 2 2v1.93C7.06 19.43 4 16.07 4 12zm13.89 5.4c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41C17.92 5.77 20 8.65 20 12c0 2.08-.81 3.98-2.11 5.4z"/></svg>'
   };
-  return icons[category] || '<svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>';
-}
-
-function initMapForReport(events) {
-  // Create a small map for the report page showing affected airports
-  const allCoords = [];
-  
-  events.forEach(event => {
-    if (event.coordinates && Array.isArray(event.coordinates)) {
-      event.coordinates.forEach(coord => {
-        allCoords.push({
-          ...coord,
-          priority: event.priority,
-          title: event.title
-        });
-      });
-    }
-  });
-  
-  if (allCoords.length > 0) {
-    // For now, we skip the inline map in report page to keep it clean
-    // The map is primarily shown on the dashboard
-  }
+  return icons[category] || '<svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-8h-2V7h2v2z"/></svg>';
 }
 
 function getUrlParam(param) {

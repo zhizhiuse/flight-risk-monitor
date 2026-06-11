@@ -861,3 +861,95 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--text-muted);
 }
+
+/* Update Notification Banner */
+.update-notification {
+  position: fixed;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #1e40af, #3b82f6);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  z-index: 9999;
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+  animation: slideDown 0.3s ease-out;
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.update-notification button {
+  background: rgba(255,255,255,0.2);
+  border: 1px solid rgba(255,255,255,0.3);
+  color: white;
+  padding: 0.375rem 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8125rem;
+  transition: background 0.2s;
+}
+
+.update-notification button:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+.update-notification .btn-dismiss {
+  background: transparent;
+  border-color: rgba(255,255,255,0.15);
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateX(-50%) translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+}
+
+/* P0 Pulse Marker on Map */
+.p0-marker {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.p0-core {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.8);
+  z-index: 2;
+}
+
+.p0-pulse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  opacity: 0;
+  z-index: 1;
+  animation: p0Pulse 2s ease-out infinite;
+}
+
+@keyframes p0Pulse {
+  0% {
+    transform: scale(0.5);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}

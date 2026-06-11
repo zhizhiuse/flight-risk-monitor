@@ -6,12 +6,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function loadArchive() {
   try {
-    const response = await fetch('data/archive.json');
-    if (!response.ok) throw new Error('Failed to load archive');
-    const archive = await response.json();
-    
+    const archive = await fetchData('archive.json');
     renderArchive(archive.reports);
-    
   } catch (error) {
     console.error('Error loading archive:', error);
     showError('加载历史报告失败');
@@ -31,12 +27,10 @@ function renderArchive(reports) {
     return;
   }
   
-  // Sort by date descending
   const sortedReports = [...reports].sort((a, b) => b.date.localeCompare(a.date));
   
   container.innerHTML = sortedReports.map(report => createArchiveItem(report)).join('');
   
-  // Add click handlers
   container.querySelectorAll('.archive-item').forEach(item => {
     item.addEventListener('click', () => {
       const date = item.dataset.date;

@@ -10,12 +10,16 @@ class RiskMap {
       worldCopyJump: true
     });
 
-    // Dark tile layer
+    // 主底图：CartoDB暗色（全球覆盖，效果最好）
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
       subdomains: 'abcd',
       maxZoom: 19
     }).addTo(this.map);
+
+    // 备用底图：ESRI暗灰（国内加载更稳定）
+    // 如需切换，将上面替换为：
+    // https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}
 
     this.markers = [];
     this.priorityColors = {
@@ -32,7 +36,7 @@ class RiskMap {
 
   addAirportMarker(code, lat, lng, priority, eventInfo) {
     const color = this.priorityColors[priority] || '#6b7280';
-    const icon = this.createCustomIcon(color);
+    const icon = this.createCustomIcon(color, priority);
     
     const marker = L.marker([lat, lng], { icon }).addTo(this.map);
     
@@ -51,19 +55,35 @@ class RiskMap {
     return marker;
   }
 
-  createCustomIcon(color) {
+  createCustomIcon(color, priority) {
+    if (priority === 'P0') {
+      // P0：脉冲动画标记
+      return L.divIcon({
+        className: 'custom-marker',
+        html: `
+          <div class="p0-marker">
+            <div class="p0-pulse" style="background-color: ${color};"></div>
+            <div class="p0-core" style="background-color: ${color};"></div>
+          </div>
+        `,
+        iconSize: [24, 24],
+        iconAnchor: [12, 12]
+      });
+    }
+    // P1/P2：静态圆点
+    const size = priority === 'P1' ? 16 : 12;
     return L.divIcon({
       className: 'custom-marker',
       html: `<div style="
-        width: 16px;
-        height: 16px;
+        width: ${size}px;
+        height: ${size}px;
         background-color: ${color};
         border: 2px solid rgba(255,255,255,0.8);
         border-radius: 50%;
         box-shadow: 0 2px 8px rgba(0,0,0,0.4);
       "></div>`,
-      iconSize: [16, 16],
-      iconAnchor: [8, 8]
+      iconSize: [size, size],
+      iconAnchor: [size/2, size/2]
     });
   }
 
@@ -94,7 +114,6 @@ function updateMapMarkers(events) {
       event.coordinates.forEach(coord => {
         const key = coord.code;
         
-        // Only add if no marker or higher priority
         if (!markerMap.has(key) || getPriorityWeight(event.priority) > getPriorityWeight(markerMap.get(key).priority)) {
           markerMap.set(key, {
             lat: coord.lat,

@@ -3,20 +3,21 @@
 document.addEventListener('DOMContentLoaded', async () => {
   initMap();
   await loadDashboardData();
+  startPolling();
 });
 
 async function loadDashboardData() {
   try {
-    const response = await fetch('data/latest.json');
-    if (!response.ok) throw new Error('Failed to load latest.json');
-    const latest = await response.json();
+    const latest = await fetchData('latest.json');
     
-    // Update page meta
     document.getElementById('currentDate').textContent = formatDate(latest.reportDate);
     document.getElementById('lastUpdate').textContent = formatTime(latest.generatedAt);
     
-    // Load full report
     await loadReport(latest.reportDate);
+    
+    // 记录当前状态用于轮询比对
+    window._currentReportDate = latest.reportDate;
+    window._lastGeneratedAt = latest.generatedAt;
     
   } catch (error) {
     console.error('Error loading dashboard data:', error);
@@ -24,11 +25,58 @@ async function loadDashboardData() {
   }
 }
 
+// 轮询检查新数据
+function startPolling() {
+  setInterval(async () => {
+    try {
+      const latest = await fetchData('latest.json');
+      if (latest.reportDate !== window._currentReportDate || 
+          latest.generatedAt !== window._lastGeneratedAt) {
+        showUpdateNotification(latest);
+      }
+    } catch (e) {
+      // 静默失败，不影响用户
+    }
+  }, SITE_CONFIG.pollInterval);
+}
+
+// 显示更新通知
+function showUpdateNotification(latest) {
+  const existing = document.getElementById('updateNotification');
+  if (existing) existing.remove();
+  
+  const banner = document.createElement('div');
+  banner.id = 'updateNotification';
+  banner.className = 'update-notification';
+  banner.innerHTML = `
+    <span>📡 检测到新的风险数据更新</span>
+    <button onclick="refreshDashboard()">立即刷新</button>
+    <button onclick="this.parentElement.remove()" class="btn-dismiss">稍后</button>
+  `;
+  document.body.appendChild(banner);
+  
+  window._pendingUpdate = latest;
+}
+
+// 刷新仪表盘
+async function refreshDashboard() {
+  const notification = document.getElementById('updateNotification');
+  if (notification) notification.remove();
+  
+  if (window._pendingUpdate) {
+    const latest = window._pendingUpdate;
+    document.getElementById('currentDate').textContent = formatDate(latest.reportDate);
+    document.getElementById('lastUpdate').textContent = formatTime(latest.generatedAt);
+    await loadReport(latest.reportDate);
+    window._currentReportDate = latest.reportDate;
+    window._lastGeneratedAt = latest.generatedAt;
+    window._pendingUpdate = null;
+  }
+}
+
 async function loadReport(date) {
   try {
-    const response = await fetch(`data/reports/${date}.json`);
-    if (!response.ok) throw new Error('Failed to load report');
-    const report = await response.json();
+    const report = await fetchData(`reports/${date}.json`);
     
     updateStats(report.summary);
     updateEventList(report.events);
@@ -50,7 +98,6 @@ function updateStats(summary) {
 function updateEventList(events) {
   const container = document.getElementById('eventList');
   
-  // Sort events: P0 > P1 > P2
   const sortedEvents = [...events].sort((a, b) => {
     const weightA = getPriorityWeight(a.priority);
     const weightB = getPriorityWeight(b.priority);
@@ -60,10 +107,9 @@ function updateEventList(events) {
   
   container.innerHTML = sortedEvents.map(event => createEventItem(event)).join('');
   
-  // Add click handlers
   container.querySelectorAll('.event-item').forEach(item => {
     item.addEventListener('click', () => {
-      const date = getUrlParam('date') || '2026-06-10';
+      const date = window._currentReportDate || '2026-06-10';
       window.location.href = `report.html?date=${date}`;
     });
   });
