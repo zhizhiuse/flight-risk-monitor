@@ -1,36 +1,48 @@
 /**
  * 网站配置 - 数据源与轮询设置
- * 方案B：优先从 raw.githubusercontent.com 读取（push后秒级生效），
- * 失败时回退到本地文件
+ * 优先从 GitHub Pages 本地读取（国内稳定），
+ * 失败时回退到 raw.githubusercontent.com
  */
 const SITE_CONFIG = {
-  // 主数据源：GitHub raw（实时，push后立即可用）
-  dataSource: 'https://raw.githubusercontent.com/zhizhiuse/flight-risk-monitor/main/data/',
-  // 本地回退（GitHub Pages构建后可用）
-  localSource: 'data/',
+  // 主数据源：GitHub Pages（国内访问稳定）
+  dataSource: 'data/',
+  // 回退数据源：GitHub raw（实时，push后秒级生效，但国内可能被墙）
+  rawSource: 'https://raw.githubusercontent.com/zhizhiuse/flight-risk-monitor/main/data/',
   // 轮询间隔：5分钟
   pollInterval: 5 * 60 * 1000
 };
 
 /**
+ * 带超时的fetch
+ */
+function fetchWithTimeout(url, options, timeout = 5000) {
+  return Promise.race([
+    fetch(url, options),
+    new Promise((_, reject) =>
+      setTimeout(() => reject(new Error('请求超时')), timeout)
+    )
+  ]);
+}
+
+/**
  * 智能数据获取
- * 1. 优先 raw.githubusercontent.com（实时）
- * 2. 回退本地 data/ 目录
+ * 1. 优先 GitHub Pages 本地（国内稳定，同源无CORS问题）
+ * 2. 回退 raw.githubusercontent.com（实时，带5秒超时）
  */
 async function fetchData(path) {
-  // 主数据源
+  // 主数据源：GitHub Pages（同源，稳定）
   try {
     const response = await fetch(SITE_CONFIG.dataSource + path, { cache: 'no-cache' });
     if (response.ok) return await response.json();
   } catch (e) {
-    console.warn('主数据源(raw)不可用，尝试本地回退');
+    console.warn('本地数据源不可用，尝试raw回退');
   }
-  // 本地回退
+  // 回退：raw.githubusercontent.com（可能被墙，带超时）
   try {
-    const response = await fetch(SITE_CONFIG.localSource + path);
+    const response = await fetchWithTimeout(SITE_CONFIG.rawSource + path, { cache: 'no-cache' }, 5000);
     if (response.ok) return await response.json();
   } catch (e) {
-    console.error('所有数据源均不可用');
+    console.warn('raw数据源不可用或超时:', e.message);
   }
   throw new Error('数据加载失败：' + path);
 }
