@@ -98,27 +98,28 @@ function renderEventCard(event) {
   return `
     <div class="event-card">
       <div class="event-card-title">${event.title}</div>
+      ${event.summary ? `<div class="event-card-summary">${event.summary}</div>` : ''}
       <div class="event-details">
         <div class="detail-item">
-          <div class="detail-label">影响机场</div>
+          <div class="detail-label">✈️ 影响机场</div>
           <div class="detail-value">${event.affectedAirports ? event.affectedAirports.join(', ') : '-'}</div>
         </div>
         <div class="detail-item">
-          <div class="detail-label">影响航司</div>
+          <div class="detail-label">🏢 影响航司</div>
           <div class="detail-value">${event.affectedAirlines ? event.affectedAirlines.join(', ') : '-'}</div>
         </div>
         <div class="detail-item">
-          <div class="detail-label">影响旅客</div>
+          <div class="detail-label">👥 影响旅客</div>
           <div class="detail-value">${event.estimatedPassengers || '-'}</div>
         </div>
         <div class="detail-item">
-          <div class="detail-label">持续时间</div>
+          <div class="detail-label">⏱️ 持续时间</div>
           <div class="detail-value">${event.duration || '-'}</div>
         </div>
       </div>
       ${event.action ? `
         <div class="action-box">
-          <div class="action-label">OTA行动建议</div>
+          <div class="action-label">📋 OTA行动建议</div>
           <div class="action-text">${event.action}</div>
         </div>
       ` : ''}

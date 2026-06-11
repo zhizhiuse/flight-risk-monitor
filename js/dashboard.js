@@ -120,6 +120,8 @@ function createEventItem(event) {
   const airports = event.affectedAirports ? event.affectedAirports.join(', ') : '-';
   const airlines = event.affectedAirlines ? event.affectedAirlines.slice(0, 3).join(', ') : '-';
   
+  const summary = event.summary ? `<div class="event-summary">${event.summary.length > 80 ? event.summary.substring(0, 80) + '...' : event.summary}</div>` : '';
+  
   return `
     <div class="event-item" data-id="${event.id}">
       <div class="event-header">
@@ -129,6 +131,7 @@ function createEventItem(event) {
           <div class="event-category">${event.category}</div>
         </div>
       </div>
+      ${summary}
       <div class="event-meta">
         <span class="event-meta-item">
           <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
