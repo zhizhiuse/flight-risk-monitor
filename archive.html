@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>历史报告 - 全球机票风险事件监测</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-content">
+      <div class="nav-brand">
+        <div class="nav-logo">
+          <svg viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>
+        </div>
+        <span class="nav-title">全球机票风险事件监测</span>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">看板</a>
+        <a href="archive.html" class="nav-link active">历史报告</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main">
+    <div class="container">
+      <!-- Page Header -->
+      <div class="page-header">
+        <h1 class="page-title">历史报告</h1>
+        <div class="page-meta">
+          <span>按日期倒序排列所有风险日报</span>
+        </div>
+      </div>
+
+      <!-- Archive List -->
+      <div class="archive-list" id="archiveList">
+        <div class="loading">
+          <div class="spinner"></div>
+          加载历史报告...
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/archive.js"></script>
+</body>
+</html>

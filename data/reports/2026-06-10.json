@@ -1,0 +1,308 @@
+{
+  "reportDate": "2026-06-10",
+  "generatedAt": "2026-06-10T18:30:00+08:00",
+  "summary": {
+    "total": 12,
+    "p0": 2,
+    "p1": 7,
+    "p2": 3
+  },
+  "events": [
+    {
+      "id": "P0-001",
+      "priority": "P0",
+      "category": "航空安全",
+      "title": "空客A320neo紧急适航指令",
+      "summary": "EASA紧急适航指令AD 2024-0123要求检查并更换受影响发动机高压涡轮叶片，约6000架A320neo系列受影响",
+      "affectedAirports": ["LHR", "CDG", "FRA", "AMS", "BCN", "KUL", "BKK", "SIN"],
+      "affectedAirlines": ["IndiGo", "easyJet", "亚航", "Wizz Air", "Vueling", "JetBlue"],
+      "affectedRoutes": ["欧洲内/亚欧航线"],
+      "estimatedPassengers": "45-135万",
+      "duration": "1-2周",
+      "action": "建议暂停涉事航司相关航线预售，密切关注局方后续通知",
+      "coordinates": [
+        {"code": "LHR", "lat": 51.4700, "lng": -0.4543},
+        {"code": "CDG", "lat": 49.0097, "lng": 2.5479},
+        {"code": "FRA", "lat": 50.0379, "lng": 8.5622},
+        {"code": "AMS", "lat": 52.3105, "lng": 4.7683},
+        {"code": "BCN", "lat": 41.2974, "lng": 2.0833},
+        {"code": "KUL", "lat": 2.7456, "lng": 101.7099},
+        {"code": "BKK", "lat": 13.6900, "lng": 100.7501},
+        {"code": "SIN", "lat": 1.3644, "lng": 103.9915}
+      ]
+    },
+    {
+      "id": "P0-002",
+      "priority": "P0",
+      "category": "地缘政治",
+      "title": "UAE领空限制延长至6月23日",
+      "summary": "阿联酋空域持续受限，仅6条走廊通行，欧亚航线绕飞增加40-60分钟飞行时间",
+      "affectedAirports": ["DXB", "AUH"],
+      "affectedAirlines": ["阿联酋航空", "迪拜航空", "阿提哈德"],
+      "affectedRoutes": ["迪拜-欧洲/中东-亚洲主要航线"],
+      "estimatedPassengers": "50万+/2周",
+      "duration": "至6月23日",
+      "action": "建议绕道土耳其/伊朗航线，密切关注政策变化",
+      "coordinates": [
+        {"code": "DXB", "lat": 25.2532, "lng": 55.3657},
+        {"code": "AUH", "lat": 24.4330, "lng": 54.6511}
+      ]
+    },
+    {
+      "id": "P1-001",
+      "priority": "P1",
+      "category": "地缘政治",
+      "title": "卡塔尔航线绕飞至6月14日",
+      "summary": "卡塔尔航空被迫绕飞波斯湾区域，航班运营效率下降",
+      "affectedAirports": ["DOH"],
+      "affectedAirlines": ["卡塔尔航空"],
+      "affectedRoutes": ["多哈-欧洲/亚洲航线"],
+      "estimatedPassengers": "10万+/周",
+      "duration": "至6月14日",
+      "action": "建议关注卡塔尔航空政策调整，及时调整航线",
+      "coordinates": [
+        {"code": "DOH", "lat": 25.2731, "lng": 51.6081}
+      ]
+    },
+    {
+      "id": "P1-002",
+      "priority": "P1",
+      "category": "地缘政治",
+      "title": "科威特禁止外国航司进入",
+      "summary": "科威特民航局发布禁令，限制外国航司航班进入",
+      "affectedAirports": ["KWI"],
+      "affectedAirlines": ["所有外国航司"],
+      "affectedRoutes": ["进出科威特航线"],
+      "estimatedPassengers": "5万+/周",
+      "duration": "持续中",
+      "action": "暂停科威特方向机票销售，联系旅客改期",
+      "coordinates": [
+        {"code": "KWI", "lat": 29.2267, "lng": 47.9909}
+      ]
+    },
+    {
+      "id": "P1-003",
+      "priority": "P1",
+      "category": "地缘政治",
+      "title": "伊朗对中东国家新袭击(6/10更新)",
+      "summary": "伊朗对约旦、科威特、巴林发动新一轮袭击，区域防空系统激活",
+      "affectedAirports": ["BAH", "KWI", "AMM"],
+      "affectedAirlines": ["地区航司"],
+      "affectedRoutes": ["海湾地区航线"],
+      "estimatedPassengers": "影响中",
+      "duration": "持续中",
+      "action": "密切监控局势，必要时暂停相关航线",
+      "coordinates": [
+        {"code": "BAH", "lat": 26.2702, "lng": 50.6336},
+        {"code": "KWI", "lat": 29.2267, "lng": 47.9909},
+        {"code": "AMM", "lat": 31.7226, "lng": 35.9943}
+      ]
+    },
+    {
+      "id": "P1-004",
+      "priority": "P1",
+      "category": "极端天气",
+      "title": "马来西亚雷暴天气",
+      "summary": "吉隆坡及周边机场遭遇强雷暴，超40航班取消",
+      "affectedAirports": ["KUL", "LGK", "PEN"],
+      "affectedAirlines": ["亚航", "马航"],
+      "affectedRoutes": ["马来西亚国内/区域航线"],
+      "estimatedPassengers": "6000+",
+      "duration": "当日有效",
+      "action": "建议旅客关注航班动态，办理免费改期",
+      "coordinates": [
+        {"code": "KUL", "lat": 2.7456, "lng": 101.7099},
+        {"code": "LGK", "lat": 6.1918, "lng": 100.3983},
+        {"code": "PEN", "lat": 5.2971, "lng": 100.2766}
+      ]
+    },
+    {
+      "id": "P1-005",
+      "priority": "P1",
+      "category": "极端天气",
+      "title": "印度德里沙尘暴",
+      "summary": "德里英迪拉·甘地国际机场阵风达120km/h，400+航班延误",
+      "affectedAirports": ["DEL"],
+      "affectedAirlines": ["印度航空", "IndiGo", "SpiceJet"],
+      "affectedRoutes": ["德里进出港航班"],
+      "estimatedPassengers": "6万+",
+      "duration": "当日有效",
+      "action": "建议旅客提前到达机场，关注航班状态",
+      "coordinates": [
+        {"code": "DEL", "lat": 28.5562, "lng": 77.1000}
+      ]
+    },
+    {
+      "id": "P1-006",
+      "priority": "P1",
+      "category": "极端天气",
+      "title": "美国底特律FAA地面停飞",
+      "summary": "DTW机场因雷暴及龙卷风预警，FAA发布地面停飞指令",
+      "affectedAirports": ["DTW"],
+      "affectedAirlines": ["达美航空", "美联航"],
+      "affectedRoutes": ["底特律进出港航班"],
+      "estimatedPassengers": "影响中",
+      "duration": "等待通知",
+      "action": "暂停底特律方向机票预售，联系旅客改期",
+      "coordinates": [
+        {"code": "DTW", "lat": 42.2124, "lng": -83.3534}
+      ]
+    },
+    {
+      "id": "P1-007",
+      "priority": "P1",
+      "category": "极端天气",
+      "title": "美国多枢纽风暴天气",
+      "summary": "丹佛、亚特兰大等主要枢纽遭遇强风暴，严重航班延误",
+      "affectedAirports": ["DEN", "ATL"],
+      "affectedAirlines": ["西南航空", "达美航空", "美联航"],
+      "affectedRoutes": ["美国国内主要干线"],
+      "estimatedPassengers": "影响中",
+      "duration": "当日有效",
+      "action": "建议旅客关注航班动态，准备备选方案",
+      "coordinates": [
+        {"code": "DEN", "lat": 39.8561, "lng": -104.6737},
+        {"code": "ATL", "lat": 33.6407, "lng": -84.4277}
+      ]
+    },
+    {
+      "id": "P2-001",
+      "priority": "P2",
+      "category": "极端天气",
+      "title": "新西兰惠灵顿强风",
+      "summary": "惠灵顿机场遭遇强风天气，8+航班取消",
+      "affectedAirports": ["WLG"],
+      "affectedAirlines": ["新西兰航空"],
+      "affectedRoutes": ["惠灵顿进出港航班"],
+      "estimatedPassengers": "~1200",
+      "duration": "当日有效",
+      "action": "建议旅客关注航班状态，办理改期",
+      "coordinates": [
+        {"code": "WLG", "lat": -41.3282, "lng": 174.8050}
+      ]
+    },
+    {
+      "id": "P2-002",
+      "priority": "P2",
+      "category": "极端天气",
+      "title": "葡萄牙马德拉强风",
+      "summary": "马德拉群岛强风天气，8航班取消",
+      "affectedAirports": ["FNC"],
+      "affectedAirlines": ["葡萄牙航空", "TAP"],
+      "affectedRoutes": ["马德拉进出港航班"],
+      "estimatedPassengers": "~1200",
+      "duration": "当日有效",
+      "action": "建议旅客关注航班状态",
+      "coordinates": [
+        {"code": "FNC", "lat": 32.6948, "lng": -16.7739}
+      ]
+    },
+    {
+      "id": "P2-003",
+      "priority": "P2",
+      "category": "地缘政治",
+      "title": "伊朗/伊拉克/叙利亚已恢复运营",
+      "summary": "此前受地缘政治影响的中东地区机场已恢复正常运营",
+      "affectedAirports": ["IKA", "BGW", "DAM"],
+      "affectedAirlines": ["恢复运营航司"],
+      "affectedRoutes": ["中东区域航线"],
+      "estimatedPassengers": "已恢复",
+      "duration": "已恢复",
+      "action": "可正常销售相关航线机票",
+      "coordinates": [
+        {"code": "IKA", "lat": 35.4169, "lng": 51.0933},
+        {"code": "BGW", "lat": 33.2625, "lng": 44.2344},
+        {"code": "DAM", "lat": 33.4108, "lng": 36.5142}
+      ]
+    }
+  ],
+  "flightAnomalies": [
+    {
+      "airport": "AMS",
+      "airportName": "阿姆斯特丹史基浦",
+      "destination": "BRU",
+      "destinationName": "布鲁塞尔",
+      "flights": [
+        {"flightNumber": "MU1833", "status": "cancelled"},
+        {"flightNumber": "MF9353", "status": "cancelled"},
+        {"flightNumber": "6E3218", "status": "cancelled"},
+        {"flightNumber": "WA1701", "status": "cancelled"},
+        {"flightNumber": "KL1701", "status": "cancelled"},
+        {"flightNumber": "DL9606", "status": "cancelled"}
+      ]
+    },
+    {
+      "airport": "CDG",
+      "airportName": "巴黎戴高乐",
+      "destination": "IST",
+      "destinationName": "伊斯坦布尔",
+      "flights": [
+        {"flightNumber": "6E4166", "status": "cancelled"},
+        {"flightNumber": "TK1830", "status": "cancelled"},
+        {"flightNumber": "HM6411", "status": "cancelled"},
+        {"flightNumber": "3U7246", "status": "cancelled"}
+      ]
+    },
+    {
+      "airport": "PEK",
+      "airportName": "北京首都",
+      "destination": "SYX/FOC",
+      "destinationName": "三亚/福州",
+      "flights": [
+        {"flightNumber": "HU7279", "status": "cancelled"},
+        {"flightNumber": "CA4681", "status": "cancelled"},
+        {"flightNumber": "ZH2577", "status": "cancelled"},
+        {"flightNumber": "SC2203", "status": "cancelled"}
+      ]
+    },
+    {
+      "airport": "PVG",
+      "airportName": "上海浦东",
+      "destination": "KWE",
+      "destinationName": "贵阳",
+      "flights": [
+        {"flightNumber": "3U4523", "status": "cancelled"},
+        {"flightNumber": "ZH5111", "status": "cancelled"},
+        {"flightNumber": "MU3756", "status": "cancelled"}
+      ]
+    },
+    {
+      "airport": "NRT",
+      "airportName": "东京成田",
+      "destination": "DFW",
+      "destinationName": "达拉斯",
+      "flights": [
+        {"flightNumber": "AA60", "status": "delayed"},
+        {"flightNumber": "JL7012", "status": "delayed"}
+      ]
+    },
+    {
+      "airport": "YYZ",
+      "airportName": "多伦多皮尔逊",
+      "destination": "YWG",
+      "destinationName": "温尼伯",
+      "flights": [
+        {"flightNumber": "RV2134", "status": "cancelled"},
+        {"flightNumber": "AC2134", "status": "cancelled"},
+        {"flightNumber": "VA5186", "status": "cancelled"}
+      ]
+    },
+    {
+      "airport": "SYD",
+      "airportName": "悉尼金斯福史密斯",
+      "destination": "CFS",
+      "destinationName": "科夫斯港",
+      "flights": [
+        {"flightNumber": "ZL6436", "status": "cancelled"}
+      ]
+    }
+  ],
+  "sources": [
+    "EASA Safety Publications",
+    "IATA NOTAM Database",
+    "NOAA Weather",
+    "AirLabs API",
+    "FlightAware",
+    "各国民航局公告"
+  ]
+}
