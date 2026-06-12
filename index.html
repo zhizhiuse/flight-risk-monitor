@@ -74,3 +74,55 @@
             <div class="legend-item"><div class="legend-dot p1"></div>P1 重要</div>
             <div class="legend-item"><div class="legend-dot p2"></div>P2 关注</div>
           </div>
+        </div>
+
+        <!-- Right: Filter + Event List -->
+        <div class="event-list-section">
+          <!-- Filter Bar -->
+          <div class="filter-bar">
+            <div class="filter-group">
+              <span class="filter-label">等级</span>
+              <div class="filter-priority">
+                <button class="filter-btn active" data-priority="all">全部</button>
+                <button class="filter-btn" data-priority="P0">P0</button>
+                <button class="filter-btn" data-priority="P1">P1</button>
+                <button class="filter-btn" data-priority="P2">P2</button>
+              </div>
+            </div>
+            <div class="filter-group">
+              <span class="filter-label">类型</span>
+              <div class="filter-category">
+                <button class="filter-btn active" data-category="all">全部</button>
+              </div>
+            </div>
+            <div class="filter-search">
+              <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+              <input type="text" id="filterSearch" placeholder="搜索事件、机场、航司...">
+            </div>
+            <span class="filter-count" id="filterCount">- 条</span>
+          </div>
+
+          <!-- Event List -->
+          <div class="event-list" id="eventList">
+            <div class="loading">
+              <div class="spinner"></div>
+              加载中...
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flight Anomalies (if any, below the grid) -->
+      <div id="flightAnomalies"></div>
+
+      <!-- Sources -->
+      <div id="sourcesSection"></div>
+    </div>
+  </main>
+
+  <script src="https://cdn.bootcdn.net/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="js/config.js?v=20260612c"></script>
+  <script src="js/report-common.js?v=20260612c"></script>
+  <script src="js/dashboard.js?v=20260612c"></script>
+</body>
+</html>
