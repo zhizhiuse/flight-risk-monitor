@@ -1,9 +1,9 @@
 {
   "reportDate": "2026-06-12",
-  "generatedAt": "2026-06-12T07:39:00+08:00",
+  "generatedAt": "2026-06-12T16:30:00+08:00",
   "summary": {
-    "total": 7,
-    "p0": 1,
+    "total": 9,
+    "p0": 3,
     "p1": 2,
     "p2": 4
   },
@@ -11,127 +11,352 @@
     {
       "id": "P0-001",
       "priority": "P0",
-      "category": "航司运营",
-      "title": "Collins Aerospace系统遭网络攻击，欧洲多机场值机系统故障",
-      "summary": "航空技术服务商Collins Aerospace系统遭网络攻击，布鲁塞尔/希思罗等欧洲多枢纽机场值机登机系统故障，布鲁塞尔机场被要求取消约50%进出港航班",
-      "description": "【起因】2026年6月11日，Collins Aerospace（航空技术服务商）为多家欧洲机场提供的值机和登机系统遭到网络攻击，导致布鲁塞尔机场、伦敦希思罗机场、柏林勃兰登堡机场、都柏林机场等主要枢纽出现大面积值机和登机系统故障。\n【原因】Collins Aerospace母公司RTX（Raytheon Technologies）已向美国证券交易委员会（SEC）提交8-K表格报告此次网络事件。英国国家犯罪局已逮捕一名40多岁嫌疑人，具体攻击手法和动机仍在调查中。\n【影响范围】布鲁塞尔机场最为严重，Eurocontrol要求6月10日至12日期间进出港航班削减50%。伦敦希思罗机场（欧洲最繁忙机场）也报告值机和登机系统受到影响。布鲁塞尔机场日均处理约700架次进出港航班，50%削减意味着每日约350个航班受影响，旅客影响约3.5万人次/天。\n【当前进展】Collins Aerospace正在抢修系统，英国NCA已介入调查。Eurocontrol要求航班削减政策持续至6月12日（周一）02:00 GMT。\n【OTA影响】欧洲至布鲁塞尔/希思罗航线可能出现大面积取消或延误，建议暂停受影响航线当日预售，密切关注航司后续公告，及时通知已购票旅客改期或退票。",
-      "affectedAirports": ["BRU", "LHR", "BER", "DUB"],
-      "affectedAirlines": ["欧洲各主要航司"],
-      "affectedRoutes": ["布鲁塞尔=欧洲各主要城市", "希思罗=全球各航线"],
-      "estimatedPassengers": "3.5万+/天",
-      "duration": "至6月12日02:00 GMT",
-      "action": "暂停布鲁塞尔/希思罗进出港当日预售，联系旅客改期",
+      "category": "地缘政治",
+      "title": "德国、瑞士加入中东空域限制，欧洲-中东跨洲航线大面积中断",
+      "summary": "德国和瑞士加入英法意等国行列收紧中东空域限制，EASA CZIBs覆盖11国飞行情报区，多家欧洲航司暂停中东航线，数千旅客滞留",
+      "description": "【起因】2026年6月11日，德国加入英国、法国、意大利等欧洲国家行列，发布航空通告要求航司避开中东大片空域；同日瑞士宣布支持EASA冲突区域信息公告（CZIBs），进一步加剧因科威特领空关闭已造成的航班中断。\n【原因】中东地区军事冲突持续升级，伊朗-海湾国家紧张局势导致波斯湾至东地中海大片空域被划为潜在军事行动区域。EASA CZIBs建议运营商避开巴林、伊朗、伊拉克、以色列、约旦、科威特、黎巴嫩、阿曼、卡塔尔、沙特和阿联酋等国的飞行情报区，或仅在特定高度层通行。德国外交部对中东13国发布广泛旅行警告，官方描述当前安全环境极度动荡。\n【影响面】\n- 影响机场：FRA, MUC, ZRH, CDG, LHR, FCO, DXB, DOH, KWI, BAH, AMM\n- 影响航线：欧洲-中东/亚洲跨洲航线，含FRA-DXB, LHR-DOH, CDG-AMM, ZRH-BAH等\n- 影响航司：Lufthansa, Swiss, British Airways, Air France, KLM, Emirates, Qatar Airways等\n- 影响旅客：约5万+/日（欧洲-中东航线大面积暂停，数千旅客滞留需改道）\n- 持续时间：6月11日起，持续中，预计≥7天\n- OTA建议：暂停欧洲-中东受影响航线预售，联系已购票旅客改期或改签IST经停方案\n【当前进展】多家欧洲航司已暂停中东航线，干扰预计持续影响夏季出行高峰。EASA每48小时评估一次CZIBs，不排除更多国家跟进限制。\n【OTA影响】欧洲-中东/亚洲跨洲航线运力大幅缩减，改道绕行增加40-90分钟飞行时间，票价可能上涨；需持续关注德国、瑞士航空通告变化，评估改道延误风险对已售票的影响。",
+      "affectedAirports": [
+        "FRA",
+        "MUC",
+        "ZRH",
+        "CDG",
+        "LHR",
+        "FCO",
+        "DXB",
+        "DOH",
+        "KWI",
+        "BAH",
+        "AMM"
+      ],
+      "affectedAirlines": [
+        "Lufthansa",
+        "Swiss",
+        "British Airways",
+        "Air France",
+        "KLM",
+        "Emirates",
+        "Qatar Airways"
+      ],
+      "affectedRoutes": [
+        "FRA-DXB",
+        "LHR-DOH",
+        "CDG-AMM",
+        "ZRH-BAH",
+        "欧洲-中东/亚洲跨洲航线"
+      ],
+      "estimatedPassengers": "约5万+/日",
+      "duration": "6/11起，预计≥7天",
+      "action": "暂停欧洲-中东受影响航线预售，联系旅客改期或改签IST经停方案",
       "coordinates": [
-        {"code": "BRU", "lat": 50.9014, "lng": 4.4843},
-        {"code": "LHR", "lat": 51.4700, "lng": -0.4543},
-        {"code": "BER", "lat": 52.3667, "lng": 13.5033},
-        {"code": "DUB", "lat": 53.4264, "lng": -6.2499}
+        {
+          "code": "FRA",
+          "lat": 50.0379,
+          "lng": 8.5622
+        },
+        {
+          "code": "ZRH",
+          "lat": 47.4647,
+          "lng": 8.5492
+        },
+        {
+          "code": "DXB",
+          "lat": 25.2532,
+          "lng": 55.3657
+        },
+        {
+          "code": "DOH",
+          "lat": 25.2731,
+          "lng": 51.6081
+        },
+        {
+          "code": "KWI",
+          "lat": 29.2267,
+          "lng": 47.9909
+        },
+        {
+          "code": "AMM",
+          "lat": 31.7226,
+          "lng": 35.9943
+        }
+      ]
+    },
+    {
+      "id": "P0-002",
+      "priority": "P0",
+      "category": "地缘政治",
+      "title": "伊朗袭击损毁科威特机场雷达，科威特向ICAO提交第三份抗议",
+      "summary": "伊朗6月11日袭击直接命中科威特国际机场雷达系统，造成重大损毁和人员受伤，科威特空域临时关闭后恢复但运行能力受限",
+      "description": "【起因】2026年6月11日，伊朗对科威特发动新一轮袭击，导弹直接命中科威特国际机场雷达系统，造成雷达设施、空管设备及管理系统重大损毁，并导致人员受伤。\n【原因】此为伊朗一周内第二次攻击科威特机场——6月3日的无人机袭击已造成1人死亡、63人受伤。伊朗持续将海湾国家民航基础设施作为攻击目标，严重违反1944年《芝加哥公约》及国际航空安全法规。科威特民航总局（DGCA）当天向ICAO提交第三份正式抗议信，敦促采取必要措施。\n【影响面】\n- 影响机场：KWI（科威特国际机场）\n- 影响航线：KWI-CAI, KWI-IST, KWI-DXB等北非及中东区域航线，经KWI中转的亚欧航线\n- 影响航司：Kuwait Airways, Jazeera Airways, 中东各航司\n- 影响旅客：约2-3万/日（KWI空域临时关闭+雷达损毁导致运力受限）\n- 持续时间：6/11起，持续中（雷达修复时间未定）\n- OTA建议：暂停KWI航线预售，关注ICAO后续反应及空管恢复进度\n【当前进展】科威特实施了临时部分空域关闭，后按国际航空安全标准恢复运行，但雷达和空管设施受损，运行能力可能受限。ICAO尚未回应科威特第三份抗议。\n【OTA影响】科威特航线（含经停）需持续监控，即使空域已重开，雷达损毁可能导致航班流量限制和延误；ICAO后续反应可能影响区域空域政策。",
+      "affectedAirports": [
+        "KWI"
+      ],
+      "affectedAirlines": [
+        "Kuwait Airways",
+        "Jazeera Airways",
+        "中东各航司"
+      ],
+      "affectedRoutes": [
+        "KWI-CAI",
+        "KWI-IST",
+        "KWI-DXB",
+        "经KWI中转亚欧航线"
+      ],
+      "estimatedPassengers": "约2-3万/日",
+      "duration": "6/11起，持续中（雷达修复时间未定）",
+      "action": "暂停KWI航线预售，关注ICAO后续反应及空管恢复进度",
+      "coordinates": [
+        {
+          "code": "KWI",
+          "lat": 29.2267,
+          "lng": 47.9909
+        }
+      ]
+    },
+    {
+      "id": "P0-003",
+      "priority": "P0",
+      "category": "航司运营",
+      "title": "巴黎CDG/ORY/LBG三大机场6月18日地勤24小时罢工",
+      "summary": "法国四大工会宣布6月18日在巴黎三大机场举行24小时地勤罢工，涉及行李搬运、值机、清洁等岗位，跨洲航线将严重受阻",
+      "description": "【起因】2026年6月11日，法国CGT、CFDT、Unsa、Sud Aérien四大工会正式宣布6月18日在巴黎戴高乐(CDG)、奥利(ORY)、勒布尔歇(LBG)三机场举行24小时地勤罢工。\n【原因】罢工起因为安全通行证发放与续签规则收紧，导致大量地勤人员无法正常获得机场通行资质，直接影响工作权利。工会要求政府重新审视通行证政策。\n【影响面】\n- 影响机场：CDG, ORY, LBG\n- 影响航线：CDG-全球各跨洲航线（含CDG-PEK/PVG中国航线），ORY-欧洲/北非航线\n- 影响航司：Air France, British Airways, easyJet, Ryanair, 中国东方航空等运营巴黎航线的航司\n- 影响旅客：预计8-15万/日（CDG日均约20万旅客+ORY约10万旅客，24小时地勤停摆将影响半数以上航班）\n- 持续时间：6/18 00:00-24:00（24小时），后续不排除延长\n- OTA建议：暂停6/18 CDG/ORY进出港航线预售，通知已购票旅客提前改期，准备备选IST/FRA中转方案\n【当前进展】罢工已确认，目前为预告期。法国政府可能在罢工前发布最低服务令，但地勤岗位通常不受强制服务令约束。多家航司预计将提前调整6/18航班计划。\n【OTA影响】巴黎三大机场为欧洲最繁忙机场群之一，尤其CDG是中国旅客赴欧及中转重要枢纽。6/18地勤全面停摆将导致航班大面积取消或延误，涉及中国航线，需提前通知旅客并准备替代方案。",
+      "affectedAirports": [
+        "CDG",
+        "ORY",
+        "LBG"
+      ],
+      "affectedAirlines": [
+        "Air France",
+        "British Airways",
+        "easyJet",
+        "Ryanair",
+        "中国东方航空"
+      ],
+      "affectedRoutes": [
+        "CDG-PEK",
+        "CDG-PVG",
+        "CDG-JFK",
+        "CDG-DXB",
+        "ORY-欧洲/北非航线"
+      ],
+      "estimatedPassengers": "预计8-15万/日",
+      "duration": "6/18 00:00-24:00（24小时）",
+      "action": "暂停6/18 CDG/ORY进出港预售，通知已购票旅客提前改期",
+      "coordinates": [
+        {
+          "code": "CDG",
+          "lat": 49.0097,
+          "lng": 2.5479
+        },
+        {
+          "code": "ORY",
+          "lat": 48.7253,
+          "lng": 2.3594
+        }
       ]
     },
     {
       "id": "P1-001",
       "priority": "P1",
-      "category": "极端天气",
-      "title": "美国中西部风暴导致三大枢纽机场地面停飞",
-      "summary": "强雷暴和龙卷风系统袭击美国中西部，芝加哥ORD/MDW和纽约JFK三大枢纽发布地面停飞令，超1000航班延误或取消",
-      "description": "【起因】6月11日晚间，严重雷暴再次席卷美国中西部和东北部地区。国家气象局收到超过12起龙卷风报告，涉及密苏里州、艾奥瓦州、堪萨斯州和伊利诺伊州。\n【原因】强对流天气系统配合高温高湿环境，在美国中西部形成大范围雷暴带，伴有破坏性大风、冰雹和龙卷风。国家气象局发布多州龙卷风警告。\n【影响范围】芝加哥奥黑尔国际机场(ORD)和芝加哥中途国际机场(MDW)因雷暴暂时停飞所有航班。纽约肯尼迪国际机场(JFK)同样发布地面停飞令。截至6月11日晚间，FlightAware数据显示芝加哥地区进出港航班延误和取消超过1000架次。\n【当前进展】6月12日早间，航班运营已基本恢复正常，全美仅约24-25个航班取消，34-300个延误。AirLabs数据显示ORD出发的102个航班仍显示取消状态，涉及美联航、达美、加航、汉莎等多个航司。\n【OTA影响】ORD/MDW/JFK进出港航班需密切关注恢复情况，建议关注当日航班实际执飞状态，协助旅客办理改期或退票。",
-      "affectedAirports": ["ORD", "MDW", "JFK"],
-      "affectedAirlines": ["美国航空", "联合航空", "达美航空", "JetBlue", "Envoy", "SkyWest"],
-      "affectedRoutes": ["芝加哥/纽约进出港航班"],
-      "estimatedPassengers": "10万+",
-      "duration": "6月11日晚-6月12日早",
-      "action": "关注ORD/MDW/JFK航班恢复状态，协助旅客改期",
+      "category": "航司运营",
+      "title": "easyJet意大利6月13日18小时全国罢工",
+      "summary": "easyJet意大利籍飞行员和空乘6月13日06:00-24:00全国罢工18小时，叠加多个意大利机场其他岗位罢工",
+      "description": "【起因】easyJet意大利籍飞行员和空乘人员将于6月13日06:00-24:00举行为期18小时的全国罢工，经意大利基础设施与交通部确认。\n【原因】劳资纠纷，easyJet意大利员工要求改善工作条件和薪资待遇。同日意大利多个机场亦有其他岗位罢工叠加：维罗纳VRN ENAV空管人员罢工18小时，卡利亚里CAG地勤及安保罢工18小时，米兰LIN地勤罢工4小时。\n【影响面】\n- 影响机场：FCO, MXP, VCE, NAP, VRN, CAG, LIN\n- 影响航线：easyJet意大利境内及国际航线（意大利-英国/法国/德国/西班牙等）\n- 影响航司：easyJet (EZY)\n- 影响旅客：约1.5-3万/日（easyJet在意大利运营约200班/日，18小时罢工预计影响60-80%航班）\n- 持续时间：6/13 06:00-24:00（18小时）\n- OTA建议：暂停6/13 easyJet意大利进出港航线预售，通知已购票旅客关注航班动态，准备改期方案\n【当前进展】罢工已由交通部确认，easyJet预计将在罢工前公布受影响航班清单。意大利为夏季旅游旺季，罢工影响可能放大。\n【OTA影响】easyJet为欧洲最大低成本航司之一，意大利航线覆盖面广。6月13日为周六，旅游客流高峰，罢工影响预计较大。需关注同日其他意大利机场罢工是否造成叠加效应。",
+      "affectedAirports": [
+        "FCO",
+        "MXP",
+        "VCE",
+        "NAP",
+        "VRN",
+        "CAG",
+        "LIN"
+      ],
+      "affectedAirlines": [
+        "easyJet"
+      ],
+      "affectedRoutes": [
+        "FCO-LHR",
+        "MXP-CDG",
+        "VCE-AMS",
+        "NAP-BER",
+        "easyJet意大利境内及国际航线"
+      ],
+      "estimatedPassengers": "约1.5-3万/日",
+      "duration": "6/13 06:00-24:00（18小时）",
+      "action": "暂停6/13 easyJet意大利航线预售，通知已购票旅客关注航班动态",
       "coordinates": [
-        {"code": "ORD", "lat": 41.9742, "lng": -87.9073},
-        {"code": "MDW", "lat": 41.7868, "lng": -87.7520},
-        {"code": "JFK", "lat": 40.6413, "lng": -73.7781}
+        {
+          "code": "FCO",
+          "lat": 41.8003,
+          "lng": 12.2389
+        },
+        {
+          "code": "MXP",
+          "lat": 45.6306,
+          "lng": 8.7281
+        }
       ]
     },
     {
       "id": "P1-002",
       "priority": "P1",
-      "category": "地缘政治",
-      "title": "加拿大航空延长中东航线暂停期至10月24日",
-      "summary": "Air Canada宣布将特拉维夫和迪拜航线暂停期从9月8日延长至10月24日，反映航司对中东地区安全形势的审慎评估",
-      "description": "【起因】加拿大航空（Air Canada）于6月11日宣布将特拉维夫和迪拜航线暂停期延长至10月24日，此前暂停期截止日为9月8日。\n【原因】中东地区安全形势持续紧张，加拿大航空评估后决定延长航线暂停期。该决定反映出航司对以色列和阿联酋两个中东主要航空枢纽安全形势的审慎态度。维兹航空同日宣布将于6月12日恢复特拉维夫航线，显示不同航司风险评估存在差异。\n【影响范围】涉及以色列特拉维夫本·古里安机场(TLV)和阿联酋迪拜国际机场(DXB)两大中东枢纽。Air Canada是加拿大最大航司，其跨大西洋航线（多伦多/温哥华=迪拜/特拉维夫）是中东出行重要选择。\n【当前进展】航线暂停已正式生效至10月24日。Wizz Air等其他航司对中东航线持不同态度，维兹航空6月12日恢复特拉维夫航班。\n【OTA影响】涉及加拿大-中东航线旅客需提前调整出行计划，建议提供改签至其他航司或退票方案。预计10月24日后航线将逐步恢复。",
-      "affectedAirports": ["TLV", "DXB"],
-      "affectedAirlines": ["加拿大航空"],
-      "affectedRoutes": ["多伦多/温哥华-特拉维夫/迪拜航线"],
-      "estimatedPassengers": "持续影响中",
-      "duration": "至10月24日",
-      "action": "建议旅客改签其他航司，密切关注10月后续动态",
+      "category": "航班异常",
+      "title": "芝加哥ORD枢纽大面积航班取消（风暴后续影响）",
+      "summary": "AirLabs数据显示ORD出发45+航班仍处于取消状态，叠加MIA→ORD航线4班取消，影响数千旅客",
+      "description": "【起因】受6月11日美国中西部强雷暴和龙卷风系统后续影响，芝加哥奥黑尔国际机场(ORD)截至6月12日仍有大量航班处于取消状态。\n【原因】6月11日晚间严重雷暴席卷美国中西部，国家气象局收到12+起龙卷风报告，ORD和MDW发布地面停飞令。6月12日风暴已过境，但航司运力恢复需要时间，大量航班仍处于取消状态。\n【影响面】\n- 影响机场：ORD, MIA\n- 影响航线：ORD-BUF, ORD-MKE, ORD-RST, ORD-YUL, ORD-BOI, ORD-MCI, ORD-SMF, ORD-SEA, ORD-BOS, ORD-LAX, ORD-GRR, ORD-BWI, ORD-ALB, ORD-LGA, MIA-ORD\n- 影响航司：United, American, Delta, Air Canada, Lufthansa, British Airways, Emirates, Qatar等\n- 影响旅客：约8000-12000人（45+航班取消，平均每班约200人）\n- 持续时间：6/11晚-6/12，逐步恢复中\n- OTA建议：关注ORD进出港航班恢复状态，协助受影响旅客改期或退票\n【当前进展】航班运营逐步恢复，但AirLabs数据显示45+航班仍取消，涉及20+目的地。美联航、美航等已启动旅客改签程序。",
+      "affectedAirports": [
+        "ORD",
+        "MIA"
+      ],
+      "affectedAirlines": [
+        "United",
+        "American",
+        "Delta",
+        "Air Canada",
+        "Lufthansa",
+        "British Airways",
+        "Emirates"
+      ],
+      "affectedRoutes": [
+        "ORD-BUF",
+        "ORD-MKE",
+        "ORD-YUL",
+        "ORD-LAX",
+        "ORD-SEA",
+        "MIA-ORD"
+      ],
+      "estimatedPassengers": "约8000-12000人",
+      "duration": "6/11晚-6/12，逐步恢复中",
+      "action": "关注ORD航班恢复状态，协助旅客改期或退票",
       "coordinates": [
-        {"code": "TLV", "lat": 32.0055, "lng": 34.8854},
-        {"code": "DXB", "lat": 25.2532, "lng": 55.3657}
+        {
+          "code": "ORD",
+          "lat": 41.9742,
+          "lng": -87.9073
+        },
+        {
+          "code": "MIA",
+          "lat": 25.7959,
+          "lng": -80.287
+        }
       ]
     },
     {
       "id": "P2-001",
       "priority": "P2",
-      "category": "航空安全",
-      "title": "Air Arabia A320航班鸟击导致发动机受损紧急返航",
-      "summary": "Air Arabia A320-200从Thiruvananthapuram起飞后遭遇鸟击，发动机受损，紧急返航安全降落",
-      "description": "【起因】6月10日上午，Air Arabia一架从印度Thiruvananthapuram飞往阿联酋Sharjah的A320-200客机（注册号A6-ANL，航班号G9-449）在从32号跑道起飞爬升时遭遇鸟击。\n【原因】机组随即停止爬升并在7000英尺高度盘旋，随后决定返航。机场方面报告称发动机（CFM56）受到鸟击影响。\n【影响范围】涉事航班从印度Thiruvananthapuram机场(TRV)起飞，机上约180名乘客。飞机在起飞约20分钟后安全降落TRV机场32号跑道。该航班随后取消，涉事飞机在印度接受工程检查。Air Arabia运营全空客A320系列机队共84架以上。\n【当前进展】涉事飞机在印度接受工程检查，航班已取消。Thiruvananthapuram航线可能出现后续航班调整。",
-      "affectedAirports": ["TRV", "SHJ"],
-      "affectedAirlines": ["Air Arabia"],
-      "affectedRoutes": ["Thiruvananthapuram-Sharjah"],
-      "estimatedPassengers": "~180",
-      "duration": "单次事件",
-      "action": "关注TRV-SHJ航线后续航班调整",
+      "category": "地缘政治",
+      "title": "特拉维夫-布拉格航班失联触发北约最高级别警戒",
+      "summary": "一架特拉维夫飞布拉格A321客机穿越匈牙利领空时失联，北约下令匈牙利最高警戒并派战斗机拦截，后安全恢复通信",
+      "description": "【起因】2026年6月11日，一架从特拉维夫飞往布拉格的空客A321客机在穿越匈牙利领空时与民航管制失去通信联系。\n【原因】客机通信中断原因尚未公布，可能是技术故障或人为失误。鉴于当前中东冲突背景，北约联合空中作战中心启动标准拦截程序，下令匈牙利国防军进入最高级别警戒。\n【影响面】\n- 影响机场：BUD（布达佩斯，过境空域）\n- 影响航线：TLV-PRG航线\n- 影响航司：涉事航司（未具名）\n- 影响旅客：约180人（单架A321客机）\n- 持续时间：6/11单次事件，已恢复\n- OTA建议：关注来自冲突区域的航班在欧洲空域的军事活动通告，暂无需调整航线\n【当前进展】两架JAS-39鹰狮战斗机紧急升空拦截后与客机建立目视接触，空客机组随即恢复与匈牙利地面管制的无线电通信。客机于20:10沿计划航线正常离境进入奥地利空域，安全抵达布拉格。",
+      "affectedAirports": [
+        "BUD"
+      ],
+      "affectedAirlines": [
+        "涉事航司（未具名）"
+      ],
+      "affectedRoutes": [
+        "TLV-PRG"
+      ],
+      "estimatedPassengers": "约180人",
+      "duration": "6/11单次事件，已恢复",
+      "action": "关注来自冲突区域航班在欧洲空域的军事活动通告",
       "coordinates": [
-        {"code": "TRV", "lat": 8.4821, "lng": 76.9201},
-        {"code": "SHJ", "lat": 25.5093, "lng": 55.5174}
+        {
+          "code": "BUD",
+          "lat": 47.4368,
+          "lng": 19.2556
+        }
       ]
     },
     {
       "id": "P2-002",
       "priority": "P2",
-      "category": "航空安全",
-      "title": "Turkish Airlines 777客机安塔利亚机场滑行时撞上雷达天线杆",
-      "summary": "Turkish Airlines 777-300ER在安塔利亚机场滑行时右翼撞上雷达天线杆，267名乘客安全撤离，1人轻伤",
-      "description": "【起因】6月11日晚间，Turkish Airlines一架执行伊斯坦布尔-安塔利亚航班的波音777-300ER客机（注册号TC-LKD，航班号TK2430）在安塔利亚机场降落滑行至停机位过程中，右翼与地面雷达天线杆发生接触。\n【原因】飞机在从跑道滑行至停机位期间，右翼翼尖与地面雷达天线杆发生物理接触。具体原因仍在调查中，Turkish Airlines已启动技术调查。\n【影响范围】涉事航班267名乘客已安全撤离，其中1名乘客在疏散过程中受轻伤。事故导致机场运营短暂中断。Turkish Airlines是土耳其主要航司，安塔利亚是热门旅游航线目的地。\n【当前进展】乘客已安全撤离，Turkish Airlines已启动技术调查。机场运营已恢复。",
-      "affectedAirports": ["AYT"],
-      "affectedAirlines": ["Turkish Airlines"],
-      "affectedRoutes": ["伊斯坦布尔-安塔利亚"],
-      "estimatedPassengers": "267",
-      "duration": "当日有效",
-      "action": "关注TK安塔利亚航线后续运营",
+      "category": "航司运营",
+      "title": "利比亚泛非航空因无机队可用暂停所有航班",
+      "summary": "利比亚泛非航空(Afriqiyah Airways, 8U)因无适航飞机可用，管理层指令暂停所有航班运营，旅客滞留开罗",
+      "description": "【起因】利比亚泛非航空(Afriqiyah Airways)因无适航飞机可用，管理层已通过正式指令暂停所有航班运营。\n【原因】机队维护问题导致所有飞机无法适航，公司内部反腐败员工运动组织发布声明确认停运。开罗机场已有利比亚旅客报告航班延误且无航司代表出面处理。\n【影响面】\n- 影响机场：MJI（的黎波里）, CAI（开罗）, IST（伊斯坦布尔）\n- 影响航线：MJI-CAI, MJI-IST等北非及中东航线\n- 影响航司：Afriqiyah Airways (8U)\n- 影响旅客：约2000-4000人/周（泛非航空运营规模有限）\n- 持续时间：6/10起，持续中（取决于机队维修恢复进度）\n- OTA建议：暂停泛非航空航线销售，协助已购票旅客退票或改签其他航司\n【当前进展】停运持续时间取决于机队维修恢复进度，目前无复航时间表。开罗机场已有受影响旅客报告。",
+      "affectedAirports": [
+        "MJI",
+        "CAI",
+        "IST"
+      ],
+      "affectedAirlines": [
+        "Afriqiyah Airways"
+      ],
+      "affectedRoutes": [
+        "MJI-CAI",
+        "MJI-IST"
+      ],
+      "estimatedPassengers": "约2000-4000人/周",
+      "duration": "6/10起，持续中",
+      "action": "暂停泛非航空航线销售，协助旅客退票或改签",
       "coordinates": [
-        {"code": "AYT", "lat": 36.8987, "lng": 30.8005}
+        {
+          "code": "CAI",
+          "lat": 30.1219,
+          "lng": 31.4056
+        },
+        {
+          "code": "IST",
+          "lat": 41.2753,
+          "lng": 28.7519
+        }
       ]
     },
     {
       "id": "P2-003",
       "priority": "P2",
-      "category": "地缘政治",
-      "title": "维兹航空宣布恢复特拉维夫航班（6月12日）",
-      "summary": "维兹航空宣布将于6月12日恢复特拉维夫航班服务，此前列车因安全顾虑暂停运营，地区安全形势有所缓和",
-      "description": "【起因】维兹航空（Wizz Air）宣布将于6月12日恢复特拉维夫航班服务，此前列车因安全顾虑暂停运营。\n【原因】该决定表明地区安全形势有所缓和，航司对以色列航线恢复运营的信心正在重建。与加拿大航空延长停飞期形成对比，显示不同航司风险评估存在差异。\n【影响范围】维兹航空恢复特拉维夫航班后，将增加以色列航线运力。维兹航空是以色列-欧洲低成本航线的主要运营商之一。\n【当前进展】6月12日已恢复特拉维夫航班运营。",
-      "affectedAirports": ["TLV"],
-      "affectedAirlines": ["维兹航空"],
-      "affectedRoutes": ["特拉维夫-欧洲航线"],
-      "estimatedPassengers": "已恢复",
-      "duration": "已恢复",
-      "action": "可正常销售维兹航空特拉维夫航线",
+      "category": "极端天气",
+      "title": "越南胡志明市SGN机场雷暴导致多航班备降",
+      "summary": "6月11日晚强雷暴席卷胡志明市，SGN机场6个进港航班被迫备降至金边、富国岛、芹苴，6月12日已恢复",
+      "description": "【起因】6月11日晚间，大范围雷暴天气席卷胡志明市，导致新山一国际机场(SGN)起降作业严重受阻。\n【原因】6月进入亚洲季风季，越南南部雷暴频发。SGN作为长期超负荷运营枢纽，雷暴天气对其影响被放大。\n【影响面】\n- 影响机场：SGN（胡志明市新山一）\n- 影响航线：HAN-SGN, KUL-SGN, VII-SGN等国内及东南亚区域航线\n- 影响航司：Vietnam Airlines, Sun PhuQuoc Airways\n- 影响旅客：约1000-1500人（6个备降航班，连锁延误）\n- 持续时间：6/11晚，6/12已恢复正常运营\n- OTA建议：关注季风季SGN后续雷暴预警，暂无需调整航线\n【当前进展】6月12日SGN已恢复正常运营。中国南方6月12日起进入新一轮降雨集中期，暴雨蓝色预警已发布，需关注CAN/SZX等枢纽。",
+      "affectedAirports": [
+        "SGN"
+      ],
+      "affectedAirlines": [
+        "Vietnam Airlines",
+        "Sun PhuQuoc Airways"
+      ],
+      "affectedRoutes": [
+        "HAN-SGN",
+        "KUL-SGN",
+        "VII-SGN"
+      ],
+      "estimatedPassengers": "约1000-1500人",
+      "duration": "6/11晚，6/12已恢复",
+      "action": "关注季风季SGN后续雷暴预警",
       "coordinates": [
-        {"code": "TLV", "lat": 32.0055, "lng": 34.8854}
+        {
+          "code": "SGN",
+          "lat": 10.8188,
+          "lng": 106.6515
+        }
       ]
     },
     {
       "id": "P2-004",
       "priority": "P2",
-      "category": "地缘政治",
-      "title": "叙利亚阿勒颇国际机场国际航班逐步恢复",
-      "summary": "土耳其航空旗下Pegasus Airlines于6月10日执飞伊斯坦布尔至阿勒颇首个航班，Fly Sham同步恢复多条国际航线",
-      "description": "【起因】叙利亚阿勒颇国际机场陆续恢复国际航班运营。土耳其航空旗下Pegasus Airlines于6月10日执飞伊斯坦布尔至阿勒颇的首个航班；同日，Fly Sham恢复从阿勒颇飞往沙迦、梅尔辛和伊斯坦布尔的航班服务。\n【原因】叙利亚局势逐步稳定，地区航空运营正在恢复。Pegasus Airlines作为土耳其主要低成本航司，率先恢复叙利亚航线具有标志性意义。\n【影响范围】阿勒颇机场(ALP)恢复至沙迦(SHJ)、梅尔辛(MER)、伊斯坦布尔(SAW/IST)航线。叙利亚其他机场（如大马士革）的航班恢复也在推进中。\n【当前进展】阿勒颇机场国际航班运营已部分恢复。",
-      "affectedAirports": ["ALP"],
-      "affectedAirlines": ["Pegasus Airlines", "Fly Sham"],
-      "affectedRoutes": ["阿勒颇-伊斯坦布尔/沙迦/梅尔辛"],
-      "estimatedPassengers": "逐步恢复",
-      "duration": "已恢复",
-      "action": "可正常销售叙利亚相关航线机票",
+      "category": "航空安全",
+      "title": "尼日利亚Asaba机场公路降落事件：NCAA停飞涉事飞机、逮捕机组",
+      "summary": "尼日利亚民航局对在Asaba机场附近公路降落的公务机实施停飞并逮捕机组，涉事运营商VMO Aero运营许可被暂停",
+      "description": "【起因】一架庞巴迪挑战者CL-601公务机（注册号N989BC，运营商VMO Aero Limited）在Asaba机场执行复飞后降落在Ogwashi-Uku附近高速公路施工路面，停留约3.5小时后未经监管许可擅自起飞返回拉各斯。\n【原因】复飞后降落至公路的具体原因尚在调查中，NSIB已回收黑匣子分析。未经许可擅自起飞构成严重运行安全违规。\n【影响面】\n- 影响机场：ABB（Asaba，非枢纽机场）\n- 影响航线：无商业航线受影响（公务机运营事件）\n- 影响航司：VMO Aero Limited（非商业航司）\n- 影响旅客：约10人（公务机乘客）\n- 持续时间：6/11事件，调查进行中\n- OTA建议：暂无需调整，关注尼日利亚航空安全监管后续动态\n【当前进展】NCAA确认机组人员已被逮捕，NSIB展开调查。尼航空部长Festus Keyamo已下令立即调查。VMO Aero Limited非商业飞行许可(PNCF)已被暂停。",
+      "affectedAirports": [
+        "ABB"
+      ],
+      "affectedAirlines": [
+        "VMO Aero Limited"
+      ],
+      "affectedRoutes": [
+        "无商业航线受影响"
+      ],
+      "estimatedPassengers": "约10人",
+      "duration": "6/11事件，调查进行中",
+      "action": "暂无需调整，关注尼日利亚航空安全监管后续动态",
       "coordinates": [
-        {"code": "ALP", "lat": 36.1891, "lng": 37.2252}
+        {
+          "code": "ABB",
+          "lat": 6.1924,
+          "lng": 6.6941
+        }
       ]
     }
   ],
@@ -139,65 +364,244 @@
     {
       "airport": "ORD",
       "airportName": "芝加哥奥黑尔",
-      "destination": "美国国内多目的",
-      "destinationName": "美国国内",
+      "destination": "美国国内+国际多目的",
+      "destinationName": "BUF/MKE/RST/YUL/BOI/MCI/SMF/SEA/BOS/LAX/GRR/BWI/ALB/LGA",
       "flights": [
-        {"flightNumber": "UA8458", "status": "cancelled"},
-        {"flightNumber": "UA2812", "status": "cancelled"},
-        {"flightNumber": "UA2298", "status": "cancelled"},
-        {"flightNumber": "AC8484", "status": "cancelled"},
-        {"flightNumber": "LH9306", "status": "cancelled"}
+        {
+          "flightNumber": "AA403",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "AA4888",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "AA1209",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "AA2682",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "AA2906",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "AA3105",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "UA2417",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "UA5290",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "UA1273",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "UA1920",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "UA2792",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "UA303",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "UA340",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "LH7458",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "LH9262",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "LH7564",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "BA5131",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "BA4936",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "BA5302",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "BA5767",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "BA4760",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "BA5211",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "EK6223",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "EK6671",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "EK6227",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "EK6214",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "EK6268",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "QR7776",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "QR9089",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "QR2629",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "QR7702",
+          "status": "cancelled"
+        }
       ]
     },
     {
-      "airport": "YYZ",
-      "airportName": "多伦多皮尔逊",
-      "destination": "LGA/ORD",
-      "destinationName": "纽约拉瓜迪亚/芝加哥",
+      "airport": "CAN",
+      "airportName": "广州白云",
+      "destination": "PVG",
+      "destinationName": "上海浦东",
       "flights": [
-        {"flightNumber": "DL5306", "status": "cancelled"},
-        {"flightNumber": "AC8909", "status": "cancelled"}
+        {
+          "flightNumber": "MU8417",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "FM9310",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "DL6551",
+          "status": "cancelled"
+        }
       ]
     },
     {
       "airport": "SYD",
       "airportName": "悉尼金斯福史密斯",
-      "destination": "CBR",
-      "destinationName": "堪培拉",
+      "destination": "MEL/BXG/CFS",
+      "destinationName": "墨尔本/巴利纳/科夫斯港",
       "flights": [
-        {"flightNumber": "EK5270", "status": "cancelled"},
-        {"flightNumber": "QF1427", "status": "cancelled"}
+        {
+          "flightNumber": "SQ6820",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "VA850",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "QF1497",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "ZL6436",
+          "status": "cancelled"
+        }
       ]
     },
     {
-      "airport": "AMS",
-      "airportName": "阿姆斯特丹史基浦",
-      "destination": "LIN",
-      "destinationName": "米兰林阿迪",
+      "airport": "MIA",
+      "airportName": "迈阿密国际机场",
+      "destination": "ORD",
+      "destinationName": "芝加哥",
       "flights": [
-        {"flightNumber": "EC5408", "status": "cancelled"},
-        {"flightNumber": "U25408", "status": "cancelled"}
+        {
+          "flightNumber": "JL7385",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "AA581",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "EI7423",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "AS4720",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "G36039",
+          "status": "cancelled"
+        }
       ]
     },
     {
-      "airport": "CDG",
-      "airportName": "巴黎戴高乐",
-      "destination": "VCE",
-      "destinationName": "威尼斯",
+      "airport": "SIN",
+      "airportName": "新加坡樟宜",
+      "destination": "NOU",
+      "destinationName": "新喀里多尼亚努美阿",
       "flights": [
-        {"flightNumber": "MU1777", "status": "cancelled"},
-        {"flightNumber": "AF1126", "status": "cancelled"}
+        {
+          "flightNumber": "AF4023",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "SB741",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "SQ6059",
+          "status": "cancelled"
+        }
       ]
     }
   ],
   "sources": [
-    "Collins Aerospace/RTX SEC Filing",
-    "Eurocontrol",
-    "英国国家犯罪局",
-    "AP News",
-    "FlightAware",
-    "AirLabs API",
-    "AeroInside",
-    "Haberler"
+    "The Traveler (thetraveler.org)",
+    "Arab Times",
+    "WAM (UAE)",
+    "AirHelp",
+    "VisaVerge",
+    "The Flight Club (Italy)",
+    "CARNOC (民航资源网)",
+    "澎湃新闻",
+    "Daily News Hungary",
+    "Caliber.Az",
+    "DTI News (Vietnam)",
+    "VTC News (Vietnam)",
+    "The Guardian Nigeria",
+    "NTA Nigeria",
+    "PPRuNe",
+    "AirLabs API"
   ]
 }
