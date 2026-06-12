@@ -1,14 +1,35 @@
 // Archive Page Logic
 
+let allReports = [];
+let activeLines = 'all'; // 'all', 'P0', 'P1', 'P2', 'total'
+
 document.addEventListener('DOMContentLoaded', async () => {
+  initTrendFilter();
   await loadArchive();
+  // Listen for theme changes
+  window.addEventListener('themeChanged', () => {
+    renderTrendChart(allReports);
+  });
 });
+
+function initTrendFilter() {
+  const btns = document.querySelectorAll('.trend-filter-btn');
+  btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeLines = btn.dataset.line;
+      renderTrendChart(allReports);
+    });
+  });
+}
 
 async function loadArchive() {
   try {
     const archive = await fetchData('archive.json');
-    renderArchive(archive.reports);
-    renderTrendChart(archive.reports);
+    allReports = archive.reports;
+    renderArchive(allReports);
+    renderTrendChart(allReports);
   } catch (error) {
     console.error('Error loading archive:', error);
     showError('加载历史报告失败');
@@ -65,20 +86,23 @@ function createArchiveItem(report) {
   `;
 }
 
-// ============ Trend Chart ============
+// ============ Line Chart ============
+
+// Store data points for tooltip
+let chartDataPoints = [];
+
 function renderTrendChart(reports) {
   const canvas = document.getElementById('trendChart');
   if (!canvas || !reports || reports.length === 0) return;
 
   const sorted = [...reports].sort((a, b) => a.date.localeCompare(b.date));
-  // Show last 14 days max
   const data = sorted.slice(-14);
 
   const ctx = canvas.getContext('2d');
   const dpr = window.devicePixelRatio || 1;
 
   const width = canvas.parentElement.clientWidth;
-  const height = 200;
+  const height = 240;
   canvas.width = width * dpr;
   canvas.height = height * dpr;
   canvas.style.width = width + 'px';
@@ -88,23 +112,38 @@ function renderTrendChart(reports) {
   const isLight = document.body.classList.contains('light-theme');
   const textMuted = isLight ? '#9ca3af' : '#6b7280';
   const gridColor = isLight ? 'rgba(0,0,0,0.06)' : 'rgba(255,255,255,0.06)';
-  const p0Color = '#ef4444';
-  const p1Color = '#f59e0b';
-  const p2Color = '#eab308';
+  const lineWhite = isLight ? '#374151' : '#e5e7eb';
 
-  const padLeft = 30;
+  // Line colors
+  const lineColors = {
+    total: lineWhite,
+    P0: '#ef4444',
+    P1: '#f59e0b',
+    P2: '#eab308'
+  };
+
+  const padLeft = 36;
   const padRight = 16;
   const padTop = 16;
-  const padBottom = 32;
+  const padBottom = 36;
 
   const chartW = width - padLeft - padRight;
   const chartH = height - padTop - padBottom;
 
+  // Build data series
+  const series = data.map(d => ({
+    date: d.date,
+    total: (d.summary.p0 || 0) + (d.summary.p1 || 0) + (d.summary.p2 || 0),
+    P0: d.summary.p0 || 0,
+    P1: d.summary.p1 || 0,
+    P2: d.summary.p2 || 0
+  }));
+
   // Find max
   let maxVal = 0;
-  data.forEach(d => {
-    const total = (d.summary.p0 || 0) + (d.summary.p1 || 0) + (d.summary.p2 || 0);
-    if (total > maxVal) maxVal = total;
+  series.forEach(d => {
+    const vals = [d.total, d.P0, d.P1, d.P2];
+    vals.forEach(v => { if (v > maxVal) maxVal = v; });
   });
   maxVal = Math.max(maxVal, 5);
   maxVal = Math.ceil(maxVal * 1.2);
@@ -126,76 +165,181 @@ function renderTrendChart(reports) {
     ctx.fillText(val, padLeft - 6, y + 3);
   }
 
-  // Draw stacked area chart: P2(bottom) -> P1 -> P0(top)
   const n = data.length;
   if (n < 1) return;
 
-  const barW = Math.min(24, (chartW / n) * 0.6);
-  const gap = (chartW - barW * n) / (n + 1);
+  // X positions
+  const xStep = n > 1 ? chartW / (n - 1) : chartW / 2;
 
-  data.forEach((d, i) => {
-    const x = padLeft + gap + (barW + gap) * i;
-    const p0 = d.summary.p0 || 0;
-    const p1 = d.summary.p1 || 0;
-    const p2 = d.summary.p2 || 0;
-
-    // P2 (bottom)
-    if (p2 > 0) {
-      const h = (p2 / maxVal) * chartH;
-      ctx.fillStyle = p2Color + '55';
-      ctx.fillRect(x, padTop + chartH - h, barW, h);
-      ctx.fillStyle = p2Color;
-      ctx.fillRect(x, padTop + chartH - h, barW, 2);
-    }
-
-    // P1
-    if (p1 > 0) {
-      const h = (p1 / maxVal) * chartH;
-      const base = padTop + chartH - (p2 / maxVal) * chartH;
-      ctx.fillStyle = p1Color + '55';
-      ctx.fillRect(x, base - h, barW, h);
-      ctx.fillStyle = p1Color;
-      ctx.fillRect(x, base - h, barW, 2);
-    }
-
-    // P0
-    if (p0 > 0) {
-      const h = (p0 / maxVal) * chartH;
-      const base = padTop + chartH - ((p2 + p1) / maxVal) * chartH;
-      ctx.fillStyle = p0Color + '55';
-      ctx.fillRect(x, base - h, barW, h);
-      ctx.fillStyle = p0Color;
-      ctx.fillRect(x, base - h, barW, 2);
-    }
-
-    // Date label
-    const dateStr = d.date.slice(5); // MM-DD
+  // Date labels
+  series.forEach((d, i) => {
+    const x = padLeft + (n > 1 ? xStep * i : chartW / 2);
+    const dateStr = d.date.slice(5);
     ctx.fillStyle = textMuted;
     ctx.font = '10px sans-serif';
     ctx.textAlign = 'center';
-    ctx.fillText(dateStr, x + barW / 2, height - 8);
+    ctx.fillText(dateStr, x, height - 10);
   });
 
-  // Legend
+  // Clear data points for tooltip
+  chartDataPoints = [];
+
+  // Determine which lines to draw
+  let linesToDraw = [];
+  if (activeLines === 'all') {
+    linesToDraw = ['total', 'P0', 'P1', 'P2'];
+  } else {
+    linesToDraw = [activeLines];
+  }
+
+  // Draw lines (draw non-active as faint first if "all" mode)
+  const allLineKeys = ['P2', 'P1', 'P0', 'total']; // draw order (back to front)
+
+  allLineKeys.forEach(key => {
+    const isActive = linesToDraw.includes(key);
+    const color = lineColors[key];
+    const alpha = isActive ? 1 : 0.15;
+
+    const points = series.map((d, i) => ({
+      x: padLeft + (n > 1 ? xStep * i : chartW / 2),
+      y: padTop + chartH - (d[key] / maxVal) * chartH,
+      value: d[key],
+      date: d.date,
+      key: key
+    }));
+
+    if (points.length < 1) return;
+
+    // Draw smooth line
+    ctx.beginPath();
+    ctx.strokeStyle = color;
+    ctx.lineWidth = isActive ? 2.5 : 1;
+    ctx.globalAlpha = alpha;
+
+    if (points.length === 1) {
+      ctx.arc(points[0].x, points[0].y, 4, 0, Math.PI * 2);
+      ctx.fillStyle = color;
+      ctx.fill();
+    } else {
+      // Use cardinal spline for smooth curves
+      ctx.moveTo(points[0].x, points[0].y);
+      for (let i = 0; i < points.length - 1; i++) {
+        const p0 = points[Math.max(0, i - 1)];
+        const p1 = points[i];
+        const p2 = points[i + 1];
+        const p3 = points[Math.min(points.length - 1, i + 2)];
+
+        const tension = 0.3;
+        const cp1x = p1.x + (p2.x - p0.x) * tension;
+        const cp1y = p1.y + (p2.y - p0.y) * tension;
+        const cp2x = p2.x - (p3.x - p1.x) * tension;
+        const cp2y = p2.y - (p3.y - p1.y) * tension;
+
+        ctx.bezierCurveTo(cp1x, cp1y, cp2x, cp2y, p2.x, p2.y);
+      }
+      ctx.stroke();
+
+      // Draw data point dots
+      points.forEach(p => {
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, isActive ? 4 : 2, 0, Math.PI * 2);
+        ctx.fillStyle = isLight ? '#ffffff' : '#0a0e17';
+        ctx.fill();
+        ctx.lineWidth = isActive ? 2 : 1;
+        ctx.strokeStyle = color;
+        ctx.stroke();
+
+        // Store for tooltip (only active lines)
+        if (isActive) {
+          chartDataPoints.push({
+            x: p.x,
+            y: p.y,
+            value: p.value,
+            date: p.date,
+            key: key
+          });
+        }
+      });
+    }
+
+    ctx.globalAlpha = 1;
+  });
+
+  // Legend (drawn on chart)
   const legendY = 8;
-  const items = [
-    { color: p0Color, label: 'P0' },
-    { color: p1Color, label: 'P1' },
-    { color: p2Color, label: 'P2' }
+  const legendItems = [
+    { color: lineColors.total, label: '总计' },
+    { color: lineColors.P0, label: 'P0' },
+    { color: lineColors.P1, label: 'P1' },
+    { color: lineColors.P2, label: 'P2' }
   ];
   let lx = width - padRight;
   ctx.textAlign = 'right';
   ctx.font = '11px sans-serif';
-  for (let i = items.length - 1; i >= 0; i--) {
-    const item = items[i];
+  for (let i = 0; i < legendItems.length; i++) {
+    const item = legendItems[i];
+    const isActive = linesToDraw.includes(item.key || item.label === '总计' ? (item.label === '总计' ? 'total' : item.label) : '');
+    const drawKey = item.label === '总计' ? 'total' : item.label;
+    const isItemActive = linesToDraw.includes(drawKey);
+
+    ctx.globalAlpha = isItemActive ? 1 : 0.3;
     ctx.fillStyle = textMuted;
     ctx.fillText(item.label, lx, legendY + 10);
     lx -= ctx.measureText(item.label).width + 4;
     ctx.fillStyle = item.color;
-    ctx.fillRect(lx - 8, legendY + 2, 8, 8);
-    lx -= 16;
+    ctx.beginPath();
+    ctx.arc(lx - 4, legendY + 7, 4, 0, Math.PI * 2);
+    ctx.fill();
+    lx -= 18;
+    ctx.globalAlpha = 1;
   }
 }
+
+// ============ Tooltip Handling ============
+
+document.addEventListener('DOMContentLoaded', () => {
+  const canvas = document.getElementById('trendChart');
+  if (!canvas) return;
+
+  canvas.addEventListener('mousemove', (e) => {
+    const rect = canvas.getBoundingClientRect();
+    const mouseX = e.clientX - rect.left;
+    const mouseY = e.clientY - rect.top;
+
+    const tooltip = document.getElementById('chartTooltip');
+    if (!tooltip) return;
+
+    // Find nearest point
+    let nearest = null;
+    let minDist = Infinity;
+    chartDataPoints.forEach(p => {
+      const dist = Math.sqrt((p.x - mouseX) ** 2 + (p.y - mouseY) ** 2);
+      if (dist < minDist) {
+        minDist = dist;
+        nearest = p;
+      }
+    });
+
+    if (nearest && minDist < 30) {
+      const dateStr = new Date(nearest.date).toLocaleDateString('zh-CN', {
+        month: '2-digit',
+        day: '2-digit'
+      });
+      const keyLabel = { total: '总计', P0: 'P0', P1: 'P1', P2: 'P2' }[nearest.key] || nearest.key;
+      tooltip.innerHTML = `<div class="tooltip-date">${dateStr}</div><div class="tooltip-value">${keyLabel}: <strong>${nearest.value}</strong></div>`;
+      tooltip.style.display = 'block';
+      tooltip.style.left = (nearest.x + rect.left + 12) + 'px';
+      tooltip.style.top = (nearest.y + rect.top - 10) + 'px';
+    } else {
+      tooltip.style.display = 'none';
+    }
+  });
+
+  canvas.addEventListener('mouseleave', () => {
+    const tooltip = document.getElementById('chartTooltip');
+    if (tooltip) tooltip.style.display = 'none';
+  });
+});
 
 function formatDateDisplay(dateStr) {
   const date = new Date(dateStr);
@@ -217,9 +361,8 @@ function showError(message) {
 
 // Redraw chart on resize
 window.addEventListener('resize', debounce(() => {
-  const archive = document.getElementById('archiveList');
-  if (archive && archive.dataset.reports) {
-    renderTrendChart(JSON.parse(archive.dataset.reports));
+  if (allReports.length > 0) {
+    renderTrendChart(allReports);
   }
 }, 300));
 

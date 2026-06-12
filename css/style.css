@@ -1231,3 +1231,156 @@ body {
   animation: highlight-pulse 1s ease-in-out 2;
   border-color: var(--accent-blue) !important;
 }
+/* ===== Date Switcher ===== */
+.date-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 0.25rem 0.5rem;
+}
+
+.date-nav-btn {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+}
+
+.date-nav-btn:hover:not(:disabled) {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
+}
+
+.date-nav-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.date-nav-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.date-display {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  min-width: 180px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* ===== Trend Filter Buttons ===== */
+.trend-filter {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.trend-filter-btn {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: 0.3rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.trend-filter-btn:hover {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
+}
+
+.trend-filter-btn.active {
+  background: var(--accent-blue);
+  color: #fff;
+  border-color: var(--accent-blue);
+}
+
+.trend-filter-btn[data-line="P0"].active {
+  background: #ef4444;
+  border-color: #ef4444;
+}
+
+.trend-filter-btn[data-line="P1"].active {
+  background: #f59e0b;
+  border-color: #f59e0b;
+}
+
+.trend-filter-btn[data-line="P2"].active {
+  background: #eab308;
+  border-color: #eab308;
+}
+
+/* ===== Chart Tooltip ===== */
+.chart-tooltip {
+  position: fixed;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.75rem;
+  font-size: 0.75rem;
+  color: var(--text-primary);
+  box-shadow: var(--shadow-lg);
+  pointer-events: none;
+  z-index: 100;
+  transition: none;
+}
+
+.tooltip-date {
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+  font-size: 0.6875rem;
+}
+
+.tooltip-value {
+  color: var(--text-primary);
+}
+
+.tooltip-value strong {
+  font-family: 'SF Mono', 'Consolas', monospace;
+  color: var(--accent-blue);
+}
+
+/* ===== Event Card Summary (for report view) ===== */
+.event-card-summary {
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+/* ===== Mobile adjustments for date switcher ===== */
+@media (max-width: 640px) {
+  .date-switcher {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .date-display {
+    min-width: 140px;
+    font-size: 0.8125rem;
+  }
+
+  .trend-filter {
+    flex-wrap: wrap;
+  }
+
+  .section-header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+}
