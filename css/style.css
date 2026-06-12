@@ -400,7 +400,7 @@ body {
   background: var(--bg-secondary);
 }
 
-#riskMap {
+#indexMap {
   height: 100%;
   width: 100%;
 }
