@@ -1,18 +1,17 @@
-// Dashboard Page Logic — Now shows daily report with date switching
+// Dashboard Page Logic — Date switching + Stats + Filters + Compact list
 
 let indexMap = null;
 let availableDates = [];
 let currentDateIndex = -1;
+let currentFilter = { priority: 'all', category: 'all', search: '' };
 
 document.addEventListener('DOMContentLoaded', async () => {
   await initDashboard();
-  // Listen for theme changes to update map tiles
   window.addEventListener('themeChanged', (e) => {
     if (indexMap) {
       indexMap.remove();
       indexMap = null;
-      const container = document.getElementById('indexMap');
-      if (container && window._currentReportData) {
+      if (window._currentReportData) {
         indexMap = initReportMap('indexMap', window._currentReportData.events);
       }
     }
@@ -22,15 +21,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function initDashboard() {
   try {
-    // Load available dates from archive
     const archive = await fetchData('archive.json');
     availableDates = archive.reports.map(r => r.date).sort();
 
-    // Load latest date
     const latest = await fetchData('latest.json');
     const latestDate = latest.reportDate;
 
-    // Find index of latest date
     currentDateIndex = availableDates.indexOf(latestDate);
     if (currentDateIndex === -1) {
       availableDates.push(latestDate);
@@ -38,13 +34,10 @@ async function initDashboard() {
       currentDateIndex = availableDates.indexOf(latestDate);
     }
 
-    // Update date display
     updateDateDisplay();
     updateNavButtons();
-
-    // Load the report
     await loadCurrentReport();
-
+    bindFilterEvents();
   } catch (error) {
     console.error('Error initializing dashboard:', error);
     showError('加载数据失败，请刷新页面重试');
@@ -76,7 +69,6 @@ async function switchDate(direction) {
 
 async function loadCurrentReport() {
   if (currentDateIndex < 0 || currentDateIndex >= availableDates.length) return;
-
   const date = availableDates[currentDateIndex];
 
   try {
@@ -86,88 +78,80 @@ async function loadCurrentReport() {
 
     document.getElementById('lastUpdate').textContent = formatTime(report.generatedAt);
 
-    // Destroy old map before re-rendering
-    if (indexMap) {
-      indexMap.remove();
-      indexMap = null;
-    }
+    // Destroy old map
+    if (indexMap) { indexMap.remove(); indexMap = null; }
 
-    // Init map
+    // Render stats, map, event list
+    renderStats(report);
     indexMap = initReportMap('indexMap', report.events);
+    renderEventList(report);
 
-    // Render report content (shared function)
-    renderReport(report, 'reportContent');
-
-    // Update page title
     document.title = `${formatDateShort(date)} 风险日报 - 全球机票风险事件监测`;
-
   } catch (error) {
     console.error('Error loading report:', error);
     showError('加载报告数据失败');
   }
 }
 
-// ============ Polling ============
+// ============ Stats Cards ============
 
-function startPolling() {
-  setInterval(async () => {
-    try {
-      const latest = await fetchData('latest.json');
-      if (latest.reportDate !== window._currentReportDate) {
-        showUpdateNotification(latest);
-      }
-    } catch (e) {}
-  }, SITE_CONFIG.pollInterval);
-}
+function renderStats(report) {
+  const events = report.events || [];
+  const p0 = events.filter(e => e.priority === 'P0').length;
+  const p1 = events.filter(e => e.priority === 'P1').length;
+  const p2 = events.filter(e => e.priority === 'P2').length;
+  const total = events.length;
 
-function showUpdateNotification(latest) {
-  const existing = document.getElementById('updateNotification');
-  if (existing) existing.remove();
+  const statsEl = document.getElementById('statsGrid');
+  if (!statsEl) return;
 
-  const banner = document.createElement('div');
-  banner.id = 'updateNotification';
-  banner.className = 'update-notification';
-  banner.innerHTML = `
-    <span>📡 检测到新的风险数据更新</span>
-    <button onclick="refreshDashboard()">立即刷新</button>
-    <button onclick="this.parentElement.remove()" class="btn-dismiss">稍后</button>
+  statsEl.innerHTML = `
+    <div class="stat-card total">
+      <div class="stat-label">📊 风险事件总计</div>
+      <div class="stat-value">${total}</div>
+      <div class="stat-desc">${formatDateShort(report.reportDate)}</div>
+    </div>
+    <div class="stat-card p0">
+      <div class="stat-label">🔴 P0 紧急</div>
+      <div class="stat-value">${p0}</div>
+      <div class="stat-desc">需立即响应</div>
+    </div>
+    <div class="stat-card p1">
+      <div class="stat-label">🟠 P1 重要</div>
+      <div class="stat-value">${p1}</div>
+      <div class="stat-desc">需当日处理</div>
+    </div>
+    <div class="stat-card p2">
+      <div class="stat-label">🟡 P2 关注</div>
+      <div class="stat-value">${p2}</div>
+      <div class="stat-desc">保持监控</div>
+    </div>
   `;
-  document.body.appendChild(banner);
-
-  window._pendingUpdate = latest;
 }
 
-async function refreshDashboard() {
-  const notification = document.getElementById('updateNotification');
-  if (notification) notification.remove();
+// ============ Filter Bar ============
 
-  if (window._pendingUpdate) {
-    const latest = window._pendingUpdate;
-    const newDate = latest.reportDate;
+function bindFilterEvents() {
+  // Priority filter
+  document.querySelectorAll('.filter-priority .filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-priority .filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentFilter.priority = btn.dataset.priority;
+      applyFilters();
+    });
+  });
 
-    // Add new date to available dates if needed
-    if (!availableDates.includes(newDate)) {
-      availableDates.push(newDate);
-      availableDates.sort();
-    }
-    currentDateIndex = availableDates.indexOf(newDate);
+  // Category filter
+  document.querySelectorAll('.filter-category .filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-category .filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentFilter.category = btn.dataset.category;
+      applyFilters();
+    });
+  });
 
-    updateDateDisplay();
-    updateNavButtons();
-    await loadCurrentReport();
-
-    window._pendingUpdate = null;
-  }
-}
-
-function showError(message) {
-  const container = document.getElementById('reportContent');
-  if (container) {
-    container.innerHTML = `
-      <div class="empty-state">
-        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
-        <p>${message}</p>
-      </div>
-    `;
-  }
-}
+  // Search
+  const searchInput = document.getElementById('filterSearch');
+  if (searchInput) {
