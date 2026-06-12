@@ -155,3 +155,215 @@ function bindFilterEvents() {
   // Search
   const searchInput = document.getElementById('filterSearch');
   if (searchInput) {
+    searchInput.addEventListener('input', debounce(() => {
+      currentFilter.search = searchInput.value.trim().toLowerCase();
+      applyFilters();
+    }, 200));
+  }
+}
+
+function applyFilters() {
+  const report = window._currentReportData;
+  if (!report) return;
+  renderEventList(report);
+}
+
+function getFilteredEvents(report) {
+  let events = report.events || [];
+
+  if (currentFilter.priority !== 'all') {
+    events = events.filter(e => e.priority === currentFilter.priority);
+  }
+
+  if (currentFilter.category !== 'all') {
+    events = events.filter(e => (e.category || '其他') === currentFilter.category);
+  }
+
+  if (currentFilter.search) {
+    const q = currentFilter.search;
+    events = events.filter(e =>
+      (e.title || '').toLowerCase().includes(q) ||
+      (e.summary || '').toLowerCase().includes(q) ||
+      (e.affectedAirports || []).join(' ').toLowerCase().includes(q) ||
+      (e.affectedAirlines || []).join(' ').toLowerCase().includes(q)
+    );
+  }
+
+  return events;
+}
+
+// ============ Event List (Compact) ============
+
+function renderEventList(report) {
+  const container = document.getElementById('eventList');
+  if (!container) return;
+
+  const events = getFilteredEvents(report);
+
+  // Update count
+  const countEl = document.getElementById('filterCount');
+  if (countEl) countEl.textContent = `${events.length} 条`;
+
+  // Update category filter buttons dynamically
+  updateCategoryButtons(report);
+
+  if (events.length === 0) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+        <p>暂无匹配的风险事件</p>
+      </div>
+    `;
+    return;
+  }
+
+  // Group by priority
+  const p0 = events.filter(e => e.priority === 'P0');
+  const p1 = events.filter(e => e.priority === 'P1');
+  const p2 = events.filter(e => e.priority === 'P2');
+
+  let html = '';
+
+  if (p0.length > 0) {
+    html += `<div class="event-group-label p0">🔴 P0 紧急 (${p0.length})</div>`;
+    html += p0.map(e => renderCompactEvent(e)).join('');
+  }
+  if (p1.length > 0) {
+    html += `<div class="event-group-label p1">🟠 P1 重要 (${p1.length})</div>`;
+    html += p1.map(e => renderCompactEvent(e)).join('');
+  }
+  if (p2.length > 0) {
+    html += `<div class="event-group-label p2">🟡 P2 关注 (${p2.length})</div>`;
+    html += p2.map(e => renderCompactEvent(e)).join('');
+  }
+
+  container.innerHTML = html;
+
+  // Bind expand/collapse
+  container.querySelectorAll('.event-item-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const card = header.closest('.event-item-compact');
+      const detail = card.querySelector('.event-item-detail');
+      if (detail) {
+        detail.classList.toggle('expanded');
+        const arrow = header.querySelector('.expand-arrow');
+        if (arrow) arrow.classList.toggle('rotated');
+      }
+    });
+  });
+}
+
+function renderCompactEvent(event) {
+  const category = event.category || '其他';
+  const airports = event.affectedAirports ? event.affectedAirports.join(', ') : '-';
+
+  return `
+    <div class="event-item-compact" data-id="${event.id}">
+      <div class="event-item-header">
+        <span class="event-priority ${event.priority.toLowerCase()}">${event.priority}</span>
+        <div class="event-item-info">
+          <div class="event-item-title">${event.title}</div>
+          <div class="event-item-meta">
+            <span>${getCategoryIcon(category)} ${category}</span>
+            ${airports !== '-' ? `<span>✈️ ${airports}</span>` : ''}
+          </div>
+        </div>
+        <svg class="expand-arrow" viewBox="0 0 24 24" width="18" height="18"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z" fill="currentColor"/></svg>
+      </div>
+      <div class="event-item-detail">
+        ${event.summary ? `<div class="detail-summary">${event.summary}</div>` : ''}
+        <div class="detail-grid">
+          <div class="detail-item"><div class="detail-label">✈️ 影响机场</div><div class="detail-value">${event.affectedAirports ? event.affectedAirports.join(', ') : '-'}</div></div>
+          <div class="detail-item"><div class="detail-label">🏢 影响航司</div><div class="detail-value">${event.affectedAirlines ? event.affectedAirlines.join(', ') : '-'}</div></div>
+          <div class="detail-item"><div class="detail-label">👥 影响旅客</div><div class="detail-value">${event.estimatedPassengers || '-'}</div></div>
+          <div class="detail-item"><div class="detail-label">⏱️ 持续时间</div><div class="detail-value">${event.duration || '-'}</div></div>
+        </div>
+        ${event.action ? `<div class="action-box"><div class="action-label">📋 OTA建议</div><div class="action-text">${event.action}</div></div>` : ''}
+      </div>
+    </div>
+  `;
+}
+
+function updateCategoryButtons(report) {
+  const events = report.events || [];
+  const categories = [...new Set(events.map(e => e.category || '其他'))];
+  const container = document.querySelector('.filter-category');
+  if (!container) return;
+
+  const currentActive = currentFilter.category;
+  let html = `<button class="filter-btn ${currentActive === 'all' ? 'active' : ''}" data-category="all">全部</button>`;
+  categories.forEach(cat => {
+    html += `<button class="filter-btn ${currentActive === cat ? 'active' : ''}" data-category="${cat}">${cat}</button>`;
+  });
+  container.innerHTML = html;
+
+  // Rebind click events
+  container.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentFilter.category = btn.dataset.category;
+      applyFilters();
+    });
+  });
+}
+
+// ============ Polling ============
+
+function startPolling() {
+  setInterval(async () => {
+    try {
+      const latest = await fetchData('latest.json');
+      if (latest.reportDate !== window._currentReportDate) {
+        showUpdateNotification(latest);
+      }
+    } catch (e) {}
+  }, SITE_CONFIG.pollInterval);
+}
+
+function showUpdateNotification(latest) {
+  const existing = document.getElementById('updateNotification');
+  if (existing) existing.remove();
+
+  const banner = document.createElement('div');
+  banner.id = 'updateNotification';
+  banner.className = 'update-notification';
+  banner.innerHTML = `
+    <span>📡 检测到新的风险数据更新</span>
+    <button onclick="refreshDashboard()">立即刷新</button>
+    <button onclick="this.parentElement.remove()" class="btn-dismiss">稍后</button>
+  `;
+  document.body.appendChild(banner);
+  window._pendingUpdate = latest;
+}
+
+async function refreshDashboard() {
+  const notification = document.getElementById('updateNotification');
+  if (notification) notification.remove();
+
+  if (window._pendingUpdate) {
+    const latest = window._pendingUpdate;
+    const newDate = latest.reportDate;
+    if (!availableDates.includes(newDate)) {
+      availableDates.push(newDate);
+      availableDates.sort();
+    }
+    currentDateIndex = availableDates.indexOf(newDate);
+    updateDateDisplay();
+    updateNavButtons();
+    await loadCurrentReport();
+    window._pendingUpdate = null;
+  }
+}
+
+function showError(message) {
+  const container = document.getElementById('statsGrid');
+  if (container) {
+    container.innerHTML = `
+      <div class="empty-state" style="grid-column:1/-1">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        <p>${message}</p>
+      </div>
+    `;
+  }
+}
