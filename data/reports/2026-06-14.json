@@ -1,6 +1,6 @@
 {
   "reportDate": "2026-06-14",
-  "generatedAt": "2026-06-14T07:00:00+08:00",
+  "generatedAt": "2026-06-14T07:45:00+08:00",
   "summary": {
     "total": 5,
     "p0": 0,
@@ -12,15 +12,58 @@
       "id": "POS-001",
       "title": "美伊和平协议今日签署，霍尔木兹海峡将重新开放",
       "summary": "新华社确认美伊和平协议6月14日签署，签署后霍尔木兹海峡立即开放。此前30+航司暂停的中东航线有望2-8周内逐步恢复。",
-      "affectedAirports": ["DXB","DOH","RUH","JED","MCT","TLV","AMM","BAH","KWI"],
-      "affectedAirlines": ["British Airways","Lufthansa","KLM","Air France","Delta","Cathay Pacific","Japan Airlines","Finnair"],
+      "affectedAirports": [
+        "DXB",
+        "DOH",
+        "RUH",
+        "JED",
+        "MCT",
+        "TLV",
+        "AMM",
+        "BAH",
+        "KWI"
+      ],
+      "affectedAirlines": [
+        "British Airways",
+        "Lufthansa",
+        "KLM",
+        "Air France",
+        "Delta",
+        "Cathay Pacific",
+        "Japan Airlines",
+        "Finnair"
+      ],
       "coordinates": [
-        {"code":"DXB","lat":25.2532,"lng":55.3657},
-        {"code":"DOH","lat":25.2731,"lng":51.6081},
-        {"code":"RUH","lat":24.9576,"lng":46.6988},
-        {"code":"JED","lat":21.6796,"lng":39.1565},
-        {"code":"TLV","lat":32.0128,"lng":34.8867},
-        {"code":"AMM","lat":31.7226,"lng":35.9943}
+        {
+          "code": "DXB",
+          "lat": 25.2532,
+          "lng": 55.3657
+        },
+        {
+          "code": "DOH",
+          "lat": 25.2731,
+          "lng": 51.6081
+        },
+        {
+          "code": "RUH",
+          "lat": 24.9576,
+          "lng": 46.6988
+        },
+        {
+          "code": "JED",
+          "lat": 21.6796,
+          "lng": 39.1565
+        },
+        {
+          "code": "TLV",
+          "lat": 32.0128,
+          "lng": 34.8867
+        },
+        {
+          "code": "AMM",
+          "lat": 31.7226,
+          "lng": 35.9943
+        }
       ]
     }
   ],
@@ -32,17 +75,48 @@
       "title": "中国华北华南雷雨影响PEK/PKX/CAN，华南龙舟水持续至19日",
       "summary": "6/13 PEK雷雨启动运管委二级响应，PKX 34%航班未执行，CAN暴雨预警生效，龙舟水集中期13-19日",
       "description": "【起因】6月13日华北华南雷雨天气。\n【影响面】\n- 影响机场：PEK, PKX, CAN, SZX\n- 影响航线：北京进出港国内及东北亚航线、广州/深圳进出港国内及东南亚航线\n- 影响航司：中国国航、东方航空、南方航空、厦门航空等\n- 影响旅客：PKX单日约34%未执行，预估数万级\n- 持续时间：华北已过；华南龙舟水持续至6/19\n- OTA建议：关注14-16日航班动态；华南航线增加退改签灵活度",
-      "affectedAirports": ["PEK","PKX","CAN","SZX"],
-      "affectedAirlines": ["Air China","China Eastern","China Southern","XiamenAir"],
-      "affectedRoutes": ["PEK-ICN","PKX-NRT","CAN-SIN","SZX-BKK"],
+      "affectedAirports": [
+        "PEK",
+        "PKX",
+        "CAN",
+        "SZX"
+      ],
+      "affectedAirlines": [
+        "Air China",
+        "China Eastern",
+        "China Southern",
+        "XiamenAir"
+      ],
+      "affectedRoutes": [
+        "PEK-ICN",
+        "PKX-NRT",
+        "CAN-SIN",
+        "SZX-BKK"
+      ],
       "estimatedPassengers": "约数万级",
       "duration": "华南龙舟水持续至6/19",
       "action": "关注14-16日航班动态；华南航线增加退改签灵活度",
       "coordinates": [
-        {"code":"PEK","lat":40.0799,"lng":116.6031},
-        {"code":"PKX","lat":39.5098,"lng":116.4105},
-        {"code":"CAN","lat":23.3925,"lng":113.2988},
-        {"code":"SZX","lat":22.6394,"lng":113.8146}
+        {
+          "code": "PEK",
+          "lat": 40.0799,
+          "lng": 116.6031
+        },
+        {
+          "code": "PKX",
+          "lat": 39.5098,
+          "lng": 116.4105
+        },
+        {
+          "code": "CAN",
+          "lat": 23.3925,
+          "lng": 113.2988
+        },
+        {
+          "code": "SZX",
+          "lat": 22.6394,
+          "lng": 113.8146
+        }
       ]
     },
     {
@@ -52,15 +126,37 @@
       "title": "比利时6月17日全国总罢工，BRU/CRL机场全部出港航班取消",
       "summary": "比利时6/17全国总罢工，BRU/CRL全部出港取消，涉海南航空BRU-PEK航线",
       "description": "【影响面】\n- 影响机场：BRU, CRL\n- 影响航线：BRU-PEK(HU492), BRU-JFK/EWR, BRU-ADD/NBO\n- 影响航司：Hainan Airlines, Brussels Airlines, Ryanair, TUI fly\n- 影响旅客：约5万+/日\n- 持续时间：6/17全天\n- OTA建议：预警BRU/CRL出港全取消；暂停预售；通知海南航空BRU-PEK旅客",
-      "affectedAirports": ["BRU","CRL"],
-      "affectedAirlines": ["Hainan Airlines","Brussels Airlines","Ryanair","TUI fly"],
-      "affectedRoutes": ["BRU-PEK","BRU-JFK","BRU-EWR","BRU-ADD","BRU-NBO"],
+      "affectedAirports": [
+        "BRU",
+        "CRL"
+      ],
+      "affectedAirlines": [
+        "Hainan Airlines",
+        "Brussels Airlines",
+        "Ryanair",
+        "TUI fly"
+      ],
+      "affectedRoutes": [
+        "BRU-PEK",
+        "BRU-JFK",
+        "BRU-EWR",
+        "BRU-ADD",
+        "BRU-NBO"
+      ],
       "estimatedPassengers": "约5万+/日",
       "duration": "6/17全天",
       "action": "预警BRU/CRL出港取消；暂停预售；通知海南航空BRU-PEK旅客；准备AMS/FRA替代中转",
       "coordinates": [
-        {"code":"BRU","lat":50.9014,"lng":4.4844},
-        {"code":"CRL","lat":50.4655,"lng":4.4657}
+        {
+          "code": "BRU",
+          "lat": 50.9014,
+          "lng": 4.4844
+        },
+        {
+          "code": "CRL",
+          "lat": 50.4655,
+          "lng": 4.4657
+        }
       ]
     },
     {
@@ -70,15 +166,31 @@
       "title": "俄罗斯限制外航在5个机场加油量",
       "summary": "俄罗斯联邦航空署6/13对MRV/MCX/KRR等5个机场外航实施加油限制",
       "description": "【影响面】\n- 影响机场：MRV, MCX, KRR, URWA, GOJ\n- 影响航线：经停上述机场的国际航线\n- 影响航司：在上述机场运营的外国航司\n- 影响旅客：数千级\n- 持续时间：取决于航油供应恢复\n- OTA建议：关注经停MRV/MCX航线调整",
-      "affectedAirports": ["MRV","MCX","KRR","GOJ"],
+      "affectedAirports": [
+        "MRV",
+        "MCX",
+        "KRR",
+        "GOJ"
+      ],
       "affectedAirlines": [],
-      "affectedRoutes": ["MRV-DXB","MCX-DXB"],
+      "affectedRoutes": [
+        "MRV-DXB",
+        "MCX-DXB"
+      ],
       "estimatedPassengers": "约数千",
       "duration": "未明确，取决于航油供应",
       "action": "关注经停MRV/MCX航线调整",
       "coordinates": [
-        {"code":"MRV","lat":44.2253,"lng":43.0797},
-        {"code":"MCX","lat":42.8144,"lng":47.6453}
+        {
+          "code": "MRV",
+          "lat": 44.2253,
+          "lng": 43.0797
+        },
+        {
+          "code": "MCX",
+          "lat": 42.8144,
+          "lng": 47.6453
+        }
       ]
     },
     {
@@ -88,14 +200,25 @@
       "title": "西南航空两架737罗德岛PVD地面碰撞",
       "summary": "6/11西南航空WN3515推出时翼尖撞WN3409尾部，2航班取消，FAA调查中",
       "description": "【影响面】\n- 影响机场：PVD\n- 影响航线：PVD-DCA, PVD-MDW\n- 影响航司：Southwest Airlines\n- 影响旅客：约数百人\n- 持续时间：涉事飞机停飞检查中\n- OTA建议：关注PVD出发的西南航空航班",
-      "affectedAirports": ["PVD"],
-      "affectedAirlines": ["Southwest Airlines"],
-      "affectedRoutes": ["PVD-DCA","PVD-MDW"],
+      "affectedAirports": [
+        "PVD"
+      ],
+      "affectedAirlines": [
+        "Southwest Airlines"
+      ],
+      "affectedRoutes": [
+        "PVD-DCA",
+        "PVD-MDW"
+      ],
       "estimatedPassengers": "约数百人",
       "duration": "涉事飞机停飞检查中",
       "action": "关注PVD出发的西南航空航班动态",
       "coordinates": [
-        {"code":"PVD","lat":41.7239,"lng":-71.4282}
+        {
+          "code": "PVD",
+          "lat": 41.7239,
+          "lng": -71.4282
+        }
       ]
     },
     {
@@ -105,49 +228,219 @@
       "title": "希腊ATC通信故障恢复中",
       "summary": "6/13希腊ATC故障致空域关闭，当前ATH仅6架取消/平均延误20分钟",
       "description": "【影响面】\n- 影响机场：ATH, SKG\n- 影响航线：ATH欧洲干线\n- 影响航司：Aegean Airlines等\n- 影响旅客：已大幅减少，约数千人\n- 持续时间：恢复中\n- OTA建议：监控ATH航班恢复情况",
-      "affectedAirports": ["ATH","SKG"],
-      "affectedAirlines": ["Aegean Airlines"],
-      "affectedRoutes": ["ATH-LHR","ATH-FRA","ATH-CDG"],
+      "affectedAirports": [
+        "ATH",
+        "SKG"
+      ],
+      "affectedAirlines": [
+        "Aegean Airlines"
+      ],
+      "affectedRoutes": [
+        "ATH-LHR",
+        "ATH-FRA",
+        "ATH-CDG"
+      ],
       "estimatedPassengers": "约数千人",
       "duration": "恢复中",
       "action": "监控ATH航班恢复情况",
       "coordinates": [
-        {"code":"ATH","lat":37.8936,"lng":23.9456},
-        {"code":"SKG","lat":40.5194,"lng":22.9708}
+        {
+          "code": "ATH",
+          "lat": 37.8936,
+          "lng": 23.9456
+        },
+        {
+          "code": "SKG",
+          "lat": 40.5194,
+          "lng": 22.9708
+        }
       ]
     }
   ],
   "flightAnomalies": [
-    {"flight":"OS84","route":"TLV→VIE","airline":"Austrian Airlines","status":"CANCELLED","relatedEvent":"P0-001(6/13)"},
-    {"flight":"TK964","route":"IST→ECN","airline":"Turkish Airlines","status":"CANCELLED","relatedEvent":"其他"},
-    {"flight":"TK2232","route":"IST→ASR","airline":"Turkish Airlines","status":"CANCELLED","relatedEvent":"其他"},
-    {"flight":"AK6124","route":"KUL→PEN","airline":"AirAsia","status":"CANCELLED","relatedEvent":"其他"},
-    {"flight":"AK6051","route":"KUL→JHB","airline":"AirAsia","status":"CANCELLED","relatedEvent":"其他"},
-    {"flight":"HO5458","route":"PVG→LZH","airline":"Juneyao Air","status":"CANCELLED","relatedEvent":"P1-001"},
-    {"flight":"MU5203","route":"PVG→LZH","airline":"China Eastern","status":"CANCELLED","relatedEvent":"P1-001"},
-    {"flight":"MF3641","route":"PVG→LZH","airline":"XiamenAir","status":"CANCELLED","relatedEvent":"P1-001"},
-    {"flight":"HU7322","route":"PVG→SYX","airline":"Hainan Airlines","status":"CANCELLED","relatedEvent":"P1-001"},
-    {"flight":"HU7726","route":"PVG→SZX","airline":"Hainan Airlines","status":"CANCELLED","relatedEvent":"P1-001"},
-    {"flight":"EK7438","route":"CAN→KMG","airline":"Emirates","status":"CANCELLED","relatedEvent":"P1-001"},
-    {"flight":"3U1211","route":"CAN→KMG","airline":"Sichuan Airlines","status":"CANCELLED","relatedEvent":"P1-001"},
-    {"flight":"HU7161","route":"CAN→HGH","airline":"Hainan Airlines","status":"CANCELLED","relatedEvent":"P1-001"},
-    {"flight":"QF3625","route":"CAN→KMG","airline":"Qantas","status":"CANCELLED","relatedEvent":"P1-001"},
-    {"flight":"CZ3497","route":"CAN→KMG","airline":"China Southern","status":"CANCELLED","relatedEvent":"P1-001"},
-    {"flight":"MF7729","route":"SZX→PKX","airline":"XiamenAir","status":"CANCELLED","relatedEvent":"P1-001"},
-    {"flight":"MU6662","route":"SZX→PKX","airline":"China Eastern","status":"CANCELLED","relatedEvent":"P1-001"},
-    {"flight":"EY5937","route":"SZX→PKX","airline":"Etihad","status":"CANCELLED","relatedEvent":"P1-001"},
-    {"flight":"AI8051","route":"BOM→NBO","airline":"Air India","status":"CANCELLED","relatedEvent":"其他"},
-    {"flight":"AC1049","route":"ORD→YVR","airline":"Air Canada","status":"CANCELLED","relatedEvent":"其他"},
-    {"flight":"UA8192","route":"ORD→YVR","airline":"United Airlines","status":"CANCELLED","relatedEvent":"其他"},
-    {"flight":"MS850","route":"NBO→CAI","airline":"EgyptAir","status":"CANCELLED","relatedEvent":"其他"}
+    {
+      "flight": "OS84",
+      "route": "TLV→VIE",
+      "airline": "Austrian Airlines",
+      "status": "CANCELLED",
+      "relatedEvent": "P0-001(6/13)"
+    },
+    {
+      "flight": "TK964",
+      "route": "IST→ECN",
+      "airline": "Turkish Airlines",
+      "status": "CANCELLED",
+      "relatedEvent": "其他"
+    },
+    {
+      "flight": "TK2232",
+      "route": "IST→ASR",
+      "airline": "Turkish Airlines",
+      "status": "CANCELLED",
+      "relatedEvent": "其他"
+    },
+    {
+      "flight": "AK6124",
+      "route": "KUL→PEN",
+      "airline": "AirAsia",
+      "status": "CANCELLED",
+      "relatedEvent": "其他"
+    },
+    {
+      "flight": "AK6051",
+      "route": "KUL→JHB",
+      "airline": "AirAsia",
+      "status": "CANCELLED",
+      "relatedEvent": "其他"
+    },
+    {
+      "flight": "HO5458",
+      "route": "PVG→LZH",
+      "airline": "Juneyao Air",
+      "status": "CANCELLED",
+      "relatedEvent": "P1-001"
+    },
+    {
+      "flight": "MU5203",
+      "route": "PVG→LZH",
+      "airline": "China Eastern",
+      "status": "CANCELLED",
+      "relatedEvent": "P1-001"
+    },
+    {
+      "flight": "MF3641",
+      "route": "PVG→LZH",
+      "airline": "XiamenAir",
+      "status": "CANCELLED",
+      "relatedEvent": "P1-001"
+    },
+    {
+      "flight": "HU7322",
+      "route": "PVG→SYX",
+      "airline": "Hainan Airlines",
+      "status": "CANCELLED",
+      "relatedEvent": "P1-001"
+    },
+    {
+      "flight": "HU7726",
+      "route": "PVG→SZX",
+      "airline": "Hainan Airlines",
+      "status": "CANCELLED",
+      "relatedEvent": "P1-001"
+    },
+    {
+      "flight": "EK7438",
+      "route": "CAN→KMG",
+      "airline": "Emirates",
+      "status": "CANCELLED",
+      "relatedEvent": "P1-001"
+    },
+    {
+      "flight": "3U1211",
+      "route": "CAN→KMG",
+      "airline": "Sichuan Airlines",
+      "status": "CANCELLED",
+      "relatedEvent": "P1-001"
+    },
+    {
+      "flight": "HU7161",
+      "route": "CAN→HGH",
+      "airline": "Hainan Airlines",
+      "status": "CANCELLED",
+      "relatedEvent": "P1-001"
+    },
+    {
+      "flight": "QF3625",
+      "route": "CAN→KMG",
+      "airline": "Qantas",
+      "status": "CANCELLED",
+      "relatedEvent": "P1-001"
+    },
+    {
+      "flight": "CZ3497",
+      "route": "CAN→KMG",
+      "airline": "China Southern",
+      "status": "CANCELLED",
+      "relatedEvent": "P1-001"
+    },
+    {
+      "flight": "MF7729",
+      "route": "SZX→PKX",
+      "airline": "XiamenAir",
+      "status": "CANCELLED",
+      "relatedEvent": "P1-001"
+    },
+    {
+      "flight": "MU6662",
+      "route": "SZX→PKX",
+      "airline": "China Eastern",
+      "status": "CANCELLED",
+      "relatedEvent": "P1-001"
+    },
+    {
+      "flight": "EY5937",
+      "route": "SZX→PKX",
+      "airline": "Etihad",
+      "status": "CANCELLED",
+      "relatedEvent": "P1-001"
+    },
+    {
+      "flight": "AI8051",
+      "route": "BOM→NBO",
+      "airline": "Air India",
+      "status": "CANCELLED",
+      "relatedEvent": "其他"
+    },
+    {
+      "flight": "AC1049",
+      "route": "ORD→YVR",
+      "airline": "Air Canada",
+      "status": "CANCELLED",
+      "relatedEvent": "其他"
+    },
+    {
+      "flight": "UA8192",
+      "route": "ORD→YVR",
+      "airline": "United Airlines",
+      "status": "CANCELLED",
+      "relatedEvent": "其他"
+    },
+    {
+      "flight": "MS850",
+      "route": "NBO→CAI",
+      "airline": "EgyptAir",
+      "status": "CANCELLED",
+      "relatedEvent": "其他"
+    }
   ],
   "sources": [
-    {"name":"新华社(美伊协议)","url":"http://www.xinhuanet.com/20260614/6205c8f9abc94a7e9cbfa33a747fe130/c.html"},
-    {"name":"Arab News","url":"https://www.arabnews.com/node/2647023/middle-east"},
-    {"name":"RTE","url":"https://www.rte.ie/news/middle-east/2026/0613/1578223-middle-east/"},
-    {"name":"新华社(俄罗斯加油)","url":"http://www.chinaview.cn/europe/20260613/4d5832fce7364ff7bc22054309937503/c.html"},
-    {"name":"央视新闻(雷雨)","url":"https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=875882980705261804"},
-    {"name":"京报网","url":"https://news.bjd.com.cn/2026/06/13/11805087.shtml"},
-    {"name":"AirLabs API","url":"https://airlabs.co/"}
+    {
+      "name": "新华社(美伊协议)",
+      "url": "http://www.xinhuanet.com/20260614/6205c8f9abc94a7e9cbfa33a747fe130/c.html"
+    },
+    {
+      "name": "Arab News",
+      "url": "https://www.arabnews.com/node/2647023/middle-east"
+    },
+    {
+      "name": "RTE",
+      "url": "https://www.rte.ie/news/middle-east/2026/0613/1578223-middle-east/"
+    },
+    {
+      "name": "新华社(俄罗斯加油)",
+      "url": "http://www.chinaview.cn/europe/20260613/4d5832fce7364ff7bc22054309937503/c.html"
+    },
+    {
+      "name": "央视新闻(雷雨)",
+      "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=875882980705261804"
+    },
+    {
+      "name": "京报网",
+      "url": "https://news.bjd.com.cn/2026/06/13/11805087.shtml"
+    },
+    {
+      "name": "AirLabs API",
+      "url": "https://airlabs.co/"
+    }
   ]
 }
