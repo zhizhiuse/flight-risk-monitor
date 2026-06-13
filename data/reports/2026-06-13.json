@@ -1,10 +1,10 @@
 {
   "reportDate": "2026-06-13",
-  "generatedAt": "2026-06-13T07:44:01+08:00",
+  "generatedAt": "2026-06-13T15:45:00+08:00",
   "summary": {
-    "total": 6,
+    "total": 7,
     "p0": 1,
-    "p1": 2,
+    "p1": 3,
     "p2": 3
   },
   "events": [
@@ -13,482 +13,186 @@
       "priority": "P0",
       "category": "地缘政治",
       "title": "中东航线暂停范围大面积扩大，英航永久取消吉达，汉莎暂停8个目的地至10月底，达美延长至12月",
-      "summary": "伊朗战争持续，全球十余家航司更新中东航线暂停计划：英航永久取消JED目的地，汉莎集团暂停8个中东目的地至10月24日，达美ATL-TLV延至12月18日，国泰HKG-DXB/RUH暂停至8月底",
-      "description": "【起因】伊朗战争持续，中东空域安全环境恶化，EASA CZIBs持续覆盖中东11国飞行情报区。6月12日路透社综合报道显示全球十余家航司更新了中东航线暂停计划，暂停范围和时长显著扩大。\n【原因】伊朗-海湾国家军事冲突导致波斯湾至东地中海大片空域持续为潜在军事行动区域，航司基于安全评估主动延长航线暂停周期。英航因JED航线长期不可行而永久取消该目的地，为本次升级中最重大决策。\n【影响面】\n- 影响机场：JED, DXB, DOH, RUH, TLV, AMM, BAH, AUH, BEY, DMM, EBL, MCT, IKA\n- 影响航线：LHR-DXB/DOH/RUH/TLV/AMM/BAH, FRA-DXB/TLV, ATL-TLV, JFK-TLV, HKG-DXB/RUH, NRT-DOH, HEL-DOH, AMS-DXB/RUH/DMM, CDG-TLV/BEY/DXB等欧洲/亚太/北美-中东跨洲航线\n- 影响航司：British Airways, Lufthansa, ITA Airways, 瑞士航空, 布鲁塞尔航空, 欧洲之翼, KLM, Air France, 爱琴海航空, 波罗的海航空, 欧罗巴航空, 国泰航空, 日本航空, 芬兰航空, 达美航空\n- 影响旅客：约30万+/日（13个机场暂停航线覆盖，含中转旅客影响更大）\n- 持续时间：多数航线暂停至2026年8-10月，达美ATL-TLV至12月18日，英航JED永久取消\n- OTA建议：立即下架英航JED航线及中转产品；更新汉莎/BA/达美等航司中东航线暂停日期至系统；关注7月1日汉莎/ITA特拉维夫复飞销售窗口；国泰DXB/RUH暂停影响香港中转产品需调整；暂停达美BOS-TLV预售\n【当前进展】英航JED永久取消为首次有航司做出永久性退出决定。汉莎/ITA计划7月1日复飞TLV。达美JFK-TLV计划9月6日复飞。芬兰航空继续绕飞伊拉克/伊朗/叙利亚/以色列领空。\n【OTA影响】中东航线运力大幅缩减，替代中转方案(IST等)需求激增。英航JED永久退出后沙特市场需评估替代运力。国泰DXB/RUH暂停直接影响香港-中东中转产品。欧洲-中东航线票价预计持续上涨。",
-      "affectedAirports": [
-        "JED",
-        "DXB",
-        "DOH",
-        "RUH",
-        "TLV",
-        "AMM",
-        "BAH",
-        "AUH",
-        "BEY",
-        "DMM",
-        "EBL",
-        "MCT",
-        "IKA"
-      ],
-      "affectedAirlines": [
-        "British Airways",
-        "Lufthansa",
-        "ITA Airways",
-        "Swiss",
-        "Brussels Airlines",
-        "Eurowings",
-        "KLM",
-        "Air France",
-        "Aegean Airlines",
-        "Air Baltic",
-        "Air Europa",
-        "Cathay Pacific",
-        "Japan Airlines",
-        "Finnair",
-        "Delta Air Lines"
-      ],
-      "affectedRoutes": [
-        "LHR-DXB",
-        "LHR-DOH",
-        "LHR-RUH",
-        "LHR-TLV",
-        "LHR-AMM",
-        "LHR-BAH",
-        "FRA-DXB",
-        "FRA-TLV",
-        "ATL-TLV",
-        "JFK-TLV",
-        "HKG-DXB",
-        "HKG-RUH",
-        "NRT-DOH",
-        "HEL-DOH",
-        "AMS-DXB",
-        "AMS-RUH",
-        "AMS-DMM",
-        "CDG-TLV",
-        "CDG-BEY",
-        "CDG-DXB"
-      ],
+      "summary": "伊朗战争持续，全球十余家航司更新中东航线暂停计划：英航永久取消JED目的地，汉莎集团暂停8个中东目的地至10月24日，达美ATL-TLV延至12月18日，国泰HKG-DXB/RUH暂停至8月底。燃油危机蔓延至美国国内航线。",
+      "description": "【起因】伊朗战争持续，中东空域安全环境恶化，EASA CZIBs持续覆盖中东11国飞行情报区。\n【原因】伊朗-海湾国家军事冲突导致波斯湾至东地中海大片空域持续为潜在军事行动区域。英航因JED航线长期不可行而永久取消该目的地。\n【影响面】\n- 影响机场：JED, DXB, DOH, RUH, TLV, AMM, BAH, AUH, BEY, DMM, EBL, MCT, IKA\n- 影响航线：LHR-DXB/DOH/RUH/TLV/AMM/BAH, FRA-DXB/TLV, ATL-TLV, JFK-TLV, HKG-DXB/RUH等跨洲航线\n- 影响航司：BA, LH, ITA, Swiss, Brussels, EW, KL, AF, Aegean, Air Baltic, Air Europa, CX, JL, AY, DL\n- 影响旅客：约30万+/日\n- 持续时间：多数至2026年8-10月，ATL-TLV至12月18日，JED永久取消\n- OTA建议：立即下架英航JED航线及中转产品；更新各航司暂停日期；关注7月1日TLV复飞窗口；调整国泰中转产品\n【⚠️ 燃油危机升级】美航暂停6条国内航线(见P1-003)，非洲/中亚航司被迫审查航线(见P2-002)。",
+      "affectedAirports": ["JED","DXB","DOH","RUH","TLV","AMM","BAH","AUH","BEY","DMM","EBL","MCT","IKA"],
+      "affectedAirlines": ["British Airways","Lufthansa","ITA Airways","Swiss","Brussels Airlines","Eurowings","KLM","Air France","Aegean Airlines","Air Baltic","Air Europa","Cathay Pacific","Japan Airlines","Finnair","Delta Air Lines"],
+      "affectedRoutes": ["LHR-DXB","LHR-DOH","LHR-RUH","LHR-TLV","LHR-AMM","LHR-BAH","FRA-DXB","FRA-TLV","ATL-TLV","JFK-TLV","HKG-DXB","HKG-RUH","NRT-DOH","HEL-DOH","AMS-DXB","AMS-RUH","AMS-DMM","CDG-TLV","CDG-BEY","CDG-DXB"],
       "estimatedPassengers": "约30万+/日",
       "duration": "多数至2026年8-10月，ATL-TLV至12月18日，JED永久取消",
-      "action": "立即下架英航JED航线；更新各航司暂停日期；关注7月1日TLV复飞；调整国泰中转产品；暂停达美BOS-TLV预售",
+      "action": "立即下架英航JED航线；更新各航司暂停日期；关注7月1日TLV复飞；调整国泰中转产品",
       "coordinates": [
-        {
-          "code": "JED",
-          "lat": 21.6796,
-          "lng": 39.1565
-        },
-        {
-          "code": "DXB",
-          "lat": 25.2532,
-          "lng": 55.3657
-        },
-        {
-          "code": "DOH",
-          "lat": 25.2731,
-          "lng": 51.6081
-        },
-        {
-          "code": "RUH",
-          "lat": 24.9576,
-          "lng": 46.6988
-        },
-        {
-          "code": "TLV",
-          "lat": 32.0128,
-          "lng": 34.8867
-        },
-        {
-          "code": "AMM",
-          "lat": 31.7226,
-          "lng": 35.9943
-        },
-        {
-          "code": "BAH",
-          "lat": 26.2702,
-          "lng": 50.6336
-        },
-        {
-          "code": "AUH",
-          "lat": 24.433,
-          "lng": 54.6511
-        },
-        {
-          "code": "LHR",
-          "lat": 51.47,
-          "lng": -0.4543
-        },
-        {
-          "code": "FRA",
-          "lat": 50.0379,
-          "lng": 8.5622
-        },
-        {
-          "code": "ATL",
-          "lat": 33.6407,
-          "lng": -84.4277
-        },
-        {
-          "code": "JFK",
-          "lat": 40.6413,
-          "lng": -73.7781
-        },
-        {
-          "code": "HKG",
-          "lat": 22.308,
-          "lng": 113.9185
-        },
-        {
-          "code": "NRT",
-          "lat": 35.7647,
-          "lng": 140.3864
-        },
-        {
-          "code": "AMS",
-          "lat": 52.3105,
-          "lng": 4.7683
-        },
-        {
-          "code": "CDG",
-          "lat": 49.0097,
-          "lng": 2.5479
-        }
+        {"code":"JED","lat":21.6796,"lng":39.1565},
+        {"code":"DXB","lat":25.2532,"lng":55.3657},
+        {"code":"DOH","lat":25.2731,"lng":51.6081},
+        {"code":"RUH","lat":24.9576,"lng":46.6988},
+        {"code":"TLV","lat":32.0128,"lng":34.8867},
+        {"code":"AMM","lat":31.7226,"lng":35.9943},
+        {"code":"BAH","lat":26.2702,"lng":50.6336},
+        {"code":"AUH","lat":24.433,"lng":54.6511},
+        {"code":"LHR","lat":51.47,"lng":-0.4543},
+        {"code":"FRA","lat":50.0379,"lng":8.5622},
+        {"code":"ATL","lat":33.6407,"lng":-84.4277},
+        {"code":"JFK","lat":40.6413,"lng":-73.7781},
+        {"code":"HKG","lat":22.308,"lng":113.9185},
+        {"code":"NRT","lat":35.7647,"lng":140.3864},
+        {"code":"AMS","lat":52.3105,"lng":4.7683},
+        {"code":"CDG","lat":49.0097,"lng":2.5479}
       ]
     },
     {
       "id": "P1-001",
       "priority": "P1",
       "category": "航司运营异常",
-      "title": "easyJet意大利员工6月13日18小时全国罢工，维罗纳空管同步罢工",
-      "summary": "easyJet意大利籍飞行员和空乘6月13日06:00-24:00举行18小时全国罢工，叠加维罗纳空管、卡利亚里地勤、米兰利纳特地勤多岗位罢工",
-      "description": "【起因】意大利基础设施与交通部确认easyJet意大利籍飞行员和空乘人员将于6月13日06:00-24:00举行为期18小时的全国罢工。\n【原因】劳资纠纷，easyJet意大利员工工作条件与薪酬争议未达成协议。同日意大利多个机场其他岗位罢工叠加：维罗纳VRN空管罢工18小时，卡利亚里CAG地勤及安保罢工18小时，米兰利纳特LIN地勤罢工4小时(12:00-16:00)。\n【影响面】\n- 影响机场：VRN, CAG, LIN, MXP, FCO, NAP, VCE等意大利主要机场\n- 影响航线：easyJet意大利境内航线(MXP-NAP, FCO-CTA等)及国际航线(MXP-LHR, FCO-CDG, VCE-AMS等)\n- 影响航司：easyJet (EZY)\n- 影响旅客：约1.5-3万/日（easyJet意大利日运量约150-200班，罢工预计取消60-80%）\n- 持续时间：6月13日06:00-24:00（18小时）\n- OTA建议：暂停easyJet意大利航线6月13日当日预售；联系已购票旅客提供改期或退票选项；关注维罗纳空管罢工对其他航司经VRN航线的影响\n【当前进展】罢工已确认，easyJet尚未公布具体取消航班列表。意大利保护航班时段(07:00-10:00及18:00-21:00)可能部分保留。\n【OTA影响】easyJet意大利航线今日大面积取消，VRN空管罢工影响波及经VRN的所有航司航班。",
-      "affectedAirports": [
-        "VRN",
-        "CAG",
-        "LIN",
-        "AMS"
-      ],
-      "affectedAirlines": [
-        "easyJet"
-      ],
-      "affectedRoutes": [
-        "MXP-NAP",
-        "FCO-CTA",
-        "MXP-LHR",
-        "FCO-CDG",
-        "VCE-AMS",
-        "AMS-VRN"
-      ],
+      "title": "easyJet意大利员工6月13日18小时全国罢工",
+      "summary": "easyJet意大利籍飞行员和空乘6月13日06:00-24:00举行18小时全国罢工，叠加维罗纳空管、卡利亚里地勤多岗位罢工",
+      "description": "【起因】劳资纠纷，easyJet意大利员工工作条件与薪酬争议。\n【影响面】\n- 影响机场：VRN, CAG, LIN, MXP, FCO, NAP, VCE\n- 影响航线：MXP-NAP, FCO-CTA, MXP-LHR, FCO-CDG, VCE-AMS等\n- 影响航司：easyJet (EZY)\n- 影响旅客：约1.5-3万/日\n- 持续时间：6/13 06:00-24:00 (18小时)\n- OTA建议：暂停easyJet意大利6/13预售；联系已购票旅客改期/退票",
+      "affectedAirports": ["VRN","CAG","LIN","AMS"],
+      "affectedAirlines": ["easyJet"],
+      "affectedRoutes": ["MXP-NAP","FCO-CTA","MXP-LHR","FCO-CDG","VCE-AMS","AMS-VRN"],
       "estimatedPassengers": "约1.5-3万/日",
       "duration": "6/13 06:00-24:00 (18小时)",
       "action": "暂停easyJet意大利6/13预售；联系已购票旅客改期/退票；关注VRN空管罢工影响",
       "coordinates": [
-        {
-          "code": "VRN",
-          "lat": 45.3957,
-          "lng": 10.8885
-        },
-        {
-          "code": "CAG",
-          "lat": 39.2513,
-          "lng": 9.053
-        },
-        {
-          "code": "LIN",
-          "lat": 45.4451,
-          "lng": 9.2767
-        },
-        {
-          "code": "AMS",
-          "lat": 52.3105,
-          "lng": 4.7683
-        }
+        {"code":"VRN","lat":45.3957,"lng":10.8885},
+        {"code":"CAG","lat":39.2513,"lng":9.053},
+        {"code":"LIN","lat":45.4451,"lng":9.2767},
+        {"code":"AMS","lat":52.3105,"lng":4.7683}
       ]
     },
     {
       "id": "P1-002",
       "priority": "P1",
       "category": "航司运营异常",
-      "title": "巴黎CDG/ORY/LBG三大机场6月18日地勤24小时罢工",
+      "title": "巴黎CDG/ORY三大机场6月18日地勤24小时罢工",
       "summary": "法国四大工会宣布6月18日在巴黎三大机场举行24小时地勤罢工，涉及行李搬运、值机、清洁等地面运营岗位",
-      "description": "【起因】法国CGT、CFDT、Unsa、Sud Aérien四大工会正式宣布6月18日在巴黎戴高乐(CDG)、奥利(ORY)、勒布尔歇(LBG)三机场举行24小时地勤罢工。\n【原因】安全通行证发放与续签规则收紧，地勤人员通行证审查趋严导致大量员工无法正常上岗，引发劳资矛盾激化。\n【影响面】\n- 影响机场：CDG, ORY, LBG\n- 影响航线：CDG/ORY出发及到达的所有航线（欧洲、跨洲），含CDG-PVG/PEK等中国航线\n- 影响航司：Air France, British Airways, easyJet, Ryanair等运营巴黎航线航司\n- 影响旅客：约8-12万/日（CDG日吞吐约20万+，ORY约5万+，罢工预计影响40-50%运营）\n- 持续时间：6月18日00:00-24:00（24小时）\n- OTA建议：预警6月18日CDG/ORY相关航线；暂停当日巴黎出发航班的超额预售；提前通知已购票旅客可能的延误/取消风险；准备替代方案(布鲁塞尔/阿姆斯特丹中转)\n【当前进展】四大工会已正式宣布，法航等尚未公布具体航班调整计划。法国政府可能启动最低服务令(LSP)要求部分航班继续运营。\n【OTA影响】CDG为欧洲最大枢纽之一，罢工将严重冲击欧洲及跨洲航线运营。中国-巴黎航线(AF/PV/MU)可能受影响。需提前5天预警旅客。",
-      "affectedAirports": [
-        "CDG",
-        "ORY"
-      ],
-      "affectedAirlines": [
-        "Air France",
-        "British Airways",
-        "easyJet",
-        "Ryanair"
-      ],
-      "affectedRoutes": [
-        "CDG-JFK",
-        "CDG-LHR",
-        "CDG-DXB",
-        "CDG-PEK",
-        "CDG-PVG",
-        "ORY-BCN",
-        "ORY-MAD",
-        "CDG-FRA",
-        "CDG-AMS"
-      ],
+      "description": "【起因】安全通行证发放与续签规则收紧，地勤人员通行证审查趋严引发劳资矛盾。\n【影响面】\n- 影响机场：CDG, ORY\n- 影响航线：CDG-JFK/LHR/DXB/PEK/PVG, ORY-BCN/MAD, CDG-FRA/AMS等\n- 影响航司：Air France, BA, easyJet, Ryanair\n- 影响旅客：约8-12万/日\n- 持续时间：6/18 00:00-24:00 (24小时)\n- OTA建议：预警6/18 CDG/ORY航线；暂停超额预售；准备BRU/AMS替代中转",
+      "affectedAirports": ["CDG","ORY"],
+      "affectedAirlines": ["Air France","British Airways","easyJet","Ryanair"],
+      "affectedRoutes": ["CDG-JFK","CDG-LHR","CDG-DXB","CDG-PEK","CDG-PVG","ORY-BCN","ORY-MAD","CDG-FRA","CDG-AMS"],
       "estimatedPassengers": "约8-12万/日",
       "duration": "6/18 00:00-24:00 (24小时)",
       "action": "预警6/18 CDG/ORY航线；暂停超额预售；通知已购票旅客；准备BRU/AMS替代中转",
       "coordinates": [
-        {
-          "code": "CDG",
-          "lat": 49.0097,
-          "lng": 2.5479
-        },
-        {
-          "code": "ORY",
-          "lat": 48.7234,
-          "lng": 2.3796
-        }
+        {"code":"CDG","lat":49.0097,"lng":2.5479},
+        {"code":"ORY","lat":48.7234,"lng":2.3796}
+      ]
+    },
+    {
+      "id": "P1-003",
+      "priority": "P1",
+      "category": "地缘政治",
+      "title": "美国航空暂停6条国内航线(8/5起)，美航司因伊朗战争燃油成本削减运力",
+      "summary": "伊朗战争推高航油价格，美国航空确认8月5日起暂停6条国内航线(LAX-CLE/CMH/PIT/IAD等)，达美/联合/捷蓝亦在削减运力，美参议院已关注",
+      "description": "【起因】伊朗战争推高航油价格，美国航司成本压力增大被迫削减低利润航线。\n【影响面】\n- 影响机场：LAX, CLE, CMH, PIT, IAD\n- 影响航线：LAX-CLE, LAX-CMH, LAX-PIT, LAX-IAD等6条美国国内航线\n- 影响航司：American Airlines(暂停航线)；Delta, United, JetBlue(同步削减运力)\n- 影响旅客：约3000-5000/日\n- 持续时间：8月5日-10月5日(2个月)\n- OTA建议：更新美航8/5后相关航线产品；关注达美/联合后续调整；监控美国国内线票价趋势",
+      "affectedAirports": ["LAX","CLE","CMH","PIT","IAD"],
+      "affectedAirlines": ["American Airlines","Delta Air Lines","United Airlines","JetBlue"],
+      "affectedRoutes": ["LAX-CLE","LAX-CMH","LAX-PIT","LAX-IAD"],
+      "estimatedPassengers": "约3000-5000/日",
+      "duration": "8月5日-10月5日(2个月)",
+      "action": "更新美航8/5后相关航线产品；关注达美/联合后续调整；监控美国国内线票价趋势",
+      "coordinates": [
+        {"code":"LAX","lat":33.9425,"lng":-118.4081},
+        {"code":"CLE","lat":41.4117,"lng":-81.8498},
+        {"code":"CMH","lat":39.998,"lng":-82.8919},
+        {"code":"PIT","lat":40.4915,"lng":-80.2329},
+        {"code":"IAD","lat":38.9531,"lng":-77.4565}
       ]
     },
     {
       "id": "P2-001",
       "priority": "P2",
       "category": "航司运营异常",
-      "title": "利比亚泛非航空因无机队可用全面停运",
-      "summary": "利比亚泛非航空(Afriqiyah Airways)因无适航飞机可用，管理层已暂停所有航班运营",
-      "description": "【起因】利比亚泛非航空(Afriqiyah Airways, IATA代码8U)因无适航飞机可用，管理层通过正式指令暂停所有航班运营。\n【原因】机队维护不力导致无适航飞机可用，反映该航司长期经营困难和管理问题。开罗机场已有利比亚旅客报告航班延误且无航司代表出面处理。\n【影响面】\n- 影响机场：MJI, CAI, IST\n- 影响航线：MJI-CAI, MJI-IST等北非及中东航线\n- 影响航司：Afriqiyah Airways (8U)\n- 影响旅客：约500-1000/日（泛非航空运力较小）\n- 持续时间：无限期，取决于机队维修恢复进度\n- OTA建议：下架泛非航空所有航线产品；联系已购票旅客安排改签或退票\n【当前进展】停运已生效，开罗机场旅客滞留。无复航时间表。\n【OTA影响】影响有限，泛非航空运力较小，主要影响利比亚-埃及/土耳其航线。",
-      "affectedAirports": [
-        "MJI",
-        "CAI",
-        "IST"
-      ],
-      "affectedAirlines": [
-        "Afriqiyah Airways"
-      ],
-      "affectedRoutes": [
-        "MJI-CAI",
-        "MJI-IST"
-      ],
+      "title": "利比亚泛非航空因无机队全面停运",
+      "summary": "利比亚泛非航空因无适航飞机可用，管理层已暂停所有航班运营",
+      "description": "【影响面】\n- 影响机场：MJI, CAI, IST\n- 影响航线：MJI-CAI, MJI-IST\n- 影响航司：Afriqiyah Airways (8U)\n- 影响旅客：约500-1000/日\n- 持续时间：无限期\n- OTA建议：下架泛非航空所有航线产品；联系已购票旅客改签/退票",
+      "affectedAirports": ["MJI","CAI","IST"],
+      "affectedAirlines": ["Afriqiyah Airways"],
+      "affectedRoutes": ["MJI-CAI","MJI-IST"],
       "estimatedPassengers": "约500-1000/日",
       "duration": "无限期，取决于机队恢复",
       "action": "下架泛非航空所有航线产品；联系已购票旅客改签/退票",
       "coordinates": [
-        {
-          "code": "MJI",
-          "lat": 32.6635,
-          "lng": 13.1603
-        },
-        {
-          "code": "CAI",
-          "lat": 30.1219,
-          "lng": 31.4056
-        },
-        {
-          "code": "IST",
-          "lat": 41.2753,
-          "lng": 28.7519
-        }
+        {"code":"MJI","lat":32.6635,"lng":13.1603},
+        {"code":"CAI","lat":30.1219,"lng":31.4056},
+        {"code":"IST","lat":41.2753,"lng":28.7519}
       ]
     },
     {
       "id": "P2-002",
       "priority": "P2",
-      "category": "航空安全",
-      "title": "尼日利亚Asaba机场公务机公路降落事件，NCAA停飞涉事飞机并逮捕机组",
-      "summary": "一架庞巴迪CL-601公务机在Asaba机场复飞后降落在附近高速公路，停留3.5小时后未经许可擅自起飞，NCAA已停飞飞机并逮捕机组",
-      "description": "【起因】一架庞巴迪挑战者CL-601公务机(注册号N989BC)在Asaba机场执行复飞后降落在Ogwashi-Uku附近高速公路施工路面。\n【原因】进近失败后复飞，但飞行员选择在公路降落。停留约3.5小时后未经监管许可擅自起飞返回拉各斯，构成严重运行安全违规。\n【影响面】\n- 影响机场：ABB (Asaba)\n- 影响航线：无商业航线受影响\n- 影响航司：VMO Aero Limited（公务机运营商，非商业航司）\n- 影响旅客：约10人（机上人员）\n- 持续时间：事件已处理，运营商许可已暂停\n- OTA建议：无需OTA行动，该事件为公务机运营事件，不影响商业航班\n【当前进展】NCAA已停飞涉事飞机，暂停运营商PNCF许可，机组已被逮捕。NSIB已回收黑匣子展开调查。航空部长已下令调查。\n【OTA影响】无商业航班影响。",
-      "affectedAirports": [],
-      "affectedAirlines": [
-        "VMO Aero Limited"
-      ],
-      "affectedRoutes": [],
-      "estimatedPassengers": "约10人",
-      "duration": "事件已处理，调查进行中",
-      "action": "无需OTA行动，不影响商业航班",
-      "coordinates": []
+      "category": "地缘政治",
+      "title": "非洲及中亚航司因燃油危机削减航线",
+      "summary": "AP报道非洲航空协会警告燃油危机影响严峻；乌兹别克斯坦航空因燃油短缺削减俄罗斯航线频次",
+      "description": "【影响面】\n- 影响机场：非洲多机场, TAS(塔什干)\n- 影响航线：乌兹别克斯坦-莫斯科/圣彼得堡航线，非洲内部航线(审查中)\n- 影响航司：Uzbekistan Airways, 非洲多航司(AFRAA成员)\n- 影响旅客：单个航司约1000-3000/日\n- 持续时间：取决于霍尔木兹海峡局势\n- OTA建议：监控乌兹别克斯坦航空调整；关注AFRAA后续削减清单",
+      "affectedAirports": ["TAS"],
+      "affectedAirlines": ["Uzbekistan Airways","AFRAA成员航司"],
+      "affectedRoutes": ["TAS-SVO","TAS-LED"],
+      "estimatedPassengers": "约1000-3000/日(单个航司)",
+      "duration": "取决于霍尔木兹海峡局势和航油价格",
+      "action": "监控乌兹别克斯坦航空调整；关注AFRAA后续削减清单",
+      "coordinates": [
+        {"code":"TAS","lat":41.2579,"lng":69.2824}
+      ]
     },
     {
       "id": "P2-003",
       "priority": "P2",
       "category": "极端天气",
-      "title": "越南胡志明市SGN机场雷暴致多航班备降，已恢复正常",
-      "summary": "6月11日晚SGN遭强雷暴，越南航空等多航司6个进港航班备降金边及国内机场，已恢复正常运营",
-      "description": "【起因】6月11日晚间大范围雷暴天气席卷胡志明市，导致新山一国际机场(SGN)起降作业严重受阻。\n【原因】季风季节雷暴天气，SGN长期超负荷运营加剧了天气影响。\n【影响面】\n- 影响机场：SGN\n- 影响航线：HAN-SGN, KUL-SGN, VII-SGN等国内及东南亚区域航线\n- 影响航司：Vietnam Airlines, Sun PhuQuoc Airways\n- 影响旅客：约800-1200人（6个备降航班）\n- 持续时间：6/11晚间约3-4小时，6/12已恢复正常\n- OTA建议：无需OTA行动，已恢复正常运营\n【当前进展】6月12日已恢复正常运营。部分航班延误超1小时后恢复。\n【OTA影响】影响已消除，无需额外操作。",
-      "affectedAirports": [
-        "SGN"
-      ],
-      "affectedAirlines": [
-        "Vietnam Airlines",
-        "Sun PhuQuoc Airways"
-      ],
-      "affectedRoutes": [
-        "HAN-SGN",
-        "KUL-SGN",
-        "VII-SGN"
-      ],
-      "estimatedPassengers": "约800-1200人",
-      "duration": "6/11晚间3-4小时，已恢复",
-      "action": "无需OTA行动，已恢复正常",
+      "title": "印度季风暴雨冲击HYD/DEL两大枢纽",
+      "summary": "印度季风暴雨连续两日影响海得拉巴(HYD)和德里(DEL)机场，累计17个航班备降、1个取消",
+      "description": "【影响面】\n- 影响机场：HYD, DEL\n- 影响航线：DEL-HYD, SIN-HYD, BOM-HYD, DEL进港航线等\n- 影响航司：IndiGo, Air India, Star Air\n- 影响旅客：约2000-3000人\n- 持续时间：季风持续中，IMD对DEL/HYD/CCU发布黄色预警\n- OTA建议：监控HYD/DEL航班动态；通知印度航线旅客可能的延误",
+      "affectedAirports": ["HYD","DEL"],
+      "affectedAirlines": ["IndiGo","Air India","Star Air"],
+      "affectedRoutes": ["DEL-HYD","SIN-HYD","BOM-HYD"],
+      "estimatedPassengers": "约2000-3000人",
+      "duration": "季风持续中，IMD黄色预警",
+      "action": "监控HYD/DEL航班动态；通知印度航线旅客可能的延误",
       "coordinates": [
-        {
-          "code": "SGN",
-          "lat": 10.8188,
-          "lng": 106.652
-        }
+        {"code":"HYD","lat":17.2403,"lng":78.4294},
+        {"code":"DEL","lat":28.5562,"lng":77.1}
       ]
     }
   ],
   "flightAnomalies": [
-    {
-      "flight": "AC6173",
-      "route": "TLV→VIE",
-      "airline": "Air Canada",
-      "status": "CANCELLED",
-      "relatedEvent": "P0-001"
-    },
-    {
-      "flight": "OS84",
-      "route": "TLV→VIE",
-      "airline": "Austrian Airlines",
-      "status": "CANCELLED",
-      "relatedEvent": "P0-001"
-    },
-    {
-      "flight": "TK813",
-      "route": "AMM→IST",
-      "airline": "Turkish Airlines",
-      "status": "CANCELLED",
-      "relatedEvent": "P0-001"
-    },
-    {
-      "flight": "TK98",
-      "route": "IST→MED",
-      "airline": "Turkish Airlines",
-      "status": "CANCELLED",
-      "relatedEvent": "P0-001"
-    },
-    {
-      "flight": "TK96",
-      "route": "IST→JED",
-      "airline": "Turkish Airlines",
-      "status": "CANCELLED",
-      "relatedEvent": "P0-001"
-    },
-    {
-      "flight": "TK2546",
-      "route": "IST→RZV",
-      "airline": "Turkish Airlines",
-      "status": "CANCELLED",
-      "relatedEvent": "P0-001"
-    },
-    {
-      "flight": "KL2749",
-      "route": "AMS→VRN",
-      "airline": "KLM",
-      "status": "CANCELLED",
-      "relatedEvent": "P1-001"
-    },
-    {
-      "flight": "HV5465",
-      "route": "AMS→VRN",
-      "airline": "Transavia",
-      "status": "CANCELLED",
-      "relatedEvent": "P1-001"
-    },
-    {
-      "flight": "DL7499",
-      "route": "AMS→VRN",
-      "airline": "Delta Air Lines",
-      "status": "CANCELLED",
-      "relatedEvent": "P1-001"
-    },
-    {
-      "flight": "AF8373",
-      "route": "AMS→CDG",
-      "airline": "Air France",
-      "status": "CANCELLED",
-      "relatedEvent": "其他"
-    },
-    {
-      "flight": "6E3221",
-      "route": "AMS→CDG",
-      "airline": "IndiGo",
-      "status": "CANCELLED",
-      "relatedEvent": "其他"
-    },
-    {
-      "flight": "DL9205",
-      "route": "AMS→CDG",
-      "airline": "Delta Air Lines",
-      "status": "CANCELLED",
-      "relatedEvent": "其他"
-    },
-    {
-      "flight": "MU1555",
-      "route": "AMS→CDG",
-      "airline": "China Eastern",
-      "status": "CANCELLED",
-      "relatedEvent": "其他"
-    },
-    {
-      "flight": "VN3107",
-      "route": "AMS→CDG",
-      "airline": "Vietnam Airlines",
-      "status": "CANCELLED",
-      "relatedEvent": "其他"
-    }
+    {"flight":"AC6173","route":"TLV→VIE","airline":"Air Canada","status":"CANCELLED","relatedEvent":"P0-001"},
+    {"flight":"OS84","route":"TLV→VIE","airline":"Austrian Airlines","status":"CANCELLED","relatedEvent":"P0-001"},
+    {"flight":"TK813","route":"AMM→IST","airline":"Turkish Airlines","status":"CANCELLED","relatedEvent":"P0-001"},
+    {"flight":"TK98","route":"IST→MED","airline":"Turkish Airlines","status":"CANCELLED","relatedEvent":"P0-001"},
+    {"flight":"TK96","route":"IST→JED","airline":"Turkish Airlines","status":"CANCELLED","relatedEvent":"P0-001"},
+    {"flight":"TK2546","route":"IST→RZV","airline":"Turkish Airlines","status":"CANCELLED","relatedEvent":"P0-001"},
+    {"flight":"KL2749","route":"AMS→VRN","airline":"KLM","status":"CANCELLED","relatedEvent":"P1-001"},
+    {"flight":"HV5465","route":"AMS→VRN","airline":"Transavia","status":"CANCELLED","relatedEvent":"P1-001"},
+    {"flight":"DL7499","route":"AMS→VRN","airline":"Delta Air Lines","status":"CANCELLED","relatedEvent":"P1-001"},
+    {"flight":"KL1401","route":"AMS→CDG","airline":"KLM","status":"CANCELLED","relatedEvent":"其他"},
+    {"flight":"AF8373","route":"AMS→CDG","airline":"Air France","status":"CANCELLED","relatedEvent":"其他"},
+    {"flight":"VN3107","route":"AMS→CDG","airline":"Vietnam Airlines","status":"CANCELLED","relatedEvent":"其他"},
+    {"flight":"MU1555","route":"AMS→CDG","airline":"China Eastern","status":"CANCELLED","relatedEvent":"其他"},
+    {"flight":"DL9205","route":"AMS→CDG","airline":"Delta Air Lines","status":"CANCELLED","relatedEvent":"其他"},
+    {"flight":"6E3221","route":"AMS→CDG","airline":"IndiGo","status":"CANCELLED","relatedEvent":"其他"},
+    {"flight":"DL9593","route":"AMS→OSL","airline":"Delta Air Lines","status":"CANCELLED","relatedEvent":"其他"},
+    {"flight":"KE6431","route":"AMS→OSL","airline":"Korean Air","status":"CANCELLED","relatedEvent":"其他"},
+    {"flight":"SK6627","route":"AMS→OSL","airline":"SAS","status":"CANCELLED","relatedEvent":"其他"},
+    {"flight":"MF9704","route":"AMS→OSL","airline":"XiamenAir","status":"CANCELLED","relatedEvent":"其他"},
+    {"flight":"KL1197","route":"AMS→OSL","airline":"KLM","status":"CANCELLED","relatedEvent":"其他"},
+    {"flight":"6E3231","route":"AMS→OSL","airline":"IndiGo","status":"CANCELLED","relatedEvent":"其他"},
+    {"flight":"TK585","route":"IST→NKC","airline":"Turkish Airlines","status":"CANCELLED","relatedEvent":"P0-001"},
+    {"flight":"G36476","route":"MIA→CLT","airline":"GOL","status":"CANCELLED","relatedEvent":"其他"},
+    {"flight":"QR9245","route":"MIA→CLT","airline":"Qatar Airways","status":"CANCELLED","relatedEvent":"其他"},
+    {"flight":"AT5069","route":"MIA→CLT","airline":"Royal Air Maroc","status":"CANCELLED","relatedEvent":"其他"},
+    {"flight":"BA1854","route":"MIA→CLT","airline":"British Airways","status":"CANCELLED","relatedEvent":"其他"},
+    {"flight":"AA1212","route":"MIA→CLT","airline":"American Airlines","status":"CANCELLED","relatedEvent":"其他"}
   ],
   "sources": [
-    {
-      "name": "Reuters via Investing.com",
-      "url": "https://www.investing.com/news/stock-market-news/factboxairlines-resume-some-middle-east-flights-but-disruption-continues-4739962"
-    },
-    {
-      "name": "Reuters via MarketScreener",
-      "url": "https://ae.marketscreener.com/news/airlines-resume-some-middle-east-flights-but-disruption-continues-ce7f5cd9da89f722"
-    },
-    {
-      "name": "Reuters via bdnews24",
-      "url": "https://bdnews24.com/world/middle-east/b82dd953665e"
-    },
-    {
-      "name": "Reuters via Logistics Marine",
-      "url": "https://logistics.maritimeprofessional.com/passenger-transportation-services/2026/06/12/there-are-some-flights-to-the-middle-east-that-have-resumed-but-there-is-still-disruption"
-    },
-    {
-      "name": "The Flight Club (意大利)",
-      "url": "https://www.theflightclub.it/2026/06/confermato-lo-sciopero-di-domani-sabato-13-giugno-tutti-gli-aeroporti-coinvolti/"
-    },
-    {
-      "name": "AirHelp",
-      "url": "https://www.airhelp.co.uk/flight-disruptions/italy-airport-strikes-easyjet-13-june-11062026/"
-    },
-    {
-      "name": "AirHelp (巴黎)",
-      "url": "https://www.airhelp.co.uk/flight-disruptions/paris-ground-staff-strike-cdg-orly-le-bourget-18062026/"
-    },
-    {
-      "name": "VisaVerge",
-      "url": "https://www.visaverge.com/travel/paris-airport-strike-grounds-travel-for-24-hours-as-security-badge-checks-disrupt/"
-    },
-    {
-      "name": "民航资源网CARNOC",
-      "url": "https://i.carnoc.com/detail/659700"
-    },
-    {
-      "name": "澎湃新闻",
-      "url": "https://m.thepaper.cn/newsDetail_forward_33354048"
-    },
-    {
-      "name": "Guardian Nigeria",
-      "url": "https://guardian.ng/news/flight-crew-of-private-jet-arrested-over-safety-breach/"
-    },
-    {
-      "name": "DTI News (越南)",
-      "url": "https://dtinews.dantri.com.vn/vietnam-today/flights-bound-for-ho-chi-minh-city-diverted-amid-severe-storms-20260612071753937.htm"
-    },
-    {
-      "name": "AirLabs API",
-      "url": "https://airlabs.co/"
-    }
+    {"name":"Reuters/Investing.com","url":"https://www.investing.com/news/stock-market-news/factboxairlines-resume-some-middle-east-flights-but-disruption-continues-4739962"},
+    {"name":"US Senate Press Release","url":"https://www.duckworth.senate.gov/news/press-releases/as-summer-travel-ramps-up-duckworth-joins-welch-colleagues-in-raising-alarm-on-how-trumps-war-in-iran-has-impacted-air-travel"},
+    {"name":"BritBrief","url":"https://britbrief.co.uk/business/transport/american-airlines-cancels-six-routes-from-august-5.html"},
+    {"name":"AP News (Africa airlines)","url":"https://uat.apnews.com/article/africa-airlines-iran-hormuz-jet-fuel-80494b249acc4c028d1ebf1ac6634c11"},
+    {"name":"Tashkent Times","url":"https://tashkenttimes.uz/national/17917-uzbekistan-airways-cuts-russia-flight-frequencies-due-to-jet-fuel-shortages-and-surging-global-costs"},
+    {"name":"Moneycontrol (HYD)","url":"http://www.moneycontrol.com/city/hyderabad-rain-chaos-indigo-flight-with-cm-revanth-reddy-on-board-among-9-diverted-article-13948450.html/amp"},
+    {"name":"The Flight Club (Italy)","url":"https://www.theflightclub.it/2026/06/confermato-lo-sciopero-di-domani-sabato-13-giugno-tutti-gli-aeroporti-coinvolti/"},
+    {"name":"民航资源网CARNOC","url":"https://i.carnoc.com/detail/659700"},
+    {"name":"澎湃新闻","url":"https://m.thepaper.cn/newsDetail_forward_33354048"},
+    {"name":"AirLabs API","url":"https://airlabs.co/"}
   ]
 }
