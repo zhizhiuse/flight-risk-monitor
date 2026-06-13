@@ -1,9 +1,9 @@
 {
   "reportDate": "2026-06-13",
-  "generatedAt": "2026-06-13T16:30:00+08:00",
+  "generatedAt": "2026-06-13T16:35:00+08:00",
   "summary": {
     "total": 8,
-    "p0": 1,
+    "p0": 2,
     "p1": 4,
     "p2": 3
   },
@@ -147,6 +147,46 @@
           "code": "CDG",
           "lat": 49.0097,
           "lng": 2.5479
+        }
+      ]
+    },
+    {
+      "id": "P0-002",
+      "priority": "P0",
+      "category": "航司运营异常",
+      "title": "比利时6月17日全国总罢工，BRU/CRL机场全部出港航班取消，涉海南航空BRU-PEK航线",
+      "summary": "比利时6月17日全国总罢工，布鲁塞尔扎芬特姆(BRU)和沙勒罗伊(CRL)机场全部出港航班取消。海南航空BRU-PEK(HU492)航线受直接影响，BRU跨洲航线(至JFK/EWR/ADD/NBO)中断。",
+      "description": "【起因】比利时工会联盟发起全国总罢工，抗议养老金改革及生活成本危机。\n【原因】全国性罢工覆盖交通、航空等公共服务，机场地勤、空管、安保等岗位全面参与。BRU机场官方已确认全部出港航班取消。\n【影响面】\n- 影响机场：BRU, CRL\n- 影响航线：BRU-PEK(HU492), BRU-JFK/EWR, BRU-ADD/NBO等跨洲航线及欧洲内部航线\n- 影响航司：Hainan Airlines(海南航空), Brussels Airlines, Ryanair, TUI fly等所有运营BRU/CRL航司\n- 影响旅客：约5万+/日（BRU日出港约6万+CRL约1万）\n- 持续时间：6月17日全天\n- OTA建议：立即预警6/17 BRU/CRL全部出港航班取消；暂停6/17 BRU相关航线预售；通知已购票旅客(含海南航空BRU-PEK旅客)改期/退票；准备AMS/FRA替代中转方案",
+      "affectedAirports": [
+        "BRU",
+        "CRL"
+      ],
+      "affectedAirlines": [
+        "Hainan Airlines",
+        "Brussels Airlines",
+        "Ryanair",
+        "TUI fly"
+      ],
+      "affectedRoutes": [
+        "BRU-PEK",
+        "BRU-JFK",
+        "BRU-EWR",
+        "BRU-ADD",
+        "BRU-NBO"
+      ],
+      "estimatedPassengers": "约5万+/日",
+      "duration": "6月17日全天",
+      "action": "立即预警6/17 BRU/CRL全部出港取消；暂停预售；通知海南航空BRU-PEK旅客；准备AMS/FRA替代中转",
+      "coordinates": [
+        {
+          "code": "BRU",
+          "lat": 50.9014,
+          "lng": 4.4844
+        },
+        {
+          "code": "CRL",
+          "lat": 50.4655,
+          "lng": 4.4657
         }
       ]
     },
@@ -628,6 +668,14 @@
     {
       "name": "AirLabs API",
       "url": "https://airlabs.co/"
+    },
+    {
+      "name": "BBC News (via AFP)",
+      "url": "https://www.bbc.com/news"
+    },
+    {
+      "name": "Brussels Airport Official",
+      "url": "https://www.brusselsairport.be"
     }
   ]
 }
