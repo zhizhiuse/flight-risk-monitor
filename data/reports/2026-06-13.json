@@ -1,9 +1,9 @@
 {
   "reportDate": "2026-06-13",
-  "generatedAt": "2026-06-13T16:35:00+08:00",
+  "generatedAt": "2026-06-13T18:35:00+08:00",
   "summary": {
-    "total": 8,
-    "p0": 2,
+    "total": 10,
+    "p0": 3,
     "p1": 4,
     "p2": 3
   },
@@ -187,6 +187,48 @@
           "code": "CRL",
           "lat": 50.4655,
           "lng": 4.4657
+        }
+      ]
+    },
+    {
+      "id": "P0-003",
+      "priority": "P0",
+      "category": "航空安全",
+      "title": "希腊领空因ATC通信故障关闭，ATH/SKG机场大面积受影响",
+      "summary": "雅典附近Gerania山脉天线故障致全国ATC无线电频率中断，希腊领空一度关闭。ATH 90+航班受影响，SKG完全关闭。出港已部分恢复(35架/小时)，进港仍受限。",
+      "description": "【起因】雅典附近Gerania山脉ATC通信天线故障，导致希腊全国空管无线电频率中断。\n【原因】通信基础设施故障，希腊空管协会主席确认系天线设备故障导致全国ATC系统瘫痪。\n【影响面】\n- 影响机场：ATH, SKG\n- 影响航线：ATH-LHR/FRA/CDG/AMS/FCO/MUC等欧洲干线，SKG-欧洲航线\n- 影响航司：Aegean Airlines, Olympic Air, Ryanair, Lufthansa, British Airways等运营希腊航线航司\n- 影响旅客：约5万+/日\n- 持续时间：6/13事发，出港已部分恢复(35架/小时)，进港仍受限，SKG已恢复\n- OTA建议：预警ATH/SKG航班大面积延误/取消；暂停当日希腊航线预售；联系已购票旅客提供改期/退票；监控ATH恢复进度\n【当前进展】出港已部分恢复(35架/小时)，进港仍受限，SKG已恢复运营。全面恢复时间待定。\n【OTA影响】ATH为东南欧主要枢纽，欧洲-希腊/爱琴海航线大面积中断。暑期旅游旺季影响显著。",
+      "affectedAirports": [
+        "ATH",
+        "SKG"
+      ],
+      "affectedAirlines": [
+        "Aegean Airlines",
+        "Olympic Air",
+        "Ryanair",
+        "Lufthansa",
+        "British Airways"
+      ],
+      "affectedRoutes": [
+        "ATH-LHR",
+        "ATH-FRA",
+        "ATH-CDG",
+        "ATH-AMS",
+        "ATH-FCO",
+        "ATH-MUC"
+      ],
+      "estimatedPassengers": "约5万+/日",
+      "duration": "6/13事发，出港部分恢复，全面恢复待定",
+      "action": "预警ATH/SKG航班延误/取消；暂停希腊航线预售；联系旅客改期/退票；监控恢复进度",
+      "coordinates": [
+        {
+          "code": "ATH",
+          "lat": 37.8936,
+          "lng": 23.9456
+        },
+        {
+          "code": "SKG",
+          "lat": 40.5194,
+          "lng": 22.9708
         }
       ]
     },
@@ -676,6 +718,18 @@
     {
       "name": "Brussels Airport Official",
       "url": "https://www.brusselsairport.be"
+    },
+    {
+      "name": "BBC News",
+      "url": "https://www.bbc.com/news"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com"
+    },
+    {
+      "name": "ERT (Greek Public Broadcasting)",
+      "url": "https://www.ert.gr"
     }
   ]
 }
