@@ -1,0 +1,142 @@
+{
+  "reportDate": "2026-06-15",
+  "generatedAt": "2026-06-15T07:45:00+08:00",
+  "summary": {
+    "total": 5,
+    "p0": 2,
+    "p1": 2,
+    "p2": 1
+  },
+  "events": [
+    {
+      "id": "P0-001",
+      "priority": "P0",
+      "category": "极端天气",
+      "title": "华南龙舟水持续影响CAN/SZX，6/14-16为最强时段",
+      "summary": "华南龙舟水集中期持续，6/14-16为降雨最强时段，广州暴雨橙色预警，CAN/SZX航班大面积延误取消",
+      "description": "【起因】华南龙舟水集中期持续暴雨，中央气象台6/14继续发布暴雨黄色预警和强对流蓝色预警，6/14-16为降雨最强时段。\n【原因】6月中旬南海季风槽活跃，暖湿气流与冷空气持续交汇，龙舟水集中期6/13-19，14-16日为降雨最强时段。广州市气象台预计短时强降水最大小时雨强80-100毫米，局地8-10级短时大风。6/15凌晨白云区已发布暴雨橙色预警。\n【影响面】\n- 影响机场：CAN, SZX（主要）, HKG（受雷雨波及）\n- 影响航线：珠三角出发/到达的国内及国际航线（CAN-BKK/CAN-SIN/SZX-PKX/SZX-NRT等）\n- 影响航司：南航(CZ)、深航(ZH)、东航(MU)、国航(CA)、川航(3U)、吉祥(HO)等\n- 影响旅客：约5-8万/日（CAN/SZX单日航班量超1500架次，大量航班延误取消）\n- 持续时间：龙舟水集中期6/13-19（7天），6/14-16为最强时段，预计6/18后逐步缓解\n- OTA建议：6/14-16珠三角航线增加退改签灵活度；持续关注CAN/SZX航班动态；6/18日后关注恢复情况\n【当前进展】6/15凌晨广州白云区暴雨橙色预警生效，交通运输部维持强降雨三级防御响应。CAN/SZX航班运营持续受影响，延误和取消数量较昨日有所增加。\n【OTA影响】CAN/SZX为中国三大枢纽之二，连续7天暴雨直接影响国内最大量级航班运营，涉及中国航线P0级。OTA需持续关注退改签需求并提供灵活政策，特别注意6/15-16最强时段的航班动态。",
+      "affectedAirports": ["CAN","SZX","HKG"],
+      "affectedAirlines": ["China Southern","Shenzhen Airlines","China Eastern","Air China","Sichuan Airlines","Juneyao Air"],
+      "affectedRoutes": ["CAN-BKK","CAN-SIN","CAN-CKG","CAN-XIY","CAN-FOC","SZX-PKX","SZX-NRT"],
+      "estimatedPassengers": "约5-8万/日",
+      "duration": "6/13-19龙舟水集中期，6/14-16最强",
+      "action": "6/14-16珠三角航线增加退改签灵活度；持续关注航班动态；6/18后关注恢复",
+      "coordinates": [
+        {"code":"CAN","lat":23.3924,"lng":113.2988},
+        {"code":"SZX","lat":22.6394,"lng":113.8142},
+        {"code":"HKG","lat":22.308,"lng":113.9185}
+      ]
+    },
+    {
+      "id": "P0-002",
+      "priority": "P0",
+      "category": "航司运营异常",
+      "title": "比利时+法国6/18双重罢工，欧洲5大机场同日瘫痪",
+      "summary": "比利时6/16-18全国罢工，6/18总罢工BRU/CRL全面停运；同日巴黎CDG/ORY/LBG地勤罢工，欧洲航空网络严重中断",
+      "description": "【起因】比利时三大工会(FGTB/CSC/CGSLB)发起反紧缩全国罢工，抗议德韦弗政府劳动法和养老金改革。罢工分三阶段：6/16铁路→6/17公共服务→6/18总罢工。6/18同日巴黎CDG/ORY/LBG地勤24小时罢工（6/12已追踪）。\n【原因】比利时新政府紧缩政策引发工会强烈反对；法国CGT/FO/CFDT等工会持续抗议劳动法改革，两大国罢工叠加形成欧洲航空网络双重打击。\n【影响面】\n- 影响机场：BRU, CRL, CDG, ORY, LBG\n- 影响航线：BRU/CRL出发全部航线（含BRU-PEK/BRU-JFK/BRU-ADD跨洲）；CDG/ORY出发全部航线（含CDG-PVG/CDG-PEK中国航线）\n- 影响航司：Brussels Airlines, Ryanair, TUI fly, Hainan Airlines(海南航空), Air France, easyJet, Lufthansa, KLM等所有BRU/CRL/CDG/ORY运营航司\n- 影响旅客：约12-15万/日（BRU日出港约6-7万+CRL约2-3万+CDG/ORY约5万+）\n- 持续时间：比利时6/16-18分阶段升级，6/18全天总罢工；巴黎6/18 24小时；6/19预计恢复但可能出现航班积压\n- OTA建议：立即下架6/18 BRU/CRL/CDG/ORY出发航班；通知已购票旅客航班取消风险；关注6/19积压；考虑AMS/FRA替代中转\n【当前进展】BRU/CRL机场已宣布6/18所有出发航班取消；6/16铁路罢工SNCB仅维持1/3列车，部分欧洲之星取消；叠加巴黎三机场同日罢工，欧洲航空网络面临严重中断。距离6/18仅3天，需尽快完成旅客通知。\n【OTA影响】6/18欧洲两大航空枢纽群同日瘫痪，跨洲航线（含中国航线BRU-PEK/CDG-PVG）直接受影响，OTA需立即行动下架当日出票并通知旅客。",
+      "affectedAirports": ["BRU","CRL","CDG","ORY","LBG"],
+      "affectedAirlines": ["Brussels Airlines","Ryanair","TUI fly","Hainan Airlines","Air France","easyJet","Lufthansa","KLM"],
+      "affectedRoutes": ["BRU-PEK","BRU-JFK","BRU-ADD","CDG-PVG","CDG-PEK","CDG-JFK","CDG-LHR"],
+      "estimatedPassengers": "约12-15万/日",
+      "duration": "6/16-18分阶段，6/18全天总罢工",
+      "action": "立即下架6/18出发航班；通知旅客；关注6/19积压；AMS/FRA替代中转",
+      "coordinates": [
+        {"code":"BRU","lat":50.9014,"lng":4.4843},
+        {"code":"CRL","lat":50.4655,"lng":4.4657},
+        {"code":"CDG","lat":49.0097,"lng":2.5479},
+        {"code":"ORY","lat":48.7263,"lng":2.3653}
+      ]
+    },
+    {
+      "id": "P1-001",
+      "priority": "P1",
+      "category": "极端天气",
+      "title": "美国强雷暴影响DFW/DTW两大枢纽",
+      "summary": "6月14日冷锋引发强雷暴，DFW超700架次延误+173取消，DTW实施地面停飞令",
+      "description": "【起因】6月14日冷锋过境引发美国中南部强雷暴天气，影响达拉斯沃斯堡(DFW)和底特律(DTW)两大航空枢纽。\n【原因】冷锋系统过境引发强对流天气，DFW区域雷暴持续数小时，密歇根州东南部雷暴伴有风速超60英里/小时和1英寸冰雹。\n【影响面】\n- 影响机场：DFW, DTW\n- 影响航线：DFW出发全美方向（纽约/芝加哥/费城/华盛顿等）；DTW进港航班延误15-29分钟\n- 影响航司：American Airlines(AA), Air Canada(AC), PSA Airlines, SkyWest, Frontier等\n- 影响旅客：约3-5万（DFW 700+延误+173取消涉及旅客约3-4万，DTW延误旅客约数千）\n- 持续时间：6/14当日，DFW傍晚风暴南移后逐步恢复，DTW下午风暴过境后恢复。6/15 DFW上午仍有零星雷暴预报，下午转晴\n- OTA建议：关注6/15 DFW上午残余雷暴影响；检查已售DFW/DNW航班状态；正常退改签政策即可\n【当前进展】DFW 6/14当日超700延误+173取消，为美国航空主基地，连锁影响波及全美。DTW FAA实施地面停飞令至当地12:45后逐步解除。6/15 DFW上午仍有零星雷暴预报，下午天气转晴。\n【OTA影响】DFW为美国航空最大枢纽，单日大规模延误取消影响全美航线网络，但属短期天气事件，6/15将恢复正常。DTW影响较轻。OTA按正常天气退改签政策处理即可。",
+      "affectedAirports": ["DFW","DTW"],
+      "affectedAirlines": ["American Airlines","Air Canada","PSA Airlines","SkyWest","Frontier"],
+      "affectedRoutes": ["DFW-JFK","DFW-ORD","DFW-PHL","DFW-DCA","DTW-JFK","DTW-ORD"],
+      "estimatedPassengers": "约3-5万",
+      "duration": "6/14当日，6/15上午DFW零星雷暴后转晴",
+      "action": "关注6/15 DFW上午残余雷暴；检查已售航班状态；正常退改签政策",
+      "coordinates": [
+        {"code":"DFW","lat":32.8998,"lng":-97.0403},
+        {"code":"DTW","lat":42.2124,"lng":-83.3534}
+      ]
+    },
+    {
+      "id": "P1-002",
+      "priority": "P1",
+      "category": "地缘政治",
+      "title": "中东局势分化：伊朗暂停西部航班 vs 美伊和平协议达成",
+      "summary": "以色列空袭贝鲁特后伊朗暂停西部机场航班（无限期）；但同日美伊和平协议正式达成，6/19瑞士签署+霍尔木兹海峡将重新开放",
+      "description": "【起因】以色列6/14空袭贝鲁特南郊真主党目标，伊朗以暂停西部机场航班回应并暗示报复行动；但同日巴基斯坦总理宣布美伊和平协议正式达成，特朗普授权霍尔木兹海峡重新开放。\n【原因】中东冲突出现方向性分化：短期冲突升级（以色列空袭→伊朗军事姿态）与长期缓和（美伊协议+海峡重开）同时发生。伊朗最高国家安全委员会声明'伊斯兰战士的回应即将到来'，但和平协议达成意味着大规模军事升级可能性降低。\n【影响面】\n- 影响机场：IKA（德黑兰伊玛目霍梅尼）及伊朗西部其他机场；DXB/DOH/RUH/JED/MCT等中东枢纽（和平协议将推动航线恢复）\n- 影响航线：伊朗西部机场进出港全部航线暂停；此前30+航司暂停的数十条中东航线恢复时间表待6/19签署后确定\n- 影响航司：Iran Air, Mahan Air（伊朗西部航班暂停）；Emirates, Qatar Airways, British Airways, Lufthansa等（和平协议将推动恢复）\n- 影响旅客：伊朗西部航班暂停影响约1-2万/日；中东航线此前暂停影响日均数万级旅客，协议签署后积压旅客需数周消化\n- 持续时间：伊朗西部航班暂停至另行通知（和平协议6/19签署后可能解除）；霍尔木兹海峡扫雷随6/19签署同步启动\n- OTA建议：暂缓重新上架伊朗航线；关注6/19签署后各航司中东航线恢复公告；可开始评估DXB/DOH恢复售票时间表；留意EASA CZIB对伊朗/伊拉克/黎巴嫩空域限制更新\n【当前进展】伊朗西部机场航班暂停无恢复时间表；但美伊和平协议已确认达成，6/19瑞士签署。特朗普授权霍尔木兹海峡免费通行开放，扫雷行动将随签署同步启动。此前航司中东航线暂停安排（英航至10/25、汉莎至9-10月等）可能随协议签署加速恢复。\n【OTA影响】和平协议是中东航线恢复的转折性信号，但6/19签署前伊朗西部航班暂停仍在生效。OTA不应立即恢复中东航线售票，需等待6/19签署后航司官方确认恢复日期。阿联酋空域此前已恢复正常，经DXB/AUH中转的中国-欧洲/澳洲航线可优先评估恢复。",
+      "affectedAirports": ["IKA","DXB","DOH","RUH","JED","MCT"],
+      "affectedAirlines": ["Iran Air","Mahan Air","Emirates","Qatar Airways","British Airways","Lufthansa"],
+      "affectedRoutes": ["IKA-FRA","IKA-IST","DXB-LHR","DOH-LHR","RUH-JED"],
+      "estimatedPassengers": "伊朗西部约1-2万/日；中东航线暂停影响日均数万级",
+      "duration": "伊朗西部航班暂停至另行通知；和平协议6/19签署后可能解除",
+      "action": "暂缓上架伊朗航线；关注6/19签署后航司恢复公告；评估DXB/DOH恢复时间表",
+      "coordinates": [
+        {"code":"IKA","lat":35.4169,"lng":51.0933},
+        {"code":"DXB","lat":25.2532,"lng":55.3657},
+        {"code":"DOH","lat":25.2731,"lng":51.6081},
+        {"code":"RUH","lat":24.9576,"lng":46.6988}
+      ]
+    },
+    {
+      "id": "P2-001",
+      "priority": "P2",
+      "category": "航空安全",
+      "title": "美国密苏里州跳伞飞机坠毁12人遇难",
+      "summary": "P750单发涡轮螺旋桨跳伞飞机在密苏里州巴特勒纪念机场(BUM)起飞后坠毁，12人全部遇难，NTSB已启动联邦调查",
+      "description": "【起因】当地时间6月14日上午11:30许，一架由Skydive Kansas City运营的P750单发涡轮螺旋桨飞机在密苏里州巴特勒纪念机场(BUM)起飞后不久坠毁并起火。\n【原因】机场代理经理Dennis Jacobs表示飞机可能失去动力，飞行员试图转向公路紧急降落但失速坠毁。NTSB已启动联邦调查，具体原因待调查结论。\n【影响面】\n- 影响机场：BUM（巴特勒纪念机场，非商业民航枢纽）\n- 影响航线：无商业航线受影响\n- 影响航司：Skydive Kansas City（通用航空跳伞运营商，非商业航司）\n- 影响旅客：约12人（机上11名跳伞乘客+1名飞行员，均为跳伞活动参与者）\n- 持续时间：一次性事故，NTSB调查进行中\n- OTA建议：无需OTA行动；关注NTSB调查结论是否涉及P750机型系统性缺陷\n【当前进展】NTSB已启动联邦调查，初步信息指向起飞后失去动力。12人全部遇难确认。\n【OTA影响】该事件为通用航空跳伞事故，非商业民航，对OTA机票业务无直接影响。",
+      "affectedAirports": ["BUM"],
+      "affectedAirlines": ["Skydive Kansas City(通航)"],
+      "affectedRoutes": ["无商业航线"],
+      "estimatedPassengers": "约12人（跳伞乘客+飞行员）",
+      "duration": "一次性事故，NTSB调查中",
+      "action": "无需OTA行动；关注NTSB调查结论",
+      "coordinates": [
+        {"code":"BUM","lat":38.2592,"lng":-94.3317}
+      ]
+    }
+  ],
+  "flightAnomalies": [
+    {
+      "category": "CDG集中取消",
+      "description": "CDG→LIS航线9架次取消（AF/WS/G3/KE/S4/MK/AM/SV/KQ代码共享），UU972 CDG→RUN取消，共10架次从CDG出发航班取消",
+      "flights": ["AF1124","WS5161","G35125","KE6397","S47303","MK9216","AM5968","SV6407","KQ3820","UU972"],
+      "affectedAirport": "CDG",
+      "possibleCause": "CDG→LIS单班物理航班取消（9代码共享），UU972独立取消，可能与法空管或运营调整相关"
+    },
+    {
+      "category": "中东相关取消",
+      "description": "MS644 JED→CAI取消（EgyptAir），OS84 TLV→VIE取消（Austrian Airlines），与中东地缘局势相关",
+      "flights": ["MS644","OS84"],
+      "affectedAirport": "JED,TLV",
+      "possibleCause": "中东地缘政治局势影响，以色列空袭贝鲁特后航线调整"
+    },
+    {
+      "category": "土耳其国内取消",
+      "description": "TK2546 IST→RZV和TK2232 IST→ASR取消（Turkish Airlines），土耳其国内航班",
+      "flights": ["TK2546","TK2232"],
+      "affectedAirport": "IST",
+      "possibleCause": "土耳其航空国内航班运营调整"
+    }
+  ],
+  "sources": [
+    {"name": "AP News", "url": "https://apnews.com/article/butler-missouri-plane-crash-dead-0f074de40ce690e76c19ffbe183d1875"},
+    {"name": "新华网", "url": "http://www.xinhuanet.com/world/20260615/62b7b3ad02a14553a2620d895b442c3f/c.html"},
+    {"name": "CBS News Texas", "url": "https://www.cbsnews.com/texas/news/dallas-fort-worth-weather-forecast-today-june-14-2026/"},
+    {"name": "CBS News Detroit", "url": "https://www.cbsnews.com/detroit/news/southeast-michigan-storms-june-14-2026/"},
+    {"name": "FAA DTW Status", "url": "https://www.fly.faa.gov/fly/flyfaa/flyfaaindex?ARPT=DTW&p=1"},
+    {"name": "新华社(伊朗航班)", "url": "http://www.china.org.cn/world/Off_the_Wire/2026-06/15/content_118548206.shtml"},
+    {"name": "新华社(美伊协议)", "url": "http://www.xinhuanet.com/world/20260615/ddeab1e179af48b6bef33c3bcdab62ce/c.html"},
+    {"name": "Anadolu Agency", "url": "https://mobil.aa.com.tr/en/americas/us-iran-peace-deal-reached-trump-announces-reopening-of-strait-of-hormuz/3966919"},
+    {"name": "Chosun Ilbo", "url": "https://www.chosun.com/english/world-en/2026/06/15/P5DUGU5RCREXHKNBTIYT3Y7FVM/"},
+    {"name": "BBC(比利时罢工)", "url": "https://www.bbc.com/news/articles/c0jew0lyv98o"},
+    {"name": "AirLabs实时数据", "url": "https://airlabs.co/"}
+  ]
+}
