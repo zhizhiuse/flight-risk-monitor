@@ -30,8 +30,8 @@ async function loadReport(date) {
     const report = await fetchData(`reports/${date}.json`);
     window._currentReportData = report;
 
-    document.getElementById('reportTitle').textContent = `${formatDateShort(date)} 风险日报`;
-    document.title = `${formatDateShort(date)} 风险日报 - 全球机票风险事件监测`;
+    document.getElementById('reportTitle').textContent = `${formatDateShort(date)} AI预警`;
+    document.title = `${formatDateShort(date)} AI预警 - 机票特殊事件AI预警`;
 
     // Render report content (shared function)
     renderReport(report, 'reportContent');

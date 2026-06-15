@@ -86,7 +86,7 @@ async function loadCurrentReport() {
     indexMap = initReportMap('indexMap', report.events);
     renderEventList(report);
 
-    document.title = `${formatDateShort(date)} 风险日报 - 全球机票风险事件监测`;
+    document.title = `${formatDateShort(date)} AI预警 - 机票特殊事件AI预警`;
   } catch (error) {
     console.error('Error loading report:', error);
     showError('加载报告数据失败');
