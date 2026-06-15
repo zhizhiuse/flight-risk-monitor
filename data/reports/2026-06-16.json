@@ -1,0 +1,163 @@
+{
+  "reportDate": "2026-06-16",
+  "generatedAt": "2026-06-16T07:48:36+08:00",
+  "summary": {
+    "total": 6,
+    "p0": 2,
+    "p1": 1,
+    "p2": 3
+  },
+  "events": [
+    {
+      "id": "P0-001",
+      "priority": "P0",
+      "category": "地缘政治",
+      "title": "TLV美军加油机部分撤离，6/16为航班取消最后期限",
+      "summary": "伊美和平协议确认后多架美军加油机飞离TLV，但6/16为以色列机场管理局通知航班取消的最后期限，240万张夏季机票仍面临取消风险",
+      "description": "【起因】伊美和平谅解备忘录正式确认后，6月15日多架美军空中加油机从本-古里安机场(TLV)起飞撤离。此前72架美军加油机占用TLV超半数民用停机位，26架占用拉蒙机场(ETM)近九成停机空间。\n【原因】美军加油机大规模部署与中东军事行动相关，占用民用停机位导致商业航班运营空间严重不足。美国此前已告知以色列，若与伊朗达成协议将"立即"撤走驻TLV军机。6月16日为以色列机场管理局通知航司取消航班的最后期限。\n【影响面】\n- 影响机场：TLV（本-古里安）、ETM（拉蒙）\n- 影响航线：TLV/ETM所有进出港航线（TLV-LHR/TLV-JFK/TLV-FRA/TLV-IST等欧洲及跨洲航线）\n- 影响航司：以色列航空(El Al)、Arkia、IsraAir及所有执飞以色列的国际航司\n- 影响旅客：超240万张夏季及犹太节日机票面临取消风险\n- 持续时间：6/16为关键截止日，撤离进展将决定后续航班安排\n- OTA建议：紧急关注TLV/ETM航班状态；准备大规模旅客通知和退改签预案；若撤离顺利风险降低，若停机位仍不足需准备应对航班大面积取消\n【当前进展】部分美军加油机已开始撤离，但数量是否足以释放足够停机位尚不确定。6/16以色列机场管理局将做出是否通知航司取消航班的决定。\n【OTA影响】TLV为中东重要枢纽，240万张机票潜在取消为P0级事件，涉及跨洲航线和大量旅客。OTA需紧急评估今日TLV航班动态，做好最坏打算准备。",
+      "affectedAirports": ["TLV", "ETM"],
+      "affectedAirlines": ["El Al", "Arkia", "IsraAir", "所有执飞以色列的国际航司"],
+      "affectedRoutes": ["TLV-LHR", "TLV-JFK", "TLV-FRA", "TLV-IST", "ETM-European routes"],
+      "estimatedPassengers": "超240万张机票面临取消风险",
+      "duration": "6/16为关键截止日，撤离进展决定后续",
+      "action": "紧急关注TLV/ETM航班状态；准备大规模旅客通知和退改签预案",
+      "coordinates": [
+        {"code": "TLV", "lat": 32.0056, "lng": 34.8867},
+        {"code": "ETM", "lat": 30.0794, "lng": 34.8058}
+      ]
+    },
+    {
+      "id": "P0-002",
+      "priority": "P0",
+      "category": "极端天气",
+      "title": "华南龙舟水持续影响SZX/CAN，暴雨预警至6/17",
+      "summary": "SZX启动大面积延误黄色响应，延误超300架次、备降43架次；中国气象局升级应急响应至三级；暴雨预计持续至6/17",
+      "description": "【起因】华南龙舟水集中期持续暴雨，6月15日受本地生成加强的雷雨云团影响，SZX进出港航班自上午起出现不同程度延误。\n【原因】6月中旬南海季风槽活跃，暖湿气流与冷空气持续交汇。6月15日9时中国气象局将重大气象灾害（暴雨）四级应急响应升级为（暴雨、强对流）三级，中央气象台继续发布暴雨黄色预警和强对流天气蓝色预警。广东累计已转移13,283人，防汛应急响应提升至三级。\n【影响面】\n- 影响机场：SZX（深圳宝安）、CAN（广州白云）\n- 影响航线：SZX/CAN进出港国内及国际航线（北向出港基本全面延误）\n- 影响航司：深圳航空(ZH)、南方航空(CZ)、中国国际航空(CA)、东方航空(MU)等\n- 影响旅客：估算5-8万/日（SZX延误超300架次+备降43架次，CAN持续受影响）\n- 持续时间：6/15-17持续暴雨，6/18后逐步缓解\n- OTA建议：6/15-17珠三角航线增加退改签灵活度；持续关注SZX/CAN航班动态；提醒旅客关注航班变更通知\n【当前进展】SZX启动大面积航班延误应急处置预案黄色响应，截至6/15 14时延误超300架次，进港备降43架次（主要备降CSX/CAN/SWA/KWL）。6/15-17广东大部、广西大部、福建中南部仍有大到暴雨，华南沿海局地特大暴雨。今日6/16暴雨持续，SZX/CAN航班运营仍受严重影响。\n【OTA影响】SZX/CAN为中国重要航空枢纽，连续多日暴雨直接影响国内最大量级航班运营。今日航班实时数据已验证SZX相关7架次取消。OTA需持续关注退改签需求并提供灵活政策。",
+      "affectedAirports": ["SZX", "CAN"],
+      "affectedAirlines": ["Shenzhen Airlines", "China Southern", "Air China", "China Eastern"],
+      "affectedRoutes": ["SZX-PEK", "SZX-PVG", "SZX-CTU", "CAN-PEK", "CAN-SHA", "CAN-CKG"],
+      "estimatedPassengers": "估算5-8万/日",
+      "duration": "6/15-17持续暴雨，6/18后逐步缓解",
+      "action": "6/15-17珠三角航线增加退改签灵活度；持续关注航班动态",
+      "coordinates": [
+        {"code": "SZX", "lat": 22.6394, "lng": 113.8142},
+        {"code": "CAN", "lat": 23.3924, "lng": 113.2988}
+      ]
+    },
+    {
+      "id": "P1-001",
+      "priority": "P1",
+      "category": "地缘政治",
+      "title": "多家航司更新中东航线暂停/恢复计划，缓和与不确定性并存",
+      "summary": "英航将多哈/利雅得恢复提前至8月，但瑞安航空将安曼航线推迟至10月，Wizz Air延长暂停至9月，Norwegian Air无限期推迟",
+      "description": "【起因】伊美和平协议达成后，多家航司6月15日更新中东航线调整计划，呈现缓和与谨慎并存的态势。\n【原因】和平协议为中东航线恢复提供方向性信号，但各航司根据自身风险评估做出不同判断：英航等对部分目的地恢复信心提前恢复；瑞安航空等则因持续不确定性延长暂停。\n【影响面】\n- 影响机场：DOH（多哈）、RUH（利雅得）、DXB（迪拜）、AMM（安曼）、AUH（阿布扎比）、TLV（特拉维夫）、BEY（贝鲁特）\n- 影响航线：欧洲-中东数十条航线（英航DOH/RUH恢复至8月，瑞安17条安曼航线推迟至10月，Wizz Air DXB/AUH/AMM延长至9月）\n- 影响航司：英航(BA)、瑞安航空(Ryanair)、Wizz Air、Norwegian Air、马来西亚航空(MH)\n- 影响旅客：数万级（瑞安17条安曼航线+英航多航线+Wizz Air多航线暂停影响）\n- 持续时间：英航部分恢复至8月，其余多数至10月25日或更久\n- OTA建议：更新航线库存状态；标注各航司暂停/恢复日期；关注6/19和平协议签署后航司加速恢复公告\n【当前进展】英航将多哈恢复提前至8月1日、利雅得8月8日，但迪拜/特拉维夫/巴林/安曼仍暂停至10月25日，永久取消吉达目的地。瑞安航空17条安曼航线推迟至10月25日。Wizz Air延长迪拜/阿布扎比/安曼暂停至9月中。Norwegian Air将特拉维夫和贝鲁特航线无限期推迟。马来西亚航空7月2日起有限恢复多哈航线。\n【OTA影响】中东航线恢复呈现分化态势，OTA需逐条更新航线库存，避免误售暂停航线。6/19和平协议签署后可能出现航司集中恢复公告，需密切关注。",
+      "affectedAirports": ["DOH", "RUH", "DXB", "AMM", "AUH", "TLV", "BEY"],
+      "affectedAirlines": ["British Airways", "Ryanair", "Wizz Air", "Norwegian Air", "Malaysia Airlines"],
+      "affectedRoutes": ["LHR-DOH", "LHR-RUH", "EU-AMM(17条)", "EU-DXB", "EU-AUH", "OSL-TLV", "OSL-BEY"],
+      "estimatedPassengers": "数万级",
+      "duration": "英航部分8月恢复，其余至10月25日或更久",
+      "action": "更新航线库存状态；标注暂停/恢复日期；关注6/19后航司恢复公告",
+      "coordinates": [
+        {"code": "DOH", "lat": 25.2731, "lng": 51.6081},
+        {"code": "RUH", "lat": 24.9577, "lng": 46.6988},
+        {"code": "AMM", "lat": 31.7226, "lng": 35.9943},
+        {"code": "DXB", "lat": 25.2532, "lng": 55.3657}
+      ]
+    },
+    {
+      "id": "P2-001",
+      "priority": "P2",
+      "category": "航司运营异常",
+      "title": "比利时6/16-18全国罢工启动，今日铁路罢工阶段开始",
+      "summary": "比利时三大工会6/16-18反紧缩罢工今日从铁路阶段开始，6/18总罢工将致BRU/CRL全面停运；叠加巴黎CDG/ORY同日罢工",
+      "description": "【起因】比利时三大工会(FGTB/CSC/CGSLB)发起反紧缩全国罢工，抗议德韦弗政府劳动法和养老金改革。罢工分三阶段：6/16铁路→6/17公共服务→6/18总罢工。\n【原因】比利时新政府紧缩政策引发工会强烈反对，6/18同日巴黎CDG/ORY地勤24小时罢工，两大国罢工叠加形成欧洲航空网络双重打击。\n【影响面】\n- 影响机场：BRU（布鲁塞尔）、CRL（沙勒罗瓦）；6/18叠加CDG、ORY\n- 影响航线：6/16铁路罢工影响旅客到达BRU；6/18 BRU/CRL出发航班全面取消\n- 影响航司：Brussels Airlines、Ryanair、TUI fly、Hainan Airlines(海南航空)等\n- 影响旅客：6/16铁路阶段约数千人出行受阻；6/18总罢工约12-15万/日\n- 持续时间：比利时6/16-18分阶段，6/18全天总罢工；巴黎6/18 24小时\n- OTA建议：6/16-17关注旅客赴BRU交通替代方案；立即下架6/18 BRU/CRL出发航班；通知已购票旅客；考虑AMS/FRA替代中转\n【当前进展】6/16今日为铁路罢工阶段，SNCB仅维持1/3列车运营，旅客赴BRU机场交通受影响。6/18 BRU/CRL已宣布所有出发航班取消。另6/15 Aviapartner自发罢工已结束，大概率不延续至6/16，但叠加全国罢工背景BRU本周运营风险较高。\n【OTA影响】今日铁路罢工可能影响旅客赴BRU出行，需提醒旅客预留更多交通时间。6/18为最大风险日，需立即准备。",
+      "affectedAirports": ["BRU", "CRL"],
+      "affectedAirlines": ["Brussels Airlines", "Ryanair", "TUI fly", "Hainan Airlines"],
+      "affectedRoutes": ["BRU-PEK", "BRU-JFK", "BRU-ADD", "CRL-European routes"],
+      "estimatedPassengers": "6/16约数千人，6/18约12-15万/日",
+      "duration": "6/16-18分阶段，6/18总罢工",
+      "action": "6/16-17提醒旅客赴BRU交通替代；下架6/18出发航班；AMS/FRA替代中转",
+      "coordinates": [
+        {"code": "BRU", "lat": 50.9014, "lng": 4.4843},
+        {"code": "CRL", "lat": 50.4655, "lng": 4.4657}
+      ]
+    },
+    {
+      "id": "P2-002",
+      "priority": "P2",
+      "category": "航司运营异常",
+      "title": "布鲁塞尔机场Aviapartner自发罢工已结束",
+      "summary": "6/15凌晨Aviapartner员工自发罢工致15航班延误1-3小时，工会称大概率不延续至6/16，影响较小",
+      "description": "【起因】6月15日03:30-04:00，布鲁塞尔机场(BRU)地勤服务商Aviapartner员工发起自发罢工(wildcat strike)。\n【原因】员工自发行动，影响值机、行李装卸和登机操作。另一地勤公司Alyzia运营不受影响。\n【影响面】\n- 影响机场：BRU\n- 影响航线：BRU出发短途航线（TUI fly/Ryanair/Iberia/British Airways使用Aviapartner服务的航线）\n- 影响航司：TUI fly、Ryanair、Iberia、British Airways\n- 影响旅客：约2000-3000人（15个航班延误1-3小时）\n- 持续时间：6/15 03:30-04:00（已结束，预计不延续至6/16）\n- OTA建议：无需行动；关注BRU本周叠加全国罢工风险\n【当前进展】比利时基督教工会弗拉芒分会表示协调会议后罢工大概率不延续至6/16。此事件与6/16-18全国罢工为独立事件。\n【OTA影响】影响规模极小且已结束，无需OTA行动。但需注意BRU本周叠加全国罢工的整体风险。",
+      "affectedAirports": ["BRU"],
+      "affectedAirlines": ["TUI fly", "Ryanair", "Iberia", "British Airways"],
+      "affectedRoutes": ["BRU-short haul European routes"],
+      "estimatedPassengers": "约2000-3000人",
+      "duration": "6/15 03:30-04:00（已结束，预计不延续）",
+      "action": "无需行动；关注BRU本周叠加全国罢工风险",
+      "coordinates": [
+        {"code": "BRU", "lat": 50.9014, "lng": 4.4843}
+      ]
+    },
+    {
+      "id": "P2-003",
+      "priority": "P2",
+      "category": "航空安全",
+      "title": "Cape Air航班冲出跑道(PVC)，影响极低",
+      "summary": "Cape Air一架Cessna 402C在普罗温斯敦机场降落时冲出跑道，3人无重伤，对OTA航线运营影响极低",
+      "description": "【起因】6月15日约08:12，Cape Air一架Cessna 402C执行从波士顿洛根机场(BOS)至普罗温斯敦机场(PVC)的定期航班，降落时冲出跑道。\n【原因】事故原因待NTSB调查。飞机冒烟但未起火，机上3人（2名飞行员+1名乘客）无重伤，1人送医评估。\n【影响面】\n- 影响机场：PVC（普罗温斯敦，小型支线机场）\n- 影响航线：BOS-PVC短途航线\n- 影响航司：Cape Air\n- 影响旅客：约3人（机上人员）\n- 持续时间：一次性事件，FAA和NTSB调查中\n- OTA建议：无需OTA行动\n【当前进展】FAA和NTSB已接到通知将展开调查。PVC为小型支线机场，该事件对OTA航线运营影响极低。\n【OTA影响】PVC为小型支线机场，Cape Air执飞BOS-PVC短途航线，该事件对OTA航线运营影响极低，无需下架或调整。",
+      "affectedAirports": ["PVC"],
+      "affectedAirlines": ["Cape Air"],
+      "affectedRoutes": ["BOS-PVC"],
+      "estimatedPassengers": "约3人（机上人员）",
+      "duration": "一次性事件，调查中",
+      "action": "无需OTA行动",
+      "coordinates": [
+        {"code": "PVC", "lat": 42.0739, "lng": -70.2183}
+      ]
+    }
+  ],
+  "flightAnomalies": [
+    {
+      "category": "SZX华南暴雨相关取消",
+      "description": "SZX进港2架次+SZX出港5架次取消（CA1393/ZH1393 PEK→SZX, HU7726 PVG→SZX, HU7739 SZX→TYN, 9C8671 SZX→HIA, SC9835/ZH9415 SZX→TFU, KY8272 SZX→KMG），与华南龙舟水暴雨吻合",
+      "flights": ["CA1393", "ZH1393", "HU7726", "HU7739", "9C8671", "SC9835", "ZH9415", "KY8272"],
+      "affectedAirport": "SZX",
+      "possibleCause": "华南龙舟水暴雨持续，SZX航班延误/取消"
+    },
+    {
+      "category": "LHR→ORD多航司集中取消",
+      "description": "LHR→ORD航线7架次取消，涉及6家航司（DL9904/BA1546/AS6987/AA91/AY3888/IB4396/GF4120），多航司同一航线同时取消异常，需关注是否有运营或安保原因",
+      "flights": ["DL9904", "BA1546", "AS6987", "AA91", "AY3888", "IB4396", "GF4120"],
+      "affectedAirport": "LHR, ORD",
+      "possibleCause": "多航司同时取消同一航线，可能是代码共享单一物理航班取消，或ORD运营问题"
+    },
+    {
+      "category": "IST相关取消",
+      "description": "土耳其航空4架次国内航线取消（TK2438 IST→AYT, TK2546 IST→RZV, TK2240 IST→GZT, TK2232 IST→ASR, TK609 IST→ACC），另有IST→IKA(德黑兰)1架次取消，与中东地缘局势相关",
+      "flights": ["TK2438", "TK2546", "TK2240", "TK2232", "TK609"],
+      "affectedAirport": "IST",
+      "possibleCause": "TK国内航线运营调整；IST→IKA取消与伊朗航线限制相关"
+    },
+    {
+      "category": "其他国内取消",
+      "description": "PEK→XMN 3班(CA4640/SC2124/ZH2550)、PEK→AQG 2班(CN7127/HU7127)、PVG→SYX 1班(HU7322)、CAN→WUX 3班(SC9425/CA3655/ZH9821)、CAN→HGH 1班(HU7161)、CTU→HRB 4班(G56273/MU3413/3U8471/MF4943)、CTU→GYU 2班(3U5567/EU1975)，主要与华南/西南天气及航线调整相关",
+      "flights": ["CA4640", "SC2124", "ZH2550", "CN7127", "HU7127", "HU7322", "SC9425", "CA3655", "ZH9821", "HU7161", "G56273", "MU3413", "3U8471", "MF4943", "3U5567", "EU1975"],
+      "affectedAirport": "PEK, PVG, CAN, CTU",
+      "possibleCause": "华南暴雨连锁影响及国内航线运营调整"
+    }
+  ],
+  "sources": [
+    {"name": "新华社", "url": "http://www.xinhuanet.com/photo/20260616/4bfe5e2b252d4536bac5feff3d0242ff/c.html"},
+    {"name": "中国新闻网", "url": "https://m.chinanews.com/wap/detail/ecnszw/hffinvk9821228.shtml"},
+    {"name": "Calcalistech", "url": "https://www.calcalistech.com/ctechnews/article/bypsipazzx"},
+    {"name": "Reuters(Investing.com)", "url": "https://www.investing.com/news/stock-market-news/factboxairlines-resume-some-middle-east-flights-but-disruption-continues-4742616"},
+    {"name": "BoltFlight", "url": "https://boltflight.com/ryanair-delays-return-of-17-jordan-routes-until-october-amid-regional-uncertainty/"},
+    {"name": "民航资源网", "url": "https://i.carnoc.com/detail/660193"},
+    {"name": "中国气象局", "url": "http://www.cma.gov.cn/2011xwzx/2011xqxxw/2011xqxyw/202606/t20260615_7856966.html"},
+    {"name": "Belga(比利时通讯社)", "url": "https://www.belganewsagency.eu/strike-causes-delays-at-brussels-airport"},
+    {"name": "Brussels Times", "url": "https://www.brusselstimes.com/2192147/early-morning-strike-disrupts-check-in-and-boarding-at-brussels-airport"},
+    {"name": "Provincetown镇政府", "url": "https://www.provincetown-ma.gov/m/newsflash/home/detail/1910"},
+    {"name": "AirLabs实时数据", "url": "https://airlabs.co/"}
+  ]
+}
