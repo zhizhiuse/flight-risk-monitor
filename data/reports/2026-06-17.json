@@ -1,0 +1,290 @@
+{
+  "reportDate": "2026-06-17",
+  "generatedAt": "2026-06-17T07:48:40+08:00",
+  "period": "morning",
+  "summary": {
+    "total": 4,
+    "p0": 0,
+    "p1": 3,
+    "p2": 1
+  },
+  "events": [
+    {
+      "id": "2026-06-17-P1-001",
+      "title": "华南龙舟水：SZX暴雨红色预警升级，航班大面积延误取消",
+      "level": "P1",
+      "category": "极端天气",
+      "affectedAirports": [
+        "SZX",
+        "CAN"
+      ],
+      "affectedRoutes": [
+        "SZX/CAN进出港国内及国际航线"
+      ],
+      "affectedAirlines": [
+        "ZH",
+        "CZ",
+        "CA",
+        "MU",
+        "MF"
+      ],
+      "affectedPassengers": "SZX累计约1.5-2万人次受延误/取消影响，CAN累计约3千-5千人次",
+      "duration": "6/16-18持续暴雨，6/18后雨带北抬逐步缓解",
+      "otaAction": "6/17-18 SZX/CAN出港航班保持退改签灵活度；关注SZX红色预警是否持续；18日后逐步恢复",
+      "description": "【起因】6月16日深圳市气象台12:35将分区暴雨预警从橙色升级为红色，光明区3小时累计雨量达大暴雨级别，预计未来2小时还将出现40-60毫米降水。【原因】华南龙舟水活跃期，主雨带滞留华南沿海，中央气象台继续发布暴雨橙色预警，预计16日20时至17日20时广东沿海局地特大暴雨(250-300毫米)。【影响面】SZX出港截至21时延误35架次、取消5架次、准点率48.68%；CAN出港截至21时延误7架次、取消12架次、准点率77.65%。新华社报道主雨带17日前仍在华南，18日起北抬。【当前进展】深圳全市进入暴雨紧急防御状态；中央气象台同时发布强对流黄色预警；SZX/CAN航班运行持续受限。【OTA影响】SZX/CAN为中国三大枢纽中的两个，6/17-18出港航班仍将受暴雨影响，退改签需求集中；18日后逐步恢复。",
+      "sources": [
+        {
+          "name": "[1] 深圳市气象台暴雨红色预警 - 中国气象局",
+          "url": "https://weather.cma.cn/web/alarm/44030041600000_20260616124211.html"
+        },
+        {
+          "name": "[2] 今晚 多架飞北京航班备降！18个机场天气预警！ - 民航资源网",
+          "url": "https://i.carnoc.com/detail/660456"
+        },
+        {
+          "name": "[3] 深圳发布暴雨红色预警！全市下午停课 - 光明网",
+          "url": "https://m.gmw.cn/2026-06/16/content_1304498402.htm"
+        },
+        {
+          "name": "[4] 今夜，多架飞北京航班因雷雨备降 - 京报网",
+          "url": "https://news.bjd.com.cn/2026/06/16/11810877.shtml"
+        },
+        {
+          "name": "[5] 华北昨夜今晨遭遇强雷雨，多地航班备降石家庄 - 极目新闻",
+          "url": "http://www.ctdsb.net/c1716_202606/2773962.html"
+        },
+        {
+          "name": "[6] 雷电黄色预警信号！北京将自西向东有雷阵雨 - 中国天气网",
+          "url": "https://m.weather.com.cn/news/2026/06/4677562.shtml"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-17-P1-002",
+      "title": "华北雷雨：PEK/PKX航班大面积备降SJW",
+      "level": "P1",
+      "category": "极端天气",
+      "affectedAirports": [
+        "PEK",
+        "PKX"
+      ],
+      "affectedRoutes": [
+        "飞往PEK/PKX的进港航线"
+      ],
+      "affectedAirlines": [
+        "CA",
+        "MU",
+        "CZ",
+        "HU"
+      ],
+      "affectedPassengers": "约4000-6000人次（29班备降+后续延误影响）",
+      "duration": "6/16 17:00-22:00短时影响，6/17已逐步恢复",
+      "otaAction": "关注备降航班恢复情况；协助6/17早间可能受积压影响的旅客改签",
+      "description": "【起因】6月16日17:20起首都机场开始降雨，短时雨强较大并伴有雷雨大风。【原因】北京市气象台6月16日11:30发布雷电黄色预警，预计16日17-22时影响城区，局地短时雨强较大并伴有7级以上短时大风和冰雹。【影响面】飞往PEK/PKX的大量航班被迫备降石家庄正定机场(SJW)，截至20:52 SJW累计接收29班备降航班（PEK备降6班、PKX备降17班、TSN备降1班、太原方向5班）；上海浦东-北京大兴CA8342等航班备降SJW。【当前进展】PEK启动运管委协同运行二级响应机制；雷雨于22时后减弱，备降航班6/17凌晨逐步恢复。【OTA影响】短时影响已过，但6/17早间可能存在航班积压和调度延迟。",
+      "sources": [
+        {
+          "name": "[1] 深圳市气象台暴雨红色预警 - 中国气象局",
+          "url": "https://weather.cma.cn/web/alarm/44030041600000_20260616124211.html"
+        },
+        {
+          "name": "[2] 今晚 多架飞北京航班备降！18个机场天气预警！ - 民航资源网",
+          "url": "https://i.carnoc.com/detail/660456"
+        },
+        {
+          "name": "[3] 深圳发布暴雨红色预警！全市下午停课 - 光明网",
+          "url": "https://m.gmw.cn/2026-06/16/content_1304498402.htm"
+        },
+        {
+          "name": "[4] 今夜，多架飞北京航班因雷雨备降 - 京报网",
+          "url": "https://news.bjd.com.cn/2026/06/16/11810877.shtml"
+        },
+        {
+          "name": "[5] 华北昨夜今晨遭遇强雷雨，多地航班备降石家庄 - 极目新闻",
+          "url": "http://www.ctdsb.net/c1716_202606/2773962.html"
+        },
+        {
+          "name": "[6] 雷电黄色预警信号！北京将自西向东有雷阵雨 - 中国天气网",
+          "url": "https://m.weather.com.cn/news/2026/06/4677562.shtml"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-17-P1-003",
+      "title": "KLM暂停恩德培(EBB)航线至7月1日",
+      "level": "P1",
+      "category": "航司运营异常",
+      "affectedAirports": [
+        "AMS",
+        "EBB"
+      ],
+      "affectedRoutes": [
+        "AMS-EBB"
+      ],
+      "affectedAirlines": [
+        "KLM"
+      ],
+      "affectedPassengers": "约4000-5000人次（至7月1日约14天×日均300-350座）",
+      "duration": "即日起至7月1日",
+      "otaAction": "下架7月1日前KLM的AMS-EBB机票；通知已购票旅客退改；引导旅客改道NBO中转（埃塞俄比亚航空/肯尼亚航空仍在运营）",
+      "description": "【起因】中非地区埃博拉疫情引发多国对经停乌干达恩德培的旅客实施旅行限制措施。【原因】KLM官方旅行警报页面6月15日更新：因部分国家对经停EBB的旅客实施旅行限制，且这些措施同样适用于机组人员，KLM无法继续执行该航线航班。【影响面】KLM为恩德培航线唯一的欧洲传统航司，该航线暂停意味着AMS-EBB段旅客需改签或改道内罗毕(NBO)中转；业界分析担忧此举可能引发东非航空枢纽更广泛的连锁影响。【当前进展】乌干达卫生部6月16日声明称该国近数周未录得新埃博拉病例，出境旅客无需提供埃博拉阴性证明；埃塞俄比亚航空、肯尼亚航空仍在运营EBB航线。【OTA影响】7月1日前在售AMS-EBB机票需及时处理退改；NBO中转为当前最佳替代方案。",
+      "sources": [
+        {
+          "name": "[1] Travel alerts and disruptions - KLM official - KLM官网",
+          "url": "https://www.klm.fr/en/information/travel-alerts"
+        },
+        {
+          "name": "[2] Uganda says Ebola-free certificates not required for outbound travel - 新华社",
+          "url": "http://www.chinaview.cn/20260616/2aea53dd2966472db850489ea0492bfa/c.html"
+        },
+        {
+          "name": "[3] Airlines Suspend Routes to Uganda Amid Ebola Outbreak Concerns - Azat TV",
+          "url": "https://azat.tv/en/airlines-suspend-routes-uganda-ebola/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-17-P2-001",
+      "title": "AAIB公报：易捷航空A320错误起飞数据（历史安全调查）",
+      "level": "P2",
+      "category": "航空安全",
+      "affectedAirports": [
+        "LTN",
+        "MAN"
+      ],
+      "affectedRoutes": [
+        "无当前影响（历史事件）"
+      ],
+      "affectedAirlines": [
+        "EasyJet (U2/EZY)"
+      ],
+      "affectedPassengers": "0（历史安全调查，无当前旅客受影响）",
+      "duration": "事件已结束，AAIB调查结论已发布",
+      "otaAction": "暂无OTA行动需求；关注易捷航空是否进一步调整运营程序",
+      "description": "【起因】英国航空事故调查局(AAIB)发布调查公报，披露易捷航空两架A320客机因使用错误起飞数据从错误跑道位置起飞。【原因】AAIB认定习惯模式(habit patterns)和确认偏差(confirmation bias)是两起事件的主要成因，此类错误在航空交通繁忙、运行压力较大的时期更易发生。【影响面】2025年6月13日EZY2335航班(伦敦卢顿LTN→马拉加AGP)从错误跑道位置起飞，越过跑道末端时离地高度仅65英尺(约19米)；2025年7月6日另一架A320从曼彻斯特(MAN)起飞飞往希腊科斯，同样从错误跑道位置起飞。两起均为严重安全事件但未造成伤亡。【当前进展】易捷航空已据此更改起飞计算程序；AAIB调查结论已发布。【OTA影响】历史安全事件，当前无运营影响，无需OTA行动。",
+      "sources": [
+        {
+          "name": "[1] 太吓人！这家航司两架客机\"错位\"起飞！ - 澎湃新闻",
+          "url": "https://m.thepaper.cn/newsDetail_forward_33389339"
+        },
+        {
+          "name": "[2] 易捷航空两架客机从跑道错误位置起飞 - 民航资源网",
+          "url": "https://i.carnoc.com/detail/660324"
+        },
+        {
+          "name": "[3] EasyJet A320 cleared Luton runway at 65 feet after crew used wrong data - AirTraveler",
+          "url": "https://www.airtraveler.club/news/easyjet-luton-wrong-takeoff-data/"
+        }
+      ]
+    }
+  ],
+  "flightAnomalies": [
+    {
+      "category": "DOH→BAH多航司集中取消",
+      "description": "DOH→BAH方向11班取消（AA8220/LA5659/AT5798/B66628/BA2288/UL3068/KQ6202/QR1116/IB6345/VA6392/AY6031/AS5948），多航司代码共享，疑为QR同一物理航班取消",
+      "flights": [
+        "AA8220",
+        "LA5659",
+        "AT5798",
+        "B66628",
+        "BA2288",
+        "UL3068",
+        "KQ6202",
+        "QR1116",
+        "IB6345",
+        "VA6392",
+        "AY6031",
+        "AS5948"
+      ],
+      "affectedAirport": "DOH, BAH",
+      "possibleCause": "卡塔尔-巴林航线可能因运营调整或地缘因素取消"
+    },
+    {
+      "category": "IST多班TK取消",
+      "description": "土耳其航空5班取消：TK2438 IST→AYT、TK718 IST→KHI、TK98 IST→MED、TK2232 IST→ASR、另有IST→IKA航班取消（航司信息缺失）",
+      "flights": [
+        "TK2438",
+        "TK718",
+        "TK98",
+        "TK2232"
+      ],
+      "affectedAirport": "IST",
+      "possibleCause": "TK多航线取消，可能为运营调整"
+    },
+    {
+      "category": "DXB↔ADD双向取消",
+      "description": "flydubai双向取消：FZ605 DXB→ADD、FZ606 ADD→DXB",
+      "flights": [
+        "FZ605",
+        "FZ606"
+      ],
+      "affectedAirport": "DXB, ADD",
+      "possibleCause": "可能与东非埃博拉形势及KLM暂停EBB航线相关"
+    },
+    {
+      "category": "MIA→LIM取消",
+      "description": "MIA→LIM 4班取消（DL6025/VS7744/LP2481/LA2481），多航司代码共享，疑为同一物理航班取消",
+      "flights": [
+        "DL6025",
+        "VS7744",
+        "LP2481",
+        "LA2481"
+      ],
+      "affectedAirport": "MIA, LIM",
+      "possibleCause": "LATAM代码共享航班取消，可能为运营调整"
+    }
+  ],
+  "sources": [
+    {
+      "name": "中国气象局",
+      "url": "https://weather.cma.cn/web/alarm/44030041600000_20260616124211.html"
+    },
+    {
+      "name": "民航资源网",
+      "url": "https://i.carnoc.com/detail/660456"
+    },
+    {
+      "name": "光明网",
+      "url": "https://m.gmw.cn/2026-06/16/content_1304498402.htm"
+    },
+    {
+      "name": "京报网",
+      "url": "https://news.bjd.com.cn/2026/06/16/11810877.shtml"
+    },
+    {
+      "name": "极目新闻",
+      "url": "http://www.ctdsb.net/c1716_202606/2773962.html"
+    },
+    {
+      "name": "中国天气网",
+      "url": "https://m.weather.com.cn/news/2026/06/4677562.shtml"
+    },
+    {
+      "name": "KLM官网",
+      "url": "https://www.klm.fr/en/information/travel-alerts"
+    },
+    {
+      "name": "新华社",
+      "url": "http://www.chinaview.cn/20260616/2aea53dd2966472db850489ea0492bfa/c.html"
+    },
+    {
+      "name": "Azat TV",
+      "url": "https://azat.tv/en/airlines-suspend-routes-uganda-ebola/"
+    },
+    {
+      "name": "澎湃新闻",
+      "url": "https://m.thepaper.cn/newsDetail_forward_33389339"
+    },
+    {
+      "name": "民航资源网(安全)",
+      "url": "https://i.carnoc.com/detail/660324"
+    },
+    {
+      "name": "AirTraveler",
+      "url": "https://www.airtraveler.club/news/easyjet-luton-wrong-takeoff-data/"
+    },
+    {
+      "name": "AirLabs实时数据",
+      "url": "https://airlabs.co/"
+    }
+  ]
+}
