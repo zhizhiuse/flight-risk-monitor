@@ -49,6 +49,32 @@
           "lat": 30.0794,
           "lng": 34.8058
         }
+      ],
+      "sources": [
+        {
+          "name": "[1] 部分美军空中加油机飞离以色列本-古里安机场 - 新华社",
+          "url": "http://www.xinhuanet.com/photo/20260616/4bfe5e2b252d4536bac5feff3d0242ff/c.html"
+        },
+        {
+          "name": "[2] Israeli minister urges Netanyahu to solve congestion at int'l airport caused by U.S. military aircraft - 中国新闻网",
+          "url": "https://m.chinanews.com/wap/detail/ecnszw/hffinvk9821228.shtml"
+        },
+        {
+          "name": "[3] 74 U.S. tankers, 2.4 million passengers: Israel races to avert summer aviation chaos at Ben Gurion Airport - Calcalistech",
+          "url": "https://www.calcalistech.com/ctechnews/article/bypsipazzx"
+        },
+        {
+          "name": "[4] Factbox-Airlines resume some Middle East flights but disruption continues - Reuters(Investing.com)",
+          "url": "https://www.investing.com/news/stock-market-news/factboxairlines-resume-some-middle-east-flights-but-disruption-continues-4742616"
+        },
+        {
+          "name": "[5] Factbox-Airlines resume some Middle East flights but disruption continues - Reuters(Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/06/15/factbox-airlines-resume-some-middle-east-flights-but-disruption-continues"
+        },
+        {
+          "name": "[6] Ryanair Delays Return of 17 Jordan Routes Until October Amid Regional Uncertainty - BoltFlight",
+          "url": "https://boltflight.com/ryanair-delays-return-of-17-jordan-routes-until-october-amid-regional-uncertainty/"
+        }
       ]
     },
     {
@@ -89,6 +115,20 @@
           "code": "CAN",
           "lat": 23.3924,
           "lng": 113.2988
+        }
+      ],
+      "sources": [
+        {
+          "name": "[1] 今日及未来几天仍有强降雨风险！乘机请关注天气影响 - 民航资源网(深圳机场官方发布)",
+          "url": "https://i.carnoc.com/detail/660193"
+        },
+        {
+          "name": "[2] 中国气象局升级调整应急响应为三级 应对大范围暴雨强对流天气 - 中国气象局",
+          "url": "http://www.cma.gov.cn/2011xwzx/2011xqxxw/2011xqxyw/202606/t20260615_7856966.html"
+        },
+        {
+          "name": "[3] 本轮强降雨广东累计转移13283人 - 新华网",
+          "url": "http://www.gd.xinhuanet.com/20260615/e87d299fcdfb4d3d9931940b8c0488b2/c.html"
         }
       ]
     },
@@ -148,6 +188,32 @@
           "lat": 25.2532,
           "lng": 55.3657
         }
+      ],
+      "sources": [
+        {
+          "name": "[1] 部分美军空中加油机飞离以色列本-古里安机场 - 新华社",
+          "url": "http://www.xinhuanet.com/photo/20260616/4bfe5e2b252d4536bac5feff3d0242ff/c.html"
+        },
+        {
+          "name": "[2] Israeli minister urges Netanyahu to solve congestion at int'l airport caused by U.S. military aircraft - 中国新闻网",
+          "url": "https://m.chinanews.com/wap/detail/ecnszw/hffinvk9821228.shtml"
+        },
+        {
+          "name": "[3] 74 U.S. tankers, 2.4 million passengers: Israel races to avert summer aviation chaos at Ben Gurion Airport - Calcalistech",
+          "url": "https://www.calcalistech.com/ctechnews/article/bypsipazzx"
+        },
+        {
+          "name": "[4] Factbox-Airlines resume some Middle East flights but disruption continues - Reuters(Investing.com)",
+          "url": "https://www.investing.com/news/stock-market-news/factboxairlines-resume-some-middle-east-flights-but-disruption-continues-4742616"
+        },
+        {
+          "name": "[5] Factbox-Airlines resume some Middle East flights but disruption continues - Reuters(Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/06/15/factbox-airlines-resume-some-middle-east-flights-but-disruption-continues"
+        },
+        {
+          "name": "[6] Ryanair Delays Return of 17 Jordan Routes Until October Amid Regional Uncertainty - BoltFlight",
+          "url": "https://boltflight.com/ryanair-delays-return-of-17-jordan-routes-until-october-amid-regional-uncertainty/"
+        }
       ]
     },
     {
@@ -187,6 +253,20 @@
           "lat": 50.4655,
           "lng": 4.4657
         }
+      ],
+      "sources": [
+        {
+          "name": "[1] Strike causes delays at Brussels Airport - Belga（比利时国家通讯社）",
+          "url": "https://www.belganewsagency.eu/strike-causes-delays-at-brussels-airport"
+        },
+        {
+          "name": "[2] Early morning strike disrupts check-in and boarding at Brussels Airport - Brussels Times",
+          "url": "https://www.brusselstimes.com/2192147/early-morning-strike-disrupts-check-in-and-boarding-at-brussels-airport"
+        },
+        {
+          "name": "[3] Une concertation pourrait mettre un terme à la grève spontanée chez Aviapartner - BX1",
+          "url": "https://bx1.be/categories/economie/une-concertation-pourrait-mettre-un-terme-a-la-greve-spontanee-chez-aviapartner/"
+        }
       ]
     },
     {
@@ -217,6 +297,20 @@
           "lat": 50.9014,
           "lng": 4.4843
         }
+      ],
+      "sources": [
+        {
+          "name": "[1] Strike causes delays at Brussels Airport - Belga（比利时国家通讯社）",
+          "url": "https://www.belganewsagency.eu/strike-causes-delays-at-brussels-airport"
+        },
+        {
+          "name": "[2] Early morning strike disrupts check-in and boarding at Brussels Airport - Brussels Times",
+          "url": "https://www.brusselstimes.com/2192147/early-morning-strike-disrupts-check-in-and-boarding-at-brussels-airport"
+        },
+        {
+          "name": "[3] Une concertation pourrait mettre un terme à la grève spontanée chez Aviapartner - BX1",
+          "url": "https://bx1.be/categories/economie/une-concertation-pourrait-mettre-un-terme-a-la-greve-spontanee-chez-aviapartner/"
+        }
       ]
     },
     {
@@ -243,6 +337,28 @@
           "code": "PVC",
           "lat": 42.0739,
           "lng": -70.2183
+        }
+      ],
+      "sources": [
+        {
+          "name": "[1] Cape Air Incident at Provincetown Municipal Airport on June 15 - 普罗温斯敦镇政府官方",
+          "url": "https://www.provincetown-ma.gov/m/newsflash/home/detail/1910"
+        },
+        {
+          "name": "[2] Aircraft overshoots runway at Provincetown airport - WHDH 7 News",
+          "url": "https://whdh.com/news/aircraft-overshoots-runway-at-provincetown-airport/"
+        },
+        {
+          "name": "[3] Police, Fire & Public Safety News - Cape Cod Daily",
+          "url": "https://capecoddaily.com/news/police-fire/"
+        },
+        {
+          "name": "[4] 1 Hospitalized As Plane Overshoots Provincetown Airport Runway - Patch",
+          "url": "https://patch.com/massachusetts/barnstable-hyannis/1-hospitalized-plane-overshoots-provincetown-airport-runway"
+        },
+        {
+          "name": "[5] Cape Air Plane Shoots Past Provincetown Runway - Hoodline",
+          "url": "https://hoodline.com/2026/06/cape-air-plane-shoots-past-provincetown-runway-rattles-quiet-morning-on-the-tip-of-the-cape/"
         }
       ]
     },
@@ -274,6 +390,44 @@
           "lat": 29.2269,
           "lng": 47.9759
         }
+      ],
+      "sources": [
+        {
+          "name": "[1] 74 U.S. tankers, 2.4 million passengers: Israel races to avert summer aviation chaos at Ben Gurion Airport - Calcalistech",
+          "url": "https://www.calcalistech.com/ctechnews/article/bypsipazzx"
+        },
+        {
+          "name": "[2] 部分美军空中加油机飞离以色列本-古里安机场 - 新华社",
+          "url": "http://www.xinhuanet.com/photo/20260616/4bfe5e2b252d4536bac5feff3d0242ff/c.html"
+        },
+        {
+          "name": "[3] US refueling aircraft to be moved from Ben-Gurion amid flight disruption fears - Jerusalem Post",
+          "url": "https://www.jpost.com/israel-news/article-899387"
+        },
+        {
+          "name": "[4] Scouring the Strait of Hormuz for mines could take weeks - Al-Monitor",
+          "url": "https://www.al-monitor.com/originals/2026/06/scouring-strait-hormuz-mines-could-take-weeks"
+        },
+        {
+          "name": "[5] 40-50 Days Delay? Hormuz Reopens But Sea Mines Threat Keeps Shipping Normalcy Weeks Away - NDTV Profit",
+          "url": "https://www.ndtvprofit.com/world/40-50-days-delay-hormuz-reopens-but-sea-mines-threat-keeps-shipping-normalcy-weeks-away-11639369"
+        },
+        {
+          "name": "[6] Shipping companies welcome Hormuz reopening, so long as safety is guaranteed - The National",
+          "url": "https://www.thenationalnews.com/business/economy/2026/06/15/hormuz-shipping-recovery-reckons-with-mine-risks-despite-us-iran-deal/"
+        },
+        {
+          "name": "[7] Kuwait reopens Terminal 4 for select Gulf, international flights - Gulf News",
+          "url": "https://gulfnews.com/world/gulf/kuwait/kuwait-reopens-terminal-4-for-select-gulf-international-flights-1.500575118"
+        },
+        {
+          "name": "[8] Kuwait resumes limited operations for Gulf, Arab and foreign airlines through Terminal 4 - CGTN",
+          "url": "https://news.cgtn.com/news/2026-06-15/news-1O0bCyKR3Nu/p.html"
+        },
+        {
+          "name": "[9] Kuwait resumes limited airline operations at Terminal 4 amid improving regional conditions - Business Upturn",
+          "url": "https://www.businessupturn.com/usa/kuwait-resumes-limited-airline-operations-at-terminal-4-amid-improving-regional-conditions/133164/"
+        }
       ]
     },
     {
@@ -303,6 +457,44 @@
           "code": "IKA",
           "lat": 35.4161,
           "lng": 51.1522
+        }
+      ],
+      "sources": [
+        {
+          "name": "[1] 74 U.S. tankers, 2.4 million passengers: Israel races to avert summer aviation chaos at Ben Gurion Airport - Calcalistech",
+          "url": "https://www.calcalistech.com/ctechnews/article/bypsipazzx"
+        },
+        {
+          "name": "[2] 部分美军空中加油机飞离以色列本-古里安机场 - 新华社",
+          "url": "http://www.xinhuanet.com/photo/20260616/4bfe5e2b252d4536bac5feff3d0242ff/c.html"
+        },
+        {
+          "name": "[3] US refueling aircraft to be moved from Ben-Gurion amid flight disruption fears - Jerusalem Post",
+          "url": "https://www.jpost.com/israel-news/article-899387"
+        },
+        {
+          "name": "[4] Scouring the Strait of Hormuz for mines could take weeks - Al-Monitor",
+          "url": "https://www.al-monitor.com/originals/2026/06/scouring-strait-hormuz-mines-could-take-weeks"
+        },
+        {
+          "name": "[5] 40-50 Days Delay? Hormuz Reopens But Sea Mines Threat Keeps Shipping Normalcy Weeks Away - NDTV Profit",
+          "url": "https://www.ndtvprofit.com/world/40-50-days-delay-hormuz-reopens-but-sea-mines-threat-keeps-shipping-normalcy-weeks-away-11639369"
+        },
+        {
+          "name": "[6] Shipping companies welcome Hormuz reopening, so long as safety is guaranteed - The National",
+          "url": "https://www.thenationalnews.com/business/economy/2026/06/15/hormuz-shipping-recovery-reckons-with-mine-risks-despite-us-iran-deal/"
+        },
+        {
+          "name": "[7] Kuwait reopens Terminal 4 for select Gulf, international flights - Gulf News",
+          "url": "https://gulfnews.com/world/gulf/kuwait/kuwait-reopens-terminal-4-for-select-gulf-international-flights-1.500575118"
+        },
+        {
+          "name": "[8] Kuwait resumes limited operations for Gulf, Arab and foreign airlines through Terminal 4 - CGTN",
+          "url": "https://news.cgtn.com/news/2026-06-15/news-1O0bCyKR3Nu/p.html"
+        },
+        {
+          "name": "[9] Kuwait resumes limited airline operations at Terminal 4 amid improving regional conditions - Business Upturn",
+          "url": "https://www.businessupturn.com/usa/kuwait-resumes-limited-airline-operations-at-terminal-4-amid-improving-regional-conditions/133164/"
         }
       ]
     },
@@ -344,6 +536,44 @@
           "code": "AUH",
           "lat": 24.433,
           "lng": 54.6511
+        }
+      ],
+      "sources": [
+        {
+          "name": "[1] 74 U.S. tankers, 2.4 million passengers: Israel races to avert summer aviation chaos at Ben Gurion Airport - Calcalistech",
+          "url": "https://www.calcalistech.com/ctechnews/article/bypsipazzx"
+        },
+        {
+          "name": "[2] 部分美军空中加油机飞离以色列本-古里安机场 - 新华社",
+          "url": "http://www.xinhuanet.com/photo/20260616/4bfe5e2b252d4536bac5feff3d0242ff/c.html"
+        },
+        {
+          "name": "[3] US refueling aircraft to be moved from Ben-Gurion amid flight disruption fears - Jerusalem Post",
+          "url": "https://www.jpost.com/israel-news/article-899387"
+        },
+        {
+          "name": "[4] Scouring the Strait of Hormuz for mines could take weeks - Al-Monitor",
+          "url": "https://www.al-monitor.com/originals/2026/06/scouring-strait-hormuz-mines-could-take-weeks"
+        },
+        {
+          "name": "[5] 40-50 Days Delay? Hormuz Reopens But Sea Mines Threat Keeps Shipping Normalcy Weeks Away - NDTV Profit",
+          "url": "https://www.ndtvprofit.com/world/40-50-days-delay-hormuz-reopens-but-sea-mines-threat-keeps-shipping-normalcy-weeks-away-11639369"
+        },
+        {
+          "name": "[6] Shipping companies welcome Hormuz reopening, so long as safety is guaranteed - The National",
+          "url": "https://www.thenationalnews.com/business/economy/2026/06/15/hormuz-shipping-recovery-reckons-with-mine-risks-despite-us-iran-deal/"
+        },
+        {
+          "name": "[7] Kuwait reopens Terminal 4 for select Gulf, international flights - Gulf News",
+          "url": "https://gulfnews.com/world/gulf/kuwait/kuwait-reopens-terminal-4-for-select-gulf-international-flights-1.500575118"
+        },
+        {
+          "name": "[8] Kuwait resumes limited operations for Gulf, Arab and foreign airlines through Terminal 4 - CGTN",
+          "url": "https://news.cgtn.com/news/2026-06-15/news-1O0bCyKR3Nu/p.html"
+        },
+        {
+          "name": "[9] Kuwait resumes limited airline operations at Terminal 4 amid improving regional conditions - Business Upturn",
+          "url": "https://www.businessupturn.com/usa/kuwait-resumes-limited-airline-operations-at-terminal-4-amid-improving-regional-conditions/133164/"
         }
       ]
     }
