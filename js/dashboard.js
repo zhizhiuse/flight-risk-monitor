@@ -238,19 +238,6 @@ function renderEventList(report) {
   }
 
   container.innerHTML = html;
-
-  // Bind expand/collapse
-  container.querySelectorAll('.event-item-header').forEach(header => {
-    header.addEventListener('click', () => {
-      const card = header.closest('.event-item-compact');
-      const detail = card.querySelector('.event-item-detail');
-      if (detail) {
-        detail.classList.toggle('expanded');
-        const arrow = header.querySelector('.expand-arrow');
-        if (arrow) arrow.classList.toggle('rotated');
-      }
-    });
-  });
 }
 
 function renderCompactEvent(event) {
@@ -258,7 +245,7 @@ function renderCompactEvent(event) {
   const airports = event.affectedAirports ? event.affectedAirports.join(', ') : '-';
 
   return `
-    <div class="event-item-compact" data-id="${event.id}">
+    <div class="event-item-compact" data-id="${event.id}" onclick="showEventDetail('${event.id}')">
       <div class="event-item-header">
         <span class="event-priority ${event.priority.toLowerCase()}">${event.priority}</span>
         <div class="event-item-info">
@@ -270,7 +257,7 @@ function renderCompactEvent(event) {
         </div>
         <svg class="expand-arrow" viewBox="0 0 24 24" width="18" height="18"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z" fill="currentColor"/></svg>
       </div>
-      <div class="event-item-detail">
+      <div class="event-item-detail" onclick="event.stopPropagation()">
         ${event.summary ? `<div class="detail-summary">${event.summary}</div>` : ''}
         <div class="detail-grid">
           <div class="detail-item"><div class="detail-label">✈️ 影响机场</div><div class="detail-value">${event.affectedAirports ? event.affectedAirports.join(', ') : '-'}</div></div>
@@ -279,10 +266,154 @@ function renderCompactEvent(event) {
           <div class="detail-item"><div class="detail-label">⏱️ 持续时间</div><div class="detail-value">${event.duration || '-'}</div></div>
         </div>
         ${event.action ? `<div class="action-box"><div class="action-label">📋 OTA建议</div><div class="action-text">${event.action}</div></div>` : ''}
+        <div class="detail-view-btn" onclick="event.stopPropagation(); showEventDetail('${event.id}')">查看详情 →</div>
       </div>
     </div>
   `;
 }
+
+// ============ Event Detail Modal ============
+
+function showEventDetail(eventId) {
+  const report = window._currentReportData;
+  if (!report) return;
+
+  const event = report.events.find(e => e.id === eventId);
+  if (!event) return;
+
+  const modal = document.getElementById('eventModal');
+  const body = document.getElementById('modalBody');
+  if (!modal || !body) return;
+
+  const category = event.category || '其他';
+  const priorityClass = event.priority.toLowerCase();
+  const priorityLabels = { 'p0': '🔴 紧急', 'p1': '🟠 重要', 'p2': '🟡 关注' };
+
+  // Parse description into sections
+  let descHtml = '';
+  if (event.description) {
+    const lines = event.description.split('\\n').join('\n').split('\n');
+    let currentSection = '';
+    let sectionHtml = '';
+    
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (!trimmed) continue;
+      
+      // Check if it's a section header like 【起因】
+      const sectionMatch = trimmed.match(/^【(.+?)】(.*)$/);
+      if (sectionMatch) {
+        if (currentSection) {
+          descHtml += `<div class="modal-desc-section"><div class="modal-desc-header">${currentSection}</div>${sectionHtml}</div>`;
+        }
+        currentSection = sectionMatch[1];
+        sectionHtml = sectionMatch[2] ? `<p>${sectionMatch[2]}</p>` : '';
+      } else if (trimmed.startsWith('- ')) {
+        sectionHtml += `<div class="modal-desc-list-item">${trimmed.substring(2)}</div>`;
+      } else {
+        sectionHtml += `<p>${trimmed}</p>`;
+      }
+    }
+    if (currentSection) {
+      descHtml += `<div class="modal-desc-section"><div class="modal-desc-header">${currentSection}</div>${sectionHtml}</div>`;
+    }
+  }
+
+  // Build sources list
+  let sourcesHtml = '';
+  if (event.sources && event.sources.length > 0) {
+    sourcesHtml = `
+      <div class="modal-sources">
+        <div class="modal-sources-title">📎 信源链接</div>
+        <div class="modal-sources-list">
+          ${event.sources.map(s => `
+            <a href="${s.url}" target="_blank" rel="noopener noreferrer" class="modal-source-link">
+              <svg viewBox="0 0 24 24" width="14" height="14"><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z" fill="currentColor"/></svg>
+              <span>${s.name}</span>
+            </a>
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  body.innerHTML = `
+    <div class="modal-event-header">
+      <span class="event-priority ${priorityClass} modal-priority">${event.priority} ${priorityLabels[priorityClass] || ''}</span>
+      <span class="modal-category">${getCategoryIcon(category)} ${category}</span>
+    </div>
+    <h2 class="modal-title">${event.title}</h2>
+    ${event.summary ? `<div class="modal-summary">${event.summary}</div>` : ''}
+    
+    <div class="modal-detail-grid">
+      <div class="modal-detail-item">
+        <div class="modal-detail-icon">✈️</div>
+        <div class="modal-detail-content">
+          <div class="modal-detail-label">影响机场</div>
+          <div class="modal-detail-value">${event.affectedAirports ? event.affectedAirports.join(', ') : '-'}</div>
+        </div>
+      </div>
+      <div class="modal-detail-item">
+        <div class="modal-detail-icon">🔀</div>
+        <div class="modal-detail-content">
+          <div class="modal-detail-label">影响航线</div>
+          <div class="modal-detail-value">${event.affectedRoutes ? event.affectedRoutes.join(', ') : '-'}</div>
+        </div>
+      </div>
+      <div class="modal-detail-item">
+        <div class="modal-detail-icon">🏢</div>
+        <div class="modal-detail-content">
+          <div class="modal-detail-label">影响航司</div>
+          <div class="modal-detail-value">${event.affectedAirlines ? event.affectedAirlines.join(', ') : '-'}</div>
+        </div>
+      </div>
+      <div class="modal-detail-item">
+        <div class="modal-detail-icon">👥</div>
+        <div class="modal-detail-content">
+          <div class="modal-detail-label">影响旅客</div>
+          <div class="modal-detail-value">${event.estimatedPassengers || '-'}</div>
+        </div>
+      </div>
+      <div class="modal-detail-item">
+        <div class="modal-detail-icon">⏱️</div>
+        <div class="modal-detail-content">
+          <div class="modal-detail-label">持续时间</div>
+          <div class="modal-detail-value">${event.duration || '-'}</div>
+        </div>
+      </div>
+      <div class="modal-detail-item">
+        <div class="modal-detail-icon">📋</div>
+        <div class="modal-detail-content">
+          <div class="modal-detail-label">OTA建议</div>
+          <div class="modal-detail-value">${event.action || '-'}</div>
+        </div>
+      </div>
+    </div>
+
+    ${descHtml ? `<div class="modal-description">${descHtml}</div>` : ''}
+    ${sourcesHtml}
+  `;
+
+  modal.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeEventModal() {
+  const modal = document.getElementById('eventModal');
+  if (modal) {
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+}
+
+// Close modal on overlay click or ESC
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeEventModal();
+});
+
+document.getElementById('eventModal').addEventListener('click', (e) => {
+  if (e.target.id === 'eventModal') closeEventModal();
+});
 
 function updateCategoryButtons(report) {
   const events = report.events || [];
