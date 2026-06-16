@@ -1,32 +1,79 @@
 {
   "reports": [
     {
+      "reportDate": "2026-06-16",
+      "period": "afternoon",
+      "generatedAt": "2026-06-16T16:16:44+08:00",
+      "summary": {
+        "total": 7,
+        "p0": 2,
+        "p1": 2,
+        "p2": 3
+      },
+      "url": "reports/2026-06-16.json"
+    },
+    {
       "date": "2026-06-10",
-      "summary": {"total": 12, "p0": 2, "p1": 7, "p2": 3}
+      "summary": {
+        "total": 12,
+        "p0": 2,
+        "p1": 7,
+        "p2": 3
+      }
     },
     {
       "date": "2026-06-11",
-      "summary": {"total": 7, "p0": 2, "p1": 3, "p2": 2}
+      "summary": {
+        "total": 7,
+        "p0": 2,
+        "p1": 3,
+        "p2": 2
+      }
     },
     {
       "date": "2026-06-12",
-      "summary": {"total": 9, "p0": 3, "p1": 2, "p2": 4}
+      "summary": {
+        "total": 9,
+        "p0": 3,
+        "p1": 2,
+        "p2": 4
+      }
     },
     {
       "date": "2026-06-13",
-      "summary": {"total": 8, "p0": 1, "p1": 4, "p2": 3}
+      "summary": {
+        "total": 8,
+        "p0": 1,
+        "p1": 4,
+        "p2": 3
+      }
     },
     {
       "date": "2026-06-14",
-      "summary": {"total": 6, "p0": 2, "p1": 2, "p2": 2}
+      "summary": {
+        "total": 6,
+        "p0": 2,
+        "p1": 2,
+        "p2": 2
+      }
     },
     {
       "date": "2026-06-15",
-      "summary": {"total": 6, "p0": 3, "p1": 1, "p2": 2}
+      "summary": {
+        "total": 6,
+        "p0": 3,
+        "p1": 1,
+        "p2": 2
+      }
     },
     {
       "date": "2026-06-16",
-      "summary": {"total": 6, "p0": 2, "p1": 1, "p2": 3}
+      "summary": {
+        "total": 6,
+        "p0": 2,
+        "p1": 1,
+        "p2": 3
+      }
     }
   ]
 }

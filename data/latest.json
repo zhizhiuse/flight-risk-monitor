@@ -1,5 +1,12 @@
 {
   "reportDate": "2026-06-16",
-  "generatedAt": "2026-06-16T07:48:36+08:00",
-  "reportUrl": "report.html?date=2026-06-16"
+  "period": "afternoon",
+  "generatedAt": "2026-06-16T16:16:44+08:00",
+  "summary": {
+    "total": 7,
+    "p0": 2,
+    "p1": 2,
+    "p2": 3
+  },
+  "url": "reports/2026-06-16.json"
 }
