@@ -3,10 +3,10 @@
   "generatedAt": "2026-06-17T07:48:40+08:00",
   "period": "morning",
   "summary": {
-    "total": 4,
+    "total": 7,
     "p0": 0,
-    "p1": 3,
-    "p2": 1
+    "p1": 4,
+    "p2": 3
   },
   "events": [
     {
@@ -173,6 +173,119 @@
         {
           "name": "[3] EasyJet A320 cleared Luton runway at 65 feet after crew used wrong data - AirTraveler",
           "url": "https://www.airtraveler.club/news/easyjet-luton-wrong-takeoff-data/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-17-P1-ME001",
+      "title": "俄罗斯停飞伊朗夜间航班(6月14-24日)",
+      "level": "P1",
+      "category": "中东局势",
+      "affectedAirports": [
+        "IKA"
+      ],
+      "affectedRoutes": [
+        "SVO-IKA等俄伊直飞航线"
+      ],
+      "affectedAirlines": [
+        "SU(俄罗斯航空)",
+        "其他俄罗斯航司"
+      ],
+      "affectedPassengers": "约2000-4000人次(10天夜间航班停飞)",
+      "duration": "6月14日-6月24日",
+      "otaAction": "经IKA中转旅客需改签日间航班；关注6月24日后俄方是否延长管制",
+      "description": "【起因】俄罗斯联邦航空运输署(Rosaviatsiya)6月14日发布NOTAM，禁止俄罗斯航司在莫斯科时间23:00-11:00期间飞往伊朗机场。【原因】伊朗卫星导航条件受限、领空不稳定；俄方基于ICAO建议进行风险评估后采取安全措施。【影响面】夜间航班全面停飞，日间航班需经风险评估后放行。此为俄方继2月28日全面停飞、4月20日部分恢复后的新一轮管控。【当前进展】6月14-24日为期10天，6月15日俄方已部分恢复飞往以色列日间航班。【OTA影响】SVO-IKA航线夜间航班取消，经IKA中转旅客需调整行程；关注6/24后是否延长。",
+      "sources": [
+        {
+          "name": "Russia bans night flights to Iran - Xinhua",
+          "url": "http://www.chinaview.cn/20260615/76ce34de7fdb4dabb2fa42fc777ed0b9/c.html"
+        },
+        {
+          "name": "Rosaviatsiya限制夜间航班 - Interfax",
+          "url": "https://www.interfax.ru/russia/1095851"
+        }
+      ],
+      "coordinates": [
+        {
+          "code": "IKA",
+          "lat": 35.4161,
+          "lng": 51.1522
+        },
+        {
+          "code": "SVO",
+          "lat": 55.9726,
+          "lng": 37.4146
+        }
+      ]
+    },
+    {
+      "id": "2026-06-17-P2-ME001",
+      "title": "中东航空(MEA)恢复贝鲁特-科威特航线(6月18日起)",
+      "level": "P2",
+      "category": "中东局势",
+      "affectedAirports": [
+        "BEY",
+        "KWI"
+      ],
+      "affectedRoutes": [
+        "BEY-KWI"
+      ],
+      "affectedAirlines": [
+        "MEA(中东航空)"
+      ],
+      "affectedPassengers": "约1500-2500人次/月(4班/周)",
+      "duration": "6月18日起长期运营",
+      "otaAction": "BEY-KWI航线可恢复售票；注意KWI仅T4运营且暂无夜航许可",
+      "description": "【起因】中东航空(MEA)宣布6月18日起恢复贝鲁特(BEY)-科威特(KWI)航线，每周4班日间航班。【原因】科威特民航局允许外国航司经T4恢复有限运营，MEA获得运营许可。【影响面】4班/周BEY-KWI，经KWI T4运营，暂无夜航许可。这是KWI T4恢复后首个新增航线。【当前进展】6月18日首航，后续可能增加班次但需获得额外运营许可。【OTA影响】BEY-KWI航线可恢复售票，但KWI T1仍关闭，运营时间4AM-10PM限制。",
+      "sources": [
+        {
+          "name": "MEA恢复科威特航线 - MTV Lebanon",
+          "url": "https://www.mtv.com.lb/news/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/1707326/%D8%B7%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7--%D9%84%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9-%D8%AA%D8%B3%D9%8A%D9%8A%D8%B1-%D8%A7%D9%84%D8%B1%D8%AD%D9%84%D8%A7%D8%AA-%D9%85%D9%86-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%88%D8%A5%D9%84%D9%8A%D9%87%D8%A7"
+        }
+      ],
+      "coordinates": [
+        {
+          "code": "BEY",
+          "lat": 33.8209,
+          "lng": 35.4882
+        },
+        {
+          "code": "KWI",
+          "lat": 29.2267,
+          "lng": 47.9909
+        }
+      ]
+    },
+    {
+      "id": "2026-06-17-P2-ME002",
+      "title": "科威特KWI外国航司逐步恢复运营",
+      "level": "P2",
+      "category": "中东局势",
+      "affectedAirports": [
+        "KWI"
+      ],
+      "affectedRoutes": [
+        "KWI进出港国际航线(逐步恢复中)"
+      ],
+      "affectedAirlines": [
+        "Air India Express",
+        "海湾及国际航司"
+      ],
+      "affectedPassengers": "数千名旅客受益，含大量印度(Kerala)侨民",
+      "duration": "已开始逐步恢复，T1仍关闭",
+      "otaAction": "关注KWI-T4航司时刻更新；T1关闭期间运力有限，票价可能偏高",
+      "description": "【起因】科威特民航总局(DGCA)宣布外国航司可经T4逐步恢复运营。【原因】此前KWI T1因伊朗6月11日袭击受损严重，外国航司全部暂停。现T4恢复有限运营，逐步接纳外国航司。【影响面】首阶段仅少量海湾及国际航司恢复，Air India Express预计下周恢复。T4运营时间4AM-10PM，T1仍关闭。【当前进展】DGCA与各航司协调最终时刻表，Kuwait Airways和Jazeera Airways持续正常运营。【OTA影响】KWI运力仍受限(T4 only+运营时间限制)，短期内票价可能偏高。",
+      "sources": [
+        {
+          "name": "外国航司恢复KWI运营 - Madhyamam Online",
+          "url": "https://madhyamamonline.com/middle-east/kuwait/relief-for-kuwait-bound-fliers-foreign-airlines-resume-services-1528954"
+        }
+      ],
+      "coordinates": [
+        {
+          "code": "KWI",
+          "lat": 29.2267,
+          "lng": 47.9909
         }
       ]
     }
