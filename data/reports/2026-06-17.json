@@ -1,25 +1,26 @@
 {
   "reportDate": "2026-06-17",
-  "generatedAt": "2026-06-17T07:48:40+08:00",
-  "period": "morning",
+  "generatedAt": "2026-06-17T16:15:36+08:00",
+  "period": "afternoon",
   "summary": {
-    "total": 7,
+    "total": 6,
     "p0": 0,
-    "p1": 4,
+    "p1": 3,
     "p2": 3
   },
   "events": [
     {
       "id": "2026-06-17-P1-001",
-      "title": "华南龙舟水：SZX暴雨红色预警升级，航班大面积延误取消",
+      "title": "华南龙舟水：SZX/CAN/ZUH持续暴雨，航班运行受限",
       "level": "P1",
       "category": "极端天气",
       "affectedAirports": [
         "SZX",
-        "CAN"
+        "CAN",
+        "ZUH"
       ],
       "affectedRoutes": [
-        "SZX/CAN进出港国内及国际航线"
+        "SZX/CAN/ZUH进出港国内及国际航线"
       ],
       "affectedAirlines": [
         "ZH",
@@ -28,88 +29,27 @@
         "MU",
         "MF"
       ],
-      "affectedPassengers": "SZX累计约1.5-2万人次受延误/取消影响，CAN累计约3千-5千人次",
+      "affectedPassengers": "SZX累计约1.5-2万人次受延误/取消影响，CAN累计约3千-5千人次，ZUH影响待确认",
       "duration": "6/16-18持续暴雨，6/18后雨带北抬逐步缓解",
-      "otaAction": "6/17-18 SZX/CAN出港航班保持退改签灵活度；关注SZX红色预警是否持续；18日后逐步恢复",
-      "description": "【起因】6月16日深圳市气象台12:35将分区暴雨预警从橙色升级为红色，光明区3小时累计雨量达大暴雨级别，预计未来2小时还将出现40-60毫米降水。【原因】华南龙舟水活跃期，主雨带滞留华南沿海，中央气象台继续发布暴雨橙色预警，预计16日20时至17日20时广东沿海局地特大暴雨(250-300毫米)。【影响面】SZX出港截至21时延误35架次、取消5架次、准点率48.68%；CAN出港截至21时延误7架次、取消12架次、准点率77.65%。新华社报道主雨带17日前仍在华南，18日起北抬。【当前进展】深圳全市进入暴雨紧急防御状态；中央气象台同时发布强对流黄色预警；SZX/CAN航班运行持续受限。【OTA影响】SZX/CAN为中国三大枢纽中的两个，6/17-18出港航班仍将受暴雨影响，退改签需求集中；18日后逐步恢复。",
+      "otaAction": "6/17-18 SZX/CAN/ZUH出港航班保持退改签灵活度；关注SZX/ZUH红色预警是否持续；18日后逐步恢复",
+      "description": "【起因】6月16日深圳市气象台12:35将分区暴雨预警从橙色升级为红色，光明区3小时累计雨量达大暴雨级别；6月17日珠海金湾机场(ZUH)暴雨预警升级为红色。【原因】华南龙舟水活跃期，主雨带滞留华南沿海，中央气象台继续发布暴雨橙色预警，预计17日广东沿海局地仍有特大暴雨。【影响面】SZX出港截至16日21时延误35架次、取消5架次、准点率48.68%；CAN出港截至16日21时延误7架次、取消12架次、准点率77.65%；ZUH暴雨红色预警升级，航班影响待确认。新华社报道主雨带17日前仍在华南，18日起北抬。【当前进展】深圳全市进入暴雨紧急防御状态；中央气象台同时发布强对流黄色预警；SZX/CAN/ZUH航班运行持续受限。【OTA影响】SZX/CAN为中国三大枢纽中的两个，ZUH为珠海主要机场，6/17-18出港航班仍将受暴雨影响，退改签需求集中；18日后逐步恢复。",
       "sources": [
         {
           "name": "[1] 深圳市气象台暴雨红色预警 - 中国气象局",
           "url": "https://weather.cma.cn/web/alarm/44030041600000_20260616124211.html"
         },
         {
-          "name": "[2] 今晚 多架飞北京航班备降！18个机场天气预警！ - 民航资源网",
+          "name": "[2] 今夜 多架飞北京航班备降！18个机场天气预警！ - 民航资源网",
           "url": "https://i.carnoc.com/detail/660456"
         },
         {
           "name": "[3] 深圳发布暴雨红色预警！全市下午停课 - 光明网",
           "url": "https://m.gmw.cn/2026-06/16/content_1304498402.htm"
-        },
-        {
-          "name": "[4] 今夜，多架飞北京航班因雷雨备降 - 京报网",
-          "url": "https://news.bjd.com.cn/2026/06/16/11810877.shtml"
-        },
-        {
-          "name": "[5] 华北昨夜今晨遭遇强雷雨，多地航班备降石家庄 - 极目新闻",
-          "url": "http://www.ctdsb.net/c1716_202606/2773962.html"
-        },
-        {
-          "name": "[6] 雷电黄色预警信号！北京将自西向东有雷阵雨 - 中国天气网",
-          "url": "https://m.weather.com.cn/news/2026/06/4677562.shtml"
         }
       ]
     },
     {
       "id": "2026-06-17-P1-002",
-      "title": "华北雷雨：PEK/PKX航班大面积备降SJW",
-      "level": "P1",
-      "category": "极端天气",
-      "affectedAirports": [
-        "PEK",
-        "PKX"
-      ],
-      "affectedRoutes": [
-        "飞往PEK/PKX的进港航线"
-      ],
-      "affectedAirlines": [
-        "CA",
-        "MU",
-        "CZ",
-        "HU"
-      ],
-      "affectedPassengers": "约4000-6000人次（29班备降+后续延误影响）",
-      "duration": "6/16 17:00-22:00短时影响，6/17已逐步恢复",
-      "otaAction": "关注备降航班恢复情况；协助6/17早间可能受积压影响的旅客改签",
-      "description": "【起因】6月16日17:20起首都机场开始降雨，短时雨强较大并伴有雷雨大风。【原因】北京市气象台6月16日11:30发布雷电黄色预警，预计16日17-22时影响城区，局地短时雨强较大并伴有7级以上短时大风和冰雹。【影响面】飞往PEK/PKX的大量航班被迫备降石家庄正定机场(SJW)，截至20:52 SJW累计接收29班备降航班（PEK备降6班、PKX备降17班、TSN备降1班、太原方向5班）；上海浦东-北京大兴CA8342等航班备降SJW。【当前进展】PEK启动运管委协同运行二级响应机制；雷雨于22时后减弱，备降航班6/17凌晨逐步恢复。【OTA影响】短时影响已过，但6/17早间可能存在航班积压和调度延迟。",
-      "sources": [
-        {
-          "name": "[1] 深圳市气象台暴雨红色预警 - 中国气象局",
-          "url": "https://weather.cma.cn/web/alarm/44030041600000_20260616124211.html"
-        },
-        {
-          "name": "[2] 今晚 多架飞北京航班备降！18个机场天气预警！ - 民航资源网",
-          "url": "https://i.carnoc.com/detail/660456"
-        },
-        {
-          "name": "[3] 深圳发布暴雨红色预警！全市下午停课 - 光明网",
-          "url": "https://m.gmw.cn/2026-06/16/content_1304498402.htm"
-        },
-        {
-          "name": "[4] 今夜，多架飞北京航班因雷雨备降 - 京报网",
-          "url": "https://news.bjd.com.cn/2026/06/16/11810877.shtml"
-        },
-        {
-          "name": "[5] 华北昨夜今晨遭遇强雷雨，多地航班备降石家庄 - 极目新闻",
-          "url": "http://www.ctdsb.net/c1716_202606/2773962.html"
-        },
-        {
-          "name": "[6] 雷电黄色预警信号！北京将自西向东有雷阵雨 - 中国天气网",
-          "url": "https://m.weather.com.cn/news/2026/06/4677562.shtml"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-17-P1-003",
       "title": "KLM暂停恩德培(EBB)航线至7月1日",
       "level": "P1",
       "category": "航司运营异常",
@@ -124,21 +64,63 @@
         "KLM"
       ],
       "affectedPassengers": "约4000-5000人次（至7月1日约14天×日均300-350座）",
-      "duration": "即日起至7月1日",
+      "duration": "即日起至7月1日(含)",
       "otaAction": "下架7月1日前KLM的AMS-EBB机票；通知已购票旅客退改；引导旅客改道NBO中转（埃塞俄比亚航空/肯尼亚航空仍在运营）",
       "description": "【起因】中非地区埃博拉疫情引发多国对经停乌干达恩德培的旅客实施旅行限制措施。【原因】KLM官方旅行警报页面6月15日更新：因部分国家对经停EBB的旅客实施旅行限制，且这些措施同样适用于机组人员，KLM无法继续执行该航线航班。【影响面】KLM为恩德培航线唯一的欧洲传统航司，该航线暂停意味着AMS-EBB段旅客需改签或改道内罗毕(NBO)中转；业界分析担忧此举可能引发东非航空枢纽更广泛的连锁影响。【当前进展】乌干达卫生部6月16日声明称该国近数周未录得新埃博拉病例，出境旅客无需提供埃博拉阴性证明；埃塞俄比亚航空、肯尼亚航空仍在运营EBB航线。【OTA影响】7月1日前在售AMS-EBB机票需及时处理退改；NBO中转为当前最佳替代方案。",
       "sources": [
         {
-          "name": "[1] Travel alerts and disruptions - KLM official - KLM官网",
+          "name": "[1] Travel alerts and disruptions - KLM官网",
           "url": "https://www.klm.fr/en/information/travel-alerts"
         },
         {
-          "name": "[2] Uganda says Ebola-free certificates not required for outbound travel - 新华社",
+          "name": "[2] Uganda says Ebola-free certificates not required - 新华社",
           "url": "http://www.chinaview.cn/20260616/2aea53dd2966472db850489ea0492bfa/c.html"
         },
         {
-          "name": "[3] Airlines Suspend Routes to Uganda Amid Ebola Outbreak Concerns - Azat TV",
+          "name": "[3] Airlines Suspend Routes to Uganda Amid Ebola - Azat TV",
           "url": "https://azat.tv/en/airlines-suspend-routes-uganda-ebola/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-17-P1-003",
+      "title": "汉莎航空进一步削减欧洲短途航线网络",
+      "level": "P1",
+      "category": "地缘政治",
+      "affectedAirports": [
+        "FRA",
+        "MUC",
+        "欧洲内陆多个机场"
+      ],
+      "affectedRoutes": [
+        "汉莎欧洲短途航线网络（具体削减清单待公布）"
+      ],
+      "affectedAirlines": [
+        "LH(汉莎航空)",
+        "LX(瑞士航空)",
+        "OS(奥地利航空)",
+        "SN(布鲁塞尔航空)"
+      ],
+      "affectedPassengers": "此前已宣布削减2万架次影响数十万旅客，本次进一步削减影响待确认",
+      "duration": "至2026年10月底（已有削减计划），新增削减时间表待公布",
+      "otaAction": "关注汉莎后续公布的具体削减航线清单；评估涉及航段的机票库存调整需求；提前通知可能受影响的中转旅客",
+      "description": "【起因】汉莎航空集团CCO迪特·弗兰克斯6月16日接受德国《商报》采访时表示，计划进一步削减欧洲短途航线网络。【原因】受中东紧张局势和航空燃油价格上涨影响，2026年集团燃油成本预计额外增加17亿欧元（约133亿元人民币）。弗兰克斯称'短途航线的亏损正在影响长途航线的利润，这种情况不可持续'。【影响面】此前4月汉莎已宣布将在10月底前削减2万架次短途航班并整合航线；本次宣布将进一步削减，但具体航线清单和削减规模尚未公布。此事件标志着地缘政治对航班的影响已从中东航线暂停溢出至欧洲内陆航线。【当前进展】汉莎尚未公布具体新增削减航线清单；10月底前2万架次削减仍在执行中。【OTA影响】汉莎作为欧洲最大航司集团之一，短途航线网络收缩将影响大量中转衔接和欧洲内陆段运力；OTA需关注后续航线清单以调整库存。",
+      "sources": [
+        {
+          "name": "[1] Lufthansa streicht weiter im Kurzstreckennetz - FinanzNachrichten",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-06/68774225-lufthansa-streicht-weiter-im-kurzstreckennetz-003.htm"
+        },
+        {
+          "name": "[2] Lufthansa streicht weiter im Kurzstreckennetz - Oldenburger Onlinezeitung",
+          "url": "https://www.oldenburger-onlinezeitung.de/nachrichten/lufthansa-streicht-weiter-im-kurzstreckennetz-209906.html"
+        },
+        {
+          "name": "[3] 德国汉莎航空燃油成本预计额外增加17亿欧元 - 人民日报",
+          "url": "http://data.people.com.cn/rmrb/20260617/15/573dca8bc7b54231b34bfacb4de6cd51"
+        },
+        {
+          "name": "[4] 受中东局势影响 德国汉莎航空计划继续削减航线网络 - 东方财富网",
+          "url": "https://finance.eastmoney.com/a/202606173774503150.html"
         }
       ]
     },
@@ -149,7 +131,7 @@
       "category": "航空安全",
       "affectedAirports": [
         "LTN",
-        "MAN"
+        "MAN（历史事件，当前无运营影响）"
       ],
       "affectedRoutes": [
         "无当前影响（历史事件）"
@@ -163,7 +145,7 @@
       "description": "【起因】英国航空事故调查局(AAIB)发布调查公报，披露易捷航空两架A320客机因使用错误起飞数据从错误跑道位置起飞。【原因】AAIB认定习惯模式(habit patterns)和确认偏差(confirmation bias)是两起事件的主要成因，此类错误在航空交通繁忙、运行压力较大的时期更易发生。【影响面】2025年6月13日EZY2335航班(伦敦卢顿LTN→马拉加AGP)从错误跑道位置起飞，越过跑道末端时离地高度仅65英尺(约19米)；2025年7月6日另一架A320从曼彻斯特(MAN)起飞飞往希腊科斯，同样从错误跑道位置起飞。两起均为严重安全事件但未造成伤亡。【当前进展】易捷航空已据此更改起飞计算程序；AAIB调查结论已发布。【OTA影响】历史安全事件，当前无运营影响，无需OTA行动。",
       "sources": [
         {
-          "name": "[1] 太吓人！这家航司两架客机\"错位\"起飞！ - 澎湃新闻",
+          "name": "[1] 太吓人！这家航司两架客机错位起飞！ - 澎湃新闻",
           "url": "https://m.thepaper.cn/newsDetail_forward_33389339"
         },
         {
@@ -171,50 +153,41 @@
           "url": "https://i.carnoc.com/detail/660324"
         },
         {
-          "name": "[3] EasyJet A320 cleared Luton runway at 65 feet after crew used wrong data - AirTraveler",
+          "name": "[3] EasyJet A320 cleared Luton runway at 65 feet - AirTraveler",
           "url": "https://www.airtraveler.club/news/easyjet-luton-wrong-takeoff-data/"
         }
       ]
     },
     {
-      "id": "2026-06-17-P1-ME001",
-      "title": "俄罗斯停飞伊朗夜间航班(6月14-24日)",
-      "level": "P1",
-      "category": "中东局势",
+      "id": "2026-06-17-P2-002",
+      "title": "印尼Lewotobi火山喷发致Maumere机场(MOF)临时关闭",
+      "level": "P2",
+      "category": "极端天气",
       "affectedAirports": [
-        "IKA"
+        "MOF(Frans Seda Maumere)"
       ],
       "affectedRoutes": [
-        "SVO-IKA等俄伊直飞航线"
+        "巴厘岛-弗洛雷斯旅游航线（DPS-MOF等）"
       ],
       "affectedAirlines": [
-        "SU(俄罗斯航空)",
-        "其他俄罗斯航司"
+        "印尼国内航司（具体航司未披露）"
       ],
-      "affectedPassengers": "约2000-4000人次(10天夜间航班停飞)",
-      "duration": "6月14日-6月24日",
-      "otaAction": "经IKA中转旅客需改签日间航班；关注6月24日后俄方是否延长管制",
-      "description": "【起因】俄罗斯联邦航空运输署(Rosaviatsiya)6月14日发布NOTAM，禁止俄罗斯航司在莫斯科时间23:00-11:00期间飞往伊朗机场。【原因】伊朗卫星导航条件受限、领空不稳定；俄方基于ICAO建议进行风险评估后采取安全措施。【影响面】夜间航班全面停飞，日间航班需经风险评估后放行。此为俄方继2月28日全面停飞、4月20日部分恢复后的新一轮管控。【当前进展】6月14-24日为期10天，6月15日俄方已部分恢复飞往以色列日间航班。【OTA影响】SVO-IKA航线夜间航班取消，经IKA中转旅客需调整行程；关注6/24后是否延长。",
+      "affectedPassengers": "约400-600名旅客（4个航班取消）",
+      "duration": "6月16日至6月17日06:00 WITA（已恢复开放）",
+      "otaAction": "MOF已恢复运营，关注后续喷发是否导致再次关闭；Lewotobi火山维持III级警戒，持续喷发可能性高",
+      "description": "【起因】Lewotobi Laki-laki火山于6月16日08:17 WITA再次喷发，过去一周累计喷发14次。【原因】该火山自5月12日起维持III级(警戒)状态，6月15日22:55喷发灰柱达1000米(海拔2584米)，6月16日02:25喷发灰柱300米；VAAC Darwin发布火山灰通告确认火山灰向西北偏西移动。【影响面】火山灰影响导致Frans Seda Maumere机场(MOF)临时关闭，4个航班取消；机场负责人确认关闭持续至6月17日06:00 WITA。【当前进展】MOF已于6月17日06:00 WITA恢复开放；但Lewotobi火山维持III级警戒状态，持续喷发可能性高。【OTA影响】MOF已恢复运营，但火山持续活跃可能再次导致关闭；DPS-MOF等巴厘岛-弗洛雷斯旅游航线需保持关注。",
       "sources": [
         {
-          "name": "Russia bans night flights to Iran - Xinhua",
-          "url": "http://www.chinaview.cn/20260615/76ce34de7fdb4dabb2fa42fc777ed0b9/c.html"
+          "name": "[1] Erupsi Gunung Lewotobi - Koran Manado",
+          "url": "https://www.koranmanado.co.id/erupsi-gunung-lewotobi-penutupan-bandara-maumere"
         },
         {
-          "name": "Rosaviatsiya限制夜间航班 - Interfax",
-          "url": "https://www.interfax.ru/russia/1095851"
-        }
-      ],
-      "coordinates": [
-        {
-          "code": "IKA",
-          "lat": 35.4161,
-          "lng": 51.1522
+          "name": "[2] Erupsi Gunung Lewotobi Pagi Ini - Oprex Studio/DetikBali",
+          "url": "https://news.oprexstudio.com/single.php?postid=88806&sourceid=detikbali"
         },
         {
-          "code": "SVO",
-          "lat": 55.9726,
-          "lng": 37.4146
+          "name": "[3] VAAC Advisory 2026-130 - VolcanoDiscovery",
+          "url": "https://www.volcanodiscovery.com/es/lewotobi/news/307187/vaac-advisory-2026-130.html"
         }
       ]
     },
@@ -233,171 +206,24 @@
       "affectedAirlines": [
         "MEA(中东航空)"
       ],
-      "affectedPassengers": "约1500-2500人次/月(4班/周)",
+      "affectedPassengers": "约1500-2500人次/月（4班/周）",
       "duration": "6月18日起长期运营",
       "otaAction": "BEY-KWI航线可恢复售票；注意KWI仅T4运营且暂无夜航许可",
-      "description": "【起因】中东航空(MEA)宣布6月18日起恢复贝鲁特(BEY)-科威特(KWI)航线，每周4班日间航班。【原因】科威特民航局允许外国航司经T4恢复有限运营，MEA获得运营许可。【影响面】4班/周BEY-KWI，经KWI T4运营，暂无夜航许可。这是KWI T4恢复后首个新增航线。【当前进展】6月18日首航，后续可能增加班次但需获得额外运营许可。【OTA影响】BEY-KWI航线可恢复售票，但KWI T1仍关闭，运营时间4AM-10PM限制。",
+      "description": "【起因】中东航空(MEA)宣布6月18日起恢复贝鲁特(BEY)-科威特(KWI)航线，每周4班日间航班。【原因】科威特民航局允许外国航司经T4恢复有限运营，MEA获得运营许可，这是KWI T4航站楼有限运营恢复后首个确认复航的中东航司。【影响面】4班/周BEY-KWI航线恢复运营，后续待获取运营许可后增加班次。科威特机场T1仍关闭，外国航司经T4有限运营。【当前进展】MEA已公布6月18日首航计划；KWI T4运营时间为日间，暂无夜航许可。【OTA影响】BEY-KWI航线可恢复售票，但运力有限（仅4班/周+日间），票价可能偏高。",
       "sources": [
         {
-          "name": "MEA恢复科威特航线 - MTV Lebanon",
-          "url": "https://www.mtv.com.lb/news/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/1707326/%D8%B7%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7--%D9%84%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9-%D8%AA%D8%B3%D9%8A%D9%8A%D8%B1-%D8%A7%D9%84%D8%B1%D8%AD%D9%84%D8%A7%D8%AA-%D9%85%D9%86-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%88%D8%A5%D9%84%D9%8A%D9%87%D8%A7"
-        }
-      ],
-      "coordinates": [
-        {
-          "code": "BEY",
-          "lat": 33.8209,
-          "lng": 35.4882
+          "name": "[1] MEA تستأنف رحلاتها من وإلى الكويت - ImLebanon",
+          "url": "https://www.imlebanon.org/2026/06/15/mea234-3/"
         },
         {
-          "code": "KWI",
-          "lat": 29.2267,
-          "lng": 47.9909
+          "name": "[2] طيران الشرق الأوسط - MTV Lebanon",
+          "url": "https://www.mtv.com.lb/news/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/1707326/%D8%B7%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7--%D9%84%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9-%D8%AA%D8%B3%D9%8A%D9%8A%D8%B1-%D8%A7%D9%84%D8%B1%D8%AD%D9%84%D8%A7%D8%AA-%D9%85%D9%86-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%88%D8%A5%D9%84%D9%8A%D9%87%D8%A7"
+        },
+        {
+          "name": "[3] شركة طيران الشرق الأوسط - Safir Alchamal",
+          "url": "https://safiralchamal.com/2026/06/15/704300/"
         }
       ]
-    },
-    {
-      "id": "2026-06-17-P2-ME002",
-      "title": "科威特KWI外国航司逐步恢复运营",
-      "level": "P2",
-      "category": "中东局势",
-      "affectedAirports": [
-        "KWI"
-      ],
-      "affectedRoutes": [
-        "KWI进出港国际航线(逐步恢复中)"
-      ],
-      "affectedAirlines": [
-        "Air India Express",
-        "海湾及国际航司"
-      ],
-      "affectedPassengers": "数千名旅客受益，含大量印度(Kerala)侨民",
-      "duration": "已开始逐步恢复，T1仍关闭",
-      "otaAction": "关注KWI-T4航司时刻更新；T1关闭期间运力有限，票价可能偏高",
-      "description": "【起因】科威特民航总局(DGCA)宣布外国航司可经T4逐步恢复运营。【原因】此前KWI T1因伊朗6月11日袭击受损严重，外国航司全部暂停。现T4恢复有限运营，逐步接纳外国航司。【影响面】首阶段仅少量海湾及国际航司恢复，Air India Express预计下周恢复。T4运营时间4AM-10PM，T1仍关闭。【当前进展】DGCA与各航司协调最终时刻表，Kuwait Airways和Jazeera Airways持续正常运营。【OTA影响】KWI运力仍受限(T4 only+运营时间限制)，短期内票价可能偏高。",
-      "sources": [
-        {
-          "name": "外国航司恢复KWI运营 - Madhyamam Online",
-          "url": "https://madhyamamonline.com/middle-east/kuwait/relief-for-kuwait-bound-fliers-foreign-airlines-resume-services-1528954"
-        }
-      ],
-      "coordinates": [
-        {
-          "code": "KWI",
-          "lat": 29.2267,
-          "lng": 47.9909
-        }
-      ]
-    }
-  ],
-  "flightAnomalies": [
-    {
-      "category": "DOH→BAH多航司集中取消",
-      "description": "DOH→BAH方向11班取消（AA8220/LA5659/AT5798/B66628/BA2288/UL3068/KQ6202/QR1116/IB6345/VA6392/AY6031/AS5948），多航司代码共享，疑为QR同一物理航班取消",
-      "flights": [
-        "AA8220",
-        "LA5659",
-        "AT5798",
-        "B66628",
-        "BA2288",
-        "UL3068",
-        "KQ6202",
-        "QR1116",
-        "IB6345",
-        "VA6392",
-        "AY6031",
-        "AS5948"
-      ],
-      "affectedAirport": "DOH, BAH",
-      "possibleCause": "卡塔尔-巴林航线可能因运营调整或地缘因素取消"
-    },
-    {
-      "category": "IST多班TK取消",
-      "description": "土耳其航空5班取消：TK2438 IST→AYT、TK718 IST→KHI、TK98 IST→MED、TK2232 IST→ASR、另有IST→IKA航班取消（航司信息缺失）",
-      "flights": [
-        "TK2438",
-        "TK718",
-        "TK98",
-        "TK2232"
-      ],
-      "affectedAirport": "IST",
-      "possibleCause": "TK多航线取消，可能为运营调整"
-    },
-    {
-      "category": "DXB↔ADD双向取消",
-      "description": "flydubai双向取消：FZ605 DXB→ADD、FZ606 ADD→DXB",
-      "flights": [
-        "FZ605",
-        "FZ606"
-      ],
-      "affectedAirport": "DXB, ADD",
-      "possibleCause": "可能与东非埃博拉形势及KLM暂停EBB航线相关"
-    },
-    {
-      "category": "MIA→LIM取消",
-      "description": "MIA→LIM 4班取消（DL6025/VS7744/LP2481/LA2481），多航司代码共享，疑为同一物理航班取消",
-      "flights": [
-        "DL6025",
-        "VS7744",
-        "LP2481",
-        "LA2481"
-      ],
-      "affectedAirport": "MIA, LIM",
-      "possibleCause": "LATAM代码共享航班取消，可能为运营调整"
-    }
-  ],
-  "sources": [
-    {
-      "name": "中国气象局",
-      "url": "https://weather.cma.cn/web/alarm/44030041600000_20260616124211.html"
-    },
-    {
-      "name": "民航资源网",
-      "url": "https://i.carnoc.com/detail/660456"
-    },
-    {
-      "name": "光明网",
-      "url": "https://m.gmw.cn/2026-06/16/content_1304498402.htm"
-    },
-    {
-      "name": "京报网",
-      "url": "https://news.bjd.com.cn/2026/06/16/11810877.shtml"
-    },
-    {
-      "name": "极目新闻",
-      "url": "http://www.ctdsb.net/c1716_202606/2773962.html"
-    },
-    {
-      "name": "中国天气网",
-      "url": "https://m.weather.com.cn/news/2026/06/4677562.shtml"
-    },
-    {
-      "name": "KLM官网",
-      "url": "https://www.klm.fr/en/information/travel-alerts"
-    },
-    {
-      "name": "新华社",
-      "url": "http://www.chinaview.cn/20260616/2aea53dd2966472db850489ea0492bfa/c.html"
-    },
-    {
-      "name": "Azat TV",
-      "url": "https://azat.tv/en/airlines-suspend-routes-uganda-ebola/"
-    },
-    {
-      "name": "澎湃新闻",
-      "url": "https://m.thepaper.cn/newsDetail_forward_33389339"
-    },
-    {
-      "name": "民航资源网(安全)",
-      "url": "https://i.carnoc.com/detail/660324"
-    },
-    {
-      "name": "AirTraveler",
-      "url": "https://www.airtraveler.club/news/easyjet-luton-wrong-takeoff-data/"
-    },
-    {
-      "name": "AirLabs实时数据",
-      "url": "https://airlabs.co/"
     }
   ]
 }
