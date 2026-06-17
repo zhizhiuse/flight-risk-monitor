@@ -96,7 +96,7 @@ async function loadCurrentReport() {
 // ============ Stats Cards ============
 
 function renderStats(report) {
-  const events = report.events || [];
+  const events = (report.events || []).map(e => ({ ...e, priority: e.priority || e.level }));
   const p0 = events.filter(e => e.priority === 'P0').length;
   const p1 = events.filter(e => e.priority === 'P1').length;
   const p2 = events.filter(e => e.priority === 'P2').length;
@@ -169,7 +169,7 @@ function applyFilters() {
 }
 
 function getFilteredEvents(report) {
-  let events = report.events || [];
+  let events = (report.events || []).map(e => ({ ...e, priority: e.priority || e.level }));
 
   if (currentFilter.priority !== 'all') {
     events = events.filter(e => e.priority === currentFilter.priority);
@@ -416,7 +416,7 @@ document.getElementById('eventModal').addEventListener('click', (e) => {
 });
 
 function updateCategoryButtons(report) {
-  const events = report.events || [];
+  const events = (report.events || []).map(e => ({ ...e, priority: e.priority || e.level }));
   const categories = [...new Set(events.map(e => e.category || '其他'))];
   const container = document.querySelector('.filter-category');
   if (!container) return;
