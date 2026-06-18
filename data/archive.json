@@ -1,6 +1,18 @@
 {
   "reports": [
     {
+      "reportDate": "2026-06-19",
+      "period": "morning",
+      "generatedAt": "2026-06-19T07:17:00+08:00",
+      "summary": {
+        "total": 3,
+        "p0": 0,
+        "p1": 1,
+        "p2": 2
+      },
+      "url": "reports/2026-06-19.json"
+    },
+    {
       "reportDate": "2026-06-18",
       "period": "afternoon",
       "generatedAt": "2026-06-18T16:20:00+08:00",
