@@ -73,6 +73,30 @@ async function loadCurrentReport() {
 
   try {
     const report = await fetchData(`reports/${date}.json`);
+    // Normalize events: support both old format (affectedAirports etc) and new format (level + fields)
+    if (report.events) {
+      report.events = report.events.map(e => {
+        const normalized = { ...e, priority: e.priority || e.level };
+        if (e.fields && !e.affectedAirports) {
+          normalized.affectedAirports = e.fields['影响机场'] ? [e.fields['影响机场']] : [];
+          normalized.affectedRoutes = e.fields['影响航线'] ? [e.fields['影响航线']] : [];
+          normalized.affectedAirlines = e.fields['影响航司'] ? [e.fields['影响航司']] : [];
+          normalized.estimatedPassengers = e.fields['影响旅客估算'] || e.fields['影响旅客'] || '-';
+          normalized.duration = e.fields['持续时间'] || '-';
+          normalized.action = e.fields['OTA行动建议'] || e.fields['OTA建议'] || '-';
+        }
+        // Middle East special format
+        if (e.impact_airports && !e.affectedAirports) {
+          normalized.affectedAirports = [e.impact_airports];
+          normalized.affectedRoutes = [e.impact_routes || '-'];
+          normalized.affectedAirlines = [e.airlines || '-'];
+          normalized.estimatedPassengers = e.passengers_est || '-';
+          normalized.duration = e.duration || '-';
+          normalized.action = e.ota_advice || '-';
+        }
+        return normalized;
+      });
+    }
     window._currentReportData = report;
     window._currentReportDate = date;
 
