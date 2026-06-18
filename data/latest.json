@@ -2,13 +2,7 @@
   "date": "2026-06-18",
   "period": "morning",
   "generated_at": "2026-06-18T07:53:21+08:00",
-  "summary": {
-    "p0_count": 0,
-    "p1_count": 0,
-    "p2_count": 3,
-    "flight_anomaly_groups": 6,
-    "cancelled_flights": 48
-  },
+  "summary": "P0×0 | P1×1 | P2×4 | 中东专项：美伊谅解备忘录正式文本发布，明确霍尔木兹海峡30天恢复时间表；阿提哈德航空新增5条中国航线",
   "events": [
     {
       "id": "P2-001",
@@ -98,6 +92,39 @@
           "title": "搜狐/贵州省地震局",
           "url": "https://m.sohu.com/a/1038110163_121106902/"
         }
+      ]
+    },
+    {
+      "id": "P1-ME001-0618",
+      "title": "霍尔木兹海峡复航时间表明确：美伊MOU签署在即，多国扫雷就绪",
+      "level": "P1",
+      "category": "地缘政治-中东专项",
+      "impact_airports": "DXB/AUH/DOH/MCT/BAH等海湾枢纽",
+      "impact_routes": "波斯湾↔全球航线（含中国-中东航线）、霍尔木兹海峡通行航线",
+      "airlines": "EK/EY/QR/WY/GF等",
+      "passengers_est": "海湾枢纽每周数十万中转旅客受海峡通行恢复进度影响",
+      "duration": "备忘录签署后30天内恢复至战前水平（第4-5条款），扫雷预计40-50天",
+      "ota_advice": "关注6月18-19日签署进展，提前准备中东航线恢复预案；海峡复航将改善航空燃油供应，利好中东航线恢复",
+      "sources": [
+        "http://www.xinhuanet.com/world/20260617/aaffd2fa591647329f1533df2d45a12c/c.html",
+        "https://news.cctv.com/2026/06/18/ARTI7lbKmCVtRhDrd67H5n7E260618.shtml",
+        "https://www.fx678.com/C/20260617/202606171641449112.html"
+      ]
+    },
+    {
+      "id": "P2-ME001-0618",
+      "title": "阿提哈德航空(EY)新增5条中国航线，释放市场信心信号",
+      "level": "P2",
+      "category": "地缘政治-中东专项",
+      "impact_airports": "AUH/PVG/CAN/CTU/HGH/SZX",
+      "impact_routes": "AUH→PVG、AUH→CAN、AUH→CTU、AUH→HGH、AUH→SZX（新增）",
+      "airlines": "阿提哈德航空(EY)",
+      "passengers_est": "每周35班×约290座≈10,150座/周（6条中国航线合计）",
+      "duration": "2026年夏季起长期运营",
+      "ota_advice": "可上架AUH至中国5个新目的地航线；关注后续Emirates/Qatar Airways是否跟进",
+      "sources": [
+        "https://www.wam.ae/zh/article/1763vjq",
+        "https://omniflights.com/articles/etihad-airways-boosts-summer-capacity-by-10"
       ]
     }
   ],
@@ -260,7 +287,9 @@
     "青藏铁路中断：关注经XNN/GOH中转赴拉萨方向旅客出行安排",
     "MIA-LHR航线：确认今日跨大西洋航班是否恢复",
     "ORD运营：确认昨日大量取消后今日是否恢复正常",
-    "东非航线：FZ DXB-ADD取消与KLM EBB暂停同源，关注连锁影响"
+    "东非航线：FZ DXB-ADD取消与KLM EBB暂停同源，关注连锁影响",
+    "关注6月18-19日美伊谅解备忘录签署进展，提前准备中东航线恢复预案",
+    "可上架AUH至中国5个新目的地航线(AUH-PVG/CAN/CTU/HGH/SZX)"
   ],
   "topics_no_update": [
     "航空安全事件",
