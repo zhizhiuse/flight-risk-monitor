@@ -1,8 +1,14 @@
 {
   "date": "2026-06-18",
-  "period": "morning",
-  "generated_at": "2026-06-18T07:53:21+08:00",
-  "summary": "P0×0 | P1×1 | P2×4 | 中东专项：美伊谅解备忘录正式文本发布，明确霍尔木兹海峡30天恢复时间表；阿提哈德航空新增5条中国航线",
+  "period": "afternoon",
+  "generated_at": "2026-06-18T16:20:00+08:00",
+  "summary": {
+    "p0_count": 0,
+    "p1_count": 0,
+    "p2_count": 3,
+    "flight_anomaly_groups": 5,
+    "cancelled_flights": 49
+  },
   "events": [
     {
       "id": "P2-001",
@@ -18,7 +24,7 @@
         "持续时间": "余震持续，预计48-72小时恢复",
         "OTA行动建议": "关注经XNN/GOH中转赴拉萨方向旅客出行安排，跟进青藏铁路恢复及余震趋势"
       },
-      "description": "6月16日17:06青海海西州大柴旦镇附近发生6.3级地震，震源深度10公里，致1死8伤。6月17日10:06同震区发生4.1级余震。中国地震局启动三级应急响应；青藏铁路西格段及敦煌铁路7列客车扣停，246名旅客滞留格尔木站；大柴旦全域文旅场所临时关停。青海机场公司启动应急预案，全省机场设施设备运行正常。",
+      "description": "6月16日17:06青海海西州大柴旦镇附近发生6.3级地震，震源深度10公里，致1死8伤。6月17日10:06同震区发生4.1级余震。中国地震局启动三级应急响应；青藏铁路西格段及敦煌铁路7列客车扣停，246名旅客滞留格尔木站；大柴旦全域文旅场所临时关停。青海机场公司启动应急预案，全省机场设施设备运行正常。青藏集团6月17-18日加开西宁-拉萨双向临时列车。",
       "sources": [
         {
           "title": "民航资源网",
@@ -93,203 +99,212 @@
           "url": "https://m.sohu.com/a/1038110163_121106902/"
         }
       ]
-    },
-    {
-      "id": "P1-ME001-0618",
-      "title": "霍尔木兹海峡复航时间表明确：美伊MOU签署在即，多国扫雷就绪",
-      "level": "P1",
-      "category": "地缘政治-中东专项",
-      "impact_airports": "DXB/AUH/DOH/MCT/BAH等海湾枢纽",
-      "impact_routes": "波斯湾↔全球航线（含中国-中东航线）、霍尔木兹海峡通行航线",
-      "airlines": "EK/EY/QR/WY/GF等",
-      "passengers_est": "海湾枢纽每周数十万中转旅客受海峡通行恢复进度影响",
-      "duration": "备忘录签署后30天内恢复至战前水平（第4-5条款），扫雷预计40-50天",
-      "ota_advice": "关注6月18-19日签署进展，提前准备中东航线恢复预案；海峡复航将改善航空燃油供应，利好中东航线恢复",
-      "sources": [
-        "http://www.xinhuanet.com/world/20260617/aaffd2fa591647329f1533df2d45a12c/c.html",
-        "https://news.cctv.com/2026/06/18/ARTI7lbKmCVtRhDrd67H5n7E260618.shtml",
-        "https://www.fx678.com/C/20260617/202606171641449112.html"
-      ]
-    },
-    {
-      "id": "P2-ME001-0618",
-      "title": "阿提哈德航空(EY)新增5条中国航线，释放市场信心信号",
-      "level": "P2",
-      "category": "地缘政治-中东专项",
-      "impact_airports": "AUH/PVG/CAN/CTU/HGH/SZX",
-      "impact_routes": "AUH→PVG、AUH→CAN、AUH→CTU、AUH→HGH、AUH→SZX（新增）",
-      "airlines": "阿提哈德航空(EY)",
-      "passengers_est": "每周35班×约290座≈10,150座/周（6条中国航线合计）",
-      "duration": "2026年夏季起长期运营",
-      "ota_advice": "可上架AUH至中国5个新目的地航线；关注后续Emirates/Qatar Airways是否跟进",
-      "sources": [
-        "https://www.wam.ae/zh/article/1763vjq",
-        "https://omniflights.com/articles/etihad-airways-boosts-summer-capacity-by-10"
-      ]
     }
   ],
   "flight_anomalies": [
     {
       "id": "FA-001",
-      "title": "MIA→LHR跨大西洋航线取消",
+      "title": "芝加哥ORD出发航班持续大量取消",
       "airports": [
-        "MIA",
-        "LHR"
+        "ORD",
+        "FWA",
+        "GRB",
+        "BNA"
       ],
       "routes": [
-        "MIA→LHR"
+        "ORD→FWA",
+        "ORD→GRB",
+        "ORD→BNA"
       ],
       "airlines": [
-        "BA",
-        "IB",
-        "EI",
         "AA",
-        "AY"
+        "UA",
+        "AS",
+        "OO",
+        "G7",
+        "QR",
+        "BA",
+        "AY",
+        "RJ",
+        "GF",
+        "IB",
+        "LH",
+        "EI"
       ],
-      "passengers_est": "约300-400人",
-      "duration": "当日取消",
-      "ota_action": "关注MIA-LHR航线今日后续航班是否正常",
+      "passengers_est": "约2000-3500人",
+      "duration": "连续两日大量取消，需关注持续性",
+      "ota_action": "关注ORD出发航班运营状态，评估是否为持续性运营问题",
       "flights": [
-        "BA206",
-        "IB3583",
-        "EI8906",
-        "AA6957",
-        "AY5506"
+        "AA6212",
+        "OO6212",
+        "AS4393",
+        "QR7840",
+        "BA5479",
+        "UA4447",
+        "G74447",
+        "LH9230",
+        "AA6326",
+        "AA9921",
+        "OO9921",
+        "OO6326",
+        "BA6685",
+        "AS4749",
+        "AY4048",
+        "RJ7625",
+        "GF6803",
+        "IB4705",
+        "EI7531",
+        "QR9123"
       ]
     },
     {
       "id": "FA-002",
-      "title": "芝加哥ORD区域航班大量取消(昨日)",
+      "title": "罗马FCO出发多航线取消",
       "airports": [
-        "ORD"
+        "FCO",
+        "DFW",
+        "BRU",
+        "ADD"
       ],
       "routes": [
-        "ORD→TUL",
-        "ORD→CID",
-        "ORD→RDU",
-        "ORD→FSD",
-        "ORD→RIC",
-        "ORD→BUF",
-        "ORD→GRB",
-        "ORD→MHT",
-        "ORD→SUX"
+        "FCO→DFW",
+        "FCO→BRU",
+        "FCO→ADD"
       ],
       "airlines": [
-        "UA",
         "AA",
-        "AS",
-        "OO",
-        "YX",
-        "G7"
+        "IB",
+        "BA",
+        "AY",
+        "AZ",
+        "EY",
+        "SN",
+        "UA",
+        "ET"
       ],
-      "passengers_est": "约1500-2500人",
-      "duration": "昨日取消，需关注今日恢复",
-      "ota_action": "关注今日ORD出发航班运营状态",
-      "flights_count": 29
+      "passengers_est": "约800-1200人",
+      "duration": "当日取消",
+      "ota_action": "关注FCO今日航班运营，为受影响旅客提供改签",
+      "flights": [
+        "AA239",
+        "IB8219",
+        "BA1628",
+        "AY3824",
+        "AZ156",
+        "EY2826",
+        "SN4150",
+        "UA7738",
+        "ET717"
+      ]
     },
     {
       "id": "FA-003",
-      "title": "伊斯坦布尔IST出发航班取消",
+      "title": "AMS→ZRH航线多航司取消",
       "airports": [
-        "IST"
+        "AMS",
+        "ZRH"
       ],
       "routes": [
-        "IST→AYT",
-        "IST→JED",
-        "IST→ASR",
-        "IST→DLM"
+        "AMS→ZRH"
       ],
       "airlines": [
-        "TK"
+        "MF",
+        "MU",
+        "KL",
+        "6E",
+        "DL"
       ],
-      "passengers_est": "约600-800人",
+      "passengers_est": "约300-500人（多代码共享，实际航班数较少）",
       "duration": "当日取消",
-      "ota_action": "关注TK今日航班运营恢复情况",
+      "ota_action": "确认AMS-ZRH航线实际取消航班数，关注后续恢复",
       "flights": [
-        "TK2438",
-        "TK96",
-        "TK2232",
-        "TK2572"
+        "MF9724",
+        "MU1781",
+        "KL1917",
+        "6E8001",
+        "DL9432"
       ]
     },
     {
       "id": "FA-004",
-      "title": "DXB↔ADD航线取消",
+      "title": "圣保罗GRU出发航班取消",
       "airports": [
-        "DXB",
-        "ADD"
+        "GRU",
+        "IST",
+        "AJU"
       ],
       "routes": [
-        "DXB→ADD",
-        "ADD→DXB"
+        "GRU→IST",
+        "GRU→AJU"
       ],
       "airlines": [
-        "FZ"
+        "TK",
+        "LA",
+        "AR",
+        "DL",
+        "JJ"
       ],
-      "passengers_est": "约300-500人",
-      "duration": "与东非埃博拉旅行限制相关",
-      "ota_action": "关注东非航线连锁影响",
+      "passengers_est": "约600-900人",
+      "duration": "当日取消",
+      "ota_action": "关注GRU出发航班运营状态",
       "flights": [
-        "FZ605",
-        "FZ606"
+        "TK6920",
+        "LA4702",
+        "AR8098",
+        "TK9127",
+        "DL6246",
+        "JJ4702"
       ]
     },
     {
       "id": "FA-005",
-      "title": "中国国内航班取消",
+      "title": "中国国内及亚太航线取消",
       "airports": [
-        "PEK"
+        "CAN",
+        "SZX",
+        "LUM",
+        "HDG",
+        "NRT",
+        "FUK",
+        "KUL",
+        "JHB"
       ],
       "routes": [
-        "PEK→AAT",
-        "PEK→HGH"
+        "CAN→LUM",
+        "SZX→HDG",
+        "NRT→FUK",
+        "KUL→JHB"
       ],
       "airlines": [
-        "CA",
-        "ZH",
-        "HU"
+        "MF",
+        "MU",
+        "G5",
+        "3U",
+        "GK",
+        "JL",
+        "QF",
+        "AK"
       ],
-      "passengers_est": "约200-300人",
+      "passengers_est": "约500-800人",
       "duration": "当日取消",
-      "ota_action": "关注PEK今日航班运营",
+      "ota_action": "关注CAN/SZX出港航班运营，华南龙舟水影响可能持续",
       "flights": [
-        "CA1241",
-        "ZH1241",
-        "HU7577"
-      ]
-    },
-    {
-      "id": "FA-006",
-      "title": "SYD→ADL航线取消",
-      "airports": [
-        "SYD",
-        "ADL"
-      ],
-      "routes": [
-        "SYD→ADL"
-      ],
-      "airlines": [
-        "VA",
-        "QR",
-        "SQ"
-      ],
-      "passengers_est": "约150-200人",
-      "duration": "当日取消",
-      "ota_action": "关注后续航班恢复",
-      "flights": [
-        "VA404",
-        "QR7176",
-        "SQ6876"
+        "MF7885",
+        "MU9730",
+        "G54140",
+        "3U4088",
+        "GK513",
+        "JL6053",
+        "QF5921",
+        "AK6034"
       ]
     }
   ],
   "ota_actions": [
-    "青藏铁路中断：关注经XNN/GOH中转赴拉萨方向旅客出行安排",
-    "MIA-LHR航线：确认今日跨大西洋航班是否恢复",
-    "ORD运营：确认昨日大量取消后今日是否恢复正常",
-    "东非航线：FZ DXB-ADD取消与KLM EBB暂停同源，关注连锁影响",
-    "关注6月18-19日美伊谅解备忘录签署进展，提前准备中东航线恢复预案",
-    "可上架AUH至中国5个新目的地航线(AUH-PVG/CAN/CTU/HGH/SZX)"
+    "青藏铁路中断：关注经XNN/GOH中转赴拉萨方向旅客出行安排，跟进铁路恢复",
+    "ORD连续两日大量取消：评估是否为持续性运营问题，关注今日ORD出发航班",
+    "华南龙舟水：CAN→LUM/SZX→HDG取消，关注SZX/CAN出港航班运营恢复",
+    "美伊谅解备忘录6/18电子签署生效：暂无实际航班运营变化，持续关注领空开放和航司复航动态"
   ],
   "topics_no_update": [
     "航空安全事件",
