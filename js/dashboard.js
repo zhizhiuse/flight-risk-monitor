@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 async function initDashboard() {
   try {
     const archive = await fetchData('archive.json');
-    availableDates = archive.reports.map(r => r.date).sort();
+    availableDates = archive.reports.map(r => r.reportDate || r.date).filter(Boolean).sort();
 
     const latest = await fetchData('latest.json');
-    const latestDate = latest.reportDate;
+    const latestDate = latest.reportDate || latest.date;
 
     currentDateIndex = availableDates.indexOf(latestDate);
     if (currentDateIndex === -1) {
@@ -100,7 +100,7 @@ async function loadCurrentReport() {
     window._currentReportData = report;
     window._currentReportDate = date;
 
-    document.getElementById('lastUpdate').textContent = formatTime(report.generatedAt);
+    document.getElementById('lastUpdate').textContent = formatTime(report.generatedAt || report.generated_at);
 
     // Destroy old map
     if (indexMap) { indexMap.remove(); indexMap = null; }
@@ -469,7 +469,7 @@ function startPolling() {
   setInterval(async () => {
     try {
       const latest = await fetchData('latest.json');
-      if (latest.reportDate !== window._currentReportDate) {
+      if ((latest.reportDate || latest.date) !== window._currentReportDate) {
         showUpdateNotification(latest);
       }
     } catch (e) {}

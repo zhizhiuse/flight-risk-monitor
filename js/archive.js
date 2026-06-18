@@ -49,7 +49,7 @@ function renderArchive(reports) {
     return;
   }
 
-  const sortedReports = [...reports].sort((a, b) => b.date.localeCompare(a.date));
+  const sortedReports = [...reports].sort((a, b) => (b.reportDate || b.date).localeCompare(a.reportDate || a.date));
 
   container.innerHTML = sortedReports.map(report => createArchiveItem(report)).join('');
 
@@ -63,8 +63,8 @@ function renderArchive(reports) {
 
 function createArchiveItem(report) {
   return `
-    <div class="archive-item" data-date="${report.date}">
-      <div class="archive-date">${formatDateDisplay(report.date)}</div>
+    <div class="archive-item" data-date="${report.reportDate || report.date}">
+      <div class="archive-date">${formatDateDisplay(report.reportDate || report.date)}</div>
       <div class="archive-stats">
         <span class="archive-stat">
           <span class="dot p0"></span>
@@ -95,7 +95,7 @@ function renderTrendChart(reports) {
   const canvas = document.getElementById('trendChart');
   if (!canvas || !reports || reports.length === 0) return;
 
-  const sorted = [...reports].sort((a, b) => a.date.localeCompare(b.date));
+  const sorted = [...reports].sort((a, b) => (a.reportDate || a.date).localeCompare(b.reportDate || b.date));
   const data = sorted.slice(-14);
 
   const ctx = canvas.getContext('2d');
@@ -132,7 +132,7 @@ function renderTrendChart(reports) {
 
   // Build data series
   const series = data.map(d => ({
-    date: d.date,
+    date: d.reportDate || d.date,
     total: (d.summary.p0 || 0) + (d.summary.p1 || 0) + (d.summary.p2 || 0),
     P0: d.summary.p0 || 0,
     P1: d.summary.p1 || 0,
