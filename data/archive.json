@@ -2,8 +2,8 @@
   "reports": [
     {
       "reportDate": "2026-06-19",
-      "period": "morning",
-      "generatedAt": "2026-06-19T07:17:00+08:00",
+      "period": "afternoon",
+      "generatedAt": "2026-06-19T16:15:00+08:00",
       "summary": {
         "total": 3,
         "p0": 0,
