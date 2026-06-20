@@ -1,15 +1,15 @@
 {
   "date": "2026-06-20",
   "reportDate": "2026-06-20",
-  "period": "morning",
-  "generated_at": "2026-06-20T07:16:00+08:00",
+  "period": "afternoon",
+  "generated_at": "2026-06-20T16:15:42+08:00",
   "summary": {
     "p0_count": 0,
     "p1_count": 0,
-    "p2_count": 2,
-    "total": 2,
+    "p2_count": 4,
+    "total": 4,
     "flight_anomaly_groups": 5,
-    "cancelled_flights": 47
+    "cancelled_flights": 30
   },
   "events": [
     {
@@ -73,60 +73,133 @@
           "url": "http://www.chinanews.com.cn/gj/2026/06-19/10643959.shtml"
         }
       ]
+    },
+    {
+      "id": "P2-ME001",
+      "level": "P2",
+      "priority": "P2",
+      "level_emoji": "🟡",
+      "title": "以色列-黎巴嫩停火协议不足1小时即被打破，BEY机场面临持续安全威胁",
+      "category": "地缘政治-中东局势",
+      "fields": {
+        "影响机场": "BEY(贝鲁特-拉菲克·哈里里) — 非枢纽，距冲突区直接辐射，未关闭但面临持续安全威胁",
+        "影响航线": "BEY↔DXB/DOH/CAI/IST/AMS/CDG等中东-欧洲航线；绕飞黎巴嫩空域的欧洲-中东过境航线航程压力增大",
+        "涉及航司": "MEA(中东航空)/EK(阿联酋航空)/QR(卡塔尔航空)/TK(土耳其航空)/AF(法航)等涉贝鲁特航线航司",
+        "旅客估算": "约2000-5000人/日(BEY日均约30-40架次商业航班)",
+        "持续时间": "停火已失效，以军持续空袭黎南部，BEY面临随时关闭风险，无明确结束时间",
+        "OTA建议": "🟡保持监控：密切关注BEY是否发布运营限制或关闭通知；涉BEY航线旅客建议关注退改政策；绕飞黎巴嫩空域的欧洲-中东航线航程压力可能增大"
+      },
+      "description": "【起因】6月19日，以色列与黎巴嫩真主党在美国和卡塔尔斡旋下达成停火协议，但以军于同日恢复对黎巴嫩南部的密集空袭，至当日结束造成至少47死97伤。【原因】以军声称真主党屡次违反停火协议，过去一夜打击80余个目标，停火事实上已失效。【影响面】BEY机场运营安全面临持续军事活动威胁，目前未关闭但面临随时关闭风险；MEA恢复BEY-KWI航线(6/18起4班/周)为积极信号，但整体运营环境仍不稳定。【当前进展】停火失效后冲突持续，以军空袭仍在进行中；BEY机场暂未发布关闭通知，但安全形势高度不确定。【OTA影响】BEY为非枢纽机场，日均架次较少，但中东-欧洲过境航线可能受绕飞影响增加航程成本，建议关注涉BEY航线退改需求。",
+      "sources": [
+        {
+          "name": "[1] 黎巴嫩卫生部：以色列空袭致47死97伤 - 新华网",
+          "url": "http://www.xinhuanet.com/20260619/d3e41e64c5e84bf29f7171cca994c027/c.html"
+        },
+        {
+          "name": "[2] 外媒称以色列与黎巴嫩真主党已同意停火 - 人民网",
+          "url": "http://world.people.com.cn/n1/2026/0619/c1002-40743724.html"
+        },
+        {
+          "name": "[3] 以色列同意停火后再次空袭黎巴嫩南部 - 人民日报/新华社",
+          "url": "http://m.toutiao.com/group/7653252204027822626/"
+        }
+      ]
+    },
+    {
+      "id": "P2-ME002",
+      "level": "P2",
+      "priority": "P2",
+      "level_emoji": "🟡",
+      "title": "伊朗霍尔木兹海峡通航量恢复中但仍远低于战前，空域禁飞令持续",
+      "category": "地缘政治-中东局势",
+      "fields": {
+        "影响机场": "IKA(德黑兰伊玛目霍梅尼)/THR(梅赫拉巴德) — 商业运营暂停中(6/15起，第6天)；DXB/DOQ等海湾枢纽暂未受直接影响",
+        "影响航线": "伊朗全境航线暂停；经霍尔木兹海峡的航运航线通行受限；海湾枢纽过境航线运营环境面临政策不确定性",
+        "涉及航司": "IR(伊朗航空)/W5(马汉航空)/CP(里海航空)等伊朗航司全线停飞；EK/QR/EY等海湾航司目前正常运营",
+        "旅客估算": "伊朗国内/国际航线旅客约1-2万人/日受停飞影响；海湾枢纽间接影响暂未显现",
+        "持续时间": "伊朗空域商业禁飞令6/15起持续中(第6天)；霍尔木兹海峡通行量恢复至战前约15-20%，预计7月底恢复至70%、9月底全面恢复；俄罗斯赴伊航班禁令6/24到期",
+        "OTA建议": "🟡保持监控：伊朗航线全线暂停，关注涉伊朗航线旅客退改安排；霍尔木兹海峡通航量处于初步恢复期，48小时提前申请+强制保险新规仍生效；关注IRGC-N与外交部矛盾是否导致实际通行政策收紧；7月底恢复至70%为关键节点"
+      },
+      "description": "【起因】伊朗不同机构就霍尔木兹海峡通行状态发出矛盾声明，IRGC-N声称海峡关闭直至以军撤出黎巴嫩，外交部否认关闭称通行正常，波斯湾海峡管理局发布48小时提前申请+60天免费通行新规。【原因】美伊谅解备忘录生效后通航量逐步恢复，6月18日25艘船只(含14艘油轮)通过海峡，为4月中旬以来单日最高，但距完全恢复仍有较大差距。【影响面】截至6月20日，海峡通航量仅恢复至战前约15-20%，约118艘满载原油超级油轮(约7500万桶)滞留波斯湾待通行；伊朗全境空域商业禁飞令(6/15起)仍未解除；海湾主要产油国已重启原油招标，科威特石油公司和阿布扎比石油公司均已发出新一期货量标售。【当前进展】霍尔木兹海峡通行新规生效(48小时提前申请+强制保险60天内豁免)；预计7月底恢复至正常水平70%，全面恢复需至9月底；美伊瑞士线下谈判6/19正式取消；伊朗国内IRGC-N与外交部矛盾未解。【OTA影响】伊朗航线全线暂停影响1-2万旅客/日，海湾枢纽(DXB/DOH)暂未受直接影响但运营环境不确定性持续，霍尔木兹海峡航运恢复缓慢可能间接影响燃油成本和航空运价。",
+      "sources": [
+        {
+          "name": "[1] 霍尔木兹海峡：开了，还是没开？ - 澎湃新闻",
+          "url": "https://m.thepaper.cn/newsDetail_forward_33408460"
+        },
+        {
+          "name": "[2] 霍尔木兹海峡航运恢复遇阻，全球能源安全困局何解？ - 财联社",
+          "url": "https://www.caixin.com/2026-06-20/103336944.html"
+        },
+        {
+          "name": "[3] 总台记者探访：霍尔木兹海峡通行情况有所恢复 - 央广网/央视新闻",
+          "url": "http://news.cnr.cn/native/gd/20260619/t20260619_527668156.shtml"
+        }
+      ]
     }
   ],
   "flight_anomaly": {
-    "total_cancelled": 47,
+    "total_cancelled": 30,
     "groups": [
       {
         "hub": "AMS",
         "hub_name": "阿姆斯特丹",
-        "count": 13,
-        "routes": "AMS→FLR(3)/AMS→EDI(10)",
-        "airlines": "KQ/BT/MU/MF/SK/KL/WA/6E/AM/VS",
-        "passengers": "约1500-2000人",
-        "suggestion": "AMS为Tier1枢纽，13架次取消为当日最高，关注AMS运营状态及荷航KL通告"
+        "count": 7,
+        "routes": "AMS→BER(7架，DL/GA/6E/MU/MF/KE/KL代码共享)",
+        "airlines": "DL/GA/6E/MU/MF/KE/KL",
+        "passengers": "约150-200人(实际1个物理航班+6个代码共享)",
+        "suggestion": "AMS→BER单航班取消含7个代码共享号，关注荷航KL及相关航司通告，确认是否为运营调整"
       },
       {
-        "hub": "PEK",
-        "hub_name": "北京首都",
-        "count": 6,
-        "routes": "PEK→KHN(1)/PEK→URC(2)/PEK→HGH(1)/PEK→KRY(2)",
-        "airlines": "HU/ZH/CA",
-        "passengers": "约800-1000人",
-        "suggestion": "PEK 6架次取消，关注海航HU/深航ZH/国航CA航班调整公告"
-      },
-      {
-        "hub": "CDG",
-        "hub_name": "巴黎戴高乐",
+        "hub": "SZX",
+        "hub_name": "深圳宝安",
         "count": 4,
-        "routes": "CDG→MPL(4)",
-        "airlines": "AF/MK/MU/KL",
-        "passengers": "约500-700人",
-        "suggestion": "CDG→MPL全线取消，关注法航AF通告及MU代码共享航班"
+        "routes": "SZX→XIY(HU 1架)/SZX→TYN(CA/ZH 2架)/SZX→PEK(HU 1架)",
+        "airlines": "HU/CA/ZH",
+        "passengers": "约600-800人",
+        "suggestion": "SZX午后4架次取消，海航HU占2架，深航ZH/国航CA各1架，关注华南午后雷雨及航司排班调整"
       },
       {
-        "hub": "CAN",
-        "hub_name": "广州白云",
+        "hub": "FCO",
+        "hub_name": "罗马菲乌米奇诺",
         "count": 4,
-        "routes": "CAN→PVG(1)/CAN→TSN(1)/CAN→HAK(1)/CAN→HGH(1)",
-        "airlines": "HU/JD",
-        "passengers": "约500-700人",
-        "suggestion": "CAN 4架次取消，海航HU为主，关注海航华南航线排班"
+        "routes": "FCO→BRU(4架，EY/UA/AZ/SN代码共享)",
+        "airlines": "EY/UA/AZ/SN",
+        "passengers": "约150-200人(实际1个物理航班+3个代码共享)",
+        "suggestion": "FCO→BRU单航班取消含4个代码共享号，关注布鲁塞尔航空SN及意大利航空AZ通告"
+      },
+      {
+        "hub": "ORD",
+        "hub_name": "芝加哥奥黑尔",
+        "count": 4,
+        "routes": "ORD→DFW(EI/AA 2架)/ORD→PHL(AS/AA 2架)",
+        "airlines": "EI/AA/AS",
+        "passengers": "约400-600人(2个物理航班)",
+        "suggestion": "ORD出港4架次取消含DFW/PHL两航线，关注美国国内天气及AA航班调整"
       },
       {
         "hub": "其他散点",
-        "hub_name": "IST/DEL/MUC/SYD/CTU/SZX/ADD/KUL/ISB",
-        "count": 20,
-        "routes": "IST→AYT/RZV/ASR(TK 3架); DEL→LHR(DL/VS/VN 3架); MUC→BRU(LH/SN/AC 3架); SYD→MEL(SQ/VA/CZ 3架); CTU→TSN(CA/ZH 2架); SZX→PEK(HU 1)+SZX出港(HU 1); ADD→ABV(ET/EY 2架); KUL→JHB(AK 1); ISB→GIL(PK 1)",
-        "airlines": "TK/DL/VS/VN/LH/SN/AC/SQ/VA/CZ/CA/ZH/HU/ET/EY/AK/PK",
-        "passengers": "约2000-3000人",
-        "suggestion": "散点取消分散于多机场多航线，无明显集中风险，维持常规监控"
+        "hub_name": "PEK/CAN/PVG/DEL/ISB",
+        "count": 11,
+        "routes": "PEK→SHA(MU/HO/MF 3架); CAN→PEK(HU 1架)/CAN→SHA(MU/FM 2架); PVG→HUZ(MU 1架)/PVG→SZX(HU 1架); DEL→PAT(AI/IX 2架); ISB→GIL(PK 1架)",
+        "airlines": "MU/HO/MF/HU/FM/AI/IX/PK",
+        "passengers": "约1500-2100人",
+        "suggestion": "中国国内PEK/CAN/PVG/SZX取消以午后航班为主，关注华南龙舟水残余影响及航司排班；DEL→PAT/ISB→GIL取消为南亚散点，维持常规监控"
       }
     ]
   },
   "inactive_topics": [
     "航司运营异常",
     "地缘政治影响航班"
-  ]
+  ],
+  "middle_east": {
+    "p0_count": 0,
+    "p1_count": 0,
+    "p2_count": 2,
+    "deescalation_signals": [
+      "霍尔木兹海峡6/18通航25艘(含14油轮)为4月中旬以来最高，通行量持续恢复",
+      "MEA恢复BEY-KWI航线(6/18起4班/周)",
+      "海湾主要产油国重启原油招标(科威特/阿布扎比)",
+      "预计7月底海峡通航恢复至70%、9月底全面恢复"
+    ]
+  }
 }
