@@ -148,6 +148,20 @@
         "cancelled_flights": 7
       },
       "url": "reports/2026-06-21.json"
+    },
+    {
+      "reportDate": "2026-06-22",
+      "period": "morning",
+      "generatedAt": "2026-06-22T07:18:45+08:00",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 0,
+        "p2_count": 0,
+        "total": 0,
+        "flight_anomaly_groups": 5,
+        "cancelled_flights": 29
+      },
+      "url": "reports/2026-06-22.json"
     }
   ]
 }
