@@ -1,169 +1,6 @@
 {
   "reports": [
     {
-      "reportDate": "2026-06-21",
-      "period": "morning",
-      "generatedAt": "2026-06-21T07:16:00+08:00",
-      "summary": {
-        "total": 4,
-        "p0": 0,
-        "p1": 0,
-        "p2": 4
-      },
-      "url": "reports/2026-06-21.json"
-    },
-    {
-      "reportDate": "2026-06-20",
-      "period": "afternoon",
-      "generatedAt": "2026-06-20T16:15:42+08:00",
-      "summary": {
-        "total": 4,
-        "p0": 0,
-        "p1": 0,
-        "p2": 4
-      },
-      "url": "reports/2026-06-20.json"
-    },
-    {
-      "reportDate": "2026-06-19",
-      "period": "afternoon",
-      "generatedAt": "2026-06-19T16:15:00+08:00",
-      "summary": {
-        "total": 3,
-        "p0": 0,
-        "p1": 1,
-        "p2": 2
-      },
-      "url": "reports/2026-06-19.json"
-    },
-    {
-      "reportDate": "2026-06-18",
-      "period": "afternoon",
-      "generatedAt": "2026-06-18T16:20:00+08:00",
-      "summary": {
-        "total": 3,
-        "p0": 0,
-        "p1": 0,
-        "p2": 3
-      },
-      "url": "reports/2026-06-18.json"
-    },
-    {
-      "reportDate": "2026-06-17",
-      "period": "afternoon",
-      "generatedAt": "2026-06-17T16:15:36+08:00",
-      "summary": {
-        "total": 6,
-        "p0": 0,
-        "p1": 3,
-        "p2": 3
-      },
-      "url": "reports/2026-06-17.json"
-    },
-    {
-      "reportDate": "2026-06-16",
-      "period": "afternoon",
-      "generatedAt": "2026-06-16T16:16:44+08:00",
-      "summary": {
-        "total": 7,
-        "p0": 2,
-        "p1": 2,
-        "p2": 3
-      },
-      "url": "reports/2026-06-16.json"
-    },
-    {
-      "date": "2026-06-10",
-      "summary": {
-        "total": 12,
-        "p0": 2,
-        "p1": 7,
-        "p2": 3
-      }
-    },
-    {
-      "date": "2026-06-11",
-      "summary": {
-        "total": 7,
-        "p0": 2,
-        "p1": 3,
-        "p2": 2
-      }
-    },
-    {
-      "date": "2026-06-12",
-      "summary": {
-        "total": 9,
-        "p0": 3,
-        "p1": 2,
-        "p2": 4
-      }
-    },
-    {
-      "date": "2026-06-13",
-      "summary": {
-        "total": 8,
-        "p0": 1,
-        "p1": 4,
-        "p2": 3
-      }
-    },
-    {
-      "date": "2026-06-14",
-      "summary": {
-        "total": 6,
-        "p0": 2,
-        "p1": 2,
-        "p2": 2
-      }
-    },
-    {
-      "date": "2026-06-15",
-      "summary": {
-        "total": 6,
-        "p0": 3,
-        "p1": 1,
-        "p2": 2
-      }
-    },
-    {
-      "date": "2026-06-16",
-      "summary": {
-        "total": 6,
-        "p0": 2,
-        "p1": 1,
-        "p2": 3
-      }
-    },
-    {
-      "reportDate": "2026-06-21",
-      "period": "afternoon",
-      "generatedAt": "2026-06-21T16:16:00+08:00",
-      "summary": {
-        "p0_count": 0,
-        "p1_count": 1,
-        "p2_count": 5,
-        "total": 6,
-        "flight_anomaly_groups": 2,
-        "cancelled_flights": 7
-      },
-      "url": "reports/2026-06-21.json"
-    },
-    {
-      "reportDate": "2026-06-22",
-      "period": "morning",
-      "generatedAt": "2026-06-22T07:18:45+08:00",
-      "summary": {
-        "p0_count": 0,
-        "p1_count": 0,
-        "p2_count": 0,
-        "total": 0,
-        "flight_anomaly_groups": 5,
-        "cancelled_flights": 29
-      },
-      "url": "reports/2026-06-22.json"
-    },
-    {
       "date": "2026-06-22",
       "reportDate": "2026-06-22",
       "period": "morning",
@@ -390,6 +227,199 @@
         "total_physical_cancelled": 11,
         "assessment": "散点取消，无集中风险，PVG早间出港3条航线取消可能与梅雨季天气有关，但未达到大面积中断级别，维持常规监控"
       }
+    },
+    {
+      "date": "2026-06-22",
+      "period": "afternoon",
+      "generated_at": "2026-06-22T16:40:00+08:00",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 2,
+        "p2_count": 1,
+        "total": 3,
+        "flight_anomaly_groups": 7,
+        "cancelled_flights": 51
+      },
+      "events_summary": [
+        {
+          "id": "P1-001",
+          "priority": "P1",
+          "title": "台风米克拉加强为超强台风级 2020年以来同期最强6月台风"
+        },
+        {
+          "id": "P1-ME001",
+          "priority": "P1",
+          "title": "霍尔木兹海峡通行量骤降至近零 伊朗坚称关闭"
+        },
+        {
+          "id": "P2-ME001",
+          "priority": "P2",
+          "title": "美伊首轮谈判达成5项要点 海峡沟通热线建立"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "summary": {
+        "total": 6,
+        "p0": 2,
+        "p1": 1,
+        "p2": 3
+      }
+    },
+    {
+      "date": "2026-06-15",
+      "summary": {
+        "total": 6,
+        "p0": 3,
+        "p1": 1,
+        "p2": 2
+      }
+    },
+    {
+      "date": "2026-06-14",
+      "summary": {
+        "total": 6,
+        "p0": 2,
+        "p1": 2,
+        "p2": 2
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "summary": {
+        "total": 8,
+        "p0": 1,
+        "p1": 4,
+        "p2": 3
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "summary": {
+        "total": 9,
+        "p0": 3,
+        "p1": 2,
+        "p2": 4
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "summary": {
+        "total": 7,
+        "p0": 2,
+        "p1": 3,
+        "p2": 2
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "summary": {
+        "total": 12,
+        "p0": 2,
+        "p1": 7,
+        "p2": 3
+      }
+    },
+    {
+      "reportDate": "2026-06-21",
+      "period": "morning",
+      "generatedAt": "2026-06-21T07:16:00+08:00",
+      "summary": {
+        "total": 4,
+        "p0": 0,
+        "p1": 0,
+        "p2": 4
+      },
+      "url": "reports/2026-06-21.json"
+    },
+    {
+      "reportDate": "2026-06-20",
+      "period": "afternoon",
+      "generatedAt": "2026-06-20T16:15:42+08:00",
+      "summary": {
+        "total": 4,
+        "p0": 0,
+        "p1": 0,
+        "p2": 4
+      },
+      "url": "reports/2026-06-20.json"
+    },
+    {
+      "reportDate": "2026-06-19",
+      "period": "afternoon",
+      "generatedAt": "2026-06-19T16:15:00+08:00",
+      "summary": {
+        "total": 3,
+        "p0": 0,
+        "p1": 1,
+        "p2": 2
+      },
+      "url": "reports/2026-06-19.json"
+    },
+    {
+      "reportDate": "2026-06-18",
+      "period": "afternoon",
+      "generatedAt": "2026-06-18T16:20:00+08:00",
+      "summary": {
+        "total": 3,
+        "p0": 0,
+        "p1": 0,
+        "p2": 3
+      },
+      "url": "reports/2026-06-18.json"
+    },
+    {
+      "reportDate": "2026-06-17",
+      "period": "afternoon",
+      "generatedAt": "2026-06-17T16:15:36+08:00",
+      "summary": {
+        "total": 6,
+        "p0": 0,
+        "p1": 3,
+        "p2": 3
+      },
+      "url": "reports/2026-06-17.json"
+    },
+    {
+      "reportDate": "2026-06-16",
+      "period": "afternoon",
+      "generatedAt": "2026-06-16T16:16:44+08:00",
+      "summary": {
+        "total": 7,
+        "p0": 2,
+        "p1": 2,
+        "p2": 3
+      },
+      "url": "reports/2026-06-16.json"
+    },
+    {
+      "reportDate": "2026-06-21",
+      "period": "afternoon",
+      "generatedAt": "2026-06-21T16:16:00+08:00",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 1,
+        "p2_count": 5,
+        "total": 6,
+        "flight_anomaly_groups": 2,
+        "cancelled_flights": 7
+      },
+      "url": "reports/2026-06-21.json"
+    },
+    {
+      "reportDate": "2026-06-22",
+      "period": "morning",
+      "generatedAt": "2026-06-22T07:18:45+08:00",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 0,
+        "p2_count": 0,
+        "total": 0,
+        "flight_anomaly_groups": 5,
+        "cancelled_flights": 29
+      },
+      "url": "reports/2026-06-22.json"
     }
   ]
 }

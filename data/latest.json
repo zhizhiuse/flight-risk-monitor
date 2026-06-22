@@ -1,44 +1,85 @@
 {
   "date": "2026-06-22",
   "reportDate": "2026-06-22",
-  "period": "morning",
-  "generated_at": "2026-06-22T07:18:45+08:00",
+  "period": "afternoon",
+  "generated_at": "2026-06-22T16:40:00+08:00",
   "summary": {
     "p0_count": 0,
-    "p1_count": 1,
-    "p2_count": 2,
+    "p1_count": 2,
+    "p2_count": 1,
     "total": 3,
-    "flight_anomaly_groups": 5,
-    "cancelled_flights": 29
+    "flight_anomaly_groups": 7,
+    "cancelled_flights": 51
   },
   "events": [
+    {
+      "id": "P1-001",
+      "priority": "P1",
+      "level": "orange",
+      "category": "自然灾害",
+      "title": "台风米克拉加强为超强台风级 2020年以来同期最强6月台风",
+      "description": "第7号台风米克拉于6月22日11时加强为超强台风级（JTWC 135kt），中心风速55m/s，气压930hPa，位于台湾鹅銮鼻东偏南约770公里。预计6月25-26日最靠近台湾，TPE等机场面临航班调整风险。小概率西行路径若兑现将影响闽粤沿海。",
+      "fields": {
+        "影响机场": "TPE桃园国际机场（枢纽）、花莲机场（非枢纽）；小概率路径波及XMN/FOC/SZX/CAN",
+        "影响航线": "东亚-北美跨太平洋航线经台东空域；台北-日本/韩国/东南亚区域航线；东海及台湾海峡航运航线",
+        "涉及航司": "中华航空CI、长荣航空BR、星宇航空JX（TPE基地航司）；经TPE中转外航（CZ/MU/CA/NH/JL等）",
+        "旅客估算": "约5000-50000人（TPE日均吞吐约13万人次，预计主要影响期6/25-26，按20-30%航班调整估算）",
+        "持续时间": "6月23日起周边海域受风浪影响，6月25-26日为主要影响期，27日后逐渐远离",
+        "OTA建议": "1.提前通知6/24-6/27 TPE出发/到达旅客航班可能变更 2.预售票务建议开放免改签 3.关注路径西调可能波及闽粤机场(XMN/FOC) 4.密切监控中央气象台台风公报更新"
+      },
+      "sources": [
+        {
+          "name": "[1] 第7号台风米克拉加强为强台风级 - 中国新闻网",
+          "url": "http://www.chinanews.com.cn/sh/2026/06/22/10644921.shtml"
+        },
+        {
+          "name": "[2] 台风米克拉加强为强台风级 - 中央气象台台风公报",
+          "url": "http://typhoon.weather.com.cn/index.shtml?theme=dark"
+        },
+        {
+          "name": "[3] 米克拉已加强或成超强台风 - 澎湃新闻",
+          "url": "https://m.thepaper.cn/newsDetail_forward_33427716"
+        },
+        {
+          "name": "[4] 台风米克拉强度继续增强 - 中国天气网",
+          "url": "http://m.src.weather.com.cn/news/2026/06/4684681.shtml"
+        }
+      ],
+      "coordinates": [
+        {
+          "airport": "TPE",
+          "lat": 25.0777,
+          "lng": 121.2328
+        }
+      ]
+    },
     {
       "id": "P1-ME001",
       "priority": "P1",
       "level": "orange",
       "category": "中东局势",
-      "title": "美伊谈判暂停，伊朗空域持续关闭",
-      "description": "6月21日美伊首轮技术层级谈判在瑞士比尔根山举行，持续约80分钟后伊朗代表团因抗议特朗普社交媒体威胁言论而离场暂停。伊朗设定复谈条件：①特朗普公开道歉 ②以军撤出黎巴嫩南部——两项条件短期均难以满足。此前6/17谅解备忘录带来的空域重开预期实质落空。",
+      "title": "霍尔木兹海峡通行量骤降至近零 伊朗坚称关闭",
+      "description": "伊朗6/20宣布关闭海峡后，6/21通行量从26艘骤降至5艘，伊朗革命卫队海军不再发放通行许可。美方坚称海峡安全无阻(6/20称55艘商船通过)。双方叙事严重对立。伊朗空域6/15起关闭至今(Day 8)。",
       "fields": {
-        "影响机场": "IKA（德黑兰伊玛目霍梅尼）/ THR（梅赫拉巴德）",
-        "影响航线": "伊朗所有进出港航线停飞 + 欧亚过境伊朗空域航线持续绕行（改道土耳其/沙特领空，航程增加1-3小时）",
-        "涉及航司": "Iran Air(IR)/Mahan Air(W5)本土航司全线停飞；Turkish Airlines(TK)/Emirates(EK)/Qatar Airways(QR)/flydubai(FZ)等过境航司绕飞",
-        "旅客估算": "约1.5-3万人/周（IKA日均出港约3000人×7天 + EU-Asia过境航线受影响旅客）",
-        "持续时间": "无限期。复谈前提（以军撤出黎南部+特朗普道歉）短期无望达成；6/24俄罗斯赴伊夜间禁飞令到期是否续期需关注",
-        "OTA建议": "①继续暂停IKA/THR出发到达航线销售 ②对经IKA中转的联程票做退改保障 ③关注6/24俄禁飞令到期后续 ④密切监控卡塔尔/巴基斯坦斡旋进展及伊朗代表团是否重返谈判桌"
+        "影响机场": "德黑兰IKA/梅赫拉巴德THR（6/15起关闭至今Day 8）；波斯湾枢纽DXB/AUH/DOH/BAH（暂未关闭但运营承压）",
+        "影响航线": "波斯湾航运航线（通行量降至5艘/日）；伊朗空域过境航线（已绕飞1周+）；EU-Asia过境航线绕行增加1-3小时",
+        "涉及航司": "Iran Air(IR)/Mahan Air(W5)全线停飞；Emirates(EK)/Qatar Airways(QR)/Etihad(EY)/flydubai(FZ)等海湾航司运营承压",
+        "旅客估算": "约1.5-3万人/周（IKA日均出港约3000人 + EU-Asia过境航线受影响旅客）",
+        "持续时间": "伊朗空域6/15关闭至今(Day 8)；海峡声明6/20发布至今(Day 3)；美伊技术谈判本周持续",
+        "OTA建议": "1.继续暂停IKA/THR出发到达航线销售 2.监控海湾航司运营状态及燃油附加费调整 3.关注美伊谈判本周进展对海峡通行的影响 4.预留备选航线方案"
       },
       "sources": [
         {
-          "name": "[1] 美伊谈判仍暂停 - 央视新闻",
-          "url": "https://news.cctv.com/2026/06/22/ARTIh56n45KMRaFRGwF4XURn260622.shtml"
+          "name": "[4] 伊朗军方宣布关闭霍尔木兹海峡 - 央广军事/央视新闻",
+          "url": "http://military.cnr.cn/zcff/20260621/t20260621_527670526.shtml"
         },
         {
-          "name": "[2] 美伊谈判内幕 - 凤凰网",
-          "url": "https://news.ifeng.com/c/8u9gHVJwow1"
+          "name": "[5] 伊朗媒体称霍尔木兹海峡仍然关闭 - 新华网",
+          "url": "http://www.xinhuanet.com/world/20260621/c74cab2958a743a995c8bbc038c6d3c9/c.html"
         },
         {
-          "name": "[3] 多场双边会谈 - 新华网",
-          "url": "http://www.xinhuanet.com/world/20260621/d21b55b5404947adae6e987ee2bf603d/c.html"
+          "name": "[6] 航运数据显示周日仅有5艘船只通过霍尔木兹海峡 - 新浪财经",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-22/doc-iniefqsc7229985.shtml"
         }
       ],
       "coordinates": [
@@ -48,9 +89,14 @@
           "lng": 51.0933
         },
         {
-          "airport": "THR",
-          "lat": 35.6903,
-          "lng": 51.3135
+          "airport": "DXB",
+          "lat": 25.2532,
+          "lng": 55.3657
+        },
+        {
+          "airport": "DOH",
+          "lat": 25.2731,
+          "lng": 51.6081
         }
       ]
     },
@@ -59,57 +105,28 @@
       "priority": "P2",
       "level": "yellow",
       "category": "中东局势",
-      "title": "霍尔木兹海峡通行量归零，间接推高航空燃油成本",
-      "description": "伊朗军方6/21确认海峡仍处关闭状态，海事数据显示通行量降至零（vs 6/20美军称55艘通过）。航空燃油出厂价同比+86%，全球航司利润预期从410亿降至230亿美元（IATA），暂无直接机场关闭，维持关注燃油附加费调整。",
+      "title": "美伊首轮谈判达成5项要点 海峡沟通热线建立",
+      "description": "美伊在瑞士比尔根山首轮技术层级谈判达成5项要点：1.黎巴嫩停火监督机制 2.霍尔木兹海峡沟通热线 3.资产解冻执行谅解备忘录 4.美国石油制裁豁免(60天) 5.最终谈判前提（第13条执行后方可进入最终阶段）。斡旋方称取得令人鼓舞的进展。属缓和信号，暂无需强烈关注。",
       "fields": {
-        "影响机场": "间接影响波斯湾地区机场(DXB/AUH/DOH/BAH/KWI/MCT)",
-        "影响航线": "波斯湾地区出发航线燃油附加费可能上调",
-        "涉及航司": "全球航司（燃油成本普涨）",
-        "旅客估算": "间接影响，难以精确估算",
-        "持续时间": "取决于美伊谈判恢复及以黎停火",
-        "OTA建议": "关注燃油附加费调整，维持常规监控"
+        "影响机场": "BEY贝鲁特（停火机制若执行有望企稳）；IKA（空域恢复取决于谈判最终结果）",
+        "影响航线": "霍尔木兹海峡航线（热线建立或为通行恢复提供基础，但短期通行仍极低）",
+        "涉及航司": "中东航司普遍间接受益于局势缓和预期",
+        "旅客估算": "暂无直接影响旅客",
+        "持续时间": "技术谈判本周持续，最终阶段需第13条先执行",
+        "OTA建议": "关注海峡热线实际启用及海峡通行量恢复数据"
       },
       "sources": [
         {
-          "name": "[4] Strait of Hormuz still closed - Reuters",
-          "url": "https://www.reuters.com/world/middle-east/iran-military-says-strait-hormuz-still-closed-2026-06-21/"
+          "name": "[1] 伊美谈判被曝达成5项要点 - 央视新闻",
+          "url": "https://news.cctv.com/2026/06/22/ARTIkI8g484IppszfBUFWv8A260622.shtml"
         },
         {
-          "name": "[5] 霍尔木兹仍关闭 - 新华网",
-          "url": "http://www.xinhuanet.com/20260621/8642ea896f634bccbc831517e516d4e0/c.html"
-        }
-      ],
-      "coordinates": [
-        {
-          "airport": "DXB",
-          "lat": 25.2532,
-          "lng": 55.3657
-        }
-      ]
-    },
-    {
-      "id": "P2-ME002",
-      "priority": "P2",
-      "level": "yellow",
-      "category": "中东局势",
-      "title": "以色列持续黎巴嫩军事行动，BEY风险持续",
-      "description": "内塔尼亚胡确认以军将在黎南部安全区长期驻留，国防部长称行动不受限制，与伊朗复谈条件直接冲突。BEY（贝鲁特）机场运营风险持续但暂无新关闭，维持监控。",
-      "fields": {
-        "影响机场": "BEY（贝鲁特哈里里国际机场）",
-        "影响航线": "BEY出发/到达航线",
-        "涉及航司": "MEA(中东航空)等",
-        "旅客估算": "暂无新增影响",
-        "持续时间": "长期，取决于以黎局势",
-        "OTA建议": "维持常规监控，关注BEY航班动态"
-      },
-      "sources": [
-        {
-          "name": "[7] 以军黎巴嫩行动 - 人民网",
-          "url": "http://world.people.com.cn/n1/2026/0621/c1002-40744086.html"
+          "name": "[2] 伊朗谈判团队说伊美谈判达成5项要点 - 人民网/新华社",
+          "url": "http://world.people.com.cn/n1/2026/0622/c1002-40744994.html"
         },
         {
-          "name": "[8] Israel operations continue - Reuters",
-          "url": "https://www.reuters.com/world/middle-east/israels-military-operations-lebanon-continue-chief-staff-says-2026-06-21/"
+          "name": "[3] 伊朗谈判团队说伊美谈判达成5项要点 - 新华网",
+          "url": "https://www.news.cn/20260622/8fae251fd3d3491e839ce84b8549b439/c.html"
         }
       ],
       "coordinates": [
@@ -122,107 +139,46 @@
     }
   ],
   "flight_anomalies": {
-    "description": "29架次取消(含代码共享)，涉及11条物理航线，均为散点取消，无集中风险",
-    "groups": [
+    "total_cancelled": 51,
+    "collection_time": "15:02",
+    "notable_patterns": [
       {
-        "route": "PVG→HDG",
-        "flights": [
-          "EY5843(EY)",
-          "MU5247(MU)",
-          "HO5512(HO)"
-        ],
-        "note": "3架次含代码共享，实际1个物理航班取消，上海浦东→邯郸",
-        "passenger_estimate": "约150-200人"
+        "route": "MEL-SIN",
+        "cancelled_count": 11,
+        "description": "墨尔本-新加坡11架次取消(含代码共享)，约1-2个物理航班，全量取消异常",
+        "estimated_passengers": "300-500"
       },
       {
-        "route": "PVG→LZH",
-        "flights": [
-          "MF3641(MF)",
-          "MU5203(MU)",
-          "HO5458(HO)"
-        ],
-        "note": "3架次含代码共享，实际1个物理航班取消，上海浦东→柳州",
-        "passenger_estimate": "约150-200人"
+        "route": "FCO出港",
+        "cancelled_count": 15,
+        "description": "罗马出港3条航线(AMS/MLA/MUC)集中取消，约3-4个物理航班",
+        "estimated_passengers": "500-800"
       },
       {
-        "route": "PVG→XIY",
-        "flights": [
-          "ZH5001(ZH)",
-          "MU3650(MU)",
-          "HO1007(HO)"
-        ],
-        "note": "3架次含代码共享，实际1-3个物理航班取消，上海浦东→西安",
-        "passenger_estimate": "约200-450人"
+        "route": "FRA-GVA",
+        "cancelled_count": 5,
+        "description": "法兰克福-日内瓦5架次取消(含代码共享)，约1个物理航班",
+        "estimated_passengers": "200-300"
       },
       {
-        "route": "MAD→BOG",
-        "flights": [
-          "LA1602(LA)",
-          "BA4233(BA)",
-          "QR5098(QR)",
-          "IB155(IB)",
-          "PC7755(PC)",
-          "AY5389(AY)"
-        ],
-        "note": "6架次含代码共享，实际1个物理航班取消(LA1602)，马德里→波哥大",
-        "passenger_estimate": "约250-350人"
+        "route": "YYZ出港",
+        "cancelled_count": 6,
+        "description": "多伦多-爱丁堡/拉瓜迪亚各3架次取消",
+        "estimated_passengers": "300-500"
       },
       {
-        "route": "YYZ→DTW/YEG",
-        "flights": [
-          "AC8775(AC)",
-          "TP8024(TP)",
-          "QK8775(QK)",
-          "UA8177(UA)",
-          "AC173(AC)",
-          "OS8269(OS)",
-          "AV2887(AV)",
-          "LH6770(LH)"
-        ],
-        "note": "8架次含代码共享，实际2个物理航班取消(AC8775多伦多→底特律/AC173多伦多→埃德蒙顿)",
-        "passenger_estimate": "约300-500人"
+        "route": "LAX-YUL",
+        "cancelled_count": 3,
+        "description": "洛杉矶-蒙特利尔3架次取消",
+        "estimated_passengers": "200-350"
+      },
+      {
+        "route": "SYD-PQQ",
+        "cancelled_count": 5,
+        "description": "悉尼-麦夸里港5架次取消，区域航线",
+        "estimated_passengers": "100-200"
       }
     ],
-    "other_routes": [
-      {
-        "route": "CTU→LXA",
-        "flights": [
-          "3U5511(3U)",
-          "EU1835(EU)"
-        ],
-        "note": "2架次含代码共享，成都→拉萨"
-      },
-      {
-        "route": "IST→RZV",
-        "flights": [
-          "TK2546(TK)"
-        ],
-        "note": "1架次取消，伊斯坦布尔→里泽"
-      },
-      {
-        "route": "CAN→HAK",
-        "flights": [
-          "HU7002(HU)"
-        ],
-        "note": "1架次取消，广州→海口"
-      },
-      {
-        "route": "SZX→PVG",
-        "flights": [
-          "Y87578(Y8)"
-        ],
-        "note": "1架次取消，深圳→上海浦东"
-      },
-      {
-        "route": "MEL→SYD",
-        "flights": [
-          "SQ6859(SQ)"
-        ],
-        "note": "1架次取消(代码共享)，墨尔本→悉尼"
-      }
-    ],
-    "total_cancelled": 29,
-    "total_physical_cancelled": 11,
-    "assessment": "散点取消，无集中风险，PVG早间出港3条航线取消可能与梅雨季天气有关，但未达到大面积中断级别，维持常规监控"
+    "assessment": "MEL-SIN全量取消和FCO出港集中取消需关注，其余散点取消无集中风险"
   }
 }
