@@ -1,9 +1,100 @@
-// Dashboard Page Logic — Date switching + Stats + Filters + Compact list
+// Dashboard Page Logic — Full Filter System + Cross-Date Support + Stats + Compact list
 
 let indexMap = null;
 let availableDates = [];
 let currentDateIndex = -1;
-let currentFilter = { priority: 'all', category: 'all', search: '' };
+
+// Current filter state
+let currentFilter = {
+  priority: 'all',
+  category: 'all',
+  region: 'all',
+  search: '',
+  dateStart: '',  // empty = use single date mode (arrow nav)
+  dateEnd: ''
+};
+
+// Merged events cache (all loaded dates combined, deduped by id)
+let mergedEvents = [];
+// Map of date -> report data for loaded dates
+let reportCache = new Map();
+// Whether we are in "custom date range" mode
+let isCustomRange = false;
+
+// ============ Category Mapping ============
+// Maps raw category values to the 4 main types
+const CATEGORY_MAP = {
+  '航空安全': '航空安全',
+  '航司运营异常': '航司运营异常',
+  '航司运营': '航司运营异常',
+  '航班异常': '航司运营异常',
+  '自然灾害': '自然灾害',
+  '自然灾害-暴雨': '自然灾害',
+  '自然灾害-地震': '自然灾害',
+  '自然灾害-雷雨': '自然灾害',
+  '极端天气': '自然灾害',
+  '地缘政治': '地缘政治',
+  '地缘政治-中东局势': '地缘政治',
+  '中东局势': '地缘政治',
+};
+
+function mapCategory(rawCategory) {
+  if (!rawCategory) return '其他';
+  // Exact match first
+  if (CATEGORY_MAP[rawCategory]) return CATEGORY_MAP[rawCategory];
+  // Fuzzy match: check if any key is included in the raw category
+  for (const [key, value] of Object.entries(CATEGORY_MAP)) {
+    if (rawCategory.includes(key) || key.includes(rawCategory)) return value;
+  }
+  return '其他';
+}
+
+// ============ Region Detection ============
+const DOMESTIC_AIRPORT_CODES = new Set([
+  'PEK','PKX','SHA','PVG','CAN','CTU','SZX','HGH','TSN','KMG',
+  'XIY','FOC','NKG','WUH','CGO','HRB','SHE','TNA','DLC','CSX',
+  'CKG','KWL','NNG','HET','LHW','XNN','ZUH','LYA','TAO','YNT',
+  'WUX','XNN','LXA','JHG','BPX','ZHA','SYX','HAK','XMN','JJN',
+  'WUS','YNZ','CZX','TYN','UCB','BHY','KWE','JGN','AAT','KRL',
+  'HTN','KHG','AKU','TCG','NLT','ZHY','GOQ','XIL','HLH','ENH',
+  'DAX','JHG','MIG','NAO','ENY','AOG','CHG','NZH','NDG','LNJ',
+  'JMU','LYI','SDA','WEH','YIW','HSN','AQG','JDZ','SQJ','GXQ',
+  'HUZ','SHJ','JIC','TGO','HMI','BPL','RHT','NZL','KJI','FYN'
+]);
+
+const DOMESTIC_ROUTE_KEYWORDS = ['中国', '国内', '大陆'];
+
+function isDomesticEvent(event) {
+  // Check affectedAirports field
+  const airports = event.affectedAirports ? event.affectedAirports.join(' ') : '';
+  const airportField = event.fields ? (event.fields['影响机场'] || '') : '';
+  const allAirportText = airports + ' ' + airportField;
+
+  // Check if any domestic airport code appears in the text
+  for (const code of DOMESTIC_AIRPORT_CODES) {
+    if (allAirportText.includes(code)) return true;
+  }
+
+  // Check affectedRoutes field
+  const routes = event.affectedRoutes ? event.affectedRoutes.join(' ') : '';
+  const routeField = event.fields ? (event.fields['影响航线'] || '') : '';
+  const allRouteText = routes + ' ' + routeField;
+
+  for (const keyword of DOMESTIC_ROUTE_KEYWORDS) {
+    if (allRouteText.includes(keyword)) return true;
+  }
+
+  // Check coordinates for domestic airports
+  if (event.coordinates && Array.isArray(event.coordinates)) {
+    for (const coord of event.coordinates) {
+      if (DOMESTIC_AIRPORT_CODES.has(coord.code)) return true;
+    }
+  }
+
+  return false;
+}
+
+// ============ Init ============
 
 document.addEventListener('DOMContentLoaded', async () => {
   await initDashboard();
@@ -11,9 +102,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (indexMap) {
       indexMap.remove();
       indexMap = null;
-      if (window._currentReportData) {
-        indexMap = initReportMap('indexMap', window._currentReportData.events);
-      }
+      const filteredEvents = getFilteredEvents();
+      indexMap = initReportMap('indexMap', filteredEvents);
     }
   });
   startPolling();
@@ -34,15 +124,136 @@ async function initDashboard() {
       currentDateIndex = availableDates.indexOf(latestDate);
     }
 
+    // Set default date range to "today"
+    setDateShortcut('today');
     updateDateDisplay();
     updateNavButtons();
-    await loadCurrentReport();
+
+    // Set date input min/max bounds
+    const startInput = document.getElementById('filterDateStart');
+    const endInput = document.getElementById('filterDateEnd');
+    if (startInput && endInput && availableDates.length > 0) {
+      startInput.min = availableDates[0];
+      startInput.max = availableDates[availableDates.length - 1];
+      endInput.min = availableDates[0];
+      endInput.max = availableDates[availableDates.length - 1];
+    }
+
+    await loadAndRender();
     bindFilterEvents();
   } catch (error) {
     console.error('Error initializing dashboard:', error);
     showError('加载数据失败，请刷新页面重试');
   }
 }
+
+// ============ Date Range Helpers ============
+
+function getTodayStr() {
+  if (currentDateIndex >= 0 && currentDateIndex < availableDates.length) {
+    return availableDates[currentDateIndex];
+  }
+  const d = new Date();
+  return d.toISOString().slice(0, 10);
+}
+
+function setDateShortcut(range) {
+  const startInput = document.getElementById('filterDateStart');
+  const endInput = document.getElementById('filterDateEnd');
+  if (!startInput || !endInput) return;
+
+  // Update shortcut button states
+  document.querySelectorAll('.filter-shortcut-btn').forEach(b => b.classList.remove('active'));
+  const activeBtn = document.querySelector(`.filter-shortcut-btn[data-range="${range}"]`);
+  if (activeBtn) activeBtn.classList.add('active');
+
+  const today = getTodayStr();
+
+  if (range === 'today') {
+    isCustomRange = false;
+    currentFilter.dateStart = today;
+    currentFilter.dateEnd = today;
+    startInput.value = today;
+    endInput.value = today;
+    enableNavButtons(true);
+  } else if (range === '3d') {
+    isCustomRange = true;
+    const idx = availableDates.indexOf(today);
+    const startIdx = Math.max(0, idx - 2);
+    currentFilter.dateStart = availableDates[startIdx] || today;
+    currentFilter.dateEnd = today;
+    startInput.value = currentFilter.dateStart;
+    endInput.value = currentFilter.dateEnd;
+    enableNavButtons(false);
+  } else if (range === '7d') {
+    isCustomRange = true;
+    const idx = availableDates.indexOf(today);
+    const startIdx = Math.max(0, idx - 6);
+    currentFilter.dateStart = availableDates[startIdx] || today;
+    currentFilter.dateEnd = today;
+    startInput.value = currentFilter.dateStart;
+    endInput.value = currentFilter.dateEnd;
+    enableNavButtons(false);
+  } else if (range === 'all') {
+    isCustomRange = true;
+    currentFilter.dateStart = availableDates[0] || today;
+    currentFilter.dateEnd = today;
+    startInput.value = currentFilter.dateStart;
+    endInput.value = currentFilter.dateEnd;
+    enableNavButtons(false);
+  }
+
+  loadAndRender();
+}
+
+function enableNavButtons(enabled) {
+  const prevBtn = document.getElementById('prevDate');
+  const nextBtn = document.getElementById('nextDate');
+  if (enabled) {
+    updateNavButtons();
+  } else {
+    if (prevBtn) prevBtn.disabled = true;
+    if (nextBtn) nextBtn.disabled = true;
+  }
+}
+
+function onDateInputChange() {
+  const startInput = document.getElementById('filterDateStart');
+  const endInput = document.getElementById('filterDateEnd');
+  if (!startInput || !endInput) return;
+
+  const start = startInput.value;
+  const end = endInput.value;
+
+  if (!start || !end) return;
+
+  // Deactivate shortcut buttons
+  document.querySelectorAll('.filter-shortcut-btn').forEach(b => b.classList.remove('active'));
+
+  currentFilter.dateStart = start;
+  currentFilter.dateEnd = end;
+
+  // If range is a single day that matches current date, use single-day mode
+  if (start === end) {
+    const idx = availableDates.indexOf(start);
+    if (idx !== -1) {
+      currentDateIndex = idx;
+      isCustomRange = false;
+      updateDateDisplay();
+      enableNavButtons(true);
+    } else {
+      isCustomRange = true;
+      enableNavButtons(false);
+    }
+  } else {
+    isCustomRange = true;
+    enableNavButtons(false);
+  }
+
+  loadAndRender();
+}
+
+// ============ Date Switcher (arrow nav) ============
 
 function updateDateDisplay() {
   const display = document.getElementById('dateDisplay');
@@ -59,68 +270,136 @@ function updateNavButtons() {
 }
 
 async function switchDate(direction) {
+  if (isCustomRange) return; // Don't switch when in custom range mode
   const newIndex = currentDateIndex + direction;
   if (newIndex < 0 || newIndex >= availableDates.length) return;
   currentDateIndex = newIndex;
+
+  const date = availableDates[currentDateIndex];
+  currentFilter.dateStart = date;
+  currentFilter.dateEnd = date;
+
+  const startInput = document.getElementById('filterDateStart');
+  const endInput = document.getElementById('filterDateEnd');
+  if (startInput) startInput.value = date;
+  if (endInput) endInput.value = date;
+
   updateDateDisplay();
   updateNavButtons();
-  await loadCurrentReport();
+  await loadAndRender();
 }
 
-async function loadCurrentReport() {
-  if (currentDateIndex < 0 || currentDateIndex >= availableDates.length) return;
-  const date = availableDates[currentDateIndex];
+// ============ Data Loading ============
 
+function getDateRange() {
+  const start = currentFilter.dateStart;
+  const end = currentFilter.dateEnd;
+  if (!start || !end) {
+    // Default to current date
+    if (currentDateIndex >= 0 && currentDateIndex < availableDates.length) {
+      return [availableDates[currentDateIndex]];
+    }
+    return [];
+  }
+  // Return all available dates within the range
+  return availableDates.filter(d => d >= start && d <= end);
+}
+
+async function loadReportForDate(date) {
+  if (reportCache.has(date)) return reportCache.get(date);
   try {
     const report = await fetchData(`reports/${date}.json`);
-    // Normalize events: support both old format (affectedAirports etc) and new format (level + fields)
     if (report.events) {
-      report.events = report.events.map(e => {
-        const normalized = { ...e, priority: e.priority || e.level };
-        if (e.fields && !e.affectedAirports) {
-          normalized.affectedAirports = e.fields['影响机场'] ? [e.fields['影响机场']] : [];
-          normalized.affectedRoutes = e.fields['影响航线'] ? [e.fields['影响航线']] : [];
-          normalized.affectedAirlines = e.fields['影响航司'] ? [e.fields['影响航司']] : [];
-          normalized.estimatedPassengers = e.fields['影响旅客估算'] || e.fields['影响旅客'] || '-';
-          normalized.duration = e.fields['持续时间'] || '-';
-          normalized.action = e.fields['OTA行动建议'] || e.fields['OTA建议'] || '-';
-        }
-        // Middle East special format
-        if (e.impact_airports && !e.affectedAirports) {
-          normalized.affectedAirports = [e.impact_airports];
-          normalized.affectedRoutes = [e.impact_routes || '-'];
-          normalized.affectedAirlines = [e.airlines || '-'];
-          normalized.estimatedPassengers = e.passengers_est || '-';
-          normalized.duration = e.duration || '-';
-          normalized.action = e.ota_advice || '-';
-        }
-        return normalized;
-      });
+      report.events = normalizeEvents(report.events, date);
     }
-    window._currentReportData = report;
-    window._currentReportDate = date;
-
-    document.getElementById('lastUpdate').textContent = formatTime(report.generatedAt || report.generated_at);
-
-    // Destroy old map
-    if (indexMap) { indexMap.remove(); indexMap = null; }
-
-    // Render stats, map, event list
-    renderStats(report);
-    indexMap = initReportMap('indexMap', report.events);
-    renderEventList(report);
-
-    document.title = `${formatDateShort(date)} AI预警 - 机票特殊事件AI预警`;
-  } catch (error) {
-    console.error('Error loading report:', error);
-    showError('加载报告数据失败');
+    reportCache.set(date, report);
+    return report;
+  } catch (e) {
+    console.warn(`Failed to load report for ${date}:`, e);
+    return null;
   }
+}
+
+function normalizeEvents(events, date) {
+  return events.map(e => {
+    const normalized = { ...e, priority: e.priority || e.level, _reportDate: date };
+    if (e.fields && !e.affectedAirports) {
+      normalized.affectedAirports = e.fields['影响机场'] ? [e.fields['影响机场']] : [];
+      normalized.affectedRoutes = e.fields['影响航线'] ? [e.fields['影响航线']] : [];
+      normalized.affectedAirlines = e.fields['影响航司'] ? [e.fields['影响航司']] : [];
+      normalized.estimatedPassengers = e.fields['影响旅客估算'] || e.fields['影响旅客'] || '-';
+      normalized.duration = e.fields['持续时间'] || '-';
+      normalized.action = e.fields['OTA行动建议'] || e.fields['OTA建议'] || '-';
+    }
+    // Middle East special format
+    if (e.impact_airports && !e.affectedAirports) {
+      normalized.affectedAirports = [e.impact_airports];
+      normalized.affectedRoutes = [e.impact_routes || '-'];
+      normalized.affectedAirlines = [e.airlines || '-'];
+      normalized.estimatedPassengers = e.passengers_est || '-';
+      normalized.duration = e.duration || '-';
+      normalized.action = e.ota_advice || '-';
+    }
+    return normalized;
+  });
+}
+
+async function loadAndRender() {
+  const dates = getDateRange();
+  if (dates.length === 0) return;
+
+  // Load all needed reports
+  const reports = [];
+  for (const date of dates) {
+    const report = await loadReportForDate(date);
+    if (report) reports.push(report);
+  }
+
+  // Merge events, dedupe by id (keep the latest occurrence)
+  const eventMap = new Map();
+  for (const report of reports) {
+    if (!report.events) continue;
+    for (const event of report.events) {
+      const id = event.id;
+      if (!eventMap.has(id)) {
+        eventMap.set(id, event);
+      } else {
+        // If same id appears on multiple dates, keep the one from the later date
+        const existing = eventMap.get(id);
+        if (event._reportDate > existing._reportDate) {
+          eventMap.set(id, event);
+        }
+      }
+    }
+  }
+
+  mergedEvents = [...eventMap.values()];
+
+  // Sort by priority then by date
+  mergedEvents.sort((a, b) => {
+    const wa = getPriorityWeight(a.priority);
+    const wb = getPriorityWeight(b.priority);
+    if (wa !== wb) return wb - wa;
+    return (b._reportDate || '').localeCompare(a._reportDate || '');
+  });
+
+  // Store for backward compatibility
+  window._currentReportData = { events: mergedEvents };
+  window._currentReportDate = dates[dates.length - 1];
+
+  // Update last update time
+  const latestReport = reports[reports.length - 1];
+  if (latestReport) {
+    document.getElementById('lastUpdate').textContent = formatTime(latestReport.generatedAt || latestReport.generated_at);
+  }
+
+  // Render everything
+  applyFilters();
 }
 
 // ============ Stats Cards ============
 
-function renderStats(report) {
-  const events = (report.events || []).map(e => ({ ...e, priority: e.priority || e.level }));
+function renderStats(events) {
   const p0 = events.filter(e => e.priority === 'P0').length;
   const p1 = events.filter(e => e.priority === 'P1').length;
   const p2 = events.filter(e => e.priority === 'P2').length;
@@ -129,11 +408,19 @@ function renderStats(report) {
   const statsEl = document.getElementById('statsGrid');
   if (!statsEl) return;
 
+  const dateRange = getDateRange();
+  let dateDesc = '';
+  if (dateRange.length === 1) {
+    dateDesc = formatDateShort(dateRange[0]);
+  } else if (dateRange.length > 1) {
+    dateDesc = `${formatDateShort(dateRange[0])} ~ ${formatDateShort(dateRange[dateRange.length - 1])}`;
+  }
+
   statsEl.innerHTML = `
     <div class="stat-card total">
       <div class="stat-label">📊 风险事件总计</div>
       <div class="stat-value">${total}</div>
-      <div class="stat-desc">${formatDateShort(report.reportDate)}</div>
+      <div class="stat-desc">${dateDesc}</div>
     </div>
     <div class="stat-card p0">
       <div class="stat-label">🔴 P0 紧急</div>
@@ -153,29 +440,9 @@ function renderStats(report) {
   `;
 }
 
-// ============ Filter Bar ============
+// ============ Filter Logic ============
 
 function bindFilterEvents() {
-  // Priority filter
-  document.querySelectorAll('.filter-priority .filter-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.filter-priority .filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentFilter.priority = btn.dataset.priority;
-      applyFilters();
-    });
-  });
-
-  // Category filter
-  document.querySelectorAll('.filter-category .filter-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.filter-category .filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentFilter.category = btn.dataset.category;
-      applyFilters();
-    });
-  });
-
   // Search
   const searchInput = document.getElementById('filterSearch');
   if (searchInput) {
@@ -184,36 +451,109 @@ function bindFilterEvents() {
       applyFilters();
     }, 200));
   }
+
+  // Date inputs
+  const startInput = document.getElementById('filterDateStart');
+  const endInput = document.getElementById('filterDateEnd');
+  if (startInput) {
+    startInput.addEventListener('change', onDateInputChange);
+  }
+  if (endInput) {
+    endInput.addEventListener('change', onDateInputChange);
+  }
+}
+
+function setFilter(type, value) {
+  currentFilter[type] = value;
+
+  // Update button active states
+  let containerClass;
+  let dataAttr;
+  if (type === 'priority') {
+    containerClass = '.filter-priority';
+    dataAttr = 'priority';
+  } else if (type === 'category') {
+    containerClass = '.filter-category';
+    dataAttr = 'category';
+  } else if (type === 'region') {
+    containerClass = '.filter-region';
+    dataAttr = 'region';
+  }
+
+  if (containerClass) {
+    const container = document.querySelector(containerClass);
+    if (container) {
+      container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      const activeBtn = container.querySelector(`.filter-btn[data-${dataAttr}="${value}"]`);
+      if (activeBtn) activeBtn.classList.add('active');
+    }
+  }
+
+  applyFilters();
 }
 
 function applyFilters() {
-  const report = window._currentReportData;
-  if (!report) return;
-  renderEventList(report);
+  const filteredEvents = getFilteredEvents();
+
+  // Update stats
+  renderStats(filteredEvents);
+
+  // Update map
+  if (indexMap) {
+    indexMap.remove();
+    indexMap = null;
+  }
+  if (filteredEvents.length > 0) {
+    indexMap = initReportMap('indexMap', filteredEvents);
+  } else {
+    // Re-init empty map
+    indexMap = initReportMap('indexMap', []);
+  }
+
+  // Update event list
+  renderEventList(filteredEvents);
+
+  // Update count
+  const countEl = document.getElementById('filterCount');
+  if (countEl) countEl.textContent = `${filteredEvents.length} 条`;
 }
 
-function getFilteredEvents(report) {
-  let events = (report.events || []).map(e => ({ ...e, priority: e.priority || e.level }));
+function getFilteredEvents() {
+  let events = [...mergedEvents];
 
+  // Priority filter
   if (currentFilter.priority !== 'all') {
     events = events.filter(e => e.priority === currentFilter.priority);
   }
 
+  // Category filter (using mapped categories)
   if (currentFilter.category !== 'all') {
     events = events.filter(e => {
-      const cat = e.category || '其他';
-      // 包含匹配：选"中东局势"也能匹配"地缘政治-中东局势"
-      return cat === currentFilter.category || cat.includes(currentFilter.category) || currentFilter.category.includes(cat);
+      const mappedCat = mapCategory(e.category);
+      return mappedCat === currentFilter.category;
     });
   }
 
+  // Region filter
+  if (currentFilter.region !== 'all') {
+    events = events.filter(e => {
+      const domestic = isDomesticEvent(e);
+      if (currentFilter.region === 'domestic') return domestic;
+      if (currentFilter.region === 'international') return !domestic;
+      return true;
+    });
+  }
+
+  // Search filter
   if (currentFilter.search) {
     const q = currentFilter.search;
     events = events.filter(e =>
       (e.title || '').toLowerCase().includes(q) ||
       (e.summary || '').toLowerCase().includes(q) ||
       (e.affectedAirports || []).join(' ').toLowerCase().includes(q) ||
-      (e.affectedAirlines || []).join(' ').toLowerCase().includes(q)
+      (e.affectedAirlines || []).join(' ').toLowerCase().includes(q) ||
+      (e.affectedRoutes || []).join(' ').toLowerCase().includes(q) ||
+      (e.category || '').toLowerCase().includes(q)
     );
   }
 
@@ -222,18 +562,9 @@ function getFilteredEvents(report) {
 
 // ============ Event List (Compact) ============
 
-function renderEventList(report) {
+function renderEventList(events) {
   const container = document.getElementById('eventList');
   if (!container) return;
-
-  const events = getFilteredEvents(report);
-
-  // Update count
-  const countEl = document.getElementById('filterCount');
-  if (countEl) countEl.textContent = `${events.length} 条`;
-
-  // Update category filter buttons dynamically
-  updateCategoryButtons(report);
 
   if (events.length === 0) {
     container.innerHTML = `
@@ -270,7 +601,9 @@ function renderEventList(report) {
 
 function renderCompactEvent(event) {
   const category = event.category || '其他';
+  const mappedCat = mapCategory(category);
   const airports = event.affectedAirports ? event.affectedAirports.join(', ') : '-';
+  const dateLabel = event._reportDate ? `<span>📅 ${formatDateShort(event._reportDate)}</span>` : '';
 
   return `
     <div class="event-item-compact" data-id="${event.id}" onclick="showEventDetail('${event.id}')">
@@ -279,8 +612,9 @@ function renderCompactEvent(event) {
         <div class="event-item-info">
           <div class="event-item-title">${event.title}</div>
           <div class="event-item-meta">
-            <span>${getCategoryIcon(category)} ${category}</span>
+            <span>${getCategoryIcon(mappedCat)} ${mappedCat}${category !== mappedCat ? ` · ${category}` : ''}</span>
             ${airports !== '-' ? `<span>✈️ ${airports}</span>` : ''}
+            ${dateLabel}
           </div>
         </div>
         <svg class="expand-arrow" viewBox="0 0 24 24" width="18" height="18"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z" fill="currentColor"/></svg>
@@ -303,10 +637,8 @@ function renderCompactEvent(event) {
 // ============ Event Detail Modal ============
 
 function showEventDetail(eventId) {
-  const report = window._currentReportData;
-  if (!report) return;
-
-  const event = report.events.find(e => e.id === eventId);
+  // Search in mergedEvents
+  const event = mergedEvents.find(e => e.id === eventId);
   if (!event) return;
 
   const modal = document.getElementById('eventModal');
@@ -314,6 +646,7 @@ function showEventDetail(eventId) {
   if (!modal || !body) return;
 
   const category = event.category || '其他';
+  const mappedCat = mapCategory(category);
   const priorityClass = event.priority.toLowerCase();
   const priorityLabels = { 'p0': '🔴 紧急', 'p1': '🟠 重要', 'p2': '🟡 关注' };
 
@@ -328,7 +661,6 @@ function showEventDetail(eventId) {
       const trimmed = line.trim();
       if (!trimmed) continue;
       
-      // Check if it's a section header like 【起因】
       const sectionMatch = trimmed.match(/^【(.+?)】(.*)$/);
       if (sectionMatch) {
         if (currentSection) {
@@ -365,13 +697,16 @@ function showEventDetail(eventId) {
     `;
   }
 
+  const dateLabel = event._reportDate ? `<div class="modal-date-label">📅 报告日期：${formatDateShort(event._reportDate)}</div>` : '';
+
   body.innerHTML = `
     <div class="modal-event-header">
       <span class="event-priority ${priorityClass} modal-priority">${event.priority} ${priorityLabels[priorityClass] || ''}</span>
-      <span class="modal-category">${getCategoryIcon(category)} ${category}</span>
+      <span class="modal-category">${getCategoryIcon(mappedCat)} ${mappedCat}${category !== mappedCat ? ` · ${category}` : ''}</span>
     </div>
     <h2 class="modal-title">${event.title}</h2>
     ${event.summary ? `<div class="modal-summary">${event.summary}</div>` : ''}
+    ${dateLabel}
     
     <div class="modal-detail-grid">
       <div class="modal-detail-item">
@@ -443,37 +778,14 @@ document.getElementById('eventModal').addEventListener('click', (e) => {
   if (e.target.id === 'eventModal') closeEventModal();
 });
 
-function updateCategoryButtons(report) {
-  const events = (report.events || []).map(e => ({ ...e, priority: e.priority || e.level }));
-  const categories = [...new Set(events.map(e => e.category || '其他'))];
-  const container = document.querySelector('.filter-category');
-  if (!container) return;
-
-  const currentActive = currentFilter.category;
-  let html = `<button class="filter-btn ${currentActive === 'all' ? 'active' : ''}" data-category="all">全部</button>`;
-  categories.forEach(cat => {
-    html += `<button class="filter-btn ${currentActive === cat ? 'active' : ''}" data-category="${cat}">${cat}</button>`;
-  });
-  container.innerHTML = html;
-
-  // Rebind click events
-  container.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentFilter.category = btn.dataset.category;
-      applyFilters();
-    });
-  });
-}
-
 // ============ Polling ============
 
 function startPolling() {
   setInterval(async () => {
     try {
       const latest = await fetchData('latest.json');
-      if ((latest.reportDate || latest.date) !== window._currentReportDate) {
+      const latestDate = latest.reportDate || latest.date;
+      if (latestDate !== availableDates[availableDates.length - 1]) {
         showUpdateNotification(latest);
       }
     } catch (e) {}
@@ -502,15 +814,33 @@ async function refreshDashboard() {
 
   if (window._pendingUpdate) {
     const latest = window._pendingUpdate;
-    const newDate = latest.reportDate;
+    const newDate = latest.reportDate || latest.date;
     if (!availableDates.includes(newDate)) {
       availableDates.push(newDate);
       availableDates.sort();
     }
+    // Invalidate cache for the latest date
+    reportCache.delete(newDate);
+
     currentDateIndex = availableDates.indexOf(newDate);
+    currentFilter.dateStart = newDate;
+    currentFilter.dateEnd = newDate;
+
+    const startInput = document.getElementById('filterDateStart');
+    const endInput = document.getElementById('filterDateEnd');
+    if (startInput) startInput.value = newDate;
+    if (endInput) endInput.value = newDate;
+
+    // Reset shortcut to "today"
+    document.querySelectorAll('.filter-shortcut-btn').forEach(b => b.classList.remove('active'));
+    const todayBtn = document.querySelector('.filter-shortcut-btn[data-range="today"]');
+    if (todayBtn) todayBtn.classList.add('active');
+
+    isCustomRange = false;
     updateDateDisplay();
-    updateNavButtons();
-    await loadCurrentReport();
+    enableNavButtons(true);
+
+    await loadAndRender();
     window._pendingUpdate = null;
   }
 }
