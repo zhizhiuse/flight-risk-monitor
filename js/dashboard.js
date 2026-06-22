@@ -200,7 +200,11 @@ function getFilteredEvents(report) {
   }
 
   if (currentFilter.category !== 'all') {
-    events = events.filter(e => (e.category || '其他') === currentFilter.category);
+    events = events.filter(e => {
+      const cat = e.category || '其他';
+      // 包含匹配：选"中东局势"也能匹配"地缘政治-中东局势"
+      return cat === currentFilter.category || cat.includes(currentFilter.category) || currentFilter.category.includes(cat);
+    });
   }
 
   if (currentFilter.search) {
