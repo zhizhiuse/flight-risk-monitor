@@ -162,6 +162,234 @@
         "cancelled_flights": 29
       },
       "url": "reports/2026-06-22.json"
+    },
+    {
+      "date": "2026-06-22",
+      "reportDate": "2026-06-22",
+      "period": "morning",
+      "generated_at": "2026-06-22T07:18:45+08:00",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 1,
+        "p2_count": 2,
+        "total": 3,
+        "flight_anomaly_groups": 5,
+        "cancelled_flights": 29
+      },
+      "events": [
+        {
+          "id": "P1-ME001",
+          "priority": "P1",
+          "level": "orange",
+          "category": "中东局势",
+          "title": "美伊谈判暂停，伊朗空域持续关闭",
+          "description": "6月21日美伊首轮技术层级谈判在瑞士比尔根山举行，持续约80分钟后伊朗代表团因抗议特朗普社交媒体威胁言论而离场暂停。伊朗设定复谈条件：①特朗普公开道歉 ②以军撤出黎巴嫩南部——两项条件短期均难以满足。此前6/17谅解备忘录带来的空域重开预期实质落空。",
+          "fields": {
+            "影响机场": "IKA（德黑兰伊玛目霍梅尼）/ THR（梅赫拉巴德）",
+            "影响航线": "伊朗所有进出港航线停飞 + 欧亚过境伊朗空域航线持续绕行（改道土耳其/沙特领空，航程增加1-3小时）",
+            "涉及航司": "Iran Air(IR)/Mahan Air(W5)本土航司全线停飞；Turkish Airlines(TK)/Emirates(EK)/Qatar Airways(QR)/flydubai(FZ)等过境航司绕飞",
+            "旅客估算": "约1.5-3万人/周（IKA日均出港约3000人×7天 + EU-Asia过境航线受影响旅客）",
+            "持续时间": "无限期。复谈前提（以军撤出黎南部+特朗普道歉）短期无望达成；6/24俄罗斯赴伊夜间禁飞令到期是否续期需关注",
+            "OTA建议": "①继续暂停IKA/THR出发到达航线销售 ②对经IKA中转的联程票做退改保障 ③关注6/24俄禁飞令到期后续 ④密切监控卡塔尔/巴基斯坦斡旋进展及伊朗代表团是否重返谈判桌"
+          },
+          "sources": [
+            {
+              "name": "[1] 美伊谈判仍暂停 - 央视新闻",
+              "url": "https://news.cctv.com/2026/06/22/ARTIh56n45KMRaFRGwF4XURn260622.shtml"
+            },
+            {
+              "name": "[2] 美伊谈判内幕 - 凤凰网",
+              "url": "https://news.ifeng.com/c/8u9gHVJwow1"
+            },
+            {
+              "name": "[3] 多场双边会谈 - 新华网",
+              "url": "http://www.xinhuanet.com/world/20260621/d21b55b5404947adae6e987ee2bf603d/c.html"
+            }
+          ],
+          "coordinates": [
+            {
+              "airport": "IKA",
+              "lat": 35.4169,
+              "lng": 51.0933
+            },
+            {
+              "airport": "THR",
+              "lat": 35.6903,
+              "lng": 51.3135
+            }
+          ]
+        },
+        {
+          "id": "P2-ME001",
+          "priority": "P2",
+          "level": "yellow",
+          "category": "中东局势",
+          "title": "霍尔木兹海峡通行量归零，间接推高航空燃油成本",
+          "description": "伊朗军方6/21确认海峡仍处关闭状态，海事数据显示通行量降至零（vs 6/20美军称55艘通过）。航空燃油出厂价同比+86%，全球航司利润预期从410亿降至230亿美元（IATA），暂无直接机场关闭，维持关注燃油附加费调整。",
+          "fields": {
+            "影响机场": "间接影响波斯湾地区机场(DXB/AUH/DOH/BAH/KWI/MCT)",
+            "影响航线": "波斯湾地区出发航线燃油附加费可能上调",
+            "涉及航司": "全球航司（燃油成本普涨）",
+            "旅客估算": "间接影响，难以精确估算",
+            "持续时间": "取决于美伊谈判恢复及以黎停火",
+            "OTA建议": "关注燃油附加费调整，维持常规监控"
+          },
+          "sources": [
+            {
+              "name": "[4] Strait of Hormuz still closed - Reuters",
+              "url": "https://www.reuters.com/world/middle-east/iran-military-says-strait-hormuz-still-closed-2026-06-21/"
+            },
+            {
+              "name": "[5] 霍尔木兹仍关闭 - 新华网",
+              "url": "http://www.xinhuanet.com/20260621/8642ea896f634bccbc831517e516d4e0/c.html"
+            }
+          ],
+          "coordinates": [
+            {
+              "airport": "DXB",
+              "lat": 25.2532,
+              "lng": 55.3657
+            }
+          ]
+        },
+        {
+          "id": "P2-ME002",
+          "priority": "P2",
+          "level": "yellow",
+          "category": "中东局势",
+          "title": "以色列持续黎巴嫩军事行动，BEY风险持续",
+          "description": "内塔尼亚胡确认以军将在黎南部安全区长期驻留，国防部长称行动不受限制，与伊朗复谈条件直接冲突。BEY（贝鲁特）机场运营风险持续但暂无新关闭，维持监控。",
+          "fields": {
+            "影响机场": "BEY（贝鲁特哈里里国际机场）",
+            "影响航线": "BEY出发/到达航线",
+            "涉及航司": "MEA(中东航空)等",
+            "旅客估算": "暂无新增影响",
+            "持续时间": "长期，取决于以黎局势",
+            "OTA建议": "维持常规监控，关注BEY航班动态"
+          },
+          "sources": [
+            {
+              "name": "[7] 以军黎巴嫩行动 - 人民网",
+              "url": "http://world.people.com.cn/n1/2026/0621/c1002-40744086.html"
+            },
+            {
+              "name": "[8] Israel operations continue - Reuters",
+              "url": "https://www.reuters.com/world/middle-east/israels-military-operations-lebanon-continue-chief-staff-says-2026-06-21/"
+            }
+          ],
+          "coordinates": [
+            {
+              "airport": "BEY",
+              "lat": 33.8209,
+              "lng": 35.4884
+            }
+          ]
+        }
+      ],
+      "flight_anomalies": {
+        "description": "29架次取消(含代码共享)，涉及11条物理航线，均为散点取消，无集中风险",
+        "groups": [
+          {
+            "route": "PVG→HDG",
+            "flights": [
+              "EY5843(EY)",
+              "MU5247(MU)",
+              "HO5512(HO)"
+            ],
+            "note": "3架次含代码共享，实际1个物理航班取消，上海浦东→邯郸",
+            "passenger_estimate": "约150-200人"
+          },
+          {
+            "route": "PVG→LZH",
+            "flights": [
+              "MF3641(MF)",
+              "MU5203(MU)",
+              "HO5458(HO)"
+            ],
+            "note": "3架次含代码共享，实际1个物理航班取消，上海浦东→柳州",
+            "passenger_estimate": "约150-200人"
+          },
+          {
+            "route": "PVG→XIY",
+            "flights": [
+              "ZH5001(ZH)",
+              "MU3650(MU)",
+              "HO1007(HO)"
+            ],
+            "note": "3架次含代码共享，实际1-3个物理航班取消，上海浦东→西安",
+            "passenger_estimate": "约200-450人"
+          },
+          {
+            "route": "MAD→BOG",
+            "flights": [
+              "LA1602(LA)",
+              "BA4233(BA)",
+              "QR5098(QR)",
+              "IB155(IB)",
+              "PC7755(PC)",
+              "AY5389(AY)"
+            ],
+            "note": "6架次含代码共享，实际1个物理航班取消(LA1602)，马德里→波哥大",
+            "passenger_estimate": "约250-350人"
+          },
+          {
+            "route": "YYZ→DTW/YEG",
+            "flights": [
+              "AC8775(AC)",
+              "TP8024(TP)",
+              "QK8775(QK)",
+              "UA8177(UA)",
+              "AC173(AC)",
+              "OS8269(OS)",
+              "AV2887(AV)",
+              "LH6770(LH)"
+            ],
+            "note": "8架次含代码共享，实际2个物理航班取消(AC8775多伦多→底特律/AC173多伦多→埃德蒙顿)",
+            "passenger_estimate": "约300-500人"
+          }
+        ],
+        "other_routes": [
+          {
+            "route": "CTU→LXA",
+            "flights": [
+              "3U5511(3U)",
+              "EU1835(EU)"
+            ],
+            "note": "2架次含代码共享，成都→拉萨"
+          },
+          {
+            "route": "IST→RZV",
+            "flights": [
+              "TK2546(TK)"
+            ],
+            "note": "1架次取消，伊斯坦布尔→里泽"
+          },
+          {
+            "route": "CAN→HAK",
+            "flights": [
+              "HU7002(HU)"
+            ],
+            "note": "1架次取消，广州→海口"
+          },
+          {
+            "route": "SZX→PVG",
+            "flights": [
+              "Y87578(Y8)"
+            ],
+            "note": "1架次取消，深圳→上海浦东"
+          },
+          {
+            "route": "MEL→SYD",
+            "flights": [
+              "SQ6859(SQ)"
+            ],
+            "note": "1架次取消(代码共享)，墨尔本→悉尼"
+          }
+        ],
+        "total_cancelled": 29,
+        "total_physical_cancelled": 11,
+        "assessment": "散点取消，无集中风险，PVG早间出港3条航线取消可能与梅雨季天气有关，但未达到大面积中断级别，维持常规监控"
+      }
     }
   ]
 }
