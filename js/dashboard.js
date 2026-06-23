@@ -747,6 +747,7 @@ function showEventDetail(eventId) {
   }
 
   // Build 5 detail sections with blue vertical line
+  // Priority: structured fields (cause/reason/etc.) > description parsed sections > description plain text
   const detailSections = [
     { label: '起因', value: event.cause || null },
     { label: '原因', value: event.reason || null },
@@ -755,15 +756,33 @@ function showEventDetail(eventId) {
     { label: 'OTA影响', value: event.otaImpact || null }
   ];
   const filteredDetails = detailSections.filter(s => s.value);
-  const detailHtml = filteredDetails.map(s => `
+  let detailHtml = filteredDetails.map(s => `
     <div class="modal-detail-block">
       <div class="modal-detail-header">【${s.label}】</div>
       <div class="modal-detail-body">${s.value}</div>
     </div>
   `).join('');
 
-  // If no structured fields, try description sections
-  const hasDetailContent = filteredDetails.length > 0 || descHtml;
+  // Fallback: if no structured fields, use description
+  let fallbackDescHtml = '';
+  if (filteredDetails.length === 0 && event.description) {
+    // Try parsing description for 【section】markers
+    const lines = event.description.split('\\n').join('\n').split('\n');
+    const hasMarkers = lines.some(l => /^【.+?】/.test(l.trim()));
+    if (hasMarkers) {
+      fallbackDescHtml = descHtml;
+    } else {
+      // Plain text description — show as a single detail block
+      fallbackDescHtml = `
+        <div class="modal-detail-block">
+          <div class="modal-detail-header">【事件详情】</div>
+          <div class="modal-detail-body">${event.description}</div>
+        </div>
+      `;
+    }
+  }
+
+  const hasDetailContent = filteredDetails.length > 0 || fallbackDescHtml || descHtml;
 
   body.innerHTML = `
     <div class="modal-event-header">
@@ -784,7 +803,8 @@ function showEventDetail(eventId) {
       <div class="modal-detail-divider"></div>
       <div class="modal-detail-area">
         ${detailHtml}
-        ${descHtml}
+        ${fallbackDescHtml}
+        ${filteredDetails.length > 0 ? descHtml : ''}
       </div>
     ` : ''}
 

@@ -123,7 +123,7 @@ function renderEventCard(event) {
     </div>
   `;
 
-  // 5段详情（蓝色竖线）
+  // 5段详情（蓝色竖线），优先用结构化字段，fallback到description
   const sections = [
     { label: '起因', value: event.cause || null },
     { label: '原因', value: event.reason || null },
@@ -132,12 +132,26 @@ function renderEventCard(event) {
     { label: 'OTA影响', value: event.otaImpact || null }
   ];
 
-  const sectionsHtml = sections.filter(s => s.value).map(s => `
+  const filteredSections = sections.filter(s => s.value);
+  let sectionsHtml = filteredSections.map(s => `
     <div class="card-detail-block">
       <div class="card-detail-header">【${s.label}】</div>
       <div class="card-detail-body">${s.value}</div>
     </div>
   `).join('');
+
+  // Fallback: if no structured fields, use description as "事件详情"
+  let fallbackSection = '';
+  if (filteredSections.length === 0 && event.description) {
+    fallbackSection = `
+      <div class="card-detail-block">
+        <div class="card-detail-header">【事件详情】</div>
+        <div class="card-detail-body">${event.description}</div>
+      </div>
+    `;
+  }
+
+  const hasDetail = filteredSections.length > 0 || fallbackSection;
 
   return `
     <div class="event-card" id="event-${event.id}">
@@ -147,10 +161,11 @@ function renderEventCard(event) {
       </div>
       ${event.summary ? `<div class="event-card-summary">${event.summary}</div>` : ''}
       ${infoCardsHtml}
-      ${sectionsHtml ? `
+      ${hasDetail ? `
         <div class="card-detail-divider"></div>
         <div class="card-detail-area">
           ${sectionsHtml}
+          ${fallbackSection}
         </div>
       ` : ''}
     </div>
