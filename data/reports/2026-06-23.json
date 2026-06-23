@@ -112,7 +112,20 @@
       "title": "新西兰航空A320基督城机场滑出滑行道",
       "description": "🟡 新西兰航空A320基督城机场滑出滑行道（6/21事件）：NZ582航班推出时主轮陷入草地，旅客安全下机但行李滞留需等72小时，对基督城机场整体运营无重大影响，无需强烈关注",
       "fields": {},
-      "sources": [],
+      "sources": [
+        {
+          "name": "[1] 推出时滑出滑行道！新西兰航空一客机陷入草地 - 民航资源网",
+          "url": "https://i.carnoc.com/detail/661098"
+        },
+        {
+          "name": "[2] 新西兰航空航班地面陷机事件致行程延误 旅客行李滞留机上过夜 - 中国民用航空网",
+          "url": "https://www.ccaonline.cn/anquan/aqhot/1202625.html"
+        },
+        {
+          "name": "[3] 新西兰航空A320卡住，旅客错过转机，10纽元餐券被吐槽 - 搜狐",
+          "url": "https://m.sohu.com/a/1039626362_122743705/"
+        }
+      ],
       "coordinates": []
     },
     {
@@ -123,7 +136,44 @@
       "title": "德黑兰机场7月初分阶段限运",
       "description": "🟡 伊朗宣布7月4-9日德黑兰机场分阶段限运：7/4-5有限容量、7/6暂停所有旅客运输、7/7-9持续受限（含库姆和马什哈德），需关注后续NOTAM公告但暂无需紧急行动",
       "fields": {},
-      "sources": [],
+      "sources": [
+        {
+          "name": "[1] 伊朗将在已故最高领袖葬礼期间实施航班管制 - 央视新闻",
+          "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=11287228597242930689"
+        },
+        {
+          "name": "[2] 伊朗将在已故最高领袖葬礼期间实施航班管制 - 每日经济新闻",
+          "url": "https://www.mrjjxw.com/articles/2026-06-23/4433706.html"
+        },
+        {
+          "name": "[3] 伊朗局势|哈梅内伊葬礼7月4日起连办6天 横跨伊朗5城市及伊拉克 - 星岛头条",
+          "url": "https://www.stheadline.com/zh-hans/realtime-world/3585818/%E4%BC%8A%E6%9C%97%E5%B1%80%E5%8A%BF%E5%93%88%E6%A2%85%E5%86%85%E4%BC%8A%E8%91%AC%E7%A4%BC7%E6%9C%884%E6%97%A5%E8%B5%B7%E8%BF%9E%E5%8A%9E6%E5%A4%A9-%E6%A8%AA%E8%B7%A8%E4%BC%8A%E6%9C%975%E5%9F%8E%E5%B8%82%E5%8F%8A%E4%BC%8A%E6%8B%89%E5%85%8B"
+        },
+        {
+          "name": "[5] 6月23日新闻早知道丨昨夜今晨·热点不容错过 - 北京日报客户端",
+          "url": "https://news.bjd.com.cn/2026/06/23/11821768.shtml"
+        },
+        {
+          "name": "[6] 国际观察丨美伊瑞士谈判：进展积极 前路坎坷 - 新华网",
+          "url": "http://www.xinhuanet.com/20260622/218415a9e6e649be98491edc849af399/c.html"
+        },
+        {
+          "name": "[7] 阿曼外交大臣表示阿曼同伊朗将严格遵守国际法维护霍尔木兹海峡航道安全 - 汇通财经",
+          "url": "https://news.fx678.com/202606230512061128.shtml"
+        },
+        {
+          "name": "[9] 美国国务卿鲁比奥将访问阿联酋、科威特、巴林 - 中国新闻网",
+          "url": "http://www.chinanews.com.cn/gj/2026/06-23/10645330.shtml"
+        },
+        {
+          "name": "[10] 卢比奥将访问海湾国家 表达对伊朗协议的关切 - 新浪财经",
+          "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-22/doc-inieiatm6882640.shtml"
+        },
+        {
+          "name": "[11] 美国国务卿鲁比奥将于6月23日至25日出访阿联酋、科威特、巴林 - 汇通财经",
+          "url": "https://www.fx678.com/C/20260622/202606222304428811.html"
+        }
+      ],
       "coordinates": []
     },
     {
@@ -134,7 +184,44 @@
       "title": "鲁比奥出访海湾三国",
       "description": "🟡 鲁比奥6/23-25出访海湾三国（阿联酋/科威特/巴林）磋商海峡通航安全，关注是否发布联合声明影响海湾航线稳定预期，属外交动向暂无直接影响",
       "fields": {},
-      "sources": [],
+      "sources": [
+        {
+          "name": "[1] 伊朗将在已故最高领袖葬礼期间实施航班管制 - 央视新闻",
+          "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=11287228597242930689"
+        },
+        {
+          "name": "[2] 伊朗将在已故最高领袖葬礼期间实施航班管制 - 每日经济新闻",
+          "url": "https://www.mrjjxw.com/articles/2026-06-23/4433706.html"
+        },
+        {
+          "name": "[3] 伊朗局势|哈梅内伊葬礼7月4日起连办6天 横跨伊朗5城市及伊拉克 - 星岛头条",
+          "url": "https://www.stheadline.com/zh-hans/realtime-world/3585818/%E4%BC%8A%E6%9C%97%E5%B1%80%E5%8A%BF%E5%93%88%E6%A2%85%E5%86%85%E4%BC%8A%E8%91%AC%E7%A4%BC7%E6%9C%884%E6%97%A5%E8%B5%B7%E8%BF%9E%E5%8A%9E6%E5%A4%A9-%E6%A8%AA%E8%B7%A8%E4%BC%8A%E6%9C%975%E5%9F%8E%E5%B8%82%E5%8F%8A%E4%BC%8A%E6%8B%89%E5%85%8B"
+        },
+        {
+          "name": "[5] 6月23日新闻早知道丨昨夜今晨·热点不容错过 - 北京日报客户端",
+          "url": "https://news.bjd.com.cn/2026/06/23/11821768.shtml"
+        },
+        {
+          "name": "[6] 国际观察丨美伊瑞士谈判：进展积极 前路坎坷 - 新华网",
+          "url": "http://www.xinhuanet.com/20260622/218415a9e6e649be98491edc849af399/c.html"
+        },
+        {
+          "name": "[7] 阿曼外交大臣表示阿曼同伊朗将严格遵守国际法维护霍尔木兹海峡航道安全 - 汇通财经",
+          "url": "https://news.fx678.com/202606230512061128.shtml"
+        },
+        {
+          "name": "[9] 美国国务卿鲁比奥将访问阿联酋、科威特、巴林 - 中国新闻网",
+          "url": "http://www.chinanews.com.cn/gj/2026/06-23/10645330.shtml"
+        },
+        {
+          "name": "[10] 卢比奥将访问海湾国家 表达对伊朗协议的关切 - 新浪财经",
+          "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-22/doc-inieiatm6882640.shtml"
+        },
+        {
+          "name": "[11] 美国国务卿鲁比奥将于6月23日至25日出访阿联酋、科威特、巴林 - 汇通财经",
+          "url": "https://www.fx678.com/C/20260622/202606222304428811.html"
+        }
+      ],
       "coordinates": []
     }
   ],

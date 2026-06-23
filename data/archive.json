@@ -1,6 +1,20 @@
 {
   "reports": [
     {
+      "date": "2026-06-23",
+      "reportDate": "2026-06-23",
+      "period": "morning",
+      "generated_at": "2026-06-23T08:55:00+08:00",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 2,
+        "p2_count": 3,
+        "total": 5,
+        "flight_anomaly_groups": 4,
+        "cancelled_flights": 12
+      }
+    },
+    {
       "date": "2026-06-22",
       "reportDate": "2026-06-22",
       "period": "morning",
