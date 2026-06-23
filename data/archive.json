@@ -3,6 +3,52 @@
     {
       "date": "2026-06-23",
       "reportDate": "2026-06-23",
+      "period": "afternoon",
+      "generated_at": "2026-06-23T16:16:00+08:00",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 2,
+        "p2_count": 3,
+        "total": 5,
+        "flight_anomaly_groups": 0,
+        "cancelled_flights": 0
+      },
+      "events": [
+        {
+          "id": "P1-ME001",
+          "priority": "P1",
+          "category": "中东局势",
+          "title": "霍尔木兹海峡通行协调热线正式建立，400+船舶待疏解"
+        },
+        {
+          "id": "P1-001",
+          "priority": "P1",
+          "category": "自然灾害",
+          "title": "台风米克拉超强台风级持续发展：预计6/25-26最靠近台湾"
+        },
+        {
+          "id": "P2-001",
+          "priority": "P2",
+          "category": "航空安全",
+          "title": "波士顿洛根机场达美/美航客机险些相撞——NTSB/FAA启动调查"
+        },
+        {
+          "id": "P2-ME001",
+          "priority": "P2",
+          "category": "中东局势",
+          "title": "德黑兰机场7月初分阶段限运"
+        },
+        {
+          "id": "P2-ME002",
+          "priority": "P2",
+          "category": "中东局势",
+          "title": "鲁比奥出访海湾三国"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-23",
+      "reportDate": "2026-06-23",
       "period": "morning",
       "generated_at": "2026-06-23T08:55:00+08:00",
       "summary": {
