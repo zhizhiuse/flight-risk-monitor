@@ -699,6 +699,47 @@ function showEventDetail(eventId) {
 
   const dateLabel = event._reportDate ? `<div class="modal-date-label">📅 报告日期：${formatDateShort(event._reportDate)}</div>` : '';
 
+  // Build 6 fields (P0/P1: full display; P2: compact)
+  const isP2 = event.priority === 'P2';
+  let fieldsHtml = '';
+  if (!isP2) {
+    const fields = [
+      { icon: '✈️', label: '影响机场', value: event.affectedAirports ? event.affectedAirports.join(', ') : '-' },
+      { icon: '🔀', label: '影响航线', value: event.affectedRoutes ? (Array.isArray(event.affectedRoutes) ? event.affectedRoutes.join(', ') : event.affectedRoutes) : '-' },
+      { icon: '🏢', label: '涉及航司', value: event.affectedAirlines ? event.affectedAirlines.join(', ') : '-' },
+      { icon: '👥', label: '旅客估算', value: event.estimatedPassengers || '-' },
+      { icon: '⏱️', label: '持续时间', value: event.duration || '-' },
+      { icon: '📋', label: 'OTA建议', value: event.action || '-' }
+    ];
+    fieldsHtml = `
+      <div class="modal-fields">
+        ${fields.map(f => `
+          <div class="modal-field">
+            <span class="modal-field-icon">${f.icon}</span>
+            <span class="modal-field-label">${f.label}：</span>
+            <span class="modal-field-value">${f.value}</span>
+          </div>
+        `).join('')}
+      </div>
+    `;
+  }
+
+  // Build 5 detail sections
+  const detailSections = [
+    { icon: '🎯', label: '起因', value: event.cause || null },
+    { icon: '🔍', label: '原因', value: event.reason || null },
+    { icon: '🌐', label: '影响面', value: event.impact || null },
+    { icon: '📡', label: '当前进展', value: event.currentStatus || null },
+    { icon: '⚠️', label: 'OTA影响', value: event.otaImpact || null }
+  ];
+  const detailHtml = detailSections.filter(s => s.value).map(s => `
+    <div class="modal-detail-section">
+      <span class="modal-detail-section-icon">${s.icon}</span>
+      <span class="modal-detail-section-label">【${s.label}】</span>
+      <span class="modal-detail-section-value">${s.value}</span>
+    </div>
+  `).join('');
+
   body.innerHTML = `
     <div class="modal-event-header">
       <span class="event-priority ${priorityClass} modal-priority">${event.priority} ${priorityLabels[priorityClass] || ''}</span>
@@ -707,53 +748,21 @@ function showEventDetail(eventId) {
     <h2 class="modal-title">${event.title}</h2>
     ${event.summary ? `<div class="modal-summary">${event.summary}</div>` : ''}
     ${dateLabel}
-    
-    <div class="modal-detail-grid">
-      <div class="modal-detail-item">
-        <div class="modal-detail-icon">✈️</div>
-        <div class="modal-detail-content">
-          <div class="modal-detail-label">影响机场</div>
-          <div class="modal-detail-value">${event.affectedAirports ? event.affectedAirports.join(', ') : '-'}</div>
-        </div>
-      </div>
-      <div class="modal-detail-item">
-        <div class="modal-detail-icon">🔀</div>
-        <div class="modal-detail-content">
-          <div class="modal-detail-label">影响航线</div>
-          <div class="modal-detail-value">${event.affectedRoutes ? event.affectedRoutes.join(', ') : '-'}</div>
-        </div>
-      </div>
-      <div class="modal-detail-item">
-        <div class="modal-detail-icon">🏢</div>
-        <div class="modal-detail-content">
-          <div class="modal-detail-label">影响航司</div>
-          <div class="modal-detail-value">${event.affectedAirlines ? event.affectedAirlines.join(', ') : '-'}</div>
-        </div>
-      </div>
-      <div class="modal-detail-item">
-        <div class="modal-detail-icon">👥</div>
-        <div class="modal-detail-content">
-          <div class="modal-detail-label">影响旅客</div>
-          <div class="modal-detail-value">${event.estimatedPassengers || '-'}</div>
-        </div>
-      </div>
-      <div class="modal-detail-item">
-        <div class="modal-detail-icon">⏱️</div>
-        <div class="modal-detail-content">
-          <div class="modal-detail-label">持续时间</div>
-          <div class="modal-detail-value">${event.duration || '-'}</div>
-        </div>
-      </div>
-      <div class="modal-detail-item">
-        <div class="modal-detail-icon">📋</div>
-        <div class="modal-detail-content">
-          <div class="modal-detail-label">OTA建议</div>
-          <div class="modal-detail-value">${event.action || '-'}</div>
-        </div>
-      </div>
-    </div>
 
-    ${descHtml ? `<div class="modal-description">${descHtml}</div>` : ''}
+    ${fieldsHtml}
+
+    ${detailHtml ? `
+      <div class="modal-divider"></div>
+      <div class="modal-detail-sections">
+        ${detailHtml}
+      </div>
+    ` : ''}
+
+    ${(!isP2 && descHtml) ? `
+      <div class="modal-divider"></div>
+      <div class="modal-description">${descHtml}</div>
+    ` : ''}
+
     ${sourcesHtml}
   `;
 

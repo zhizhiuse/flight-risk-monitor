@@ -1846,45 +1846,76 @@ body {
   border-bottom: 1px solid var(--border-color);
 }
 
-.modal-detail-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-bottom: 20px;
-}
-
-.modal-detail-item {
+/* 6字段区域 - 逐行排列 */
+.modal-fields {
   display: flex;
+  flex-direction: column;
   gap: 10px;
-  padding: 10px 12px;
-  background: var(--bg-secondary);
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--border-color);
+  margin-bottom: 16px;
 }
 
-.modal-detail-icon {
-  font-size: 18px;
-  flex-shrink: 0;
-  margin-top: 2px;
-}
-
-.modal-detail-content {
-  min-width: 0;
-}
-
-.modal-detail-label {
-  font-size: 11px;
-  color: var(--text-muted);
-  margin-bottom: 2px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.modal-detail-value {
+.modal-field {
   font-size: 13px;
+  line-height: 1.6;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.modal-field-icon {
+  margin-right: 4px;
+  flex-shrink: 0;
+}
+
+.modal-field-label {
+  font-weight: 700;
   color: var(--text-primary);
-  line-height: 1.4;
+  margin-right: 4px;
+  white-space: nowrap;
+}
+
+.modal-field-value {
+  color: var(--text-secondary);
   word-break: break-word;
+}
+
+/* 分隔线 */
+.modal-divider {
+  height: 1px;
+  background: var(--border-color);
+  margin: 16px 0;
+}
+
+/* 5段详情区域 */
+.modal-detail-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.modal-detail-section {
+  font-size: 13px;
+  line-height: 1.6;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.modal-detail-section-icon {
+  margin-right: 4px;
+  flex-shrink: 0;
+}
+
+.modal-detail-section-label {
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-right: 4px;
+  white-space: nowrap;
+}
+
+.modal-detail-section-value {
+  color: var(--text-secondary);
 }
 
 /* Description sections in modal */
@@ -2015,9 +2046,6 @@ body {
 
 /* Mobile: modal detail grid single column */
 @media (max-width: 640px) {
-  .modal-detail-grid {
-    grid-template-columns: 1fr;
-  }
   .modal-body {
     padding: 20px 16px 24px;
   }
