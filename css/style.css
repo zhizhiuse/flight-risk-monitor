@@ -889,7 +889,7 @@ body {
 .event-card {
   background: var(--bg-secondary);
   border-radius: var(--radius-sm);
-  padding: 1rem;
+  padding: 1.25rem;
   margin-bottom: 0.75rem;
 }
 
@@ -897,48 +897,109 @@ body {
   margin-bottom: 0;
 }
 
+.event-card.p2-compact {
+  padding: 0.75rem 1rem;
+  opacity: 0.85;
+}
+
+.event-card.p2-compact .event-card-title {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.event-priority-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.125rem 0.5rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.event-priority-badge.p0 {
+  background: var(--accent-p0-bg);
+  color: var(--accent-p0);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.event-priority-badge.p1 {
+  background: var(--accent-p1-bg);
+  color: var(--accent-p1);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.event-priority-badge.p2 {
+  background: var(--accent-p2-bg);
+  color: var(--accent-p2);
+  border: 1px solid rgba(234, 179, 8, 0.3);
+  font-size: 0.7rem;
+}
+
 .event-card-title {
   font-size: 0.9375rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 0.75rem;
+  line-height: 1.5;
 }
 
-.event-details {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 0.75rem;
+/* 6字段区域 */
+.detail-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
 }
 
-.detail-item {
+.detail-field {
   font-size: 0.8125rem;
+  line-height: 1.6;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
 }
 
-.detail-label {
-  color: var(--text-muted);
-  margin-bottom: 0.125rem;
+.detail-field-icon {
+  margin-right: 0.25rem;
+  flex-shrink: 0;
 }
 
-.detail-value {
+.detail-field-label {
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-right: 0.25rem;
+  white-space: nowrap;
+}
+
+.detail-field-value {
+  color: var(--text-secondary);
+}
+
+/* 分隔线 */
+.detail-divider {
+  height: 1px;
+  background: var(--border-color);
+  margin: 1rem 0;
+}
+
+/* 5段详情区域 */
+.detail-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.detail-section {
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+
+.detail-section-label {
+  font-weight: 700;
   color: var(--text-primary);
 }
 
-.action-box {
-  margin-top: 0.75rem;
-  padding: 0.75rem;
-  background: var(--accent-blue-bg);
-  border-radius: var(--radius-sm);
-  border-left: 3px solid var(--accent-blue);
-}
-
-.action-label {
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--accent-blue);
-  margin-bottom: 0.25rem;
-}
-
-.action-text {
-  font-size: 0.8125rem;
+.detail-section-value {
   color: var(--text-secondary);
 }
 

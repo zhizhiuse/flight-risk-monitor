@@ -71,46 +71,69 @@ function renderPrioritySection(priority, title, events) {
 }
 
 function renderEventCard(event) {
-  const descId = 'desc-' + event.id;
-  const hasLongDesc = event.description && event.description.length > 0;
+  const isP2 = event.priority === 'P2';
+
+  // P2事件：一句话总结，不展开详情
+  if (isP2) {
+    return `
+      <div class="event-card p2-compact" id="event-${event.id}">
+        <div class="event-card-title">
+          <span class="event-priority-badge p2">🟡P2</span>
+          ${event.title}
+        </div>
+        ${event.summary ? `<div class="event-card-summary">${event.summary}</div>` : ''}
+      </div>
+    `;
+  }
+
+  // P0/P1事件：完整6字段 + 分隔线 + 5段详情
+  const fields = [
+    { icon: '✈️', label: '影响机场', value: event.affectedAirports ? event.affectedAirports.join(', ') : '-' },
+    { icon: '🔀', label: '影响航线', value: event.affectedRoutes ? (Array.isArray(event.affectedRoutes) ? event.affectedRoutes.join(', ') : event.affectedRoutes) : '-' },
+    { icon: '🏢', label: '涉及航司', value: event.affectedAirlines ? event.affectedAirlines.join(', ') : '-' },
+    { icon: '👥', label: '旅客估算', value: event.estimatedPassengers || '-' },
+    { icon: '⏱️', label: '持续时间', value: event.duration || '-' },
+    { icon: '📋', label: 'OTA建议', value: event.action || '-' }
+  ];
+
+  const fieldsHtml = fields.map(f => `
+    <div class="detail-field">
+      <span class="detail-field-icon">${f.icon}</span>
+      <span class="detail-field-label">**${f.label}：**</span>
+      <span class="detail-field-value">${f.value}</span>
+    </div>
+  `).join('');
+
+  // 5段详情
+  const sections = [
+    { icon: '🎯', label: '起因', value: event.cause || null },
+    { icon: '🔍', label: '原因', value: event.reason || null },
+    { icon: '🌐', label: '影响面', value: event.impact || null },
+    { icon: '📡', label: '当前进展', value: event.currentStatus || null },
+    { icon: '⚠️', label: 'OTA影响', value: event.otaImpact || null }
+  ];
+
+  const sectionsHtml = sections.filter(s => s.value).map(s => `
+    <div class="detail-section">
+      <span class="detail-section-label">**【${s.label}】**</span>
+      <span class="detail-section-value">${s.value}</span>
+    </div>
+  `).join('');
 
   return `
     <div class="event-card" id="event-${event.id}">
-      <div class="event-card-title">${event.title}</div>
-      ${event.summary ? `<div class="event-card-summary">${event.summary}</div>` : ''}
-      ${hasLongDesc ? `
-        <div class="event-card-description" id="${descId}">
-          <div class="desc-content collapsed" id="${descId}-content">
-            ${event.description.split('\n').map(p => p.trim() ? `<p>${p}</p>` : '').join('')}
-          </div>
-          <button class="desc-toggle" onclick="toggleDesc('${descId}-content', this)">
-            <span class="toggle-text">展开详情</span>
-            <svg viewBox="0 0 24 24" width="16" height="16"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
-          </button>
-        </div>
-      ` : ''}
-      <div class="event-details">
-        <div class="detail-item">
-          <div class="detail-label">✈️ 影响机场</div>
-          <div class="detail-value">${event.affectedAirports ? event.affectedAirports.join(', ') : '-'}</div>
-        </div>
-        <div class="detail-item">
-          <div class="detail-label">🏢 影响航司</div>
-          <div class="detail-value">${event.affectedAirlines ? event.affectedAirlines.join(', ') : '-'}</div>
-        </div>
-        <div class="detail-item">
-          <div class="detail-label">👥 影响旅客</div>
-          <div class="detail-value">${event.estimatedPassengers || '-'}</div>
-        </div>
-        <div class="detail-item">
-          <div class="detail-label">⏱️ 持续时间</div>
-          <div class="detail-value">${event.duration || '-'}</div>
-        </div>
+      <div class="event-card-title">
+        <span class="event-priority-badge ${event.priority.toLowerCase()}">${event.priority === 'P0' ? '🔴P0' : '🟠P1'}</span>
+        ${event.title}
       </div>
-      ${event.action ? `
-        <div class="action-box">
-          <div class="action-label">📋 OTA行动建议</div>
-          <div class="action-text">${event.action}</div>
+      ${event.summary ? `<div class="event-card-summary">${event.summary}</div>` : ''}
+      <div class="detail-fields">
+        ${fieldsHtml}
+      </div>
+      ${sectionsHtml ? `
+        <div class="detail-divider"></div>
+        <div class="detail-sections">
+          ${sectionsHtml}
         </div>
       ` : ''}
     </div>
