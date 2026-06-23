@@ -95,7 +95,7 @@ function renderEventCard(event) {
   ];
   const fullFields = [
     { icon: '⏱️', label: '持续时间', value: event.duration || '-' },
-    { icon: '📋', label: 'OTA建议', value: event.action || '-' }
+    { icon: '📋', label: 'OTA建议', value: event.otaSuggestion || event.action || '-' }
   ];
 
   const infoCardsHtml = `

@@ -331,6 +331,10 @@ function normalizeEvents(events, date) {
       normalized.duration = e.fields['持续时间'] || '-';
       normalized.action = e.fields['OTA行动建议'] || e.fields['OTA建议'] || '-';
     }
+    // Normalize top-level otaSuggestion to action for backward compat
+    if (e.otaSuggestion && !e.action) {
+      normalized.action = e.otaSuggestion;
+    }
     // Middle East special format
     if (e.impact_airports && !e.affectedAirports) {
       normalized.affectedAirports = [e.impact_airports];
@@ -717,7 +721,7 @@ function showEventDetail(eventId) {
     ];
     const fullFields = [
       { icon: '⏱️', label: '持续时间', value: event.duration || '-' },
-      { icon: '📋', label: 'OTA建议', value: event.action || '-' }
+      { icon: '📋', label: 'OTA建议', value: event.otaSuggestion || event.action || '-' }
     ];
 
     infoCardsHtml = `
