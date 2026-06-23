@@ -86,37 +86,56 @@ function renderEventCard(event) {
     `;
   }
 
-  // P0/P1事件：完整6字段 + 分隔线 + 5段详情
-  const fields = [
+  // P0/P1事件：2×2网格信息卡 + 全宽卡 + 蓝色竖线详情段
+  const gridFields = [
     { icon: '✈️', label: '影响机场', value: event.affectedAirports ? event.affectedAirports.join(', ') : '-' },
     { icon: '🔀', label: '影响航线', value: event.affectedRoutes ? (Array.isArray(event.affectedRoutes) ? event.affectedRoutes.join(', ') : event.affectedRoutes) : '-' },
     { icon: '🏢', label: '涉及航司', value: event.affectedAirlines ? event.affectedAirlines.join(', ') : '-' },
-    { icon: '👥', label: '旅客估算', value: event.estimatedPassengers || '-' },
+    { icon: '👥', label: '旅客估算', value: event.estimatedPassengers || '-' }
+  ];
+  const fullFields = [
     { icon: '⏱️', label: '持续时间', value: event.duration || '-' },
     { icon: '📋', label: 'OTA建议', value: event.action || '-' }
   ];
 
-  const fieldsHtml = fields.map(f => `
-    <div class="detail-field">
-      <span class="detail-field-icon">${f.icon}</span>
-      <span class="detail-field-label">**${f.label}：**</span>
-      <span class="detail-field-value">${f.value}</span>
+  const infoCardsHtml = `
+    <div class="card-info-grid">
+      ${gridFields.map(f => `
+        <div class="card-info-item">
+          <div class="card-info-icon">${f.icon}</div>
+          <div class="card-info-content">
+            <div class="card-info-label">${f.label}</div>
+            <div class="card-info-value">${f.value}</div>
+          </div>
+        </div>
+      `).join('')}
     </div>
-  `).join('');
+    <div class="card-info-full">
+      ${fullFields.map(f => `
+        <div class="card-info-item">
+          <div class="card-info-icon">${f.icon}</div>
+          <div class="card-info-content">
+            <div class="card-info-label">${f.label}</div>
+            <div class="card-info-value">${f.value}</div>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
 
-  // 5段详情
+  // 5段详情（蓝色竖线）
   const sections = [
-    { icon: '🎯', label: '起因', value: event.cause || null },
-    { icon: '🔍', label: '原因', value: event.reason || null },
-    { icon: '🌐', label: '影响面', value: event.impact || null },
-    { icon: '📡', label: '当前进展', value: event.currentStatus || null },
-    { icon: '⚠️', label: 'OTA影响', value: event.otaImpact || null }
+    { label: '起因', value: event.cause || null },
+    { label: '原因', value: event.reason || null },
+    { label: '影响面', value: event.impact || null },
+    { label: '当前进展', value: event.currentStatus || null },
+    { label: 'OTA影响', value: event.otaImpact || null }
   ];
 
   const sectionsHtml = sections.filter(s => s.value).map(s => `
-    <div class="detail-section">
-      <span class="detail-section-label">**【${s.label}】**</span>
-      <span class="detail-section-value">${s.value}</span>
+    <div class="card-detail-block">
+      <div class="card-detail-header">【${s.label}】</div>
+      <div class="card-detail-body">${s.value}</div>
     </div>
   `).join('');
 
@@ -127,12 +146,10 @@ function renderEventCard(event) {
         ${event.title}
       </div>
       ${event.summary ? `<div class="event-card-summary">${event.summary}</div>` : ''}
-      <div class="detail-fields">
-        ${fieldsHtml}
-      </div>
+      ${infoCardsHtml}
       ${sectionsHtml ? `
-        <div class="detail-divider"></div>
-        <div class="detail-sections">
+        <div class="card-detail-divider"></div>
+        <div class="card-detail-area">
           ${sectionsHtml}
         </div>
       ` : ''}

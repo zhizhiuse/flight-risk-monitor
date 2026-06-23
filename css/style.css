@@ -944,63 +944,95 @@ body {
   line-height: 1.5;
 }
 
-/* 6字段区域 */
-.detail-fields {
+/* 6字段区域 → 改为2×2网格信息卡 + 全宽卡 + 蓝色竖线详情 */
+.card-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.card-info-full {
   display: flex;
   flex-direction: column;
-  gap: 0.625rem;
+  gap: 10px;
+  margin-bottom: 0;
 }
 
-.detail-field {
-  font-size: 0.8125rem;
-  line-height: 1.6;
+.card-info-item {
   display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 14px;
+  background: var(--bg-secondary);
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
 }
 
-.detail-field-icon {
-  margin-right: 0.25rem;
+.card-info-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background: var(--accent-blue-bg);
   flex-shrink: 0;
 }
 
-.detail-field-label {
-  font-weight: 700;
+.card-info-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.card-info-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.card-info-value {
+  font-size: 13px;
   color: var(--text-primary);
-  margin-right: 0.25rem;
-  white-space: nowrap;
+  font-weight: 500;
+  line-height: 1.5;
+  word-break: break-word;
 }
 
-.detail-field-value {
-  color: var(--text-secondary);
-}
-
-/* 分隔线 */
-.detail-divider {
+/* 卡片详情分隔线 */
+.card-detail-divider {
   height: 1px;
   background: var(--border-color);
-  margin: 1rem 0;
+  margin: 16px 0;
 }
 
-/* 5段详情区域 */
-.detail-sections {
+/* 卡片详情区域（蓝色竖线） */
+.card-detail-area {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 12px;
 }
 
-.detail-section {
-  font-size: 0.8125rem;
-  line-height: 1.6;
+.card-detail-block {
+  padding-left: 12px;
+  border-left: 3px solid var(--accent-blue);
 }
 
-.detail-section-label {
+.card-detail-header {
+  font-size: 14px;
   font-weight: 700;
-  color: var(--text-primary);
+  color: var(--accent-blue);
+  margin-bottom: 4px;
 }
 
-.detail-section-value {
+.card-detail-body {
+  font-size: 13px;
   color: var(--text-secondary);
+  line-height: 1.7;
 }
 
 /* Flight Table */
@@ -1777,24 +1809,22 @@ body {
 }
 
 .modal-close {
-  position: absolute;
-  top: 12px;
-  right: 16px;
-  background: none;
-  border: none;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
   color: var(--text-secondary);
-  font-size: 28px;
+  font-size: 18px;
   cursor: pointer;
   line-height: 1;
-  padding: 4px 8px;
-  border-radius: 4px;
+  padding: 6px 10px;
+  border-radius: 6px;
   transition: all 0.15s;
   z-index: 1;
 }
 
 .modal-close:hover {
-  background: var(--bg-secondary);
-  color: var(--text-primary);
+  background: var(--accent-p0-bg);
+  color: var(--accent-p0);
+  border-color: var(--accent-p0);
 }
 
 .modal-body {
@@ -1804,28 +1834,51 @@ body {
 .modal-event-header {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: space-between;
   margin-bottom: 12px;
 }
 
-.modal-priority {
-  font-size: 13px;
-  font-weight: 700;
-  padding: 4px 10px;
+.modal-header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal-priority-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.modal-priority-tag {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 10px;
   border-radius: 4px;
 }
 
-.modal-category {
+.modal-category-tag {
   display: flex;
   align-items: center;
   gap: 4px;
   color: var(--text-secondary);
   font-size: 13px;
+  padding: 3px 10px;
+  background: var(--bg-secondary);
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
 }
 
-.modal-category svg {
-  width: 16px;
-  height: 16px;
+.modal-category-tag svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
 }
 
 .modal-title {
@@ -1846,106 +1899,122 @@ body {
   border-bottom: 1px solid var(--border-color);
 }
 
-/* 6字段区域 - 逐行排列 */
-.modal-fields {
+/* ===== Modal Info Cards (2×2 grid + full-width) ===== */
+.modal-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.modal-info-full {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-bottom: 16px;
+  margin-bottom: 0;
 }
 
-.modal-field {
-  font-size: 13px;
-  line-height: 1.6;
+.modal-info-card {
   display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 14px;
+  background: var(--bg-secondary);
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
 }
 
-.modal-field-icon {
-  margin-right: 4px;
+.modal-info-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background: var(--accent-blue-bg);
   flex-shrink: 0;
 }
 
-.modal-field-label {
-  font-weight: 700;
-  color: var(--text-primary);
-  margin-right: 4px;
-  white-space: nowrap;
+.modal-info-content {
+  flex: 1;
+  min-width: 0;
 }
 
-.modal-field-value {
-  color: var(--text-secondary);
+.modal-info-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.modal-info-value {
+  font-size: 13px;
+  color: var(--text-primary);
+  font-weight: 500;
+  line-height: 1.5;
   word-break: break-word;
 }
 
-/* 分隔线 */
-.modal-divider {
+/* ===== Detail divider ===== */
+.modal-detail-divider {
   height: 1px;
   background: var(--border-color);
-  margin: 16px 0;
+  margin: 20px 0 16px;
 }
 
-/* 5段详情区域 */
-.modal-detail-sections {
+/* ===== Detail area with blue vertical line ===== */
+.modal-detail-area {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin-bottom: 16px;
-}
-
-.modal-detail-section {
-  font-size: 13px;
-  line-height: 1.6;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-}
-
-.modal-detail-section-icon {
-  margin-right: 4px;
-  flex-shrink: 0;
-}
-
-.modal-detail-section-label {
-  font-weight: 700;
-  color: var(--text-primary);
-  margin-right: 4px;
-  white-space: nowrap;
-}
-
-.modal-detail-section-value {
-  color: var(--text-secondary);
-}
-
-/* Description sections in modal */
-.modal-description {
+  gap: 12px;
   margin-bottom: 20px;
-  padding-top: 16px;
-  border-top: 1px solid var(--border-color);
 }
 
-.modal-desc-section {
-  margin-bottom: 14px;
-}
-
-.modal-desc-header {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--accent-blue);
-  margin-bottom: 6px;
-  padding-left: 8px;
+.modal-detail-block {
+  padding-left: 12px;
   border-left: 3px solid var(--accent-blue);
 }
 
-.modal-desc-section p {
+.modal-detail-header {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent-blue);
+  margin-bottom: 4px;
+}
+
+.modal-detail-body {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* Description sections fallback (from event.description parsing) */
+.modal-desc-block {
+  padding-left: 12px;
+  border-left: 3px solid var(--accent-blue);
+  margin-bottom: 12px;
+}
+
+.modal-desc-block .modal-desc-header {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent-blue);
+  margin-bottom: 4px;
+  padding-left: 0;
+  border-left: none;
+}
+
+.modal-desc-block p {
   color: var(--text-secondary);
   font-size: 13px;
   line-height: 1.7;
   margin: 4px 0;
 }
 
-.modal-desc-list-item {
+.modal-desc-block .modal-desc-list-item {
   color: var(--text-secondary);
   font-size: 13px;
   line-height: 1.6;
@@ -1954,7 +2023,7 @@ body {
   margin: 3px 0;
 }
 
-.modal-desc-list-item::before {
+.modal-desc-block .modal-desc-list-item::before {
   content: '•';
   position: absolute;
   left: 0;
@@ -2051,5 +2120,11 @@ body {
   }
   .modal-title {
     font-size: 18px;
+  }
+  .modal-info-grid {
+    grid-template-columns: 1fr;
+  }
+  .card-info-grid {
+    grid-template-columns: 1fr;
   }
 }

@@ -648,9 +648,16 @@ function showEventDetail(eventId) {
   const category = event.category || '其他';
   const mappedCat = mapCategory(category);
   const priorityClass = event.priority.toLowerCase();
-  const priorityLabels = { 'p0': '🔴 紧急', 'p1': '🟠 重要', 'p2': '🟡 关注' };
+  const isP2 = event.priority === 'P2';
 
-  // Parse description into sections
+  // Priority badge colors
+  const priorityColors = { 'P0': '#ef4444', 'P1': '#f59e0b', 'P2': '#eab308' };
+  const priorityBgColors = { 'P0': 'rgba(239,68,68,0.12)', 'P1': 'rgba(245,158,11,0.12)', 'P2': 'rgba(234,179,8,0.12)' };
+  const priorityLabels = { 'P0': '紧急', 'P1': '重要', 'P2': '关注' };
+  const pColor = priorityColors[priorityClass] || '#6b7280';
+  const pBg = priorityBgColors[priorityClass] || 'rgba(107,114,128,0.12)';
+
+  // Parse description into sections (for fallback when structured fields are missing)
   let descHtml = '';
   if (event.description) {
     const lines = event.description.split('\\n').join('\n').split('\n');
@@ -664,7 +671,7 @@ function showEventDetail(eventId) {
       const sectionMatch = trimmed.match(/^【(.+?)】(.*)$/);
       if (sectionMatch) {
         if (currentSection) {
-          descHtml += `<div class="modal-desc-section"><div class="modal-desc-header">${currentSection}</div>${sectionHtml}</div>`;
+          descHtml += `<div class="modal-desc-block"><div class="modal-desc-header">${currentSection}</div>${sectionHtml}</div>`;
         }
         currentSection = sectionMatch[1];
         sectionHtml = sectionMatch[2] ? `<p>${sectionMatch[2]}</p>` : '';
@@ -675,7 +682,7 @@ function showEventDetail(eventId) {
       }
     }
     if (currentSection) {
-      descHtml += `<div class="modal-desc-section"><div class="modal-desc-header">${currentSection}</div>${sectionHtml}</div>`;
+      descHtml += `<div class="modal-desc-block"><div class="modal-desc-header">${currentSection}</div>${sectionHtml}</div>`;
     }
   }
 
@@ -699,68 +706,86 @@ function showEventDetail(eventId) {
 
   const dateLabel = event._reportDate ? `<div class="modal-date-label">📅 报告日期：${formatDateShort(event._reportDate)}</div>` : '';
 
-  // Build 6 fields (P0/P1: full display; P2: compact)
-  const isP2 = event.priority === 'P2';
-  let fieldsHtml = '';
+  // Build info cards (P0/P1: 2×2 grid + full-width; P2: compact)
+  let infoCardsHtml = '';
   if (!isP2) {
-    const fields = [
+    const gridFields = [
       { icon: '✈️', label: '影响机场', value: event.affectedAirports ? event.affectedAirports.join(', ') : '-' },
       { icon: '🔀', label: '影响航线', value: event.affectedRoutes ? (Array.isArray(event.affectedRoutes) ? event.affectedRoutes.join(', ') : event.affectedRoutes) : '-' },
       { icon: '🏢', label: '涉及航司', value: event.affectedAirlines ? event.affectedAirlines.join(', ') : '-' },
-      { icon: '👥', label: '旅客估算', value: event.estimatedPassengers || '-' },
+      { icon: '👥', label: '旅客估算', value: event.estimatedPassengers || '-' }
+    ];
+    const fullFields = [
       { icon: '⏱️', label: '持续时间', value: event.duration || '-' },
       { icon: '📋', label: 'OTA建议', value: event.action || '-' }
     ];
-    fieldsHtml = `
-      <div class="modal-fields">
-        ${fields.map(f => `
-          <div class="modal-field">
-            <span class="modal-field-icon">${f.icon}</span>
-            <span class="modal-field-label">${f.label}：</span>
-            <span class="modal-field-value">${f.value}</span>
+
+    infoCardsHtml = `
+      <div class="modal-info-grid">
+        ${gridFields.map(f => `
+          <div class="modal-info-card">
+            <div class="modal-info-icon">${f.icon}</div>
+            <div class="modal-info-content">
+              <div class="modal-info-label">${f.label}</div>
+              <div class="modal-info-value">${f.value}</div>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+      <div class="modal-info-full">
+        ${fullFields.map(f => `
+          <div class="modal-info-card">
+            <div class="modal-info-icon">${f.icon}</div>
+            <div class="modal-info-content">
+              <div class="modal-info-label">${f.label}</div>
+              <div class="modal-info-value">${f.value}</div>
+            </div>
           </div>
         `).join('')}
       </div>
     `;
   }
 
-  // Build 5 detail sections
+  // Build 5 detail sections with blue vertical line
   const detailSections = [
-    { icon: '🎯', label: '起因', value: event.cause || null },
-    { icon: '🔍', label: '原因', value: event.reason || null },
-    { icon: '🌐', label: '影响面', value: event.impact || null },
-    { icon: '📡', label: '当前进展', value: event.currentStatus || null },
-    { icon: '⚠️', label: 'OTA影响', value: event.otaImpact || null }
+    { label: '起因', value: event.cause || null },
+    { label: '原因', value: event.reason || null },
+    { label: '影响面', value: event.impact || null },
+    { label: '当前进展', value: event.currentStatus || null },
+    { label: 'OTA影响', value: event.otaImpact || null }
   ];
-  const detailHtml = detailSections.filter(s => s.value).map(s => `
-    <div class="modal-detail-section">
-      <span class="modal-detail-section-icon">${s.icon}</span>
-      <span class="modal-detail-section-label">【${s.label}】</span>
-      <span class="modal-detail-section-value">${s.value}</span>
+  const filteredDetails = detailSections.filter(s => s.value);
+  const detailHtml = filteredDetails.map(s => `
+    <div class="modal-detail-block">
+      <div class="modal-detail-header">【${s.label}】</div>
+      <div class="modal-detail-body">${s.value}</div>
     </div>
   `).join('');
 
+  // If no structured fields, try description sections
+  const hasDetailContent = filteredDetails.length > 0 || descHtml;
+
   body.innerHTML = `
     <div class="modal-event-header">
-      <span class="event-priority ${priorityClass} modal-priority">${event.priority} ${priorityLabels[priorityClass] || ''}</span>
-      <span class="modal-category">${getCategoryIcon(mappedCat)} ${mappedCat}${category !== mappedCat ? ` · ${category}` : ''}</span>
+      <div class="modal-header-left">
+        <span class="modal-priority-circle" style="background:${pBg};color:${pColor};border:1.5px solid ${pColor}">${event.priority}</span>
+        <span class="modal-priority-tag" style="background:${pBg};color:${pColor}">${priorityLabels[event.priority] || ''}</span>
+        <span class="modal-category-tag">${getCategoryIcon(mappedCat)} ${mappedCat}</span>
+      </div>
+      <button class="modal-close" onclick="closeEventModal()">✕</button>
     </div>
     <h2 class="modal-title">${event.title}</h2>
     ${event.summary ? `<div class="modal-summary">${event.summary}</div>` : ''}
     ${dateLabel}
 
-    ${fieldsHtml}
+    ${infoCardsHtml}
 
-    ${detailHtml ? `
-      <div class="modal-divider"></div>
-      <div class="modal-detail-sections">
+    ${hasDetailContent ? `
+      <div class="modal-detail-divider"></div>
+      <div class="modal-detail-area">
         ${detailHtml}
+        ${descHtml}
       </div>
-    ` : ''}
-
-    ${(!isP2 && descHtml) ? `
-      <div class="modal-divider"></div>
-      <div class="modal-description">${descHtml}</div>
     ` : ''}
 
     ${sourcesHtml}
