@@ -2,13 +2,13 @@
   "date": "2026-06-24",
   "reportDate": "2026-06-24",
   "period": "afternoon",
-  "generated_at": "2026-06-24T16:04:00+08:00",
+  "generated_at": "2026-06-24T16:05:00+08:00",
   "summary": {
     "p0_count": 0,
     "p1_count": 2,
-    "p2_count": 3,
-    "total": 5,
-    "flight_anomaly_groups": 7,
+    "p2_count": 2,
+    "total": 4,
+    "flight_anomaly_groups": 14,
     "cancelled_flights": 35
   },
   "events": [
@@ -17,31 +17,31 @@
       "priority": "P1",
       "level": "orange",
       "category": "航空安全",
-      "title": "EASA对空客A380发紧急适航指令，5架阿联酋A380停飞检查",
+      "title": "EASA紧急适航指令：5架阿联酋A380停检，跨洲运力承压",
       "date": "2026-06-24",
-      "description": "EASA对空客A380发布紧急适航指令，16架须检查机翼结构梁裂纹，5架(均为阿联酋航空)立即停飞检查，11架限25飞行周期内完成。阿联酋航空15架+澳洲航空1架受影响，DXB跨洲A380航线运力下降。",
-      "affectedAirports": "DXB（迪拜）",
-      "affectedRoutes": "DXB→LHR/SYD等A380跨洲航线运力下降",
-      "affectedAirlines": "阿联酋航空(15架)/澳洲航空(1架)",
-      "estimatedPassengers": "约1.5万人/日受影响",
-      "duration": "待EASA与空客评估",
-      "otaSuggestion": "①核查DXB出发A380航班退改 ②关注换机型通知 ③备选航司推荐",
-      "cause": "EASA对A380机翼结构梁裂纹发紧急适航指令",
-      "reason": "机翼结构梁检测发现裂纹隐患",
-      "impact": "16架须检，5架立即停飞，11架限25周期内完成，主要影响阿联酋航空",
-      "currentStatus": "5架阿联酋A380停飞检查中，空客配合评估维修方案",
-      "otaImpact": "DXB跨洲航线可能出现航班取消或换机型，关注后续是否波及更多批次",
+      "description": "EASA对空客A380发布紧急适航指令，16架须检查机翼结构梁裂纹，5架(均为阿联酋航空)立即停飞检查，11架限25飞行周期内完成。阿联酋航空15架+澳洲航空1架受影响，DXB跨洲A380航线运力压缩。",
+      "affectedAirports": "DXB（1枢纽）",
+      "affectedRoutes": "DXB-LHR/SYD/SIN等A380跨洲航线运力压缩",
+      "affectedAirlines": "阿联酋航空EK(15架)/澳洲航空QF(1架)",
+      "estimatedPassengers": "约2500-5000人/日",
+      "duration": "6/24起，待EASA评估维修方案",
+      "otaSuggestion": "①关注EK-A380航班变更 ②预留替代航线方案 ③监控是否扩大停检范围",
+      "cause": "EASA对16架A380发紧急适航指令，5架立即停检",
+      "reason": "例行维护发现机翼结构梁裂纹，该部件为核心承重结构",
+      "impact": "15架属EK、1架属QF，5架停检全为EK机队",
+      "currentStatus": "空客与EASA评估维修方案，检查6/24启动",
+      "otaImpact": "EK运营全球超半数A380，检查期运力压缩可能致座位紧张",
       "fields": {
-        "影响机场": "✈️ DXB（迪拜）",
-        "影响航线": "🔀 DXB→LHR/SYD等A380跨洲航线运力下降",
-        "涉及航司": "🏢 阿联酋航空(15架)/澳洲航空(1架)",
-        "旅客估算": "👥 约1.5万人/日受影响",
-        "持续时间": "⏱️ 待EASA与空客评估",
-        "OTA建议": "📋 ①核查DXB出发A380航班退改 ②关注换机型通知 ③备选航司推荐"
+        "影响机场": "✈️ DXB（1枢纽）",
+        "影响航线": "🔀 DXB-LHR/SYD/SIN等A380跨洲航线运力压缩",
+        "涉及航司": "🏢 阿联酋航空EK(15架)/澳洲航空QF(1架)",
+        "旅客估算": "👥 约2500-5000人/日",
+        "持续时间": "⏱️ 6/24起，待EASA评估维修方案",
+        "OTA建议": "📋 ①关注EK-A380航班变更 ②预留替代航线方案 ③监控是否扩大停检范围"
       },
       "sources": [
         {
-          "name": "[1] EASA对空客A380发紧急适航指令 - IT之家/法新社",
+          "name": "[1] 机翼再现裂纹，空客将对A380客机展开紧急检查 - IT之家/法新社",
           "url": "https://www.ithome.com/0/967/926.htm"
         },
         {
@@ -55,27 +55,27 @@
       "priority": "P1",
       "level": "orange",
       "category": "中东局势",
-      "title": "霍尔木兹海峡通航恢复+伊朗领空四阶段重开",
+      "title": "海峡通行量强势反弹+伊朗空域四阶段重开，中东局势持续缓和",
       "date": "2026-06-24",
-      "description": "海峡6/22通行量达冲突以来最高36艘(战前1/3)；EASA伊朗领空警告6/24到期，伊朗民航宣布领空四阶段重开；鲁比奥出访反对海峡通行费。IKA/THR仍关闭(Day 10)。",
+      "description": "海峡6/22通行量达冲突以来最高36艘(战前1/3)；Iran 6/24宣布领空四阶段重开；EASA冲突区警告6/24到期(审慎观望)；Rubio表态反对国际水道通行费。IKA/THR仍关闭(Day 10)。",
       "affectedAirports": "IKA/THR（关闭中Day 10）/ DXB/AUH/DOH/BAH（运营正常）",
-      "affectedRoutes": "波斯湾航运航线（恢复中）/ 伊朗空域过境航线（绕飞10天+）",
-      "affectedAirlines": "IR/W5（全线停飞）/ EK/QR/EY/FZ（运营压力缓解）",
+      "affectedRoutes": "EU-Asia过境航线绕飞10天+ / 波斯湾航运恢复至战前1/3",
+      "affectedAirlines": "IR/W5（停飞）/ EK/QR/EY/FZ（承压缓解）",
       "estimatedPassengers": "约1.5-3万人/周",
-      "duration": "IKA/THR关闭6/15至今(Day 10)；海峡60天免费开放6/23起",
-      "otaSuggestion": "①监控EASA伊朗领空重开进展 ②关注海峡日通行量 ③核查海湾航司复航计划",
-      "cause": "IMO 6/23宣布启动海峡滞留船员疏散，1.1万被困船员将安全撤离",
-      "reason": "伊美60天路线图+海峡热线已建立，IMO确认安全保障条件，伊朗正式确认60天免费开放",
-      "impact": "海峡通行量仍远低于战前水平，但多国正式背书安全条件，区域航运恢复信号明确",
-      "currentStatus": "海峡通行量恢复至战前1/3(36艘/日)；EASA伊朗领空警告6/24到期；伊朗公布四阶段领空重开计划；鲁比奥6/23-25出访海湾三国",
-      "otaImpact": "海湾-欧洲航线有望逐步恢复，关注EASA空域评级更新及海湾航司复航公告",
+      "duration": "IKA/THR关闭6/15至今 / 伊朗空域四阶段重开6/24宣布",
+      "otaSuggestion": "①监控EASA空域评级更新 ②关注Iran空域重开阶段表 ③核查海湾航司复航计划",
+      "cause": "Iran 6/24宣布领空四阶段重开，EASA冲突区警告同日到期",
+      "reason": "海峡6/22通行36艘达战以来峰值，伊美协调热线运行，Rubio表态反对通行费",
+      "impact": "海峡通行恢复至战前1/3，Iran空域仍关闭待分阶段重开",
+      "currentStatus": "Iran四阶段重开计划公布+EASA审慎观望+Rubio反对国际水道通行费",
+      "otaImpact": "空域重开将缩短EU-Asia航线，关注EK/QR复航节奏",
       "fields": {
-        "影响机场": "✈️ IKA/THR(关闭中Day10)/ DXB/AUH/DOH/BAH(运营正常)",
-        "影响航线": "🔀 波斯湾航运航线（恢复中）/ 伊朗空域过境航线（绕飞10天+）",
-        "涉及航司": "🏢 IR/W5（全线停飞）/ EK/QR/EY/FZ（运营压力缓解）",
+        "影响机场": "✈️ IKA/THR（关闭中Day 10）/ DXB/AUH/DOH/BAH（运营正常）",
+        "影响航线": "🔀 EU-Asia过境航线绕飞10天+ / 波斯湾航运恢复至战前1/3",
+        "涉及航司": "🏢 IR/W5（停飞）/ EK/QR/EY/FZ（承压缓解）",
         "旅客估算": "👥 约1.5-3万人/周",
-        "持续时间": "⏱️ IKA/THR关闭6/15至今(Day 10)；海峡60天免费开放6/23起",
-        "OTA建议": "📋 ①监控EASA伊朗领空重开进展 ②关注海峡日通行量 ③核查海湾航司复航计划"
+        "持续时间": "⏱️ IKA/THR关闭6/15至今 / 伊朗空域四阶段重开6/24宣布",
+        "OTA建议": "📋 ①监控EASA空域评级更新 ②关注Iran空域重开阶段表 ③核查海湾航司复航计划"
       },
       "sources": [
         {
@@ -83,7 +83,7 @@
           "url": "https://www.reuters.com/world/middle-east/iran-aviation-authority-says-airspace-reopen-four-phases-2026-06-24/"
         },
         {
-          "name": "[2] 霍尔木兹海峡通行量达冲突以来最高 - 央视新闻",
+          "name": "[2] 霍尔木兹海峡通行量达冲突以来最高 - 央视新闻/国际在线",
           "url": "https://news.cri.cn/2026-06-23/22ad2ead-5880-4e54-ad75-83de8a2839ad.html"
         }
       ]
@@ -95,50 +95,30 @@
       "category": "中东局势",
       "title": "伊朗7月6日德黑兰机场全面暂停旅客运输",
       "date": "2026-06-24",
-      "description": "伊朗7月6日德黑兰机场全面暂停旅客运输（哈梅内伊葬礼当日），7/4-5有限容量，7/7-9持续受限",
+      "description": "伊朗7/6德黑兰机场全面暂停旅客运输（哈梅内伊葬礼），7/4-5有限容量/7/7-9持续受限，需关注NOTAM豁免范围",
       "affectedAirports": "IKA/THR",
       "affectedRoutes": "伊朗国内及国际航线",
       "affectedAirlines": "IR/W5等伊朗航司",
       "estimatedPassengers": "待定",
       "duration": "7/4-9",
-      "otaSuggestion": "关注NOTAM公告",
+      "otaSuggestion": "关注NOTAM豁免公告",
       "cause": "哈梅内伊葬礼日7/6德黑兰机场暂停旅客运输",
-      "reason": "伊朗政府安排国葬仪式",
+      "reason": "",
       "impact": "IKA/THR本已关闭(6/15起)，此为延长关闭+明确时间表",
-      "currentStatus": "NOTAM豁免范围待公布",
-      "otaImpact": "IKA/THR航线持续暂停，关注豁免范围",
+      "currentStatus": "",
+      "otaImpact": "",
       "fields": {
         "影响机场": "✈️ IKA/THR",
         "影响航线": "🔀 伊朗国内及国际航线",
         "涉及航司": "🏢 IR/W5等伊朗航司",
         "旅客估算": "👥 待定",
         "持续时间": "⏱️ 7/4-9",
-        "OTA建议": "📋 关注NOTAM公告"
+        "OTA建议": "📋 关注NOTAM豁免公告"
       },
       "sources": [
         {
-          "name": "[1] 国际海事组织宣布启动霍尔木兹海峡滞留海员疏散计划 - 新华网",
-          "url": "http://www.xinhuanet.com/20250623/f81e24c9c1fd488087e563c56d6f2b1f/c.html"
-        },
-        {
-          "name": "[2] 1.1万人困在霍尔木兹，联合国启动大撤离 - 网易新闻",
-          "url": "http://m.163.com/dy/article/L060HM940556DKW9.html"
-        },
-        {
-          "name": "[3] 伊朗代表:霍尔木兹海峡已免费开放 - 中国经济网",
-          "url": "http://intl.ce.cn/qqss/202606/t20260624_3048396.shtml"
-        },
-        {
-          "name": "[4] 伊朗代表：霍尔木兹海峡已免费开放 - 央视新闻",
-          "url": "https://news.cctv.com/2026/06/24/ARTImKtpKNZeokoiv5vcCXci260623.shtml"
-        },
-        {
-          "name": "[5] 伊朗代表：霍尔木兹海峡已免费开放 - 央视网视频",
-          "url": "https://tv.cctv.cn/2026/06/24/VIDErERHMbR3zotXN05ZCgwK260624.shtml"
-        },
-        {
-          "name": "[6] 伊朗代表：霍尔木兹海峡已免费开放 - 光明日报",
-          "url": "https://m.gmw.cn/2026-06/24/content_1304507446.htm"
+          "name": "[1] 伊朗将在已故最高领袖葬礼期间实施航班管制 - 央视新闻",
+          "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=11287228597242930689"
         }
       ]
     },
@@ -147,9 +127,9 @@
       "priority": "P2",
       "level": "yellow",
       "category": "中东局势",
-      "title": "鲁比奥6/23-25出访海湾三国磋商海峡通航安全",
+      "title": "鲁比奥出访海湾三国，表态反对国际水道通行费",
       "date": "2026-06-24",
-      "description": "美国务卿鲁比奥6/23-25出访阿联酋/科威特/巴林，磋商霍尔木兹海峡通航安全，关注联合声明影响航线稳定预期",
+      "description": "鲁比奥6/23-25出访阿联酋/科威特/巴林，表态反对国际水道通行费+将与黎巴嫩政府直接接触，属外交动向暂无直接影响",
       "affectedAirports": "暂无直接影响",
       "affectedRoutes": "海湾航线稳定性预期",
       "affectedAirlines": "海湾航司",
@@ -157,10 +137,10 @@
       "duration": "6/23-25",
       "otaSuggestion": "关注联合声明",
       "cause": "鲁比奥6/23-25出访海湾三国磋商海峡通航安全",
-      "reason": "推动海峡恢复正常通行",
+      "reason": "",
       "impact": "联合声明将影响海湾航线恢复时间线预期",
-      "currentStatus": "访问进行中(第二天)，尚无联合声明",
-      "otaImpact": "联合声明将直接影响海湾航线恢复节奏",
+      "currentStatus": "",
+      "otaImpact": "",
       "fields": {
         "影响机场": "✈️ 暂无直接影响",
         "影响航线": "🔀 海湾航线稳定性预期",
@@ -171,154 +151,155 @@
       },
       "sources": [
         {
-          "name": "[1] 国际海事组织宣布启动霍尔木兹海峡滞留海员疏散计划 - 新华网",
-          "url": "http://www.xinhuanet.com/20250623/f81e24c9c1fd488087e563c56d6f2b1f/c.html"
+          "name": "[1] 鲁比奥强硬划线：黎巴嫩谈判不靠伊朗 - 腾讯新闻",
+          "url": "http://news.qq.com/rain/a/20260624A01UZB00"
         },
         {
-          "name": "[2] 1.1万人困在霍尔木兹，联合国启动大撤离 - 网易新闻",
-          "url": "http://m.163.com/dy/article/L060HM940556DKW9.html"
-        },
-        {
-          "name": "[3] 伊朗代表:霍尔木兹海峡已免费开放 - 中国经济网",
-          "url": "http://intl.ce.cn/qqss/202606/t20260624_3048396.shtml"
-        },
-        {
-          "name": "[4] 伊朗代表：霍尔木兹海峡已免费开放 - 央视新闻",
-          "url": "https://news.cctv.com/2026/06/24/ARTImKtpKNZeokoiv5vcCXci260623.shtml"
-        },
-        {
-          "name": "[5] 伊朗代表：霍尔木兹海峡已免费开放 - 央视网视频",
-          "url": "https://tv.cctv.cn/2026/06/24/VIDErERHMbR3zotXN05ZCgwK260624.shtml"
-        },
-        {
-          "name": "[6] 伊朗代表：霍尔木兹海峡已免费开放 - 光明日报",
-          "url": "https://m.gmw.cn/2026-06/24/content_1304507446.htm"
-        }
-      ]
-    },
-    {
-      "id": "P2-ME003",
-      "priority": "P2",
-      "level": "yellow",
-      "category": "中东局势",
-      "title": "EASA伊朗领空警告到期+伊朗公布四阶段领空重开计划",
-      "date": "2026-06-24",
-      "description": "EASA对伊朗领空冲突区警告6/24到期，伊朗民航同步宣布领空四阶段重开计划，趋势缓和但短期仍有限制",
-      "affectedAirports": "THR/IKA",
-      "affectedRoutes": "伊朗空域过境航线",
-      "affectedAirlines": "欧洲航司过境伊朗空域",
-      "estimatedPassengers": "待评估",
-      "duration": "四阶段重开时间表待公布",
-      "otaSuggestion": "关注EASA空域评级更新",
-      "cause": "EASA伊朗领空冲突区警告6/24到期",
-      "reason": "伊美60天路线图推进，伊朗主动公布领空重开计划",
-      "impact": "跨欧亚航线有望恢复伊朗空域过境，降低绕飞成本",
-      "currentStatus": "EASA审慎观望中，尚未更新空域安全评级",
-      "otaImpact": "欧洲-亚洲航线绕飞成本有望降低，但需EASA正式更新评级",
-      "fields": {
-        "影响机场": "✈️ THR/IKA",
-        "影响航线": "🔀 伊朗空域过境航线",
-        "涉及航司": "🏢 欧洲航司过境伊朗空域",
-        "旅客估算": "👥 待评估",
-        "持续时间": "⏱️ 四阶段重开时间表待公布",
-        "OTA建议": "📋 关注EASA空域评级更新"
-      },
-      "sources": [
-        {
-          "name": "[1] 伊朗民航组织宣布领空四阶段重开 - 路透社",
-          "url": "https://www.reuters.com/world/middle-east/iran-aviation-authority-says-airspace-reopen-four-phases-2026-06-24/"
-        },
-        {
-          "name": "[2] EASA伊朗领空警告到期 - 新浪财经",
-          "url": "http://finance.sina.cn/7x24/2026-06-24/detail-inienxzt8214693.d.html"
+          "name": "[2] 美国国务卿鲁比奥将访问阿联酋/科威特/巴林 - 中国新闻网",
+          "url": "https://m.chinanews.com/wap/detail/chs/zw/10645330.shtml"
         }
       ]
     }
   ],
   "flight_anomalies": {
     "source": "airlabs",
-    "generated_at": "2026-06-24T15:30:00+08:00",
+    "generated_at": "2026-06-24T15:02:00+08:00",
     "total_cancelled": 35,
-    "physical_flights": 15,
+    "physical_flights": 14,
     "groups": [
       {
-        "route": "MAD→BOG",
-        "description": "马德里→波哥大 6个代码共享取消",
+        "route": "AMS→FCO",
+        "description": "阿姆斯特丹→罗马 4个代码共享取消",
         "flights": [
-          "LA1602",
-          "BA4233",
-          "PC7755",
-          "IB155",
-          "QR5098",
-          "AY5389"
+          "DL9579",
+          "GF5205",
+          "KL1601",
+          "MF9395"
         ],
-        "estimated_passengers": "300-500"
+        "estimated_passengers": "300"
       },
       {
-        "route": "BOM→MUC",
-        "description": "孟买→慕尼黑 4个代码共享取消",
+        "route": "FCO→ATH",
+        "description": "罗马→雅典 5个代码共享取消",
         "flights": [
-          "AC9585",
-          "AZ4817",
-          "AI8765",
-          "LH767"
+          "AZ720",
+          "EY2806",
+          "AR7232",
+          "ET4393",
+          "SV6735"
         ],
-        "estimated_passengers": "250-350"
+        "estimated_passengers": "250"
       },
       {
-        "route": "JNB→NBO",
-        "description": "约翰内斯堡→内罗毕 4个代码共享取消",
+        "route": "FCO→MUC",
+        "description": "罗马→慕尼黑 5个代码共享取消",
         "flights": [
-          "SV6956",
-          "KQ765",
-          "SA7120",
-          "AT9104"
+          "UA7745",
+          "ET4054",
+          "EY2928",
+          "AZ432",
+          "LH5097"
         ],
-        "estimated_passengers": "200-300"
-      },
-      {
-        "route": "IST出港",
-        "description": "土耳其航空4架次取消",
-        "flights": [
-          "TK609",
-          "TK2042",
-          "TK2572",
-          "TK719"
-        ],
-        "estimated_passengers": "400-500"
-      },
-      {
-        "route": "PEK国内",
-        "description": "北京出港6架次取消(4条航线)",
-        "flights": [
-          "HU6213",
-          "CN7127",
-          "HU7127",
-          "HU7105",
-          "HX1105",
-          "CA9659"
-        ],
-        "estimated_passengers": "600-800"
-      },
-      {
-        "route": "CAN/SZX国内",
-        "description": "广深出港3架次取消",
-        "flights": [
-          "AQ1041",
-          "HU7431",
-          "HU7751"
-        ],
-        "estimated_passengers": "300-400"
+        "estimated_passengers": "300"
       },
       {
         "route": "FCO→ADD",
-        "description": "罗马→亚的斯亚贝巴 1架次取消",
+        "description": "罗马→亚的斯亚贝巴 取消",
         "flights": [
           "ET717"
         ],
-        "estimated_passengers": "200-300"
+        "estimated_passengers": "200"
+      },
+      {
+        "route": "JFK→DUB",
+        "description": "纽约→都柏林 3个代码共享取消",
+        "flights": [
+          "DL44",
+          "KL6192",
+          "AF3562"
+        ],
+        "estimated_passengers": "200"
+      },
+      {
+        "route": "MEL→LST",
+        "description": "墨尔本→朗塞斯顿 5个代码共享取消",
+        "flights": [
+          "CX9047",
+          "EK5366",
+          "NZ7635",
+          "QF2095",
+          "MU4139"
+        ],
+        "estimated_passengers": "250"
+      },
+      {
+        "route": "CTU→CAN",
+        "description": "成都→广州 2个代码共享取消",
+        "flights": [
+          "ZH4399",
+          "CA4301"
+        ],
+        "estimated_passengers": "200"
+      },
+      {
+        "route": "CTU→PEK",
+        "description": "成都→北京 2个代码共享取消",
+        "flights": [
+          "ZH4319",
+          "CA4109"
+        ],
+        "estimated_passengers": "200"
+      },
+      {
+        "route": "PEK→KHG",
+        "description": "北京→喀什 2个代码共享取消",
+        "flights": [
+          "CA1249",
+          "ZH1249"
+        ],
+        "estimated_passengers": "200"
+      },
+      {
+        "route": "AMS→IST",
+        "description": "阿姆斯特丹→伊斯坦布尔 取消",
+        "flights": [
+          "TK1950"
+        ],
+        "estimated_passengers": "250"
+      },
+      {
+        "route": "PEK→SYX",
+        "description": "北京→三亚 取消",
+        "flights": [
+          "HU7279"
+        ],
+        "estimated_passengers": "200"
+      },
+      {
+        "route": "HKG→DFW",
+        "description": "香港→达拉斯 取消",
+        "flights": [
+          "AA9700"
+        ],
+        "estimated_passengers": "250"
+      },
+      {
+        "route": "BOM→IXJ",
+        "description": "孟买→查谟 取消",
+        "flights": [
+          "SG488"
+        ],
+        "estimated_passengers": "150"
+      },
+      {
+        "route": "RUH→WAE",
+        "description": "利雅得→瓦迪达瓦西尔 取消",
+        "flights": [
+          "SV1929"
+        ],
+        "estimated_passengers": "100"
       }
     ],
-    "note": "散点取消，无集中风险，维持常规监控"
+    "note": "散点取消，FCO集群为代码共享集中取消，无系统性风险，维持常规监控"
   }
 }

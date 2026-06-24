@@ -1,6 +1,42 @@
 {
   "reports": [
     {
+      "date": "2026-06-24",
+      "period": "afternoon",
+      "generated_at": "2026-06-24T16:05:00+08:00",
+      "p0_count": 0,
+      "p1_count": 2,
+      "p2_count": 2,
+      "total_events": 4,
+      "cancelled_flights": 35,
+      "events_summary": [
+        {
+          "id": "P1-AS001",
+          "priority": "P1",
+          "category": "航空安全",
+          "title": "EASA紧急适航指令：5架阿联酋A380停检"
+        },
+        {
+          "id": "P1-ME001",
+          "priority": "P1",
+          "category": "中东局势",
+          "title": "海峡通行量反弹+伊朗空域四阶段重开"
+        },
+        {
+          "id": "P2-ME001",
+          "priority": "P2",
+          "category": "中东局势",
+          "title": "伊朗7/6德黑兰机场全面暂停旅客运输"
+        },
+        {
+          "id": "P2-ME002",
+          "priority": "P2",
+          "category": "中东局势",
+          "title": "鲁比奥出访海湾三国"
+        }
+      ]
+    },
+    {
       "date": "2026-06-22",
       "period": "afternoon",
       "generated_at": "2026-06-22T16:40:00+08:00",
