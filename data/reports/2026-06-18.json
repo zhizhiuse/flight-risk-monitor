@@ -46,7 +46,8 @@
           "title": "中央气象台(暴雨黄色预警)",
           "url": "http://www.nmc.cn/"
         }
-      ]
+      ],
+      "priority": "P0"
     },
     {
       "id": "2026-06-18-P2-001",
@@ -76,7 +77,8 @@
           "title": "中新网",
           "url": "https://m.chinanews.com.cn/wap/detail/chs/zw/10641907.shtml"
         }
-      ]
+      ],
+      "priority": "P2"
     },
     {
       "id": "2026-06-18-P2-002",
@@ -106,7 +108,8 @@
           "title": "深圳新闻网",
           "url": "http://www.sznews.com/news/content/mb/2026-06/17/content_32093534.htm"
         }
-      ]
+      ],
+      "priority": "P2"
     },
     {
       "id": "2026-06-18-P2-003",
@@ -136,7 +139,8 @@
           "title": "搜狐/贵州省地震局",
           "url": "https://m.sohu.com/a/1038110163_121106902/"
         }
-      ]
+      ],
+      "priority": "P2"
     }
   ],
   "flight_anomalies": [

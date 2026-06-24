@@ -56,7 +56,8 @@
           "name": "[6] Ryanair Delays Return of 17 Jordan Routes Until October Amid Regional Uncertainty - BoltFlight",
           "url": "https://boltflight.com/ryanair-delays-return-of-17-jordan-routes-until-october-amid-regional-uncertainty/"
         }
-      ]
+      ],
+      "priority": "P0"
     },
     {
       "id": "2026-06-16-P0-002",
@@ -109,7 +110,8 @@
           "name": "[6] 暴雨橙色预警：广东等4省区局地有特大暴雨 京津冀等地有大到暴雨 - 中国天气网",
           "url": "https://wap.weather.com.cn/news/2026/06/4677037.shtml"
         }
-      ]
+      ],
+      "priority": "P0"
     },
     {
       "id": "2026-06-16-P1-001",
@@ -168,7 +170,8 @@
           "name": "[6] Ryanair Delays Return of 17 Jordan Routes Until October Amid Regional Uncertainty - BoltFlight",
           "url": "https://boltflight.com/ryanair-delays-return-of-17-jordan-routes-until-october-amid-regional-uncertainty/"
         }
-      ]
+      ],
+      "priority": "P1"
     },
     {
       "id": "2026-06-16-P1-002",
@@ -231,7 +234,8 @@
           "name": "[6] 暴雨橙色预警：广东等4省区局地有特大暴雨 京津冀等地有大到暴雨 - 中国天气网",
           "url": "https://wap.weather.com.cn/news/2026/06/4677037.shtml"
         }
-      ]
+      ],
+      "priority": "P1"
     },
     {
       "id": "2026-06-16-P2-001",
@@ -268,7 +272,8 @@
           "name": "[3] Une concertation pourrait mettre un terme à la grève spontanée chez Aviapartner - BX1",
           "url": "https://bx1.be/categories/economie/une-concertation-pourrait-mettre-un-terme-a-la-greve-spontanee-chez-aviapartner/"
         }
-      ]
+      ],
+      "priority": "P2"
     },
     {
       "id": "2026-06-16-P2-002",
@@ -304,7 +309,8 @@
           "name": "[3] Une concertation pourrait mettre un terme à la grève spontanée chez Aviapartner - BX1",
           "url": "https://bx1.be/categories/economie/une-concertation-pourrait-mettre-un-terme-a-la-greve-spontanee-chez-aviapartner/"
         }
-      ]
+      ],
+      "priority": "P2"
     },
     {
       "id": "2026-06-16-P2-003",
@@ -345,7 +351,8 @@
           "name": "[5] Cape Air Plane Shoots Past Provincetown Runway - Hoodline",
           "url": "https://hoodline.com/2026/06/cape-air-plane-shoots-past-provincetown-runway-rattles-quiet-morning-on-the-tip-of-the-cape/"
         }
-      ]
+      ],
+      "priority": "P2"
     }
   ],
   "flightAnomalies": [

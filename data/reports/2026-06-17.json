@@ -46,7 +46,8 @@
           "name": "[3] 深圳发布暴雨红色预警！全市下午停课 - 光明网",
           "url": "https://m.gmw.cn/2026-06/16/content_1304498402.htm"
         }
-      ]
+      ],
+      "priority": "P1"
     },
     {
       "id": "2026-06-17-P1-002",
@@ -80,7 +81,8 @@
           "name": "[3] Airlines Suspend Routes to Uganda Amid Ebola - Azat TV",
           "url": "https://azat.tv/en/airlines-suspend-routes-uganda-ebola/"
         }
-      ]
+      ],
+      "priority": "P1"
     },
     {
       "id": "2026-06-17-P1-003",
@@ -122,7 +124,8 @@
           "name": "[4] 受中东局势影响 德国汉莎航空计划继续削减航线网络 - 东方财富网",
           "url": "https://finance.eastmoney.com/a/202606173774503150.html"
         }
-      ]
+      ],
+      "priority": "P1"
     },
     {
       "id": "2026-06-17-P2-001",
@@ -156,7 +159,8 @@
           "name": "[3] EasyJet A320 cleared Luton runway at 65 feet - AirTraveler",
           "url": "https://www.airtraveler.club/news/easyjet-luton-wrong-takeoff-data/"
         }
-      ]
+      ],
+      "priority": "P2"
     },
     {
       "id": "2026-06-17-P2-002",
@@ -189,7 +193,8 @@
           "name": "[3] VAAC Advisory 2026-130 - VolcanoDiscovery",
           "url": "https://www.volcanodiscovery.com/es/lewotobi/news/307187/vaac-advisory-2026-130.html"
         }
-      ]
+      ],
+      "priority": "P2"
     },
     {
       "id": "2026-06-17-P2-ME001",
@@ -223,7 +228,8 @@
           "name": "[3] شركة طيران الشرق الأوسط - Safir Alchamal",
           "url": "https://safiralchamal.com/2026/06/15/704300/"
         }
-      ]
+      ],
+      "priority": "P2"
     }
   ]
 }
