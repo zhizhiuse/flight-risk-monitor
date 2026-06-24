@@ -76,7 +76,33 @@
         "旅客估算": "👥 待定",
         "持续时间": "⏱️ 7/4-9",
         "OTA建议": "📋 关注NOTAM公告"
-      }
+      },
+      "sources": [
+        {
+          "name": "[1] 国际海事组织宣布启动霍尔木兹海峡滞留海员疏散计划 - 新华网",
+          "url": "http://www.xinhuanet.com/20250623/f81e24c9c1fd488087e563c56d6f2b1f/c.html"
+        },
+        {
+          "name": "[2] 1.1万人困在霍尔木兹，联合国启动大撤离 - 网易新闻",
+          "url": "http://m.163.com/dy/article/L060HM940556DKW9.html"
+        },
+        {
+          "name": "[3] 伊朗代表:霍尔木兹海峡已免费开放 - 中国经济网",
+          "url": "http://intl.ce.cn/qqss/202606/t20260624_3048396.shtml"
+        },
+        {
+          "name": "[4] 伊朗代表：霍尔木兹海峡已免费开放 - 央视新闻",
+          "url": "https://news.cctv.com/2026/06/24/ARTImKtpKNZeokoiv5vcCXci260623.shtml"
+        },
+        {
+          "name": "[5] 伊朗代表：霍尔木兹海峡已免费开放 - 央视网视频",
+          "url": "https://tv.cctv.cn/2026/06/24/VIDErERHMbR3zotXN05ZCgwK260624.shtml"
+        },
+        {
+          "name": "[6] 伊朗代表：霍尔木兹海峡已免费开放 - 光明日报",
+          "url": "https://m.gmw.cn/2026-06/24/content_1304507446.htm"
+        }
+      ]
     },
     {
       "id": "P2-ME002",
@@ -104,7 +130,33 @@
         "旅客估算": "👥 无直接影响",
         "持续时间": "⏱️ 6/23-25",
         "OTA建议": "📋 关注联合声明"
-      }
+      },
+      "sources": [
+        {
+          "name": "[1] 国际海事组织宣布启动霍尔木兹海峡滞留海员疏散计划 - 新华网",
+          "url": "http://www.xinhuanet.com/20250623/f81e24c9c1fd488087e563c56d6f2b1f/c.html"
+        },
+        {
+          "name": "[2] 1.1万人困在霍尔木兹，联合国启动大撤离 - 网易新闻",
+          "url": "http://m.163.com/dy/article/L060HM940556DKW9.html"
+        },
+        {
+          "name": "[3] 伊朗代表:霍尔木兹海峡已免费开放 - 中国经济网",
+          "url": "http://intl.ce.cn/qqss/202606/t20260624_3048396.shtml"
+        },
+        {
+          "name": "[4] 伊朗代表：霍尔木兹海峡已免费开放 - 央视新闻",
+          "url": "https://news.cctv.com/2026/06/24/ARTImKtpKNZeokoiv5vcCXci260623.shtml"
+        },
+        {
+          "name": "[5] 伊朗代表：霍尔木兹海峡已免费开放 - 央视网视频",
+          "url": "https://tv.cctv.cn/2026/06/24/VIDErERHMbR3zotXN05ZCgwK260624.shtml"
+        },
+        {
+          "name": "[6] 伊朗代表：霍尔木兹海峡已免费开放 - 光明日报",
+          "url": "https://m.gmw.cn/2026-06/24/content_1304507446.htm"
+        }
+      ]
     }
   ],
   "flight_anomalies": {
