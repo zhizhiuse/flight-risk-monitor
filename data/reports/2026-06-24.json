@@ -1,52 +1,90 @@
 {
   "date": "2026-06-24",
   "reportDate": "2026-06-24",
-  "period": "morning",
-  "generated_at": "2026-06-24T09:04:00+08:00",
+  "period": "afternoon",
+  "generated_at": "2026-06-24T16:04:00+08:00",
   "summary": {
     "p0_count": 0,
-    "p1_count": 1,
-    "p2_count": 2,
-    "total": 3,
+    "p1_count": 2,
+    "p2_count": 3,
+    "total": 5,
     "flight_anomaly_groups": 7,
-    "cancelled_flights": 28
+    "cancelled_flights": 35
   },
   "events": [
+    {
+      "id": "P1-AS001",
+      "priority": "P1",
+      "level": "orange",
+      "category": "航空安全",
+      "title": "EASA对空客A380发紧急适航指令，5架阿联酋A380停飞检查",
+      "date": "2026-06-24",
+      "description": "EASA对空客A380发布紧急适航指令，16架须检查机翼结构梁裂纹，5架(均为阿联酋航空)立即停飞检查，11架限25飞行周期内完成。阿联酋航空15架+澳洲航空1架受影响，DXB跨洲A380航线运力下降。",
+      "affectedAirports": "DXB（迪拜）",
+      "affectedRoutes": "DXB→LHR/SYD等A380跨洲航线运力下降",
+      "affectedAirlines": "阿联酋航空(15架)/澳洲航空(1架)",
+      "estimatedPassengers": "约1.5万人/日受影响",
+      "duration": "待EASA与空客评估",
+      "otaSuggestion": "①核查DXB出发A380航班退改 ②关注换机型通知 ③备选航司推荐",
+      "cause": "EASA对A380机翼结构梁裂纹发紧急适航指令",
+      "reason": "机翼结构梁检测发现裂纹隐患",
+      "impact": "16架须检，5架立即停飞，11架限25周期内完成，主要影响阿联酋航空",
+      "currentStatus": "5架阿联酋A380停飞检查中，空客配合评估维修方案",
+      "otaImpact": "DXB跨洲航线可能出现航班取消或换机型，关注后续是否波及更多批次",
+      "fields": {
+        "影响机场": "✈️ DXB（迪拜）",
+        "影响航线": "🔀 DXB→LHR/SYD等A380跨洲航线运力下降",
+        "涉及航司": "🏢 阿联酋航空(15架)/澳洲航空(1架)",
+        "旅客估算": "👥 约1.5万人/日受影响",
+        "持续时间": "⏱️ 待EASA与空客评估",
+        "OTA建议": "📋 ①核查DXB出发A380航班退改 ②关注换机型通知 ③备选航司推荐"
+      },
+      "sources": [
+        {
+          "name": "[1] EASA对空客A380发紧急适航指令 - IT之家/法新社",
+          "url": "https://www.ithome.com/0/967/926.htm"
+        },
+        {
+          "name": "[2] 16架A380须检查 - 界面新闻/央视新闻",
+          "url": "https://m.jiemian.com/article/14637666.html"
+        }
+      ]
+    },
     {
       "id": "P1-ME001",
       "priority": "P1",
       "level": "orange",
       "category": "中东局势",
-      "title": "霍尔木兹海峡通航恢复：IMO启动疏散+伊朗确认60天免费开放",
+      "title": "霍尔木兹海峡通航恢复+伊朗领空四阶段重开",
       "date": "2026-06-24",
-      "description": "IMO 6/23宣布启动海峡滞留船员疏散（1.1万人）；伊朗确认海峡60天免费开放并建立伊美沟通机制。IKA/THR仍关闭(Day 10)，但通航安全条件获多国正式背书，航运恢复信号明确。",
+      "description": "海峡6/22通行量达冲突以来最高36艘(战前1/3)；EASA伊朗领空警告6/24到期，伊朗民航宣布领空四阶段重开；鲁比奥出访反对海峡通行费。IKA/THR仍关闭(Day 10)。",
       "affectedAirports": "IKA/THR（关闭中Day 10）/ DXB/AUH/DOH/BAH（运营正常）",
       "affectedRoutes": "波斯湾航运航线（恢复中）/ 伊朗空域过境航线（绕飞10天+）",
       "affectedAirlines": "IR/W5（全线停飞）/ EK/QR/EY/FZ（运营压力缓解）",
       "estimatedPassengers": "约1.5-3万人/周",
       "duration": "IKA/THR关闭6/15至今(Day 10)；海峡60天免费开放6/23起",
-      "otaSuggestion": "①继续暂停IKA/THR航线 ②监控海峡日通行量恢复 ③关注海湾航司复航公告",
+      "otaSuggestion": "①监控EASA伊朗领空重开进展 ②关注海峡日通行量 ③核查海湾航司复航计划",
       "cause": "IMO 6/23宣布启动海峡滞留船员疏散，1.1万被困船员将安全撤离",
       "reason": "伊美60天路线图+海峡热线已建立，IMO确认安全保障条件，伊朗正式确认60天免费开放",
       "impact": "海峡通行量仍远低于战前水平，但多国正式背书安全条件，区域航运恢复信号明确",
-      "currentStatus": "IMO疏散启动；伊朗确认60天免费开放；伊美沟通机制建立；俄罗斯禁飞令6/24到期待确认",
-      "otaImpact": "海湾航运逐步恢复将缓解空运替代压力，关注EK/EY/QR后续复航公告",
+      "currentStatus": "海峡通行量恢复至战前1/3(36艘/日)；EASA伊朗领空警告6/24到期；伊朗公布四阶段领空重开计划；鲁比奥6/23-25出访海湾三国",
+      "otaImpact": "海湾-欧洲航线有望逐步恢复，关注EASA空域评级更新及海湾航司复航公告",
       "fields": {
-        "影响机场": "✈️ IKA/THR（关闭中Day 10）/ DXB/AUH/DOH/BAH（运营正常）",
+        "影响机场": "✈️ IKA/THR(关闭中Day10)/ DXB/AUH/DOH/BAH(运营正常)",
         "影响航线": "🔀 波斯湾航运航线（恢复中）/ 伊朗空域过境航线（绕飞10天+）",
         "涉及航司": "🏢 IR/W5（全线停飞）/ EK/QR/EY/FZ（运营压力缓解）",
         "旅客估算": "👥 约1.5-3万人/周",
         "持续时间": "⏱️ IKA/THR关闭6/15至今(Day 10)；海峡60天免费开放6/23起",
-        "OTA建议": "📋 ①继续暂停IKA/THR航线 ②监控海峡日通行量恢复 ③关注海湾航司复航公告"
+        "OTA建议": "📋 ①监控EASA伊朗领空重开进展 ②关注海峡日通行量 ③核查海湾航司复航计划"
       },
       "sources": [
         {
-          "name": "[1] IMO宣布启动霍尔木兹海峡滞留海员疏散计划 - 新华网",
-          "url": "http://www.xinhuanet.com/20250623/f81e24c9c1fd488087e563c56d6f2b1f/c.html"
+          "name": "[1] 伊朗民航组织宣布领空四阶段重开 - 路透社",
+          "url": "https://www.reuters.com/world/middle-east/iran-aviation-authority-says-airspace-reopen-four-phases-2026-06-24/"
         },
         {
-          "name": "[2] 伊朗代表：霍尔木兹海峡已免费开放 - 央视新闻",
-          "url": "https://news.cctv.com/2026/06/24/ARTImKtpKNZeokoiv5vcCXci260623.shtml"
+          "name": "[2] 霍尔木兹海峡通行量达冲突以来最高 - 央视新闻",
+          "url": "https://news.cri.cn/2026-06-23/22ad2ead-5880-4e54-ad75-83de8a2839ad.html"
         }
       ]
     },
@@ -157,12 +195,50 @@
           "url": "https://m.gmw.cn/2026-06/24/content_1304507446.htm"
         }
       ]
+    },
+    {
+      "id": "P2-ME003",
+      "priority": "P2",
+      "level": "yellow",
+      "category": "中东局势",
+      "title": "EASA伊朗领空警告到期+伊朗公布四阶段领空重开计划",
+      "date": "2026-06-24",
+      "description": "EASA对伊朗领空冲突区警告6/24到期，伊朗民航同步宣布领空四阶段重开计划，趋势缓和但短期仍有限制",
+      "affectedAirports": "THR/IKA",
+      "affectedRoutes": "伊朗空域过境航线",
+      "affectedAirlines": "欧洲航司过境伊朗空域",
+      "estimatedPassengers": "待评估",
+      "duration": "四阶段重开时间表待公布",
+      "otaSuggestion": "关注EASA空域评级更新",
+      "cause": "EASA伊朗领空冲突区警告6/24到期",
+      "reason": "伊美60天路线图推进，伊朗主动公布领空重开计划",
+      "impact": "跨欧亚航线有望恢复伊朗空域过境，降低绕飞成本",
+      "currentStatus": "EASA审慎观望中，尚未更新空域安全评级",
+      "otaImpact": "欧洲-亚洲航线绕飞成本有望降低，但需EASA正式更新评级",
+      "fields": {
+        "影响机场": "✈️ THR/IKA",
+        "影响航线": "🔀 伊朗空域过境航线",
+        "涉及航司": "🏢 欧洲航司过境伊朗空域",
+        "旅客估算": "👥 待评估",
+        "持续时间": "⏱️ 四阶段重开时间表待公布",
+        "OTA建议": "📋 关注EASA空域评级更新"
+      },
+      "sources": [
+        {
+          "name": "[1] 伊朗民航组织宣布领空四阶段重开 - 路透社",
+          "url": "https://www.reuters.com/world/middle-east/iran-aviation-authority-says-airspace-reopen-four-phases-2026-06-24/"
+        },
+        {
+          "name": "[2] EASA伊朗领空警告到期 - 新浪财经",
+          "url": "http://finance.sina.cn/7x24/2026-06-24/detail-inienxzt8214693.d.html"
+        }
+      ]
     }
   ],
   "flight_anomalies": {
     "source": "airlabs",
-    "generated_at": "2026-06-24T07:52:00+08:00",
-    "total_cancelled": 28,
+    "generated_at": "2026-06-24T15:30:00+08:00",
+    "total_cancelled": 35,
     "physical_flights": 15,
     "groups": [
       {
