@@ -9,222 +9,431 @@
   },
   "events": [
     {
-      "id": "P0-001",
+      "id": "2026-06-10-P0-001",
       "priority": "P0",
       "category": "航空安全",
       "title": "空客A320neo紧急适航指令",
       "summary": "EASA紧急适航指令AD 2024-0123要求检查并更换受影响发动机高压涡轮叶片，约6000架A320neo系列受影响",
       "description": "【起因】欧洲航空安全局(EASA)于6月8日发布紧急适航指令AD 2024-0123，要求对所有搭载PW1100G-JM发动机的空客A320neo系列飞机进行高压涡轮叶片(HPT blade)强制检查。\n【原因】普惠公司内部检测发现，部分批次的HPT叶片在高温高压运行环境下存在疲劳裂纹扩展风险，已在两架运营中航班触发发动机振动超标告警，其中一架在飞行中单发失效，飞机安全返航。\n【影响范围】全球约6000架A320neo系列飞机受此指令约束，涉及IndiGo(180架)、easyJet(70架)、亚航(120架)、Wizz Air(90架)、Vueling(50架)、JetBlue(40架)等主力运营航司。受影响航线覆盖欧洲内部、欧洲-亚洲、东南亚区域等高密度航线。\n【当前进展】EASA要求运营人在指令发布后72小时内完成首检，如发现裂纹需在10天内更换叶片。普惠正加速备件供应，但全球HPT叶片库存仅能满足约30%的更换需求，预计大部分航司将被迫临时停飞部分飞机。\n【OTA影响】受影响航司的欧洲内/亚欧航线可能出现大面积取消或换机型执行，建议暂停相关航线预售直至航司运力恢复明确。",
-      "affectedAirports": ["LHR", "CDG", "FRA", "AMS", "BCN", "KUL", "BKK", "SIN"],
-      "affectedAirlines": ["IndiGo", "easyJet", "亚航", "Wizz Air", "Vueling", "JetBlue"],
-      "affectedRoutes": ["欧洲内/亚欧航线"],
+      "affectedAirports": [
+        "LHR",
+        "CDG",
+        "FRA",
+        "AMS",
+        "BCN",
+        "KUL",
+        "BKK",
+        "SIN"
+      ],
+      "affectedAirlines": [
+        "IndiGo",
+        "easyJet",
+        "亚航",
+        "Wizz Air",
+        "Vueling",
+        "JetBlue"
+      ],
+      "affectedRoutes": [
+        "欧洲内/亚欧航线"
+      ],
       "estimatedPassengers": "45-135万",
       "duration": "1-2周",
       "action": "建议暂停涉事航司相关航线预售，密切关注局方后续通知",
       "coordinates": [
-        {"code": "LHR", "lat": 51.4700, "lng": -0.4543},
-        {"code": "CDG", "lat": 49.0097, "lng": 2.5479},
-        {"code": "FRA", "lat": 50.0379, "lng": 8.5622},
-        {"code": "AMS", "lat": 52.3105, "lng": 4.7683},
-        {"code": "BCN", "lat": 41.2974, "lng": 2.0833},
-        {"code": "KUL", "lat": 2.7456, "lng": 101.7099},
-        {"code": "BKK", "lat": 13.6900, "lng": 100.7501},
-        {"code": "SIN", "lat": 1.3644, "lng": 103.9915}
+        {
+          "code": "LHR",
+          "lat": 51.47,
+          "lng": -0.4543
+        },
+        {
+          "code": "CDG",
+          "lat": 49.0097,
+          "lng": 2.5479
+        },
+        {
+          "code": "FRA",
+          "lat": 50.0379,
+          "lng": 8.5622
+        },
+        {
+          "code": "AMS",
+          "lat": 52.3105,
+          "lng": 4.7683
+        },
+        {
+          "code": "BCN",
+          "lat": 41.2974,
+          "lng": 2.0833
+        },
+        {
+          "code": "KUL",
+          "lat": 2.7456,
+          "lng": 101.7099
+        },
+        {
+          "code": "BKK",
+          "lat": 13.69,
+          "lng": 100.7501
+        },
+        {
+          "code": "SIN",
+          "lat": 1.3644,
+          "lng": 103.9915
+        }
       ]
     },
     {
-      "id": "P0-002",
+      "id": "2026-06-10-P0-002",
       "priority": "P0",
       "category": "地缘政治",
       "title": "UAE领空限制延长至6月23日",
       "summary": "阿联酋空域持续受限，仅6条走廊通行，欧亚航线绕飞增加40-60分钟飞行时间",
       "description": "【起因】受中东地区持续军事冲突升级影响，阿联酋民航总局(GCAA)于6月5日宣布将空域限制措施延长至6月23日，此前限制原定6月10日到期。\n【原因】伊朗-海湾国家紧张局势持续，阿联酋北部及西部空域被列为潜在军事行动区域。GCAA仅保留6条民航走廊通行，其余空域对民航关闭。此前已有数枚导弹/无人机残骸落入阿联酋近海区域，虽未造成民航事故，但安全风险显著升高。\n【影响范围】迪拜(DXB)和阿布扎比(AUH)两大枢纽受直接影响。阿联酋航空每日约500个航班中，约180个需调整航路，绕飞增加40-60分钟飞行时间。阿提哈德航空约40%航班受影响。欧亚航线(欧洲↔东南亚/澳洲)受冲击最大，多航班需经土耳其/伊朗绕行。\n【当前进展】GCAA每48小时评估一次空域安全状况，不排除进一步缩短或延长限制期。部分航司已开始申请绕飞许可，但绕行航线空域拥挤，延误风险上升。\n【OTA影响】DXB/AUH出发及中转航班延误率预计持续高位，建议在航班搜索中标注\"可能延误40-60分钟\"提示，并推荐经IST/Doha替代中转方案。",
-      "affectedAirports": ["DXB", "AUH"],
-      "affectedAirlines": ["阿联酋航空", "迪拜航空", "阿提哈德"],
-      "affectedRoutes": ["迪拜-欧洲/中东-亚洲主要航线"],
+      "affectedAirports": [
+        "DXB",
+        "AUH"
+      ],
+      "affectedAirlines": [
+        "阿联酋航空",
+        "迪拜航空",
+        "阿提哈德"
+      ],
+      "affectedRoutes": [
+        "迪拜-欧洲/中东-亚洲主要航线"
+      ],
       "estimatedPassengers": "50万+/2周",
       "duration": "至6月23日",
       "action": "建议绕道土耳其/伊朗航线，密切关注政策变化",
       "coordinates": [
-        {"code": "DXB", "lat": 25.2532, "lng": 55.3657},
-        {"code": "AUH", "lat": 24.4330, "lng": 54.6511}
+        {
+          "code": "DXB",
+          "lat": 25.2532,
+          "lng": 55.3657
+        },
+        {
+          "code": "AUH",
+          "lat": 24.433,
+          "lng": 54.6511
+        }
       ]
     },
     {
-      "id": "P1-001",
+      "id": "2026-06-10-P1-001",
       "priority": "P1",
       "category": "地缘政治",
       "title": "卡塔尔航线绕飞至6月14日",
       "summary": "卡塔尔航空被迫绕飞波斯湾区域，航班运营效率下降",
       "description": "【起因】受海湾地区空域限制影响，卡塔尔民航局通知卡塔尔航空需继续绕飞波斯湾部分区域，限制持续至6月14日。\n【原因】伊朗与海湾阿拉伯国家间紧张局势导致波斯湾上空部分空域被划为军事行动区，卡塔尔航空传统的欧亚捷径航线（经伊拉克/伊朗北部）部分不可用，需改道阿曼湾-阿拉伯海-红海绕行。\n【影响范围】多哈(DOH)枢纽进出港航班平均增加25-40分钟飞行时间，尤其多哈-欧洲航线受影响最大。卡塔尔航空每日约200个航班受不同程度影响。\n【当前进展】卡塔尔航空已向乘客发布旅行灵活政策，允许受影响航线免费改期一次。预计6月14日评估是否延长。",
-      "affectedAirports": ["DOH"],
-      "affectedAirlines": ["卡塔尔航空"],
-      "affectedRoutes": ["多哈-欧洲/亚洲航线"],
+      "affectedAirports": [
+        "DOH"
+      ],
+      "affectedAirlines": [
+        "卡塔尔航空"
+      ],
+      "affectedRoutes": [
+        "多哈-欧洲/亚洲航线"
+      ],
       "estimatedPassengers": "10万+/周",
       "duration": "至6月14日",
       "action": "建议关注卡塔尔航空政策调整，及时调整航线",
       "coordinates": [
-        {"code": "DOH", "lat": 25.2731, "lng": 51.6081}
+        {
+          "code": "DOH",
+          "lat": 25.2731,
+          "lng": 51.6081
+        }
       ]
     },
     {
-      "id": "P1-002",
+      "id": "2026-06-10-P1-002",
       "priority": "P1",
       "category": "地缘政治",
       "title": "科威特禁止外国航司进入",
       "summary": "科威特民航局发布禁令，限制外国航司航班进入",
       "description": "【起因】科威特民航局(DGCA)于6月9日发布紧急通告，即日起禁止所有外国航司航班进入科威特领空及降落科威特国际机场(KWI)，仅允许科威特航空及军方航班运营。\n【原因】科威特政府以国家安全为由实施此禁令，背景为伊朗对科威特境内目标的军事威胁升级。科威特已启动国家紧急状态预案，民航运营受军事管制影响。\n【影响范围】所有进出KWI的外国航司航班取消，包括印度航空、阿联酋航空、沙特航空等。科威特航空维持有限运营，但班次大幅削减至正常水平的30%。\n【当前进展】禁令期限未定，DGCA表示将视安全形势逐日评估。已购票旅客可联系航司免费退改。",
-      "affectedAirports": ["KWI"],
-      "affectedAirlines": ["所有外国航司"],
-      "affectedRoutes": ["进出科威特航线"],
+      "affectedAirports": [
+        "KWI"
+      ],
+      "affectedAirlines": [
+        "所有外国航司"
+      ],
+      "affectedRoutes": [
+        "进出科威特航线"
+      ],
       "estimatedPassengers": "5万+/周",
       "duration": "持续中",
       "action": "暂停科威特方向机票销售，联系旅客改期",
       "coordinates": [
-        {"code": "KWI", "lat": 29.2267, "lng": 47.9909}
+        {
+          "code": "KWI",
+          "lat": 29.2267,
+          "lng": 47.9909
+        }
       ]
     },
     {
-      "id": "P1-003",
+      "id": "2026-06-10-P1-003",
       "priority": "P1",
       "category": "地缘政治",
       "title": "伊朗对中东国家新袭击(6/10更新)",
       "summary": "伊朗对约旦、科威特、巴林发动新一轮袭击，区域防空系统激活",
       "description": "【起因】伊朗于6月10日凌晨对约旦、科威特和巴林境内目标发动新一轮导弹及无人机袭击，三国防空系统全面激活。\n【原因】此轮袭击为伊朗对三国允许美军使用其军事基地的报复行动。伊朗此前多次警告海湾国家不得为美国军事行动提供便利，此次袭击被视为对\"红线\"的正式回应。\n【影响范围】巴林(BAH)、科威特(KWI)、安曼(AMM)机场均已启动应急程序，部分航班在防空警报期间短暂停飞。巴林机场约2小时暂停运营后恢复，但持续处于高度戒备状态。\n【当前进展】三国均已关闭部分空域用于军事防御，民航走廊缩减。美国中央司令部表示正协助盟国防御，局势可能进一步升级。IATA已发布中东航路预警。",
-      "affectedAirports": ["BAH", "KWI", "AMM"],
-      "affectedAirlines": ["地区航司"],
-      "affectedRoutes": ["海湾地区航线"],
+      "affectedAirports": [
+        "BAH",
+        "KWI",
+        "AMM"
+      ],
+      "affectedAirlines": [
+        "地区航司"
+      ],
+      "affectedRoutes": [
+        "海湾地区航线"
+      ],
       "estimatedPassengers": "影响中",
       "duration": "持续中",
       "action": "密切监控局势，必要时暂停相关航线",
       "coordinates": [
-        {"code": "BAH", "lat": 26.2702, "lng": 50.6336},
-        {"code": "KWI", "lat": 29.2267, "lng": 47.9909},
-        {"code": "AMM", "lat": 31.7226, "lng": 35.9943}
+        {
+          "code": "BAH",
+          "lat": 26.2702,
+          "lng": 50.6336
+        },
+        {
+          "code": "KWI",
+          "lat": 29.2267,
+          "lng": 47.9909
+        },
+        {
+          "code": "AMM",
+          "lat": 31.7226,
+          "lng": 35.9943
+        }
       ]
     },
     {
-      "id": "P1-004",
+      "id": "2026-06-10-P1-004",
       "priority": "P1",
       "category": "极端天气",
       "title": "马来西亚雷暴天气",
       "summary": "吉隆坡及周边机场遭遇强雷暴，超40航班取消",
       "description": "【起因】6月10日下午，马来半岛西海岸遭遇强对流天气系统，吉隆坡、兰卡威、槟城三地机场同时受影响。\n【原因】西南季风与局地热对流叠加，形成大规模雷暴云团，覆盖马来半岛西海岸约200公里范围。雷暴伴有强降水和风切变，严重影响航班起降安全。\n【影响范围】KUL取消35+航班、LGK取消4航班、PEN取消3航班，亚航和马航受影响最大。KUL机场在14:00-17:00期间实行地面延误程序(GDP)，平均延误90分钟。\n【当前进展】雷暴系统已于17:00后逐步东移减弱，机场恢复正常运行。但后续航班仍有积压，预计完全恢复需至当晚22:00。",
-      "affectedAirports": ["KUL", "LGK", "PEN"],
-      "affectedAirlines": ["亚航", "马航"],
-      "affectedRoutes": ["马来西亚国内/区域航线"],
+      "affectedAirports": [
+        "KUL",
+        "LGK",
+        "PEN"
+      ],
+      "affectedAirlines": [
+        "亚航",
+        "马航"
+      ],
+      "affectedRoutes": [
+        "马来西亚国内/区域航线"
+      ],
       "estimatedPassengers": "6000+",
       "duration": "当日有效",
       "action": "建议旅客关注航班动态，办理免费改期",
       "coordinates": [
-        {"code": "KUL", "lat": 2.7456, "lng": 101.7099},
-        {"code": "LGK", "lat": 6.1918, "lng": 100.3983},
-        {"code": "PEN", "lat": 5.2971, "lng": 100.2766}
+        {
+          "code": "KUL",
+          "lat": 2.7456,
+          "lng": 101.7099
+        },
+        {
+          "code": "LGK",
+          "lat": 6.1918,
+          "lng": 100.3983
+        },
+        {
+          "code": "PEN",
+          "lat": 5.2971,
+          "lng": 100.2766
+        }
       ]
     },
     {
-      "id": "P1-005",
+      "id": "2026-06-10-P1-005",
       "priority": "P1",
       "category": "极端天气",
       "title": "印度德里沙尘暴",
       "summary": "德里英迪拉·甘地国际机场阵风达120km/h，400+航班延误",
       "description": "【起因】6月10日中午，印度北部拉贾斯坦邦沙尘暴系统东移，横扫德里国家首都辖区，能见度骤降至300米以下。\n【原因】印度西北部持续高温(48°C+)形成的强热低压，卷起大量沙尘，配合西风带推动形成大规模沙尘暴。德里英迪拉·甘地国际机场(DEL)阵风达120km/h，严重超标。\n【影响范围】DEL机场在11:00-15:00期间仅维持单跑道运行，400+航班延误，50+航班备降斋浦尔和勒克瑙。印度航空、IndiGo、SpiceJet等主要运营航司均受严重影响。\n【当前进展】沙尘暴于15:00后逐步减弱，DEL恢复双跑道运行，但积压航班完全消化预计需至次日清晨。德里地铁和地面交通也受严重影响。",
-      "affectedAirports": ["DEL"],
-      "affectedAirlines": ["印度航空", "IndiGo", "SpiceJet"],
-      "affectedRoutes": ["德里进出港航班"],
+      "affectedAirports": [
+        "DEL"
+      ],
+      "affectedAirlines": [
+        "印度航空",
+        "IndiGo",
+        "SpiceJet"
+      ],
+      "affectedRoutes": [
+        "德里进出港航班"
+      ],
       "estimatedPassengers": "6万+",
       "duration": "当日有效",
       "action": "建议旅客提前到达机场，关注航班状态",
       "coordinates": [
-        {"code": "DEL", "lat": 28.5562, "lng": 77.1000}
+        {
+          "code": "DEL",
+          "lat": 28.5562,
+          "lng": 77.1
+        }
       ]
     },
     {
-      "id": "P1-006",
+      "id": "2026-06-10-P1-006",
       "priority": "P1",
       "category": "极端天气",
       "title": "美国底特律FAA地面停飞",
       "summary": "DTW机场因雷暴及龙卷风预警，FAA发布地面停飞指令",
       "description": "【起因】6月10日下午(美东时间)，密歇根州东南部遭遇强雷暴及龙卷风预警，FAA对底特律大都会韦恩县机场(DTW)发布地面停飞(Ground Stop)指令。\n【原因】冷锋与暖湿气流在五大湖区域交汇，触发超级单体雷暴，伴有龙卷风、大冰雹和破坏性大风。密歇根州已有3个县发布龙卷风警告。\n【影响范围】DTW所有进出港航班暂停，达美航空(枢纽)和美联航受影响最大。约120个航班延误或取消，地面停飞持续约2.5小时。\n【当前进展】龙卷风警告已于18:00解除，FAA逐步恢复DTW运营，但积压航班消化需数小时。周边机场(GRR/DTW区域)也有不同程度的延误。",
-      "affectedAirports": ["DTW"],
-      "affectedAirlines": ["达美航空", "美联航"],
-      "affectedRoutes": ["底特律进出港航班"],
+      "affectedAirports": [
+        "DTW"
+      ],
+      "affectedAirlines": [
+        "达美航空",
+        "美联航"
+      ],
+      "affectedRoutes": [
+        "底特律进出港航班"
+      ],
       "estimatedPassengers": "影响中",
       "duration": "等待通知",
       "action": "暂停底特律方向机票预售，联系旅客改期",
       "coordinates": [
-        {"code": "DTW", "lat": 42.2124, "lng": -83.3534}
+        {
+          "code": "DTW",
+          "lat": 42.2124,
+          "lng": -83.3534
+        }
       ]
     },
     {
-      "id": "P1-007",
+      "id": "2026-06-10-P1-007",
       "priority": "P1",
       "category": "极端天气",
       "title": "美国多枢纽风暴天气",
       "summary": "丹佛、亚特兰大等主要枢纽遭遇强风暴，严重航班延误",
       "description": "【起因】6月10日，美国中部平原至东南部一线遭遇大范围强风暴天气，多个航空枢纽同时受冲击。\n【原因】落基山脉东侧干线和墨西哥湾暖湿气流交汇，从科罗拉多到佐治亚形成长约1500公里的风暴走廊，伴有强对流、冰雹和暴雨。丹佛(DEN)和亚特兰大(ATL)两大枢纽首当其冲。\n【影响范围】DEN机场因雷暴实施地面延误程序(GDP)，平均延误75分钟；ATL机场因暴雨和风切变，进港航班实施流量管制。西南航空、达美航空、美联航均有大量航班受影响。\n【当前进展】风暴系统正向东移动，预计亚特兰大影响将持续至晚间。丹佛已在当地时间18:00后逐步恢复正常。",
-      "affectedAirports": ["DEN", "ATL"],
-      "affectedAirlines": ["西南航空", "达美航空", "美联航"],
-      "affectedRoutes": ["美国国内主要干线"],
+      "affectedAirports": [
+        "DEN",
+        "ATL"
+      ],
+      "affectedAirlines": [
+        "西南航空",
+        "达美航空",
+        "美联航"
+      ],
+      "affectedRoutes": [
+        "美国国内主要干线"
+      ],
       "estimatedPassengers": "影响中",
       "duration": "当日有效",
       "action": "建议旅客关注航班动态，准备备选方案",
       "coordinates": [
-        {"code": "DEN", "lat": 39.8561, "lng": -104.6737},
-        {"code": "ATL", "lat": 33.6407, "lng": -84.4277}
+        {
+          "code": "DEN",
+          "lat": 39.8561,
+          "lng": -104.6737
+        },
+        {
+          "code": "ATL",
+          "lat": 33.6407,
+          "lng": -84.4277
+        }
       ]
     },
     {
-      "id": "P2-001",
+      "id": "2026-06-10-P2-001",
       "priority": "P2",
       "category": "极端天气",
       "title": "新西兰惠灵顿强风",
       "summary": "惠灵顿机场遭遇强风天气，8+航班取消",
       "description": "【起因】6月10日，新西兰南岛低压系统东移，库克海峡出现强西风，惠灵顿机场(WLG)横风超标。\n【影响范围】8+航班取消，主要为新西兰航空国内航线。WLG因跑道朝向限制，横风超标时无法安全起降。",
-      "affectedAirports": ["WLG"],
-      "affectedAirlines": ["新西兰航空"],
-      "affectedRoutes": ["惠灵顿进出港航班"],
+      "affectedAirports": [
+        "WLG"
+      ],
+      "affectedAirlines": [
+        "新西兰航空"
+      ],
+      "affectedRoutes": [
+        "惠灵顿进出港航班"
+      ],
       "estimatedPassengers": "~1200",
       "duration": "当日有效",
       "action": "建议旅客关注航班状态，办理改期",
       "coordinates": [
-        {"code": "WLG", "lat": -41.3282, "lng": 174.8050}
+        {
+          "code": "WLG",
+          "lat": -41.3282,
+          "lng": 174.805
+        }
       ]
     },
     {
-      "id": "P2-002",
+      "id": "2026-06-10-P2-002",
       "priority": "P2",
       "category": "极端天气",
       "title": "葡萄牙马德拉强风",
       "summary": "马德拉群岛强风天气，8航班取消",
       "description": "【起因】6月10日，大西洋低压系统影响马德拉群岛，丰沙尔机场(FNC)因强侧风无法安全起降。\n【影响范围】8个进出港航班取消，葡萄牙航空和TAP受影响。FNC以着陆难度著称，强风条件下运营风险极高。",
-      "affectedAirports": ["FNC"],
-      "affectedAirlines": ["葡萄牙航空", "TAP"],
-      "affectedRoutes": ["马德拉进出港航班"],
+      "affectedAirports": [
+        "FNC"
+      ],
+      "affectedAirlines": [
+        "葡萄牙航空",
+        "TAP"
+      ],
+      "affectedRoutes": [
+        "马德拉进出港航班"
+      ],
       "estimatedPassengers": "~1200",
       "duration": "当日有效",
       "action": "建议旅客关注航班状态",
       "coordinates": [
-        {"code": "FNC", "lat": 32.6948, "lng": -16.7739}
+        {
+          "code": "FNC",
+          "lat": 32.6948,
+          "lng": -16.7739
+        }
       ]
     },
     {
-      "id": "P2-003",
+      "id": "2026-06-10-P2-003",
       "priority": "P2",
       "category": "地缘政治",
       "title": "伊朗/伊拉克/叙利亚已恢复运营",
       "summary": "此前受地缘政治影响的中东地区机场已恢复正常运营",
       "description": "【起因】此前因地缘冲突关闭的伊朗(IKA)、伊拉克(BGW)、叙利亚(DAM)领空已于6月9日逐步恢复民航运营。\n【当前状态】三国机场已恢复航班起降，但部分航路仍有临时限制，需绕行特定走廊。航班量恢复至正常水平的60-80%，预计48小时内完全恢复。",
-      "affectedAirports": ["IKA", "BGW", "DAM"],
-      "affectedAirlines": ["恢复运营航司"],
-      "affectedRoutes": ["中东区域航线"],
+      "affectedAirports": [
+        "IKA",
+        "BGW",
+        "DAM"
+      ],
+      "affectedAirlines": [
+        "恢复运营航司"
+      ],
+      "affectedRoutes": [
+        "中东区域航线"
+      ],
       "estimatedPassengers": "已恢复",
       "duration": "已恢复",
       "action": "可正常销售相关航线机票",
       "coordinates": [
-        {"code": "IKA", "lat": 35.4169, "lng": 51.0933},
-        {"code": "BGW", "lat": 33.2625, "lng": 44.2344},
-        {"code": "DAM", "lat": 33.4108, "lng": 36.5142}
+        {
+          "code": "IKA",
+          "lat": 35.4169,
+          "lng": 51.0933
+        },
+        {
+          "code": "BGW",
+          "lat": 33.2625,
+          "lng": 44.2344
+        },
+        {
+          "code": "DAM",
+          "lat": 33.4108,
+          "lng": 36.5142
+        }
       ]
     }
   ],
@@ -235,12 +444,30 @@
       "destination": "BRU",
       "destinationName": "布鲁塞尔",
       "flights": [
-        {"flightNumber": "MU1833", "status": "cancelled"},
-        {"flightNumber": "MF9353", "status": "cancelled"},
-        {"flightNumber": "6E3218", "status": "cancelled"},
-        {"flightNumber": "WA1701", "status": "cancelled"},
-        {"flightNumber": "KL1701", "status": "cancelled"},
-        {"flightNumber": "DL9606", "status": "cancelled"}
+        {
+          "flightNumber": "MU1833",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "MF9353",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "6E3218",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "WA1701",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "KL1701",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "DL9606",
+          "status": "cancelled"
+        }
       ]
     },
     {
@@ -249,10 +476,22 @@
       "destination": "IST",
       "destinationName": "伊斯坦布尔",
       "flights": [
-        {"flightNumber": "6E4166", "status": "cancelled"},
-        {"flightNumber": "TK1830", "status": "cancelled"},
-        {"flightNumber": "HM6411", "status": "cancelled"},
-        {"flightNumber": "3U7246", "status": "cancelled"}
+        {
+          "flightNumber": "6E4166",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "TK1830",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "HM6411",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "3U7246",
+          "status": "cancelled"
+        }
       ]
     },
     {
@@ -261,10 +500,22 @@
       "destination": "SYX/FOC",
       "destinationName": "三亚/福州",
       "flights": [
-        {"flightNumber": "HU7279", "status": "cancelled"},
-        {"flightNumber": "CA4681", "status": "cancelled"},
-        {"flightNumber": "ZH2577", "status": "cancelled"},
-        {"flightNumber": "SC2203", "status": "cancelled"}
+        {
+          "flightNumber": "HU7279",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "CA4681",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "ZH2577",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "SC2203",
+          "status": "cancelled"
+        }
       ]
     },
     {
@@ -273,9 +524,18 @@
       "destination": "KWE",
       "destinationName": "贵阳",
       "flights": [
-        {"flightNumber": "3U4523", "status": "cancelled"},
-        {"flightNumber": "ZH5111", "status": "cancelled"},
-        {"flightNumber": "MU3756", "status": "cancelled"}
+        {
+          "flightNumber": "3U4523",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "ZH5111",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "MU3756",
+          "status": "cancelled"
+        }
       ]
     },
     {
@@ -284,8 +544,14 @@
       "destination": "DFW",
       "destinationName": "达拉斯",
       "flights": [
-        {"flightNumber": "AA60", "status": "delayed"},
-        {"flightNumber": "JL7012", "status": "delayed"}
+        {
+          "flightNumber": "AA60",
+          "status": "delayed"
+        },
+        {
+          "flightNumber": "JL7012",
+          "status": "delayed"
+        }
       ]
     },
     {
@@ -294,9 +560,18 @@
       "destination": "YWG",
       "destinationName": "温尼伯",
       "flights": [
-        {"flightNumber": "RV2134", "status": "cancelled"},
-        {"flightNumber": "AC2134", "status": "cancelled"},
-        {"flightNumber": "VA5186", "status": "cancelled"}
+        {
+          "flightNumber": "RV2134",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "AC2134",
+          "status": "cancelled"
+        },
+        {
+          "flightNumber": "VA5186",
+          "status": "cancelled"
+        }
       ]
     },
     {
@@ -305,7 +580,10 @@
       "destination": "CFS",
       "destinationName": "科夫斯港",
       "flights": [
-        {"flightNumber": "ZL6436", "status": "cancelled"}
+        {
+          "flightNumber": "ZL6436",
+          "status": "cancelled"
+        }
       ]
     }
   ],

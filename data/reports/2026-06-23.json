@@ -13,7 +13,7 @@
   },
   "events": [
     {
-      "id": "P1-ME001",
+      "id": "2026-06-23-P1-ME001",
       "priority": "P1",
       "level": "orange",
       "category": "中东局势",
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "id": "P1-001",
+      "id": "2026-06-23-P1-001",
       "priority": "P1",
       "level": "orange",
       "category": "自然灾害",
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "id": "P2-001",
+      "id": "2026-06-23-P2-001",
       "priority": "P2",
       "level": "yellow",
       "category": "航空安全",
@@ -163,7 +163,7 @@
       "coordinates": []
     },
     {
-      "id": "P2-ME001",
+      "id": "2026-06-23-P2-ME001",
       "priority": "P2",
       "level": "yellow",
       "category": "中东局势",
@@ -193,7 +193,7 @@
       "coordinates": []
     },
     {
-      "id": "P2-ME002",
+      "id": "2026-06-23-P2-ME002",
       "priority": "P2",
       "level": "yellow",
       "category": "中东局势",

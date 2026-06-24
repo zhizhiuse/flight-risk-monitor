@@ -13,7 +13,7 @@
   },
   "events": [
     {
-      "id": "P2-001",
+      "id": "2026-06-20-P2-001",
       "level": "P2",
       "priority": "P2",
       "level_emoji": "🟡",
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "id": "P2-002",
+      "id": "2026-06-20-P2-002",
       "level": "P2",
       "priority": "P2",
       "level_emoji": "🟡",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "id": "P2-ME001",
+      "id": "2026-06-20-P2-ME001",
       "level": "P2",
       "priority": "P2",
       "level_emoji": "🟡",
@@ -106,7 +106,7 @@
       ]
     },
     {
-      "id": "P2-ME002",
+      "id": "2026-06-20-P2-ME002",
       "level": "P2",
       "priority": "P2",
       "level_emoji": "🟡",

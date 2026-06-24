@@ -13,7 +13,7 @@
   },
   "events": [
     {
-      "id": "P1-001",
+      "id": "2026-06-22-P1-001",
       "priority": "P1",
       "level": "orange",
       "category": "自然灾害",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "id": "P1-ME001",
+      "id": "2026-06-22-P1-ME001",
       "priority": "P1",
       "level": "orange",
       "category": "中东局势",
@@ -101,7 +101,7 @@
       ]
     },
     {
-      "id": "P2-ME001",
+      "id": "2026-06-22-P2-ME001",
       "priority": "P2",
       "level": "yellow",
       "category": "中东局势",

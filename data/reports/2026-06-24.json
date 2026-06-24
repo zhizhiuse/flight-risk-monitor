@@ -13,7 +13,7 @@
   },
   "events": [
     {
-      "id": "P1-AS001",
+      "id": "2026-06-24-P1-AS001",
       "priority": "P1",
       "level": "orange",
       "category": "航空安全",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "id": "P1-ME001",
+      "id": "2026-06-24-P1-ME001",
       "priority": "P1",
       "level": "orange",
       "category": "中东局势",
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "id": "P2-ME001",
+      "id": "2026-06-24-P2-ME001",
       "priority": "P2",
       "level": "yellow",
       "category": "中东局势",
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "id": "P2-ME002",
+      "id": "2026-06-24-P2-ME002",
       "priority": "P2",
       "level": "yellow",
       "category": "中东局势",
@@ -161,7 +161,7 @@
       ]
     },
     {
-      "id": "P2-ME003",
+      "id": "2026-06-24-P2-ME003",
       "priority": "P2",
       "level": "yellow",
       "category": "中东局势",

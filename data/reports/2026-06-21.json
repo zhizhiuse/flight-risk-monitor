@@ -13,7 +13,7 @@
   },
   "events": [
     {
-      "id": "P1-ME001",
+      "id": "2026-06-21-P1-ME001",
       "level": "P1",
       "priority": "P1",
       "level_emoji": "🟠",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": "P2-001",
+      "id": "2026-06-21-P2-001",
       "level": "P2",
       "priority": "P2",
       "level_emoji": "🟡",
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "id": "P2-002",
+      "id": "2026-06-21-P2-002",
       "level": "P2",
       "priority": "P2",
       "level_emoji": "🟡",
@@ -118,7 +118,7 @@
       ]
     },
     {
-      "id": "P2-003",
+      "id": "2026-06-21-P2-003",
       "level": "P2",
       "priority": "P2",
       "level_emoji": "🟡",
@@ -149,7 +149,7 @@
       ]
     },
     {
-      "id": "P2-004",
+      "id": "2026-06-21-P2-004",
       "level": "P2",
       "priority": "P2",
       "level_emoji": "🟡",
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "id": "P2-ME001",
+      "id": "2026-06-21-P2-ME001",
       "level": "P2",
       "priority": "P2",
       "level_emoji": "🟡",
