@@ -6,8 +6,8 @@
   "summary": {
     "p0_count": 0,
     "p1_count": 2,
-    "p2_count": 2,
-    "total": 4,
+    "p2_count": 3,
+    "total": 5,
     "flight_anomaly_groups": 14,
     "cancelled_flights": 35
   },
@@ -157,6 +157,44 @@
         {
           "name": "[2] 美国国务卿鲁比奥将访问阿联酋/科威特/巴林 - 中国新闻网",
           "url": "https://m.chinanews.com/wap/detail/chs/zw/10645330.shtml"
+        }
+      ]
+    },
+    {
+      "id": "P2-ME003",
+      "priority": "P2",
+      "level": "yellow",
+      "category": "中东局势",
+      "title": "EASA伊朗领空警告到期+伊朗公布四阶段领空重开计划",
+      "date": "2026-06-24",
+      "description": "EASA对伊朗领空冲突区警告6/24到期，伊朗民航同步宣布领空四阶段重开计划，趋势缓和但短期仍有限制",
+      "affectedAirports": "THR/IKA",
+      "affectedRoutes": "伊朗空域过境航线",
+      "affectedAirlines": "欧洲航司过境伊朗空域",
+      "estimatedPassengers": "待评估",
+      "duration": "四阶段重开时间表待公布",
+      "otaSuggestion": "关注EASA空域评级更新",
+      "cause": "EASA伊朗领空冲突区警告6/24到期",
+      "reason": "伊美60天路线图推进，伊朗主动公布领空重开计划",
+      "impact": "跨欧亚航线有望恢复伊朗空域过境，降低绕飞成本",
+      "currentStatus": "EASA审慎观望中，尚未更新空域安全评级",
+      "otaImpact": "欧洲-亚洲航线绕飞成本有望降低，但需EASA正式更新评级",
+      "fields": {
+        "影响机场": "✈️ THR/IKA",
+        "影响航线": "🔀 伊朗空域过境航线",
+        "涉及航司": "🏢 欧洲航司过境伊朗空域",
+        "旅客估算": "👥 待评估",
+        "持续时间": "⏱️ 四阶段重开时间表待公布",
+        "OTA建议": "📋 关注EASA空域评级更新"
+      },
+      "sources": [
+        {
+          "name": "[1] 伊朗民航组织宣布领空四阶段重开 - 路透社",
+          "url": "https://www.reuters.com/world/middle-east/iran-aviation-authority-says-airspace-reopen-four-phases-2026-06-24/"
+        },
+        {
+          "name": "[2] EASA伊朗领空警告到期 - 新浪财经",
+          "url": "http://finance.sina.cn/7x24/2026-06-24/detail-inienxzt8214693.d.html"
         }
       ]
     }
