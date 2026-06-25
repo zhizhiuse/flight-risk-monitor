@@ -6,8 +6,8 @@
   "summary": {
     "p0_count": 0,
     "p1_count": 1,
-    "p2_count": 2,
-    "total": 3,
+    "p2_count": 3,
+    "total": 4,
     "flight_anomaly_groups": 3,
     "cancelled_flights": 15
   },
@@ -119,6 +119,44 @@
         {
           "name": "[2] 海峡通航量回升 - 新浪财经",
           "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-25/doc-iniepvfi8035763.shtml"
+        }
+      ]
+    },
+    {
+      "id": "P2-ME002",
+      "priority": "P2",
+      "level": "yellow",
+      "category": "中东局势",
+      "title": "EASA延长中东冲突区飞行警告至7月1日",
+      "date": "2026-06-25",
+      "description": "EASA延长中东冲突区飞行警告至7月1日，伊朗/伊拉克/黎巴嫩空域EU航司继续禁止飞越，海湾六国保持高度谨慎，IKA/THR实际复航无明确时间表",
+      "affectedAirports": "IKA/THR（EASA仍禁止EU航司飞越）",
+      "affectedRoutes": "伊朗/伊拉克/黎巴嫩空域航线仍受限",
+      "affectedAirlines": "EU航司（汉莎/法航/荷航/英航等）",
+      "estimatedPassengers": "<5千",
+      "duration": "至7月1日",
+      "otaSuggestion": "①维持IKA/THR航线暂停销售 ②关注7/1 EASA评级更新",
+      "cause": "EASA延长中东冲突区飞行警告，停火协议仍面临短期违规风险",
+      "reason": "美伊停火谅解备忘录仍有短期违规可能，尤其霍尔木兹海峡及周边空域",
+      "impact": "EU航司无法复航伊朗/伊拉克/黎巴嫩空域，IKA/THR实际复航无明确时间表",
+      "currentStatus": "EASA警告延长至7/1，伊朗官方宣布恢复但EASA未解除",
+      "otaImpact": "维持伊朗航线暂停，待EASA解除后方可恢复销售",
+      "fields": {
+        "影响机场": "✈️ IKA/THR（EASA仍禁止EU航司飞越）",
+        "影响航线": "🔀 伊朗/伊拉克/黎巴嫩空域航线仍受限",
+        "涉及航司": "🏢 EU航司（汉莎/法航/荷航/英航等）",
+        "旅客估算": "👥 <5千",
+        "持续时间": "⏱️ 至7月1日",
+        "OTA建议": "📋 ①维持IKA/THR航线暂停销售 ②关注7/1 EASA评级更新"
+      },
+      "sources": [
+        {
+          "name": "[1] EASA延长中东冲突区飞行警告 - 汇通网",
+          "url": "https://m.fx678.com/news/detail/202606241424572462"
+        },
+        {
+          "name": "[2] EASA延长中东冲突区警告至7月1日 - 搜狐",
+          "url": "https://m.sohu.com/a/1040971406_121644875/"
         }
       ]
     }
