@@ -1,6 +1,174 @@
 {
   "reports": [
     {
+      "date": "2026-06-25",
+      "reportDate": "2026-06-25",
+      "period": "afternoon",
+      "generated_at": "2026-06-25T16:03:00+08:00",
+      "summary": {
+        "p0_count": 1,
+        "p1_count": 1,
+        "p2_count": 2,
+        "total": 4,
+        "flight_anomaly_groups": 0,
+        "cancelled_flights": 0
+      },
+      "events": [
+        {
+          "id": "P0-ND001-v2",
+          "priority": "P0",
+          "level": "orange",
+          "category": "自然灾害",
+          "title": "委内瑞拉双强震致CCS机场正式关闭，已32死700伤",
+          "date": "2026-06-25",
+          "description": "7.1+7.5级双震USGS红色警报，CCS机场建筑严重损毁正式关闭，伤亡持续攀升，全国紧急状态",
+          "affectedAirports": "CCS（设施严重损坏，正式关闭）",
+          "affectedRoutes": "南美/加勒比进出港航线全部中断",
+          "affectedAirlines": "委内瑞拉航空VH及区域航司",
+          "estimatedPassengers": "数万人（CCS为唯一大型国际机场）",
+          "duration": "6/25起，恢复时间待通知",
+          "otaSuggestion": "立即下架CCS出发/到达的所有机票，通知在售机票旅客取消风险",
+          "cause": "6/24傍晚近一分钟内连续发生7.1+7.5级双震，震源深度10km，USGS红色警报",
+          "reason": "震中距首都加拉加斯30km，极浅震源+双震叠加破坏力极强",
+          "impact": "CCS机场航站楼横梁/墙体/天花板大面积坠落，正式关闭；全国进入紧急状态",
+          "currentStatus": "至少32人死亡、约700人受伤，伤亡仍在统计；机场无恢复时间表",
+          "otaImpact": "CCS为委内瑞拉唯一大型国际机场，国际航空通道实质中断，需立即下架机票",
+          "fields": {
+            "影响机场": "✈️ CCS（设施严重损坏，正式关闭）",
+            "影响航线": "🔀 南美/加勒比进出港航线全部中断",
+            "涉及航司": "🏢 委内瑞拉航空VH及区域航司",
+            "旅客估算": "👥 数万人（CCS为唯一大型国际机场）",
+            "持续时间": "⏱️ 6/25起，恢复时间待通知",
+            "OTA建议": "📋 立即下架CCS出发/到达的所有机票，通知在售机票旅客取消风险"
+          },
+          "sources": [
+            {
+              "name": "[1] 两次7级以上强震致732死伤 委内瑞拉进入紧急状态 - 央广网/央视新闻",
+              "url": "http://news.cnr.cn/sq/20260625/t20260625_527676138.shtml"
+            },
+            {
+              "name": "[2] 现场直击：一分钟内连续遭遇两次强震 - 新华网客户端",
+              "url": "https://app.xinhuanet.com/news/article.html?articleId=2026062585bb2eb7628c4f1fbf69088fdc6d2bcc"
+            },
+            {
+              "name": "[3] 7.1级强震！委内瑞拉机场受损，航班停运 - 民航资源网",
+              "url": "https://i.carnoc.com/detail/661478"
+            }
+          ]
+        },
+        {
+          "id": "P1-ND002",
+          "priority": "P1",
+          "level": "yellow",
+          "category": "自然灾害",
+          "title": "日本Iwate近海7.2级地震，机场短暂封闭后逐步恢复",
+          "date": "2026-06-25",
+          "description": "JMA将震级由6.9上调至7.2级，东北新干线短暂停运，机场跑道短暂封闭排查后逐步恢复",
+          "affectedAirports": "仙台机场等东北机场（短暂封闭，已逐步恢复）",
+          "affectedRoutes": "东北新干线全线停运，区域航线短暂延误",
+          "affectedAirlines": "全日空ANA、日本航空JAL",
+          "estimatedPassengers": "新干线数以万计；机场封闭期间数百至上千",
+          "duration": "6/25起，机场数小时后逐步恢复",
+          "otaSuggestion": "关注JMA后续地震预警，本周前往日本东北旅客留意余震可能导致的新变化",
+          "cause": "北京时间6/25 6:30，本州东部Iwate近海6.9级地震，JMA后上调至7.2级，震深50km",
+          "reason": "震度达6强（日本10级制第二高），覆盖东北三县至东京",
+          "impact": "6人受伤；东北新干线全线暂停，高速公路和机场跑道封闭安检",
+          "currentStatus": "新干线部分路段已恢复限速运营；JMA警告未来一周警惕同等规模余震",
+          "otaImpact": "机场运营已基本恢复，但7.2级地震后余震风险持续，本周东北航线需关注",
+          "fields": {
+            "影响机场": "✈️ 仙台机场等东北机场（短暂封闭，已逐步恢复）",
+            "影响航线": "🔀 东北新干线全线停运，区域航线短暂延误",
+            "涉及航司": "🏢 全日空ANA、日本航空JAL",
+            "旅客估算": "👥 新干线数以万计；机场封闭期间数百至上千",
+            "持续时间": "⏱️ 6/25起，机场数小时后逐步恢复",
+            "OTA建议": "📋 关注JMA后续地震预警，本周前往日本东北旅客留意余震可能的新变化"
+          },
+          "sources": [
+            {
+              "name": "[4] 日本气象厅：未来一周可能再次发生强震 - 央视新闻",
+              "url": "http://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=6423738758754590438"
+            },
+            {
+              "name": "[5] 日本本州近海地震已致6人受伤 - 京报网",
+              "url": "https://news.bjd.com.cn/2026/06/25/11826968.shtml"
+            }
+          ]
+        },
+        {
+          "id": "P2-AS001",
+          "priority": "P2",
+          "level": "gray",
+          "category": "航空安全",
+          "title": "加航Express机长飞行途中失能，副驾驶改降波士顿",
+          "date": "2026-06-24",
+          "description": "AC7664机长突发疾病疑似癫痫，副驾驶接管改降BOS，61名乘客安全落地，无需强烈关注",
+          "affectedAirports": "BOS（备降）",
+          "affectedRoutes": "EWR-YHZ段短暂延误",
+          "affectedAirlines": "Air Canada Express（PAL航空执飞）",
+          "estimatedPassengers": "61名乘客，无伤亡",
+          "duration": "单次事件，6/24",
+          "otaSuggestion": "无需强烈关注，监控PAL航空机组健康审查动态即可",
+          "cause": "AC7664（Dash 8-400）从EWR起飞约1小时后，机长突发疾病疑似癫痫发作约40分钟",
+          "reason": "机长一度丧失行动能力，副驾驶立即接管控制权",
+          "impact": "紧急改降BOS，61名乘客安全落地，机长送医救治",
+          "currentStatus": "加航安排替代行程，事件已结案",
+          "otaImpact": "单次航班事件，未造成系统性航线中断",
+          "fields": {
+            "影响机场": "✈️ BOS（备降）",
+            "影响航线": "🔀 EWR-YHZ段短暂延误",
+            "涉及航司": "🏢 Air Canada Express（PAL航空执飞）",
+            "旅客估算": "👥 61名乘客，无伤亡",
+            "持续时间": "⏱️ 单次事件，6/24",
+            "OTA建议": "📋 无需强烈关注，监控PAL航空机组健康审查动态即可"
+          },
+          "sources": [
+            {
+              "name": "[1] 机长飞行途中突发疾病，加拿大一航班改降波士顿 - 环球网/CBS",
+              "url": "https://news.ifeng.com/c/8uEuetdEWtx"
+            }
+          ]
+        },
+        {
+          "id": "P2-ME001",
+          "priority": "P2",
+          "level": "gray",
+          "category": "中东局势",
+          "title": "伊朗革命卫队重申海峡通行须协调，与巴赫雷尼表态存分歧",
+          "date": "2026-06-25",
+          "description": "IRGC要求过境船只须提前协调，与巴赫雷尼「60天免费开放」声明形成张力，目前无直接航空影响",
+          "affectedAirports": "IKA/THR（仍关闭中）",
+          "affectedRoutes": "波斯湾航运管理规则分歧持续，航空影响有限",
+          "affectedAirlines": "IR/W5（停飞）",
+          "estimatedPassengers": "间接影响，暂无直接旅客规模",
+          "duration": "6/25起，EASA警告延至7/1",
+          "otaSuggestion": "无需强烈关注，监控6/30美伊技术谈判是否涉及海峡管理权分歧",
+          "cause": "IRGC海军6/25发布霍尔木兹通行新规，与巴赫雷尼6/23「60天免费开放」声明形成分歧",
+          "reason": "反映出美伊谅解备忘录框架下海峡管理权归属争议尚未真正解决",
+          "impact": "海峡通行规则不统一持续构成不确定性；EASA警告延至7/1",
+          "currentStatus": "过去24小时日通行量约72艘，管理规则仍存分歧",
+          "otaImpact": "航空层面暂无直接冲击，主要为航运不确定性",
+          "fields": {
+            "影响机场": "✈️ IKA/THR（仍关闭中）",
+            "影响航线": "🔀 波斯湾航运管理规则分歧持续，航空影响有限",
+            "涉及航司": "🏢 IR/W5（停飞）",
+            "旅客估算": "👥 间接影响，暂无直接旅客规模",
+            "持续时间": "⏱️ 6/25起，EASA警告延至7/1",
+            "OTA建议": "📋 无需强烈关注，监控6/30美伊技术谈判是否涉及海峡管理权分歧"
+          },
+          "sources": [
+            {
+              "name": "[1] 伊方：船只通过霍尔木兹海峡须与伊革命卫队协调 - 新华网",
+              "url": "http://www.xinhuanet.com/world/20260625/b4b0d97b27bc40f2a19173d65fdd14e3/c.html"
+            },
+            {
+              "name": "[2] 霍尔木兹海峡热线建立，美伊对话有突破，但航行规则仍未统一 - 网易新闻",
+              "url": "http://m.163.com/dy/article/L082MT2E0556BPWO.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-06-24",
       "period": "afternoon",
       "generated_at": "2026-06-24T16:05:00+08:00",
