@@ -13,8 +13,8 @@
   },
   "events": [
     {
-      "id": "P0-ND001",
-      "priority": "P0",
+      "id": "P1-ND001",
+      "priority": "P1",
       "level": "orange",
       "category": "自然灾害",
       "title": "委内瑞拉7.5级强震致CCS机场受损",
