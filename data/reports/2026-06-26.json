@@ -1,15 +1,10 @@
 {
   "date": "2026-06-26",
-  "reportDate": "2026-06-26",
-  "period": "morning",
-  "generated_at": "2026-06-26T09:00:00+08:00",
+  "generatedAt": "2026-06-26T09:00:00+08:00",
   "summary": {
-    "p0_count": 0,
-    "p1_count": 3,
-    "p2_count": 2,
-    "total": 5,
-    "flight_anomaly_groups": 3,
-    "cancelled_flights": 79
+    "P0": 0,
+    "P1": 3,
+    "P2": 2
   },
   "events": [
     {
@@ -118,5 +113,6 @@
         "AirLabs 2026-06-26"
       ]
     }
-  ]
+  ],
+  "note": "航空安全事件和自然灾害影响航班暂无最新动态。霍尔木兹海峡通航量恢复57%为航运事件，暂无直接航空影响。"
 }
