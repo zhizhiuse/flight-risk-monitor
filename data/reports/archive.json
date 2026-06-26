@@ -203,6 +203,178 @@
         "p2": 3
       },
       "event_count": 12
+    },
+    {
+      "date": "2026-06-26",
+      "generatedAt": "2026-06-26T09:00:00+08:00",
+      "summary": {
+        "P0": 0,
+        "P1": 3,
+        "P2": 2
+      },
+      "events": [
+        {
+          "id": "2026-06-26-P0-ND001",
+          "title": "委内瑞拉7.5级双强震致CCS机场关闭，164死971伤",
+          "priority": "P0",
+          "category": "自然灾害",
+          "date": "2026-06-26",
+          "description": "6月25日06:04委内瑞拉连续发生7.1级和7.5级强震，首都CCS机场正式关闭，截至25日20时已造成164人死亡971人受伤。USGS发布红色警报，预估最终死亡人数可能超1万。全国进入紧急状态。",
+          "affectedAirports": "CCS/加拉加斯（关闭）",
+          "affectedRoutes": "CCS所有国际航线中断",
+          "affectedAirlines": "所有运营CCS航司",
+          "estimatedPassengers": "日均约2-3万",
+          "duration": "持续中，CCS关闭时间未定",
+          "otaSuggestion": "①CCS方向全部订单免费退改 ②关注航司公告 ③备选波哥大BOG中转",
+          "cause": "6月25日06:04委内瑞拉连续发生7.1级和7.5级强震",
+          "reason": "震源浅、震中距首都近，CCS机场跑道及设施受损",
+          "impact": "CCS机场正式关闭，全国紧急状态，164死971伤",
+          "currentStatus": "USGS红色警报，预估最终死亡可能超1万；救援持续中",
+          "otaImpact": "CCS所有国际航线中断，影响日均2-3万旅客",
+          "fields": {
+            "affectedAirports": "CCS/加拉加斯（关闭）",
+            "affectedRoutes": "CCS所有国际航线中断",
+            "affectedAirlines": "所有运营CCS航司",
+            "estimatedPassengers": "日均约2-3万",
+            "duration": "持续中，CCS关闭时间未定",
+            "otaSuggestion": "①CCS方向全部订单免费退改 ②关注航司公告 ③备选波哥大BOG中转"
+          }
+        },
+        {
+          "id": "2026-06-26-P1-ND002",
+          "title": "日本岩手县近海7.2级地震，机场短暂封闭后恢复",
+          "priority": "P1",
+          "category": "自然灾害",
+          "date": "2026-06-26",
+          "description": "6月25日日本岩手县近海发生7.2级地震，机场短暂封闭后已恢复运营。JMA警告一周内可能發生同等规模余震。",
+          "affectedAirports": "花卷机场（短暂封闭后恢复）",
+          "affectedRoutes": "日本东北区域航线短暂受影响",
+          "affectedAirlines": "日本国内航司",
+          "estimatedPassengers": "约5000-8000",
+          "duration": "主震影响已缓和，但余震风险持续1周",
+          "otaSuggestion": "①关注JMA余震预警 ②东北航线订单保持弹性退改",
+          "cause": "6月25日日本岩手县近海7.2级地震",
+          "reason": "板块交界带地震活动，JMA发布余震警告",
+          "impact": "花卷机场短暂封闭，东北新干线一度停运",
+          "currentStatus": "机场已恢复运营，JMA警告一周内警惕同等余震",
+          "otaImpact": "日本东北区域航班短暂受影响，余震风险期内需保持警惕",
+          "fields": {
+            "affectedAirports": "花卷机场（短暂封闭后恢复）",
+            "affectedRoutes": "日本东北区域航线短暂受影响",
+            "affectedAirlines": "日本国内航司",
+            "estimatedPassengers": "约5000-8000",
+            "duration": "主震影响已缓和，但余震风险持续1周",
+            "otaSuggestion": "①关注JMA余震预警 ②东北航线订单保持弹性退改"
+          }
+        },
+        {
+          "id": "AIR-001",
+          "title": "法国航空延长中东三条航线停运期限",
+          "priority": "P1",
+          "category": "航司运营异常",
+          "date": "2026-06-26",
+          "description": "法航宣布延长特拉维夫、贝鲁特、迪拜三条航线停运期限",
+          "affectedAirports": "TLV/特拉维夫📍BEY/贝鲁特📍DXB/迪拜",
+          "affectedRoutes": "CDG↔TLV📍CDG↔BEY📍CDG↔DXB",
+          "affectedAirlines": "法国航空(AF)",
+          "estimatedPassengers": "法航三条航线日均旅客约3000-5000人次",
+          "duration": "TLV停运至6月30日📍BEY/DXB停运至7月5日",
+          "otaSuggestion": "①7月5日前特维夫/贝鲁特/迪拜方向订单建议免费退改📍②关注法航复航公告📍③迪拜方向旅客可关注阿联酋航空替代",
+          "cause": "伊朗-以色列冲突持续升级，地区安全形势紧张",
+          "reason": "相关地区持续安全顾虑及部分空域关闭",
+          "impact": "三条跨欧洲-中东主干航线中断，影响巴黎-迪拜等商务及朝觐客流",
+          "currentStatus": "法航未给出明确复航时间表，将于7月初重新评估",
+          "otaImpact": "法航中东方向7月5日前机票需关注退改政策，建议提前通知旅客",
+          "sources": [
+            "新浪财经 2026-06-24"
+          ]
+        },
+        {
+          "id": "AIR-002",
+          "title": "以色列航空暂停特拉维夫-莫斯科航线",
+          "priority": "P2",
+          "category": "地缘政治",
+          "date": "2026-06-26",
+          "description": "以航宣布暂停特拉维夫至莫斯科航线至6月底",
+          "affectedAirports": "TLV/特拉维夫📍SVO/莫斯科谢列梅捷沃",
+          "affectedRoutes": "TLV↔SVO单条航线",
+          "affectedAirlines": "以色列航空(EL AL/LY)",
+          "estimatedPassengers": "单条航线影响旅客约2000-3000人次",
+          "duration": "暂停至6月底，预计7月起恢复",
+          "otaSuggestion": "①6月底前订单建议免费退改📍②关注下周复飞评估结果",
+          "cause": "俄乌冲突持续，多地频发无人机袭击事件",
+          "reason": "预防性安全管控措施",
+          "impact": "以色列-俄罗斯唯一直飞航线暂停",
+          "currentStatus": "以航将于下周评估是否恢复航班",
+          "otaImpact": "旅客可关注以航官网或选择经第三地中转",
+          "sources": [
+            "格隆汇 2026-06-25"
+          ]
+        },
+        {
+          "id": "AIR-003",
+          "title": "澳大利亚-新西兰航班集中取消",
+          "priority": "P1",
+          "category": "航司运营异常",
+          "date": "2026-06-26",
+          "description": "AirLabs数据显示墨尔本-悉尼/奥克兰-惠灵顿航线大量航班取消",
+          "affectedAirports": "MEL/墨尔本📍SYD/悉尼📍AKL/奥克兰📍WLG/惠灵顿",
+          "affectedRoutes": "MEL↔SYD(澳洲国内)📍AKL↔WLG(新西兰国内)",
+          "affectedAirlines": "QF/NZ/VA/SQ/EY/TK等多家航司",
+          "estimatedPassengers": "约15-20架次取消，影响旅客约3000-5000人次",
+          "duration": "今日数据，持续时间待确认",
+          "otaSuggestion": "①墨尔本-悉尼/新西兰境内航班关注航司公告📍②可考虑更换出行日期📍③关注是否为季节性运力调整",
+          "cause": "原因待确认",
+          "reason": "AirLabs数据显示多家航司同一航线集中取消",
+          "impact": "澳洲及新西兰国内航班运营受影响",
+          "currentStatus": "暂无新闻报道确认具体原因",
+          "otaImpact": "建议旅客关注航司退改政策，可考虑铁路替代(堪培拉-悉尼/墨尔本-堪培拉)",
+          "sources": [
+            "AirLabs 2026-06-26"
+          ]
+        },
+        {
+          "id": "AIR-004",
+          "title": "欧洲航班集中取消(阿姆斯特丹枢纽)",
+          "priority": "P1",
+          "category": "航司运营异常",
+          "date": "2026-06-26",
+          "description": "AirLabs数据显示阿姆斯特丹出港多条航线取消",
+          "affectedAirports": "AMS/阿姆斯特丹📍ARN/斯德哥尔摩📍DUS/杜塞尔多夫",
+          "affectedRoutes": "AMS↔ARN📍AMS↔DUS",
+          "affectedAirlines": "KL/MU/DL/SK/6E/KE/MF等多家航司",
+          "estimatedPassengers": "约10+架次取消，影响旅客约2000-3000人次",
+          "duration": "今日数据，持续时间待确认",
+          "otaSuggestion": "①阿姆斯特丹-斯德哥尔摩/杜塞尔多夫航线关注KL等航司公告📍②欧洲申根区内可考虑铁路替代",
+          "cause": "原因待确认",
+          "reason": "AirLabs数据显示AMS枢纽多条航线取消",
+          "impact": "欧洲北部航线运营受影响",
+          "currentStatus": "暂无新闻报道确认具体原因",
+          "otaImpact": "建议旅客关注航司退改政策",
+          "sources": [
+            "AirLabs 2026-06-26"
+          ]
+        },
+        {
+          "id": "AIR-005",
+          "title": "台湾-冲绳航线航班集中取消",
+          "priority": "P2",
+          "category": "航司运营异常",
+          "date": "2026-06-26",
+          "description": "AirLabs数据显示台北-冲绳航线大量航班取消",
+          "affectedAirports": "TPE/台北桃园📍OKA/冲绳那霸",
+          "affectedRoutes": "TPE↔OKA单条区域航线",
+          "affectedAirlines": "BR/NZ/TG/NH/TK/JL/MH/KL/CI等多家航司",
+          "estimatedPassengers": "约12架次取消，影响旅客约2000-3000人次",
+          "duration": "今日数据，持续时间待确认",
+          "cause": "原因待确认",
+          "impact": "台北-冲绳区域航线受影响",
+          "sources": [
+            "AirLabs 2026-06-26"
+          ]
+        }
+      ],
+      "note": "航空安全事件和自然灾害影响航班暂无最新动态。霍尔木兹海峡通航量恢复57%为航运事件，暂无直接航空影响。"
     }
   ]
 }

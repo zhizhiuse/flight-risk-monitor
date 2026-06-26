@@ -8,6 +8,112 @@
   },
   "events": [
     {
+      "id": "2026-06-26-P0-ND001",
+      "title": "委内瑞拉7.5级双强震致CCS机场关闭，164死971伤",
+      "priority": "P0",
+      "category": "自然灾害",
+      "date": "2026-06-26",
+      "description": "6月25日06:04委内瑞拉连续发生7.1级和7.5级强震，首都CCS机场正式关闭，截至25日20时已造成164人死亡971人受伤。USGS发布红色警报，预估最终死亡人数可能超1万。全国进入紧急状态。",
+      "affectedAirports": "CCS/加拉加斯（关闭）",
+      "affectedRoutes": "CCS所有国际航线中断",
+      "affectedAirlines": "所有运营CCS航司",
+      "estimatedPassengers": "日均约2-3万",
+      "duration": "持续中，CCS关闭时间未定",
+      "otaSuggestion": "①CCS方向全部订单免费退改 ②关注航司公告 ③备选波哥大BOG中转",
+      "cause": "6月25日06:04委内瑞拉连续发生7.1级和7.5级强震",
+      "reason": "震源浅、震中距首都近，CCS机场跑道及设施受损",
+      "impact": "CCS机场正式关闭，全国紧急状态，164死971伤",
+      "currentStatus": "USGS红色警报，预估最终死亡可能超1万；救援持续中",
+      "otaImpact": "CCS所有国际航线中断，影响日均2-3万旅客",
+      "fields": {
+        "affectedAirports": "CCS/加拉加斯（关闭）",
+        "affectedRoutes": "CCS所有国际航线中断",
+        "affectedAirlines": "所有运营CCS航司",
+        "estimatedPassengers": "日均约2-3万",
+        "duration": "持续中，CCS关闭时间未定",
+        "otaSuggestion": "①CCS方向全部订单免费退改 ②关注航司公告 ③备选波哥大BOG中转"
+      },
+      "sources": [
+        {
+          "name": "[1] 两次7级以上强震致732死伤 委内瑞拉进入紧急状态 - 央广网/央视新闻",
+          "url": "http://news.cnr.cn/sq/20260625/t20260625_527676138.shtml"
+        },
+        {
+          "name": "[2] 现场直击丨一分钟内，委内瑞拉遭遇两次强震 - 新华网客户端",
+          "url": "https://app.xinhuanet.com/news/article.html?articleId=2026062585bb2eb7628c4f1fbf69088fdc6d2bcc"
+        },
+        {
+          "name": "[3] 7.1级强震！委内瑞拉机场受损，航班停运 - 民航资源网",
+          "url": "https://i.carnoc.com/detail/661478"
+        },
+        {
+          "name": "[4] 日本气象厅称未来一周可能再次发生强震 - 央视新闻",
+          "url": "http://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=6423738758754590438"
+        },
+        {
+          "name": "[5] 日本本州近海地震已致6人受伤 - 京报网",
+          "url": "https://news.bjd.com.cn/2026/06/25/11826968.shtml"
+        },
+        {
+          "name": "[6] 日本气象厅:未来一周可能再次发生强震 - 凤凰网",
+          "url": "https://news.ifeng.com/c/8uEtFfa818O"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-26-P1-ND002",
+      "title": "日本岩手县近海7.2级地震，机场短暂封闭后恢复",
+      "priority": "P1",
+      "category": "自然灾害",
+      "date": "2026-06-26",
+      "description": "6月25日日本岩手县近海发生7.2级地震，机场短暂封闭后已恢复运营。JMA警告一周内可能發生同等规模余震。",
+      "affectedAirports": "花卷机场（短暂封闭后恢复）",
+      "affectedRoutes": "日本东北区域航线短暂受影响",
+      "affectedAirlines": "日本国内航司",
+      "estimatedPassengers": "约5000-8000",
+      "duration": "主震影响已缓和，但余震风险持续1周",
+      "otaSuggestion": "①关注JMA余震预警 ②东北航线订单保持弹性退改",
+      "cause": "6月25日日本岩手县近海7.2级地震",
+      "reason": "板块交界带地震活动，JMA发布余震警告",
+      "impact": "花卷机场短暂封闭，东北新干线一度停运",
+      "currentStatus": "机场已恢复运营，JMA警告一周内警惕同等余震",
+      "otaImpact": "日本东北区域航班短暂受影响，余震风险期内需保持警惕",
+      "fields": {
+        "affectedAirports": "花卷机场（短暂封闭后恢复）",
+        "affectedRoutes": "日本东北区域航线短暂受影响",
+        "affectedAirlines": "日本国内航司",
+        "estimatedPassengers": "约5000-8000",
+        "duration": "主震影响已缓和，但余震风险持续1周",
+        "otaSuggestion": "①关注JMA余震预警 ②东北航线订单保持弹性退改"
+      },
+      "sources": [
+        {
+          "name": "[1] 两次7级以上强震致732死伤 委内瑞拉进入紧急状态 - 央广网/央视新闻",
+          "url": "http://news.cnr.cn/sq/20260625/t20260625_527676138.shtml"
+        },
+        {
+          "name": "[2] 现场直击丨一分钟内，委内瑞拉遭遇两次强震 - 新华网客户端",
+          "url": "https://app.xinhuanet.com/news/article.html?articleId=2026062585bb2eb7628c4f1fbf69088fdc6d2bcc"
+        },
+        {
+          "name": "[3] 7.1级强震！委内瑞拉机场受损，航班停运 - 民航资源网",
+          "url": "https://i.carnoc.com/detail/661478"
+        },
+        {
+          "name": "[4] 日本气象厅称未来一周可能再次发生强震 - 央视新闻",
+          "url": "http://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=6423738758754590438"
+        },
+        {
+          "name": "[5] 日本本州近海地震已致6人受伤 - 京报网",
+          "url": "https://news.bjd.com.cn/2026/06/25/11826968.shtml"
+        },
+        {
+          "name": "[6] 日本气象厅:未来一周可能再次发生强震 - 凤凰网",
+          "url": "https://news.ifeng.com/c/8uEtFfa818O"
+        }
+      ]
+    },
+    {
       "id": "AIR-001",
       "title": "法国航空延长中东三条航线停运期限",
       "priority": "P1",
