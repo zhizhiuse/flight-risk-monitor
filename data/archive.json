@@ -1,6 +1,97 @@
 {
   "reports": [
     {
+      "date": "2026-06-27",
+      "reportDate": "2026-06-27",
+      "period": "morning",
+      "generated_at": "2026-06-27T09:00:00+08:00",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 2,
+        "p2_count": 0,
+        "total": 2,
+        "flight_anomaly_groups": 0,
+        "cancelled_flights": 0
+      },
+      "url": "reports/2026-06-27.json",
+      "events": [
+        {
+          "id": "2026-06-27-P1-ND001",
+          "title": "双台风逼近日本致120个航班取消，1.5万人出行受阻",
+          "priority": "P1",
+          "category": "自然灾害",
+          "date": "2026-06-27",
+          "description": "受第7号台风\"米克拉\"和第8号台风\"海高斯\"双重影响，日本多家航空公司26日取消约120个航班，冲绳、鹿儿岛等地约1.5万人出行受阻。台风海高斯预计27日接近日本东部并可能登陆。",
+          "affectedAirports": "OKA/冲绳那霸📍KOJ/鹿儿岛（日本南部枢纽）",
+          "affectedRoutes": "日本南部区域航线（冲绳/鹿儿岛出港航班）",
+          "affectedAirlines": "JAL日本航空📍ANA全日空",
+          "estimatedPassengers": "约1.5万人出行受阻",
+          "duration": "26日起持续，台风海高斯27日接近日本东部",
+          "otaSuggestion": "①涉冲绳/鹿儿岛航线建议免费退改📍②关注后续台风路径及航司公告",
+          "cause": "第7号台风米克拉和第8号台风海高斯双重影响",
+          "reason": "两台风同步逼近日本带来强风暴雨天气",
+          "impact": "日本南部区域约120个航班取消，1.5万人出行受阻",
+          "currentStatus": "台风海高斯预计27日接近日本东部并可能登陆",
+          "otaImpact": "日本南部航线大面积取消，建议涉冲绳/鹿儿岛订单免费退改",
+          "fields": {
+            "affectedAirports": "OKA/冲绳那霸📍KOJ/鹿儿岛",
+            "affectedRoutes": "日本南部区域航线",
+            "affectedAirlines": "JAL📍ANA",
+            "estimatedPassengers": "约1.5万人",
+            "duration": "26日起，台风海高斯27日接近日本东部",
+            "otaSuggestion": "①涉冲绳/鹿儿岛航线免费退改📍②关注台风路径"
+          },
+          "sources": [
+            {
+              "name": "[1] 双台风逼近日本 多家航空公司取消航班 - 央视网 2026-06-26",
+              "url": "https://news.cctv.com/2026/06/26/ARTIPgg2dm3wE5sY8jbSTKZ8260626.shtml"
+            },
+            {
+              "name": "[2] 委内瑞拉强震 机场客机剧烈摇晃 跑道开裂关闭至7月2日 - 民航资源网 2026-06-26",
+              "url": "https://i.carnoc.com/detail/661664"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-27-P1-ND002",
+          "title": "委内瑞拉CCS机场跑道裂缝确认，关闭至7月2日多家国际航司停飞",
+          "priority": "P1",
+          "category": "自然灾害",
+          "date": "2026-06-27",
+          "description": "委内瑞拉迈克蒂亚西蒙·玻利瓦尔国际机场（CCS）因地震受损进一步确认，跑道出现裂缝，塔台和客运大楼受损，10R/28L跑道将关闭至7月2日。多加国际航司已宣布暂停往返加拉加斯的商业航班运营至7月初。",
+          "affectedAirports": "CCS/加拉加斯（关闭至7月2日）",
+          "affectedRoutes": "PTY↔CCS📍MAD↔CCS等跨大西洋航线",
+          "affectedAirlines": "巴拿马航空📍伊比利亚航空📍哥伦比亚航空📍拉美航空📍高尔航空📍葡萄牙航空",
+          "estimatedPassengers": "约5千人次出行受阻",
+          "duration": "跑道关闭至2026年7月2日",
+          "otaSuggestion": "①涉CCS航线退改签政策📍②关注7月2日后重开进展📍③预计重开前国际救援航班动向",
+          "cause": "6月25日委内瑞拉7.1级和7.5级强震致机场设施受损",
+          "reason": "跑道裂缝确认，塔台和客运大楼受损，安全考量暂停运营",
+          "impact": "多家国际航司暂停CCS航线，预计7月2日前无商业航班",
+          "currentStatus": "NOTAM已发布，跑道关闭至7月2日，各航司陆续宣布停飞至7月初",
+          "otaImpact": "CCS所有国际航线中断，约5千旅客受影响，建议退改或备选BOG中转",
+          "fields": {
+            "affectedAirports": "CCS/加拉加斯",
+            "affectedRoutes": "PTY↔CCS📍MAD↔CCS等跨大西洋航线",
+            "affectedAirlines": "巴拿马航空📍伊比利亚航空📍哥伦比亚航空📍拉美航空等",
+            "estimatedPassengers": "约5千人次",
+            "duration": "关闭至7月2日",
+            "otaSuggestion": "①涉CCS航线退改📍②关注7月2日重开📍③备选BOG中转"
+          },
+          "sources": [
+            {
+              "name": "[1] 委内瑞拉强震 机场客机剧烈摇晃 跑道开裂关闭至7月2日 - 民航资源网 2026-06-26",
+              "url": "https://i.carnoc.com/detail/661664"
+            },
+            {
+              "name": "[2] 受地震影响 多家航司停飞往返委内瑞拉首都机场商业航班 - 网易 2026-06-27",
+              "url": "http://m.163.com/dy/article/L0DMT7HD0534A4SC.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-06-26",
       "reportDate": "2026-06-26",
       "period": "afternoon",

@@ -35,8 +35,14 @@
         "otaSuggestion": "①涉冲绳/鹿儿岛航线免费退改📍②关注台风路径"
       },
       "sources": [
-        {"name": "[1] 双台风逼近日本 多家航空公司取消航班 - 央视网 2026-06-26", "url": "https://news.cctv.com/2026/06/26/ARTIPgg2dm3wE5sY8jbSTKZ8260626.shtml"},
-        {"name": "[2] 委内瑞拉强震 机场客机剧烈摇晃 跑道开裂关闭至7月2日 - 民航资源网 2026-06-26", "url": "https://i.carnoc.com/detail/661664"}
+        {
+          "name": "[1] 双台风逼近日本 多家航空公司取消航班 - 央视网 2026-06-26",
+          "url": "https://news.cctv.com/2026/06/26/ARTIPgg2dm3wE5sY8jbSTKZ8260626.shtml"
+        },
+        {
+          "name": "[2] 委内瑞拉强震 机场客机剧烈摇晃 跑道开裂关闭至7月2日 - 民航资源网 2026-06-26",
+          "url": "https://i.carnoc.com/detail/661664"
+        }
       ]
     },
     {
@@ -66,8 +72,14 @@
         "otaSuggestion": "①涉CCS航线退改📍②关注7月2日重开📍③备选BOG中转"
       },
       "sources": [
-        {"name": "[1] 委内瑞拉强震 机场客机剧烈摇晃 跑道开裂关闭至7月2日 - 民航资源网 2026-06-26", "url": "https://i.carnoc.com/detail/661664"},
-        {"name": "[2] 受地震影响 多家航司停飞往返委内瑞拉首都机场商业航班 - 网易 2026-06-27", "url": "http://m.163.com/dy/article/L0DMT7HD0534A4SC.html"}
+        {
+          "name": "[1] 委内瑞拉强震 机场客机剧烈摇晃 跑道开裂关闭至7月2日 - 民航资源网 2026-06-26",
+          "url": "https://i.carnoc.com/detail/661664"
+        },
+        {
+          "name": "[2] 受地震影响 多家航司停飞往返委内瑞拉首都机场商业航班 - 网易 2026-06-27",
+          "url": "http://m.163.com/dy/article/L0DMT7HD0534A4SC.html"
+        }
       ]
     }
   ],
