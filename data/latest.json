@@ -3,11 +3,93 @@
   "generatedAt": "2026-06-27T09:00:00+08:00",
   "period": "上午",
   "summary": {
-    "P0": 0,
-    "P1": 2,
+    "P0": 1,
+    "P1": 3,
     "P2": 0
   },
   "events": [
+    {
+      "id": "2026-06-27-P0-ME001",
+      "title": "美伊直接军事冲突，霍尔木兹海峡面临关闭风险",
+      "priority": "P0",
+      "category": "地缘政治",
+      "date": "2026-06-27",
+      "description": "美军6月26日深夜对伊朗发动空袭，打击导弹与无人机储存设施及沿海雷达站。伊朗革命卫队随即反击美军驻扎点，警告若侵略再次发生反击规模将更大。这是美伊6月17日签署14点谅解备忘录后的首次直接军事冲突，霍尔木兹海峡可能面临再次关闭或通航量大幅下降风险。",
+      "affectedAirports": "霍尔木兹海峡空域迪拜DXB/多哈DOH/吉达JED/利雅得RUH/马斯喀特MCT等海湾枢纽",
+      "affectedRoutes": "波斯湾进出港货运及客运航线",
+      "affectedAirlines": "海湾地区主要航司",
+      "estimatedPassengers": "大规模旅客受影响（具体数据待更新）",
+      "duration": "局势高度紧张，伊美原定6月30日谈判是否举行存疑",
+      "otaSuggestion": "①立即下架涉霍尔木兹海峡空域的高风险航线②涉DXB/DOH/JED/RUH/MCT订单建议通知旅客关注局势③等待航司最新公告",
+      "cause": "6月25日伊朗在霍尔木兹海峡使用攻击无人机袭击新加坡籍货船，美军击落3架但仍有1架命中货船上层甲板",
+      "reason": "美军以伊朗违反停火协议为由，于6月26日深夜对伊朗发动空袭",
+      "impact": "伊朗革命卫队随即反击美军驻扎点，霍尔木兹海峡可能面临再次关闭或通航量大幅下降风险",
+      "currentStatus": "局势高度紧张，伊美原定6月30日谈判是否举行存疑",
+      "otaImpact": "海湾国家机场进出港货运及客运航线面临严重干扰，立即下架高风险航线",
+      "fields": {
+        "affectedAirports": "DXB/DOH/JED/RUH/MCT等海湾枢纽",
+        "affectedRoutes": "波斯湾进出港货运及客运航线",
+        "affectedAirlines": "海湾地区主要航司",
+        "estimatedPassengers": "大规模旅客受影响",
+        "duration": "局势高度紧张，谈判存疑",
+        "otaSuggestion": "①立即下架高风险航线②通知旅客关注③等待航司公告"
+      },
+      "sources": [
+        {
+          "name": "[1] 美军称对伊朗发动打击以回应商船遭袭事件 - 新华网 2026-06-27",
+          "url": "http://www.xinhuanet.com/20260627/727be43f00b84890a0277e0c201b88b9/c.html"
+        },
+        {
+          "name": "[2] 伊朗革命卫队称打击美军驻点以回应沿海地区遭袭 - 央视新闻 2026-06-27",
+          "url": "http://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7115172285431242308"
+        },
+        {
+          "name": "[3] 美军发动空袭！霍尔木兹海峡突生变数 - 凤凰网 2026-06-27",
+          "url": "https://finance.ifeng.com/c/8uI3RgCsVGs"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-27-P1-ME002",
+      "title": "黎以美三方协议与伊美协议冲突，伊美谈判面临破裂",
+      "priority": "P1",
+      "category": "地缘政治",
+      "date": "2026-06-27",
+      "description": "黎巴嫩、以色列和美国6月26日在华盛顿签署三方框架协议，但以色列总理内塔尼亚胡强调在真主党彻底解除武装前以军将长期驻留黎南部。伊朗已表态称以色列从黎巴嫩撤军是伊美协议的红线。黎以美三方协议与伊美谅解备忘录存在根本性冲突，伊美谈判面临破裂风险。",
+      "affectedAirports": "贝鲁特BEY及过境航线中东区域",
+      "affectedRoutes": "中东区域过境航线",
+      "affectedAirlines": "中东地区主要航司",
+      "estimatedPassengers": "持续关注（具体数据待更新）",
+      "duration": "伊美原定6月30日谈判是否如期举行存疑",
+      "otaSuggestion": "①涉BEY航线持续关注谈判进展②关注以色列撤军动态",
+      "cause": "黎巴嫩、以色列和美国6月26日在华盛顿签署三方框架协议",
+      "reason": "以色列坚持长期驻留黎南部，与伊朗设定的红线冲突",
+      "impact": "黎以美三方协议与伊美谅解备忘录存在根本性冲突，伊美谈判面临破裂风险",
+      "currentStatus": "协议签署但冲突红线未解，谈判前景不明",
+      "otaImpact": "BEY机场及中东过境航线运营面临持续不确定性",
+      "fields": {
+        "affectedAirports": "贝鲁特BEY及过境航线",
+        "affectedRoutes": "中东区域过境航线",
+        "affectedAirlines": "中东地区主要航司",
+        "estimatedPassengers": "持续关注",
+        "duration": "谈判前景不明",
+        "otaSuggestion": "①涉BEY航线持续关注②关注以色列撤军动态"
+      },
+      "sources": [
+        {
+          "name": "[4] 黎以美达成三方框架协议 - 新华网 2026-06-27",
+          "url": "http://www.xinhuanet.com/20260627/74a5ef83451c46d99b2828748f960abb/c.html"
+        },
+        {
+          "name": "[5] 美国以色列黎巴嫩签署三方框架协议 - 新浪财经 2026-06-27",
+          "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-27/doc-inieuime0417427.shtml"
+        },
+        {
+          "name": "[6] 黎以美达成三方框架协议迈向和平第一步 - 中华网 2026-06-27",
+          "url": "https://3g.china.com/act/news/10000169/20260627/49573233.html"
+        }
+      ]
+    },
     {
       "id": "2026-06-27-P1-ND001",
       "title": "双台风逼近日本致120个航班取消，1.5万人出行受阻",
@@ -35,8 +117,14 @@
         "otaSuggestion": "①涉冲绳/鹿儿岛航线免费退改📍②关注台风路径"
       },
       "sources": [
-        {"name": "[1] 双台风逼近日本 多家航空公司取消航班 - 央视网 2026-06-26", "url": "https://news.cctv.com/2026/06/26/ARTIPgg2dm3wE5sY8jbSTKZ8260626.shtml"},
-        {"name": "[2] 委内瑞拉强震 机场客机剧烈摇晃 跑道开裂关闭至7月2日 - 民航资源网 2026-06-26", "url": "https://i.carnoc.com/detail/661664"}
+        {
+          "name": "[1] 双台风逼近日本 多家航空公司取消航班 - 央视网 2026-06-26",
+          "url": "https://news.cctv.com/2026/06/26/ARTIPgg2dm3wE5sY8jbSTKZ8260626.shtml"
+        },
+        {
+          "name": "[2] 委内瑞拉强震 机场客机剧烈摇晃 跑道开裂关闭至7月2日 - 民航资源网 2026-06-26",
+          "url": "https://i.carnoc.com/detail/661664"
+        }
       ]
     },
     {
@@ -66,10 +154,16 @@
         "otaSuggestion": "①涉CCS航线退改📍②关注7月2日重开📍③备选BOG中转"
       },
       "sources": [
-        {"name": "[1] 委内瑞拉强震 机场客机剧烈摇晃 跑道开裂关闭至7月2日 - 民航资源网 2026-06-26", "url": "https://i.carnoc.com/detail/661664"},
-        {"name": "[2] 受地震影响 多家航司停飞往返委内瑞拉首都机场商业航班 - 网易 2026-06-27", "url": "http://m.163.com/dy/article/L0DMT7HD0534A4SC.html"}
+        {
+          "name": "[1] 委内瑞拉强震 机场客机剧烈摇晃 跑道开裂关闭至7月2日 - 民航资源网 2026-06-26",
+          "url": "https://i.carnoc.com/detail/661664"
+        },
+        {
+          "name": "[2] 受地震影响 多家航司停飞往返委内瑞拉首都机场商业航班 - 网易 2026-06-27",
+          "url": "http://m.163.com/dy/article/L0DMT7HD0534A4SC.html"
+        }
       ]
     }
   ],
-  "note": "今日监测到2个P1重要事件：日本台风致区域航班取消，委内瑞拉CCS机场持续关闭。CCS机场为活跃事件携带（26日主推送P0→今日调整为P1，因关闭时间已确认，发展趋势从\"快速恶化\"转为\"稳定不明朗\"）。"
+  "note": "今日监测到P0x1（美伊军事冲突）、P1x3（日本台风+CCS机场+黎以美协议冲突）。美伊军事冲突为新增P0事件，需立即下架涉霍尔木兹海峡空域高风险航线。"
 }
