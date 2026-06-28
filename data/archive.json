@@ -1,6 +1,71 @@
 {
   "reports": [
     {
+      "date": "2026-06-28",
+      "reportDate": "2026-06-28",
+      "period": "morning",
+      "generated_at": "2026-06-28T09:00:00+08:00",
+      "summary": {
+        "p0_count": 2,
+        "p1_count": 2,
+        "p2_count": 4,
+        "total": 8,
+        "flight_anomaly_groups": 0,
+        "cancelled_flights": 0
+      },
+      "url": "reports/2026-06-28.json",
+      "events": [
+        {
+          "id": "2026-06-28-P0-ME001",
+          "title": "美伊冲突再升级（第二轮空袭+区域扩散）",
+          "priority": "P0",
+          "category": "中东局势"
+        },
+        {
+          "id": "2026-06-28-P0-ND001",
+          "title": "CCS机场持续关闭（部分恢复人道货运）",
+          "priority": "P0",
+          "category": "自然灾害"
+        },
+        {
+          "id": "2026-06-28-P1-AIR001",
+          "title": "英国雷暴来袭（影响LHR/LGW 700+航班）",
+          "priority": "P1",
+          "category": "自然灾害"
+        },
+        {
+          "id": "2026-06-28-P1-GE001",
+          "title": "印巴对峙出现外交转机",
+          "priority": "P1",
+          "category": "地缘政治"
+        },
+        {
+          "id": "2026-06-28-P2-ND001",
+          "title": "印尼苏拉威西海6.5级地震",
+          "priority": "P2",
+          "category": "自然灾害"
+        },
+        {
+          "id": "2026-06-28-P2-ND002",
+          "title": "印尼班达海6.0级地震",
+          "priority": "P2",
+          "category": "自然灾害"
+        },
+        {
+          "id": "2026-06-28-P2-ND003",
+          "title": "阿富汗北部6.0级地震",
+          "priority": "P2",
+          "category": "自然灾害"
+        },
+        {
+          "id": "2026-06-28-P2-ME001",
+          "title": "德黑兰—迪拜航线7月1日起恢复",
+          "priority": "P2",
+          "category": "中东局势"
+        }
+      ]
+    },
+    {
       "date": "2026-06-27",
       "reportDate": "2026-06-27",
       "period": "morning",
