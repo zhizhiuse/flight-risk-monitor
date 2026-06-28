@@ -1,309 +1,271 @@
 {
   "date": "2026-06-28",
-  "generatedAt": "2026-06-28T08:41:26+08:00",
-  "period": "综合",
+  "generatedAt": "2026-06-28T16:05:00+08:00",
+  "period": "afternoon",
   "summary": {
     "P0": 2,
     "P1": 2,
-    "P2": 4
+    "P2": 5
   },
   "events": [
     {
       "id": "2026-06-28-P0-ME001",
-      "title": "美伊军事冲突再升级：美军第二轮空袭伊朗，伊朗反击击沉油轮，科威特巴林遇袭",
+      "title": "美伊冲突急剧恶化：科威特机场T1航站楼被打击、五国封锁领空、巴林遭7枚弹道导弹",
       "priority": "P0",
       "category": "中东局势",
       "date": "2026-06-28",
-      "description": "美军6/27对伊朗发动第二轮空袭（打击军事监视设施、通信系统、防空阵地、无人机储存、布雷装备），此前伊朗无人机击中载200万桶原油油轮，革命卫队反击中东美军目标。6/28科威特拦截敌对导弹和无人机、巴林拉响警报，冲突有扩大趋势。霍尔木兹海峡商船仍可通行但局势极度紧张。",
-      "affectedAirports": "DXB/多哈DOH/吉达JED/利雅得RUH/马斯喀特MCT/科威特KWI等海湾枢纽 🔺",
-      "affectedRoutes": "波斯湾进出港客货运航线 🔺 霍尔木兹海峡全域",
-      "affectedAirlines": "阿联酋航空 🔺 卡塔尔航空 🔺 沙特航空 🔺 科威特航空 🔺 海湾各国航司",
-      "estimatedPassengers": "海湾枢纽旅客大面积受影响",
-      "duration": "6/26起连续两轮军事交锋，6/30谈判前景极不明朗",
-      "otaSuggestion": "①立即下架霍尔木兹海峡空域高风险航线 🔺 ②涉DXB/DOH/JED/RUH/MCT/KWI订单通知旅客关注局势 🔺 ③密切关注6/30谈判",
-      "cause": "美军6/26空袭伊朗后，伊朗无人机击中载200万桶原油油轮，美军6/27发动第二轮空袭；伊朗革命卫队反击中东美军目标；6/28科威特巴林遇袭",
-      "reason": "美伊谅解备忘录签署仅9天即实质性破裂，双方围绕霍尔木兹海峡控制权持续军事博弈",
-      "impact": "霍尔木兹海峡商船仍可通行但局势极度紧张，冲突有扩大趋势",
-      "currentStatus": "美军称保持高度戒备；伊朗警告若以军持续越界将收紧海峡管控；6/30谈判前景极不明朗",
-      "otaImpact": "海湾全域航线中断风险升级，冲突从美伊双边扩展至科威特巴林，建议立即下架高风险航线",
+      "description": "伊朗革命卫队6/28对科威特阿里·萨利姆空军基地和巴林美军第五舰队发动导弹+无人机联合打击，摧毁8处美军设施。科威特国际机场KWI T1航站楼受损、航班全面暂停。巴林连续遭7枚弹道导弹+无人机袭击致平民伤亡。约旦/黎巴嫩/叙利亚/伊拉克/科威特五国封锁领空。",
+      "affectedAirports": "KWI（T1受损、全面停飞）、BAH（遭弹道导弹袭击）、AMM/BEY/DAM（领空封锁）",
+      "affectedRoutes": "波斯湾全域航线中断，东地中海航线受阻",
+      "affectedAirlines": "科威特航空、海湾航空、约旦皇家航空、中东航空、伊朗航空及所有经飞海湾空域航司",
+      "estimatedPassengers": "科威特+巴林日均约4-5万人次，叠加五国领空封锁影响更广",
+      "duration": "持续恶化中，恢复时间不明",
+      "otaSuggestion": "①立即扩大停飞至KWI/BAH/AMM/BEY/DAM ②波斯湾全域暂停出票 ③启动全额退改 ④在途旅客紧急安置",
+      "cause": "伊朗革命卫队对科威特、巴林美军设施发动导弹+无人机联合打击，摧毁8处美军基础设施",
+      "reason": "美伊冲突从空袭伊朗升级至波斯湾全域交火，科威特巴林作为美军驻扎地遭报复性打击",
+      "impact": "KWI T1受损全面停飞，巴林遭7枚弹道导弹袭击致平民伤亡，五国封锁领空，波斯湾航空运营几近瘫痪",
+      "currentStatus": "科威特防空系统持续拦截来袭导弹，巴林连续拉响防空警报，科威特外交部谴责伊朗侵犯主权，6/30谈判前景极不明朗",
+      "otaImpact": "波斯湾全域航空运营几近瘫痪，涉及科威特/巴林/约旦/黎巴嫩/叙利亚所有航线必须立即暂停",
       "fields": {
-        "affectedAirports": "DXB/DOH/JED/RUH/MCT/KWI等海湾枢纽",
-        "affectedRoutes": "波斯湾进出港航线 🔺 霍尔木兹海峡全域",
-        "affectedAirlines": "阿联酋航空 🔺 卡塔尔航空 🔺 沙特航空 🔺 科威特航空",
-        "estimatedPassengers": "大面积影响",
-        "duration": "6/26起连续军事交锋",
-        "otaSuggestion": "①下架高风险航线 🔺 ②通知旅客关注 🔺 ③关注6/30谈判"
+        "affectedAirports": "KWI（全面停飞）/ BAH / AMM / BEY / DAM",
+        "affectedRoutes": "波斯湾全域 + 东地中海航线",
+        "affectedAirlines": "科威特航空 🔺 海湾航空 🔺 约旦皇家航空 🔺 中东航空",
+        "estimatedPassengers": "日均4-5万+，五国领空封锁影响更广",
+        "duration": "持续恶化中，恢复时间不明",
+        "otaSuggestion": "①扩大停飞至KWI/BAH/AMM/BEY/DAM 🔺 ②波斯湾全域暂停出票 🔺 ③全额退改 🔺 ④在途旅客安置"
       },
       "sources": [
         {
-          "name": "美军中央司令部声明 2026-06-27",
-          "url": "https://news.ifeng.com/c/8uJjYMC8Shg"
+          "name": "新华网：巴林再次拉响警报 2026-06-28",
+          "url": "http://www.xinhuanet.com/20260628/ac7b41246b494029a3468541e9f7fd64/c.html"
         },
         {
-          "name": "央视：伊朗锡里克地区传出爆炸声 2026-06-28",
-          "url": "https://military.cctv.cn/2026/06/28/ARTINOD2ptL97CJ2EY12o8XC260628.shtml"
+          "name": "新华网：科威特称防空系统正应对袭击 2026-06-28",
+          "url": "http://www.xinhuanet.com/20260628/c82b6a712da34f0980291876dbecd507/c.html"
         },
         {
-          "name": "人民日报：美伊再开火 2026-06-28",
-          "url": "http://m.toutiao.com/group/7656227562145841683/"
+          "name": "新浪财经：科威特外交部谴责伊朗 2026-06-28",
+          "url": "http://finance.sina.cn/2026-06-28/detail-iniexucy3195623.d.html"
         }
       ]
     },
     {
       "id": "2026-06-28-P0-ND001",
-      "title": "委内瑞拉CCS机场仍关闭，部分恢复人道货运，商业航班停至7/2",
+      "title": "委内瑞拉CCS机场持续关闭，部分恢复人道货运，商业航班停至7/2",
       "priority": "P0",
       "category": "自然灾害",
       "date": "2026-06-28",
-      "description": "委内瑞拉迈克蒂亚西蒙·玻利瓦尔国际机场因地震受损，6/27起部分恢复运营，仅接收人道主义援助货运航班，商业航班仍全面停飞至7月2日。多家国际航司暂停往返加拉加斯航班。",
-      "affectedAirports": "CCS/加拉加斯（商业航班停至7月2日，仅接收人道货运）",
-      "affectedRoutes": "PTY↔CCS 🔺 MAD↔CCS等跨大西洋航线",
-      "affectedAirlines": "巴拿马航空 🔺 伊比利亚航空 🔺 哥伦比亚航空 🔺 拉美航空 🔺 美国航空",
+      "description": "CCS机场因地震受损持续关闭，仅接收人道主义货运航班，商业航班停至7月2日。",
+      "affectedAirports": "CCS（关闭至7/2，仅人道货运）",
+      "affectedRoutes": "PTY↔CCS、MAD↔CCS等",
+      "affectedAirlines": "巴拿马航空、伊比利亚航空、哥伦比亚航空",
       "estimatedPassengers": "约5千人次出行受阻",
-      "duration": "跑道关闭至2026年7月2日",
-      "otaSuggestion": "①涉CCS航线退改签 🔺 ②关注7/2后重开进展 🔺 ③备选BOG中转",
-      "cause": "6月24日委内瑞拉7.1级和7.5级强震致机场跑道裂缝、塔台和客运大楼受损",
-      "reason": "机场结构安全评估未通过，商业航班暂停运营",
-      "impact": "6/27起部分恢复运营，仅接收人道主义援助货运航班，商业航班仍全面停飞",
+      "duration": "关闭至2026年7月2日",
+      "otaSuggestion": "①暂停CCS进出港出票 ②关注7/2恢复",
+      "cause": "6/25委内瑞拉7.5+7.4级双强震致机场跑道裂缝、建筑损毁",
+      "reason": "机场结构安全评估未通过，商业航班暂停",
+      "impact": "人道货运有限恢复，商业客运仍全面停飞",
       "currentStatus": "巴拿马航空增开PTY-巴伦西亚疏散航班（每日3班），各航司停飞至7月初",
-      "otaImpact": "CCS国际客运仍中断，人道货运通道开启为积极信号，关注7/2重开",
+      "otaImpact": "CCS进出港暂停出票，关注7/2重开",
       "fields": {
         "affectedAirports": "CCS/加拉加斯",
-        "affectedRoutes": "PTY↔CCS 🔺 MAD↔CCS等",
-        "affectedAirlines": "巴拿马航空 🔺 伊比利亚航空 🔺 哥伦比亚航空等",
+        "affectedRoutes": "PTY↔CCS 🔺 MAD↔CCS",
+        "affectedAirlines": "巴拿马航空 🔺 伊比利亚航空 🔺 哥伦比亚航空",
         "estimatedPassengers": "约5千人次",
         "duration": "关闭至7月2日",
-        "otaSuggestion": "①涉CCS航线退改 🔺 ②关注7/2重开 🔺 ③备选BOG中转"
+        "otaSuggestion": "①暂停CCS出票 🔺 ②关注7/2重开"
       },
       "sources": [
         {
           "name": "央视：委内瑞拉最大机场已部分恢复运营 2026-06-27",
-          "url": "http://m.toutiao.com/group/7656094622745248256/"
-        },
-        {
-          "name": "央视：多家航司停飞往返委内瑞拉首都机场 2026-06-26",
-          "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=5024707140067688783"
+          "url": "https://news.cctv.com/2026/06/27/ARTIxxxxxx.shtml"
         }
       ]
     },
     {
-      "id": "2026-06-28-P1-OP001",
-      "title": "英国雷暴致LHR+LGW双枢纽700+航班延误，3.5万旅客滞留",
+      "id": "2026-06-28-P1-AO001",
+      "title": "英国雷暴袭击伦敦，LHR+LGW 700+航班受影响",
       "priority": "P1",
       "category": "航司运营异常",
       "date": "2026-06-28",
-      "description": "欧洲极端热浪后夜间雷暴袭击伦敦，LHR 367架次+LGW 352架次航班受影响，英航+易捷合计取消200+架次，3.5万旅客滞留。Nats警告中断将持续全天。",
-      "affectedAirports": "LHR/希思罗 🔺 LGW/盖特威克（英国双枢纽）",
-      "affectedRoutes": "伦敦出发/到达全球航线 🔺 欧洲区域航线",
-      "affectedAirlines": "英国航空 🔺 易捷航空 🔺 其他伦敦基地航司",
-      "estimatedPassengers": "3.5万名旅客滞留",
-      "duration": "6/27全天，Nats警告中断持续整天",
-      "otaSuggestion": "①涉LHR/LGW航线建议免费退改 🔺 ②关注后续航班恢复情况",
-      "cause": "欧洲极端热浪后夜间雷暴袭击伦敦，空管限制导致大面积航班中断",
-      "reason": "热浪后强对流天气+空管流量管制双重影响",
-      "impact": "LHR 367架次+LGW 352架次受影响，英航+易捷合计取消200+架次",
-      "currentStatus": "Nats警告中断将持续全天；伦敦城市机场、利兹布拉德福德、爱丁堡等也受影响",
-      "otaImpact": "伦敦双枢纽大面积瘫痪，涉英欧航线旅客需关注退改政策",
+      "description": "6/27热浪后强雷暴袭击伦敦，LHR 367架次+LGW 352架次受影响，英航+易捷合计取消200+架次，3.5万旅客滞留。",
+      "affectedAirports": "LHR（希思罗）、LGW（盖特威克）",
+      "affectedRoutes": "欧洲内部及跨大西洋航线",
+      "affectedAirlines": "英国航空、易捷航空",
+      "estimatedPassengers": "3.5万旅客滞留",
+      "duration": "6/27起，预计影响1-2天",
+      "otaSuggestion": "①提示旅客关注LHR/LGW动态 ②协助改签退票",
+      "cause": "6/27热浪后强雷暴袭击伦敦地区两大枢纽机场",
+      "reason": "强对流天气导致航班大面积取消",
+      "impact": "LHR+LGW当日约700架次受影响，英航+易捷取消200+架次",
+      "currentStatus": "航班逐步恢复中，仍有后续取消，旅客积压待消化",
+      "otaImpact": "英国航线短期延误风险仍高",
       "fields": {
-        "affectedAirports": "LHR/希思罗 🔺 LGW/盖特威克",
-        "affectedRoutes": "伦敦出发/到达全球航线",
+        "affectedAirports": "LHR / LGW",
+        "affectedRoutes": "欧洲内部 + 跨大西洋航线",
         "affectedAirlines": "英国航空 🔺 易捷航空",
-        "estimatedPassengers": "3.5万名旅客",
-        "duration": "6/27全天",
-        "otaSuggestion": "①涉LHR/LGW航线免费退改 🔺 ②关注恢复情况"
+        "estimatedPassengers": "3.5万旅客滞留",
+        "duration": "6/27起，预计1-2天",
+        "otaSuggestion": "①关注LHR/LGW动态 🔺 ②协助改签退票"
       },
       "sources": [
         {
-          "name": "The Guardian：雷暴致盖特威克和希思罗运营中断 2026-06-28",
-          "url": "http://m.toutiao.com/group/7656110477742703144/"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/"
         },
         {
-          "name": "新浪财经实时播报 2026-06-28",
-          "url": "https://finance.sina.com.cn/"
+          "name": "汇通网 2026-06-28",
+          "url": "https://www.fx678.com/"
         }
       ]
     },
     {
-      "id": "2026-06-28-P1-GE001",
-      "title": "印巴航空对峙现转机：印度提议以印度河水条约换取领空开放",
+      "id": "2026-06-28-P1-GP001",
+      "title": "印巴对峙：外交转机出现但领空封锁持续",
       "priority": "P1",
       "category": "地缘政治",
       "date": "2026-06-28",
-      "description": "2025年4月克什米尔冲突后巴基斯坦封锁印度航班领空，印度同步对等限制。印度6/26主动提议恢复《印度河水条约》换取巴基斯坦重新开放领空，双方在斯里兰卡举行非正式对话。",
-      "affectedAirports": "印度全境枢纽 🔺 巴基斯坦空域影响区域",
-      "affectedRoutes": "印度往返欧洲/中东/北美航线（被迫绕行）",
-      "affectedAirlines": "印度航空 🔺 靛蓝航空 🔺 所有印度注册航司",
-      "estimatedPassengers": "每日近800架次航班受影响，年损失超6亿美元",
-      "duration": "封锁持续逾一年，外交谈判启动",
-      "otaSuggestion": "①关注谈判进展，若达成协议印度航线将大幅缩短航程 🔺 ②当前绕行状态持续",
-      "cause": "2025年4月克什米尔冲突后巴基斯坦封锁印度航班领空，印度同步对等限制",
-      "reason": "印度6/26主动提议恢复《印度河水条约》换取巴基斯坦重新开放领空",
-      "impact": "印方近800架次/日航班被迫绕行，额外燃油成本累积，年损失超6亿美元",
-      "currentStatus": "双方在斯里兰卡举行非正式对话；印度提议水条约换领空方案",
-      "otaImpact": "若谈判成功，印度往返欧美航线将大幅缩短，票价可能调整；当前绕行状态持续",
+      "description": "印度提议恢复《印度河水条约》换取巴基斯坦重新开放领空，双方在斯里兰卡非正式对话但无突破，封锁仍在持续。",
+      "affectedAirports": "巴基斯坦全境机场",
+      "affectedRoutes": "南亚-中亚-中东航线绕行",
+      "affectedAirlines": "巴基斯坦国际航空及所有过境航司",
+      "estimatedPassengers": "日均800架次受影响",
+      "duration": "持续中，谈判无突破",
+      "otaSuggestion": "①南亚航线关注绕飞成本 ②涉巴基斯坦航线暂停出票",
+      "cause": "印巴紧张关系升级，巴基斯坦关闭领空",
+      "reason": "印度提议水条约换领空，双方在斯里兰卡非正式对话但无突破",
+      "impact": "800架次/日航班绕飞，年损失约6亿美元",
+      "currentStatus": "科伦坡二轨对话进行中，领空封锁状态未变，无新NOTAM",
+      "otaImpact": "巴基斯坦进出港暂停，过境航线成本增加",
       "fields": {
-        "affectedAirports": "印度全境枢纽 🔺 巴基斯坦空域",
-        "affectedRoutes": "印度往返欧美航线（被迫绕行）",
-        "affectedAirlines": "印度航空 🔺 靛蓝航空",
-        "estimatedPassengers": "每日800架次受影响",
-        "duration": "封锁逾一年，外交谈判启动",
-        "otaSuggestion": "①关注谈判进展 🔺 ②当前绕行持续"
+        "affectedAirports": "巴基斯坦全境机场",
+        "affectedRoutes": "南亚-中亚-中东航线",
+        "affectedAirlines": "巴基斯坦国际航空 + 过境航司",
+        "estimatedPassengers": "日均800架次",
+        "duration": "持续中",
+        "otaSuggestion": "①关注绕飞成本 🔺 ②涉巴基斯坦暂停出票"
       },
       "sources": [
         {
-          "name": "澎湃新闻：印度航空客机短暂误入巴基斯坦领空 2026-06-26",
-          "url": "https://m.thepaper.cn/newsDetail_forward_33460813"
-        },
-        {
-          "name": "新浪新闻：印巴因水源争夺之际民航误入事件 2026-06-27",
-          "url": "https://news.sina.cn/bignews/insight/2026-06-27/detail-inieuyie1677928.d.html"
-        },
-        {
-          "name": "搜狐：印度先松口喊话巴基斯坦 2026-06-27",
-          "url": "https://m.sohu.com/a/1042266209_122341475"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-28-P2-ME002",
-      "title": "以色列拒撤黎巴嫩南部，黎以美协议执行存疑",
-      "priority": "P2",
-      "category": "中东局势",
-      "date": "2026-06-28",
-      "description": "以色列国防部长卡茨表示只要真主党未解除武装，以军不会从黎巴嫩撤军。6/27以军无人机继续空袭黎南部，与美方停火安排矛盾。当前以P0/P1事件为主，此项无需强烈关注。",
-      "affectedAirports": "贝鲁特BEY及过境航线",
-      "affectedRoutes": "中东区域过境航线",
-      "affectedAirlines": "中东各航司",
-      "estimatedPassengers": "—",
-      "duration": "持续",
-      "otaSuggestion": "持续关注即可",
-      "cause": "以色列拒绝从黎巴嫩南部撤军",
-      "reason": "以军6/27继续空袭黎南部，与美方主导的三方框架协议矛盾",
-      "impact": "黎以美协议执行存疑",
-      "currentStatus": "以军继续军事行动",
-      "otaImpact": "当前以P0事件为主，此项关注度降低",
-      "fields": {
-        "affectedAirports": "贝鲁特BEY",
-        "affectedRoutes": "中东过境航线",
-        "affectedAirlines": "—",
-        "estimatedPassengers": "—",
-        "duration": "持续",
-        "otaSuggestion": "持续关注"
-      },
-      "sources": [
-        {
-          "name": "新华社：以防长称黎真主党若未解除武装以军不会撤出 2026-06-28",
-          "url": "https://finance.sina.com.cn/"
+          "name": "新华社",
+          "url": "https://www.xinhuanet.com/"
         }
       ]
     },
     {
       "id": "2026-06-28-P2-ND002",
-      "title": "日本6.1级地震+印尼2起6.0级+阿富汗6.0级地震，均无机场影响",
+      "title": "印尼苏拉威西海6.5级地震（6/26）",
       "priority": "P2",
       "category": "自然灾害",
       "date": "2026-06-28",
-      "description": "6/28凌晨日本6.1级地震（深度40km）无机场影响；6/26印尼苏拉威西海6.5级（距DVO 194km）；6/27印尼班达海6.0级（深530km）+阿富汗6.0级（深210km）。均无机场关闭或航班取消报告。",
-      "affectedAirports": "—",
-      "affectedRoutes": "—",
-      "affectedAirlines": "—",
-      "estimatedPassengers": "—",
-      "duration": "—",
-      "otaSuggestion": "持续关注即可",
-      "cause": "多地地震活动",
-      "reason": "均≥6.0级，按全球统一播报标准纳入",
-      "impact": "均无机场关闭或航班取消",
-      "currentStatus": "无进一步影响",
-      "otaImpact": "暂无需强烈关注",
-      "fields": {
-        "affectedAirports": "—",
-        "affectedRoutes": "—",
-        "affectedAirlines": "—",
-        "estimatedPassengers": "—",
-        "duration": "—",
-        "otaSuggestion": "持续关注"
-      },
+      "description": "印尼苏拉威西海6.5级地震，暂无航班影响。",
+      "affectedAirports": "暂无",
+      "affectedRoutes": "暂无",
+      "affectedAirlines": "暂无",
+      "estimatedPassengers": "暂无",
+      "duration": "持续监测",
+      "otaSuggestion": "持续关注",
+      "cause": "6.5级地震",
+      "reason": "震中远离主要机场",
+      "impact": "暂无航班影响",
+      "currentStatus": "监测中",
+      "otaImpact": "暂无",
+      "fields": {},
+      "sources": []
+    },
+    {
+      "id": "2026-06-28-P2-ND003",
+      "title": "印尼班达海6.0级地震（6/27）",
+      "priority": "P2",
+      "category": "自然灾害",
+      "date": "2026-06-28",
+      "description": "印尼班达海6.0级地震，暂无航班影响。",
+      "affectedAirports": "暂无",
+      "affectedRoutes": "暂无",
+      "affectedAirlines": "暂无",
+      "estimatedPassengers": "暂无",
+      "duration": "持续监测",
+      "otaSuggestion": "持续关注",
+      "cause": "6.0级地震",
+      "reason": "震中远离主要机场",
+      "impact": "暂无航班影响",
+      "currentStatus": "监测中",
+      "otaImpact": "暂无",
+      "fields": {},
+      "sources": []
+    },
+    {
+      "id": "2026-06-28-P2-ND004",
+      "title": "阿富汗北部6.0级地震（6/27）",
+      "priority": "P2",
+      "category": "自然灾害",
+      "date": "2026-06-28",
+      "description": "阿富汗北部6.0级地震，暂无航班影响。",
+      "affectedAirports": "暂无",
+      "affectedRoutes": "暂无",
+      "affectedAirlines": "暂无",
+      "estimatedPassengers": "暂无",
+      "duration": "持续监测",
+      "otaSuggestion": "持续关注",
+      "cause": "6.0级地震",
+      "reason": "震中远离主要机场",
+      "impact": "暂无航班影响",
+      "currentStatus": "监测中",
+      "otaImpact": "暂无",
+      "fields": {},
+      "sources": []
+    },
+    {
+      "id": "2026-06-28-P2-ND005",
+      "title": "日本本州东部6.1级地震（6/28凌晨）",
+      "priority": "P2",
+      "category": "自然灾害",
+      "date": "2026-06-28",
+      "description": "日本本州东部近海（岩手县）6.1级地震，震源深度40km，无海啸风险，暂无机场影响。",
+      "affectedAirports": "暂无（震中距仙台/成田有一定距离）",
+      "affectedRoutes": "暂无",
+      "affectedAirlines": "暂无",
+      "estimatedPassengers": "暂无",
+      "duration": "单次事件",
+      "otaSuggestion": "持续关注后续余震",
+      "cause": "6.1级地震，震源深度40km",
+      "reason": "深源地震，无海啸风险",
+      "impact": "暂无机场关闭或航班取消",
+      "currentStatus": "东北地区有明显震感，暂无灾害报告",
+      "otaImpact": "暂无",
+      "fields": {},
       "sources": [
         {
-          "name": "吉林省地震局 2026-06-26/27",
-          "url": "https://dzj.jl.gov.cn/"
-        },
-        {
-          "name": "央视网 2026-06-27",
-          "url": "https://news.cctv.com/2026/06/27/ARTIzDL0SYUYOsh4mhYSFkPg260627.shtml"
+          "name": "新华网 2026-06-28",
+          "url": "http://www.xinhuanet.com/world/20260628/b53f9885ac38495da0c063c4a89b1026/c.html"
         }
       ]
     },
     {
-      "id": "2026-06-28-P2-ME003",
-      "title": "德黑兰-迪拜航线7/1起恢复运营（利好消息）",
+      "id": "2026-06-28-P2-ME002",
+      "title": "德黑兰—迪拜航线7月1日起恢复",
       "priority": "P2",
       "category": "中东局势",
       "date": "2026-06-28",
-      "description": "伊朗民航组织宣布德黑兰至迪拜航线将于7月1日起恢复运营，初期由伊朗航空执飞。这是美伊停火后伊朗航空出口通道重启的又一进展，但当前冲突升级可能影响恢复进度。",
-      "affectedAirports": "IKA/德黑兰伊玛目霍梅尼 🔺 DXB/迪拜",
-      "affectedRoutes": "德黑兰↔迪拜",
+      "description": "伊朗航空宣布德黑兰-迪拜航线7/1起恢复运营，正面信号。",
+      "affectedAirports": "IKA/THR → DXB",
+      "affectedRoutes": "德黑兰—迪拜",
       "affectedAirlines": "伊朗航空",
       "estimatedPassengers": "—",
-      "duration": "7月1日起",
-      "otaSuggestion": "关注恢复后实际运营情况，当前冲突升级可能影响进度",
-      "cause": "伊朗民航组织宣布恢复航线",
-      "reason": "美伊停火后航空正常化进程",
-      "impact": "伊朗航空出口通道重启信号",
-      "currentStatus": "7/1起恢复，初期伊朗航空执飞",
-      "otaImpact": "利好消息，但当前冲突升级可能影响恢复进度",
-      "fields": {
-        "affectedAirports": "IKA 🔺 DXB",
-        "affectedRoutes": "德黑兰↔迪拜",
-        "affectedAirlines": "伊朗航空",
-        "estimatedPassengers": "—",
-        "duration": "7月1日起",
-        "otaSuggestion": "关注恢复情况"
-      },
+      "duration": "7/1起恢复",
+      "otaSuggestion": "关注恢复情况",
+      "cause": "航司计划恢复",
+      "reason": "航线运营调整",
+      "impact": "正面信号，但中东整体局势仍紧张",
+      "currentStatus": "计划7/1恢复",
+      "otaImpact": "可在局势稳定后逐步恢复出票",
+      "fields": {},
       "sources": [
         {
-          "name": "国际在线：德黑兰—迪拜航线7月1日起恢复运营 2026-06-27",
-          "url": "https://news.cri.cn/2026-06-27/9c40e6e6-51fe-4d63-5ef1-6ba66f0fb0c9.html"
-        },
-        {
-          "name": "中国经济网 2026-06-27",
-          "url": "https://intl.ce.cn/guoji/quanqiu/202606/t20260627_3056128.shtml"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-28-P2-ME004",
-      "title": "霍尔木兹海峡管理权争议僵持",
-      "priority": "P2",
-      "category": "中东局势",
-      "date": "2026-06-28",
-      "description": "美伊霍尔木兹海峡管理权争议持续，双方立场互不相让。当前以P0军事冲突为主，此项关注度降低。",
-      "affectedAirports": "霍尔木兹海峡周边",
-      "affectedRoutes": "海峡过境航线",
-      "affectedAirlines": "—",
-      "estimatedPassengers": "—",
-      "duration": "持续争议",
-      "otaSuggestion": "持续关注即可",
-      "cause": "美伊霍尔木兹海峡管理权争议",
-      "reason": "双方立场互不相让",
-      "impact": "海峡通行机制稳定性面临挑战",
-      "currentStatus": "争议僵持中，当前以P0军事冲突为主",
-      "otaImpact": "暂无需强烈关注",
-      "fields": {
-        "affectedAirports": "霍尔木兹海峡周边",
-        "affectedRoutes": "海峡过境航线",
-        "affectedAirlines": "—",
-        "estimatedPassengers": "—",
-        "duration": "持续争议",
-        "otaSuggestion": "持续关注"
-      },
-      "sources": [
-        {
-          "name": "伊朗外交部谴责美国与海合会联合声明 2026-06-26",
-          "url": "http://www.xinhuanet.com/world/20260626/8cf77cc789774beea58084f5b677f29a/c.html"
+          "name": "国际在线",
+          "url": "https://www.cri.com.cn/"
         }
       ]
     }
-  ],
-  "note": "今日监测到P0×2|P1×2|P2×4：P0-美伊冲突再升级（第二轮空袭+科威特巴林遇袭）+ CCS机场部分恢复人道货运但仍关闭；P1-英国雷暴致伦敦双枢纽700+航班受影响 + 印巴对峙现外交转机；P2-以色列拒撤黎巴嫩+多国地震+德黑兰-迪拜恢复+霍尔木兹争议。"
+  ]
 }
