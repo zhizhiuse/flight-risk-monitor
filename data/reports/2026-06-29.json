@@ -30,8 +30,14 @@
         "otaSuggestion": "①维持停飞 🔺 ②暂停出票 🔺 ③全额退改 🔺 ④关注谈判"
       },
       "sources": [
-        {"name": "新华网", "url": "http://www.xinhuanet.com/"},
-        {"name": "新浪财经", "url": "http://finance.sina.cn/"}
+        {
+          "name": "新华网",
+          "url": "http://www.xinhuanet.com/"
+        },
+        {
+          "name": "新浪财经",
+          "url": "http://finance.sina.cn/"
+        }
       ]
     },
     {
@@ -56,7 +62,10 @@
         "otaSuggestion": "①暂停CCS出票 🔺 ②关注7/2重开"
       },
       "sources": [
-        {"name": "央视", "url": "https://news.cctv.com/"}
+        {
+          "name": "央视",
+          "url": "https://news.cctv.com/"
+        }
       ]
     },
     {
@@ -81,7 +90,10 @@
         "otaSuggestion": "①关注动态 🔺 ②协助改签退票"
       },
       "sources": [
-        {"name": "Guardian", "url": "https://www.theguardian.com/"}
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/"
+        }
       ]
     },
     {
@@ -106,7 +118,10 @@
         "otaSuggestion": "①关注绕飞成本 🔺 ②涉巴基斯坦暂停出票"
       },
       "sources": [
-        {"name": "新华社", "url": "https://www.xinhuanet.com/"}
+        {
+          "name": "新华社",
+          "url": "https://www.xinhuanet.com/"
+        }
       ]
     },
     {
@@ -124,7 +139,10 @@
       "otaSuggestion": "持续关注余震",
       "fields": {},
       "sources": [
-        {"name": "新华网", "url": "http://www.xinhuanet.com/"}
+        {
+          "name": "新华网",
+          "url": "http://www.xinhuanet.com/"
+        }
       ]
     },
     {
@@ -142,7 +160,10 @@
       "otaSuggestion": "关注恢复情况",
       "fields": {},
       "sources": [
-        {"name": "国际在线", "url": "https://www.cri.com.cn/"}
+        {
+          "name": "国际在线",
+          "url": "https://www.cri.com.cn/"
+        }
       ]
     }
   ]
