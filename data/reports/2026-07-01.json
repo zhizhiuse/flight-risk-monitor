@@ -10,13 +10,9 @@
       "description": "美伊临时停火共识维持，但多哈面对面谈判搁浅。KWI航班缩减约30%运营中，BAH白天正常/夜间限制。",
       "affectedAirports": "KWI（航班缩减约30%）、BAH（白天正常/夜间限制）",
       "affectedRoutes": "波斯湾跨洲主干航线、伊朗-海湾国家航线",
-      "affectedAirlines": "伊朗航空、阿联酋航空、卡塔尔航空、马汉航空",
+      "affectedAirlines": "伊朗航空、阿联酋航空、卡塔尔航空",
       "estimatedPassengers": "KWI日均约2.8万人次、BAH日均约3万人次",
-      "duration": "延续事件（6/25起），停火持续但谈判前景不明",
-      "cause": "美伊临时停火共识维持，但面对面谈判搁浅",
-      "reason": "美伊在核问题及制裁解除条件上分歧严重",
-      "impact": "KWI航班缩减约30%，BAH夜间限制，霍尔木兹通航恢复至57%",
-      "currentStatus": "停火维持，技术谈判持续，德黑兰-迪拜航线7/1恢复"
+      "duration": "延续事件，停火持续但谈判前景不明"
     },
     {
       "id": "P0-ND001-2026-07-01",
@@ -29,15 +25,24 @@
       "affectedRoutes": "CCS出发全部国际航线",
       "affectedAirlines": "巴拿马航空、伊比利亚航空、哥伦比亚航空",
       "estimatedPassengers": "原日均约1.5万人次",
-      "duration": "关闭至2026年7月2日",
-      "cause": "6/25双强震导致机场基础设施严重受损",
-      "reason": "跑道裂缝、塔台受损、航站楼开裂",
-      "impact": "南美洲与加勒比海地区航空通道中断",
-      "currentStatus": "6/28起有限恢复人道货运，商业客运预计7/2后评估解封"
+      "duration": "关闭至2026年7月2日"
+    },
+    {
+      "id": "P1-SA001-2026-07-01",
+      "title": "FAA禁止777/747在加拿大着陆",
+      "priority": "P1",
+      "category": "航空安全",
+      "date": "2026-07-01",
+      "description": "FAA发布适航指令，7/1起限制配备旧式无线电高度表的飞机在加拿大运营，禁止波音777和747在加拿大着陆，约1000架飞机受影响。",
+      "affectedAirports": "YYZ（多伦多）、YVR（温哥华）、YUL（蒙特利尔）",
+      "affectedRoutes": "跨大西洋航线、跨太平洋航线中涉及加拿大机场的航班",
+      "affectedAirlines": "所有运营波音777和747的航司（美加航线）",
+      "estimatedPassengers": "约1000架飞机受影响",
+      "duration": "7月1日起生效，直至飞机完成无线电高度表改装"
     },
     {
       "id": "P1-GP002-2026-07-01",
-      "title": "印巴对峙——领空封锁持续，出现对话信号",
+      "title": "印巴对峙——领空封锁持续",
       "priority": "P1",
       "category": "地缘政治",
       "date": "2026-07-01",
@@ -45,12 +50,12 @@
       "affectedAirports": "DEL/BOM（印度）、ISB/LHE（巴基斯坦）",
       "affectedRoutes": "印度往返欧洲/中东/北美跨洲航线",
       "affectedAirlines": "印度航空、靛蓝航空、SpiceJet、巴基斯坦国际航空",
-      "estimatedPassengers": "每日约800架次绕行，年损失超6亿美元",
-      "duration": "已持续一年以上，正在非正式对话中"
+      "estimatedPassengers": "每日约800架次绕行",
+      "duration": "已持续一年以上"
     },
     {
       "id": "P1-GP003-2026-07-01",
-      "title": "霍尔木兹海峡管控——通行恢复至战前57%",
+      "title": "霍尔木兹海峡管控——通行恢复至57%",
       "priority": "P1",
       "category": "地缘政治",
       "date": "2026-07-01",
@@ -58,8 +63,16 @@
       "affectedAirports": "波斯湾全域机场",
       "affectedRoutes": "海湾-欧洲/亚洲跨洲航线",
       "affectedAirlines": "波斯湾全域航司",
-      "estimatedPassengers": "间接影响绕飞决策和航运保险成本",
+      "estimatedPassengers": "间接影响",
       "duration": "持续恢复中"
+    },
+    {
+      "id": "P2-SA002-2026-07-01",
+      "title": "波兰飞以色列航班误发7500劫机码",
+      "priority": "P2",
+      "category": "航空安全",
+      "date": "2026-07-01",
+      "description": "6/30波兰华沙飞以色列航班因应答机技术故障误发7500劫机代码，保加利亚米格-29紧急拦截后确认误报。"
     },
     {
       "id": "P2-ND002-2026-07-01",
@@ -76,19 +89,11 @@
       "category": "自然灾害",
       "date": "2026-07-01",
       "description": "7/1 07:44青海5.2级地震，震中无人区，无机场影响。"
-    },
-    {
-      "id": "P2-AO001-2026-07-01",
-      "title": "靛蓝航空停飞印港/印沪航线",
-      "priority": "P2",
-      "category": "航司运营",
-      "date": "2026-07-01",
-      "description": "印度靛蓝航空7/1起停飞印度-香港/上海航线，单条航线运营调整。"
     }
   ],
   "summary": {
     "P0": 2,
-    "P1": 2,
+    "P1": 3,
     "P2": 3
   }
 }

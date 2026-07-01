@@ -1,170 +1,37 @@
 {
   "date": "2026-06-29",
-  "generatedAt": "2026-06-29T09:00:00+08:00",
-  "period": "morning",
-  "summary": {
-    "P0": 2,
-    "P1": 2,
-    "P2": 2
-  },
   "events": [
     {
-      "id": "2026-06-28-P0-ME001",
-      "title": "美伊冲突📌进展更新：临时停火达成，6/30多哈重启谈判",
+      "id": "P0-006-2026-06-29",
+      "title": "美伊临时停火 海湾机场恢复待定",
       "priority": "P0",
       "category": "中东局势",
-      "date": "2026-06-28",
-      "description": "伊朗革命卫队6/28对科威特、巴林美军设施发动打击后，美伊达成临时停火共识，6/30将在多哈重启技术性谈判。霍尔木兹海峡通航量骤降80%，科威特/巴林机场恢复时间未公布。",
-      "affectedAirports": "KWI（T1受损停飞中）、BAH（恢复中）、AMM/BEY/DAM",
-      "affectedRoutes": "波斯湾全域 + 东地中海航线",
-      "affectedAirlines": "科威特航空、海湾航空、约旦皇家航空、中东航空及所有经飞海湾空域航司",
-      "estimatedPassengers": "日均4-5万+，五国领空封锁影响更广",
-      "duration": "停火中，6/30谈判为关键节点",
-      "otaSuggestion": "①维持KWI/BAH等停飞 ②波斯湾全域暂停出票 ③全额退改 ④关注6/30谈判结果",
+      "date": "2026-06-29",
+      "description": "美伊达成临时停火共识，6月30日多哈重启谈判。霍尔木兹海峡通航量骤降80%，科威特/巴林/委内瑞拉机场仍关闭。",
+      "affectedAirports": "科威特KWI机场、巴林BAH机场、委内瑞拉CCS机场",
+      "affectedRoutes": "波斯湾跨洲主干航线、德黑兰-迪拜航线",
+      "affectedAirlines": "伊朗航空、马汉航空、阿联酋航空、卡塔尔航空",
+      "estimatedPassengers": "约9.5万人次受影响",
+      "duration": "KWI/BAH恢复时间待定，CCS预计7月2日",
+      "otaSuggestion": "暂停KWI/BAH机票销售，CCS机票延至7月3日后执行",
+      "cause": "美伊军事冲突升级，伊朗导弹打击科威特美军基地，五国封锁领空",
+      "reason": "霍尔木兹海峡通航量骤降（10-12艘/日，较峰值降80%），伊朗坚持通行须与革命卫队协调",
+      "impact": "海湾地区5国封锁领空，波斯湾航运受阻，全球油气运输受扰",
+      "currentStatus": "美伊达成临时停火共识，6月30日在卡塔尔多哈重启技术性谈判，聚焦霍尔木兹通航争端",
+      "otaImpact": "KWI/BAH机场恢复前相关航线机票风险持续，建议7月1日后视谈判结果调整策略",
       "fields": {
-        "affectedAirports": "KWI（停飞中）/ BAH / AMM / BEY / DAM",
-        "affectedRoutes": "波斯湾全域 + 东地中海航线",
-        "affectedAirlines": "科威特航空 🔺 海湾航空 🔺 约旦皇家航空 🔺 中东航空",
-        "estimatedPassengers": "日均4-5万+，五国领空封锁影响更广",
-        "duration": "停火中，6/30谈判关键",
-        "otaSuggestion": "①维持停飞 🔺 ②暂停出票 🔺 ③全额退改 🔺 ④关注谈判"
-      },
-      "sources": [
-        {
-          "name": "新华网",
-          "url": "http://www.xinhuanet.com/"
-        },
-        {
-          "name": "新浪财经",
-          "url": "http://finance.sina.cn/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-28-P0-ND001",
-      "title": "委内瑞拉CCS机场持续关闭至7/2",
-      "priority": "P0",
-      "category": "自然灾害",
-      "date": "2026-06-28",
-      "description": "CCS机场因地震受损持续关闭，仅接收人道主义货运航班，商业航班停至7月2日。",
-      "affectedAirports": "CCS（关闭至7/2，仅人道货运）",
-      "affectedRoutes": "PTY↔CCS、MAD↔CCS等",
-      "affectedAirlines": "巴拿马航空、伊比利亚航空、哥伦比亚航空",
-      "estimatedPassengers": "约5千人次",
-      "duration": "关闭至2026年7月2日",
-      "otaSuggestion": "①暂停CCS出票 ②关注7/2重开",
-      "fields": {
-        "affectedAirports": "CCS/加拉加斯",
-        "affectedRoutes": "PTY↔CCS 🔺 MAD↔CCS",
-        "affectedAirlines": "巴拿马航空 🔺 伊比利亚航空 🔺 哥伦比亚航空",
-        "estimatedPassengers": "约5千人次",
-        "duration": "关闭至7月2日",
-        "otaSuggestion": "①暂停CCS出票 🔺 ②关注7/2重开"
-      },
-      "sources": [
-        {
-          "name": "央视",
-          "url": "https://news.cctv.com/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-28-P1-AO001",
-      "title": "英国雷暴：LHR+LGW 700+航班受影响，逐步恢复中",
-      "priority": "P1",
-      "category": "航司运营异常",
-      "date": "2026-06-28",
-      "description": "6/27强雷暴袭击伦敦，LHR+LGW 700+架次受影响，航班逐步恢复中。",
-      "affectedAirports": "LHR、LGW",
-      "affectedRoutes": "欧洲内部及跨大西洋航线",
-      "affectedAirlines": "英国航空、易捷航空",
-      "estimatedPassengers": "3.5万旅客滞留",
-      "duration": "6/27起，预计1-2天",
-      "otaSuggestion": "①关注LHR/LGW动态 ②协助改签退票",
-      "fields": {
-        "affectedAirports": "LHR / LGW",
-        "affectedRoutes": "欧洲内部 + 跨大西洋航线",
-        "affectedAirlines": "英国航空 🔺 易捷航空",
-        "estimatedPassengers": "3.5万旅客滞留",
-        "duration": "6/27起，预计1-2天",
-        "otaSuggestion": "①关注动态 🔺 ②协助改签退票"
-      },
-      "sources": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-28-P1-GP001",
-      "title": "印巴对峙：领空封锁持续，谈判无突破",
-      "priority": "P1",
-      "category": "地缘政治",
-      "date": "2026-06-28",
-      "description": "印巴领空封锁持续，科伦坡二轨对话无突破。",
-      "affectedAirports": "巴基斯坦全境机场",
-      "affectedRoutes": "南亚-中亚-中东航线",
-      "affectedAirlines": "巴基斯坦国际航空 + 过境航司",
-      "estimatedPassengers": "日均800架次",
-      "duration": "持续中",
-      "otaSuggestion": "①关注绕飞成本 ②涉巴基斯坦暂停出票",
-      "fields": {
-        "affectedAirports": "巴基斯坦全境机场",
-        "affectedRoutes": "南亚-中亚-中东航线",
-        "affectedAirlines": "巴基斯坦国际航空 + 过境航司",
-        "estimatedPassengers": "日均800架次",
-        "duration": "持续中",
-        "otaSuggestion": "①关注绕飞成本 🔺 ②涉巴基斯坦暂停出票"
-      },
-      "sources": [
-        {
-          "name": "新华社",
-          "url": "https://www.xinhuanet.com/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-28-P2-ND005",
-      "title": "日本本州东部6.1级地震（6/28）",
-      "priority": "P2",
-      "category": "自然灾害",
-      "date": "2026-06-28",
-      "description": "日本本州东部近海6.1级地震，震源40km，无海啸风险，暂无航班影响。",
-      "affectedAirports": "暂无",
-      "affectedRoutes": "暂无",
-      "affectedAirlines": "暂无",
-      "estimatedPassengers": "暂无",
-      "duration": "单次事件",
-      "otaSuggestion": "持续关注余震",
-      "fields": {},
-      "sources": [
-        {
-          "name": "新华网",
-          "url": "http://www.xinhuanet.com/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-28-P2-ME002",
-      "title": "德黑兰-迪拜航线7/1起恢复",
-      "priority": "P2",
-      "category": "中东局势",
-      "date": "2026-06-28",
-      "description": "伊朗航空宣布德黑兰-迪拜航线7/1起恢复运营，正面信号。",
-      "affectedAirports": "IKA/THR → DXB",
-      "affectedRoutes": "德黑兰-迪拜",
-      "affectedAirlines": "伊朗航空",
-      "estimatedPassengers": "—",
-      "duration": "7/1起恢复",
-      "otaSuggestion": "关注恢复情况",
-      "fields": {},
-      "sources": [
-        {
-          "name": "国际在线",
-          "url": "https://www.cri.com.cn/"
-        }
-      ]
+        "affectedAirports": "科威特KWI机场（仍关闭，T1受损）、巴林BAH机场（仍关闭）、委内瑞拉CCS机场（预计7月2日解封）",
+        "affectedRoutes": "波斯湾跨洲主干航线（霍尔木兹海峡通航量骤降80%）、德黑兰-迪拜（7月1日拟恢复）",
+        "affectedAirlines": "伊朗航空、马汉航空、阿联酋航空、卡塔尔航空",
+        "estimatedPassengers": "KWI+BAH机场日均旅客约8万人次，CCS机场滞留旅客约1.5万人次",
+        "duration": "KWI/BAH恢复时间待定，CCS预计7月2日",
+        "otaSuggestion": "①暂停科威特/巴林始发到达机票销售 ②持续监控KWI/BAH机场恢复动态 ③CCS机票延至7月3日后执行"
+      }
     }
-  ]
+  ],
+  "summary": {
+    "P0": 1,
+    "P1": 0,
+    "P2": 0
+  }
 }
