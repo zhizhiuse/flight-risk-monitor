@@ -1,6 +1,78 @@
 {
   "reports": [
     {
+      "date": "2026-07-02",
+      "reportDate": "2026-07-02",
+      "period": "morning",
+      "generated_at": "2026-07-02T09:00:00+08:00",
+      "summary": {
+        "p0_count": 2,
+        "p1_count": 3,
+        "p2_count": 4,
+        "total": 9,
+        "flight_anomaly_groups": 0,
+        "cancelled_flights": 0
+      },
+      "url": "reports/2026-07-02.json",
+      "events": [
+        {
+          "id": "2026-07-02-P0-001",
+          "title": "美伊冲突：停火维持，多哈间接会谈分歧明显",
+          "priority": "P0",
+          "category": "地缘政治"
+        },
+        {
+          "id": "2026-07-02-P0-002",
+          "title": "CCS机场：部分恢复人道货运，商业航班仍停",
+          "priority": "P0",
+          "category": "自然灾害"
+        },
+        {
+          "id": "2026-07-02-P1-001",
+          "title": "EASA中东冲突区警告延长至7月8日",
+          "priority": "P1",
+          "category": "地缘政治"
+        },
+        {
+          "id": "2026-07-02-P1-002",
+          "title": "印巴对峙：领空封锁持续",
+          "priority": "P1",
+          "category": "地缘政治"
+        },
+        {
+          "id": "2026-07-02-P1-003",
+          "title": "FAA加拿大777/747着陆限制",
+          "priority": "P1",
+          "category": "航空安全"
+        },
+        {
+          "id": "2026-07-02-P2-001",
+          "title": "墨西哥6.1级地震",
+          "priority": "P2",
+          "category": "自然灾害"
+        },
+        {
+          "id": "2026-07-02-P2-002",
+          "title": "青海5.2级地震",
+          "priority": "P2",
+          "category": "自然灾害"
+        },
+        {
+          "id": "2026-07-02-P2-003",
+          "title": "靛蓝航空停印港/印沪航线",
+          "priority": "P2",
+          "category": "航司运营"
+        },
+        {
+          "id": "2026-07-02-P2-004",
+          "title": "波兰飞以色列航班误发7500劫机码",
+          "priority": "P2",
+          "category": "航空安全"
+        }
+      ],
+      "notes": "AirLabs月度额度耗尽，航班实时数据暂不可用"
+    },
+    {
       "date": "2026-06-28",
       "reportDate": "2026-06-28",
       "period": "morning",
@@ -619,183 +691,64 @@
       ]
     },
     {
-      "date": "2026-06-22",
-      "period": "afternoon",
-      "generated_at": "2026-06-22T16:40:00+08:00",
+      "date": "2026-06-23",
+      "reportDate": "2026-06-23",
+      "period": "morning",
+      "generated_at": "2026-06-23T08:55:00+08:00",
       "summary": {
         "p0_count": 0,
         "p1_count": 2,
-        "p2_count": 1,
-        "total": 3,
-        "flight_anomaly_groups": 7,
-        "cancelled_flights": 51
+        "p2_count": 3,
+        "total": 5,
+        "flight_anomaly_groups": 4,
+        "cancelled_flights": 12
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "reportDate": "2026-06-23",
+      "period": "afternoon",
+      "generated_at": "2026-06-23T16:16:00+08:00",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 2,
+        "p2_count": 3,
+        "total": 5,
+        "flight_anomaly_groups": 0,
+        "cancelled_flights": 0
       },
-      "events_summary": [
-        {
-          "id": "P1-001",
-          "priority": "P1",
-          "title": "台风米克拉加强为超强台风级 2020年以来同期最强6月台风"
-        },
+      "events": [
         {
           "id": "P1-ME001",
           "priority": "P1",
-          "title": "霍尔木兹海峡通行量骤降至近零 伊朗坚称关闭"
+          "category": "中东局势",
+          "title": "霍尔木兹海峡通行协调热线正式建立，400+船舶待疏解"
+        },
+        {
+          "id": "P1-001",
+          "priority": "P1",
+          "category": "自然灾害",
+          "title": "台风米克拉超强台风级持续发展：预计6/25-26最靠近台湾"
+        },
+        {
+          "id": "P2-001",
+          "priority": "P2",
+          "category": "航空安全",
+          "title": "波士顿洛根机场达美/美航客机险些相撞——NTSB/FAA启动调查"
         },
         {
           "id": "P2-ME001",
           "priority": "P2",
-          "title": "美伊首轮谈判达成5项要点 海峡沟通热线建立"
+          "category": "中东局势",
+          "title": "德黑兰机场7月初分阶段限运"
+        },
+        {
+          "id": "P2-ME002",
+          "priority": "P2",
+          "category": "中东局势",
+          "title": "鲁比奥出访海湾三国"
         }
       ]
-    },
-    {
-      "date": "2026-06-16",
-      "summary": {
-        "total": 6,
-        "p0": 2,
-        "p1": 1,
-        "p2": 3
-      }
-    },
-    {
-      "date": "2026-06-15",
-      "summary": {
-        "total": 6,
-        "p0": 3,
-        "p1": 1,
-        "p2": 2
-      }
-    },
-    {
-      "date": "2026-06-14",
-      "summary": {
-        "total": 6,
-        "p0": 2,
-        "p1": 2,
-        "p2": 2
-      }
-    },
-    {
-      "date": "2026-06-13",
-      "summary": {
-        "total": 8,
-        "p0": 1,
-        "p1": 4,
-        "p2": 3
-      }
-    },
-    {
-      "date": "2026-06-12",
-      "summary": {
-        "total": 9,
-        "p0": 3,
-        "p1": 2,
-        "p2": 4
-      }
-    },
-    {
-      "date": "2026-06-11",
-      "summary": {
-        "total": 7,
-        "p0": 2,
-        "p1": 3,
-        "p2": 2
-      }
-    },
-    {
-      "date": "2026-06-10",
-      "summary": {
-        "total": 12,
-        "p0": 2,
-        "p1": 7,
-        "p2": 3
-      }
-    },
-    {
-      "reportDate": "2026-06-16",
-      "period": "afternoon",
-      "generatedAt": "2026-06-16T16:16:44+08:00",
-      "summary": {
-        "total": 7,
-        "p0": 2,
-        "p1": 2,
-        "p2": 3
-      },
-      "url": "reports/2026-06-16.json"
-    },
-    {
-      "reportDate": "2026-06-17",
-      "period": "afternoon",
-      "generatedAt": "2026-06-17T16:15:36+08:00",
-      "summary": {
-        "total": 6,
-        "p0": 0,
-        "p1": 3,
-        "p2": 3
-      },
-      "url": "reports/2026-06-17.json"
-    },
-    {
-      "reportDate": "2026-06-18",
-      "period": "afternoon",
-      "generatedAt": "2026-06-18T16:20:00+08:00",
-      "summary": {
-        "total": 3,
-        "p0": 0,
-        "p1": 0,
-        "p2": 3
-      },
-      "url": "reports/2026-06-18.json"
-    },
-    {
-      "reportDate": "2026-06-19",
-      "period": "afternoon",
-      "generatedAt": "2026-06-19T16:15:00+08:00",
-      "summary": {
-        "total": 3,
-        "p0": 0,
-        "p1": 1,
-        "p2": 2
-      },
-      "url": "reports/2026-06-19.json"
-    },
-    {
-      "reportDate": "2026-06-20",
-      "period": "afternoon",
-      "generatedAt": "2026-06-20T16:15:42+08:00",
-      "summary": {
-        "total": 4,
-        "p0": 0,
-        "p1": 0,
-        "p2": 4
-      },
-      "url": "reports/2026-06-20.json"
-    },
-    {
-      "reportDate": "2026-06-21",
-      "period": "morning",
-      "generatedAt": "2026-06-21T07:16:00+08:00",
-      "summary": {
-        "total": 4,
-        "p0": 0,
-        "p1": 0,
-        "p2": 4
-      },
-      "url": "reports/2026-06-21.json"
-    },
-    {
-      "reportDate": "2026-06-21",
-      "period": "afternoon",
-      "generatedAt": "2026-06-21T16:16:00+08:00",
-      "summary": {
-        "p0_count": 0,
-        "p1_count": 1,
-        "p2_count": 5,
-        "total": 6,
-        "flight_anomaly_groups": 2,
-        "cancelled_flights": 7
-      },
-      "url": "reports/2026-06-21.json"
     },
     {
       "date": "2026-06-22",
@@ -1026,6 +979,111 @@
       }
     },
     {
+      "date": "2026-06-22",
+      "period": "afternoon",
+      "generated_at": "2026-06-22T16:40:00+08:00",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 2,
+        "p2_count": 1,
+        "total": 3,
+        "flight_anomaly_groups": 7,
+        "cancelled_flights": 51
+      },
+      "events_summary": [
+        {
+          "id": "P1-001",
+          "priority": "P1",
+          "title": "台风米克拉加强为超强台风级 2020年以来同期最强6月台风"
+        },
+        {
+          "id": "P1-ME001",
+          "priority": "P1",
+          "title": "霍尔木兹海峡通行量骤降至近零 伊朗坚称关闭"
+        },
+        {
+          "id": "P2-ME001",
+          "priority": "P2",
+          "title": "美伊首轮谈判达成5项要点 海峡沟通热线建立"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "summary": {
+        "total": 6,
+        "p0": 2,
+        "p1": 1,
+        "p2": 3
+      }
+    },
+    {
+      "date": "2026-06-15",
+      "summary": {
+        "total": 6,
+        "p0": 3,
+        "p1": 1,
+        "p2": 2
+      }
+    },
+    {
+      "date": "2026-06-14",
+      "summary": {
+        "total": 6,
+        "p0": 2,
+        "p1": 2,
+        "p2": 2
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "summary": {
+        "total": 8,
+        "p0": 1,
+        "p1": 4,
+        "p2": 3
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "summary": {
+        "total": 9,
+        "p0": 3,
+        "p1": 2,
+        "p2": 4
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "summary": {
+        "total": 7,
+        "p0": 2,
+        "p1": 3,
+        "p2": 2
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "summary": {
+        "total": 12,
+        "p0": 2,
+        "p1": 7,
+        "p2": 3
+      }
+    },
+    {
+      "reportDate": "2026-06-21",
+      "period": "morning",
+      "generatedAt": "2026-06-21T07:16:00+08:00",
+      "summary": {
+        "total": 4,
+        "p0": 0,
+        "p1": 0,
+        "p2": 4
+      },
+      "url": "reports/2026-06-21.json"
+    },
+    {
       "reportDate": "2026-06-22",
       "period": "morning",
       "generatedAt": "2026-06-22T07:18:45+08:00",
@@ -1040,66 +1098,6 @@
       "url": "reports/2026-06-22.json"
     },
     {
-      "date": "2026-06-23",
-      "reportDate": "2026-06-23",
-      "period": "afternoon",
-      "generated_at": "2026-06-23T16:16:00+08:00",
-      "summary": {
-        "p0_count": 0,
-        "p1_count": 2,
-        "p2_count": 3,
-        "total": 5,
-        "flight_anomaly_groups": 0,
-        "cancelled_flights": 0
-      },
-      "events": [
-        {
-          "id": "P1-ME001",
-          "priority": "P1",
-          "category": "中东局势",
-          "title": "霍尔木兹海峡通行协调热线正式建立，400+船舶待疏解"
-        },
-        {
-          "id": "P1-001",
-          "priority": "P1",
-          "category": "自然灾害",
-          "title": "台风米克拉超强台风级持续发展：预计6/25-26最靠近台湾"
-        },
-        {
-          "id": "P2-001",
-          "priority": "P2",
-          "category": "航空安全",
-          "title": "波士顿洛根机场达美/美航客机险些相撞——NTSB/FAA启动调查"
-        },
-        {
-          "id": "P2-ME001",
-          "priority": "P2",
-          "category": "中东局势",
-          "title": "德黑兰机场7月初分阶段限运"
-        },
-        {
-          "id": "P2-ME002",
-          "priority": "P2",
-          "category": "中东局势",
-          "title": "鲁比奥出访海湾三国"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-23",
-      "reportDate": "2026-06-23",
-      "period": "morning",
-      "generated_at": "2026-06-23T08:55:00+08:00",
-      "summary": {
-        "p0_count": 0,
-        "p1_count": 2,
-        "p2_count": 3,
-        "total": 5,
-        "flight_anomaly_groups": 4,
-        "cancelled_flights": 12
-      }
-    },
-    {
       "reportDate": "2026-06-24",
       "period": "morning",
       "generatedAt": "2026-06-24T09:04:00+08:00",
@@ -1112,7 +1110,80 @@
         "cancelled_flights": 28
       },
       "url": "reports/2026-06-24.json"
+    },
+    {
+      "reportDate": "2026-06-16",
+      "period": "afternoon",
+      "generatedAt": "2026-06-16T16:16:44+08:00",
+      "summary": {
+        "total": 7,
+        "p0": 2,
+        "p1": 2,
+        "p2": 3
+      },
+      "url": "reports/2026-06-16.json"
+    },
+    {
+      "reportDate": "2026-06-17",
+      "period": "afternoon",
+      "generatedAt": "2026-06-17T16:15:36+08:00",
+      "summary": {
+        "total": 6,
+        "p0": 0,
+        "p1": 3,
+        "p2": 3
+      },
+      "url": "reports/2026-06-17.json"
+    },
+    {
+      "reportDate": "2026-06-18",
+      "period": "afternoon",
+      "generatedAt": "2026-06-18T16:20:00+08:00",
+      "summary": {
+        "total": 3,
+        "p0": 0,
+        "p1": 0,
+        "p2": 3
+      },
+      "url": "reports/2026-06-18.json"
+    },
+    {
+      "reportDate": "2026-06-19",
+      "period": "afternoon",
+      "generatedAt": "2026-06-19T16:15:00+08:00",
+      "summary": {
+        "total": 3,
+        "p0": 0,
+        "p1": 1,
+        "p2": 2
+      },
+      "url": "reports/2026-06-19.json"
+    },
+    {
+      "reportDate": "2026-06-20",
+      "period": "afternoon",
+      "generatedAt": "2026-06-20T16:15:42+08:00",
+      "summary": {
+        "total": 4,
+        "p0": 0,
+        "p1": 0,
+        "p2": 4
+      },
+      "url": "reports/2026-06-20.json"
+    },
+    {
+      "reportDate": "2026-06-21",
+      "period": "afternoon",
+      "generatedAt": "2026-06-21T16:16:00+08:00",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 1,
+        "p2_count": 5,
+        "total": 6,
+        "flight_anomaly_groups": 2,
+        "cancelled_flights": 7
+      },
+      "url": "reports/2026-06-21.json"
     }
-  ],
-  "updatedAt": "2026-06-26T16:04:49.499040"
+  ]
 }

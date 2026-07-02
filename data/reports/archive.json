@@ -1,138 +1,482 @@
-[
-  {
-    "date": "2026-06-29",
-    "events": [
-      {
-        "id": "P0-006-2026-06-29",
-        "title": "美伊临时停火 海湾机场恢复待定",
-        "priority": "P0",
-        "category": "中东局势",
-        "date": "2026-06-29",
-        "description": "美伊达成临时停火共识，6月30日多哈重启谈判。霍尔木兹海峡通航量骤降80%，科威特/巴林/委内瑞拉机场仍关闭。",
-        "affectedAirports": "科威特KWI机场、巴林BAH机场、委内瑞拉CCS机场",
-        "affectedRoutes": "波斯湾跨洲主干航线、德黑兰-迪拜航线",
-        "affectedAirlines": "伊朗航空、马汉航空、阿联酋航空、卡塔尔航空",
-        "estimatedPassengers": "约9.5万人次受影响",
-        "duration": "KWI/BAH恢复时间待定，CCS预计7月2日",
-        "otaSuggestion": "暂停KWI/BAH机票销售，CCS机票延至7月3日后执行",
-        "cause": "美伊军事冲突升级，伊朗导弹打击科威特美军基地，五国封锁领空",
-        "reason": "霍尔木兹海峡通航量骤降（10-12艘/日，较峰值降80%），伊朗坚持通行须与革命卫队协调",
-        "impact": "海湾地区5国封锁领空，波斯湾航运受阻，全球油气运输受扰",
-        "currentStatus": "美伊达成临时停火共识，6月30日在卡塔尔多哈重启技术性谈判，聚焦霍尔木兹通航争端",
-        "otaImpact": "KWI/BAH机场恢复前相关航线机票风险持续，建议7月1日后视谈判结果调整策略",
-        "fields": {
-          "affectedAirports": "科威特KWI机场（仍关闭，T1受损）、巴林BAH机场（仍关闭）、委内瑞拉CCS机场（预计7月2日解封）",
-          "affectedRoutes": "波斯湾跨洲主干航线（霍尔木兹海峡通航量骤降80%）、德黑兰-迪拜（7月1日拟恢复）",
-          "affectedAirlines": "伊朗航空、马汉航空、阿联酋航空、卡塔尔航空",
-          "estimatedPassengers": "KWI+BAH机场日均旅客约8万人次，CCS机场滞留旅客约1.5万人次",
-          "duration": "KWI/BAH恢复时间待定，CCS预计7月2日",
-          "otaSuggestion": "①暂停科威特/巴林始发到达机票销售 ②持续监控KWI/BAH机场恢复动态 ③CCS机票延至7月3日后执行"
+{
+  "reports": [
+    {
+      "date": "2026-06-25",
+      "reportDate": "2026-06-25",
+      "period": "morning",
+      "summary": {
+        "total": 3,
+        "p0": 0,
+        "p1": 1,
+        "p2": 2
+      },
+      "event_count": 3
+    },
+    {
+      "date": "2026-06-24",
+      "reportDate": "2026-06-24",
+      "period": "afternoon",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 2,
+        "p2_count": 3,
+        "total": 5,
+        "flight_anomaly_groups": 14,
+        "cancelled_flights": 35
+      },
+      "event_count": 5
+    },
+    {
+      "date": "2026-06-23",
+      "reportDate": "2026-06-23",
+      "period": "afternoon",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 2,
+        "p2_count": 3,
+        "total": 5,
+        "flight_anomaly_groups": 0,
+        "cancelled_flights": 0
+      },
+      "event_count": 5
+    },
+    {
+      "date": "2026-06-22",
+      "reportDate": "2026-06-22",
+      "period": "afternoon",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 2,
+        "p2_count": 1,
+        "total": 3,
+        "flight_anomaly_groups": 7,
+        "cancelled_flights": 51
+      },
+      "event_count": 3
+    },
+    {
+      "date": "2026-06-21",
+      "reportDate": "2026-06-21",
+      "period": "afternoon",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 1,
+        "p2_count": 5,
+        "total": 6,
+        "flight_anomaly_groups": 2,
+        "cancelled_flights": 7
+      },
+      "event_count": 6
+    },
+    {
+      "date": "2026-06-20",
+      "reportDate": "2026-06-20",
+      "period": "afternoon",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 0,
+        "p2_count": 4,
+        "total": 4,
+        "flight_anomaly_groups": 5,
+        "cancelled_flights": 30
+      },
+      "event_count": 4
+    },
+    {
+      "date": "2026-06-19",
+      "reportDate": "2026-06-19",
+      "period": "afternoon",
+      "summary": {
+        "p0_count": 0,
+        "p1_count": 1,
+        "p2_count": 2,
+        "flight_anomaly_groups": 2,
+        "cancelled_flights": 7
+      },
+      "event_count": 3
+    },
+    {
+      "date": "2026-06-18",
+      "reportDate": "2026-06-18",
+      "period": "afternoon",
+      "summary": {
+        "p0_count": 1,
+        "p1_count": 0,
+        "p2_count": 3,
+        "flight_anomaly_groups": 5,
+        "cancelled_flights": 49
+      },
+      "event_count": 4
+    },
+    {
+      "date": "2026-06-17",
+      "reportDate": "2026-06-17",
+      "period": "afternoon",
+      "summary": {
+        "total": 6,
+        "p0": 0,
+        "p1": 3,
+        "p2": 3
+      },
+      "event_count": 6
+    },
+    {
+      "date": "2026-06-16",
+      "reportDate": "2026-06-16",
+      "period": "afternoon",
+      "summary": {
+        "total": 7,
+        "p0": 2,
+        "p1": 2,
+        "p2": 3
+      },
+      "event_count": 7
+    },
+    {
+      "date": "2026-06-15",
+      "reportDate": "2026-06-15",
+      "period": "",
+      "summary": {
+        "total": 6,
+        "p0": 3,
+        "p1": 1,
+        "p2": 2
+      },
+      "event_count": 6
+    },
+    {
+      "date": "2026-06-14",
+      "reportDate": "2026-06-14",
+      "period": "",
+      "summary": {
+        "total": 6,
+        "p0": 2,
+        "p1": 2,
+        "p2": 2
+      },
+      "event_count": 6
+    },
+    {
+      "date": "2026-06-13",
+      "reportDate": "2026-06-13",
+      "period": "",
+      "summary": {
+        "total": 10,
+        "p0": 3,
+        "p1": 4,
+        "p2": 3
+      },
+      "event_count": 10
+    },
+    {
+      "date": "2026-06-12",
+      "reportDate": "2026-06-12",
+      "period": "",
+      "summary": {
+        "total": 9,
+        "p0": 3,
+        "p1": 2,
+        "p2": 4
+      },
+      "event_count": 9
+    },
+    {
+      "date": "2026-06-11",
+      "reportDate": "2026-06-11",
+      "period": "",
+      "summary": {
+        "total": 7,
+        "p0": 2,
+        "p1": 3,
+        "p2": 2
+      },
+      "event_count": 7
+    },
+    {
+      "date": "2026-06-10",
+      "reportDate": "2026-06-10",
+      "period": "",
+      "summary": {
+        "total": 12,
+        "p0": 2,
+        "p1": 7,
+        "p2": 3
+      },
+      "event_count": 12
+    },
+    {
+      "date": "2026-06-26",
+      "generatedAt": "2026-06-26T09:00:00+08:00",
+      "summary": {
+        "P0": 1,
+        "P1": 4,
+        "P2": 2
+      },
+      "events": [
+        {
+          "id": "2026-06-26-P0-ND001",
+          "title": "委内瑞拉7.5级双强震致CCS机场关闭，164死971伤",
+          "priority": "P0",
+          "category": "自然灾害",
+          "date": "2026-06-26",
+          "description": "6月25日06:04委内瑞拉连续发生7.1级和7.5级强震，首都CCS机场正式关闭，截至25日20时已造成164人死亡971人受伤。USGS发布红色警报，预估最终死亡人数可能超1万。全国进入紧急状态。",
+          "affectedAirports": "CCS/加拉加斯（关闭）",
+          "affectedRoutes": "CCS所有国际航线中断",
+          "affectedAirlines": "所有运营CCS航司",
+          "estimatedPassengers": "日均约2-3万",
+          "duration": "持续中，CCS关闭时间未定",
+          "otaSuggestion": "①CCS方向全部订单免费退改 ②关注航司公告 ③备选波哥大BOG中转",
+          "cause": "6月25日06:04委内瑞拉连续发生7.1级和7.5级强震",
+          "reason": "震源浅、震中距首都近，CCS机场跑道及设施受损",
+          "impact": "CCS机场正式关闭，全国紧急状态，164死971伤",
+          "currentStatus": "USGS红色警报，预估最终死亡可能超1万；救援持续中",
+          "otaImpact": "CCS所有国际航线中断，影响日均2-3万旅客",
+          "fields": {
+            "affectedAirports": "CCS/加拉加斯（关闭）",
+            "affectedRoutes": "CCS所有国际航线中断",
+            "affectedAirlines": "所有运营CCS航司",
+            "estimatedPassengers": "日均约2-3万",
+            "duration": "持续中，CCS关闭时间未定",
+            "otaSuggestion": "①CCS方向全部订单免费退改 ②关注航司公告 ③备选波哥大BOG中转"
+          },
+          "sources": [
+            {
+              "name": "[1] 两次7级以上强震致732死伤 委内瑞拉进入紧急状态 - 央广网/央视新闻",
+              "url": "http://news.cnr.cn/sq/20260625/t20260625_527676138.shtml"
+            },
+            {
+              "name": "[2] 现场直击丨一分钟内，委内瑞拉遭遇两次强震 - 新华网客户端",
+              "url": "https://app.xinhuanet.com/news/article.html?articleId=2026062585bb2eb7628c4f1fbf69088fdc6d2bcc"
+            },
+            {
+              "name": "[3] 7.1级强震！委内瑞拉机场受损，航班停运 - 民航资源网",
+              "url": "https://i.carnoc.com/detail/661478"
+            },
+            {
+              "name": "[4] 日本气象厅称未来一周可能再次发生强震 - 央视新闻",
+              "url": "http://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=6423738758754590438"
+            },
+            {
+              "name": "[5] 日本本州近海地震已致6人受伤 - 京报网",
+              "url": "https://news.bjd.com.cn/2026/06/25/11826968.shtml"
+            },
+            {
+              "name": "[6] 日本气象厅:未来一周可能再次发生强震 - 凤凰网",
+              "url": "https://news.ifeng.com/c/8uEtFfa818O"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-26-P1-ND002",
+          "title": "日本岩手县近海7.2级地震，机场短暂封闭后恢复",
+          "priority": "P1",
+          "category": "自然灾害",
+          "date": "2026-06-26",
+          "description": "6月25日日本岩手县近海发生7.2级地震，机场短暂封闭后已恢复运营。JMA警告一周内可能發生同等规模余震。",
+          "affectedAirports": "花卷机场（短暂封闭后恢复）",
+          "affectedRoutes": "日本东北区域航线短暂受影响",
+          "affectedAirlines": "日本国内航司",
+          "estimatedPassengers": "约5000-8000",
+          "duration": "主震影响已缓和，但余震风险持续1周",
+          "otaSuggestion": "①关注JMA余震预警 ②东北航线订单保持弹性退改",
+          "cause": "6月25日日本岩手县近海7.2级地震",
+          "reason": "板块交界带地震活动，JMA发布余震警告",
+          "impact": "花卷机场短暂封闭，东北新干线一度停运",
+          "currentStatus": "机场已恢复运营，JMA警告一周内警惕同等余震",
+          "otaImpact": "日本东北区域航班短暂受影响，余震风险期内需保持警惕",
+          "fields": {
+            "affectedAirports": "花卷机场（短暂封闭后恢复）",
+            "affectedRoutes": "日本东北区域航线短暂受影响",
+            "affectedAirlines": "日本国内航司",
+            "estimatedPassengers": "约5000-8000",
+            "duration": "主震影响已缓和，但余震风险持续1周",
+            "otaSuggestion": "①关注JMA余震预警 ②东北航线订单保持弹性退改"
+          },
+          "sources": [
+            {
+              "name": "[1] 两次7级以上强震致732死伤 委内瑞拉进入紧急状态 - 央广网/央视新闻",
+              "url": "http://news.cnr.cn/sq/20260625/t20260625_527676138.shtml"
+            },
+            {
+              "name": "[2] 现场直击丨一分钟内，委内瑞拉遭遇两次强震 - 新华网客户端",
+              "url": "https://app.xinhuanet.com/news/article.html?articleId=2026062585bb2eb7628c4f1fbf69088fdc6d2bcc"
+            },
+            {
+              "name": "[3] 7.1级强震！委内瑞拉机场受损，航班停运 - 民航资源网",
+              "url": "https://i.carnoc.com/detail/661478"
+            },
+            {
+              "name": "[4] 日本气象厅称未来一周可能再次发生强震 - 央视新闻",
+              "url": "http://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=6423738758754590438"
+            },
+            {
+              "name": "[5] 日本本州近海地震已致6人受伤 - 京报网",
+              "url": "https://news.bjd.com.cn/2026/06/25/11826968.shtml"
+            },
+            {
+              "name": "[6] 日本气象厅:未来一周可能再次发生强震 - 凤凰网",
+              "url": "https://news.ifeng.com/c/8uEtFfa818O"
+            }
+          ]
+        },
+        {
+          "id": "AIR-001",
+          "title": "法国航空延长中东三条航线停运期限",
+          "priority": "P1",
+          "category": "航司运营异常",
+          "date": "2026-06-26",
+          "description": "法航宣布延长特拉维夫、贝鲁特、迪拜三条航线停运期限",
+          "affectedAirports": "TLV/特拉维夫📍BEY/贝鲁特📍DXB/迪拜",
+          "affectedRoutes": "CDG↔TLV📍CDG↔BEY📍CDG↔DXB",
+          "affectedAirlines": "法国航空(AF)",
+          "estimatedPassengers": "法航三条航线日均旅客约3000-5000人次",
+          "duration": "TLV停运至6月30日📍BEY/DXB停运至7月5日",
+          "otaSuggestion": "①7月5日前特维夫/贝鲁特/迪拜方向订单建议免费退改📍②关注法航复航公告📍③迪拜方向旅客可关注阿联酋航空替代",
+          "cause": "伊朗-以色列冲突持续升级，地区安全形势紧张",
+          "reason": "相关地区持续安全顾虑及部分空域关闭",
+          "impact": "三条跨欧洲-中东主干航线中断，影响巴黎-迪拜等商务及朝觐客流",
+          "currentStatus": "法航未给出明确复航时间表，将于7月初重新评估",
+          "otaImpact": "法航中东方向7月5日前机票需关注退改政策，建议提前通知旅客",
+          "sources": [
+            "新浪财经 2026-06-24"
+          ]
+        },
+        {
+          "id": "AIR-002",
+          "title": "以色列航空暂停特拉维夫-莫斯科航线",
+          "priority": "P2",
+          "category": "地缘政治",
+          "date": "2026-06-26",
+          "description": "以航宣布暂停特拉维夫至莫斯科航线至6月底",
+          "affectedAirports": "TLV/特拉维夫📍SVO/莫斯科谢列梅捷沃",
+          "affectedRoutes": "TLV↔SVO单条航线",
+          "affectedAirlines": "以色列航空(EL AL/LY)",
+          "estimatedPassengers": "单条航线影响旅客约2000-3000人次",
+          "duration": "暂停至6月底，预计7月起恢复",
+          "otaSuggestion": "①6月底前订单建议免费退改📍②关注下周复飞评估结果",
+          "cause": "俄乌冲突持续，多地频发无人机袭击事件",
+          "reason": "预防性安全管控措施",
+          "impact": "以色列-俄罗斯唯一直飞航线暂停",
+          "currentStatus": "以航将于下周评估是否恢复航班",
+          "otaImpact": "旅客可关注以航官网或选择经第三地中转",
+          "sources": [
+            "格隆汇 2026-06-25"
+          ]
+        },
+        {
+          "id": "AIR-003",
+          "title": "澳大利亚-新西兰航班集中取消",
+          "priority": "P1",
+          "category": "航司运营异常",
+          "date": "2026-06-26",
+          "description": "AirLabs数据显示墨尔本-悉尼/奥克兰-惠灵顿航线大量航班取消",
+          "affectedAirports": "MEL/墨尔本📍SYD/悉尼📍AKL/奥克兰📍WLG/惠灵顿",
+          "affectedRoutes": "MEL↔SYD(澳洲国内)📍AKL↔WLG(新西兰国内)",
+          "affectedAirlines": "QF/NZ/VA/SQ/EY/TK等多家航司",
+          "estimatedPassengers": "约15-20架次取消，影响旅客约3000-5000人次",
+          "duration": "今日数据，持续时间待确认",
+          "otaSuggestion": "①墨尔本-悉尼/新西兰境内航班关注航司公告📍②可考虑更换出行日期📍③关注是否为季节性运力调整",
+          "cause": "原因待确认",
+          "reason": "AirLabs数据显示多家航司同一航线集中取消",
+          "impact": "澳洲及新西兰国内航班运营受影响",
+          "currentStatus": "暂无新闻报道确认具体原因",
+          "otaImpact": "建议旅客关注航司退改政策，可考虑铁路替代(堪培拉-悉尼/墨尔本-堪培拉)",
+          "sources": [
+            "AirLabs 2026-06-26"
+          ]
+        },
+        {
+          "id": "AIR-004",
+          "title": "欧洲航班集中取消(阿姆斯特丹枢纽)",
+          "priority": "P1",
+          "category": "航司运营异常",
+          "date": "2026-06-26",
+          "description": "AirLabs数据显示阿姆斯特丹出港多条航线取消",
+          "affectedAirports": "AMS/阿姆斯特丹📍ARN/斯德哥尔摩📍DUS/杜塞尔多夫",
+          "affectedRoutes": "AMS↔ARN📍AMS↔DUS",
+          "affectedAirlines": "KL/MU/DL/SK/6E/KE/MF等多家航司",
+          "estimatedPassengers": "约10+架次取消，影响旅客约2000-3000人次",
+          "duration": "今日数据，持续时间待确认",
+          "otaSuggestion": "①阿姆斯特丹-斯德哥尔摩/杜塞尔多夫航线关注KL等航司公告📍②欧洲申根区内可考虑铁路替代",
+          "cause": "原因待确认",
+          "reason": "AirLabs数据显示AMS枢纽多条航线取消",
+          "impact": "欧洲北部航线运营受影响",
+          "currentStatus": "暂无新闻报道确认具体原因",
+          "otaImpact": "建议旅客关注航司退改政策",
+          "sources": [
+            "AirLabs 2026-06-26"
+          ]
+        },
+        {
+          "id": "AIR-005",
+          "title": "台湾-冲绳航线航班集中取消",
+          "priority": "P2",
+          "category": "航司运营异常",
+          "date": "2026-06-26",
+          "description": "AirLabs数据显示台北-冲绳航线大量航班取消",
+          "affectedAirports": "TPE/台北桃园📍OKA/冲绳那霸",
+          "affectedRoutes": "TPE↔OKA单条区域航线",
+          "affectedAirlines": "BR/NZ/TG/NH/TK/JL/MH/KL/CI等多家航司",
+          "estimatedPassengers": "约12架次取消，影响旅客约2000-3000人次",
+          "duration": "今日数据，持续时间待确认",
+          "cause": "原因待确认",
+          "impact": "台北-冲绳区域航线受影响",
+          "sources": [
+            "AirLabs 2026-06-26"
+          ]
         }
-      }
-    ],
-    "summary": {
-      "P0": 1,
-      "P1": 0,
-      "P2": 0
+      ],
+      "note": "航空安全事件和自然灾害影响航班暂无最新动态。霍尔木兹海峡通航量恢复57%为航运事件，暂无直接航空影响。"
+    },
+    {
+      "date": "2026-06-28",
+      "reportDate": "2026-06-28",
+      "period": "afternoon",
+      "summary": {
+        "P0": 2,
+        "P1": 2,
+        "P2": 5
+      },
+      "event_count": 9
+    },
+    {
+      "date": "2026-06-29",
+      "reportDate": "2026-06-29",
+      "period": "morning",
+      "generatedAt": "2026-06-29T09:00:00+08:00",
+      "summary": {
+        "P0": 2,
+        "P1": 2,
+        "P2": 2,
+        "total": 6
+      },
+      "event_count": 6
+    },
+    {
+      "date": "2026-06-30",
+      "reportDate": "2026-06-30",
+      "period": "morning",
+      "generatedAt": "2026-06-30T08:35:00+08:00",
+      "summary": {
+        "P0": 2,
+        "P1": 1,
+        "P2": 1,
+        "total": 4
+      },
+      "event_count": 4
+    },
+    {
+      "date": "2026-07-01",
+      "reportDate": "2026-07-01",
+      "period": "morning",
+      "generatedAt": "2026-06-30T08:35:00+08:00",
+      "summary": {
+        "P0": 2,
+        "P1": 1,
+        "P2": 1,
+        "total": 4
+      },
+      "event_count": 4
     }
-  },
-  {
-    "date": "2026-07-01",
-    "events": [
-      {
-        "id": "P0-GP001-2026-07-01",
-        "title": "美伊冲突——停火维持但谈判搁浅",
-        "priority": "P0",
-        "category": "地缘政治",
-        "date": "2026-07-01",
-        "description": "美伊临时停火共识维持，但多哈面对面谈判搁浅。KWI航班缩减约30%运营中，BAH白天正常/夜间限制。",
-        "affectedAirports": "KWI（航班缩减约30%）、BAH（白天正常/夜间限制）",
-        "affectedRoutes": "波斯湾跨洲主干航线、伊朗-海湾国家航线",
-        "affectedAirlines": "伊朗航空、阿联酋航空、卡塔尔航空",
-        "estimatedPassengers": "KWI日均约2.8万人次、BAH日均约3万人次",
-        "duration": "延续事件，停火持续但谈判前景不明"
-      },
-      {
-        "id": "P0-ND001-2026-07-01",
-        "title": "CCS机场持续关闭（预计明日解封）",
-        "priority": "P0",
-        "category": "自然灾害",
-        "date": "2026-07-01",
-        "description": "委内瑞拉CCS机场因双强震持续关闭至7/2，6/28起有限恢复人道货运，商业客运仍暂停。",
-        "affectedAirports": "CCS（加拉加斯迈克蒂亚机场）",
-        "affectedRoutes": "CCS出发全部国际航线",
-        "affectedAirlines": "巴拿马航空、伊比利亚航空、哥伦比亚航空",
-        "estimatedPassengers": "原日均约1.5万人次",
-        "duration": "关闭至2026年7月2日"
-      },
-      {
-        "id": "P1-SA001-2026-07-01",
-        "title": "FAA禁止777/747在加拿大着陆",
-        "priority": "P1",
-        "category": "航空安全",
-        "date": "2026-07-01",
-        "description": "FAA发布适航指令，7/1起限制配备旧式无线电高度表的飞机在加拿大运营，禁止波音777和747在加拿大着陆，约1000架飞机受影响。",
-        "affectedAirports": "YYZ（多伦多）、YVR（温哥华）、YUL（蒙特利尔）",
-        "affectedRoutes": "跨大西洋航线、跨太平洋航线中涉及加拿大机场的航班",
-        "affectedAirlines": "所有运营波音777和747的航司（美加航线）",
-        "estimatedPassengers": "约1000架飞机受影响",
-        "duration": "7月1日起生效，直至飞机完成无线电高度表改装"
-      },
-      {
-        "id": "P1-GP002-2026-07-01",
-        "title": "印巴对峙——领空封锁持续",
-        "priority": "P1",
-        "category": "地缘政治",
-        "date": "2026-07-01",
-        "description": "印巴领空封锁持续一年以上，印度提议恢复印度河水条约换取开放领空，双方在斯里兰卡非正式对话。",
-        "affectedAirports": "DEL/BOM（印度）、ISB/LHE（巴基斯坦）",
-        "affectedRoutes": "印度往返欧洲/中东/北美跨洲航线",
-        "affectedAirlines": "印度航空、靛蓝航空、SpiceJet、巴基斯坦国际航空",
-        "estimatedPassengers": "每日约800架次绕行",
-        "duration": "已持续一年以上"
-      },
-      {
-        "id": "P1-GP003-2026-07-01",
-        "title": "霍尔木兹海峡管控——通行恢复至57%",
-        "priority": "P1",
-        "category": "地缘政治",
-        "date": "2026-07-01",
-        "description": "霍尔木兹海峡通行量恢复至战前约57%，船舶基本选择伊朗航道，全面恢复取决于美伊谈判。",
-        "affectedAirports": "波斯湾全域机场",
-        "affectedRoutes": "海湾-欧洲/亚洲跨洲航线",
-        "affectedAirlines": "波斯湾全域航司",
-        "estimatedPassengers": "间接影响",
-        "duration": "持续恢复中"
-      },
-      {
-        "id": "P2-SA002-2026-07-01",
-        "title": "波兰飞以色列航班误发7500劫机码",
-        "priority": "P2",
-        "category": "航空安全",
-        "date": "2026-07-01",
-        "description": "6/30波兰华沙飞以色列航班因应答机技术故障误发7500劫机代码，保加利亚米格-29紧急拦截后确认误报。"
-      },
-      {
-        "id": "P2-ND002-2026-07-01",
-        "title": "墨西哥加利福尼亚湾6.1级地震",
-        "priority": "P2",
-        "category": "自然灾害",
-        "date": "2026-07-01",
-        "description": "6/30墨西哥加利福尼亚湾6.1级地震，震中距LMM/MAZ/MZT机场200-400km，暂无机场影响。"
-      },
-      {
-        "id": "P2-ND003-2026-07-01",
-        "title": "青海5.2级地震",
-        "priority": "P2",
-        "category": "自然灾害",
-        "date": "2026-07-01",
-        "description": "7/1 07:44青海5.2级地震，震中无人区，无机场影响。"
-      }
-    ],
-    "summary": {
-      "P0": 2,
-      "P1": 3,
-      "P2": 3
-    }
-  }
-]
+  ]
+}
