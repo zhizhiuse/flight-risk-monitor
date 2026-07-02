@@ -2,22 +2,22 @@
   "reports": [
     {
       "date": "2026-07-02",
-      "reportDate": "2026-07-02",
-      "period": "上午",
-      "generatedAt": "2026-07-02T09:00:00+08:00",
+      "updated_at": "2026-07-02T16:10:00+08:00",
+      "period": "下午",
       "summary": {
         "P0": 2,
         "P1": 3,
-        "P2": 4,
-        "total": 9
+        "P2": 5,
+        "watch": 2,
+        "situation": "美伊多哈谈判卡塔尔称积极进展但伊方仍指责美方违约，下一轮在葬礼后；CCS机场7/2解封预期落空死亡升至2295；巴基斯坦延长对印领空禁令至7/24；南海热带低压逼近海南明日登陆。"
       },
       "events": [
         {
           "id": "2026-07-02-P0-001",
           "level": "P0",
           "category": "地缘政治",
-          "title": "美伊冲突：停火维持，多哈间接会谈分歧明显",
-          "summary": "美伊6月签署谅解备忘录但落实分歧严重，7/1在多哈间接会谈（未面对面），分歧公开化。伊朗/伊拉克空域禁止飞越，海湾八国高度谨慎；KWI缩减30%运营，BAH白天正常夜间限制；海峡通行恢复至57%，伊朗寻求海峡控制权并计划8月中旬恢复收费。特朗普称会谈顺利，伊方指责美方违反备忘录，将组建监督小组，下轮谈判未定。",
+          "title": "美伊冲突：多哈谈判积极进展但分歧依旧",
+          "summary": "美伊7/1多哈间接会谈，卡塔尔称积极进展，双方承诺继续磋商；但伊方仍指责美方违反备忘录，组建监督小组。下一轮在哈梅内伊葬礼后。",
           "airports": [
             "KWI",
             "BAH",
@@ -26,43 +26,46 @@
           ],
           "routes": [
             "EU-GCC",
-            "EU-Asia过境"
+            "EU-Asia过境航线"
           ],
           "airlines": [
-            "法航(停运至7/5)",
-            "El Al(莫斯科暂停)",
-            "KLM(待定)"
+            "法航(TLV/BEY/DXB停运至7/5)",
+            "El Al(莫斯科航线暂停)"
           ],
           "passengers": "约8万人/日",
-          "duration": "停火中，EASA警告至7/8",
+          "duration": "停火维持中，下一轮谈判在葬礼后；EASA警告延至7/8",
           "sources": [
-            "http://www.xinhuanet.com/20260701/95c57e3279d0410fb4f9cd6c8d254de3/c.html",
-            "https://news.cctv.cn/2026/07/01/ARTI7rqs4LOXMD1bN2ye1FKx260701.shtml",
-            "https://news.ifeng.com/c/8uPjPt4fqyP"
+            "http://www.xinhuanet.com/20260702/7369bb1a802d4628b22a06310656da66/c.html",
+            "http://m.toutiao.com/group/7657616460377784838/",
+            "http://www.chinanews.com.cn/gj/2026/07-02/10651254.shtml"
           ]
         },
         {
           "id": "2026-07-02-P0-002",
           "level": "P0",
           "category": "自然灾害",
-          "title": "CCS机场（委内瑞拉）：部分恢复人道货运，商业航班仍停",
-          "summary": "6/24双强震致CCS机场严重受损，跑道/设施损毁，1719人死亡。CCS为委最大机场（日均1.5万旅客），商业航班停运，多家航司停飞，仅部分人道货运恢复。此前预计7/2恢复，目前无确认。FlightAware显示ES895(CCS-MAD)7/1有排班但未确认执行。",
+          "title": "CCS机场（委内瑞拉）：7/2解封预期落空，死亡升至2295人",
+          "summary": "CCS机场仍严重受损，所有进出港航班取消，未能按原NOTAM计划恢复。两次强震累计死亡升至2295人，全国哀悼7天。",
           "airports": [
             "CCS"
           ],
           "routes": [
-            "CCS跨洲航线"
+            "CCS-MAD",
+            "CCS-MIA",
+            "CCS-PTY"
           ],
           "airlines": [
             "伊比利亚",
             "巴拿马航空",
+            "哥伦比亚航空",
             "Estelar"
           ],
           "passengers": "约1.5万人/日",
-          "duration": "商业停航中，恢复待确认",
+          "duration": "商业航班停运中，恢复时间待定",
           "sources": [
-            "https://m.sohu.com/a/1044077006_121136719/",
-            "https://m.sohu.com/a/1044086827_121606903/"
+            "https://news.163.com/2026-0702/10/L0QTSFP00556BTRS.html",
+            "http://world.people.com.cn/n1/2026/0701/c1002-40751133.html",
+            "https://m.thepaper.cn/newsDetail_forward_33501725"
           ]
         },
         {
@@ -70,30 +73,30 @@
           "level": "P1",
           "category": "地缘政治",
           "title": "EASA中东冲突区警告延长至7月8日",
-          "summary": "EASA将CZIB 2026-03-R13有效期从7/1延至7/8。禁止飞越伊朗/伊拉克/黎巴嫩，海湾八国高度谨慎，武力冲突减少但存在快速升级可能。建议航司更新风险评估和应急预案。",
+          "summary": "EASA延长中东空域冲突区警告至7/8，禁止飞越伊朗/伊拉克/黎巴嫩，海湾八国高度谨慎。",
           "airports": [
             "中东八国所有机场"
           ],
           "routes": [
             "EU-GCC",
-            "EU-Asia过境"
+            "EU-Asia过境航线"
           ],
           "airlines": [
-            "EASA成员国所有航司"
+            "所有EASA成员国航司"
           ],
-          "passengers": "面广但为监管限制",
-          "duration": "至7/8",
+          "passengers": "影响面广，为监管限制非航线中断",
+          "duration": "至7月8日",
           "sources": [
             "https://www.cls.cn/detail/2414166",
-            "https://news.fx678.com/202607011557572464.shtml"
+            "https://wap.aniu.tv/KXDetail?id=3114627"
           ]
         },
         {
           "id": "2026-07-02-P1-002",
           "level": "P1",
           "category": "地缘政治",
-          "title": "印巴对峙：领空封锁持续",
-          "summary": "印巴冲突导致互封领空，巴方全面恢复但不含印度航班。南亚航线受影响，印巴间空中交通中断。双方在斯里兰卡非正式对话；印度河水资源争端升级为新紧张焦点。无领空恢复明确时间表。",
+          "title": "印巴对峙：巴基斯坦延长领空禁令至7月24日",
+          "summary": "巴基斯坦将对印度注册航班领空禁令延长至7/24，覆盖卡拉奇和拉合尔情报区。印度约2/3国际航线需绕行，印度航空巨亏28亿美元。",
           "airports": [
             "印度/巴基斯坦主要机场"
           ],
@@ -103,31 +106,20 @@
           ],
           "airlines": [
             "印度航空",
-            "PIA"
+            "巴基斯坦国际航空"
           ],
           "passengers": "数万人/日",
-          "duration": "持续中",
+          "duration": "至7月24日",
           "sources": [
-            {
-              "name": "[1] 美伊在多哈举行间接会谈 聚焦落实谅解备忘录 - 新华网",
-              "url": "http://www.xinhuanet.com/20260701/95c57e3279d0410fb4f9cd6c8d254de3/c.html"
-            },
-            {
-              "name": "[2] 直接会谈搁浅 美伊双方\"争夺外交主动权\" - 央视新闻",
-              "url": "https://news.cctv.cn/2026/07/01/ARTI7rqs4LOXMD1bN2ye1FKx260701.shtml"
-            },
-            {
-              "name": "[3] 美伊于多哈举行间接技术性会谈，或向伊朗释放30亿美元资金 - 凤凰卫视/路透社/纽约时报",
-              "url": "https://news.ifeng.com/c/8uPjPt4fqyP"
-            }
+            "https://m.sohu.com/a/1044793423_122570858/"
           ]
         },
         {
           "id": "2026-07-02-P1-003",
           "level": "P1",
           "category": "航空安全",
-          "title": "FAA加拿大777/747着陆限制（7/1生效）",
-          "summary": "FAA发布适航指令禁止波音777/747在加拿大着陆。约1000架飞机受影响，YYZ/YVR/YUL三大枢纽受影响，跨洲航线需调整排班。指令刚生效，航司正在调整排班和备降方案。",
+          "title": "FAA限制777/747在加拿大运营",
+          "summary": "FAA发布适航指令限制波音777/747在加拿大运营，7/1生效，约1000架飞机受影响。",
           "airports": [
             "YYZ",
             "YVR",
@@ -137,55 +129,36 @@
             "加拿大跨洲航线"
           ],
           "airlines": [
-            "加拿大航空等777/747运营商"
+            "加拿大航空等运营777/747的航司"
           ],
           "passengers": "约1-2万人/日",
           "duration": "指令生效中",
-          "sources": [
-            {
-              "name": "[1] 波兰飞以色列客机因技术故障误报\"遭劫持\" 以色列、保加利亚、土耳其战机紧急升空应对 - 环球网",
-              "url": "https://3w.huanqiu.com/a/c36dc8/4SCYbG7CqnO"
-            },
-            {
-              "name": "[2] 飞行员误发劫机代码 以色列及保加利亚一度紧急出动战机拦截 - 网易",
-              "url": "https://c.m.163.com/news/a/L0O64S0I05566WVY.html"
-            },
-            {
-              "name": "[3] 波兰飞以色列客机因技术故障误报\"遭劫持\" - 新浪",
-              "url": "https://cj.sina.cn/article/norm_detail?froms=ttmp&url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-07-01%2Fdoc-inifhrqs4260437.shtml"
-            },
-            {
-              "name": "[4] 以色列、保加利亚、土耳其战机紧急升空 - 凤凰网",
-              "url": "https://news.ifeng.com/c/8uP6r3JCmIs"
-            },
-            {
-              "name": "[5] 由于5G干扰风险 FAA限制部分美国飞机在加拿大的运营 - 搜狐",
-              "url": "https://m.sohu.com/a/1044220918_115926"
-            },
-            {
-              "name": "[6] FAA针对5G干扰风险限制部分美国飞机在加拿大运营 - 网易",
-              "url": "https://www.163.com/dy/article/L0ORUAKO05148ALS.html"
-            },
-            {
-              "name": "[7] FAA拟推行航空技术强制令 华盛顿撞机事故推动安全改革 - 新浪财经",
-              "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-30/doc-iniffcpn1452725.shtml"
-            },
-            {
-              "name": "[8] FAA拟废除实施53年的陆上民用超声速飞行禁令 - 搜狐",
-              "url": "https://m.sohu.com/a/1044211474_115926"
-            },
-            {
-              "name": "[9] FAA松绑:超音速客机回归，跨美飞行快一倍 - 网易",
-              "url": "https://www.163.com/dy/article/L0NLFS3M05561FZF.html"
-            },
-            {
-              "name": "[10] 特朗普政府拟出台新规，将利好超音速客机制造商 - 汇通财经",
-              "url": "https://news.fx678.com/202607010024228815.shtml"
-            }
-          ]
+          "sources": []
         },
         {
           "id": "2026-07-02-P2-001",
+          "level": "P2",
+          "category": "自然灾害",
+          "title": "南海热带低压逼近海南（↑从关注升级）",
+          "summary": "预计7/3下午至晚间在海南陵水至文昌一带登陆（强热带风暴级），琼州海峡7/2 15时起停运，HAK机场发布出行提示。",
+          "airports": [
+            "HAK"
+          ],
+          "routes": [
+            "海南进出港航线"
+          ],
+          "airlines": [
+            "各航司海南航线"
+          ],
+          "passengers": "待评估",
+          "duration": "7/2-7/5",
+          "sources": [
+            "https://m.weibo.cn/detail/5316204093773451",
+            "https://news.china.com.cn/2026-07/02/content_118579435.shtml"
+          ]
+        },
+        {
+          "id": "2026-07-02-P2-002",
           "level": "P2",
           "category": "自然灾害",
           "title": "墨西哥6.1级地震",
@@ -193,25 +166,12 @@
           "airports": [],
           "routes": [],
           "airlines": [],
-          "passengers": "",
-          "duration": "",
-          "sources": [
-            {
-              "name": "[1] 墨西哥加利福尼亚湾海域发生6.1级地震 - 新华网",
-              "url": "http://www.xinhuanet.com/20260701/38da0836d64243fba8e57280d1e3d8b2/c.html"
-            },
-            {
-              "name": "[2] 墨西哥北部发生6.1级地震 - 人民网",
-              "url": "http://world.people.com.cn/n1/2026/0701/c1002-40751226.html"
-            },
-            {
-              "name": "[3] 墨西哥近海发生6.1级地震 - 光明网/看看新闻",
-              "url": "https://m.gmw.cn/2026-07/01/content_1304515476.htm"
-            }
-          ]
+          "passengers": "无",
+          "duration": "已恢复正常",
+          "sources": []
         },
         {
-          "id": "2026-07-02-P2-002",
+          "id": "2026-07-02-P2-003",
           "level": "P2",
           "category": "自然灾害",
           "title": "青海5.2级地震",
@@ -219,43 +179,30 @@
           "airports": [],
           "routes": [],
           "airlines": [],
-          "passengers": "",
-          "duration": "",
-          "sources": [
-            {
-              "name": "[1] 墨西哥加利福尼亚湾海域发生6.1级地震 - 新华网",
-              "url": "http://www.xinhuanet.com/20260701/38da0836d64243fba8e57280d1e3d8b2/c.html"
-            },
-            {
-              "name": "[2] 墨西哥北部发生6.1级地震 - 人民网",
-              "url": "http://world.people.com.cn/n1/2026/0701/c1002-40751226.html"
-            },
-            {
-              "name": "[3] 墨西哥近海发生6.1级地震 - 光明网/看看新闻",
-              "url": "https://m.gmw.cn/2026-07/01/content_1304515476.htm"
-            }
-          ]
-        },
-        {
-          "id": "2026-07-02-P2-003",
-          "level": "P2",
-          "category": "航司运营",
-          "title": "靛蓝航空停印港/印沪航线",
-          "summary": "自7/1起暂停印度往返上海、香港航班。",
-          "airports": [],
-          "routes": [
-            "印度-香港",
-            "印度-上海"
-          ],
-          "airlines": [
-            "靛蓝航空"
-          ],
-          "passengers": "",
-          "duration": "自7/1起",
+          "passengers": "无",
+          "duration": "已恢复正常",
           "sources": []
         },
         {
           "id": "2026-07-02-P2-004",
+          "level": "P2",
+          "category": "航司运营",
+          "title": "靛蓝航空停印港/印沪航线",
+          "summary": "自7月1日起暂停印度往返上海、香港航班。",
+          "airports": [],
+          "routes": [
+            "印度-上海",
+            "印度-香港"
+          ],
+          "airlines": [
+            "靛蓝航空"
+          ],
+          "passengers": "待评估",
+          "duration": "暂停中",
+          "sources": []
+        },
+        {
+          "id": "2026-07-02-P2-005",
           "level": "P2",
           "category": "航空安全",
           "title": "波兰飞以色列航班误发7500劫机码",
@@ -263,53 +210,17 @@
           "airports": [],
           "routes": [],
           "airlines": [],
-          "passengers": "",
-          "duration": "",
-          "sources": [
-            {
-              "name": "[1] 波兰飞以色列客机因技术故障误报\"遭劫持\" 以色列、保加利亚、土耳其战机紧急升空应对 - 环球网",
-              "url": "https://3w.huanqiu.com/a/c36dc8/4SCYbG7CqnO"
-            },
-            {
-              "name": "[2] 飞行员误发劫机代码 以色列及保加利亚一度紧急出动战机拦截 - 网易",
-              "url": "https://c.m.163.com/news/a/L0O64S0I05566WVY.html"
-            },
-            {
-              "name": "[3] 波兰飞以色列客机因技术故障误报\"遭劫持\" - 新浪",
-              "url": "https://cj.sina.cn/article/norm_detail?froms=ttmp&url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-07-01%2Fdoc-inifhrqs4260437.shtml"
-            },
-            {
-              "name": "[4] 以色列、保加利亚、土耳其战机紧急升空 - 凤凰网",
-              "url": "https://news.ifeng.com/c/8uP6r3JCmIs"
-            },
-            {
-              "name": "[5] 由于5G干扰风险 FAA限制部分美国飞机在加拿大的运营 - 搜狐",
-              "url": "https://m.sohu.com/a/1044220918_115926"
-            },
-            {
-              "name": "[6] FAA针对5G干扰风险限制部分美国飞机在加拿大运营 - 网易",
-              "url": "https://www.163.com/dy/article/L0ORUAKO05148ALS.html"
-            },
-            {
-              "name": "[7] FAA拟推行航空技术强制令 华盛顿撞机事故推动安全改革 - 新浪财经",
-              "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-30/doc-iniffcpn1452725.shtml"
-            },
-            {
-              "name": "[8] FAA拟废除实施53年的陆上民用超声速飞行禁令 - 搜狐",
-              "url": "https://m.sohu.com/a/1044211474_115926"
-            },
-            {
-              "name": "[9] FAA松绑:超音速客机回归，跨美飞行快一倍 - 网易",
-              "url": "https://www.163.com/dy/article/L0NLFS3M05561FZF.html"
-            },
-            {
-              "name": "[10] 特朗普政府拟出台新规，将利好超音速客机制造商 - 汇通财经",
-              "url": "https://news.fx678.com/202607010024228815.shtml"
-            }
-          ]
+          "passengers": "无",
+          "duration": "已澄清",
+          "sources": []
         }
       ],
-      "event_count": 9
+      "watch_items": [
+        "德黑兰机场葬礼限运7/4-9：哈梅内伊国葬期间分阶段限运，7/6全面暂停",
+        "意大利7/5罢工：距今3天，需纳入后续监控",
+        "第9号台风巴威在西北太平洋生成，未来6天对我国海域无影响"
+      ],
+      "notes": "AirLabs月度额度已耗尽，航班实时数据暂不可用"
     },
     {
       "date": "2026-06-25",
