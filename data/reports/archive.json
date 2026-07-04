@@ -852,32 +852,208 @@
         "台风巴威远洋：西北太平洋远洋台风，6天内不影响我国"
       ],
       "notes": "AirLabs月度额度耗尽，航班实时数据暂不可用。5话题上午briefing：航空安全空、自然灾害空、中东局势1事件、地缘政治2事件、航司运营空。"
+    },
+    {
+      "date": "2026-07-04",
+      "updated_at": "2026-07-04T16:00:00+08:00",
+      "period": "下午",
+      "summary": {
+        "P0": 3,
+        "P1": 3,
+        "P2": 3,
+        "watch": 3,
+        "situation": "台风美莎克今晚二次登陆广西/越南北部，NNG已取消21架次；美伊冲突延续，下轮谈判在葬礼后；德黑兰葬礼首日举行，7/6全面关闭空域确认；胡塞威胁沙特机场，沙特仍未回应。"
+      },
+      "events": [
+        {
+          "id": "2026-07-04-P0-GP001",
+          "level": "P0",
+          "category": "地缘政治",
+          "title": "美伊冲突/霍尔木兹海峡局势",
+          "description": "美伊多哈间接谈判结束，三大分歧未突破。伊朗7/2声明霍尔木兹红线，阿曼提交海峡收费方案。KWI缩减30%运营，BAH白天正常/夜间限制。下一轮谈判在哈梅内伊葬礼(7/4-9)后。100国代表已抵达德黑兰出席葬礼。",
+          "impact_airports": "KWI（缩减30%）、BAH（夜间限制）",
+          "impact_routes": "波斯湾上空航线，欧洲-亚洲过境航线部分绕飞",
+          "airlines": "卡塔尔航空、阿联酋航空、阿提哈德、科威特航空等",
+          "passengers": "约3-5万人/周",
+          "duration": "EASA警告至7/8，下一轮谈判在葬礼后",
+          "sources": [
+            {
+              "name": "央视新闻",
+              "url": "https://news.cctv.com/2026/07/02/ARTIsMZMGZ8ht1DILAzA4u69260702.shtml"
+            },
+            {
+              "name": "新华网",
+              "url": "http://www.xinhuanet.com/world/20260702/94c6e878c53847239d0799d8fed33845/c.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-07-04-P0-ND001",
+          "level": "P0",
+          "category": "自然灾害",
+          "title": "委内瑞拉CCS机场（商业航班仍停）",
+          "description": "6/22-24两次强震导致CCS机场受损关闭。7/2地铁铁路已全面恢复，商业航班仍停。死亡2295人/受伤11267人/782次余震。",
+          "impact_airports": "CCS（商业航班仍停）",
+          "impact_routes": "委内瑞拉全部国际航线中断",
+          "airlines": "委内瑞拉航空及部分拉美航司",
+          "passengers": "约5万+旅客受影响",
+          "duration": "已持续13天，恢复时间不确定",
+          "sources": [
+            {
+              "name": "央视新闻/央广网",
+              "url": "https://m.toutiao.com/group/7658091539243041326/"
+            }
+          ]
+        },
+        {
+          "id": "2026-07-04-P0-ND002",
+          "level": "P0",
+          "category": "自然灾害",
+          "title": "台风美莎克（10号）二次登陆预警",
+          "description": "7/3 18:20在海南陵水登陆后移入北部湾，今晚将在广西防城港至越南北部交界再次登陆（热带风暴级8-9级）。SYX 7/4 6时已恢复运营。NNG南宁吴圩机场截至11时已取消21架次，放行正常率88.89%。广西Ⅲ级响应，北部湾海面最大阵风10-11级，广西南部局地特大暴雨(250-380mm)。",
+          "impact_airports": "NNG（已取消21架次）、SYX（已恢复）、KWL等广西沿海机场",
+          "impact_routes": "广西进出港航线、北部湾海运",
+          "airlines": "南航、海航、国航等广西航线运营航司",
+          "passengers": "NNG已取消21架次，二次登陆影响待评估",
+          "duration": "7/4晚-7/5二次登陆影响",
+          "sources": [
+            {
+              "name": "中国天气网",
+              "url": "http://uc.src.weather.com.cn/news/2026/07/4701602.shtml"
+            },
+            {
+              "name": "中国新闻网",
+              "url": "http://www.chinanews.com/sh/2026/07-04/10652627.shtml"
+            },
+            {
+              "name": "中央气象台",
+              "url": "http://www.nmc.cn/publish/alarm/45000041600200_20260704092442.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-07-04-P1-GP001",
+          "level": "P1",
+          "category": "地缘政治",
+          "title": "印巴领空禁令延长至7/24",
+          "description": "巴基斯坦全面关闭对印度航班领空已超15个月，延长至7/24。印度航空亏损28亿美元。",
+          "impact_airports": "DEL/BOM等印度北部枢纽（国际航线绕飞）",
+          "impact_routes": "印度-欧洲/中亚/北美航线绕行",
+          "airlines": "印度航空、靛蓝航空等",
+          "passengers": "数万旅客/周",
+          "duration": "延长至7/24",
+          "sources": [
+            {
+              "name": "搜狐",
+              "url": "https://m.sohu.com/a/1044793423_122570858/"
+            }
+          ]
+        },
+        {
+          "id": "2026-07-04-P1-GP002",
+          "level": "P1",
+          "category": "地缘政治",
+          "title": "EASA中东空域警告延至7/8",
+          "description": "EASA中东空域警告延至7/8，涉及伊朗/伊拉克/以色列等国空域。欧洲航司中东航线继续调整。",
+          "impact_airports": "IKA/THR、TLV、BGW等",
+          "impact_routes": "欧洲-中东航线",
+          "airlines": "法航、汉莎、英航等欧洲航司",
+          "passengers": "数千旅客/周",
+          "duration": "至7/8",
+          "sources": [
+            {
+              "name": "民航资源网",
+              "url": "https://i.carnoc.com/detail/662428"
+            }
+          ]
+        },
+        {
+          "id": "2026-07-04-P1-AF001",
+          "level": "P1",
+          "category": "航空安全",
+          "title": "FAA禁止777/747加拿大着陆（7/1生效）",
+          "description": "FAA禁止波音777/747在加拿大着陆，7/1生效，约1000架飞机受影响。加拿大航空已调整运营。",
+          "impact_airports": "YVR/YYZ等加拿大主要机场",
+          "impact_routes": "加拿大进出港航线",
+          "airlines": "加拿大航空、美国航空等",
+          "passengers": "约1000架飞机受影响",
+          "duration": "7/1生效，待确认终止时间",
+          "sources": [
+            {
+              "name": "FAA",
+              "url": "https://www.faa.gov/"
+            }
+          ]
+        },
+        {
+          "id": "2026-07-04-P2-GP001",
+          "level": "P2",
+          "category": "地缘政治",
+          "title": "德黑兰葬礼期间空域限运",
+          "description": "伊朗民航局确认：7/4-5德黑兰IKA/THR限容运行（今日为葬礼公开悼念首日，100国代表已抵达），7/6全面关闭空域暂停所有航班，7/7库姆送葬，7/8伊拉克纳杰夫/卡尔巴拉，7/9马什哈德最终安葬。",
+          "impact_airports": "IKA、THR（7/6全面关闭）",
+          "impact_routes": "伊朗进出港国际航线、欧亚过境航线",
+          "airlines": "伊朗航空、阿联酋航空、土耳其航空等",
+          "passengers": "约5000-1万人（7/6当日3-5万）",
+          "duration": "7/4-9分阶段限运",
+          "sources": [
+            {
+              "name": "央视新闻",
+              "url": "https://m.weibo.cn/detail/5316861420110443"
+            },
+            {
+              "name": "中国新闻周刊",
+              "url": "https://m.weibo.cn/detail/5316964526591755"
+            }
+          ]
+        },
+        {
+          "id": "2026-07-04-P2-GP002",
+          "level": "P2",
+          "category": "地缘政治",
+          "title": "胡塞武装拦截伊朗客机并威胁沙特机场",
+          "description": "7/3凌晨5:20，沙特战机进入也门领空试图阻止伊朗民航客机降落萨那SAH。胡塞发射防空导弹驱离，伊朗客机安全降落。胡塞警告将打击沙特机场，沙特截至7/4下午仍未回应。",
+          "impact_airports": "SAH（萨那）、沙特相关机场（威胁中）",
+          "impact_routes": "伊朗-也门航线、沙特空域",
+          "airlines": "伊朗航空、沙特航空等",
+          "passengers": "200+乘客直接受影响，后续待评估",
+          "duration": "待观察沙特回应",
+          "sources": [
+            {
+              "name": "新华网",
+              "url": "http://www.xinhuanet.com/world/20260704/8b413da8fe8a4d40afa68e81b8986c73/c.html"
+            },
+            {
+              "name": "凤凰网",
+              "url": "https://news.ifeng.com/c/8uT7Xa7xUgM"
+            }
+          ]
+        },
+        {
+          "id": "2026-07-04-P2-AF001",
+          "level": "P2",
+          "category": "航司运营",
+          "title": "马尔代夫曼塔航空罢工（7/4起）",
+          "description": "马尔代夫曼塔航空(Manta Air)7/4起罢工，影响马尔代夫内部岛屿跳岛航班。小型航司影响有限。",
+          "impact_airports": "MLE等马尔代夫机场",
+          "impact_routes": "马尔代夫内部岛屿跳岛航线",
+          "airlines": "Manta Air",
+          "passengers": "影响有限",
+          "duration": "7/4起，待确认结束时间",
+          "sources": [
+            {
+              "name": "民航资源网",
+              "url": "https://i.carnoc.com"
+            }
+          ]
+        }
+      ],
+      "watch_items": [
+        "意大利7/5全国航空大罢工（EasyJet+地勤+ENAV）",
+        "台风巴威远洋移动，6天内不影响我国",
+        "国泰航空9/1恢复中东航线"
+      ],
+      "notes": "AirLabs API月度额度仍未刷新（第4天）"
     }
-  ],
-  "2026-07-03": {
-    "date": "2026-07-03",
-    "updated_at": "2026-07-03T16:00:00+08:00",
-    "period": "下午",
-    "summary": {
-      "P0": 3,
-      "P1": 3,
-      "P2": 3,
-      "watch": 4,
-      "situation": "美伊博弈僵持（霍尔木兹红线+阿曼收费方案），谈判下一轮在葬礼后；委内瑞拉CCS商业航班仍停；台风美莎克今日下午登陆海南，SYX 17时起暂停起降、取消92架次；两起6级以上地震暂无航班影响。"
-    },
-    "event_count": 9
-  },
-  "2026-07-04": {
-    "date": "2026-07-04",
-    "updated_at": "2026-07-04T09:00:00+08:00",
-    "period": "上午",
-    "summary": {
-      "P0": 3,
-      "P1": 3,
-      "P2": 3,
-      "watch": 3,
-      "situation": "台风美莎克SYX已恢复运营，今晚二次登陆广西/越南北部；美伊冲突延续，下轮谈判在葬礼后；德黑兰空域7/6全面关闭；胡塞武装拦截伊朗客机并威胁沙特机场。"
-    },
-    "event_count": 9
-  }
+  ]
 }
