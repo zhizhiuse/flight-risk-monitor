@@ -1486,6 +1486,13 @@
       "period": "下午",
       "summary": "P0x3 | P1x5 | P2x5 | 关注x1",
       "event_count": 14
+    },
+    {
+      "date": "2026-07-08",
+      "time": "09:00",
+      "period": "上午",
+      "summary": "P0x3 | P1x4 | P2x7 | 关注x2",
+      "event_count": 16
     }
   ]
 }
