@@ -1,14 +1,32 @@
 {
   "date": "2026-07-08",
-  "time": "09:00",
-  "period": "上午",
+  "time": "16:00",
+  "period": "下午",
   "summary": "P0x3 | P1x4 | P2x7 | 关注x2",
   "events": [
     {
       "id": "P0-1",
       "priority": "P0",
+      "title": "美伊冲突重大升级：EASA全面禁飞伊朗/伊拉克空域 + IRGC报复打击巴林科威特",
+      "description": "EASA 15:16发布紧急冲突区通报，将伊朗德黑兰FIR（OIIX）升至最高警告级别，要求所有航司在任何高度层完全避开伊朗空域，同步更新伊拉克空域公告，有效期至8月31日。Safe Airspace将伊朗列为Level 1 No Fly。IRGC启动代号「舒贾尔」报复行动，向巴林美军第五舰队总部及科威特阿里萨利姆基地85处目标发射弹道导弹/无人机，击落1架MQ-9。法航/荷航暂停多条中东航线。EASA对海湾8国维持exercise caution警告（非禁飞），沙特空域仍开放。7/9葬礼后伊朗报复性空域行动风险极高。",
+      "airports": "IKA/THR/BND/MHD（伊朗伊拉克）、BAH/KWI（防空警报中）",
+      "routes": "欧亚中东过境航线全线、波斯湾航线、中东-亚洲航线",
+      "airlines": "法航/荷航/汉莎/土耳其航空/阿联酋航空/卡塔尔航空/国泰等",
+      "passengers": "中东走廊承载全球约30%洲际中转，影响数万级/日",
+      "duration": "EASA禁飞至8/31；军事冲突持续中无时间表",
+      "sources": [
+        "https://news.cgtn.com/news/2026-07-08/news-1OBVgix6Br2/p.html",
+        "https://www.rte.ie/news/world/2026/0708/1582341-middle-east-reax/",
+        "http://www.xinhuanet.com/milpro/20260708/ae477dfb5d1340c19a2f1f81bf1e0361/c.html",
+        "https://safeairspace.net/summary/",
+        "https://brusselspost.com/zmzprb-air-france-and-klm-suspend-multiple-middle-east-routes-as-regional-tensions-disrupt-aviation"
+      ]
+    },
+    {
+      "id": "P0-2",
+      "priority": "P0",
       "title": "台风「巴威」（第9号）超强台风 — 今夜进入48小时警戒线",
-      "description": "7/8 05时17级（60m/s），920hPa，七级风圈350-500km。距台湾基隆1650km，今夜进入48小时警戒线。7/11白天擦过或登陆台湾北部（超强台风级），7/11下午至晚间浙闽交界登陆（强台风级14-16级）。关岛塞班已遭重创。登陆强度可能对标「利奇马」。7/8路径将基本锁定。",
+      "description": "7/8 08时HKO中心最大持续风速220km/h（超强台风级），JTWC重返Cat 5。距台湾基隆约1580km，今夜进入48小时台风警戒线。7/11白天擦过或登陆台湾北部（超强台风级），7/11下午至晚间浙闽交界登陆（强台风级14-16级）。飞常准提醒福州/厦门/泉州/温州等机场可能受影响。HKO预测7/9维持220km/h。潜在影响HGH/WNZ/FOC/XMN/SHA-PVG等多枢纽。",
       "airports": "HGH/WNZ/FOC/XMN/SHA-PVG（潜在）",
       "routes": "华东-华南沿海航线、两岸航线、东亚跨洋航线",
       "airlines": "国航/东航/南航/厦航/国泰等（潜在）",
@@ -16,32 +34,15 @@
       "duration": "7/9起影响我国海域，7/10-12主要影响期",
       "sources": [
         "https://content-static.cctvnews.cctv.com/snow-book/index.html?channelId=1119&item_id=5508248010533226207&toc_style_id=feeds_default",
-        "https://m.weibo.cn/detail/5318313880061780",
-        "https://www.hko.gov.hk/hko/textonly/v2/tc/tcp.htm"
-      ]
-    },
-    {
-      "id": "P0-2",
-      "priority": "P0",
-      "title": "美军大规模空袭伊朗本土，美伊停火协议实质破裂",
-      "description": "美军7/8凌晨对伊朗南部发动大规模空袭（规模4-5倍于6/27），目标覆盖阿巴斯港/格什姆岛/锡里克军事设施。伊朗革命卫队7/6-7袭击霍尔木兹海峡3艘商船为导火索。美国同步撤销伊朗石油豁免。伊朗威胁采取「一切必要措施」，总统中断伊拉克行程回国。BND机场状态Unknown。伊朗领空暂未关闭但报复性空域行动风险极高，7/9葬礼结束后风险最大。市场预估7/31前关闭领空概率15.5%。",
-      "airports": "BND（状态Unknown）、THR（7/7恢复）、IKA（持续关闭）、MHD（7/9关闭）",
-      "routes": "中东过境航线、欧亚航线、波斯湾航线",
-      "airlines": "阿联酋航空/卡塔尔航空/伊朗航空/马汉航空等",
-      "passengers": "约3-5万人/周（若伊朗关闭领空将升至10万+）",
-      "duration": "7/8凌晨起持续，后续取决于伊朗反应",
-      "sources": [
-        "https://news.cctv.com/2026/07/08/ARTIUFdDV05em3MqrdOGp84P260708.shtml",
-        "http://www.xinhuanet.com/world/20260708/2e2f48705412486192eb640deacaefbb/c.html",
-        "https://www.cbsnews.com/news/u-s-launches-strikes-against-iran-to-retaliate-for-attacks-on-3-tankers-in-strait-of-hormuz/",
-        "https://news.cri.cn/2026-07-08/b97be069-3892-9376-ac44-268d81d683d4.html"
+        "https://www.hko.gov.hk/hko/textonly/v2/tc/tcp.htm",
+        "https://m.weibo.cn/detail/5318313880061780"
       ]
     },
     {
       "id": "P0-3",
       "priority": "P0",
       "title": "委内瑞拉CCS机场（商业航班仍停，第18天）",
-      "description": "6/22-24两次强震（最高7.5级）导致CCS机场受损关闭。死亡3535人，受伤16740人，1048次余震。代总统宣布启用平行跑道尽快复航，未公布具体时间。央视记者探访确认跑道裂缝已修补，全面恢复需2-3个月。NOTAM至7/9。",
+      "description": "6/22-24两次强震（最高7.5级）导致CCS机场受损关闭。死亡3685人，受伤约17000人，1048次余震。代总统宣布启用平行跑道尽快复航，未公布具体时间。央视记者7/6探访确认跑道裂缝已修补，全面恢复需2-3个月。NOTAM至7/9。",
       "airports": "CCS（商业航班仍停）、VLN（临时承接）",
       "routes": "委内瑞拉全部国际航线",
       "airlines": "委内瑞拉航空及部分拉美航司",
@@ -55,8 +56,23 @@
     {
       "id": "P1-1",
       "priority": "P1",
+      "title": "香港国际机场HKG北跑道关闭（货运747坠海，2名地勤死亡）",
+      "description": "7/8 03:50一架波音747全货机（EK9788，ACT Airlines湿租阿联酋航空）迪拜-香港货运航班降落时偏出北跑道坠海，撞毁地面巡逻车辆。4名机组获救，2名地勤死亡。北跑道关闭，单跑道运营中。HKG为全球最繁忙国际枢纽之一。",
+      "airports": "HKG（北跑道关闭，单跑道运营）",
+      "routes": "香港出发/到达全线，货运影响尤甚",
+      "airlines": "阿联酋航空货运及HKG全量航司",
+      "passengers": "单跑道运营致延误，预计数千架次受影响",
+      "duration": "北跑道关闭中，恢复时间待定",
+      "sources": [
+        "https://cnnbc.com/cargo-boeing-747-skids-off-hong-kong-international-airport-runway-into-sea-two-ground-staff-killed",
+        "https://londondaily.com/cargo-boeing-747-skids-off-hong-kong-international-airport-runway-into-sea-two-ground-staff-killed"
+      ]
+    },
+    {
+      "id": "P1-2",
+      "priority": "P1",
       "title": "印巴对峙/巴基斯坦领空禁令",
-      "description": "巴基斯坦延长领空禁令至7/24，印度航班禁入。若伊朗领空后续关闭，南线绕飞通道将进一步受限。",
+      "description": "巴基斯坦延长领空禁令至7/24，印度航班禁入。若伊朗空域因EASA禁飞令全面关闭，南线绕飞通道将进一步受限，欧亚航线面临南北双线受阻局面。",
       "airports": "ISB/KHI/LHE（过境受限）",
       "routes": "欧亚南线过境航线、中东-东南亚航线",
       "airlines": "印度航空/靛蓝航空/国际过境航司",
@@ -67,24 +83,10 @@
       ]
     },
     {
-      "id": "P1-2",
-      "priority": "P1",
-      "title": "EASA中东空域警告（7/8到期，美军空袭后极大概率延长）",
-      "description": "EASA发布中东空域安全警告，建议避开伊朗/伊拉克/波斯湾部分空域。美军7/8空袭伊朗后波斯湾空域军民航冲突风险急剧上升，EASA极大概率延长或升级警告。",
-      "airports": "IKA/BND/BSR/BGW等中东机场",
-      "routes": "欧洲-中东/亚洲过境航线",
-      "airlines": "汉莎/法航/英航等欧洲航司",
-      "passengers": "约3-5万人/周",
-      "duration": "至7/8，极大概率延期",
-      "sources": [
-        "EASA Official"
-      ]
-    },
-    {
       "id": "P1-3",
       "priority": "P1",
       "title": "意大利ENAV空管全国罢工扩大至米兰两机场",
-      "description": "ENAV空管全国24小时罢工7/6启动进入第二天，扩散至米兰马尔彭萨（MXP）和利纳特（LIN）。7/5 CUB工会全国航空大罢工已造成927架次航班受影响（223取消+704延误）。MXP为意大利最大国际枢纽。",
+      "description": "ENAV空管全国24小时罢工7/6启动进入第三天，扩散至米兰马尔彭萨（MXP）和利纳特（LIN）。7/5 CUB工会全国航空大罢工已造成927架次航班受影响（223取消+704延误）。MXP为意大利最大国际枢纽。",
       "airports": "MXP/LIN/PMO/CTA",
       "routes": "欧洲-意大利航线、意大利国内航线",
       "airlines": "意大利航空/瑞安航空/易捷航空等",
@@ -92,7 +94,6 @@
       "duration": "7/5起持续",
       "sources": [
         "https://www.visahq.news/2026-07-07/it/nation-wide-air-traffic-control-walk-out-grounds-flights-across-sicily-and-northern-italy/",
-        "https://rometimes.com/italy-braces-for-nationwide-aviation-disruption-as-airport-staff-stage-coordinated-strike",
         "https://www.airhelp.co.uk/flight-disruptions/italy-flight-disruption-223-cancellations-704-delays-05072026/"
       ]
     },
@@ -113,42 +114,46 @@
     {
       "id": "P2-1",
       "priority": "P2",
-      "title": "TezJet MD-83起落架坍塌",
-      "description": "7/7比什凯克FRU机场TezJet MD-83起飞滑跑时起落架坍塌致飞机倾倒，187人安全撤离多人轻伤，机场临时关闭，吉尔吉斯斯坦民航局暂停TezJet全部航班运营。",
-      "airports": "FRU",
-      "routes": "吉尔吉斯斯坦国内航线",
-      "airlines": "TezJet",
-      "passengers": "187人安全撤离",
-      "duration": "7/7临时关闭",
+      "title": "孟买BOM机场跑道险撞",
+      "description": "7/7 22:00印航777-300ER（AI816）起飞滑跑时ATC发现同跑道印航快运737 MAX 8（AIX1547）尚未脱离，紧急中止起飞，无人伤亡，777-300ER技术停场。",
+      "airports": "BOM",
+      "routes": "孟买-德里航线",
+      "airlines": "印度航空/印度航空快运",
+      "passengers": "无人伤亡",
+      "duration": "7/7",
       "sources": [
-        "https://news.cctv.com/2026/07/07/ARTIwjImgMmPYDRBnGmZTn1Y260707.shtml"
+        "https://www.newsx.com/india/mumbai-airport-accident-averted-air-india-air-india-express-planes-face-off-on-runway-takeoff-aborted-246050/",
+        "https://m.economictimes.com/news/new-updates/air-india-flight-aborts-takeoff-after-near-runway-collision-with-air-india-express-plane-at-mumbai-airport/amp_articleshow/132255331.cms"
       ]
     },
     {
       "id": "P2-2",
       "priority": "P2",
-      "title": "Air Nostrum CRJ-1000轮胎爆裂",
-      "description": "7/6南特NTE机场IB1222航班起飞轮胎爆裂碎片打伤发动机，跑道封锁3小时，瑞安航空FR5448等待备降期间触发Mayday Fuel紧急宣告，备降布雷斯特。",
-      "airports": "NTE",
-      "routes": "南特-马德里航线",
-      "airlines": "Air Nostrum/伊比利亚航空/瑞安航空",
-      "passengers": "跑道封锁3小时影响多航班",
-      "duration": "7/6，跑道封锁3小时已恢复",
-      "sources": [
-        "https://aeroxplorer.com/articles/ryanair-boeing-737-declares-midair-fuel-emergency-after-iberia-jet-blocks-nantes-runway.php"
-      ]
-    },
-    {
-      "id": "P2-3",
-      "priority": "P2",
-      "title": "K2 Airways货机失联/坠毁",
-      "description": "7/7沙迦至卡拉奇货运途中失联，5名机组，Flightradar初步判断可能坠毁，央视/新华社/AP五源确认。",
+      "title": "K2 Airways货机确认坠毁",
+      "description": "7/7 21:21 K2-1732沙迦-卡拉奇航班导航故障后从雷达消失，下降率-22400ft/min（失速失控特征），5名机组搜救中尚未发现残骸。机龄27年。",
       "airports": "SHJ/KHI",
       "routes": "沙迦-卡拉奇货运航线",
       "airlines": "K2 Airways",
       "passengers": "5名机组",
       "duration": "7/7",
-      "sources": []
+      "sources": [
+        "https://m.thepaper.cn/newsDetail_forward_33539876",
+        "https://worldairlinenews.com/2026/07/07/k2-airways-cargo-flight-1732-loses-contact-and-is-presumed-to-have-crashed-near-karachi/"
+      ]
+    },
+    {
+      "id": "P2-3",
+      "priority": "P2",
+      "title": "法航/荷航暂停中东多条航线",
+      "description": "法航暂停迪拜服务；荷航暂停特拉维夫/迪拜/达曼/利雅得航班，避开伊拉克/伊朗/以色列及海湾多国领空。欧亚航线绕飞增加45分钟-6小时。",
+      "airports": "CDG/DXB/TLV/DMM/RUH",
+      "routes": "巴黎/阿姆斯特丹-中东航线",
+      "airlines": "法国航空/荷兰皇家航空",
+      "passengers": "具体待评估",
+      "duration": "7/8起持续",
+      "sources": [
+        "https://brusselspost.com/zmzprb-air-france-and-klm-suspend-multiple-middle-east-routes-as-regional-tensions-disrupt-aviation"
+      ]
     },
     {
       "id": "P2-4",
@@ -168,7 +173,7 @@
       "id": "P2-5",
       "priority": "P2",
       "title": "加航8500人罢工投票",
-      "description": "IAMAW工会7/7开放罢工投票注册，覆盖8500名技术运维员工，7/21起进入合法罢工期。",
+      "description": "IAMAW工会覆盖8500名技术运维员工，7/21起进入合法罢工期。",
       "airports": "加拿大各枢纽（潜在）",
       "routes": "加拿大国际及国内航线（潜在）",
       "airlines": "加拿大航空",
@@ -181,27 +186,27 @@
     {
       "id": "P2-6",
       "priority": "P2",
-      "title": "德黑兰葬礼限运",
-      "description": "THR 7/7恢复运营，IKA持续关闭可能延长，7/9 MHD全面关闭（最终安葬），7/8全国恢复（MHD除外）。",
+      "title": "德黑兰葬礼限运/EASA禁飞令",
+      "description": "IKA 7/8 05:00短暂恢复后因EASA禁飞令再度受限；7/9 MHD全面关闭（哈梅内伊安葬）。",
       "airports": "IKA/THR/MHD",
       "routes": "中东内部航线",
       "airlines": "伊朗航空/马汉航空",
       "passengers": "约1万人/日",
-      "duration": "7/4-9分阶段",
+      "duration": "7/4-9分阶段，EASA禁飞至8/31",
       "sources": []
     },
     {
       "id": "P2-7",
       "priority": "P2",
-      "title": "法航中东航线调整",
-      "description": "7/7恢复CDG-RUH和CDG-TLV航线；CDG-BEY停飞延长至7/20，CDG-DXB停飞7/6届满解除。",
-      "airports": "CDG/RUH/TLV/BEY/DXB",
-      "routes": "巴黎-利雅得/特拉维夫/贝鲁特/迪拜航线",
-      "airlines": "法国航空（AF）",
-      "passengers": "具体待评估",
-      "duration": "BEY停飞至7/20",
+      "title": "国泰调整燃油附加费",
+      "description": "7/8宣布因中东局势导致航油价格波动调整燃油附加费。",
+      "airports": "HKG",
+      "routes": "国泰全球航线",
+      "airlines": "国泰航空",
+      "passengers": "全部国泰旅客",
+      "duration": "7/8起",
       "sources": [
-        "https://www.cls.cn/detail/2418522"
+        "https://www.cathaypacific.com/cx/en_GB/latest-news/other-news/fuel-surcharge-updates.html"
       ]
     },
     {
