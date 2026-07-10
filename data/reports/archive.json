@@ -6872,41 +6872,41 @@
     },
     {
       "date": "2026-07-10",
-      "period": "上午",
+      "updated_at": "2026-07-10T16:00:00+08:00",
+      "period": "下午",
       "summary": {
         "P0": 3,
         "P1": 4,
         "P2": 11,
         "watch": 2,
-        "situation": "美伊冲突第三天：IRGC打击四国美军基地，EASA黎巴嫩新增禁飞+海湾8国警告撤销，航线逐步恢复；台风巴威减弱为强台风14级7/11登陆台湾北部→浙闽；CCS第20天死亡3889人；埃特纳火山CTA二度关闭"
+        "situation": "下午5话题briefing均无新增事件。台风巴威减弱为台风级13级，路径微调至霞浦-温岭，TPE取消900+航班台湾停班停课；美伊冲突美军再打击90处目标，海湾枢纽确认正常，土航达曼复航；Flybondi燃油断供全面停场推进强制破产；CCS第20天死亡3889人"
       },
       "events": [
         {
           "id": "P0-1",
           "priority": "P0",
-          "title": "美伊冲突重大升级：IRGC打击四国美军基地 + EASA政策重大调整",
-          "description": "IRGC 7/9向科威特/巴林/卡塔尔/约旦四处美军基地发射10枚弹道导弹。美军打击约170处伊朗目标含民用机场。EASA黎巴嫩新增禁飞(至8/31)，撤销海湾8国宽域警告。科威特领空部分恢复，土航率先公布海湾航线恢复时间表。",
+          "title": "美伊冲突持续：美军再打击90处伊朗目标 + 海湾枢纽确认正常 + 土航达曼复航",
+          "description": "美军夜间再打击约90处伊朗目标（14死78伤），三轮累计约260处。safeairspace.net确认仅伊朗Level 1禁飞。DXB/DOH/AUH正常运营。土航达曼7/10如期复航。EASA禁飞伊朗/伊拉克/黎巴嫩至8/31。",
           "airports": "IKA/THR/MHD/IRN/BEY/KWI/BAH/DOH/AMM",
           "routes": "欧亚中东过境航线、波斯湾航线",
           "airlines": "法航/荷航/汉莎/土航/阿联酋航空/卡塔尔航空/皇家乔丹等",
           "passengers": "数万级/日",
           "duration": "EASA禁飞至8/31；航线分阶段恢复中",
           "sources": [
-            "http://world.people.com.cn/n1/2026/0710/c1002-40757219.html",
-            "https://gulfnews.com/world/mena/us-launches-new-strikes-on-iran-hits-bushehr-irgc-facility-chabahar-port-and-iranshahr-airport-as-kuwait-intercepts-drone-attacks-and-air-raid-sirens-sound-in-bahrain-1.500601758",
             "https://safeairspace.net/summary/",
-            "https://www.rnamedia.in/international/us-iran-conflict-fresh-strikes-and-counterstrikes-render-diplomacy-in-ruins-as-gulf-crisis-enters-dangerous-new-phase/17858"
+            "https://gulfnews.com/world/mena/us-launches-new-strikes-on-iran-hits-bushehr-irgc-facility-chabahar-port-and-iranshahr-airport-as-kuwait-intercepts-drone-attacks-and-air-raid-sirens-sound-in-bahrain-1.500601758",
+            "https://karryon.com.au/"
           ]
         },
         {
           "id": "P0-2",
           "priority": "P0",
-          "title": "台风巴威（第9号）强台风 — 7/11登陆台湾北部→浙闽交界",
-          "description": "7/10 06时减弱为强台风级14级45m/s，橙色预警。中心距基隆830km。日本石垣/宫古关闭，那霸取消208航班。国航/东航/南航发布7/11-12客票特殊处置。杭州萧山预计7/10下午起受影响。",
+          "title": "台风巴威（第9号）减弱为台风级 — 7/11登陆台湾北部→浙闽交界",
+          "description": "7/10 15:10减弱为台风级13级40m/s。路径微调至福建霞浦-浙江温岭。TPE取消900+航班（7/10计153架次，7/11计760架次），长荣/华航/星宇取消7/11前全部航班。台湾停班停课停盘。浙江II级防台响应铁路7/11-14停运。",
           "airports": "TPE/HGH/WNZ/FOC/XMN/SHA-PVG",
           "routes": "华东-华南沿海航线、两岸航线、东亚跨洋航线",
-          "airlines": "国航/东航/南航/国泰/JAL/ANA/新航等",
-          "passengers": "已影响约2万人",
+          "airlines": "国航/东航/南航/国泰/长荣/华航/JAL/ANA/新航等",
+          "passengers": "TPE 900+航班取消，约3万人受影响",
           "duration": "7/10-12核心影响期",
           "sources": [
             "https://content-static.cctvnews.cctv.com/snow-book/index.html?channelId=1119&item_id=5508248010533226207&toc_style_id=feeds_default",
@@ -6917,7 +6917,7 @@
           "id": "P0-3",
           "priority": "P0",
           "title": "委内瑞拉CCS机场（商业航班仍停，第20天）",
-          "description": "死亡3889人，受伤16740人，1142次余震。TAP恢复飞往委内瑞拉航班（使用VLN，CCS仍关闭）。NOTAM原定7/9到期。",
+          "description": "死亡3889人，受伤16740人，1142次余震。美军协助人道救援。TAP使用VLN替代机场，CCS仍关闭。",
           "airports": "CCS/VLN",
           "routes": "委内瑞拉全部国际航线",
           "airlines": "委内瑞拉航空/TAP航空",
@@ -6957,13 +6957,13 @@
         {
           "id": "P1-3",
           "priority": "P1",
-          "title": "意大利航空运营中断：ENAV空管罢工 + 埃特纳火山致CTA二度关闭",
-          "description": "ENAV空管罢工延续。埃特纳火山7/9再次喷发，CTA一周内第二次关闭，至少80航班取消。",
+          "title": "意大利航空运营中断：ENAV空管罢工 + 埃特纳火山CTA二度关闭",
+          "description": "ENAV空管罢工延续。埃特纳火山7/9再次喷发CTA关闭，VAAC下午确认灰云活动已停止。",
           "airports": "MXP/LIN/CTA",
           "routes": "欧洲-意大利航线",
           "airlines": "意大利航空/瑞安/易捷等",
           "passengers": "CTA至少80航班取消",
-          "duration": "罢工7/5起；CTA关闭中",
+          "duration": "罢工7/5起；CTA关闭中（VAAC确认灰云停止）",
           "sources": [
             "https://www.visahq.news/2026-07-09/it/catania-airport-shuts-again-as-mount-etna-ash-grounds-flights-until-at-least-1800/",
             "https://www.airhelp.co.uk/flight-disruptions/italy-flight-disruption-223-cancellations-704-delays-05072026/"
@@ -7074,14 +7074,17 @@
         {
           "id": "P2-8",
           "priority": "P2",
-          "title": "Flybondi连续停飞",
-          "description": "机队从9架缩减至1架，债权人已申请破产。",
+          "title": "Flybondi燃油断供全面停场",
+          "description": "累计拖欠1.224亿美元，7/9燃油供应商停止供油，机队全面停场。债权人推动强制破产程序。",
           "airports": "阿根廷国内",
           "routes": "阿根廷国内及南美",
           "airlines": "Flybondi",
           "passengers": "全部旅客",
-          "duration": "7/3起",
-          "sources": []
+          "duration": "7/3起持续",
+          "sources": [
+            "https://hype.aero/cluster/argentinas-flybondi-grounded/0a494a5d-2f76-4a99-8736-8105d3d21bbc/",
+            "https://i.carnoc.com/detail/662828"
+          ]
         },
         {
           "id": "P2-9",
@@ -7111,7 +7114,7 @@
           "id": "P2-11",
           "priority": "P2",
           "title": "土航恢复海湾航线",
-          "description": "达曼7/10、科威特城7/11、巴林7/16复航。",
+          "description": "达曼7/10已复航，科威特城7/11、巴林7/16待复航。",
           "airports": "DMM/KWI/BAH",
           "routes": "IST-海湾航线",
           "airlines": "土耳其航空",
@@ -7145,8 +7148,7 @@
           "duration": "7/1起",
           "sources": []
         }
-      ],
-      "time": "09:00"
+      ]
     }
   ]
 }
