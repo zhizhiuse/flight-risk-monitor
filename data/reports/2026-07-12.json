@@ -1,44 +1,45 @@
 {
   "date": "2026-07-12",
-  "time": "09:00",
-  "period": "上午",
+  "time": "16:00",
+  "period": "下午",
   "summary": {
     "P0": 4,
     "P1": 5,
     "P2": 15,
     "watch": 2,
-    "situation": "霍尔木兹海峡再次无限期关闭+美军第三轮打击伊朗；台风巴威已登陆浙江玉环减弱国内取消2800+架次170万人疏散；欧洲网络攻击第3天NCA逮捕嫌疑人RTX提交SEC 8-K；CCS第21天死亡4333人"
+    "situation": "伊朗反击扩大至卡塔尔/约旦/科威特/阿曼4国美军基地，巴林BAH机场低空航路受限；台风巴威减弱为强热带风暴45座机场雷雨预警国内取消2800+架次；欧洲网络攻击第3天Collins处于恢复最后阶段；CCS第21天死亡4333人"
   },
   "events": [
     {
       "id": "P0-1",
       "priority": "P0",
-      "title": "美伊冲突重大升级：霍尔木兹海峡再次关闭+美军第三轮打击+伊朗威胁扩大打击",
-      "description": "7/12凌晨IRGC宣布霍尔木兹海峡无限期关闭。美军CENTCOM发动本周第三轮打击伊朗，回应IRGC袭击商船M/V GFS Galaxy(1名船员失踪)。伊朗威胁如再遭袭击将打击更多美军基地。海峡空域航线须全面绕道。此前：伊朗霍尔木兹甘省机场(含BND)无限期关闭。科威特T1遭袭关闭。阿联酋空域已恢复。EASA禁飞伊朗/伊拉克/黎巴嫩至8/31。",
-      "airports": "IKA/THR/MHD/BND/BEY/KWI T1",
-      "routes": "欧亚中东过境航线、波斯湾航线、霍尔木兹海峡上空航线",
+      "title": "美伊冲突重大升级：伊朗反击扩大至4国美军基地+巴林BAH机场受限",
+      "description": "7/12下午：伊朗对卡塔尔乌代德基地/约旦王子哈桑基地/科威特爱国者防空/阿曼杜库姆港发动导弹和无人机打击。美军三夜累计超300个目标。巴林BAH低空航路受限短途航班大面积取消。DOH实施PPR slot限制。UAE高度戒备。霍尔木兹海峡仍无限期关闭。EASA禁飞伊朗/伊拉克/黎巴嫩至8/31。",
+      "airports": "IKA/THR/MHD/BND/BEY/KWI T1/BAH(受限)/DOH(PPR限制)",
+      "routes": "欧亚中东过境航线、波斯湾航线、霍尔木兹海峡上空航线、海湾区域短途航线",
       "airlines": "法航/荷航/汉莎/土航/阿联酋航空/卡塔尔航空/科威特航空等",
-      "passengers": "数万级/日",
+      "passengers": "数万级/日；BAH短途航班大面积取消",
       "duration": "EASA禁飞至8/31；海峡关闭无限期；冲突升级中",
       "sources": [
-        "http://www.xinhuanet.com/world/20260712/a5caddc9c90b45419a7fe6819c9a3087/c.html",
-        "https://news.cgtn.com/news/2026-07-12/news-1OI2ktHu0O4/p.html",
-        "https://aa.com.tr/en/americas/us-launches-fresh-round-of-strikes-on-iran-after-attack-on-cargo-ship-centcom/3995321"
+        "http://www.xinhuanet.com/20260712/5a12a08c5d4748e7869782e45fbfa478/c.html",
+        "https://www.arabnews.com/node/2650589/middle-east",
+        "https://www.wam.ae/en/article/byzgp80-bahraini-air-defence-systems-intercept-fresh-wave"
       ]
     },
     {
       "id": "P0-2",
       "priority": "P0",
-      "title": "台风巴威已登陆减弱 国内取消2800+架次 170万人疏散",
-      "description": "7/11 23:20在浙江玉环登陆(台风级13级)，7/12 03:00减弱至33m/s，中央气象台降为黄色预警。上海取消653架次，国内取消超2800架次，170万人疏散。TPE取消率99%。56座机场受影响。已登陆减弱中。",
-      "airports": "TPE/SHA-PVG/HGH/WNZ/FOC/XMN/NGB等56座",
+      "title": "台风巴威减弱为强热带风暴 45座机场雷雨预警 航班逐步恢复中",
+      "description": "7/11 23:20浙江玉环登陆后温州乐清二次登陆，减弱为强热带风暴。45座机场雷雨预警，国内取消2800+架次。上海PVG/SHA取消653架次(30%运力)。浙江疏散200万+人。航班逐步恢复中。",
+      "airports": "PVG/SHA/HGH/NGB/WNZ/FOC/XMN等45座",
       "routes": "华东-华南沿海航线、两岸航线、东亚跨洋航线",
       "airlines": "国航/东航/南航/春秋/国泰/长荣/华航/JAL/ANA等",
       "passengers": "国内取消2800+架次，合计影响15万+人",
-      "duration": "7/10-12核心影响期，已登陆减弱中",
+      "duration": "7/10-12核心影响期，减弱中航班逐步恢复",
       "sources": [
-        "https://www.cma.gov.cn/",
-        "http://www.xinhuanet.com/"
+        "http://www.globaltimes.cn/page/202607/1365699.shtml",
+        "http://www.xinhuanet.com/",
+        "https://www.cma.gov.cn/"
       ]
     },
     {
@@ -59,15 +60,15 @@
     {
       "id": "P0-4",
       "priority": "P0",
-      "title": "欧洲多枢纽机场遭网络攻击（Collins Aerospace Muse系统）第3天：嫌疑人被捕",
-      "description": "英国NCA逮捕一名嫌疑人，RTX向SEC提交Form 8-K正式披露。系统第3天持续中断。Eurocontrol要求BRU取消半数航班至7/13。LHR/CDG/FRA/BRU/DUB持续受影响。BER因马拉松叠加延误超1小时。15万+旅客。",
+      "title": "欧洲多枢纽机场遭网络攻击（Collins Aerospace Muse系统）第3天：恢复最后阶段",
+      "description": "Collins称处于软件更新最后阶段，完全恢复时间未定。NCA逮捕嫌疑人，RTX提交SEC 8-K。Eurocontrol指令至7/13 02:00UTC。BRU仍取消50%，LHR/BER缓解中。15万+旅客。",
       "airports": "BRU/LHR/CDG/FRA/BER/DUB/ORK",
       "routes": "欧洲内部及跨大西洋航线",
       "airlines": "汉莎/英航/荷航/法航/布鲁塞尔航空等",
       "passengers": "15万+人",
-      "duration": "7/9起持续第3天，Eurocontrol指令至7/13",
+      "duration": "7/9起第3天，Eurocontrol指令至7/13，恢复最后阶段",
       "sources": [
-        "https://www.defenceconnect.com.au/news?start=5715",
+        "https://www.nextpulse.news/story/dc17TR2Mw1PW",
         "https://www.eurocontrol.int/",
         "https://www.france24.com/"
       ]
@@ -99,16 +100,16 @@
     {
       "id": "P1-3",
       "priority": "P1",
-      "title": "意大利航空运营中断：ENAV空管罢工延续+埃特纳火山CTA已恢复",
-      "description": "ENAV空管罢工延续。CTA 7/10 14:00已恢复运营，INGV降级橙色。",
-      "airports": "MXP/LIN/CTA(已恢复)",
+      "title": "意大利航空运营中断：ENAV空管罢工延续+7/11地勤全国罢工+CTA已恢复",
+      "description": "7/11全国地勤8小时罢工，ITA取消133航班，全国超1000架次受影响，约25万旅客。ENAV罢工7/5起延续。CTA 7/10已恢复。注：7/11罢工为单一来源，待交叉验证。",
+      "airports": "MXP/LIN/NAP/PMO/FCO/CTA(已恢复)",
       "routes": "欧洲-意大利航线",
-      "airlines": "意大利航空/瑞安/易捷等",
-      "passengers": "CTA此前80+航班取消，现已恢复",
+      "airlines": "ITA Airways/瑞安/易捷/伏林等",
+      "passengers": "7/11约25万人；7/5约438架次中断",
       "duration": "罢工7/5起；CTA 7/10已恢复",
       "sources": [
-        "https://www.visahq.news/2026-07-09/it/catania-airport-shuts-again-as-mount-etna-ash-grounds-flights-until-at-least-1800/",
-        "https://www.airhelp.co.uk/flight-disruptions/italy-flight-disruption-223-cancellations-704-delays-05072026/"
+        "https://www.visahq.news/2026-07-11/it/nationwide-airport-ground-staff-strike-grounds-hundreds-of-flights-across-italy/",
+        "https://www.travelpirates.com/captains-log/italy-strikes-delays-july-2026"
       ]
     },
     {
@@ -121,9 +122,7 @@
       "airlines": "UPS/FedEx",
       "passengers": "货运为主",
       "duration": "恢复时间待定",
-      "sources": [
-        "https://metaworld.media/story/Grounding_of_MD-11_Cargo_Planes_Announced_Following_Fatal_Kentucky_Crash"
-      ]
+      "sources": []
     },
     {
       "id": "P1-5",
@@ -270,7 +269,7 @@
       "id": "P2-11",
       "priority": "P2",
       "title": "土航恢复海湾航线",
-      "description": "达曼7/10+科威特城7/11已复航，巴林7/16待复航。",
+      "description": "达曼7/10+科威特城7/11已复航，巴林7/16待复航（BAH受限添变数）。",
       "airports": "DMM/KWI/BAH",
       "routes": "IST-海湾航线",
       "airlines": "土耳其航空",
@@ -295,7 +294,7 @@
     {
       "id": "P2-13",
       "priority": "P2",
-      "title": "韩亚航空A330跑道偏出（NEW）",
+      "title": "韩亚航空A330跑道偏出",
       "description": "7/10晚韩亚航空A330-300（首尔仁川-宿务CEB）恶劣天气第三次进近时偏出跑道，前起落架受损，173人全部安全撤离。",
       "airports": "CEB",
       "routes": "ICN-CEB",
@@ -309,7 +308,7 @@
     {
       "id": "P2-14",
       "priority": "P2",
-      "title": "土耳其航空TK731鸟击紧急降落（NEW）",
+      "title": "土耳其航空TK731鸟击紧急降落",
       "description": "7/11 TK731（A330-300，伊斯坦布尔-科伦坡）起飞后遭遇鸟击发动机受损，盘旋近3小时后安全降落，246人安全。",
       "airports": "CMB",
       "routes": "IST-CMB",
@@ -323,7 +322,7 @@
     {
       "id": "P2-15",
       "priority": "P2",
-      "title": "Flydubai FZ443鸟击紧急降落（NEW）",
+      "title": "Flydubai FZ443鸟击紧急降落",
       "description": "7/11 FZ443（迪拜-勒克瑙LKO）起飞时遭遇鸟击，安全返回紧急降落，163人安全，停留约6小时检修，DGCA介入调查。",
       "airports": "LKO",
       "routes": "DXB-LKO",
