@@ -7834,55 +7834,72 @@
     },
     {
       "date": "2026-07-13",
-      "updated_at": "2026-07-13T09:00:00+08:00",
-      "period": "上午",
+      "updated_at": "2026-07-13T16:00:00+08:00",
+      "period": "下午",
       "summary": {
-        "P0": 4,
-        "P1": 6,
+        "P0": 5,
+        "P1": 8,
         "P2": 15,
         "watch": 2,
-        "situation": "科威特KWI机场全面暂停+阿曼遭袭召见伊朗大使+海峡仍关闭；台风巴威减弱华东机场恢复中；欧洲网络攻击第4天柏林已恢复布鲁塞尔恢复中；CCS第22天死亡4490人；新增比利时全国大罢工7/15 BRU+CRL取消所有出港航班"
+        "situation": "伊朗IRGC对6国美军基地报复性打击(约旦/卡塔尔/巴林/科威特/阿曼/UAE)，约旦安曼空域临时关闭；KWI 2h临时关闭后恢复(更正上午推送)；美军第4轮打击伊朗8城；霍尔木兹航运跌至五周最低(6艘/日)油价飙升4%；美伊阿曼调解破裂；伊朗扣押2艘货船。新增P1巴林防空警报+卡塔尔空域临时关闭。比利时罢工7/15临近"
       },
       "events": [
         {
           "id": "P0-1",
           "priority": "P0",
-          "title": "美伊冲突持续升级：科威特KWI机场全面暂停+阿曼遭袭+海峡仍关闭",
-          "description": "7/13：KWI机场全面暂停所有进出港航班。阿曼穆桑代姆省遭无人机袭击，阿曼召见伊朗大使抗议。科威特北部3个边境哨所+海上石油平台遭袭。霍尔木兹海峡仍无限期关闭，24h仅11艘商船通过。EASA禁飞伊朗/伊拉克/黎巴嫩至8/31。",
-          "airports": "KWI(全面暂停)/BAH(受限)/DOH(PPR限制)/IKA/THR/MHD/BND/BEY",
-          "routes": "欧亚中东过境航线、波斯湾航线、霍尔木兹海峡上空航线",
-          "airlines": "Jazeera Airways/Kuwait Airways/Emirates/Qatar Airways/Turkish Airlines/Saudia等",
-          "passengers": "KWI全面暂停影响数千/日；中东走廊数万级/日",
-          "duration": "EASA禁飞至8/31；海峡关闭无限期；KWI恢复时间未定",
+          "title": "美伊冲突全面升级：伊朗6国报复性打击+美军第4轮空袭+海峡航运冰点+调解破裂",
+          "description": "伊朗IRGC对约旦/卡塔尔/巴林/科威特/阿曼/UAE 6国美军基地发动报复性打击。KWI 2h临时关闭后恢复(更正上午「全面暂停」)。美军第4轮打击伊朗8城首次使用海上攻击无人机。霍尔木兹航运跌至6艘/日(下降89%)，油价飙升4%。伊朗扣押MSC Francesca和Epaminondas。阿曼调解谈判破裂。",
+          "airports": "AMM(临时关闭)/KWI(2h关闭后恢复)/DOH(临时关闭后恢复)/BAH(严重缩减)/DXB(压力下)/IKA/THR/BEY",
+          "routes": "欧亚中东过境航线、波斯湾航线、霍尔木兹海峡上空航线、约旦过境航线",
+          "airlines": "Emirates/Qatar Airways/Turkish Airlines/Royal Jordanian/Gulf Air/Kuwait Airways/Jazeera Airways/Saudia等",
+          "passengers": "中东走廊数万级/日",
+          "duration": "EASA禁飞至8/31；海峡关闭无限期；调解破裂无退让迹象",
           "sources": [
-            "http://www.xinhuanet.com/world/20260713/ee51a82b821444da84290f7b4f4a62bc/c.html",
-            "https://www.wam.ae/ar/article/c0jf7z6",
-            "https://news.cctv.com/2026/07/12/ARTIRyGK7AYx1QlVq4DkF1HD260712.shtml",
-            "http://www.chinaview.cn/20260712/e428073e9ffe42d599a4ae6daed12393/c.html",
-            "https://www.muscatdaily.com/2026/07/12/oman-condemns-drone-attacks-rescues-23-seafarers-off-musandam/"
+            "http://www.chinaview.cn/20260712/0b9359bc9bc748759d0742253a6cae62/c.html",
+            "https://www.wam.ae/ar/article/c0l7j17",
+            "https://news.ifeng.com/c/8uikQGV3vrV",
+            "https://www.arabnews.com/node/2650698/middle-east",
+            "https://www.aa.com.tr/en/economy/oil-rises-shipping-in-strait-of-hormuz-slows-after-renewed-us-iran-attacks/3996014",
+            "https://www.tbsnews.net/worldbiz/middle-east/iran-us-issue-conflicting-claims-over-strait-hormuz-after-failed-oman-talks"
+          ]
+        },
+        {
+          "id": "P0-5",
+          "priority": "P0",
+          "title": "约旦安曼机场空域临时关闭",
+          "description": "伊朗IRGC打击约旦Prince Hassan空军基地，3枚导弹落入约旦境内。CARC宣布空域自20:00 UTC起临时关闭。约旦官方未直接确认。",
+          "airports": "AMM(空域临时关闭)/AQJ",
+          "routes": "约旦出发/到达/过境全线",
+          "airlines": "Royal Jordanian/约旦全量运营航司",
+          "passengers": "AMM日均约100架次",
+          "duration": "20:00 UTC起临时关闭，CARC将评估",
+          "sources": [
+            "https://lenationalgeria.com/jordan-temporarily-closes-airspace/",
+            "http://m.toutiao.com/group/7661889287852196386/",
+            "https://english.news.cn/20260712/220aeb1b9ad645be83bbf98ca18b6dfa/c.html",
+            "https://f.aa.com.tr/en/middle-east/bahrain-sounds-air-raid-sirens-while-reports-say-jordan-suspends-flights/3996015"
           ]
         },
         {
           "id": "P0-2",
           "priority": "P0",
-          "title": "台风巴威减弱为热带风暴 华东机场陆续恢复航班运行",
-          "description": "7/12移出浙江进入安徽，持续减弱。杭州/宁波/义乌/台州等机场7/12中午起陆续恢复。上海PVG/SHA取消653架次。浙江疏散220万人。7/13残余降雨但航班运力基本恢复。",
+          "title": "台风巴威减弱消散中 华东航班运力基本恢复",
+          "description": "7/12移出浙江进入安徽减弱为热带风暴。华东机场7/12中午起陆续恢复。7/12上海取消653架次。7/13残余降雨但运力基本恢复。",
           "airports": "PVG/SHA/HGH/NGB/WNZ等华东机场(恢复中)",
           "routes": "华东-华南沿海航线、两岸航线、东亚跨洋航线",
           "airlines": "国航/东航/南航/春秋/吉祥/国泰等",
-          "passengers": "7/12取消2800+架次影响15万+人，7/13逐步恢复",
+          "passengers": "7/12取消2800+架次影响15万+人",
           "duration": "7/11-12核心影响期已过，7/13恢复中",
           "sources": [
             "http://news.china.com.cn/2026-07/13/content_118595605.shtml",
-            "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/07-12/news1061622.shtml",
-            "https://m.thepaper.cn/newsDetail_forward_33570915"
+            "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/07-12/news1061622.shtml"
           ]
         },
         {
           "id": "P0-3",
           "priority": "P0",
           "title": "委内瑞拉CCS机场（商业航班仍停，第22天）",
-          "description": "死亡升至4490人(7/13新华网确认)。德国/英国外交部确认关闭至至少7月底。美军2000人协助修复。UN 2.96亿美元援助。",
+          "description": "死亡升至4490人(7/13新华网确认)。德国/英国外交部确认关闭至至少7月底。美军2000人协助修复。",
           "airports": "CCS/VLN",
           "routes": "委内瑞拉全部国际航线",
           "airlines": "委内瑞拉航空/TAP航空",
@@ -7895,16 +7912,45 @@
         {
           "id": "P0-4",
           "priority": "P0",
-          "title": "欧洲多枢纽机场遭网络攻击（Collins Aerospace Muse系统）第4天：逐步恢复中",
-          "description": "柏林机场已恢复运营。布鲁塞尔仍取消约10%航班但加速系统更新。NCA逮捕嫌疑人，RTX提交SEC 8-K。ENISA确认为第三方网络攻击。Eurocontrol指令至7/13 02:00UTC到期。",
-          "airports": "BRU(仍取消约10%)/BER(已恢复)/LHR(缓解)/CDG/FRA/DUB/ORK",
+          "title": "欧洲多枢纽机场遭网络攻击(Collins Aerospace) 第4天：逐步恢复中",
+          "description": "柏林已恢复。布鲁塞尔仍取消约10%。NCA逮捕嫌疑人RTX提交SEC 8-K。ENISA确认第三方攻击。AirLabs下午采集6个CANCELLED AMS-LHR航班。",
+          "airports": "BRU(仍取消约10%)/BER(已恢复)/LHR(缓解)/AMS-LHR(6航班取消)",
           "routes": "欧洲内部及跨大西洋航线",
-          "airlines": "汉莎/英航/荷航/法航/布鲁塞尔航空等",
+          "airlines": "汉莎/英航/荷航/法航/布鲁塞尔航空/维珍/达美/厦航等",
           "passengers": "累计15万+人",
           "duration": "7/9起第4天，柏林已恢复，布鲁塞尔恢复中",
           "sources": [
             "https://www.defenceconnect.com.au/news",
             "https://www.eurocontrol.int/"
+          ]
+        },
+        {
+          "id": "P1-7",
+          "priority": "P1",
+          "title": "巴林全国防空警报 + Sheikh Isa空军基地起火",
+          "description": "IRGC打击巴林Sheikh Isa基地，全国防空警报。商业航班严重缩减，Gulf Air受影响尤甚。",
+          "airports": "BAH(严重缩减/临时暂停)",
+          "routes": "巴林出发/到达/过境航线",
+          "airlines": "Gulf Air/海湾区域航司",
+          "passengers": "BAH日均约100架次",
+          "duration": "7/13凌晨起，恢复时间未定",
+          "sources": [
+            "https://f.aa.com.tr/en/middle-east/bahrain-sounds-air-raid-sirens-as-iran-says-it-is-striking-targets-in-gulf-country/3996015"
+          ]
+        },
+        {
+          "id": "P1-8",
+          "priority": "P1",
+          "title": "卡塔尔空域临时关闭后逐步恢复 3人受伤",
+          "description": "IRGC打击Al Udeid基地。Hamad机场暂停起降后逐步恢复。Qatar Airways削减60%时刻表。3人受伤含1名儿童。",
+          "airports": "DOH(Hamad国际，临时关闭后恢复)",
+          "routes": "卡塔尔航线及QR全球航线",
+          "airlines": "Qatar Airways(削减60%)",
+          "passengers": "DOH日均约300+架次",
+          "duration": "7/13凌晨临时关闭后逐步恢复",
+          "sources": [
+            "https://www.cgtn.com/",
+            "http://www.chinaview.cn/20260712/0b9359bc9bc748759d0742253a6cae62/c.html"
           ]
         },
         {
@@ -7935,7 +7981,7 @@
           "id": "P1-3",
           "priority": "P1",
           "title": "意大利航空运营中断：ENAV空管罢工+7/11地勤罢工+CTA已恢复",
-          "description": "7/11全国地勤8h罢工，ITA取消133航班，约25万旅客。ENAV罢工7/5起延续。CTA 7/10已恢复。单一来源待验证。",
+          "description": "7/11全国地勤8h罢工，ITA取消133航班，约25万旅客。CTA 7/10已恢复。单一来源待验证。",
           "airports": "MXP/LIN/NAP/PMO/FCO/CTA(已恢复)",
           "routes": "欧洲-意大利航线",
           "airlines": "ITA Airways/瑞安/易捷/伏林等",
@@ -7973,7 +8019,7 @@
           "id": "P1-6",
           "priority": "P1",
           "title": "比利时全国大罢工7/15：BRU+CRL机场所有出港航班取消",
-          "description": "7/13-15三天滚动罢工，7/15全面总罢工。BRU和CRL所有出港航班取消。BRU叠加Collins网络攻击后续影响。",
+          "description": "7/13-15三天滚动罢工，7/15全面总罢工。BRU和CRL所有出港取消。BRU叠加Collins网络攻击后续影响。",
           "airports": "BRU(7/15所有出港取消)/CRL(7/15全部取消)",
           "routes": "布鲁塞尔出发的欧洲及跨大西洋航线",
           "airlines": "布鲁塞尔航空/Ryanair/TUI/易捷等",
@@ -8005,9 +8051,7 @@
           "airlines": "加拿大航空",
           "passengers": "162人安全",
           "duration": "7/9",
-          "sources": [
-            "https://www.ctvnews.ca/montreal/article/air-canada-flight-veers-off-runway-at-montreal-airport/"
-          ]
+          "sources": []
         },
         {
           "id": "P2-3",
@@ -8019,9 +8063,7 @@
           "airlines": "WestJet",
           "passengers": "潜在影响大",
           "duration": "投票至7/15，最早罢工8/2",
-          "sources": [
-            "https://cupe1091.ca/2026/07/10/westjet-flight-attendants-open-historic-strike-vote/"
-          ]
+          "sources": []
         },
         {
           "id": "P2-4",
@@ -8057,9 +8099,7 @@
           "airlines": "K2 Airways",
           "passengers": "5名机组",
           "duration": "7/7",
-          "sources": [
-            "https://apnews.com/article/pakistan-cargo-plane-arabian-sea-search-investigation-0446c3d05c19aa48a4b6888f72ef7c72"
-          ]
+          "sources": []
         },
         {
           "id": "P2-7",
@@ -8077,15 +8117,13 @@
           "id": "P2-8",
           "priority": "P2",
           "title": "Flybondi全面停飞升级",
-          "description": "6.6亿美元破产申请，全员停工至9/30，仅1架间歇运营，已取消超20%年度航班。",
+          "description": "6.6亿美元破产申请，全员停工至9/30，仅1架间歇运营。",
           "airports": "阿根廷国内",
           "routes": "阿根廷国内及南美",
           "airlines": "Flybondi",
           "passengers": "全部旅客",
           "duration": "7/3起持续升级",
-          "sources": [
-            "https://www.airdatanews.com/flybondi-operations-disrupted-after-fuel-payment-crisis/"
-          ]
+          "sources": []
         },
         {
           "id": "P2-9",
@@ -8115,7 +8153,7 @@
           "id": "P2-11",
           "priority": "P2",
           "title": "土航恢复海湾航线",
-          "description": "达曼7/10+科威特城7/11已复航，巴林7/16待复航（BAH受限+KWI全面暂停添变数）。",
+          "description": "达曼7/10+科威特城7/11已复航，巴林7/16待复航（BAH受限添变数）。",
           "airports": "DMM/KWI/BAH",
           "routes": "IST-海湾航线",
           "airlines": "土耳其航空",
@@ -8127,15 +8165,13 @@
           "id": "P2-12",
           "priority": "P2",
           "title": "瑞安航空737-800舷窗破碎",
-          "description": "7/10 FR1879发动机疑吸入飞鸟致碎片击穿舷窗，乘客头部被部分吸出，紧急返降。",
+          "description": "7/10 FR1879发动机疑吸入飞鸟致碎片击穿舷窗，紧急返降。",
           "airports": "SKG",
           "routes": "SKG-FMM",
           "airlines": "瑞安航空/Malta Air",
           "passengers": "1人送医",
           "duration": "7/10",
-          "sources": [
-            "https://www.irishtimes.com/business/transport/2026/07/10/ryanair-passenger-partly-sucked-out-of-plane-as-window-dislodges/"
-          ]
+          "sources": []
         },
         {
           "id": "P2-13",
@@ -8147,9 +8183,7 @@
           "airlines": "韩亚航空",
           "passengers": "173人安全撤离",
           "duration": "7/10",
-          "sources": [
-            "https://barbadostimes.com/korean-air-plane-overruns-cebu-runway-in-bad-weather-all-safe"
-          ]
+          "sources": []
         },
         {
           "id": "P2-14",
@@ -8161,9 +8195,7 @@
           "airlines": "土耳其航空",
           "passengers": "246人安全",
           "duration": "7/11",
-          "sources": [
-            "https://www.newswire.lk/2026/07/11/turkish-airlines-flight-circles-off-sri-lanka-after-reported-bird-strike/"
-          ]
+          "sources": []
         },
         {
           "id": "P2-15",
@@ -8175,9 +8207,7 @@
           "airlines": "Flydubai",
           "passengers": "163人安全",
           "duration": "7/11",
-          "sources": [
-            "https://www.moneycontrol.com/news/india/bird-strikes-dubai-lucknow-plane-authorities-say-flight-not-impacted-13971679.html"
-          ]
+          "sources": []
         },
         {
           "id": "WATCH-1",
@@ -8195,7 +8225,7 @@
           "id": "WATCH-2",
           "priority": "关注",
           "title": "AirLabs API 7/13恢复可用",
-          "description": "7/10注册纪念日重置，结束12天额度耗尽。7/13采集发现11个CANCELLED航班。",
+          "description": "7/10注册纪念日重置。下午采集6个CANCELLED航班(AMS-LHR)。",
           "airports": "-",
           "routes": "-",
           "airlines": "-",
