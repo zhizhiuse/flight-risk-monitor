@@ -8234,6 +8234,451 @@
           "sources": []
         }
       ]
+    },
+    {
+      "date": "2026-07-14",
+      "updated_at": "2026-07-14T09:00:00+08:00",
+      "period": "上午",
+      "summary": {
+        "P0": 4,
+        "P1": 10,
+        "P2": 17,
+        "watch": 2,
+        "situation": "达美CRJ-900多伦多降落翻转15-18人受伤;胡塞4年来首次打击沙特艾卜哈机场SV取消134航班;科威特再次临时关闭空域过境禁飞;美军7/15海上封锁伊朗;IRGC关闭霍尔木兹海峡;约旦拦截4枚伊朗导弹;台风巴威已消散移出P0;比利时罢工7/15全面影响BRU+CRL"
+      },
+      "events": [
+        {
+          "id": "P0-1",
+          "priority": "P0",
+          "title": "美伊冲突全面升级：科威特再次关闭空域+美军海上封锁伊朗+霍尔木兹海峡关闭",
+          "description": "科威特7/14再次临时关闭空域(过境禁飞)。美军7/15 06:00起海上封锁伊朗。IRGC宣布关闭霍尔木兹海峡。约旦拦截4枚伊朗导弹。延续：伊朗6国报复打击/美军第4轮打击伊朗8城/海峡航运6艘日/扣押2艘货船/阿曼调解破裂。",
+          "airports": "KWI(再次临时关闭,过境禁飞)/AMM(持续关闭)/DOH(恢复中)/BAH(严重缩减)/IKA/THR/BEY",
+          "routes": "欧亚中东过境航线/波斯湾航线/霍尔木兹海峡/约旦过境/科威特过境",
+          "airlines": "Emirates/Qatar Airways/Turkish Airlines/Royal Jordanian/Gulf Air/Kuwait Airways/Saudia等",
+          "passengers": "中东走廊数万级/日",
+          "duration": "EASA禁飞至8/31；海峡关闭无限期；美军7/15海上封锁",
+          "sources": [
+            "https://www.wam.ae/ar/article/179m9o6",
+            "https://safeairspace.net/summary/",
+            "https://english.news.cn/20260714/d7e5687b6d304e138e7d6a04cba9049a/c.html",
+            "https://news.ifeng.com/c/8ukH6637Qxo"
+          ]
+        },
+        {
+          "id": "P0-5",
+          "priority": "P0",
+          "title": "约旦安曼机场空域临时关闭（延续）",
+          "description": "CARC宣布空域20:00UTC起临时关闭。约旦拦截4枚伊朗导弹。约旦官方未直接确认。",
+          "airports": "AMM(空域持续关闭)/AQJ",
+          "routes": "约旦出发/到达/过境全线",
+          "airlines": "Royal Jordanian/约旦全量航司",
+          "passengers": "AMM日均约100架次",
+          "duration": "20:00 UTC起持续中",
+          "sources": [
+            "https://lenationalgeria.com/jordan-temporarily-closes-airspace/",
+            "https://english.news.cn/20260712/220aeb1b9ad645be83bbf98ca18b6dfa/c.html"
+          ]
+        },
+        {
+          "id": "P0-3",
+          "priority": "P0",
+          "title": "委内瑞拉CCS机场（商业航班仍停，第23天）",
+          "description": "死亡升至4561人。德国/英国外交部确认关闭至至少7月底。",
+          "airports": "CCS/VLN",
+          "routes": "委内瑞拉全部国际航线",
+          "airlines": "委内瑞拉航空/TAP航空",
+          "passengers": "约5万+",
+          "duration": "已持续23天,关闭至至少7月底",
+          "sources": [
+            "https://www.newsare.net",
+            "http://www.xinhuanet.com/"
+          ]
+        },
+        {
+          "id": "P0-4",
+          "priority": "P0",
+          "title": "欧洲多枢纽机场遭网络攻击(Collins Aerospace) 第5天：逐步恢复中",
+          "description": "柏林已恢复。布鲁塞尔仍取消约10%。NCA逮捕嫌疑人。Eurocontrol指令7/13到期未确认延长。",
+          "airports": "BRU(仍取消约10%)/BER(已恢复)/LHR/CDG/FRA(缓解)",
+          "routes": "欧洲内部及跨大西洋航线",
+          "airlines": "汉莎/英航/荷航/法航/布鲁塞尔航空等",
+          "passengers": "累计15万+人",
+          "duration": "7/9起第5天",
+          "sources": [
+            "https://www.defenceconnect.com.au/news",
+            "https://www.eurocontrol.int/"
+          ]
+        },
+        {
+          "id": "P1-9",
+          "priority": "P1",
+          "title": "达美CRJ-900多伦多皮尔逊降落翻转 15-18人受伤",
+          "description": "DL4819明尼阿波利斯-多伦多CRJ-900降落时失控翻转。80人全员幸存,15-18人受伤。YYZ跑道短暂关闭。TSB调查中。",
+          "airports": "YYZ(跑道短暂关闭已恢复)",
+          "routes": "多伦多出发/到达航线",
+          "airlines": "达美航空(Endeavor Air)",
+          "passengers": "80人全员幸存",
+          "duration": "7/13 14:45多伦多时间发生",
+          "sources": [
+            "https://www.bbc.com/news/world-us-canada-68785612",
+            "https://www.rp.pl/wypadki/art41817391-kanada-samolot-przewrocil-sie-przy-ladowaniu-sa-ranni"
+          ]
+        },
+        {
+          "id": "P1-10",
+          "priority": "P1",
+          "title": "胡塞武装4年来首次打击沙特艾卜哈机场",
+          "description": "胡塞发射弹道导弹和无人机打击沙特艾卜哈机场。4年来首次打击沙特。SV取消134航班。胡塞警告航司勿飞沙特空域。也门政府关闭全部机场。",
+          "airports": "AEB(暂停运营)/SAH(跑道遭打击)/ADE/GXF(也门政府控制区关闭)",
+          "routes": "沙特西南部航线/也门全部航线",
+          "airlines": "沙特航空(SV取消134)/也门航空/马汉航空",
+          "passengers": "SV取消134航班约1-2万人",
+          "duration": "7/13晚起,恢复时间未定",
+          "sources": [
+            "https://english.news.cn/20260714/d7e5687b6d304e138e7d6a04cba9049a/c.html",
+            "https://news.ifeng.com/c/8ukH6637Qxo",
+            "https://m.yicai.com/brief/103273116.html",
+            "https://www.aa.com.tr/en/middle-east/yemens-governmental-aviation-body-closes-all-airports-until-further-notice/3996700"
+          ]
+        },
+        {
+          "id": "P1-7",
+          "priority": "P1",
+          "title": "巴林全国防空警报 + Sheikh Isa基地起火（延续）",
+          "description": "IRGC打击巴林基地。全国防空警报。商业航班严重缩减。",
+          "airports": "BAH(严重缩减)",
+          "routes": "巴林航线",
+          "airlines": "Gulf Air/海湾航司",
+          "passengers": "BAH日均约100架次",
+          "duration": "7/13凌晨起",
+          "sources": [
+            "https://f.aa.com.tr/en/middle-east/bahrain-sounds-air-raid-sirens-as-iran-says-it-is-striking-targets-in-gulf-country/3996015"
+          ]
+        },
+        {
+          "id": "P1-8",
+          "priority": "P1",
+          "title": "卡塔尔空域临时关闭后恢复 3人受伤（延续,恢复中）",
+          "description": "IRGC打击Al Udeid基地。Hamad机场暂停后恢复。QR削减60%。GCAA否认空域关闭传闻。",
+          "airports": "DOH(恢复中)",
+          "routes": "卡塔尔航线及QR全球航线",
+          "airlines": "Qatar Airways(削减60%)",
+          "passengers": "DOH日均约300+架次",
+          "duration": "7/13凌晨起恢复中",
+          "sources": [
+            "https://www.cgtn.com/",
+            "http://www.chinaview.cn/20260712/0b9359bc9bc748759d0742253a6cae62/c.html"
+          ]
+        },
+        {
+          "id": "P1-1",
+          "priority": "P1",
+          "title": "香港HKG北跑道关闭（延续）",
+          "description": "7/8货运747坠海,2名地勤死亡。北跑道关闭中。",
+          "airports": "HKG",
+          "routes": "香港全线",
+          "airlines": "HKG全量航司",
+          "passengers": "数千架次受影响",
+          "duration": "关闭中",
+          "sources": []
+        },
+        {
+          "id": "P1-2",
+          "priority": "P1",
+          "title": "印巴对峙/巴基斯坦领空禁令（延续至7/24）",
+          "description": "巴基斯坦延长领空禁令至7/24。",
+          "airports": "ISB/KHI/LHE",
+          "routes": "欧亚南线",
+          "airlines": "印度航空/国际过境航司",
+          "passengers": "约1-2万人/周",
+          "duration": "至7/24",
+          "sources": []
+        },
+        {
+          "id": "P1-3",
+          "priority": "P1",
+          "title": "意大利航空运营中断（延续）",
+          "description": "ENAV空管罢工+7/11地勤罢工。CTA已恢复。",
+          "airports": "MXP/LIN/NAP/PMO/FCO",
+          "routes": "欧洲-意大利",
+          "airlines": "ITA/瑞安/易捷等",
+          "passengers": "7/11约25万人",
+          "duration": "7/5起",
+          "sources": [
+            "https://www.visahq.news/2026-07-11/it/nationwide-airport-ground-staff-strike-grounds-hundreds-of-flights-across-italy/"
+          ]
+        },
+        {
+          "id": "P1-4",
+          "priority": "P1",
+          "title": "FAA紧急停飞全球MD-11货机（延续）",
+          "description": "UPS MD-11肯塔基坠毁14死,FAA全面停飞。",
+          "airports": "SDF",
+          "routes": "全球货运",
+          "airlines": "UPS/FedEx",
+          "passengers": "货运为主",
+          "duration": "待定",
+          "sources": []
+        },
+        {
+          "id": "P1-5",
+          "priority": "P1",
+          "title": "FAA加拿大777/747限制（暂定P1,延续）",
+          "description": "FAA对部分777/747发布限制,加拿大跟进。7/1生效。",
+          "airports": "跨太平洋枢纽",
+          "routes": "北美-亚洲",
+          "airlines": "运营777/747的航司",
+          "passengers": "待评估",
+          "duration": "7/1起",
+          "sources": []
+        },
+        {
+          "id": "P1-6",
+          "priority": "P1",
+          "title": "比利时全国大罢工7/15：BRU+CRL所有出港取消（7/14第二天）",
+          "description": "7/13-15三天滚动罢工,7/15全面总罢工。BRU+CRL所有出港取消。BRU叠加Collins网络攻击影响。",
+          "airports": "BRU(7/15所有出港取消)/CRL(7/15全部取消)",
+          "routes": "布鲁塞尔出发的欧洲及跨大西洋航线",
+          "airlines": "布鲁塞尔航空/Ryanair/TUI/易捷等",
+          "passengers": "BRU日均约250架次出港",
+          "duration": "7/13-15,明天7/15全面影响",
+          "sources": [
+            "https://www.nextpulse.news/story/Belgium_Braces_for_Major_Disruption_as_National_Strike_Targets_Austerity_Measures"
+          ]
+        },
+        {
+          "id": "P2-1",
+          "priority": "P2",
+          "title": "坎拉翁火山喷发致宿务14航班取消",
+          "description": "7/9菲律宾坎拉翁火山喷发。",
+          "airports": "CEB",
+          "routes": "宿务航线",
+          "airlines": "PAL/Cebgo",
+          "passengers": "14+航班",
+          "duration": "7/9",
+          "sources": []
+        },
+        {
+          "id": "P2-2",
+          "priority": "P2",
+          "title": "加航737 MAX 8冲出滑行道",
+          "description": "7/9加航AC774蒙特利尔冲出滑行道,162人安全。",
+          "airports": "YUL",
+          "routes": "LAX-YUL",
+          "airlines": "加拿大航空",
+          "passengers": "162人安全",
+          "duration": "7/9",
+          "sources": []
+        },
+        {
+          "id": "P2-3",
+          "priority": "P2",
+          "title": "西捷航空空乘罢工投票",
+          "description": "7/8-7/15投票,最早8/2罢工。",
+          "airports": "加拿大各枢纽",
+          "routes": "西捷全线",
+          "airlines": "WestJet",
+          "passengers": "潜在影响大",
+          "duration": "投票至7/15",
+          "sources": []
+        },
+        {
+          "id": "P2-4",
+          "priority": "P2",
+          "title": "SFO国际航站楼IT故障",
+          "description": "7/8值机终端瘫痪,约14航班延误。",
+          "airports": "SFO",
+          "routes": "SFO国际出发",
+          "airlines": "多家",
+          "passengers": "约14航班",
+          "duration": "7/8",
+          "sources": []
+        },
+        {
+          "id": "P2-5",
+          "priority": "P2",
+          "title": "孟买BOM跑道险撞",
+          "description": "7/7印航777-300ER紧急中止起飞。",
+          "airports": "BOM",
+          "routes": "孟买航线",
+          "airlines": "印度航空",
+          "passengers": "无人伤亡",
+          "duration": "7/7",
+          "sources": []
+        },
+        {
+          "id": "P2-6",
+          "priority": "P2",
+          "title": "K2 Airways货机坠毁",
+          "description": "7/7沙迦-卡拉奇航班失联,5名机组仍失踪。",
+          "airports": "SHJ/KHI",
+          "routes": "沙迦-卡拉奇货运",
+          "airlines": "K2 Airways",
+          "passengers": "5名机组",
+          "duration": "7/7",
+          "sources": []
+        },
+        {
+          "id": "P2-7",
+          "priority": "P2",
+          "title": "法航/荷航暂停中东航线",
+          "description": "法航已恢复巴黎-迪拜；荷航仍暂停至8月23日。",
+          "airports": "CDG/AMS/DXB/TLV/DMM/RUH",
+          "routes": "巴黎/阿姆-中东",
+          "airlines": "法航/荷航",
+          "passengers": "待评估",
+          "duration": "7/8起",
+          "sources": []
+        },
+        {
+          "id": "P2-8",
+          "priority": "P2",
+          "title": "Flybondi全面停飞升级",
+          "description": "6.6亿美元破产,停工至9/30。",
+          "airports": "阿根廷国内",
+          "routes": "阿根廷国内及南美",
+          "airlines": "Flybondi",
+          "passengers": "全部旅客",
+          "duration": "7/3起",
+          "sources": []
+        },
+        {
+          "id": "P2-9",
+          "priority": "P2",
+          "title": "加航8500人罢工投票",
+          "description": "IAMAW 8500人,7/21起合法罢工期。",
+          "airports": "加拿大各枢纽",
+          "routes": "加航全线",
+          "airlines": "加拿大航空",
+          "passengers": "潜在影响大",
+          "duration": "7/21起",
+          "sources": []
+        },
+        {
+          "id": "P2-10",
+          "priority": "P2",
+          "title": "国泰调整燃油附加费",
+          "description": "7/8因中东局势调整燃油附加费。",
+          "airports": "HKG",
+          "routes": "国泰全球航线",
+          "airlines": "国泰航空",
+          "passengers": "全部国泰旅客",
+          "duration": "7/8起",
+          "sources": []
+        },
+        {
+          "id": "P2-11",
+          "priority": "P2",
+          "title": "土航恢复海湾航线",
+          "description": "DMM 7/10+KWI 7/11已复航,BAH 7/16待复航。",
+          "airports": "DMM/KWI/BAH",
+          "routes": "IST-海湾",
+          "airlines": "土耳其航空",
+          "passengers": "航线恢复",
+          "duration": "7/10-16",
+          "sources": []
+        },
+        {
+          "id": "P2-12",
+          "priority": "P2",
+          "title": "瑞安航空737-800舷窗破碎",
+          "description": "7/10 FR1879鸟击致碎片击穿舷窗。",
+          "airports": "SKG",
+          "routes": "SKG-FMM",
+          "airlines": "瑞安航空",
+          "passengers": "1人送医",
+          "duration": "7/10",
+          "sources": []
+        },
+        {
+          "id": "P2-13",
+          "priority": "P2",
+          "title": "韩亚航空A330跑道偏出",
+          "description": "7/10韩亚A330首尔-宿务偏出跑道,173人安全。",
+          "airports": "CEB",
+          "routes": "ICN-CEB",
+          "airlines": "韩亚航空",
+          "passengers": "173人安全",
+          "duration": "7/10",
+          "sources": []
+        },
+        {
+          "id": "P2-14",
+          "priority": "P2",
+          "title": "土耳其航空TK731鸟击紧急降落",
+          "description": "7/11 TK731鸟击发动机受损,246人安全。",
+          "airports": "CMB",
+          "routes": "IST-CMB",
+          "airlines": "土耳其航空",
+          "passengers": "246人安全",
+          "duration": "7/11",
+          "sources": []
+        },
+        {
+          "id": "P2-15",
+          "priority": "P2",
+          "title": "Flydubai FZ443鸟击紧急降落",
+          "description": "7/11 FZ443鸟击,163人安全。",
+          "airports": "LKO",
+          "routes": "DXB-LKO",
+          "airlines": "Flydubai",
+          "passengers": "163人安全",
+          "duration": "7/11",
+          "sources": []
+        },
+        {
+          "id": "P2-16",
+          "priority": "P2",
+          "title": "Air Astana暂停全部迪拜航线至7/18",
+          "description": "因中东局势,阿拉木图-迪拜/阿斯塔纳-迪拜5个航班取消。",
+          "airports": "DXB/ALA/TSE",
+          "routes": "中亚-迪拜",
+          "airlines": "Air Astana",
+          "passengers": "5个航班",
+          "duration": "至7/18",
+          "sources": [
+            "https://en.tengrinews.kz/kazakhstan_news/air-astana-cancels-upcoming-flights-to-the-uae-272184/"
+          ]
+        },
+        {
+          "id": "P2-17",
+          "priority": "P2",
+          "title": "也门政府关闭全部政府控制区机场",
+          "description": "亚丁/塞云/阿尔-赖杨机场关闭至另行通知。也门无枢纽机场。",
+          "airports": "ADE/GXF",
+          "routes": "也门国内",
+          "airlines": "也门航空",
+          "passengers": "影响有限",
+          "duration": "7/13起",
+          "sources": [
+            "https://www.aa.com.tr/en/middle-east/yemens-governmental-aviation-body-closes-all-airports-until-further-notice/3996700"
+          ]
+        },
+        {
+          "id": "WATCH-1",
+          "priority": "关注",
+          "title": "P0-2台风巴威已消散移出P0",
+          "description": "7/12减弱为热带风暴,7/13运力基本恢复,7/14完全消散。",
+          "airports": "-",
+          "routes": "-",
+          "airlines": "-",
+          "passengers": "-",
+          "duration": "已消散",
+          "sources": []
+        },
+        {
+          "id": "WATCH-2",
+          "priority": "关注",
+          "title": "AirLabs API 7/14上午采集46个CANCELLED",
+          "description": "43机场46个CANCELLED。YYZ 10个疑与达美事故相关,RUH+JED 13个沙特国内线。API剩余931次。",
+          "airports": "-",
+          "routes": "-",
+          "airlines": "-",
+          "passengers": "-",
+          "duration": "-",
+          "sources": []
+        }
+      ]
     }
   ]
 }
