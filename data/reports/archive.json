@@ -9170,39 +9170,41 @@
     },
     {
       "date": "2026-07-16",
-      "updated_at": "2026-07-16T09:00:00+08:00",
-      "period": "上午",
+      "updated_at": "2026-07-16T16:00:00+08:00",
+      "period": "下午",
       "summary": {
         "P0": 4,
         "P1": 10,
-        "P2": 21,
+        "P2": 22,
         "watch": 4,
-        "situation": "美军首次白天打击伊朗两轮+伊朗正式终止MOU拒绝谈判;EASA CZIB禁飞4国领空至7/29持续;Jazeera取消KWI-BUD首航+KWI T1关闭;沙特3机场连续第4日关闭+胡塞警告所有航司不得飞越沙特全境;比利时7/15全面总罢工7/16恢复;WestJet罢工投票99.4%通过最早8/2;加航与IAMAW达成协议消除7/21罢工威胁"
+        "situation": "伊朗第10阶段打击科威特/巴林美军基地;美军首次打击接近德黑兰7小时持续35死300+伤;霍尔木兹重申无限期关闭;布伦特$84.95;EASA CZIB禁飞4国至7/29;沙特3机场连续第4日关闭;比利时7/16恢复;新增P2-23哥伦比亚PPN火山灰关闭;P2-22勒沃托比火山5次喷发更新"
       },
       "events": [
         {
           "id": "P0-1",
           "priority": "P0",
-          "title": "美伊冲突再度升级：美军首次白天打击伊朗+伊朗正式终止MOU+存亡战争",
-          "description": "美军首次白天两轮打击伊朗军事目标。伊朗正式宣布暂停MOU全部义务拒绝谈判,议会发言人称存亡战争。海上封锁持续。布伦特涨9.59%。",
+          "title": "美伊冲突持续升级：伊朗第10阶段打击科威特/巴林基地+美军打击接近德黑兰+霍尔木兹重申关闭",
+          "description": "伊朗雷霆行动第10阶段打击科威特Ali al-Salem+巴林Sheikh Isa基地爱国者系统。美军首次打击接近德黑兰7小时持续,锡尔詹7士兵阵亡,伊朗35死300+伤。霍尔木兹重申无限期关闭。布伦特$84.95。特朗普称伊朗想要和解。",
           "airports": "KWI(过境禁飞,T1关闭)/BAH/DOH(恢复中)/IKA/THR/BEY",
           "routes": "欧亚中东过境/波斯湾/霍尔木兹海峡/海湾区域航线",
           "airlines": "Emirates/Qatar Airways/Turkish Airlines/Gulf Air/Kuwait Airways/Saudia/Jazeera等",
-          "passengers": "中东走廊数万级/日;布伦特涨9.59%",
-          "duration": "MOU已终止;海上封锁持续;冲突升级中",
+          "passengers": "中东走廊数万级/日;布伦特$84.95",
+          "duration": "MOU已终止;海上封锁持续;美军打击首次接近德黑兰;冲突升级中",
           "sources": [
-            "https://news.ifeng.com/c/8unLyPsSJSI",
-            "http://www.chinanews.com.cn/gj/2026/07-16/10660163.shtml",
-            "https://m.news.sbs.co.kr/english/article.do?cooper=SBSNEWSMOBGNB&newsId=N1008660132",
-            "https://sightmagazine.com.au/news/us-strikes-iran-again-as-tehran-warns-of-existential-war-with-america/",
-            "https://599046384.r.worldcdn.net/Detail/2026/07/15/772329/Iran-Baghaei-rejection-talks-US-attacks-MoU"
+            "https://www.cgtn.com/news/2026-07-16/news-1OP65guPBO8/p.html",
+            "https://www.wam.ae/en/article/c18fnhr-bahrain-defence-force-intercepts-destroys-iranian",
+            "https://gulfnews.com/world/mena/us-expands-strikes-on-iran-blasts-heard-near-tehran-as-campaign-widens-beyond-gulf-targets-1.500609430",
+            "http://www.china.org.cn/world/Off_the_Wire/2026-07/16/content_118601341.shtml",
+            "http://global.chinadaily.com.cn/a/202607/16/WS6a582a75a310986e2b4657b8.html",
+            "https://english.almanar.com.lb/article/104797/",
+            "https://www.rudaw.net/english/categories/iran/1078373"
           ]
         },
         {
           "id": "P0-6",
           "priority": "P0",
-          "title": "EASA CZIB禁飞4国领空至7/29：Jazeera取消KWI-BUD首航+KWI T1关闭",
-          "description": "EASA禁飞UAE/巴林/科威特/卡塔尔四国领空至7/29。Jazeera取消科威特-布达佩斯新航线首航。KWI T1仍关闭仅T4/T5运营。",
+          "title": "EASA CZIB禁飞4国领空至7/29：Jazeera取消KWI-BUD+KWI T1关闭",
+          "description": "EASA禁飞UAE/巴林/科威特/卡塔尔四国领空至7/29。Jazeera取消KWI-BUD首航。KWI T1仍关闭。",
           "airports": "DXB/DOH/BAH/KWI(T1关闭)",
           "routes": "EU-海湾直飞+过境;科威特新航线取消",
           "airlines": "汉莎/英航/法航/荷航/国泰/Jazeera/以色列航司等",
@@ -9248,13 +9250,13 @@
         {
           "id": "P1-10",
           "priority": "P1",
-          "title": "胡塞-沙特冲突升级：3机场连续第4日关闭+胡塞警告所有航司不得飞越沙特全境领空",
-          "description": "沙特3座南部机场连续4日关闭,累计358航班取消或延误。胡塞首次系统性警告所有航司不得飞越沙特全境领空。多国升级旅行警告。AirLabs实采RUH 7+JED 6取消。",
-          "airports": "AHB/Jizan/Najran(4日关闭)/AEB(暂停)/RUH+JED(大规模取消)",
-          "routes": "沙特西南部/沙特国内/也门航线/亚欧过境走廊风险上升",
+          "title": "胡塞-沙特冲突升级：3机场连续第4日关闭+胡塞警告所有航司",
+          "description": "3座机场连续4日关闭累计358航班取消。胡塞警告所有航司不得飞越沙特全境领空。多国升级旅行警告。",
+          "airports": "AHB/Jizan/Najran(4日关闭)/AEB(暂停)/RUH+JED(取消)",
+          "routes": "沙特西南部/沙特国内/也门航线/亚欧过境走廊风险",
           "airlines": "沙特航空(SV)/flydubai/Air Arabia/也门航空",
-          "passengers": "4日累计358航班;影响约3-5万人",
-          "duration": "7/13晚起,3机场连续4日关闭",
+          "passengers": "4日累计358航班;约3-5万人",
+          "duration": "7/13起,3机场连续4日关闭",
           "sources": [
             "https://atlasinfo.fr/yemen-les-houthis-avertissent-les-compagnies-aeriennes-contre-le-survol-de-larabie-saoudite.html",
             "https://shiite.news/shiitenews/yemen-news/item/197391-yemen-warns-airlines-saudi-airspace/",
@@ -9264,12 +9266,12 @@
         {
           "id": "P1-6",
           "priority": "P1",
-          "title": "比利时全国大罢工：7/15全面总罢工,7/16预计恢复",
-          "description": "7/13-15三天罢工,7/15全面总罢工BRU+CRL所有出港取消。7/16恢复日。",
+          "title": "比利时全国大罢工：7/16恢复中",
+          "description": "7/13-15三天罢工,7/15全面总罢工。7/16恢复日。",
           "airports": "BRU(恢复中)/CRL(恢复中)",
           "routes": "布鲁塞尔出发航线",
           "airlines": "布鲁塞尔航空/Ryanair/TUI/易捷等",
-          "passengers": "BRU日均约250架次出港7/15全部取消",
+          "passengers": "7/15 BRU约250架次出港全部取消",
           "duration": "7/13-15,7/16恢复",
           "sources": [
             "https://www.nextpulse.news/story/Major_National_Strike_in_Belgium_Disrupts_Transport_Amid_Growing_Public_Dissent"
@@ -9278,15 +9280,16 @@
         {
           "id": "P1-7",
           "priority": "P1",
-          "title": "巴林BAH：纳斯尔2第三波打击第五舰队基地",
-          "description": "IRGC纳斯尔2第三波打击巴林基地。BAH 39延6取。",
+          "title": "巴林BAH：纳斯尔2第三波+第10阶段打击第五舰队基地",
+          "description": "IRGC纳斯尔2第三波+第10阶段打击BAH基地。",
           "airports": "BAH",
           "routes": "巴林航线",
           "airlines": "Gulf Air/海湾航司",
           "passengers": "BAH日均约100架次",
           "duration": "7/13起",
           "sources": [
-            "https://www.presstv.ir/Detail/2026/07/14/772257/IRGC-pounds-US-military-facilities-Bahrain-Kuwait-warns-oil-exports-at-risk"
+            "https://www.presstv.ir/Detail/2026/07/14/772257/IRGC-pounds-US-military-facilities-Bahrain-Kuwait-warns-oil-exports-at-risk",
+            "https://www.wam.ae/en/article/c18fnhr-bahrain-defence-force-intercepts-destroys-iranian"
           ]
         },
         {
@@ -9380,6 +9383,36 @@
           "sources": []
         },
         {
+          "id": "P2-23",
+          "priority": "P2",
+          "title": "哥伦比亚PPN机场因Purace火山灰关闭",
+          "description": "7/15-16 Popayan机场因Purace火山灰暂停运营。VAAC #277。部分恢复。",
+          "airports": "PPN(部分恢复)",
+          "routes": "哥伦比亚国内",
+          "airlines": "-",
+          "passengers": "航班取消",
+          "duration": "7/15-16",
+          "sources": [
+            "https://www.elpais.com.co/colombia/suspenden-temporalmente-las-operaciones-en-el-aeropuerto-guillermo-leon-valencia-de-popayan-por-presencia-de-ceniza-volcanica-1540.html",
+            "https://ifmnoticias.com/colombia/aeropuerto-de-popayan-suspendio-operaciones-tras-reporte-de-ceniza-del-volcan-purace/",
+            "https://www.volcanodiscovery.com/purace/news/319903/vaac-advisory-2026-275.html"
+          ]
+        },
+        {
+          "id": "P2-22",
+          "priority": "P2",
+          "title": "勒沃托比火山7/16全天5次喷发",
+          "description": "7/16全天5次喷发,最大13:22灰柱1000m。MOF 06:00重开但持续受火山灰影响。",
+          "airports": "MOF(重开但受影响)",
+          "routes": "佛罗勒斯岛航线",
+          "airlines": "-",
+          "passengers": "数十航班取消",
+          "duration": "7/15-16",
+          "sources": [
+            "https://flores.pikiran-rakyat.com/nasional/pr-29710334895/update-terkini-gunung-lewotobi-laki-laki-abu-vulkanik-masih-ganggu-penerbangan-di-bandara-frans-seda"
+          ]
+        },
+        {
           "id": "P2-20",
           "priority": "P2",
           "title": "英航A320盖特威克跑道阻塞",
@@ -9389,9 +9422,7 @@
           "airlines": "英国航空",
           "passengers": "14架备降",
           "duration": "7/15,已恢复",
-          "sources": [
-            "https://www.aeroinside.com/21984/baw-a320-at-london-on-jul-15th-2026-nose-wheel-steering-problem"
-          ]
+          "sources": []
         },
         {
           "id": "P2-21",
@@ -9403,23 +9434,7 @@
           "airlines": "Air Peace",
           "passengers": "无伤亡",
           "duration": "7/15",
-          "sources": [
-            "https://allafrica.com/stories/202607150349.html"
-          ]
-        },
-        {
-          "id": "P2-22",
-          "priority": "P2",
-          "title": "勒沃托比火山喷发MOF机场关闭",
-          "description": "7/15印尼勒沃托比火山喷发,MOF机场关闭至7/16 06:00。",
-          "airports": "MOF(关闭至7/16)",
-          "routes": "佛罗勒斯岛航线",
-          "airlines": "-",
-          "passengers": "数十航班取消",
-          "duration": "7/15-16",
-          "sources": [
-            "https://flores.pikiran-rakyat.com/nasional/pr-29710334895/update-terkini-gunung-lewotobi-laki-laki-abu-vulkanik-masih-ganggu-penerbangan-di-bandara-frans-seda"
-          ]
+          "sources": []
         },
         {
           "id": "P2-3",
@@ -9682,8 +9697,8 @@
         {
           "id": "WATCH-4",
           "priority": "关注",
-          "title": "AirLabs 7/16上午采集36个CANCELLED",
-          "description": "43机场36个CANCELLED。NBO 8(NBO-ZNZ异常)/RUH 7+JED 6(沙特国内线)/MCT 5/PVG 3/AKL 3/PEK 2。API剩余约815次。",
+          "title": "AirLabs 7/16上午采集36个CANCELLED(下午网络故障)",
+          "description": "43机场36个CANCELLED。NBO 8(NBO-ZNZ异常)/RUH 7+JED 6(沙特国内线)/MCT 5/PVG 3/AKL 3/PEK 2。API剩余约815次。下午因网络故障未采集。",
           "airports": "-",
           "routes": "-",
           "airlines": "-",
