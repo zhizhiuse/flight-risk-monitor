@@ -1,40 +1,40 @@
 {
   "date": "2026-07-17",
-  "time": "09:00",
-  "period": "上午",
+  "time": "16:00",
+  "period": "下午",
   "summary": {
     "P0": 4,
     "P1": 10,
-    "P2": 29,
+    "P2": 32,
     "watch": 4,
-    "situation": "美军首次打击伊朗机场设施(沙赫尔机场);班达尔阿巴斯遭袭1死7伤;白宫确认谈判仍在进行;布伦特$84.23;EASA CZIB禁飞4国至7/29;沙特3机场连续第5日关闭;Air Astana延长迪拜航线暂停至8/31;新增DCA临时关闭+西雅图SEA雷暴+SunCountry削减9月航班+Skybus暂停航线+AA襟翼故障+国航前轮异常;AirLabs连续第2次网络故障"
+    "situation": "美军第7夜打击升级7死;伊朗第12-13阶段报复首次打击阿曼+摧毁巴林P-8巡逻机;霍尔木兹甘省机场正式关闭;布伦特$85.28;CCS死亡4930人;新增SIA/AF/BA中东航线延长;Flybondi更新;AirLabs连续第3次网络故障"
   },
   "events": [
     {
       "id": "P0-1",
       "priority": "P0",
-      "title": "美伊冲突持续升级：美军首次打击伊朗机场设施+班达尔阿巴斯遭袭+白宫确认谈判+布伦特$84.23",
-      "description": "美军第6夜连续打击伊朗,首次以机场设施为目标——沙赫尔机场遭导弹袭击电力燃油受损1人受伤。班达尔阿巴斯居民区1死7伤,两座桥梁被炸1死4伤,格什姆岛多次爆炸。白宫确认谈判仍在进行,特朗普称停火协议已结束但将继续谈判。布伦特$84.23。",
-      "airports": "KWI(过境禁飞,T1关闭)/BAH/DOH(恢复中)/IKA/THR/BEY/Iranshahr(受损)",
-      "routes": "欧亚中东过境/波斯湾/霍尔木兹海峡/海湾区域航线",
-      "airlines": "Emirates/Qatar Airways/Turkish Airlines/Gulf Air/Kuwait Airways/Saudia/Jazeera/Air Astana等",
-      "passengers": "中东走廊数万级/日;布伦特$84.23",
-      "duration": "MOU已终止;海上封锁持续;美军首次打击伊朗机场;谈判仍在进行",
+      "title": "美伊冲突持续升级：第7夜打击+第12-13阶段报复(首次打击阿曼)+霍尔木兹甘机场关闭+布伦特$85.28",
+      "description": "美军第7夜打击班达尔哈米尔5桥梁7死;伊朗第12阶段打击科威特阿里萨利姆基地;第13阶段首次打击阿曼雷达+叙利亚坦夫;伊朗陆军打击巴林摧毁P-8巡逻机;霍尔木兹甘省所有机场正式关闭;布伦特$85.28。",
+      "airports": "Iranshahr/IHR(跑道受损,全省机场关闭)/BAH(基地遭打击)/KWI(基地遭打击)/DOH(恢复中)/阿曼雷达设施/IKA/THR/BEY(关闭)",
+      "routes": "欧亚中东过境/波斯湾/霍尔木兹海峡/海湾区域/阿曼湾航线",
+      "airlines": "Emirates/Qatar Airways/Turkish Airlines/Gulf Air/Kuwait Airways/Saudia/Jazeera/Air Astana/Oman Air等",
+      "passengers": "中东走廊数万级/日;布伦特$85.28本周涨12%",
+      "duration": "MOU已终止;美军连续7夜打击;伊朗报复扩展至阿曼;霍尔木兹甘机场正式关闭;谈判仍在进行",
       "sources": [
-        "https://www.presstv.ir/Detail/2026/07/16/772406/US-launches-fresh-wave-of-strikes-on-Iran-targets-bridges-railway-airports",
-        "https://mobile.aa.com.tr/en/us-israel-iran-war/us-strike-damages-iranshahr-airport-in-southeastern-iran/4000865",
-        "http://www.chinaview.cn/20260717/b0f7dbfe4ec3425d85e387781e1d7cdb/c.html",
-        "http://www.chinaview.cn/20260717/fdbe0e790ac64840b615c8461198f0e3/c.html",
-        "http://www.china.org.cn/world/Off_the_Wire/2026-07/17/content_118603337.shtml"
+        "https://apnews.com/article/iran-us-hormuz-strait-war-july-17-2026-2ad0cfe592eb258cb15a9eb04411d58a",
+        "https://m.aa.com.tr/en/middle-east/iran-s-irgc-says-it-targeted-us-base-in-kuwait-in-retaliatory-strike/4000936",
+        "https://news.cgtn.com/news/2026-07-17/news-1OQKpoDYOje/p.html",
+        "https://www.presstv.ir/Detail/2026/07/17/772416/Iran-US-command-center-Syria",
+        "https://avia.liveuamap.com/ee/time/17.01.2026"
       ]
     },
     {
       "id": "P0-6",
       "priority": "P0",
-      "title": "EASA CZIB禁飞4国领空至7/29：Jazeera取消KWI-BUD+KWI T1关闭",
+      "title": "EASA CZIB禁飞4国领空至7/29",
       "description": "EASA禁飞UAE/巴林/科威特/卡塔尔四国领空至7/29。Jazeera取消KWI-BUD首航。KWI T1仍关闭。",
       "airports": "DXB/DOH/BAH/KWI(T1关闭)",
-      "routes": "EU-海湾直飞+过境;科威特新航线取消",
+      "routes": "EU-海湾直飞+过境",
       "airlines": "汉莎/英航/法航/荷航/国泰/Jazeera/以色列航司等",
       "passengers": "数万级/日",
       "duration": "CZIB至7/29;KWI T1修复时间未定",
@@ -48,28 +48,28 @@
     {
       "id": "P0-3",
       "priority": "P0",
-      "title": "委内瑞拉CCS机场（商业航班仍停，第26天）",
-      "description": "死亡4734人。德国/英国外交部确认关闭至至少7月底。",
+      "title": "委内瑞拉CCS机场（商业航班仍停，第27天）",
+      "description": "死亡4930人。德国/英国外交部确认关闭至至少7月底。",
       "airports": "CCS/VLN",
       "routes": "委内瑞拉全部国际航线",
       "airlines": "委内瑞拉航空/TAP航空",
       "passengers": "约5万+",
-      "duration": "已持续26天,关闭至至少7月底",
+      "duration": "已持续27天,关闭至至少7月底",
       "sources": [
-        "https://www.newsare.net",
+        "https://reliefweb.int",
         "http://www.xinhuanet.com/"
       ]
     },
     {
       "id": "P0-4",
       "priority": "P0",
-      "title": "欧洲多枢纽机场遭网络攻击(Collins) 第8天：恢复中",
-      "description": "柏林已恢复。布鲁塞尔7/16罢工恢复后残余影响仍存。NCA逮捕嫌疑人。",
+      "title": "欧洲多枢纽机场遭网络攻击(Collins) 第9天：恢复中",
+      "description": "柏林已恢复。布鲁塞尔恢复中。NCA逮捕嫌疑人。",
       "airports": "BRU(恢复中)/BER(已恢复)/LHR/CDG/FRA(缓解)",
       "routes": "欧洲内部及跨大西洋航线",
       "airlines": "汉莎/英航/荷航/法航/布鲁塞尔航空等",
       "passengers": "累计15万+人",
-      "duration": "7/9起第8天",
+      "duration": "7/9起第9天",
       "sources": [
         "https://www.defenceconnect.com.au/news",
         "https://www.eurocontrol.int/"
@@ -78,28 +78,26 @@
     {
       "id": "P1-10",
       "priority": "P1",
-      "title": "胡塞-沙特冲突升级：3机场连续第5日关闭+胡塞警告所有航司",
-      "description": "3座机场连续5日关闭累计358航班取消。胡塞警告所有航司不得飞越沙特全境领空。",
-      "airports": "AHB/Jizan/Najran(5日关闭)/AEB(暂停)/RUH+JED(取消)",
-      "routes": "沙特西南部/沙特国内/也门航线/亚欧过境走廊风险",
-      "airlines": "沙特航空(SV)/flydubai/Air Arabia/也门航空",
-      "passengers": "4日累计358航班;约3-5万人",
-      "duration": "7/13起,3机场连续5日关闭",
+      "title": "胡塞-沙特冲突升级：3机场连续第6日关闭",
+      "description": "3座机场连续6日关闭累计358+航班取消。胡塞警告所有航司。",
+      "airports": "AHB/Jizan/Najran(6日关闭)",
+      "routes": "沙特西南部/也门航线",
+      "airlines": "沙特航空/flydubai/Air Arabia",
+      "passengers": "约3-5万人",
+      "duration": "7/13起,6日关闭",
       "sources": [
-        "https://atlasinfo.fr/yemen-les-houthis-avertissent-les-compagnies-aeriennes-contre-le-survol-de-larabie-saoudite.html",
-        "https://shiite.news/shiitenews/yemen-news/item/197391-yemen-warns-airlines-saudi-airspace/",
-        "https://insidetrackindia.com/houthis-attack-on-saudis-abha-airport-triggers-fresh-travel-warnings-as-flights-cancelled-again-world-news/"
+        "https://atlasinfo.fr/yemen-les-houthis-avertissent-les-compagnies-aeriennes-contre-le-survol-de-larabie-saoudite.html"
       ]
     },
     {
       "id": "P1-6",
       "priority": "P1",
       "title": "比利时全国大罢工：7/16恢复中",
-      "description": "7/13-15三天罢工,7/15全面总罢工。7/16恢复日。",
-      "airports": "BRU(恢复中)/CRL(恢复中)",
+      "description": "7/13-15三天罢工,7/16恢复。",
+      "airports": "BRU(恢复中)/CRL",
       "routes": "布鲁塞尔出发航线",
       "airlines": "布鲁塞尔航空/Ryanair/TUI/易捷等",
-      "passengers": "7/15 BRU约250架次出港全部取消",
+      "passengers": "7/15 BRU约250架次取消",
       "duration": "7/13-15,7/16恢复",
       "sources": [
         "https://www.nextpulse.news/story/Major_National_Strike_in_Belgium_Disrupts_Transport_Amid_Growing_Public_Dissent"
@@ -108,16 +106,16 @@
     {
       "id": "P1-7",
       "priority": "P1",
-      "title": "巴林BAH：纳斯尔2第三波+第10阶段打击第五舰队基地",
-      "description": "IRGC纳斯尔2第三波+第10阶段打击BAH基地。",
+      "title": "巴林BAH：伊朗陆军打击谢赫伊萨基地+摧毁P-8巡逻机",
+      "description": "IRGC多轮打击+伊朗陆军无人机打击,摧毁P-8海神巡逻机。",
       "airports": "BAH",
       "routes": "巴林航线",
       "airlines": "Gulf Air/海湾航司",
       "passengers": "BAH日均约100架次",
-      "duration": "7/13起",
+      "duration": "7/13起,持续至7/17",
       "sources": [
-        "https://www.presstv.ir/Detail/2026/07/14/772257/IRGC-pounds-US-military-facilities-Bahrain-Kuwait-warns-oil-exports-at-risk",
-        "https://www.wam.ae/en/article/c18fnhr-bahrain-defence-force-intercepts-destroys-iranian"
+        "https://www.presstv.ir/Detail/2026/07/17/772411/Heds",
+        "https://wanaen.com/iranian-army-targets-u-s-support-centers-in-kuwait-in-12th-phase-of-operation-saegheh/"
       ]
     },
     {
@@ -211,18 +209,67 @@
       "sources": []
     },
     {
+      "id": "P2-30",
+      "priority": "P2",
+      "title": "新航延长新加坡-迪拜航线停飞至10/24",
+      "description": "SIA确认SQ494/SQ495停飞期延长至10/24,归因中东地缘政治。",
+      "airports": "SIN/DXB",
+      "routes": "新加坡-迪拜",
+      "airlines": "Singapore Airlines",
+      "passengers": "待评估",
+      "duration": "至10/24",
+      "sources": []
+    },
+    {
+      "id": "P2-31",
+      "priority": "P2",
+      "title": "法航延长贝鲁特航线停飞至8/2",
+      "description": "法航延长BEY停飞至8/2(原定7/20恢复)。",
+      "airports": "CDG/BEY",
+      "routes": "巴黎-贝鲁特",
+      "airlines": "Air France",
+      "passengers": "待评估",
+      "duration": "至8/2",
+      "sources": []
+    },
+    {
+      "id": "P2-32",
+      "priority": "P2",
+      "title": "英航延长多条中东航线停飞+JED从网络移除",
+      "description": "BA延长DXB/TLV/BAH/AMM至10/25,DOH至8/1,RUH至8/8,JED从网络移除。",
+      "airports": "LHR/DXB/TLV/BAH/AMM/DOH/RUH/JED",
+      "routes": "英国-中东多条航线",
+      "airlines": "British Airways",
+      "passengers": "多条航线",
+      "duration": "至10/25",
+      "sources": []
+    },
+    {
+      "id": "P2-8",
+      "priority": "P2",
+      "title": "Flybondi恢复至4架+前管理层涉嫌财务欺诈",
+      "description": "7/16恢复4架可用(13架中),新管理层披露前任涉嫌系统性财务欺诈已起诉。",
+      "airports": "阿根廷国内",
+      "routes": "阿根廷国内及南美",
+      "airlines": "Flybondi",
+      "passengers": "全部旅客",
+      "duration": "7/3起",
+      "sources": [
+        "https://www.airdatanews.com/flybondi-returns-to-the-air-as-new-owners-target-former-management/"
+      ]
+    },
+    {
       "id": "P2-24",
       "priority": "P2",
       "title": "DCA里根国家机场因伊拉克总理访美临时关闭4h",
-      "description": "7/15 DCA临时空域管制4h,126航班取消300+延误。已恢复。",
+      "description": "7/15 DCA临时空域管制4h,126取消300+延误。已恢复。",
       "airports": "DCA(已恢复)",
       "routes": "华盛顿航线",
       "airlines": "多家美国航司",
       "passengers": "126取消300+延误",
       "duration": "7/15,已恢复",
       "sources": [
-        "https://wghn.com/2026/07/15/flights-grounded-at-d-c-area-airport-due-to-security-concerns-for-iraqi-leader/",
-        "https://meyka.com/blog/reagan-national-airport-halts-126-flights-for-iraqi-pm-security-on-july-15-1607/"
+        "https://wghn.com/2026/07/15/flights-grounded-at-d-c-area-airport-due-to-security-concerns-for-iraqi-leader/"
       ]
     },
     {
@@ -243,7 +290,7 @@
       "id": "P2-26",
       "priority": "P2",
       "title": "Sun Country削减9月航班计划1/3",
-      "description": "7/16宣布移除约348个航班(34条航线)。机组人员流失+亚马逊货运增加。10月恢复。",
+      "description": "7/16宣布移除约348个航班(34条航线)。10月恢复。",
       "airports": "MSP枢纽",
       "routes": "Sun Country航线",
       "airlines": "Sun Country Airlines",
@@ -256,7 +303,7 @@
     {
       "id": "P2-27",
       "priority": "P2",
-      "title": "Skybus暂停Newquay-St Marys航线至8/31",
+      "title": "Skybus暂停Newquay-St Mary's航线至8/31",
       "description": "飞机和飞行员短缺。旅客转至Land's End出发。",
       "airports": "NQY",
       "routes": "Newquay-St Marys",
@@ -271,7 +318,7 @@
       "id": "P2-28",
       "priority": "P2",
       "title": "美航737 MAX 8襟翼故障紧急降落",
-      "description": "7/16 AA3017(LGA-MIA,134人)襟翼故障,安全落地无伤亡。",
+      "description": "7/16 AA3017(LGA-MIA,134人)襟翼故障,安全落地。",
       "airports": "MIA",
       "routes": "LGA-MIA",
       "airlines": "美国航空",
@@ -285,7 +332,7 @@
       "id": "P2-29",
       "priority": "P2",
       "title": "国航A330-300台北桃园前轮异常",
-      "description": "7/15 CA195(PVG-TPE)前轮异常跑道停留12min,拖车拖离。",
+      "description": "7/15 CA195(PVG-TPE)前轮异常跑道停留12min。",
       "airports": "TPE",
       "routes": "PVG-TPE",
       "airlines": "中国国航",
@@ -299,7 +346,7 @@
       "id": "P2-16",
       "priority": "P2",
       "title": "Air Astana延长迪拜航线暂停至8/31",
-      "description": "因霍尔木兹安全恶化,7/21至8/31全面暂停ALA/TSE-DXB航线。旅客可退款或改签。",
+      "description": "因霍尔木兹安全恶化,7/21至8/31暂停ALA/TSE-DXB。",
       "airports": "DXB/ALA/TSE",
       "routes": "中亚-迪拜",
       "airlines": "Air Astana",
@@ -307,44 +354,38 @@
       "duration": "7/21-8/31",
       "sources": [
         "https://qazinform.com/news/air-astana-to-suspend-dubai-flights-from-july-21-717200",
-        "https://en.tengrinews.kz/my-country/flights-from-kazakhstan-to-dubai-cancelled-again-272283/",
-        "https://infohub.kz/en/article/air-astana-suspends-dubai-flights-kazakhstan"
+        "https://en.tengrinews.kz/my-country/flights-from-kazakhstan-to-dubai-cancelled-again-272283/"
       ]
     },
     {
       "id": "P2-23",
       "priority": "P2",
       "title": "哥伦比亚PPN机场Purace火山灰持续受限",
-      "description": "7/16 Purace火山持续活跃,VAAC FL170。PPN仍受限。",
+      "description": "Purace火山持续活跃,VAAC FL170,PPN仍受限。",
       "airports": "PPN(受限)",
       "routes": "哥伦比亚国内",
       "airlines": "-",
       "passengers": "航班取消",
       "duration": "7/15起",
-      "sources": [
-        "https://www.elpais.com.co/colombia/suspenden-temporalmente-las-operaciones-en-el-aeropuerto-guillermo-leon-valencia-de-popayan-por-presencia-de-ceniza-volcanica-1540.html",
-        "https://ifmnoticias.com/colombia/aeropuerto-de-popayan-suspendio-operaciones-tras-reporte-de-ceniza-del-volcan-purace/"
-      ]
+      "sources": []
     },
     {
       "id": "P2-22",
       "priority": "P2",
       "title": "勒沃托比火山持续喷发MOF重开但受干扰",
-      "description": "7/16全天5次喷发最大灰柱1000m。MOF 06:00重开但受火山灰影响。",
+      "description": "7/16全天5次喷发,MOF重开但受火山灰影响。",
       "airports": "MOF(重开但受影响)",
       "routes": "佛罗勒斯岛航线",
       "airlines": "-",
       "passengers": "数十航班取消",
       "duration": "7/15-16",
-      "sources": [
-        "https://flores.pikiran-rakyat.com/nasional/pr-29710334895/update-terkini-gunung-lewotobi-laki-laki-abu-vulkanik-masih-ganggu-penerbangan-di-bandara-frans-seda"
-      ]
+      "sources": []
     },
     {
       "id": "P2-20",
       "priority": "P2",
       "title": "英航A320盖特威克跑道阻塞",
-      "description": "7/15 BA2673前轮故障阻塞跑道,14架备降9架7700,已清除。",
+      "description": "7/15 BA2673前轮故障阻塞跑道,14架备降。",
       "airports": "LGW(已恢复)",
       "routes": "LGW航线",
       "airlines": "英国航空",
@@ -356,7 +397,7 @@
       "id": "P2-21",
       "priority": "P2",
       "title": "Air Peace拉各斯地面碰撞",
-      "description": "7/15 Air Peace A320在LOS遭行李车撞击发动机,严重受损。",
+      "description": "7/15 Air Peace A320在LOS遭行李车撞击发动机。",
       "airports": "LOS",
       "routes": "尼日利亚国内",
       "airlines": "Air Peace",
@@ -368,7 +409,7 @@
       "id": "P2-3",
       "priority": "P2",
       "title": "西捷航空空乘罢工投票99.4%通过",
-      "description": "99.4%赞成授权罢工,最早8/2合法罢工,日影响7.5万旅客。",
+      "description": "最早8/2合法罢工,日影响7.5万旅客。",
       "airports": "加拿大各枢纽",
       "routes": "西捷全线",
       "airlines": "WestJet",
@@ -380,7 +421,7 @@
       "id": "P2-18",
       "priority": "P2",
       "title": "菲律宾棉兰老岛6.2级地震",
-      "description": "7/14萨兰加尼海域6.2级(PHIVOLCS修正6.5),无海啸。",
+      "description": "7/14萨兰加尼海域6.2级,无海啸。",
       "airports": "DVO(暂无影响)",
       "routes": "-",
       "airlines": "-",
@@ -464,24 +505,12 @@
       "id": "P2-7",
       "priority": "P2",
       "title": "法航/荷航暂停中东航线",
-      "description": "法航已恢复巴黎-迪拜；荷航仍暂停至8月23日。",
+      "description": "法航已恢复巴黎-迪拜;荷航仍暂停至8/23。",
       "airports": "CDG/AMS/DXB/TLV/DMM/RUH",
       "routes": "巴黎/阿姆-中东",
       "airlines": "法航/荷航",
       "passengers": "待评估",
       "duration": "7/8起",
-      "sources": []
-    },
-    {
-      "id": "P2-8",
-      "priority": "P2",
-      "title": "Flybondi部分复飞",
-      "description": "7/14用2架复飞,取消率仍超46%。",
-      "airports": "阿根廷国内",
-      "routes": "阿根廷国内及南美",
-      "airlines": "Flybondi",
-      "passengers": "全部旅客",
-      "duration": "7/3起",
       "sources": []
     },
     {
@@ -560,7 +589,7 @@
       "id": "P2-17",
       "priority": "P2",
       "title": "也门关闭全部机场+胡塞宣布停火结束",
-      "description": "也门政府机场关闭；胡塞宣布停火结束并警告航司。",
+      "description": "也门政府机场关闭;胡塞宣布停火结束并警告航司。",
       "airports": "ADE/GXF/AEB",
       "routes": "也门国内/沙特西南部",
       "airlines": "也门航空/沙特航空",
@@ -573,8 +602,8 @@
     {
       "id": "WATCH-1",
       "priority": "关注",
-      "title": "P0-5约旦空域已7/15重新开放,移出P0",
-      "description": "CARC宣布空域经安全评估于7/15重新开放(WAM确认)。",
+      "title": "P0-5约旦空域已7/15重新开放",
+      "description": "CARC宣布空域经安全评估于7/15重新开放。",
       "airports": "AMM(已重新开放)",
       "routes": "-",
       "airlines": "-",
@@ -611,8 +640,8 @@
     {
       "id": "WATCH-4",
       "priority": "关注",
-      "title": "AirLabs 7/17上午网络故障(连续第2次),API未消耗剩余约815次",
-      "description": "7/17上午采集失败(连续第2次)。使用7/16上午数据(36个CANCELLED)。",
+      "title": "AirLabs 7/17下午网络故障(连续第3次),API未消耗剩余约815次",
+      "description": "7/17下午采集失败(连续第3次)。使用7/16上午数据(36个CANCELLED)。",
       "airports": "-",
       "routes": "-",
       "airlines": "-",
