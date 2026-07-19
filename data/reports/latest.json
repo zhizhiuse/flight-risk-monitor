@@ -1,20 +1,20 @@
 {
   "date": "2026-07-19",
-  "time": "09:30",
-  "period": "上午",
+  "time": "16:40",
+  "period": "下午",
   "summary": {
     "P0": 4,
     "P1": 11,
-    "P2": 36,
+    "P2": 39,
     "watch": 5,
-    "situation": "美军第8夜空袭伊朗致8平民死亡;2名美军士兵在约旦阵亡(首次战斗死亡);伊朗终止伊美谅解备忘录;伊朗「全面进攻」通牒(7/19-20窗口);约旦CARC宣布临时关闭全部领空(新增P0-7);科威特领空间歇关闭后重开,Emirates取消7/19全部KWI航班;沙特遭伊朗导弹袭击(3月来首次);AirLabs恢复运行(连续4次故障后首次成功)"
+    "situation": "美军首次专门打击IRGC;伊朗卫生部更新12平民死亡(24h);IRGC反击攻击科威特Al Ahmadi港+巴林Sheikh Isa基地;UAE首次警告伊朗;美务院全球安全警示;Etihad取消7/19-20 KWI航班;AMM 64航班中断;国泰推迟中东航线至10月底;印尼勒沃托比火山再次喷发LKA关闭;Air France加入中东航线暂停;AirLabs下午26风险航班"
   },
   "events": [
     {
       "id": "P0-1",
       "priority": "P0",
-      "title": "美伊冲突持续升级：第8夜空袭+2名美军阵亡(首次战斗死亡)+伊朗终止MoU+全面进攻通牒+科威特间歇关闭+沙特遭袭",
-      "description": "美军第8夜空袭霍尔木兹甘省(锡里克+哈吉阿巴德)致8平民死亡;2名美军士兵在约旦阵亡(首次战斗死亡,总阵亡16人);伊朗正式终止伊美谅解备忘录;伊朗「全面进攻」通牒(7/19-20窗口);科威特领空间歇关闭后重开;Emirates取消7/19全部KWI航班;沙特遭伊朗导弹袭击(3月来首次);美国拟增派100架加油机。",
+      "title": "美伊冲突持续升级：美军首次打击IRGC+伊朗反击科威特/巴林+12平民死亡+UAE警告",
+      "description": "美军首次专门打击IRGC;12平民死亡(24h);IRGC攻击科威特Al Ahmadi港+巴林Sheikh Isa基地;UAE首次警告;美务院全球警示;Etihad取消7/19-20 KWI;2名美军约旦阵亡;伊朗终止MoU;全面进攻通牒7/19-20窗口;沙特遭袭;美拟增100加油机。",
       "airports": "KWI(间歇关闭已重开)/AMM(临时关闭)/EBL+ISU(暂停)/IHR(关闭)/BAH(基地遭打击)/AHB(关闭)/IKA/THR/BEY(关闭)",
       "routes": "科威特航线/约旦全部航线/欧亚中东过境/波斯湾/霍尔木兹海峡/海湾区域",
       "airlines": "Emirates/Etihad/Air Arabia/Kuwait Airways/Jazeera/Royal Jordanian/Qatar Airways/Turkish Airlines/Gulf Air/Saudia等",
@@ -641,6 +641,46 @@
       "sources": []
     },
     {
+      "id": "P2-37",
+      "priority": "P2",
+      "title": "国泰航空推迟中东航线恢复至10月底",
+      "description": "HKG-DXB从9/1推迟至10/25,HKG-RUH从9/1推迟至10/26。货运利雅得航线无限期推迟。",
+      "airports": "HKG/DXB/RUH",
+      "routes": "HKG-DXB/HKG-RUH",
+      "airlines": "国泰航空",
+      "passengers": "可改签/退票",
+      "duration": "推迟至10/25-26",
+      "sources": [
+        "https://www.cathaypacific.com/cx/en_PH/latest-news/flight-disruptions/middle-east-passenger-services.html"
+      ]
+    },
+    {
+      "id": "P2-38",
+      "priority": "P2",
+      "title": "印尼勒沃托比火山7/19再次喷发,LKA机场关闭",
+      "description": "7/19 10:11 WITA喷发,灰羽至FL100。Gewayantana机场(LKA)依据NOTAM关闭,2个Wings Air ATR 72航班取消。",
+      "airports": "LKA(关闭)",
+      "routes": "KOE-LKA",
+      "airlines": "Wings Air",
+      "passengers": "2航班取消",
+      "duration": "7/19起",
+      "sources": [
+        "https://www.detik.com/bali/nusra/d-8580368/gunung-lewotobi-meletus-bandara-gewayantana-larantuka-ditutup"
+      ]
+    },
+    {
+      "id": "P2-39",
+      "priority": "P2",
+      "title": "Air France加入中东航线暂停行列",
+      "description": "法航加入United/Air Canada/ITA/Lufthansa行列,削减中东航线服务。",
+      "airports": "DXB/AUH/RUH/BEY",
+      "routes": "CDG-DXB/CDG-AUH/CDG-RUH/CDG-BEY",
+      "airlines": "Air France",
+      "passengers": "待评估",
+      "duration": "7/19起",
+      "sources": []
+    },
+    {
       "id": "WATCH-1",
       "priority": "关注",
       "title": "P0-4欧洲多枢纽网络攻击第11天(已基本恢复,移出P0)",
@@ -679,8 +719,8 @@
     {
       "id": "WATCH-4",
       "priority": "关注",
-      "title": "AirLabs 7/19恢复运行(连续4次故障后首次成功)",
-      "description": "7/19上午Tier1 15机场37风险航班。API已消耗。",
+      "title": "AirLabs 7/19下午采集26风险航班(较上午37架次下降)",
+      "description": "7/19下午Tier1 15机场26风险航班。CDG 10/MCT 6/AMS 4/MIA 3/AMM 2/RUH 1。",
       "airports": "-",
       "routes": "-",
       "airlines": "-",
