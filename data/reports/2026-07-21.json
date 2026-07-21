@@ -1,28 +1,28 @@
 {
   "date": "2026-07-21",
-  "time": "08:40",
-  "period": "上午",
+  "time": "16:00",
+  "period": "下午",
   "summary": {
     "P0": 3,
     "P1": 10,
-    "P2": 42,
+    "P2": 45,
     "watch": 5,
-    "situation": "美伊冲突第11天：霍尔木兹日通行降至4艘(战前55);巴-卡联合调解方案提出;伊朗外长称军事优势前不谈判;伊朗打击巴林空管系统(运营未受影响);UAE-科威特走廊取消延至7/21;科威特T1仍关闭;P0-7约旦领空已恢复(降级移出P0);意大利easyJet/DAT今日24h罢工;AirLabs上午12风险航班"
+    "situation": "美伊冲突第11天：霍尔木兹日通行4艘(战前55);7/20第二艘油轮Kavomaleas遭反舰导弹击中;UAE航司扩大取消(Etihad至7/24,Air Arabia至7/22,flydubai新取消迪拜-巴林);巴-卡联合调解方案提出;伊朗外长称军事优势前不谈判;科威特T1仍关闭;委内瑞拉CCS第31天;EASA禁飞4国至7/29;意大利easyJet/DAT今日24h罢工进行中;印尼勒沃托比火山喷发;Southwest燃油泄漏备降;AirLabs下午16风险航班"
   },
   "events": [
     {
       "id": "P0-1",
       "priority": "P0",
       "title": "美伊冲突持续升级（第11天）",
-      "description": "美伊冲突第11天，美军连续第10夜打击伊朗。霍尔木兹海峡日通行量降至4艘（战前约55艘），布伦特突破$91/桶。巴基斯坦与卡塔尔联合提出两周停火调解方案，伊朗外长称「军事优势前不谈判」。伊朗无人机打击巴林民航空管系统（设备受损但运营未受影响）；UAE-科威特走廊取消延伸至7/21；科威特T1主航站楼仍关闭；EASA禁飞4国至7/29。",
-      "airports": "KWI(T1关闭)/BAH(空管受损)/DXB/DOH",
+      "description": "美伊冲突第11天，美军连续第10夜打击伊朗。7/20霍尔木兹海峡当日第二艘油轮Kavomaleas（马耳他籍LR1）被反舰导弹击中受损。UAE航司进一步扩大取消：Etihad阿布扎比-科威特取消延至7/24，Air Arabia沙迦-科威特延伸至7/22，flydubai新取消迪拜-巴林航线(FZ023)。霍尔木兹日通行降至4艘（战前55），布伦特$91+。巴-卡联合调解方案提出，伊朗外长称军事优势前不谈判。科威特T1仍关闭。",
+      "airports": "KWI(T1关闭)/BAH/DXB/DOH",
       "routes": "UAE-KWI走廊/中东过境航线/霍尔木兹海峡",
-      "airlines": "Emirates/Etihad/Air Arabia/Gulf Air",
-      "passengers": "UAE-KWI走廊中断3天/中东数万级/日",
+      "airlines": "Emirates/Etihad/Air Arabia/flydubai/Gulf Air",
+      "passengers": "UAE-KWI走廊中断4天+/中东数万级/日",
       "duration": "冲突第11天;EASA至7/29;科威特至8/4",
       "sources": [
-        "https://www.pakistantoday.com.pk/2026/07/21/trump-warns-iran-of-devastating-retaliation-as-pakistan-qatar-push-fresh-peace-roadmap",
-        "https://www.wam.ae/en/article/c1betop-bahrain-says-iranian-attack-targeted-air"
+        "https://english.alarabiya.net/News/middle-east/2026/07/21/tanker-crew-abandons-vessel-after-reported-projectile-strike-in-strait-of-hormuz-ukmto-",
+        "https://gulfnews.com/business/aviation/etihad-emirates-air-arabia-flydubai-cancel-kuwait-flights-as-gulf-tensions-disrupt-uae-operations-1.500614834"
       ]
     },
     {
@@ -44,7 +44,7 @@
       "id": "P0-6",
       "priority": "P0",
       "title": "EASA CZIB禁飞4国领空至7/29（延续）",
-      "description": "EASA禁飞UAE/巴林/科威特/卡塔尔四国领空至7/29。伊朗/伊拉克/黎巴嫩至8/31。科威特领空限制至8/4（航油设施受损），T1主航站楼仍关闭。",
+      "description": "EASA禁飞UAE/巴林/科威特/卡塔尔四国领空至7/29。伊朗/伊拉克/黎巴嫩至8/31。科威特领空限制至8/4。",
       "airports": "DXB/DOH/BAH/KWI",
       "routes": "EU-海湾直飞+过境航线需绕飞",
       "airlines": "汉莎/英航/法航/荷航/Emirates等",
@@ -59,7 +59,7 @@
       "id": "P1-10",
       "priority": "P1",
       "title": "胡塞-沙特冲突：3座南部机场连续第10日关闭",
-      "description": "胡塞武装持续袭击沙特南部，3座机场(AHB/Jizan/Najran)连续第10日关闭。沙特航空持续承担大量取消航班。",
+      "description": "胡塞武装持续袭击沙特南部，3座机场(AHB/Jizan/Najran)连续第10日关闭。累计400+航班取消。",
       "airports": "AHB/Jizan/Najran(第10日关闭)",
       "routes": "沙特西南部/也门航线",
       "airlines": "沙特航空/flydubai/Air Arabia",
@@ -72,8 +72,8 @@
     {
       "id": "P1-NEW-1",
       "priority": "P1",
-      "title": "意大利7/21 easyJet/DAT全国24h罢工（今日）",
-      "description": "今日(7/21)easyJet和DAT机组人员全国24h罢工(00:00-23:59)，USB工会发起。ENAC保障时段07:00-10:00/18:00-21:00。米兰/那不勒斯等多机场地勤同步罢工。",
+      "title": "意大利7/21 easyJet/DAT全国24h罢工（今日进行中）",
+      "description": "今日(7/21)easyJet和DAT机组人员全国24h罢工(00:00-23:59)，USB工会发起。ENAC保障时段07:00-10:00/18:00-21:00。",
       "airports": "MXP/BGY/NAP/SUF/OLB",
       "routes": "意大利国内及欧洲航线",
       "airlines": "easyJet/DAT/多家地勤",
@@ -87,7 +87,7 @@
       "id": "P1-NEW-2",
       "priority": "P1",
       "title": "意大利7/19全国机场地勤8h罢工（约25万旅客受影响）",
-      "description": "7/19意大利全国机场地勤8h罢工(10:00-18:00)，约25万旅客受影响，超1000架次取消或延误。ITA单独取消133航班。",
+      "description": "7/19意大利全国机场地勤8h罢工(10:00-18:00)，约25万旅客受影响，1000+航班取消/延误。",
       "airports": "MXP/LIN/FCO/NAP/PMO等全境",
       "routes": "意大利国内及国际航线",
       "airlines": "ITA Airways/瑞安/易捷等",
@@ -122,34 +122,52 @@
       "sources": []
     },
     {
-      "id": "P2-42",
+      "id": "P2-NEW-1",
       "priority": "P2",
-      "title": "伊朗打击巴林民航空管系统",
-      "description": "IRGC无人机打击巴林飞行情报区ATC设备，设备受损但运营未受影响，巴林民航局启动应急程序。",
-      "airports": "BAH",
-      "routes": "巴林航线",
-      "airlines": "Gulf Air等",
-      "passengers": "运营未受影响",
-      "duration": "7/21",
-      "sources": []
+      "title": "印尼勒沃托比火山喷发",
+      "description": "7/21晨间再次喷发，VAAC Darwin持续FL080火山灰咨询，多家航司取消澳大利亚-巴厘岛航线，Level III警戒。",
+      "airports": "DPS",
+      "routes": "澳大利亚-巴厘岛航线",
+      "airlines": "多家航司",
+      "passengers": "多条航线取消",
+      "duration": "持续中",
+      "sources": [
+        "https://www.volcanodiscovery.com/lewotobi/nachrichten/320240/vaac-advisory-2026-277.html"
+      ]
     },
     {
-      "id": "P2-40",
+      "id": "P2-NEW-2",
       "priority": "P2",
-      "title": "纽约暴雨洪水致JFK/LGA/EWR地面停飞(7/19)",
-      "description": "FAA对三大机场实施地面停飞，7/21 AirLabs仍有残余取消(JFK方向)。",
-      "airports": "JFK/LGA/EWR",
-      "routes": "纽约出发航线",
-      "airlines": "多家美国航司",
-      "passengers": "残余取消持续",
-      "duration": "7/19-21残余",
-      "sources": []
+      "title": "Southwest 737-800疑似燃油泄漏紧急备降",
+      "description": "WN4761奥兰多-曼彻斯特航班南卡上空37000ft疑似燃油泄漏，7700紧急代码改降查尔斯顿，137人安全。",
+      "airports": "CHS",
+      "routes": "MCO-MHT",
+      "airlines": "Southwest Airlines",
+      "passengers": "137人",
+      "duration": "已安全降落",
+      "sources": [
+        "https://aerocorner.com/news/southwest-737-charleston-fuel-leak-diversion/"
+      ]
+    },
+    {
+      "id": "P2-NEW-3",
+      "priority": "P2",
+      "title": "Kalitta Air 777-300ER货机尾部擦地",
+      "description": "辛辛那提CVG进近时尾部擦地复飞后安全落地，FAA正式调查，无伤亡。",
+      "airports": "CVG",
+      "routes": "-",
+      "airlines": "Kalitta Air",
+      "passengers": "无伤亡(货机)",
+      "duration": "FAA调查中",
+      "sources": [
+        "https://www.carnoc.com/news/3370267"
+      ]
     },
     {
       "id": "P2-32",
       "priority": "P2",
       "title": "英航延长多条中东航线停飞",
-      "description": "BA延长DXB/TLV/BAH/AMM至10/25，DOH至8/1，RUH至8/8，JED从网络移除。",
+      "description": "BA延长DXB/TLV/BAH/AMM至10/25，DOH至8/1，RUH至8/8。",
       "airports": "LHR/DXB/TLV/BAH/AMM/DOH/RUH/JED",
       "routes": "英国-中东多条",
       "airlines": "British Airways",
@@ -170,22 +188,10 @@
       "sources": []
     },
     {
-      "id": "P2-41",
-      "priority": "P2",
-      "title": "联合航空SHARES系统技术故障(7/18,已恢复)",
-      "description": "订座系统故障致全美值机/登机中断，当日已恢复。",
-      "airports": "SFO/ORD/多个美国机场",
-      "routes": "联合航空全美航线",
-      "airlines": "United Airlines",
-      "passengers": "数千人受影响",
-      "duration": "7/18,已恢复",
-      "sources": []
-    },
-    {
       "id": "WATCH-1",
       "priority": "关注",
-      "title": "AirLabs 7/21上午12风险航班",
-      "description": "7/21上午12风险航班(RUH→GIZ 3/JED→GIZ 3/IST→BJV/DLM/KWI 3/AMM→EBL 2/DXB→ATQ 1)。API消耗15次(奇数日15机场)，月度剩余689次",
+      "title": "AirLabs 7/21下午16风险航班",
+      "description": "7/21下午16风险航班(RUH 9/AMM 3/JED 2/MIA 2全部CANCELLED)。API消耗15次(Tier1)，月度累计326次，剩余约674次",
       "airports": "-",
       "routes": "-",
       "airlines": "-",
@@ -233,7 +239,7 @@
       "id": "WATCH-5",
       "priority": "关注",
       "title": "霍尔木兹航运量降至4艘/日(战前55艘)",
-      "description": "霍尔木兹航运量降至4艘/日(战前55艘，LSEG数据)。",
+      "description": "霍尔木兹航运量降至4艘/日(战前55艘)，7/20当日2艘油轮遭袭。",
       "airports": "-",
       "routes": "-",
       "airlines": "-",
