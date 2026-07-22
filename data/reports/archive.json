@@ -11844,6 +11844,250 @@
       "P2": 45,
       "watch": 5,
       "situation": "美伊冲突第11天：霍尔木兹日通行4艘(战前55);7/20第二艘油轮Kavomaleas遭反舰导弹击中;UAE航司扩大取消(Etihad至7/24,Air Arabia至7/22,flydubai新取消迪拜-巴林);巴-卡联合调解方案提出;伊朗外长称军事优势前不谈判;科威特T1仍关闭;委内瑞拉CCS第31天;EASA禁飞4国至7/29;意大利easyJet/DAT今日24h罢工进行中;印尼勒沃托比火山喷发;Southwest燃油泄漏备降;AirLabs下午16风险航班"
+    },
+    {
+      "date": "2026-07-22",
+      "period": "上午",
+      "summary": {
+        "total": 18,
+        "p0": 3,
+        "p1": 6,
+        "p2": 43,
+        "watch": 5
+      },
+      "events": [
+        {
+          "id": "P0-1",
+          "priority": "P0",
+          "title": "美伊冲突持续升级（第12天）",
+          "description": "美伊冲突第12天，伊朗提出10天停火方案未获回应。多家航司延长中东航线停飞至9-10月：Air Canada(DXB/TLV至10/24)、Finnair(DOH/DXB至10/2)、ITA(DXB至10/24)、Lufthansa(DXB至9/13,AUH至10/24);Air France(DXB至7/27)、SriLankan(KWI至7/26)、酷航(JED至8/8,新航集团全线退出中东)。胡塞宣布对沙特港口海上封锁。EASA禁飞4国至7/29。科威特T1仍关闭。",
+          "airports": "DXB/DOH/BAH/KWI/JED/RUH/BEY/TLV",
+          "routes": "中东过境航线/UAE-KWI走廊/霍尔木兹海峡",
+          "airlines": "Air Canada/Finnair/ITA/Lufthansa/Air France/SriLankan/Scoot等",
+          "passengers": "中东数万级/日",
+          "duration": "冲突第12天;EASA至7/29;部分延至10月",
+          "sources": [
+            "https://www.thenationalnews.com/travel/2026/07/21/uae-flights-cancellations-iran-us/",
+            "https://gulfnews.com/business/aviation/etihad-emirates-air-arabia-flydubai-cancel-kuwait-flights-as-gulf-tensions-disrupt-uae-operations-1.500614834"
+          ]
+        },
+        {
+          "id": "P0-3",
+          "priority": "P0",
+          "title": "委内瑞拉CCS机场（第32天）",
+          "description": "委内瑞拉CCS机场商业航班仍停，第32天。死亡5,119人（Anadolu 7/19）。德/英外交部确认关闭至至少7月底。TAP航空使用VLN替代运营。",
+          "airports": "CCS(商业航班停)/VLN(临时承接)",
+          "routes": "委内瑞拉全部国际航线",
+          "airlines": "委内瑞拉航空/TAP航空",
+          "passengers": "约5万+旅客",
+          "duration": "32天,至至少7月底",
+          "sources": [
+            "https://www.aa.com.tr/en/world/morning-briefing-july-19-2026/4002572",
+            "https://reliefweb.int"
+          ]
+        },
+        {
+          "id": "P0-6",
+          "priority": "P0",
+          "title": "EASA CZIB禁飞4国领空至7/29（延续）",
+          "description": "EASA禁飞UAE/巴林/科威特/卡塔尔四国领空至7/29。伊朗/伊拉克/黎巴嫩至8/31。科威特领空限制至8/4（航油设施受损），T1主航站楼仍关闭。",
+          "airports": "DXB/DOH/BAH/KWI",
+          "routes": "EU-海湾直飞+过境航线需绕飞",
+          "airlines": "汉莎/英航/法航/荷航/Emirates等",
+          "passengers": "数万级/日",
+          "duration": "CZIB至7/29;科威特至8/4",
+          "sources": [
+            "https://safeairspace.net/summary/",
+            "https://gulfnews.com/business/aviation/europe-warns-airlines-to-avoid-uae-qatar-and-gulf-airspace-as-us-iran-tensions-escalate-1.500607649"
+          ]
+        },
+        {
+          "id": "P1-NEW-1",
+          "priority": "P1",
+          "title": "美国东北部强雷暴+龙卷风致9+枢纽地面停飞（7/21）",
+          "description": "7/21美国东北部强雷暴伴龙卷风登陆(宾州/新泽西)，FAA对JFK/LGA/EWR/BOS/PHL/DCA/IAD/BWI等9+机场实施地面停飞，全美2000+航班取消、5000+延误。7/22 AirLabs仍有大量残余取消(JFK42/YYZ16/MIA15)。",
+          "airports": "JFK/LGA/EWR/BOS/PHL/DCA/IAD/BWI",
+          "routes": "美国东北部全境航线",
+          "airlines": "全美主要航司",
+          "passengers": "20万+旅客",
+          "duration": "7/21-22,残余影响",
+          "sources": [
+            "https://www.foxbusiness.com/lifestyle/more-2000-flights-canceled-severe-storms-hammer-east-coast"
+          ]
+        },
+        {
+          "id": "P1-NEW-2",
+          "priority": "P1",
+          "title": "胡塞宣布对沙特海上封锁+3机场第11日关闭",
+          "description": "胡塞7/21宣布对沙特港口实施海上封锁，警告船只不得停靠。沙特领空名义开放但运营大规模中断。3座南部机场(AHB/Jizan/Najran)连续第11日关闭。",
+          "airports": "AHB/Jizan/Najran(第11日)",
+          "routes": "沙特西南部/也门航线",
+          "airlines": "沙特航空/flydubai",
+          "passengers": "累计400+航班取消",
+          "duration": "7/13起",
+          "sources": [
+            "https://hornafricannews.com/houthis-announce-maritime-blockade-against-saudi-arabia-after-renewed-escalation/"
+          ]
+        },
+        {
+          "id": "P1-NEW-3",
+          "priority": "P1",
+          "title": "印度飞行员协会请愿DGCA停飞海湾航线",
+          "description": "印度飞行员协会ALPA India 7/20正式致函DGCA，呼吁停飞所有印度航司前往阿联酋及高风险海湾目的地的航班。DGCA尚未回应，印度航司仍在运营。若采纳，印度-阿联酋重要航线将面临停运。",
+          "airports": "DXB/AUH(潜在)",
+          "routes": "印度-阿联酋航线",
+          "airlines": "Air India/IndiGo",
+          "passengers": "潜在数万级",
+          "duration": "待DGCA回应",
+          "sources": [
+            "https://www.ndtvprofit.com/india/pilots-body-alpa-india-urges-dgca-to-suspend-dubai-abu-dhabi-bound-flights-amid-middle-east-tensions-11794801"
+          ]
+        },
+        {
+          "id": "P1-4",
+          "priority": "P1",
+          "title": "TLV机场美军加油机部署冲击（延续）",
+          "description": "美军在TLV部署约30架加油机(计划增至72架)，以方要求限20架遭拒，日均约5000张机票面临取消。",
+          "airports": "TLV",
+          "routes": "以色列国际航线",
+          "airlines": "以色列航空/国际航司",
+          "passengers": "约5000张/日",
+          "duration": "持续中",
+          "sources": []
+        },
+        {
+          "id": "P1-5",
+          "priority": "P1",
+          "title": "香港HKG北跑道关闭（延续）",
+          "description": "7/8货运747偏出北跑道坠海(2地勤死亡)，北跑道关闭中，单跑道运营。",
+          "airports": "HKG(北跑道关闭)",
+          "routes": "HKG全量航线",
+          "airlines": "HKG全量航司",
+          "passengers": "单跑道运营致延误",
+          "duration": "关闭中,恢复待定",
+          "sources": []
+        },
+        {
+          "id": "P2-NEW-1",
+          "priority": "P2",
+          "title": "大韩航空A330-300宿务跑道冲出(7/21)",
+          "description": "KE631仁川-宿务恶劣天气第三次进近偏出跑道，前起落架坍塌，173人安全撤离，宿务机场跑道暂时关闭，50+航班取消。",
+          "airports": "CEB",
+          "routes": "仁川-宿务",
+          "airlines": "大韩航空",
+          "passengers": "173人安全撤离",
+          "duration": "宿务跑道暂时关闭",
+          "sources": []
+        },
+        {
+          "id": "P2-NEW-2",
+          "priority": "P2",
+          "title": "T'way Air A320客舱充电宝失火(7/20)",
+          "description": "TW125仁川-卡利博起飞后充电宝起火冒烟，乘务员5分钟灭火，172人安全降落。",
+          "airports": "KAL",
+          "routes": "仁川-卡利博",
+          "airlines": "T'way Air",
+          "passengers": "172人安全降落",
+          "duration": "已处置",
+          "sources": []
+        },
+        {
+          "id": "P2-32",
+          "priority": "P2",
+          "title": "英航延长多条中东航线停飞",
+          "description": "BA延长DXB/TLV/BAH/AMM至10/25，DOH至8/1，RUH至8/8，JED从网络移除。",
+          "airports": "LHR/DXB/TLV/BAH/AMM/DOH/RUH/JED",
+          "routes": "英国-中东多条",
+          "airlines": "British Airways",
+          "passengers": "多条航线",
+          "duration": "至10/25",
+          "sources": []
+        },
+        {
+          "id": "P2-3",
+          "priority": "P2",
+          "title": "西捷空乘罢工投票99.4%通过",
+          "description": "最早8/2合法罢工，日影响约7.5万旅客。",
+          "airports": "加拿大各枢纽",
+          "routes": "西捷全线",
+          "airlines": "WestJet",
+          "passengers": "潜在7.5万/日",
+          "duration": "最早8/2",
+          "sources": []
+        },
+        {
+          "id": "P2-5",
+          "priority": "P2",
+          "title": "印尼Lewotobi火山Level III喷发",
+          "description": "VAAC FL100灰云咨询，巴厘岛航线取消(7/21)。",
+          "airports": "DPS",
+          "routes": "巴厘岛航线",
+          "airlines": "多家航司",
+          "passengers": "巴厘岛航线取消",
+          "duration": "持续观察",
+          "sources": []
+        },
+        {
+          "id": "WATCH-1",
+          "priority": "关注",
+          "title": "AirLabs 7/22上午122风险航班(异常暴增)",
+          "description": "7/22上午122风险航班(异常暴增,昨日16)，JFK42/YYZ16/MIA15/LAX12/LHR10，美国方向取消高度集中(疑似7/21雷暴残余)。API消耗43次，月度累计369次，剩余约631次",
+          "airports": "JFK/YYZ/MIA/LAX/LHR",
+          "routes": "美国方向高度集中",
+          "airlines": "-",
+          "passengers": "-",
+          "duration": "-",
+          "sources": []
+        },
+        {
+          "id": "WATCH-2",
+          "priority": "关注",
+          "title": "热带风暴Bertha预计今晚登陆路易斯安那",
+          "description": "热带风暴Bertha(60mph)预计今晚登陆路易斯安那，持续观察是否影响MSY等机场。",
+          "airports": "MSY(潜在)",
+          "routes": "-",
+          "airlines": "-",
+          "passengers": "-",
+          "duration": "今晚登陆",
+          "sources": []
+        },
+        {
+          "id": "WATCH-3",
+          "priority": "关注",
+          "title": "Gatwick地面人员7/28-8/1罢工预警",
+          "description": "Gatwick地面人员计划7/28-8/1罢工。",
+          "airports": "LGW",
+          "routes": "-",
+          "airlines": "-",
+          "passengers": "-",
+          "duration": "7/28-8/1",
+          "sources": []
+        },
+        {
+          "id": "WATCH-4",
+          "priority": "关注",
+          "title": "西捷CUPE 8125最早8/2合法罢工",
+          "description": "西捷空乘最早8/2合法罢工，日影响约7.5万旅客。",
+          "airports": "-",
+          "routes": "-",
+          "airlines": "WestJet",
+          "passengers": "-",
+          "duration": "最早8/2",
+          "sources": []
+        },
+        {
+          "id": "WATCH-5",
+          "priority": "关注",
+          "title": "EASA CZIB 7/29到期+航司运营briefing作废",
+          "description": "EASA CZIB 7/29到期是否续期待定;航司运营briefing因希思罗旧事件(2025年3月)回收作废。",
+          "airports": "-",
+          "routes": "-",
+          "airlines": "-",
+          "passengers": "-",
+          "duration": "7/29待定",
+          "sources": []
+        }
+      ]
     }
   ]
 }
