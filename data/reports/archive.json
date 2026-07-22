@@ -12088,6 +12088,253 @@
           "sources": []
         }
       ]
+    },
+    {
+      "date": "2026-07-22",
+      "time": "16:00",
+      "period": "下午",
+      "summary": {
+        "total": 60,
+        "p0": 3,
+        "p1": 7,
+        "p2": 45,
+        "watch": 5,
+        "situation": "美伊冲突第12天升级：UAE四大航司取消范围扩大至巴林(Emirates/Etihad/flydubai/Air Arabia);美军第11夜空袭伊朗含布什尔机场军事区;伊朗宣布全面战争同时提出10天停火;比利时3天全国大罢工致BRU出港全停+CRL完全停运(8万人抗议);葡萄牙12年首次全国大罢工LIS+OPO数十架取消;美国东北部雷暴基本恢复(AirLabs JFK 42→1);AirLabs下午50风险航班(较上午122↓59%)"
+      },
+      "events": [
+        {
+          "id": "P0-1",
+          "priority": "P0",
+          "title": "美伊冲突持续升级（第12天）",
+          "description": "美伊冲突第12天，美军完成第11轮连续夜间空袭(覆盖伊朗6+省份，含布什尔机场军事区及Bidboland炼油厂)。伊朗总统宣布全面战争，IRGC对巴林美军第五舰队司令部及科威特Ali Al Salem基地发动报复打击。伊朗同时通过巴基斯坦提出10天停火方案。UAE四大航司将取消范围从科威特扩大至巴林：Emirates取消DXB-BAH(7/22共6班/7/23扩大至8班)、Etihad取消AUH-BAH(7/23)、flydubai取消DXB-BAH 6班、Air Arabia取消KWI航线。CENTCOM称霍尔木兹海峡仍开放但伊朗袭击科威特油轮，布伦特油价$92+。",
+          "airports": "DXB/AUH/BAH/KWI/SHJ/JED/RUH/BEY/TLV",
+          "routes": "中东过境航线/UAE-巴林走廊/霍尔木兹海峡",
+          "airlines": "Emirates/Etihad/flydubai/Air Arabia/Air Canada/Finnair/ITA/Lufthansa/Air France等",
+          "passengers": "中东数万级/日,巴林航线新增影响",
+          "duration": "冲突第12天;EASA至7/29;部分延至10月",
+          "sources": [
+            "https://gulfnews.com/business/aviation/uae-kuwait-bahrain-flight-disruptions-emirates-etihad-flydubai-and-air-arabia-cancels-services-1.500615986",
+            "https://news.cgtn.com/news/2026-07-22/Iran-US-tensions-continue-as-sides-exchange-threats-military-strikes-1OYKUUQ1bAA/p.html"
+          ]
+        },
+        {
+          "id": "P0-3",
+          "priority": "P0",
+          "title": "委内瑞拉CCS机场（第32天）",
+          "description": "委内瑞拉CCS机场商业航班仍停，第32天。死亡5,119人（Anadolu 7/19）。德/英外交部确认关闭至至少7月底。TAP航空使用VLN替代运营。",
+          "airports": "CCS(商业航班停)/VLN(临时承接)",
+          "routes": "委内瑞拉全部国际航线",
+          "airlines": "委内瑞拉航空/TAP航空",
+          "passengers": "约5万+旅客",
+          "duration": "32天,至至少7月底",
+          "sources": [
+            "https://www.aa.com.tr/en/world/morning-briefing-july-19-2026/4002572",
+            "https://reliefweb.int"
+          ]
+        },
+        {
+          "id": "P0-6",
+          "priority": "P0",
+          "title": "EASA CZIB禁飞4国领空至7/29（延续）",
+          "description": "EASA禁飞UAE/巴林/科威特/卡塔尔四国领空至7/29。伊朗/伊拉克/黎巴嫩至8/31。科威特领空限制至8/4（航油设施受损），T1主航站楼仍关闭。澳大利亚升级约旦/阿曼/沙特至Level 3。",
+          "airports": "DXB/DOH/BAH/KWI",
+          "routes": "EU-海湾直飞+过境航线需绕飞",
+          "airlines": "汉莎/英航/法航/荷航/Emirates等",
+          "passengers": "数万级/日",
+          "duration": "CZIB至7/29;科威特至8/4",
+          "sources": [
+            "https://safeairspace.net/summary/",
+            "https://gulfnews.com/business/aviation/europe-warns-airlines-to-avoid-uae-qatar-and-gulf-airspace-as-us-iran-tensions-escalate-1.500607649"
+          ]
+        },
+        {
+          "id": "P1-NEW-1",
+          "priority": "P1",
+          "title": "比利时3天全国大罢工致BRU出港全停+CRL完全停运",
+          "description": "比利时三大工会发起3天全国大罢工(7/22-24)抗议紧缩政策，8万人布鲁塞尔游行。BRU所有出港航班取消，CRL完全停运。AirLabs显示FCO→BRU 4架取消(EY/AZ/SN/UA)。安特卫普港航运暂停。",
+          "airports": "BRU(出港全停)/CRL(完全停运)",
+          "routes": "比利时进出港航线",
+          "airlines": "Brussels Airlines/TUI/Ryanair等",
+          "passengers": "数万级",
+          "duration": "7/22-24(3天)",
+          "sources": [
+            "https://www.nextpulse.news/story/Major_Disruption_Expected_at_Belgian_Airports_Amid_Nationwide_Austerity_Strike"
+          ]
+        },
+        {
+          "id": "P1-NEW-2",
+          "priority": "P1",
+          "title": "葡萄牙12年首次全国大罢工致LIS+OPO数十架取消",
+          "description": "葡萄牙两大工会联合会(CGTP/UGT)发起12年来首次全国大罢工，抗议劳动法改革(100+项)。LIS+OPO数十架航班取消，公共交通最低服务运行。",
+          "airports": "LIS/OPO",
+          "routes": "葡萄牙进出港航线",
+          "airlines": "TAP Portugal/Ryanair/easyJet等",
+          "passengers": "数千级",
+          "duration": "待定",
+          "sources": [
+            "https://www.quanta.report/story/Portugal_s_First_General_Strike_in_12_Years_Disrupts_Nation_s_Services"
+          ]
+        },
+        {
+          "id": "P1-2",
+          "priority": "P1",
+          "title": "美国东北部雷暴恢复中（7/21-22）",
+          "description": "7/21美国东北部强雷暴致9+枢纽ground stop、2000+取消。AirLabs下午数据显示JFK从42架取消恢复至1架，整体风险航班从122架降至50架(-59%)。YYZ 16→5, LHR 10→4, MIA 15→13, LAX 12→8。基本恢复。",
+          "airports": "JFK/YYZ/LHR/MIA/LAX(残余取消)",
+          "routes": "美国东北部全境航线",
+          "airlines": "全美主要航司",
+          "passengers": "残余影响",
+          "duration": "7/21-22,基本恢复",
+          "sources": []
+        },
+        {
+          "id": "P1-3",
+          "priority": "P1",
+          "title": "胡塞海上封锁沙特+3机场第12日关闭（延续）",
+          "description": "胡塞7/21宣布对沙特港口海上封锁。3座南部机场(AHB/Jizan/Najran)连续第12日关闭。沙特4机场106取消+180延误(中东专项数据)。",
+          "airports": "AHB/Jizan/Najran(第12日)",
+          "routes": "沙特西南部/也门航线",
+          "airlines": "沙特航空/flydubai",
+          "passengers": "累计400+航班取消",
+          "duration": "7/13起",
+          "sources": [
+            "https://hornafricanews.com/houthis-announce-maritime-blockade-against-saudi-arabia-after-renewed-escalation/"
+          ]
+        },
+        {
+          "id": "P1-4",
+          "priority": "P1",
+          "title": "TLV机场美军加油机部署冲击（延续）",
+          "description": "美军在TLV部署约30架加油机(计划增至72架)，以方要求限20架遭拒，日均约5000张机票面临取消。",
+          "airports": "TLV",
+          "routes": "以色列国际航线",
+          "airlines": "以色列航空/国际航司",
+          "passengers": "约5000张/日",
+          "duration": "持续中",
+          "sources": []
+        },
+        {
+          "id": "P2-NEW-3",
+          "priority": "P2",
+          "title": "俄罗斯Pulkovo机场无人机威胁(7/22)",
+          "description": "LED因无人机威胁夜间临时限制，28延误/16取消，现已恢复。",
+          "airports": "LED",
+          "routes": "圣彼得堡航线",
+          "airlines": "俄罗斯航司",
+          "passengers": "44架受影响",
+          "duration": "7/22,已恢复",
+          "sources": []
+        },
+        {
+          "id": "P2-NEW-1",
+          "priority": "P2",
+          "title": "大韩航空A330-300宿务跑道冲出(7/21)",
+          "description": "KE631仁川-宿务恶劣天气第三次进近偏出跑道，前起落架坍塌，173人安全撤离，宿务机场跑道暂时关闭，50+航班取消。",
+          "airports": "CEB",
+          "routes": "仁川-宿务",
+          "airlines": "大韩航空",
+          "passengers": "173人安全撤离",
+          "duration": "宿务跑道暂时关闭",
+          "sources": []
+        },
+        {
+          "id": "P2-NEW-2",
+          "priority": "P2",
+          "title": "T'way Air A320客舱充电宝失火(7/20)",
+          "description": "TW125仁川-卡利博起飞后充电宝起火冒烟，乘务员5分钟灭火，172人安全降落。",
+          "airports": "KAL",
+          "routes": "仁川-卡利博",
+          "airlines": "T'way Air",
+          "passengers": "172人安全降落",
+          "duration": "已处置",
+          "sources": []
+        },
+        {
+          "id": "P2-32",
+          "priority": "P2",
+          "title": "英航延长多条中东航线停飞",
+          "description": "BA延长DXB/TLV/BAH/AMM至10/25，DOH至8/1，RUH至8/8，JED从网络移除。",
+          "airports": "LHR/DXB/TLV/BAH/AMM/DOH/RUH/JED",
+          "routes": "英国-中东多条",
+          "airlines": "British Airways",
+          "passengers": "多条航线",
+          "duration": "至10/25",
+          "sources": []
+        },
+        {
+          "id": "P2-3",
+          "priority": "P2",
+          "title": "西捷空乘罢工投票99.4%通过",
+          "description": "最早8/2合法罢工，日影响约7.5万旅客。",
+          "airports": "加拿大各枢纽",
+          "routes": "西捷全线",
+          "airlines": "WestJet",
+          "passengers": "潜在7.5万/日",
+          "duration": "最早8/2",
+          "sources": []
+        },
+        {
+          "id": "WATCH-1",
+          "priority": "关注",
+          "title": "AirLabs 7/22下午50风险航班(较上午122↓59%)",
+          "description": "7/22下午50风险航班，JFK基本恢复(42→1)，FCO→BRU 4架(比利时罢工影响)。API月度累计约412次，剩余约588次",
+          "airports": "JFK/FCO/BRU",
+          "routes": "美国方向+比利时方向",
+          "airlines": "-",
+          "passengers": "-",
+          "duration": "-",
+          "sources": []
+        },
+        {
+          "id": "WATCH-2",
+          "priority": "关注",
+          "title": "比利时3天全国大罢工(7/22-24)",
+          "description": "BRU出港全停+CRL完全停运，8万人抗议。",
+          "airports": "BRU/CRL",
+          "routes": "-",
+          "airlines": "-",
+          "passengers": "-",
+          "duration": "7/22-24",
+          "sources": []
+        },
+        {
+          "id": "WATCH-3",
+          "priority": "关注",
+          "title": "热带风暴Bertha预计今晚登陆路易斯安那",
+          "description": "热带风暴Bertha(60mph)预计今晚登陆路易斯安那，持续观察是否影响MSY等机场。",
+          "airports": "MSY(潜在)",
+          "routes": "-",
+          "airlines": "-",
+          "passengers": "-",
+          "duration": "今晚登陆",
+          "sources": []
+        },
+        {
+          "id": "WATCH-4",
+          "priority": "关注",
+          "title": "EASA CZIB 7/29到期是否续期待定;伊朗空域关闭概率升至29-30.5%",
+          "description": "EASA CZIB 7/29到期是否续期待定;伊朗空域关闭概率升至29-30.5%。",
+          "airports": "-",
+          "routes": "-",
+          "airlines": "-",
+          "passengers": "-",
+          "duration": "7/29待定",
+          "sources": []
+        },
+        {
+          "id": "WATCH-5",
+          "priority": "关注",
+          "title": "Gatwick地面人员7/28-8/1罢工预警;西捷CUPE 8125最早8/2合法罢工",
+          "description": "Gatwick地面人员7/28-8/1罢工;西捷空乘最早8/2合法罢工。",
+          "airports": "LGW",
+          "routes": "-",
+          "airlines": "WestJet",
+          "passengers": "-",
+          "duration": "7/28-8/2",
+          "sources": []
+        }
+      ],
+      "generatedAt": "2026-07-22T16:00:00+08:00"
     }
   ]
 }
