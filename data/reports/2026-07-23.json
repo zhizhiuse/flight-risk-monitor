@@ -4,17 +4,190 @@
     {
       "period": "上午",
       "time": "09:00",
-      "stats": {"p0": 3, "p1": 5, "p2": 8},
+      "stats": {
+        "p0": 3,
+        "p1": 5,
+        "p2": 8
+      },
       "summary": "美伊冲突第13天：EASA新增约旦禁飞区至8/31，胡塞实际打击沙特油轮，多家航司暂停安曼至10/24。比利时罢工第2天BRU出港全停。AirLabs 13风险航班全中东方向。",
       "events": [
-        {"level": "P0", "id": "P0-1", "title": "美伊冲突持续升级（第13天）", "status": "active", "description": "EASA新增约旦禁飞+胡塞打击沙特油轮+多家航司暂停安曼至10/24"},
-        {"level": "P0", "id": "P0-3", "title": "委内瑞拉CCS机场（第33天）", "status": "active", "description": "商业航班仍停，死亡5119人，关闭至至少7月底"},
-        {"level": "P0", "id": "P0-6", "title": "EASA CZIB禁飞区扩大：新增约旦延至8/31", "status": "active", "description": "首次新增约旦，5国+约旦同步延至8/31，欧亚航线仅剩2条绕行走廊"},
-        {"level": "P1", "id": "P1-1", "title": "比利时3天全国大罢工第2天", "status": "active", "description": "BRU出港全停+CRL完全停运，8万人抗议"},
-        {"level": "P1", "id": "P1-2", "title": "葡萄牙12年首次全国大罢工", "status": "active", "description": "LIS+OPO数十架取消"},
-        {"level": "P1", "id": "P1-3", "title": "胡塞海上封锁沙特3机场第13日", "status": "active", "description": "实际打击两艘沙特油轮，海上封锁升级为军事行动"},
-        {"level": "P1", "id": "P1-4", "title": "TLV机场美军加油机部署", "status": "active", "description": "约30架加油机部署，日均5000张机票受影响"},
-        {"level": "P1", "id": "P1-5", "title": "美国东北部雷暴残余影响", "status": "recovering", "description": "JFK从42架恢复至0，基本恢复"}
+        {
+          "level": "P0",
+          "id": "P0-1",
+          "title": "美伊冲突持续升级（第13天）",
+          "status": "active",
+          "description": "EASA新增约旦禁飞+胡塞打击沙特油轮+多家航司暂停安曼至10/24"
+        },
+        {
+          "level": "P0",
+          "id": "P0-3",
+          "title": "委内瑞拉CCS机场（第33天）",
+          "status": "active",
+          "description": "商业航班仍停，死亡5119人，关闭至至少7月底"
+        },
+        {
+          "level": "P0",
+          "id": "P0-6",
+          "title": "EASA CZIB禁飞区扩大：新增约旦延至8/31",
+          "status": "active",
+          "description": "首次新增约旦，5国+约旦同步延至8/31，欧亚航线仅剩2条绕行走廊"
+        },
+        {
+          "level": "P1",
+          "id": "P1-1",
+          "title": "比利时3天全国大罢工第2天",
+          "status": "active",
+          "description": "BRU出港全停+CRL完全停运，8万人抗议"
+        },
+        {
+          "level": "P1",
+          "id": "P1-2",
+          "title": "葡萄牙12年首次全国大罢工",
+          "status": "active",
+          "description": "LIS+OPO数十架取消"
+        },
+        {
+          "level": "P1",
+          "id": "P1-3",
+          "title": "胡塞海上封锁沙特3机场第13日",
+          "status": "active",
+          "description": "实际打击两艘沙特油轮，海上封锁升级为军事行动"
+        },
+        {
+          "level": "P1",
+          "id": "P1-4",
+          "title": "TLV机场美军加油机部署",
+          "status": "active",
+          "description": "约30架加油机部署，日均5000张机票受影响"
+        },
+        {
+          "level": "P1",
+          "id": "P1-5",
+          "title": "美国东北部雷暴残余影响",
+          "status": "recovering",
+          "description": "JFK从42架恢复至0，基本恢复"
+        }
+      ]
+    },
+    {
+      "period": "pm",
+      "time": "16:00",
+      "timestamp": "2026-07-23T17:25:59.908304+08:00",
+      "stats": {
+        "p0": 4,
+        "p1": 6,
+        "p2": 7
+      },
+      "summary": "美伊冲突急剧升级：IRGC宣布完全封锁霍尔木兹海峡并布雷拦截3艘油轮(1艘起火)，美伊互威胁升级至民用基础设施层面，霍尔木兹+红海双重封锁致油价飙升至$96/桶。BA永久取消JED吉达航线(首个永久关闭)，Finnair将DOH停飞延长至2027年3月。台风红霞预计今晚发展为台风，48h后登陆粤闽(12-14级)。AirLabs下午15风险航班(全中东方向)。",
+      "events": [
+        {
+          "level": "P0",
+          "id": "P0-1",
+          "title": "美伊冲突急剧升级（第13天）· IRGC封锁霍尔木兹海峡",
+          "status": "active",
+          "description": "IRGC宣布完全封锁霍尔木兹海峡并布雷拦截3艘油轮(1艘起火)，海峡日通航量骤降至9艘。Trump威胁轰炸伊朗桥梁/发电厂，伊朗回应阻止全部石油出口。布伦特原油飙至$96/桶。"
+        },
+        {
+          "level": "P0",
+          "id": "P0-3",
+          "title": "委内瑞拉CCS机场（第33天）",
+          "status": "active",
+          "description": "CCS机场商业航班仍停，第33天。死亡5,119人。德/英外交部确认关闭至至少7月底。TAP航空使用VLN替代运营。"
+        },
+        {
+          "level": "P0",
+          "id": "P0-6",
+          "title": "EASA CZIB禁飞区：约旦+5国，至8/31",
+          "status": "active",
+          "description": "EASA将约旦全高度列入禁飞警告至8/31，覆盖伊朗→伊拉克→叙利亚→约旦整条东西向通道。AMM航班量降40%。"
+        },
+        {
+          "level": "P0",
+          "id": "P0-7",
+          "title": "台风红霞预警 · 48h登陆粤闽",
+          "status": "active",
+          "description": "菲律宾以东热带低压预计今晚发展为第12号台风红霞，25日晚至26日凌晨登陆粤闽(12-14级)。CAN/SZX/XMN三枢纽预警。",
+          "isNew": true
+        },
+        {
+          "level": "P1",
+          "id": "P1-1",
+          "title": "BA永久取消JED吉达航线 · 首个永久关闭",
+          "status": "active",
+          "description": "英国航空永久取消吉达航线，为中东冲突以来首个永久性航线关闭。同步延长DXB/BAH/AMM/TLV停飞至10/31。",
+          "isNew": true
+        },
+        {
+          "level": "P1",
+          "id": "P1-2",
+          "title": "Finnair DOH停飞延长至2027年3月 · 最长停飞",
+          "status": "active",
+          "description": "芬兰航空将HEL-DOH航线暂停延长至2027/3/27，为已知停飞时间最长的欧洲航司中东航线。",
+          "isNew": true
+        },
+        {
+          "level": "P1",
+          "id": "P1-3",
+          "title": "比利时3天全国大罢工 · 第3天/最后一天",
+          "status": "active",
+          "description": "BRU所有出港航班持续取消，CRL完全停运。今日结束后预计逐步恢复。"
+        },
+        {
+          "level": "P1",
+          "id": "P1-4",
+          "title": "胡塞海上封锁 · 沙特3机场第13日关闭",
+          "status": "active",
+          "description": "胡塞实际打击两艘沙特油轮(红海)，海上封锁升级为军事行动。3座南部机场连续第13日关闭。"
+        },
+        {
+          "level": "P1",
+          "id": "P1-5",
+          "title": "TLV机场美军加油机部署冲击",
+          "status": "active",
+          "description": "美军在TLV部署约30架加油机(计划增至72架)，日均约5000张机票面临取消。"
+        },
+        {
+          "level": "P1",
+          "id": "P1-6",
+          "title": "葡萄牙12年首次全国大罢工",
+          "status": "active",
+          "description": "LIS+OPO数十架航班取消，CGTP/UGT抗议劳动法改革。"
+        },
+        {
+          "level": "P2",
+          "id": "P2-1",
+          "title": "AirLabs下午15风险航班",
+          "status": "active",
+          "description": "全部cancelled，全中东方向：RUH→CDG 4班、RUH→GIZ 3班、RUH→EAM 2班、DXB→DAM 2班、JED→GIZ 2班、AMM→KWI/BAH 2班"
+        },
+        {
+          "level": "P2",
+          "id": "P2-2",
+          "title": "Emirates取消18个KWI/BAH航段",
+          "status": "active",
+          "description": "运力恢复至92%但7/23仍取消海湾短程航段"
+        },
+        {
+          "level": "P2",
+          "id": "P2-3",
+          "title": "葡萄牙12年首次全国大罢工",
+          "status": "active",
+          "description": "LIS+OPO数十架航班取消，CGTP/UGT抗议劳动法改革"
+        },
+        {
+          "level": "P2",
+          "id": "P2-4",
+          "title": "西捷空乘罢工投票99.4%通过",
+          "status": "active",
+          "description": "最早8/2合法罢工，日影响约7.5万旅客"
+        },
+        {
+          "level": "P2",
+          "id": "P2-5",
+          "title": "美东雷暴已恢复",
+          "status": "resolved",
+          "description": "JFK从42架取消归零，AirLabs美国方向无风险航班"
+        }
       ]
     }
   ]
