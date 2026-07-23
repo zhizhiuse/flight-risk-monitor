@@ -1,20 +1,17 @@
 {
-  "date": "2026-07-22",
-  "time": "16:00",
-  "period": "下午",
-  "summary": "美伊冲突第12天升级：UAE四大航司取消范围扩大至巴林;比利时3天全国大罢工BRU出港全停;葡萄牙12年首次大罢工;美国东北部雷暴基本恢复;AirLabs 50风险航班(↓59%)",
-  "p0_count": 3,
-  "p1_count": 7,
-  "p2_count": 45,
-  "watch_count": 5,
+  "date": "2026-07-23",
+  "time": "09:00",
+  "period": "上午",
+  "stats": {"p0": 3, "p1": 5, "p2": 8},
+  "summary": "美伊冲突第13天：EASA新增约旦禁飞区至8/31，胡塞实际打击沙特油轮，多家航司暂停安曼至10/24。比利时罢工第2天BRU出港全停。AirLabs 13风险航班全中东方向。",
   "events": [
-    {"id": "P0-1", "priority": "P0", "title": "美伊冲突持续升级（第12天）", "status": "active", "description": "UAE四大航司取消扩大至巴林;美军第11夜空袭伊朗含布什尔机场;伊朗宣布全面战争+提出10天停火"},
-    {"id": "P0-3", "priority": "P0", "title": "委内瑞拉CCS机场（第32天）", "status": "active", "description": "CCS商业航班停运第32天,死亡5119人,关闭至至少7月底"},
-    {"id": "P0-6", "priority": "P0", "title": "EASA CZIB禁飞4国领空至7/29", "status": "active", "description": "EASA禁飞UAE/巴林/科威特/卡塔尔至7/29;科威特至8/4"},
-    {"id": "P1-NEW-1", "priority": "P1", "title": "比利时3天全国大罢工", "status": "new", "description": "BRU出港全停+CRL完全停运,8万人抗议,7/22-24"},
-    {"id": "P1-NEW-2", "priority": "P1", "title": "葡萄牙12年首次全国大罢工", "status": "new", "description": "LIS+OPO数十架取消,CGTP/UGT联合罢工"},
-    {"id": "P1-2", "priority": "P1", "title": "美国东北部雷暴恢复中", "status": "improving", "description": "JFK 42→1取消,整体122→50(-59%),基本恢复"},
-    {"id": "P1-3", "priority": "P1", "title": "胡塞海上封锁沙特+3机场第12日", "status": "active", "description": "AHB/Jizan/Najran第12日关闭"},
-    {"id": "P1-4", "priority": "P1", "title": "TLV机场美军加油机部署", "status": "active", "description": "约30架加油机部署,日均5000张机票受影响"}
+    {"level": "P0", "id": "P0-1", "title": "美伊冲突持续升级（第13天）", "status": "active", "description": "EASA新增约旦禁飞+胡塞打击沙特油轮+多家航司暂停安曼至10/24"},
+    {"level": "P0", "id": "P0-3", "title": "委内瑞拉CCS机场（第33天）", "status": "active", "description": "商业航班仍停，死亡5119人，关闭至至少7月底"},
+    {"level": "P0", "id": "P0-6", "title": "EASA CZIB禁飞区扩大：新增约旦延至8/31", "status": "active", "description": "首次新增约旦，5国+约旦同步延至8/31，欧亚航线仅剩2条绕行走廊"},
+    {"level": "P1", "id": "P1-1", "title": "比利时3天全国大罢工第2天", "status": "active", "description": "BRU出港全停+CRL完全停运，8万人抗议"},
+    {"level": "P1", "id": "P1-2", "title": "葡萄牙12年首次全国大罢工", "status": "active", "description": "LIS+OPO数十架取消"},
+    {"level": "P1", "id": "P1-3", "title": "胡塞海上封锁沙特3机场第13日", "status": "active", "description": "实际打击两艘沙特油轮，海上封锁升级为军事行动"},
+    {"level": "P1", "id": "P1-4", "title": "TLV机场美军加油机部署", "status": "active", "description": "约30架加油机部署，日均5000张机票受影响"},
+    {"level": "P1", "id": "P1-5", "title": "美国东北部雷暴残余影响", "status": "recovering", "description": "JFK从42架恢复至0，基本恢复"}
   ]
 }
