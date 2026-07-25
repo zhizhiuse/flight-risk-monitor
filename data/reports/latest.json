@@ -1,76 +1,78 @@
 {
   "date": "2026-07-25",
-  "period": "AM",
-  "generated_at": "2026-07-25T09:00:00+08:00",
+  "period": "PM",
+  "generated_at": "2026-07-25T16:00:00+08:00",
   "summary": {
     "p0": 5,
-    "p1": 6,
-    "p2": 11,
-    "total": 22
+    "p1": 8,
+    "p2": 6,
+    "total": 19
   },
-  "situation": "莫斯科四大机场全部关闭(乌克兰无人机袭击)；台风红霞今晚登陆粤闽(12级,36座机场)；美伊冲突第16天(霍尔木兹通航降至9%)；卡塔尔航空首次加入停飞；IATA报告航煤日均降64万桶",
+  "situation": "台风红霞今晚登陆粤闽(SWA取消84班/东航停飞潮汕)；无人机威胁首次扩展至乌拉尔(SVX/CEK/TJM/布古利马4机场关闭)；美伊冲突出现降温信号(空袭暂停/特朗普释放谈判信号)；卡塔尔航空BAH/EBL/KWI全部暂停至7/31；胡塞首次冲击沙特第二大枢纽吉达(JED)；AirLabs 18风险航班全cancelled",
   "events": [
     {
       "id": "P0-7",
       "priority": "P0",
-      "title": "台风红霞(Noul)今晚登陆粤闽·36座机场受影响",
-      "description": "台风级(12级/33m/s)，预计25日夜间至26日早晨登陆香港到广东惠来(12-14级)。36座机场受影响(CAN/SZX/HKG/ZUH/SWA/XMN等)，广东防风Ⅱ级响应。东航/国航/南航等已发布客票特殊处理方案。",
+      "title": "台风红霞(Noul)今晚登陆粤闽·SWA取消84班·东航停飞潮汕",
+      "description": "台风红霞台风级(12级/33m/s)，预计25日夜间至26日早晨登陆香港到广东惠来(12-14级)。揭阳潮汕机场(SWA)截至11时已取消84班进出港航班，东航取消25日18:00至26日10:00所有SWA进出港航班，春秋取消SWA/SZX多个航班(9C6460/9C7507/9C7203/9C7356等)。中国气象局启动Ⅱ级应急响应，深圳铁路停运346列，广东144条客渡运航线停运。36座机场受影响(CAN/SZX/HKG/ZUH/SWA/XMN等)，多航司已开放免费退改。",
       "airports": [
-        "CAN",
-        "SZX",
-        "HKG",
-        "ZUH",
         "SWA",
+        "SZX",
+        "CAN",
+        "ZUH",
+        "HKG",
         "XMN",
         "CSX",
         "WUH"
       ],
       "airlines": [
+        "东航",
+        "春秋",
         "南航",
+        "国航",
         "深航",
         "厦航",
-        "国航",
-        "东航",
-        "国泰",
-        "香港航空"
+        "国泰"
       ],
-      "passengers": "预计数万级",
+      "passengers": "SWA已取消84班，预计登陆后数万级",
       "duration": "核心影响25日晚至26日，余波至28日",
       "sources": [
-        "https://m.thepaper.cn/newsDetail_forward_33654632",
-        "http://www.chinaview.cn/20260724/0d281002dcd5462d9e0069e3ad1720bc/c.html"
+        "https://m.thepaper.cn/newsDetail_forward_33656691",
+        "https://i.carnoc.com/detail/664176"
       ],
       "is_new": false
     },
     {
       "id": "P0-8",
       "priority": "P0",
-      "title": "莫斯科四大机场全部关闭·乌克兰最大规模无人机袭击",
-      "description": "乌克兰约200架无人机袭击莫斯科，SVO/DME/VKO/ZIA全部临时关闭，500+航班取消/延误。NOTAM限制莫斯科空域至FL160并禁止中转，有效至8月12日。",
+      "title": "莫斯科+乌拉尔机场关闭·无人机威胁纵深1800km",
+      "description": "莫斯科四大机场SVO/DME/VKO/ZIA因7/23乌200架无人机袭击关闭(NOTAM至8/12)。7/25无人机威胁首次扩展至乌拉尔地区(距乌边境约1800km)，叶卡捷琳堡科利佐沃(SVX)/车里雅宾斯克(CEK)/秋明(TJM)/布古利马4座机场临时关闭，SVX为乌拉尔最大航空枢纽。此为开战以来无人机打击纵深最远记录之一。",
       "airports": [
         "SVO",
         "DME",
         "VKO",
-        "ZIA"
+        "ZIA",
+        "SVX",
+        "CEK",
+        "TJM"
       ],
       "airlines": [
         "Aeroflot",
-        "Turkish Airlines",
-        "Air Serbia"
+        "Turkish Airlines"
       ],
-      "passengers": "超500架次航班取消或延误",
-      "duration": "NOTAM至8月12日；EASA公告至7/31",
+      "passengers": "莫斯科500+航班取消；乌拉尔SVX至少2班延误",
+      "duration": "莫斯科NOTAM至8/12；乌拉尔临时限制",
       "sources": [
-        "https://efs.efeservicios.com/en/texto/russia-bans-transit-flights-moscow-lowers-civilian-flight-ceiling/55020959222",
-        "https://www.gov.uk/foreign-travel-advice/russia"
+        "https://en.iz.ru/en/2138340/2026-07-25/temporary-flight-restrictions-have-been-introduced-chelyabinsk-airport",
+        "https://www.e1.ru/text/gorod/2026/07/25/76552918/"
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "P0-1",
       "priority": "P0",
-      "title": "美伊冲突第16天·霍尔木兹通航降至9%",
-      "description": "第13夜空袭伊朗(德黑兰防空启动/阿巴斯港2人受伤)，霍尔木兹通航从125艘/日降至9艘，美军击瘫第2艘突破封锁商船。伊朗拒绝停火，Trump称考虑massive attack。",
+      "title": "美伊冲突第16天·美军空袭暂停·降温信号出现",
+      "description": "美军连续13夜空袭伊朗后，7/25首次未报告空袭行动。第13夜打击为开战以来最广泛(格什姆岛至里海沿岸班达尔安扎利，首次覆盖伊朗南北全境)。特朗普7/25表示尚未决定大规模打击，称伊朗正变得认真，美方愿意倾听。霍尔木兹海峡通航仍降至9%，约500艘船/6000海员被困。伊朗领空仍关闭，EASA中东预警至8/31。",
       "airports": [
         "DXB",
         "DOH",
@@ -86,11 +88,11 @@
         "Qatar Airways",
         "Saudia"
       ],
-      "passengers": "暂无直接大规模取消",
-      "duration": "封锁持续至美方停止军事行动",
+      "passengers": "海湾枢纽航线持续暂停，航油成本飙升",
+      "duration": "空袭暂停但冲突未结束，封锁持续",
       "sources": [
-        "https://mobil.aa.com.tr/en/world/us-strikes-reported-in-several-regions-of-iran-state-broadcaster/4007641",
-        "https://www.ynetnews.com/article/hkqyfhlrzl"
+        "https://www.thenationalnews.com/news/mena/2026/07/25/no-us-strikes-reported-on-iran-after-13-consecutive-nights-of-attacks/",
+        "https://www.timesofisrael.com/trump-says-hasnt-decided-on-major-iran-strikes-tehran-getting-serious/"
       ],
       "is_new": false
     },
@@ -98,7 +100,7 @@
       "id": "P0-6",
       "priority": "P0",
       "title": "EASA CZIB禁飞区：约旦+5国，至8/31",
-      "description": "EASA将约旦全高度列入禁飞警告至8/31，覆盖伊朗→伊拉克→叙利亚→约旦通道。AMM航班量降40%。",
+      "description": "EASA将约旦(安曼FIR/OJAC)全高度列入禁飞警告至8/31，覆盖伊朗至伊拉克至叙利亚至约旦整条东西向通道。欧亚航线仅剩北向和南向两条绕行路径。AMM航班量降40%。",
       "airports": [
         "AMM",
         "DXB",
@@ -111,11 +113,10 @@
         "法荷航",
         "Finnair",
         "国泰",
-        "瑞安",
-        "泛航"
+        "瑞安"
       ],
-      "passengers": "AMM航班量降40%",
-      "duration": "CZIB至8/31；航司停飞至10/24",
+      "passengers": "AMM航班量降40%(220至130班/日)",
+      "duration": "CZIB至8/31",
       "sources": [
         "http://www.chinanews.com.cn/gj/2026/07-23/10664669.shtml",
         "https://gulfnews.com/business/aviation/flying-soon-these-international-airlines-have-extended-middle-east-flight-suspensions-1.500616199"
@@ -126,7 +127,7 @@
       "id": "P0-3",
       "priority": "P0",
       "title": "委内瑞拉CCS机场（第35天+）",
-      "description": "CCS机场商业航班仍停，死亡5119人。德/英外交部确认关闭至至少7月底。",
+      "description": "CCS机场商业航班仍停，第35天+。死亡5,119人(Anadolu 7/19)。德/英外交部确认关闭至至少7月底。TAP航空使用VLN替代运营。",
       "airports": [
         "CCS",
         "VLN"
@@ -143,88 +144,70 @@
       "is_new": false
     },
     {
-      "id": "P1-1",
+      "id": "P1-QR-BAH",
       "priority": "P1",
-      "title": "IATA权威报告：中东航煤危机·全球燃油成本或达$3500亿",
-      "description": "IATA报告：中东航煤产量日均降64万桶，全球航煤均价$149.40/桶(周涨18%)，预测2026年航司燃油成本$3500亿。",
-      "airports": [],
-      "airlines": [
-        "全球所有航司"
-      ],
-      "passengers": "航油成本飙升可能触发运力削减",
-      "duration": "持续至冲突结束",
-      "sources": [
-        "https://www.iata.org/en/publications/economics/chart-week/chart-of-the-week-24-july-2026/"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "P1-2",
-      "priority": "P1",
-      "title": "卡塔尔航空首次暂停BAH/EBL/KWI·海湾三大航司全面受影响",
-      "description": "QR首次暂停BAH/EBL至7/25、KWI至7/31，标志三大海湾航司运营影响全面扩散。",
+      "title": "卡塔尔航空BAH/EBL/KWI全部暂停至7/31·恢复窗口关闭",
+      "description": "卡塔尔航空原定7/25恢复BAH/EBL航线，现延长至7/31，与KWI一致，三条区域航线全部暂停至月底。阿提哈德同步延长AUH-KWI至7/26、AUH-BAH至7/25。阿联酋航空DXB-BAH同样不运营。英国更新巴林旅行警告至建议非必要不前往。",
       "airports": [
         "BAH",
         "EBL",
         "KWI"
       ],
       "airlines": [
-        "Qatar Airways"
+        "Qatar Airways",
+        "Etihad",
+        "Emirates"
       ],
       "passengers": "区域航线旅客需改签",
-      "duration": "BAH/EBL至7/25，KWI至7/31",
+      "duration": "至7/31",
       "sources": [
-        "https://english.news.cn/20260723/79d80a563dd247e8a7cc3fab735622df/c.html"
+        "https://www.gulf-insider.com/live-feed/qatar-airways-suspends-flights-to-bahrain-kuwaitand-erbil-until-july-31/",
+        "https://gulfnews.com/travel/uae-travel-alert-us-uk-canada-australia-renew-warnings-for-middle-east-as-etihad-qatar-airways-update-flights-1.500618486"
       ],
-      "is_new": true
+      "is_new": false
     },
     {
-      "id": "P1-3",
+      "id": "P1-Houthi-JED",
       "priority": "P1",
-      "title": "法航延长DXB至8/4、RUH至7/31·一周内第二次延长",
-      "description": "法航DXB停飞延至8/4，RUH延至7/31，BEY维持至8/2。一周内第二次延长DXB。",
+      "title": "胡塞威胁首次冲击吉达(JED)·沙特第二大枢纽航班中断",
+      "description": "7/25沙特西部延布和南部吉赞同时触发民防紧急预警，吉赞传出多次爆炸并引发火灾。吉达机场(JED)航班首次出现等待盘旋和运营中断，飞往利雅得航班被迫返航或改航。此前胡塞威胁主要针对南部机场，本次首次冲击沙特第二大枢纽。",
       "airports": [
-        "DXB",
-        "RUH",
-        "BEY"
+        "JED",
+        "YNB",
+        "GIZ"
       ],
       "airlines": [
-        "Air France"
+        "Saudia"
       ],
-      "passengers": "法航中东航线旅客需改签",
-      "duration": "DXB至8/4",
+      "passengers": "JED航班延误/改航",
+      "duration": "持续关注",
       "sources": [
-        "https://wwws.airfrance.es/en/information/cco/flash-alerte-mv3"
+        "https://en.mehrnews.com/news/246501/Blasts-heard-in-Saudi-Arabia-flights-disrupted-in-south",
+        "https://safir.af/en/2026/07/25/yemeni-missile-response-following-saudi-aggressions-jizan-and-yanbu-in-state-of-emergency/"
       ],
       "is_new": true
     },
     {
-      "id": "P1-4",
+      "id": "P1-IATA",
       "priority": "P1",
-      "title": "欧盟第21轮制裁·首次列入4座俄罗斯机场",
-      "description": "欧盟首次将SVO/ULY/ROV/MRV纳入交易禁令，7/24生效，影响地面保障和燃油供应。",
-      "airports": [
-        "SVO",
-        "ULY",
-        "ROV",
-        "MRV"
-      ],
+      "title": "IATA报告：中东航煤危机·全球燃油成本或达$3500亿",
+      "description": "IATA 7/24发布报告：中东航煤产量3-6月日均下降约64万桶/日，全球航煤均价达$149.40/桶(周涨18%)，预测2026年全球航司燃油成本$3500亿(2025年为$2520亿)。",
+      "airports": [],
       "airlines": [
-        "Turkish Airlines",
-        "Air Serbia"
+        "全球所有航司"
       ],
-      "passengers": "地面保障服务可用性受影响",
-      "duration": "7/24生效，无截止日期",
+      "passengers": "航油成本飙升可能触发运力削减与票价上涨",
+      "duration": "持续至冲突结束",
       "sources": [
-        "http://ec.europa.eu/commission/presscorner/detail/en/ip_26_1680"
+        "https://www.iata.org/en/publications/economics/chart-week/chart-of-the-week-24-july-2026/"
       ],
-      "is_new": true
+      "is_new": false
     },
     {
-      "id": "P1-5",
+      "id": "P1-WestJet",
       "priority": "P1",
-      "title": "西捷航空启动灵活改签·空乘最早8/2合法罢工",
-      "description": "WS为7/30-8/4航班激活灵活改签。4400名空乘99.4%授权罢工，最早8/2合法罢工，日影响7-7.5万旅客。",
+      "title": "西捷航空空乘最早8/2合法罢工·日影响7-7.5万旅客",
+      "description": "约4400名空乘(CUPE 8125)以99.4%赞成率授权罢工，经21天冷却期后最早8/2合法罢工。西捷已为7/30-8/4航班激活灵活改签政策。专家估计全面停飞影响每日7-7.5万旅客。",
       "airports": [
         "YYC",
         "YVR"
@@ -240,99 +223,10 @@
       "is_new": false
     },
     {
-      "id": "P2-1",
-      "priority": "P2",
-      "title": "AirLabs 18风险航班",
-      "description": "全cancelled：TLV→FCO 4班/TLV→VIE 2班、AMM→EBL 2班/AMM→ISU 1班、RUH→GIZ 3班、IST→KWI 3班、JED→GIZ 2班、DXB→ATQ 1班",
-      "airports": [
-        "TLV",
-        "AMM",
-        "RUH",
-        "IST",
-        "JED",
-        "DXB"
-      ],
-      "airlines": [
-        "LH",
-        "AZ",
-        "AC",
-        "JU",
-        "OS",
-        "RJ",
-        "WY",
-        "SV",
-        "KL",
-        "TK",
-        "KU",
-        "LO",
-        "AI",
-        "SG"
-      ],
-      "passengers": "18架次",
-      "duration": "当日",
-      "sources": [
-        "AirLabs API"
-      ],
-      "is_new": false
-    },
-    {
-      "id": "P2-2",
-      "priority": "P2",
-      "title": "胡塞-沙特冲突升级",
-      "description": "荷台达空袭+红海油轮遇袭，沙特3座南部机场持续关闭",
-      "airports": [
-        "AHB",
-        "Jizan",
-        "Najran"
-      ],
-      "airlines": [
-        "沙特航空",
-        "flydubai"
-      ],
-      "passengers": "累计400+航班取消",
-      "duration": "7/13起",
-      "sources": [],
-      "is_new": false
-    },
-    {
-      "id": "P2-3",
-      "priority": "P2",
-      "title": "尼日利亚Enugu Air E170冲出跑道",
-      "description": "贝宁机场降落时冲出跑道330米，起落架坍塌，68人全员安全，跑道关闭，NSIB调查中",
-      "airports": [
-        "BNI"
-      ],
-      "airlines": [
-        "Enugu Air"
-      ],
-      "passengers": "63乘客+5机组",
-      "duration": "跑道关闭中",
-      "sources": [
-        "https://i.carnoc.com/detail/664102"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "P2-4",
-      "priority": "P2",
-      "title": "美国Kenmore Air DHC-3水上飞机坠毁",
-      "description": "华盛顿州苏西亚岛附近紧急降落起火，11人全获救(4伤1危重)，FAA/NTSB联合调查",
-      "airports": [],
-      "airlines": [
-        "Kenmore Air"
-      ],
-      "passengers": "11人",
-      "duration": "航司取消所有航班",
-      "sources": [
-        "https://www.aa.com.tr/en/americas/all-11-rescued-after-kenmore-air-seaplane-catches-fire-off-washington-coast/4007702"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "P2-5",
-      "priority": "P2",
+      "id": "P1-easyJet",
+      "priority": "P1",
       "title": "easyJet法国6大基地空乘联合罢工预告",
-      "description": "ORY/CDG/NCE/NTE/LYS/BOD，覆盖7月末至8月暑期高峰，SNPNC-FO首次加入",
+      "description": "easyJet法国6大基地(ORY/CDG/NCE/NTE/LYS/BOD)空乘联合罢工，覆盖7月末至8月暑期高峰，SNPNC-FO首次加入。",
       "airports": [
         "ORY",
         "CDG",
@@ -344,12 +238,101 @@
       "airlines": [
         "easyJet"
       ],
-      "passengers": "暑期高峰航班可能受影响",
+      "passengers": "法国进出港航班可能受影响",
       "duration": "7月末至8月",
+      "sources": [],
+      "is_new": false
+    },
+    {
+      "id": "P2-AirLabs",
+      "priority": "P2",
+      "title": "AirLabs 18风险航班(PM)",
+      "description": "全cancelled：RUH 7班(至GIZ/AHB/EAM)、JED 5班(至GIZ/DMM/RAE/RUH)、TLV 2班(至FCO)、AMM 2班(至KWI/BAH)、DXB 1班(至AHB)、IST 1班(至NKT)",
+      "airports": [
+        "RUH",
+        "JED",
+        "TLV",
+        "AMM",
+        "DXB",
+        "IST"
+      ],
+      "airlines": [
+        "SV",
+        "QR",
+        "RJ",
+        "TK",
+        "LY"
+      ],
+      "passengers": "18架次",
+      "duration": "当日",
       "sources": [
-        "https://www.connexionfrance.com/news/easyjet-cabin-crew-in-france-file-strike-notice/803796"
+        "AirLabs API"
+      ],
+      "is_new": false
+    },
+    {
+      "id": "P2-Vanuatu",
+      "priority": "P2",
+      "title": "瓦努阿图6.0级地震+Ambae火山喷发FL150",
+      "description": "USGS/EMSC/GFZ三源确认，震源深度45km，无海啸预警，暂无航班影响；火山灰柱升至4600m向东南移动",
+      "airports": [],
+      "airlines": [],
+      "passengers": "暂无航班影响",
+      "duration": "监测中",
+      "sources": [
+        "USGS",
+        "EMSC",
+        "GFZ"
       ],
       "is_new": true
+    },
+    {
+      "id": "P2-Nigeria",
+      "priority": "P2",
+      "title": "尼日利亚Enugu Air E170冲出跑道",
+      "description": "贝宁机场降落时冲出跑道330米，起落架坍塌，63乘客+5机组全员安全，跑道关闭，NSIB调查中",
+      "airports": [
+        "BNI"
+      ],
+      "airlines": [
+        "Enugu Air"
+      ],
+      "passengers": "63乘客+5机组",
+      "duration": "跑道关闭中",
+      "sources": [
+        "https://i.carnoc.com/detail/664102"
+      ],
+      "is_new": false
+    },
+    {
+      "id": "P2-DHC3",
+      "priority": "P2",
+      "title": "美国Kenmore Air DHC-3水上飞机坠毁",
+      "description": "华盛顿州苏西亚岛附近紧急降落起火，11人全获救(4伤1危重)，FAA/NTSB联合调查",
+      "airports": [],
+      "airlines": [
+        "Kenmore Air"
+      ],
+      "passengers": "11人",
+      "duration": "FAA/NTSB调查中",
+      "sources": [
+        "https://www.aa.com.tr/en/americas/all-11-rescued-after-kenmore-air-seaplane-catches-fire-off-washington-coast/4007702"
+      ],
+      "is_new": false
+    },
+    {
+      "id": "P2-Ahmedabad",
+      "priority": "P2",
+      "title": "印度Ahmedabad机场暴雨洪水",
+      "description": "36班延误+4班取消，单一区域机场未关闭",
+      "airports": [
+        "AMD"
+      ],
+      "airlines": [],
+      "passengers": "36班延误+4班取消",
+      "duration": "当日",
+      "sources": [],
+      "is_new": false
     }
   ]
 }
