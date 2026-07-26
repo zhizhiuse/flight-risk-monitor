@@ -12868,7 +12868,7 @@
     },
     {
       "date": "2026-07-26",
-      "period": "AM",
+      "period": "PM",
       "generated_at": "2026-07-26T09:00:00+08:00",
       "summary": {
         "p0": 5,
@@ -13223,7 +13223,11 @@
           "is_new": false
         }
       ],
-      "notes": "数据来源：AirLabs API / 澎湃新闻 / CARNOC / 央视新闻 / 观察者网 / Times of Israel / Anadolu / borna.news / Gulf Insider / reisetopia.de / Global News / Vesti.ru / Sever Press / IATA | 生成时间：2026-07-26 09:00"
+      "notes": "数据来源：AirLabs API / 澎湃新闻 / CARNOC / 央视新闻 / 观察者网 / Times of Israel / Anadolu / borna.news / Gulf Insider / reisetopia.de / Global News / Vesti.ru / Sever Press / IATA | 生成时间：2026-07-26 09:00",
+      "p0": 5,
+      "p1": 7,
+      "p2": 5,
+      "total": 17
     }
   ]
 }
