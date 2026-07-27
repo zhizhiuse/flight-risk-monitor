@@ -13228,6 +13228,415 @@
       "p1": 7,
       "p2": 5,
       "total": 17
+    },
+    {
+      "date": "2026-07-27",
+      "period": "AM",
+      "generated_at": "2026-07-27T09:00:00+08:00",
+      "summary": {
+        "p0": 5,
+        "p1": 8,
+        "p2": 5,
+        "total": 18
+      },
+      "situation": "台风红霞减弱为热带低压，中央气象台06时解除全部预警，HKG三跑道通宵运作目标27日晨全面恢复，残余环流7/28-30影响CSX/WUH；美伊首次双边同步停火，伊朗正式宣布暂停对美报复打击，但霍尔木兹海峡油轮触雷+IRGC拦截6船，EASA至8/31不变；明日两起地勤罢工Gatwick(9航司)+PMI(暑期高峰)；EBL无人机袭击16班取消QR延长至7月底；莫斯科7/25夜300+架无人机VKO/SVO/AER临时限制；AirLabs 20风险航班(全cancelled: RUH7/JED5/TLV4/AMM4)",
+      "events": [
+        {
+          "id": "P0-7",
+          "priority": "P0",
+          "title": "台风红霞减弱为热带低压·预警全面解除·HKG恢复中",
+          "description": "7/27凌晨红霞减弱为热带低压(7级/15m/s)，中央气象台06时解除台风蓝色预警。HKG全天处理约670架次，约360架次取消，2000旅客滞留过夜，三跑道通宵运作消化积压，目标27日晨全面恢复。残余环流7/28-30影响湖南/湖北/河南。HK 21人受伤(非重大)。",
+          "airports": [
+            "HKG",
+            "SZX",
+            "CAN"
+          ],
+          "airlines": [
+            "国泰",
+            "东航",
+            "南航",
+            "国航",
+            "深航"
+          ],
+          "passengers": "HKG约360架次取消，2000旅客滞留过夜",
+          "duration": "HKG目标27日晨恢复，残余环流影响至30日",
+          "sources": [
+            "https://apnews.com/article/typhoon-noul-china-rain-wind-05f860066a9a75595c5bcc4df8356337",
+            "https://www.stheadline.com/zh-hans/society/3597441/"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "P0-1",
+          "priority": "P0",
+          "title": "美伊冲突第18天·伊朗正式宣布暂停报复打击·首次双边停火",
+          "description": "伊朗7/26正式宣布暂停所有对美报复性打击，与美方空袭暂停形成互停。路透社引述：攻击停则伊朗也停。但霍尔木兹海峡通安未改善——油轮触雷爆炸+IRGC拦截6艘船只。EASA中东预警至8/31不变，各航司暂无近期复航计划。内塔尼亚胡7/28访美携伊朗核情报。",
+          "airports": [
+            "DXB",
+            "DOH",
+            "RUH",
+            "JED",
+            "MCT",
+            "BAH",
+            "KWI",
+            "TLV"
+          ],
+          "airlines": [
+            "Emirates",
+            "Etihad",
+            "Qatar Airways",
+            "Saudia",
+            "ITA",
+            "Austrian"
+          ],
+          "passengers": "海湾枢纽航线持续暂停，TLV航线取消至7/27",
+          "duration": "停火但封锁持续，EASA至8/31",
+          "sources": [
+            "https://www.tbsnews.net/world/after-trump-calls-bombing-iran-signals-it-will-halt-strikes-long-us-does-1498841",
+            "https://gulfnews.com/world/mena/us-iran-attacks-halt-to-give-way-to-great-settlement-what-happens-next-1.500621029"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "P0-8",
+          "priority": "P0",
+          "title": "莫斯科机场NOTAM至8/12·7/25夜300+架无人机袭击",
+          "description": "SVO/DME/VKO/ZIA因7/23无人机袭击NOTAM至8/12仍在。7/25-26夜间乌克兰发射300余架无人机，VKO/SVO/AER临时限制，AER已解除，VKO/SVO至早间恢复。",
+          "airports": [
+            "SVO",
+            "DME",
+            "VKO",
+            "ZIA"
+          ],
+          "airlines": [
+            "Aeroflot",
+            "Turkish Airlines"
+          ],
+          "passengers": "莫斯科区域夜间至早间航班延误/取消",
+          "duration": "NOTAM至8/12",
+          "sources": [
+            "https://www.arabnews.com/node/2652313/amp",
+            "https://sever-press.ru/news/transport/nochnye-ogranichenija-v-aeroportah-vnukovo-sheremetevo-i-sochi-priveli-k-zaderzhkam/"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "P0-6",
+          "priority": "P0",
+          "title": "EASA CZIB禁飞区：约旦+5国，至8/31",
+          "description": "EASA将约旦(安曼FIR/OJAC)全高度列入禁飞警告至8/31，覆盖伊朗至伊拉克至叙利亚至约旦整条东西向通道。AMM航班量降40%。",
+          "airports": [
+            "AMM",
+            "DXB",
+            "DOH",
+            "BAH",
+            "KWI"
+          ],
+          "airlines": [
+            "汉莎集团",
+            "法荷航",
+            "Finnair",
+            "国泰",
+            "瑞安"
+          ],
+          "passengers": "AMM航班量降40%(220至130班/日)",
+          "duration": "CZIB至8/31",
+          "sources": [
+            "http://www.chinanews.com.cn/gj/2026/07-23/10664669.shtml",
+            "https://gulfnews.com/business/aviation/flying-soon-these-international-airlines-have-extended-middle-east-flight-suspensions-1.500616199"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "P0-3",
+          "priority": "P0",
+          "title": "委内瑞拉CCS机场（第37天+）",
+          "description": "CCS机场商业航班仍停，第37天+。死亡5,119人(Anadolu 7/19)。德/英外交部确认关闭至至少7月底。TAP航空使用VLN替代运营。",
+          "airports": [
+            "CCS",
+            "VLN"
+          ],
+          "airlines": [
+            "委内瑞拉航空",
+            "TAP航空"
+          ],
+          "passengers": "约5万+旅客",
+          "duration": "至至少7月底",
+          "sources": [
+            "https://www.aa.com.tr/en/world/morning-briefing-july-19-2026/4002572"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "P1-1",
+          "priority": "P1",
+          "title": "Gatwick(LGW)地勤罢工预警·明日7/28起·9航司受影响",
+          "description": "Menzies地勤员工因薪酬问题威胁罢工，涉及Wizz Air/Ryanair/Air China等9家航司。计划7/28起4天(7/28-8/1)，另有8/4-8/8第二轮。暑期高峰每日影响数千旅客。",
+          "airports": [
+            "LGW"
+          ],
+          "airlines": [
+            "Wizz Air",
+            "Ryanair",
+            "Air China",
+            "China Southern",
+            "Turkish Airlines",
+            "airBaltic"
+          ],
+          "passengers": "暑期高峰每日数千旅客受影响",
+          "duration": "7/28起4天+8/4起4天",
+          "sources": [
+            "https://i.carnoc.com/detail/664304",
+            "https://boltflight.com/ryanair-wizz-air-and-seven-more-airlines-face-disruption-risk-as-gatwick-refuelling-workers-prepare-for-strike/"
+          ],
+          "is_new": true
+        },
+        {
+          "id": "P1-2",
+          "priority": "P1",
+          "title": "Swissport地勤PMI机场4天部分罢工·明日7/28起",
+          "description": "Swissport地勤人员在PMI于7/28、8/1、8/4、8/8进行4天部分罢工，每日07:00-12:00及19:00-22:00停工。PMI为欧洲暑期热门度假目的地枢纽。",
+          "airports": [
+            "PMI"
+          ],
+          "airlines": [
+            "Swissport服务航司"
+          ],
+          "passengers": "罢工时段PMI航班延误/取消",
+          "duration": "7/28起4天",
+          "sources": [
+            "https://reisetopia.de/news/teilstreiks-flughafen-mallorca/"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "P1-3",
+          "priority": "P1",
+          "title": "埃尔比勒(EBL)无人机袭击+16班取消·QR延长EBL至7月底",
+          "description": "7/25多架载弹无人机袭击EBL附近区域(美军基地/领事馆附近)，联军拦截5架。24h内14班EBL+2班ISU航班取消。QR延长EBL暂停至7月底。",
+          "airports": [
+            "EBL",
+            "ISU"
+          ],
+          "airlines": [
+            "Qatar Airways",
+            "多家国际航司"
+          ],
+          "passengers": "24h内16班取消",
+          "duration": "QR暂停EBL至7月底",
+          "sources": [
+            "http://www.chinaview.cn/20260725/68f4ca8f10224ef7ad1cdd2730d22eda/c.html",
+            "https://en.kurdpress.com/news/161464/Wave-of-cancellations-of-international-flights-to-Erbil-and-Sulaymaniyah"
+          ],
+          "is_new": true
+        },
+        {
+          "id": "P1-4",
+          "priority": "P1",
+          "title": "吉赞(GIZ)+延布(YNB)机场暂停运营·胡塞打击沙特阿美",
+          "description": "胡塞武装7/25对沙特阿美吉赞炼油厂和延布石油设施实施导弹和无人机打击后，GIZ和YNB正式暂停运营。沙特空袭也门反击。AirLabs数据显示RUH/JED至GIZ/AHB多个航班取消。",
+          "airports": [
+            "GIZ",
+            "YNB",
+            "RUH",
+            "JED"
+          ],
+          "airlines": [
+            "SV",
+            "KL",
+            "AF",
+            "AI"
+          ],
+          "passengers": "沙特南部航线旅客需改签",
+          "duration": "恢复时间待定",
+          "sources": [
+            "https://borna.news/en/news/5885/yemeni-attacks-disrupt-saudi-flights-set-facilities-ablaze"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "P1-5",
+          "priority": "P1",
+          "title": "西捷航空空乘最早8/2合法罢工·日影响7-7.5万旅客",
+          "description": "约4400名空乘以99.4%赞成率授权罢工，经21天冷却期后最早8/2合法罢工。西捷已为7/30-8/4航班激活灵活改签政策。",
+          "airports": [
+            "YYC",
+            "YVR"
+          ],
+          "airlines": [
+            "WestJet"
+          ],
+          "passengers": "全面停飞日影响7-7.5万旅客",
+          "duration": "最早8/2罢工",
+          "sources": [
+            "https://globalnews.ca/news/11987447/westjet-passengers-flights-strike/"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "P1-6",
+          "priority": "P1",
+          "title": "卡塔尔航空BAH/EBL/KWI全部暂停至7/31",
+          "description": "QR BAH/EBL/KWI三条区域航线全部暂停至7/31。阿提哈德同步延长AUH-KWI。英国更新巴林旅行警告。",
+          "airports": [
+            "BAH",
+            "EBL",
+            "KWI",
+            "AUH"
+          ],
+          "airlines": [
+            "QR",
+            "EY",
+            "EK"
+          ],
+          "passengers": "区域航线旅客需改签",
+          "duration": "至7/31",
+          "sources": [
+            "https://www.gulf-insider.com/live-feed/qatar-airways-suspends-flights-to-bahrain-kuwaitand-erbil-until-july-31/"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "P1-7",
+          "priority": "P1",
+          "title": "ITA Airways+Austrian Airlines取消TLV航线至7/27·机组拒绝前往",
+          "description": "ITA取消所有往返特拉维夫航班至7/27，Austrian同步取消。原因为飞行员和乘务员拒绝前往以色列导致机组不足。今日到期。",
+          "airports": [
+            "TLV"
+          ],
+          "airlines": [
+            "ITA Airways",
+            "Austrian Airlines"
+          ],
+          "passengers": "ITA取消至7/27全部TLV航班",
+          "duration": "至7/27(今日到期)",
+          "sources": [
+            "https://www.timesofisrael.com/liveblog_entry/austrian-airlines-ita-said-to-suspend-flights-as-crews-unwilling-to-travel-to-israel/"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "P1-8",
+          "priority": "P1",
+          "title": "easyJet法国6大基地空乘联合罢工预告",
+          "description": "easyJet法国6大基地(ORY/CDG/NCE/NTE/LYS/BOD)空乘联合罢工预告，覆盖7月末至8月暑期高峰，SNPNC-FO首次加入。",
+          "airports": [
+            "ORY",
+            "CDG",
+            "NCE",
+            "NTE",
+            "LYS",
+            "BOD"
+          ],
+          "airlines": [
+            "easyJet"
+          ],
+          "passengers": "法国始发航班受影响",
+          "duration": "7月末至8月",
+          "sources": [],
+          "is_new": false
+        },
+        {
+          "id": "P2-1",
+          "priority": "P2",
+          "title": "AirLabs AM 20风险航班",
+          "description": "全cancelled：RUH 7班(至GIZ/AHB)、JED 5班(至GIZ/AHB)、TLV 4班(至FCO)、AMM 4班(至EBL/ISU/ADD)",
+          "airports": [
+            "RUH",
+            "JED",
+            "TLV",
+            "AMM"
+          ],
+          "airlines": [
+            "SV",
+            "KL",
+            "AF",
+            "AZ",
+            "AI",
+            "AC",
+            "LH",
+            "JU",
+            "WY",
+            "RJ",
+            "ET"
+          ],
+          "passengers": "20架次取消",
+          "duration": "当日",
+          "sources": [],
+          "is_new": false
+        },
+        {
+          "id": "P2-2",
+          "priority": "P2",
+          "title": "刚果金TRACEP航空L-410坠毁确认·机长遇难副驾驶幸存",
+          "description": "7/26搜救发现7/24失联的L-410货机残骸于瓦利卡莱地区。副驾驶存活，机长遇难。7/24起飞后发动机失效失联，仅2名机组无旅客。",
+          "airports": [
+            "BEN"
+          ],
+          "airlines": [
+            "TRACEP Congo Aviation"
+          ],
+          "passengers": "2名机组，无旅客",
+          "duration": "已确认坠毁",
+          "sources": [
+            "https://www.radiookapi.net/2026/07/26/actualite/societe/lavion-de-tracep-congo-aviation-retrouve-apres-son-crash-un-pilote",
+            "https://actualite.cd/2026/07/27/un-avion-cargo-porte-disparu-retrouve-ecrase"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "P2-3",
+          "priority": "P2",
+          "title": "IATA报告：中东航煤危机",
+          "description": "全球航煤均价$149.40/桶(周涨18%)，预测2026年全球航司燃油成本$3500亿(vs 2025年$2520亿)。",
+          "airports": [],
+          "airlines": [],
+          "passengers": "全球航司燃油成本上升",
+          "duration": "持续",
+          "sources": [],
+          "is_new": false
+        },
+        {
+          "id": "P2-4",
+          "priority": "P2",
+          "title": "印尼勒沃托比火山：Wings Air暂停KOE-LKA航线7天(7/25-7/31)",
+          "description": "火山持续喷发，Wings Air 7/25-7/31取消古邦-拉兰图卡航线，LKA机场依据NOTAM关闭。",
+          "airports": [
+            "KOE",
+            "LKA"
+          ],
+          "airlines": [
+            "Wings Air"
+          ],
+          "passengers": "区域航线旅客需改签",
+          "duration": "7/25-7/31",
+          "sources": [
+            "https://www.detik.com/bali/bisnis/d-8589969/wings-air-batalkan-penerbangan-kupang-larantuka-pp-7-hari-gegara-erupsi"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "P2-5",
+          "priority": "P2",
+          "title": "Gatwick(LGW)加油工人罢工投票(8/11截止)",
+          "description": "Unite工会投票8/11截止，影响Wizz Air/Ryanair/Air China等11家航司加油服务。与7/28地勤罢工为不同事件。",
+          "airports": [
+            "LGW"
+          ],
+          "airlines": [
+            "Wizz Air",
+            "Ryanair",
+            "Air China"
+          ],
+          "passengers": "潜在影响11家航司航班",
+          "duration": "投票8/11截止",
+          "sources": [
+            "https://www.internationalairportreview.com/gatwick-refuelling-staff-ballot-for-strike-action-over-pay-dispute/2136072.article"
+          ],
+          "is_new": false
+        }
+      ],
+      "notes": "上午推送：台风红霞减弱为热带低压预警解除HKG恢复中；美伊首次双边同步停火但霍尔木兹通安未改善；明日两起地勤罢工(Gatwick+PMI)；EBL无人机袭击16班取消；莫斯科300+架无人机VKO/SVO/AER临时限制。AirLabs 20风险航班(较7/26 AM 300架次大幅下降)。"
     }
   ]
 }
