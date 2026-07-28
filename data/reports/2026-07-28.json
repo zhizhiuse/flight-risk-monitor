@@ -476,20 +476,6 @@
       ],
       "created": "2026-07-28 16:00",
       "updated": "2026-07-28 16:00"
-    },
-    {
-      "id": "P0-7",
-      "level": "P0",
-      "title": "日本九州熊本M7.1地震·震度7(最高级)·海啸预警·多机场受威胁",
-      "description": "7/28 16:27 JST熊本县M7.1地震，震源10km，最大震度7(日本最高)，为2016年熊本地震以来最强烈。JMA发布海啸注意报(1m)。7县紧急预警，JR九州全线停运。KMJ/FUK/KOJ/OIT/MIY/NGS机场受威胁，2016年同类地震致KMJ关闭3个月。机场影响评估中。",
-      "impact": "KMJ(熊本)·FUK(福冈)·KOJ(鹿儿岛)·OIT(大分)·MIY(宫崎)·NGS(长崎)",
-      "airlines": "ANA·JAL·Solaseed Air·Air Do·Skymark·StarFlyer",
-      "sources": [
-        "Reuters(via CNA)",
-        "Japan Times"
-      ],
-      "created": "2026-07-28 16:00",
-      "updated": "2026-07-28 16:00"
     }
   ],
   "push_time": "2026-07-28 16:00"
