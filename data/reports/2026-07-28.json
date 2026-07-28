@@ -1,20 +1,20 @@
 {
   "date": "2026-07-28",
-  "period": "AM",
+  "period": "afternoon",
   "generated_at": "2026-07-28T09:00:00+08:00",
   "summary": {
-    "p0": 6,
+    "p0": 7,
     "p1": 8,
     "p2": 7,
-    "total": 21
+    "total": 22
   },
   "situation": "🆕精神航空7/26停运纳入P0-6(34年终结,1.7万员工,多枢纽);美伊停火第四夜,Netanyahu今日访美见Trump,霍尔木兹航运仍瘫痪(石油流量暴跌75%);台风红霞已停编,HKG/SZX/CAN恢复,残余环流致多地延误;PMI Swissport罢工今日启动(金属行业罢工已取消,影响低于预期);LGW多处地勤纠纷ASC/Menzies/GGS 7/28-8/1罢工;AirLabs 147风险航班(ORD 95架取消)",
   "events": [
     {
       "id": "P0-1",
       "priority": "P0",
-      "title": "美伊冲突第19天·停火第四夜·Netanyahu访美·霍尔木兹瘫痪",
-      "description": "美伊军事暂停延续至第四夜，卡塔尔和巴基斯坦调解方推动重启谈判。沙特同日拦截伊朗支持的伊拉克武装组织无人机。内塔尼亚胡7/28访美见Trump，以方将拒绝任何要求停火让步的美方提案。霍尔木兹海峡商业航运仍接近瘫痪：日均通行量暴跌70%至13艘，石油流量从800万桶骤降至不足200万桶。美军在TLV部署约30架、ETM部署约30架军用加油机，计划增派。",
+      "title": "美伊冲突第19天·停火第四夜·Netanyahu-Trump白宫会晤·海峡仍关闭",
+      "description": "Trump称\"很好的机会达成协议\"，AP称调解取得\"重大进展\"，阿曼-伊朗海峡通航谈判乐观，油价跌9%。但伊朗坚持海峡\"仍关闭\"，美军封锁继续(17艘改道/2艘瘫痪/2艘登检)。Netanyahu今日白宫见Trump推动升级，CENTCOM称空袭已达作战效能上限，参联会担忧弹药告急。",
       "airports": [
         "DXB",
         "RUH",
@@ -40,7 +40,8 @@
         "https://newseu.cgtn.com/news/2026-07-27/US-and-Iran-pause-strikes-as-talks-are-given-space--1P7H8FiuJck/p.html",
         "https://splash247.com/weekend-lull-fails-to-unlock-hormuz-shipping/"
       ],
-      "is_new": false
+      "is_new": false,
+      "updated": "2026-07-28 16:00"
     },
     {
       "id": "P0-2",
@@ -87,7 +88,7 @@
       "id": "P0-4",
       "priority": "P0",
       "title": "台风红霞(Noul)残余·已停编·HKG恢复·残余环流致多地延误",
-      "description": "台风红霞7/27停止编号，预警全面解除。HKG/SZX/CAN已恢复运营。残余环流叠加西南季风7/28仍影响中国多地，成都天府(TFU)449延误、广州白云(CAN)428延误、昆明长水(KMG)403延误、上海浦东(PVG)357延误。7/29-30关注长沙(CSX)/武汉(WUH)持续降雨影响。",
+      "description": "台风红霞已停编，HKG/SZX/CAN已恢复正常运营。AirLabs PM数据显示HKG/CAN各1架取消，较AM大幅改善。残余环流影响已减弱。",
       "airports": [
         "TFU",
         "CAN",
@@ -108,13 +109,14 @@
         "https://apnews.com/article/typhoon-noul-china-rain-wind-05f860066a9a75595c5bcc4df8356337",
         "https://i.carnoc.com/detail/664296"
       ],
-      "is_new": false
+      "is_new": false,
+      "updated": "2026-07-28 16:00"
     },
     {
       "id": "P0-5",
       "priority": "P0",
-      "title": "莫斯科+伏尔加地区·NOTAM至8/12·276架无人机袭击",
-      "description": "7/26-27夜乌克兰向俄罗斯发动大规模无人机袭击，俄方确认覆盖17个以上地区，防空击落276架。Rosaviatsiya对伏尔加河沿岸及中部地区10余座机场实施临时起降限制。莫斯科SVO/DME/VKO/ZIA NOTAM至8/12仍在执行。",
+      "title": "莫斯科NOTAM至8/12·两夜连续无人机袭击·DME完全关闭6小时",
+      "description": "7/27-28夜390+架无人机袭击莫斯科地区，81架在莫斯科附近被击落。Rosaviatsiya对VKO/DME/ZIA三机场实施临时限制，DME完全关闭6小时至06:34 MSK解除。较7/26-27夜(276架/VKO临时限制22分钟)显著升级。NOTAM(FL160以下禁过境)至8/12持续生效。",
       "airports": [
         "SVO",
         "DME",
@@ -134,13 +136,14 @@
         "https://www.vesti.ru/ns/rosaviaciya-aehroporty-kazani-i-samary-vremenno-zakryty",
         "https://regnum.ru/news/4051669"
       ],
-      "is_new": false
+      "is_new": false,
+      "updated": "2026-07-28 16:00"
     },
     {
       "id": "P0-6",
       "priority": "P0",
       "title": "精神航空(Spirit Airlines)停运·7/26正式停运·34年终结",
-      "description": "美国超低成本航司精神航空7/26宣布正式停止全部运营，结束34年历史。约1.7万员工全部裁员，所有航班取消、客服停止。此前月载客约170万人次(日均约5.7万)。伊朗战争推高油价为主因，5月破产保护→7/25白宫救助失败→7/26停运。AirLabs显示ORD 95架次取消(精神航空停运+前日雷暴叠加)。",
+      "description": "精神航空7/26正式停运，34年终结，1.7万员工。特朗普政府考虑5亿美元救助。AirLabs PM显示ORD取消从95架降至33架(日内自然衰减)。",
       "airports": [
         "FLL",
         "MCO",
@@ -160,13 +163,14 @@
         "https://www.163.com/dy/article/L2T4GQNU05568E36.html",
         "https://www.cbsnews.com/miami/tag/atlanta/"
       ],
-      "is_new": true
+      "is_new": true,
+      "updated": "2026-07-28 16:00"
     },
     {
       "id": "P1-1",
       "priority": "P1",
       "title": "PMI Swissport地勤罢工今日启动·金属行业罢工已取消",
-      "description": "Swissport地勤人员7/28在PMI启动部分罢工(后续8/1、8/4、8/8)。原定金属行业罢工(3.9万人)已取消，整体影响低于预期。预计不导致航班取消，但将造成延误和行李延迟。",
+      "description": "PMI Swissport地勤罢工已启动，金属行业罢工已取消，整体影响低于预期。",
       "airports": [
         "PMI"
       ],
@@ -181,26 +185,29 @@
       "sources": [
         "https://travelgossip.co.uk/latestnews/travellers-to-mallorca-advised-to-fly-with-hand-luggage-only-on-strike-dates/"
       ],
-      "is_new": false
+      "is_new": false,
+      "updated": "2026-07-28 16:00"
     },
     {
       "id": "P1-2",
       "priority": "P1",
-      "title": "埃尔比勒(EBL)无人机袭击+16班取消·QR延长至7月底",
-      "description": "7/25多架载弹无人机袭击EBL附近区域。24h内16班取消。QR延长EBL暂停至7月底。",
+      "title": "NYC四机场FAA流量管控·JFK/LGA/EWR/PHL 20-30%取消·Delta发travel alert",
+      "description": "FAA因天气+空管短缺对JFK/LGA/EWR/PHL实施流量管控，一度暂停JFK和EWR进港。20-30%航班取消，地面延误71-149分钟，JFK等待超2小时。FAA空管编制57%，EWR限航至2027年夏。Delta发travel alert至7/31。",
       "airports": [
         "EBL",
         "ISU"
       ],
-      "airlines": [
-        "Qatar Airways"
-      ],
+      "airlines": "Delta/United/American/JetBlue等",
       "passengers": "24h内16班取消",
       "duration": "QR暂停EBL至7月底",
       "sources": [
         "http://www.chinaview.cn/20260725/68f4ca8f10224ef7ad1cdd2730d22eda/c.html"
       ],
-      "is_new": false
+      "is_new": false,
+      "level": "P1",
+      "impact": "JFK/LGA/EWR/PHL",
+      "created": "2026-07-28 16:00",
+      "updated": "2026-07-28 16:00"
     },
     {
       "id": "P1-3",
@@ -250,7 +257,7 @@
       "id": "P1-5",
       "priority": "P1",
       "title": "伦敦盖特威克(LGW)多处地勤纠纷·ASC/Menzies/GGS今日起罢工",
-      "description": "ASC/Menzies/GGS地勤7/28-8/1罢工；Menzies加油车司机罢工投票8/11截止(影响9航司每日8000旅客)；DHL工人暂停罢工等投票。",
+      "description": "ASC/Menzies/GGS 7/28-8/1罢工已启动，Menzies加油投票8/11截止，DHL暂停等投票。",
       "airports": [
         "LGW"
       ],
@@ -265,7 +272,8 @@
       "sources": [
         "https://i.carnoc.com/detail/664304"
       ],
-      "is_new": false
+      "is_new": false,
+      "updated": "2026-07-28 16:00"
     },
     {
       "id": "P1-6",
@@ -308,21 +316,22 @@
     {
       "id": "P1-8",
       "priority": "P1",
-      "title": "ITA/Austrian取消TLV航线·7/27到期·关注是否延长",
-      "description": "ITA Airways和Austrian Airlines取消TLV航线至7/27今日到期。美军在TLV部署约30架加油机可能挤占民用航班运营资源。",
+      "title": "BA永久撤销吉达航线·国际航司延长中东暂停至Q4",
+      "description": "BA永久撤销LHR-JED(首次主要航司判定沙特核心航线无恢复条件)。国泰HKG-DXB至10/25、HKG-RUH至10/26。新航SIN-DXB至10/23。KLM RUH/DMM至9/6、DXB至8/23。汉莎集团至10/24。法航RUH至7/31。",
       "airports": [
         "TLV"
       ],
-      "airlines": [
-        "ITA Airways",
-        "Austrian Airlines"
-      ],
+      "airlines": "BA·CX·SQ·KL·LH Group·AF",
       "passengers": "欧洲至TLV航线部分暂停",
       "duration": "7/27到期待确认",
       "sources": [
         "https://simpleflying.com"
       ],
-      "is_new": false
+      "is_new": false,
+      "level": "P1",
+      "impact": "JED(永久)·DXB·RUH·DMM·TLV·BAH·AMM·BEY",
+      "created": "2026-07-28 16:00",
+      "updated": "2026-07-28 16:00"
     },
     {
       "id": "P2-1",
@@ -453,6 +462,35 @@
         "https://www.airlineratings.com/articles/middle-east-instability-delays-airasia-xs-london-launch"
       ],
       "is_new": true
+    },
+    {
+      "id": "P0-7",
+      "level": "P0",
+      "title": "日本九州熊本M7.1地震·震度7(最高级)·海啸预警·多机场受威胁",
+      "description": "7/28 16:27 JST熊本县M7.1地震，震源10km，最大震度7(日本最高)，为2016年熊本地震以来最强烈。JMA发布海啸注意报(1m)。7县紧急预警，JR九州全线停运。KMJ/FUK/KOJ/OIT/MIY/NGS机场受威胁，2016年同类地震致KMJ关闭3个月。机场影响评估中。",
+      "impact": "KMJ(熊本)·FUK(福冈)·KOJ(鹿儿岛)·OIT(大分)·MIY(宫崎)·NGS(长崎)",
+      "airlines": "ANA·JAL·Solaseed Air·Air Do·Skymark·StarFlyer",
+      "sources": [
+        "Reuters(via CNA)",
+        "Japan Times"
+      ],
+      "created": "2026-07-28 16:00",
+      "updated": "2026-07-28 16:00"
+    },
+    {
+      "id": "P0-7",
+      "level": "P0",
+      "title": "日本九州熊本M7.1地震·震度7(最高级)·海啸预警·多机场受威胁",
+      "description": "7/28 16:27 JST熊本县M7.1地震，震源10km，最大震度7(日本最高)，为2016年熊本地震以来最强烈。JMA发布海啸注意报(1m)。7县紧急预警，JR九州全线停运。KMJ/FUK/KOJ/OIT/MIY/NGS机场受威胁，2016年同类地震致KMJ关闭3个月。机场影响评估中。",
+      "impact": "KMJ(熊本)·FUK(福冈)·KOJ(鹿儿岛)·OIT(大分)·MIY(宫崎)·NGS(长崎)",
+      "airlines": "ANA·JAL·Solaseed Air·Air Do·Skymark·StarFlyer",
+      "sources": [
+        "Reuters(via CNA)",
+        "Japan Times"
+      ],
+      "created": "2026-07-28 16:00",
+      "updated": "2026-07-28 16:00"
     }
-  ]
+  ],
+  "push_time": "2026-07-28 16:00"
 }
