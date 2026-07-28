@@ -323,6 +323,136 @@
         "https://simpleflying.com"
       ],
       "is_new": false
+    },
+    {
+      "id": "P2-1",
+      "priority": "P2",
+      "title": "Swiss LX16驾驶舱起火备降班戈(BGR)·208人安全",
+      "description": "7/27瑞士国际航空LX16航班(苏黎世-JFK,A330-300)跨大西洋飞行中驾驶舱起火,机组发出7700紧急代码备降缅因州班戈国际机场,机上208人安全降落。",
+      "airports": [
+        "BGR"
+      ],
+      "airlines": [
+        "Swiss International Air Lines"
+      ],
+      "passengers": "208人安全降落,无伤亡",
+      "duration": "已备降,航班取消",
+      "sources": [
+        "https://bnonews.com/index.php/2026/07/swiss-flight-with-208-on-board-diverts-to-maine-after-reported-cockpit-fire/"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "P2-2",
+      "priority": "P2",
+      "title": "IndiGo 6E-1452货舱烟雾备降拉杰科特·194人安全",
+      "description": "7/27 IndiGo 6E-1452航班(迪拜-孟买,A321)飞行中货舱烟雾报警,备降拉杰科特机场,机上194人全部安全撤离,无伤亡。",
+      "airports": [
+        "RAJ"
+      ],
+      "airlines": [
+        "IndiGo"
+      ],
+      "passengers": "194人安全撤离,无伤亡",
+      "duration": "已备降",
+      "sources": [
+        "https://gulfnews.com/world/asia/india/indigo-flight-from-mumbai-to-dubai-makes-emergency-landing-in-rajkot-2-1.500621599"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "P2-3",
+      "priority": "P2",
+      "title": "FAA发布737 MAX座椅轨道检查NPRM·影响453架",
+      "description": "FAA 7/27发布拟议适航指令(NPRM),要求对约453架737 MAX 8/9/8200检查客舱座椅轨道安装,发现座椅未正确锁定可能在颠簸或紧急着陆时脱离。公众意见征询至9/10。",
+      "airports": [],
+      "airlines": [
+        "Boeing 737 MAX operators"
+      ],
+      "passengers": "潜在安全隐患,暂无实际航班影响",
+      "duration": "意见征询至9/10,最终指令待定",
+      "sources": [
+        "https://aerocorner.com/news/faa-737-max-seat-track-airworthiness-directive/"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "P2-4",
+      "priority": "P2",
+      "title": "东航MU2421充电宝自燃起火·降落后无人伤",
+      "description": "7/26东航MU2421航班(兰州-贵阳)降落后客舱行李架内旅客充电宝自燃起火,机组使用灭火器扑灭,无人受伤。",
+      "airports": [
+        "KWE"
+      ],
+      "airlines": [
+        "China Eastern Airlines"
+      ],
+      "passengers": "无人受伤",
+      "duration": "已处置",
+      "sources": [
+        "https://www.aerotime.aero/articles/ower-bank-fire-overhead-bin-china-eastern-flight"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "P2-5",
+      "priority": "P2",
+      "title": "Enugu Air E170报废·残骸占贝宁机场跑道第5天",
+      "description": "尼日利亚Enugu Air E170客机贝宁机场冲出跑道后被认定报废,事发5天后残骸仍占跑道末端,持续限制机场运营,Air Peace已暂停贝宁航线。",
+      "airports": [
+        "BNI"
+      ],
+      "airlines": [
+        "Enugu Air",
+        "Air Peace"
+      ],
+      "passengers": "贝宁机场航班运营受限",
+      "duration": "残骸未移除,持续影响",
+      "sources": [
+        "https://nigeriatravelsmart.com/enugu-air-ceo-explains-benin-runway-excursion-as-aircraft-declared-beyond-repair/"
+      ],
+      "is_new": false
+    },
+    {
+      "id": "P2-6",
+      "priority": "P2",
+      "title": "easyJet法国空乘提交罢工预告·7月底至8月可能罢工",
+      "description": "easyJet法国空乘工会(SNPNC-FO等)7/23谈判失败后提交罢工预告,涉及排班不稳定、人手短缺、疲劳及退休规则变更。暂无具体罢工日期,但可能影响7月底至8月法国航线。",
+      "airports": [
+        "CDG",
+        "LYS",
+        "NCE",
+        "TLS"
+      ],
+      "airlines": [
+        "easyJet"
+      ],
+      "passengers": "暂无实际影响,罢工预告期内可能取消",
+      "duration": "7月底至8月,具体日期待定",
+      "sources": [
+        "https://beta.connexionfrance.com/news/easyjet-cabin-crew-in-france-file-strike-notice/803796"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "P2-7",
+      "priority": "P2",
+      "title": "AirAsia X伦敦航线推迟至2027年3月·中东地缘不稳定",
+      "description": "AirAsia X因中东地缘政治不稳定,将吉隆坡-巴林-伦敦盖特威克航线开通从8/27推迟至2027年3月。原定6月开通,已二次推迟。经停巴林因海湾局势受限。",
+      "airports": [
+        "KUL",
+        "BAH",
+        "LGW"
+      ],
+      "airlines": [
+        "AirAsia X"
+      ],
+      "passengers": "已购票旅客可退款或改签",
+      "duration": "推迟至2027年3月",
+      "sources": [
+        "https://www.airlineratings.com/articles/middle-east-instability-delays-airasia-xs-london-launch"
+      ],
+      "is_new": true
     }
   ]
 }
