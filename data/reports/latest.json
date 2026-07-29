@@ -390,7 +390,8 @@
       "affected_airlines": "JAL/ANA/Solaseed Air",
       "passenger_impact": "7/28取消21班+7/29取消13班，下午逐步恢复",
       "estimated_duration": "7/29 PM逐步恢复，余震风险持续",
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "priority": "P0"
     },
     {
       "id": "P2-1",
@@ -411,7 +412,8 @@
           "url": "https://www.aerotelegraph.com/ticker/norwegian-boeing-737-nach-riss-in-cockpitscheibe-nach-wien-umgeleitet/9pj2jg3"
         }
       ],
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "priority": "P2"
     },
     {
       "id": "P2-2",
@@ -432,7 +434,8 @@
           "url": "https://www.ukrinform.net/amp/rubric-emergencies/4148694-finland-restricts-air-and-maritime-traffic-due-to-drone-threat.html"
         }
       ],
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "priority": "P2"
     },
     {
       "id": "P2-3",
@@ -453,7 +456,8 @@
           "url": "https://www.hindustantimes.com/world-news/us-news/american-airlines-it-outage-faa-grounds-all-non-air-borne-american-flights-as-system-goes-down-101785279265270.html"
         }
       ],
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "priority": "P2"
     },
     {
       "id": "P2-4",
@@ -465,7 +469,8 @@
       "passenger_impact": "两机场出港全取消",
       "estimated_duration": "7/30单日",
       "sources": [],
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "priority": "P2"
     }
   ],
   "push_time": "2026-07-28 16:00"
