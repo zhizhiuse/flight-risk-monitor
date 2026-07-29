@@ -52,7 +52,8 @@
       "affected_airlines": "Emirates/Qatar/Saudia/El Al及所有经飞中东空域航司",
       "passenger_impact": "海峡通行量维持战前9%基线，大部分航司中东航线暂停至10月下旬",
       "estimated_duration": "EASA CZIB至8/31，QR BAH/EBL/KWI暂停7/31到期，AF DXB停飞8/4到期",
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "level": "P0"
     },
     {
       "id": "P0-2",
@@ -71,7 +72,8 @@
         "https://www.aa.com.tr"
       ],
       "is_new": false,
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "level": "P0"
     },
     {
       "id": "P0-3",
@@ -95,7 +97,8 @@
         "https://www.easa.europa.eu/domains/air-space/czib"
       ],
       "is_new": false,
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "level": "P0"
     },
     {
       "id": "P0-4",
@@ -124,7 +127,8 @@
       ],
       "is_new": false,
       "updated": "2026-07-28 16:00",
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "level": "P0"
     },
     {
       "id": "P0-5",
@@ -152,7 +156,8 @@
       ],
       "is_new": false,
       "updated": "2026-07-28 16:00",
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "level": "P0"
     },
     {
       "id": "P0-6",
@@ -190,7 +195,8 @@
       "affected_airlines": "Spirit(已停业)/JetBlue(接手时刻)/Frontier/Allegiant(承接旅客)",
       "passenger_impact": "5月约6万旅客受影响，航线覆盖缺口持续，短途票价涨18%",
       "estimated_duration": "永久停运，时刻重新分配进行中",
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "level": "P0"
     },
     {
       "id": "P1-1",
@@ -213,7 +219,8 @@
       ],
       "is_new": false,
       "updated": "2026-07-28 16:00",
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "level": "P1"
     },
     {
       "id": "P1-2",
@@ -261,7 +268,8 @@
         "https://arabic.pressbee.net/show10877313.html"
       ],
       "is_new": false,
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "level": "P1"
     },
     {
       "id": "P1-4",
@@ -281,7 +289,8 @@
         "https://globalnews.ca/news/11987447/westjet-passengers-flights-strike/"
       ],
       "is_new": false,
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "level": "P1"
     },
     {
       "id": "P1-5",
@@ -304,7 +313,8 @@
       ],
       "is_new": false,
       "updated": "2026-07-28 16:00",
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "level": "P1"
     },
     {
       "id": "P1-6",
@@ -325,7 +335,8 @@
         "https://travel.163.com"
       ],
       "is_new": false,
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "level": "P1"
     },
     {
       "id": "P1-7",
@@ -344,7 +355,8 @@
         "https://www.jma.go.jp/jma/en/typhoon/"
       ],
       "is_new": false,
-      "last_updated": "2026-07-29T09:00:00+08:00"
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "level": "P1"
     },
     {
       "id": "P1-8",
