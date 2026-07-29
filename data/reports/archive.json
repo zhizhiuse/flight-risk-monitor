@@ -14094,6 +14094,476 @@
         }
       ],
       "generatedAt": "2026-07-28T09:00:00+08:00"
+    },
+    {
+      "date": "2026-07-29",
+      "period": "morning",
+      "summary": {
+        "p0_count": 7,
+        "p1_count": 8,
+        "p2_count": 4,
+        "total": 19
+      },
+      "events": [
+        {
+          "id": "P0-1",
+          "priority": "P0",
+          "title": "美伊冲突第20天·停火第五天·Trump称谈判友好·伊朗警告封锁=战争升级",
+          "description": "美伊停火进入第五天。Trump称与伊朗进行\"非常友好的谈判\"，称赞霍尔木兹海峡封锁\"运作良好\"，但警告若谈判失败将恢复\"强烈军事行动\"。伊朗武装部队最高指挥部声明称美军海上拦截构成\"非法海上封锁\"，等同于\"战争升级\"。阿曼正式提出霍尔木兹海峡多方共同管理机制草案（仿马尔代夫模式），海湾国家普遍支持。海峡商业通行量仍维持战前约9%基线。Netanyahu-Trump白宫会晤已举行。",
+          "airports": [
+            "DXB",
+            "RUH",
+            "JED",
+            "TLV",
+            "DOH",
+            "BAH",
+            "KWI",
+            "AHB",
+            "GIZ",
+            "YNB"
+          ],
+          "airlines": [
+            "Emirates",
+            "Etihad",
+            "Air France",
+            "KLM",
+            "Qatar Airways"
+          ],
+          "passengers": "海湾枢纽航线部分恢复，沙特五大机场191延误172取消",
+          "duration": "停火但封锁持续，EASA至8/31",
+          "sources": [
+            {
+              "name": "China Daily",
+              "url": "https://www.chinadailyglobal.com/a/202607/29/WS6a692cdea310986e2b467c9c.html"
+            },
+            {
+              "name": "Ajel English",
+              "url": "https://english.ajel.sa/world/c0s5o3xa1"
+            }
+          ],
+          "is_new": false,
+          "updated": "2026-07-28 16:00",
+          "affected_airports": "DXB/DOH/RUH/JED/MCT/伊朗全境/TLV/ETM",
+          "affected_airlines": "Emirates/Qatar/Saudia/El Al及所有经飞中东空域航司",
+          "passenger_impact": "海峡通行量维持战前9%基线，大部分航司中东航线暂停至10月下旬",
+          "estimated_duration": "EASA CZIB至8/31，QR BAH/EBL/KWI暂停7/31到期，AF DXB停飞8/4到期",
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P0-2",
+          "priority": "P0",
+          "title": "委内瑞拉CCS机场（第40天+）·5119人死亡·关闭至7月底",
+          "description": "委内瑞拉政治危机持续，首都加拉加斯西蒙·玻利瓦尔国际机场(CCS)自6月20日起持续关闭。德国和英国外交部确认关闭至至少7月底。Anadolu通讯社7/19报道死亡人数达5119人。",
+          "airports": [
+            "CCS"
+          ],
+          "airlines": [
+            "多家国际航司"
+          ],
+          "passengers": "国际航线全面中断",
+          "duration": "关闭至至少7月底",
+          "sources": [
+            "https://www.aa.com.tr"
+          ],
+          "is_new": false,
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P0-3",
+          "priority": "P0",
+          "title": "EASA中东CZIB预警·延长至8/31",
+          "description": "EASA于7/22发布新公告，将约旦(安曼FIR/OJAC)纳入禁飞区，覆盖所有高度层，有效期至8/31。同时将中东整体预警从7/29延长至8/31，覆盖Bahrain/Kuwait/Qatar/UAE/Oman/Jordan。",
+          "airports": [
+            "Bahrain FIR",
+            "Kuwait FIR",
+            "Qatar FIR",
+            "UAE FIR",
+            "Oman FIR",
+            "Jordan FIR"
+          ],
+          "airlines": [
+            "所有欧盟航司"
+          ],
+          "passengers": "中东航线大面积改道或取消",
+          "duration": "至8/31",
+          "sources": [
+            "https://www.easa.europa.eu/domains/air-space/czib"
+          ],
+          "is_new": false,
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P0-4",
+          "priority": "P0",
+          "title": "台风红霞(Nesat)·已停编·HKG/SZX/CAN恢复运营",
+          "description": "台风红霞已停止编号，残余环流减弱消散。香港/深圳/广州机场已恢复正常运营，航线全面恢复。",
+          "airports": [
+            "TFU",
+            "CAN",
+            "KMG",
+            "PVG",
+            "HKG",
+            "SZX"
+          ],
+          "airlines": [
+            "南航",
+            "深航",
+            "东航",
+            "国航"
+          ],
+          "passengers": "大面积延误，取消已显著收敛",
+          "duration": "7/29-30残余环流持续影响华中",
+          "sources": [
+            "https://apnews.com/article/typhoon-noul-china-rain-wind-05f860066a9a75595c5bcc4df8356337",
+            "https://i.carnoc.com/detail/664296"
+          ],
+          "is_new": false,
+          "updated": "2026-07-28 16:00",
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P0-5",
+          "priority": "P0",
+          "title": "莫斯科枢纽机场NOTAM至8/12·两夜连续无人机袭击后暂歇",
+          "description": "莫斯科地区7/27-28夜遭390+架无人机袭击（较7/26-27夜276架显著升级），DME完全关闭6小时后恢复。7/28-29夜无新袭击报告。NOTAM仍维持至8/12。",
+          "airports": [
+            "SVO",
+            "DME",
+            "VKO",
+            "ZIA",
+            "KZN",
+            "KUF",
+            "GOJ"
+          ],
+          "airlines": [
+            "Aeroflot",
+            "Turkish Airlines"
+          ],
+          "passengers": "喀山约30班延误，萨马拉8班延误",
+          "duration": "NOTAM至8/12",
+          "sources": [
+            "https://www.vesti.ru/ns/rosaviaciya-aehroporty-kazani-i-samary-vremenno-zakryty",
+            "https://regnum.ru/news/4051669"
+          ],
+          "is_new": false,
+          "updated": "2026-07-28 16:00",
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P0-6",
+          "priority": "P0",
+          "title": "精神航空(Spirit)永久停运·5月2日停业·34年终结·JetBlue接手LGA时刻",
+          "description": "⚠️更正：经多源核实(CNN/路透社)，精神航空实际于2026年5月2日全面停运，非此前记录的7/26。运营34年后因伊朗战争推高油价(2.24→4.5美元/加仑，新增3.6亿美元燃油成本)、5亿美元政府救助谈判破裂、捷蓝合并被否决等多重因素破产。1.7万员工失业，5月近9000航班取消。JetBlue已竞拍获得Spirit在LGA的12组起降时刻(待法院审批)，计划2027年落地。Spirit原有短途航线票价平均上涨18%。",
+          "airports": [
+            "FLL",
+            "MCO",
+            "LAS",
+            "ORD",
+            "LGA",
+            "DFW",
+            "ATL",
+            "DTW"
+          ],
+          "airlines": [
+            "Spirit Airlines (NK)"
+          ],
+          "passengers": "日均约5.7万旅客受影响",
+          "duration": "永久停运",
+          "sources": [
+            {
+              "name": "搜狐引CNN/路透社",
+              "url": "https://m.sohu.com/a/1051783274_122927849/"
+            },
+            {
+              "name": "新浪财经",
+              "url": "http://m.toutiao.com/group/7664628076721996322/"
+            }
+          ],
+          "is_new": true,
+          "updated": "2026-07-28 16:00",
+          "affected_airports": "Spirit全网络(FLL/MCO/LAS/DTW/EWR/IAH/PHL/LAX等)已停运3个月",
+          "affected_airlines": "Spirit(已停业)/JetBlue(接手时刻)/Frontier/Allegiant(承接旅客)",
+          "passenger_impact": "5月约6万旅客受影响，航线覆盖缺口持续，短途票价涨18%",
+          "estimated_duration": "永久停运，时刻重新分配进行中",
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P1-1",
+          "priority": "P1",
+          "title": "PMI Swissport地勤罢工·影响低于预期",
+          "description": "PMI Swissport地勤罢工已启动，金属行业罢工已取消，整体影响低于预期。",
+          "airports": [
+            "PMI"
+          ],
+          "airlines": [
+            "Ryanair",
+            "easyJet",
+            "Jet2",
+            "TUI"
+          ],
+          "passengers": "罢工时段航班延误/行李延迟",
+          "duration": "7/28起4天",
+          "sources": [
+            "https://travelgossip.co.uk/latestnews/travellers-to-mallorca-advised-to-fly-with-hand-luggage-only-on-strike-dates/"
+          ],
+          "is_new": false,
+          "updated": "2026-07-28 16:00",
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P1-2",
+          "priority": "P1",
+          "title": "NYC四机场FAA流量管控·MIA方向10班取消",
+          "description": "JFK/LGA/EWR/PHL因FAA空管人员短缺+天气导致流量管控持续。AirLabs 7/29数据显示MIA→NYC方向10架航班全取消(AA/BA/G3/MH/AY)。Delta已发travel alert至7/31。FAA空管编制仅57%。",
+          "airports": [
+            "EBL",
+            "ISU"
+          ],
+          "airlines": "Delta/United/American/JetBlue等",
+          "passengers": "24h内16班取消",
+          "duration": "QR暂停EBL至7月底",
+          "sources": [
+            "http://www.chinaview.cn/20260725/68f4ca8f10224ef7ad1cdd2730d22eda/c.html"
+          ],
+          "is_new": false,
+          "level": "P1",
+          "impact": "JFK/LGA/EWR/PHL",
+          "created": "2026-07-28 16:00",
+          "updated": "2026-07-28 16:00",
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P1-3",
+          "priority": "P1",
+          "title": "沙特南部三机场(AHB/GIZ/YNB)关闭·胡塞袭击持续",
+          "description": "AHB因7/24胡塞袭击(9人受伤)持续关闭。GIZ/YNB自7/13起持续关闭。胡塞对吉赞和延布阿美设施打击仍在持续。",
+          "airports": [
+            "AHB",
+            "GIZ",
+            "YNB",
+            "RUH",
+            "JED"
+          ],
+          "airlines": [
+            "Saudia",
+            "KLM",
+            "Air India",
+            "Air France"
+          ],
+          "passengers": "沙特五大机场191延误172取消",
+          "duration": "恢复时间不确定",
+          "sources": [
+            "https://arabic.pressbee.net/show10877313.html"
+          ],
+          "is_new": false,
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P1-4",
+          "priority": "P1",
+          "title": "西捷航空空乘最早8/2罢工·日影响7.5万旅客·72h通知未发",
+          "description": "CUPE 8125分会约4400名空乘最早8月2日合法罢工。72小时通知尚未发出。罢工将实质停飞WestJet全部主航线(近200架)，预计日影响约75000名旅客。双方已就34项条款达成协议，18项仍在协商。WestJet已开放7/30-8/4免费改签/退票。",
+          "airports": [
+            "YYC",
+            "YVR"
+          ],
+          "airlines": [
+            "WestJet"
+          ],
+          "passengers": "全面停飞日影响7-7.5万旅客",
+          "duration": "最早8/2罢工",
+          "sources": [
+            "https://globalnews.ca/news/11987447/westjet-passengers-flights-strike/"
+          ],
+          "is_new": false,
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P1-5",
+          "priority": "P1",
+          "title": "伦敦盖特威克(LGW)多处地勤纠纷·ASC/Menzies/GGS今日起罢工",
+          "description": "ASC/Menzies/GGS 7/28-8/1罢工已启动，Menzies加油投票8/11截止，DHL暂停等投票。",
+          "airports": [
+            "LGW"
+          ],
+          "airlines": [
+            "Wizz Air",
+            "Ryanair",
+            "国航",
+            "easyJet"
+          ],
+          "passengers": "加油罢工将影响每日8000旅客",
+          "duration": "7/28-8/1(地勤)+8/11投票(加油)",
+          "sources": [
+            "https://i.carnoc.com/detail/664304"
+          ],
+          "is_new": false,
+          "updated": "2026-07-28 16:00",
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P1-6",
+          "priority": "P1",
+          "title": "卡塔尔航空BAH/EBL/KWI暂停至7/31",
+          "description": "卡塔尔航空暂停飞往BAH/EBL/KWI航线至7/31。",
+          "airports": [
+            "BAH",
+            "EBL",
+            "KWI"
+          ],
+          "airlines": [
+            "Qatar Airways"
+          ],
+          "passengers": "区域航线暂停",
+          "duration": "至7/31",
+          "sources": [
+            "https://travel.163.com"
+          ],
+          "is_new": false,
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P1-7",
+          "priority": "P1",
+          "title": "台风白海豚(Dolphin)·远洋转向·8月初可能影响日本航线",
+          "description": "JMA已升至955hPa/40m/s(台风级)，位于东京东南约4210公里。预计8月初增强至16-17级超强台风，可能影响日本东部航线。5天内对我国无影响。",
+          "airports": [
+            "日本东部航线(潜在)"
+          ],
+          "airlines": [
+            "中日航线航司"
+          ],
+          "passengers": "暂无实际影响",
+          "duration": "8月初关注",
+          "sources": [
+            "https://www.jma.go.jp/jma/en/typhoon/"
+          ],
+          "is_new": false,
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P1-8",
+          "priority": "P1",
+          "title": "BA永久撤销吉达航线·国际航司延长中东暂停至Q4",
+          "description": "BA永久撤销LHR-JED(首次主要航司判定沙特核心航线无恢复条件)。国泰HKG-DXB至10/25、HKG-RUH至10/26。新航SIN-DXB至10/23。KLM RUH/DMM至9/6、DXB至8/23。汉莎集团至10/24。法航RUH至7/31。",
+          "airports": [
+            "TLV"
+          ],
+          "airlines": "BA·CX·SQ·KL·LH Group·AF",
+          "passengers": "欧洲至TLV航线部分暂停",
+          "duration": "7/27到期待确认",
+          "sources": [
+            "https://simpleflying.com"
+          ],
+          "is_new": false,
+          "level": "P1",
+          "impact": "JED(永久)·DXB·RUH·DMM·TLV·BAH·AMM·BEY",
+          "created": "2026-07-28 16:00",
+          "updated": "2026-07-28 16:00",
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P0-7",
+          "level": "P0",
+          "title": "日本九州熊本M7.1地震·震度7·KMJ跑道已重开·7/29航班逐步恢复",
+          "description": "7/28 16:27 JST熊本县M7.1地震(震源深10km，震度7=日本最高级)，海啸预警已解除。熊本机场(KMJ)跑道临时关闭检查后确认无结构性损坏，当晚19:00重新开放。7/28三大航司共取消21班，7/29上午JAL再取消11班+ANA取消2班，预计下午1时后逐步恢复。截至目前2人死亡、20-30人下落不明(嘉岛町AEON购物中心坍塌)、50+人受伤、30万+人疏散。JR九州新干线及普通铁路仍全面暂停。",
+          "impact": "KMJ(熊本)·FUK(福冈)·KOJ(鹿儿岛)·OIT(大分)·MIY(宫崎)·NGS(长崎)",
+          "airlines": "ANA·JAL·Solaseed Air·Air Do·Skymark·StarFlyer",
+          "sources": [
+            {
+              "name": "AP News",
+              "url": "https://apnews.com/article/japan-earthquake-tsunami-09e6f40acbcc96053946c9c104e7a242"
+            },
+            {
+              "name": "KAB熊本朝日放送",
+              "url": "https://www.kab.co.jp/news/article/16763733"
+            }
+          ],
+          "created": "2026-07-28 16:00",
+          "updated": "2026-07-28 16:00",
+          "affected_airports": "KMJ(熊本，跑道已重开)/NGS(长崎，已恢复)/FUK/KOJ/OIT/MIY(已恢复)",
+          "affected_airlines": "JAL/ANA/Solaseed Air",
+          "passenger_impact": "7/28取消21班+7/29取消13班，下午逐步恢复",
+          "estimated_duration": "7/29 PM逐步恢复，余震风险持续",
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P2-1",
+          "level": "P2",
+          "title": "挪威航空737-800驾驶舱风挡玻璃裂纹备降维也纳",
+          "description": "7/27挪威航空DY1922(奥斯陆-杜布罗夫尼克)737-800驾驶舱风挡玻璃裂纹，机组宣布紧急状态备降维也纳，183名旅客安全落地。替换飞机延误约7小时抵达目的地。",
+          "affected_airports": "VIE(维也纳备降)",
+          "affected_airlines": "Norwegian Air Shuttle",
+          "passenger_impact": "183名旅客延误约7小时",
+          "estimated_duration": "已解决",
+          "sources": [
+            {
+              "name": "AeroInside",
+              "url": "https://www.aeroinside.com/22024/norwegian-b738-near-vienna-on-jul-27th-2026-cracked-windshield"
+            },
+            {
+              "name": "AeroTelegraph",
+              "url": "https://www.aerotelegraph.com/ticker/norwegian-boeing-737-nach-riss-in-cockpitscheibe-nach-wien-umgeleitet/9pj2jg3"
+            }
+          ],
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P2-2",
+          "level": "P2",
+          "title": "芬兰局部关闭芬兰湾领空·预防性军事措施",
+          "description": "7/28芬兰国防军因乌克兰无人机跨境风险，第三次预防性关闭芬兰湾东部领空(科特卡-哈米纳区域)。不影响赫尔辛基(HEL)等主要枢纽。",
+          "affected_airports": "芬兰湾东部区域(不影响HEL)",
+          "affected_airlines": "经飞该区域航司需改道",
+          "passenger_impact": "极小，区域有限",
+          "estimated_duration": "临时措施，已解除",
+          "sources": [
+            {
+              "name": "Defense News",
+              "url": "https://www.defensenews.com/global/europe/2026/07/28/finland-closes-airspace-restricts-maritime-traffic-near-russia-over-drone-risk/"
+            },
+            {
+              "name": "Ukrinform",
+              "url": "https://www.ukrinform.net/amp/rubric-emergencies/4148694-finland-restricts-air-and-maritime-traffic-due-to-drone-threat.html"
+            }
+          ],
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P2-3",
+          "level": "P2",
+          "title": "美国航空(AA)全国IT故障·FAA停飞令1小时·7/29积压延续",
+          "description": "7/28美东18:30 AA发生全国性IT系统故障，FAA对全美所有未起飞AA航班发布ground stop，影响DFW/CLT/ORD/MIA/LAX/SFO等枢纽。19:30解除(约1小时)，7/29部分航班积压延续。",
+          "affected_airports": "DFW/CLT/ORD/MIA/LAX/SFO等AA枢纽",
+          "affected_airlines": "American Airlines",
+          "passenger_impact": "估算1.5-2万人受影响",
+          "estimated_duration": "已恢复，7/29残留积压",
+          "sources": [
+            {
+              "name": "CBS News",
+              "url": "https://www.cbsnews.com/sanfrancisco/news/american-airlines-ground-stop-nationwide-it-outage-faa/"
+            },
+            {
+              "name": "Hindustan Times",
+              "url": "https://www.hindustantimes.com/world-news/us-news/american-airlines-it-outage-faa-grounds-all-non-air-borne-american-flights-as-system-goes-down-101785279265270.html"
+            }
+          ],
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        },
+        {
+          "id": "P2-4",
+          "level": "P2",
+          "title": "比利时7/30全面罢工·BRU+CRL出港全取消(预告)",
+          "description": "比利时7月30日全国总罢工，预计布鲁塞尔(BRU)和沙勒罗瓦(CRL)出港航班全部取消。仅2机场/单一国家，不达P0≥3枢纽标准。",
+          "affected_airports": "BRU/CRL",
+          "affected_airlines": "Brussels Airlines/Ryanair/TUI等",
+          "passenger_impact": "两机场出港全取消",
+          "estimated_duration": "7/30单日",
+          "sources": [],
+          "last_updated": "2026-07-29T09:00:00+08:00"
+        }
+      ],
+      "generatedAt": "2026-07-29T09:00:00+08:00"
     }
   ]
 }
