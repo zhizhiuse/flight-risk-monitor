@@ -1196,6 +1196,18 @@
         "p2_count": 7,
         "total": 22
       }
+    },
+    {
+      "date": "2026-07-29",
+      "reportDate": "2026-07-29",
+      "period": "morning",
+      "generated_at": "2026-07-29T09:00:00+08:00",
+      "summary": {
+        "p0_count": 7,
+        "p1_count": 8,
+        "p2_count": 4,
+        "total": 19
+      }
     }
   ]
 }
