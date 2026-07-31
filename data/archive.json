@@ -14604,6 +14604,18 @@
     {
       "date": "2026-07-31",
       "reportDate": "2026-07-31",
+      "period": "afternoon",
+      "generated_at": "2026-07-31T16:00:00+08:00",
+      "summary": {
+        "p0_count": 7,
+        "p1_count": 11,
+        "p2_count": 7,
+        "total": 25
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "reportDate": "2026-07-31",
       "period": "morning",
       "generated_at": "2026-07-31T09:00:00+08:00",
       "summary": {
