@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-29",
-  "period": "morning",
-  "generated_at": "2026-07-29T09:00:00+08:00",
+  "date": "2026-08-01",
+  "period": "afternoon",
+  "generated_at": "2026-08-01T16:00:00+08:00",
   "summary": {
     "p0_count": 7,
     "p1_count": 11,
     "p2_count": 8,
     "total": 26,
-    "last_updated": "2026-08-01T09:00:00+08:00"
+    "last_updated": "2026-08-01T16:00:00+08:00"
   },
   "situation": "🆕精神航空7/26停运纳入P0-6(34年终结,1.7万员工,多枢纽);美伊停火第四夜,Netanyahu今日访美见Trump,霍尔木兹航运仍瘫痪(石油流量暴跌75%);台风红霞已停编,HKG/SZX/CAN恢复,残余环流致多地延误;PMI Swissport罢工今日启动(金属行业罢工已取消,影响低于预期);LGW多处地勤纠纷ASC/Menzies/GGS 7/28-8/1罢工;AirLabs 147风险航班(ORD 95架取消)",
   "events": [
     {
       "id": "P0-1",
       "priority": "P0",
-      "title": "美伊全面升级·IRGC宣称\"完全管控\"霍尔木兹·打击油轮·布伦特$92",
-      "description": "AM更新：IRGC 7/31在霍尔木兹海峡打击2艘美方护航油轮并迫其停航，另4艘返航。CENTCOM已将24艘商船改道(前日20艘)。IRGC发表声明宣称对海峡\"完全管控\"，警告船公司和保险公司勿听从美方通告，称不会因美伊MoU停火框架而放松。此前：伊朗报复打击3国美军基地(科威特/约旦/巴林)，科威特中企遭袭1死，IRGC向油轮开火1死8伤。美军空袭伊朗，Trump宣布10-14天计划。约旦皇家航空停飞3国，RUH一度关闭6h，胡塞封锁沙特。布伦特$92，法兴警告$150风险。海峡通行约14艘/日远低于战前120。",
+      "title": "美伊冲突重大升级·特朗普下令本周末轰炸伊朗能源设施·阿曼湾油轮遇袭·霍尔木兹通行-77%",
+      "description": "PM更新：WSJ报道特朗普7/31下令对伊朗发动新一轮打击，最早8/2(本周末)开始，目标首次转向能源基础设施(发电厂/炼油厂)。CBS称美以协调\"迄今最猛烈\"联合轰炸，可能持续整周末。伊朗安全高官警告已准备全面报复计划。同期UKMTO确认阿曼湾两起油轮事件：一艘被不明弹体击中机舱受损失控，另一艘近距离爆炸。霍尔木兹通行量骤降77%(22→5艘/日)。Emirates/Etihad取消DXB-KWI/BAH航线。此前：IRGC宣称\"完全管控\"海峡，打击2油轮4返航，CENTCOM改道24艘，伊朗报复3国美军基地，科威特中企1死，布伦特$92。",
       "airports": [
         "DXB",
         "RUH",
@@ -39,12 +39,12 @@
       "duration": "停火但封锁持续，EASA至8/31",
       "sources": [
         {
-          "name": "央视",
-          "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?channelId=1119&item_id=13705388505295695412&toc_style_id=feeds_default"
+          "name": "WSJ/凤凰网",
+          "url": "https://news.ifeng.com/c/8vEOf0gYnyP"
         },
         {
-          "name": "Reuters",
-          "url": "https://599046384.r.worldcdn.net/Detail/2026/07/31/773444/IRGC--Violating-oil-tankers-struck-in-Strait-of-Hormuz,-others-turned-back"
+          "name": "Gulf News",
+          "url": "https://gulfnews.com/world/mena/tanker-hit-explosion-reported-off-oman-strait-of-hormuz-shipping-under-pressure-1.500627424"
         }
       ],
       "is_new": false,
@@ -53,14 +53,14 @@
       "affected_airlines": "Emirates/Qatar/Saudia/Royal Jordanian(停飞3国)及所有经飞中东航司",
       "passenger_impact": "约旦皇家航空停飞3国航线，RUH一度关闭6h，海峡通行量9%基线，航煤供应链受双重封锁威胁",
       "estimated_duration": "EASA CZIB至8/31，QR BAH/EBL/KWI延长至8/7，美军空袭计划10-14天",
-      "last_updated": "2026-08-01T09:00:00+08:00",
+      "last_updated": "2026-08-01T16:00:00+08:00",
       "level": "P0"
     },
     {
       "id": "P0-2",
       "priority": "P0",
-      "title": "委内瑞拉CCS机场（第43天）·5119人死亡·8月关闭状态待确认",
-      "description": "委内瑞拉政治危机持续第43天，累计死亡5119人。加拉加斯迈克蒂亚国际机场(CCS)\"关闭至7月底\"已于7/31到期，8月关闭状态待确认。",
+      "title": "委内瑞拉CCS机场（第43天）·5119人死亡·8月关闭状态待确认·即将恢复货运",
+      "description": "委内瑞拉政治危机持续第43天，累计死亡5119人。加拉加斯迈克蒂亚国际机场(CCS)\"关闭至7月底\"已于7/31到期。EFE报道称即将恢复货运运营(恢复方向)，客运恢复时间待确认。",
       "airports": [
         "CCS"
       ],
@@ -73,7 +73,7 @@
         "https://www.aa.com.tr"
       ],
       "is_new": false,
-      "last_updated": "2026-08-01T09:00:00+08:00",
+      "last_updated": "2026-08-01T16:00:00+08:00",
       "level": "P0",
       "estimated_duration": "关闭至7月底(今日最后一天)，8月状态待确认"
     },
@@ -135,8 +135,8 @@
     {
       "id": "P0-5",
       "priority": "P0",
-      "title": "莫斯科NOTAM至8/12·7/30-31夜新一轮无人机·13座机场临时关闭·首次覆盖乌拉尔/北高加索",
-      "description": "7/30夜至7/31凌晨乌克兰新一轮大规模无人机袭击，13座机场临时起降限制：喀山(KZN)/萨马拉(KUF)/伏尔加格勒(VOG)/乌法(UFA)/乌里扬诺夫斯克(ULV)/克拉斯诺达尔(KRR)/索契(AER)/马哈奇卡拉(MCX)/伊热夫斯克(IJK)/奔萨(PEZ)/下卡姆斯克/布古利马/切博克萨雷(CSY)。首次覆盖乌拉尔(乌法/伊热夫斯克)和北高加索(马哈奇卡拉)。8/1凌晨223架被拦截，VKO限制已解除。伏尔加格勒炼油厂遭袭起火。NOTAM至8/12。",
+      "title": "莫斯科NOTAM至8/12·连续第4夜大规模无人机·274架被拦截·10+机场受限·ZIA完全关闭",
+      "description": "PM更新：8/1凌晨乌克兰连续第4夜大规模无人机袭击，俄方称击落274架(全天379架)，覆盖19个联邦主体+黑海/亚速海。Rosaviatsiya对10+机场实施临时限制：KZN/KUF/NBC/GOJ/REN/GSX/CSY/UFA/IAR/UKB。莫斯科茹科夫斯基(ZIA)完全关闭，索契(AER)和坦波夫(TBW)一度完全关闭。乌法工业区遭残骸击中起火，塞瓦斯托波尔1死2伤。DME按协调模式运行。为近一周最大范围单夜机场受限。NOTAM至8/12。",
       "airports": [
         "SVO",
         "DME",
@@ -154,21 +154,17 @@
       "duration": "NOTAM至8/12",
       "sources": [
         {
-          "name": "OPSGroup",
+          "name": "Interfax",
+          "url": "https://www.interfax.ru/russia/1106888"
+        },
+        {
+          "name": "Safe Airspace",
           "url": "https://safeairspace.net/summary/"
-        },
-        {
-          "name": "RT引Rosaviatsiya",
-          "url": "https://russian.rt.com/russia/news/1663743-vremennye-ogranichenia-aeroportov"
-        },
-        {
-          "name": "Yamal-Media",
-          "url": "https://yamal-media.ru/news/rosaviatsiya-ogranichila-rabotu-13-aeroportov"
         }
       ],
       "is_new": false,
       "updated": "2026-07-28 16:00",
-      "last_updated": "2026-08-01T09:00:00+08:00",
+      "last_updated": "2026-08-01T16:00:00+08:00",
       "level": "P0",
       "estimated_duration": "NOTAM至8/12，夜间袭击已连续3夜",
       "affected_airports": "KZN/KUF/VOG/UFA/ULV/KRR/AER/MCX/IJK/PEZ等13座+此前SVO/VKO/DME/ZIA",
@@ -343,8 +339,8 @@
     {
       "id": "P1-3",
       "priority": "P1",
-      "title": "沙特南部三机场关闭·AM AirLabs确认6班取消",
-      "description": "AM更新：沙特南部Abha(AHB)/Jazan(GIZ)/Yanbu(YNB)三机场因胡塞袭击持续关闭。AM AirLabs(8/1 Tier1)数据显示6架取消：RUH→GIZ 3架(SV 2+KL 1)、JED→GIZ 2架(SV 1+AI 1)、IST→EBL 1架(TK 1)。较PM(9架)减少3架，TLV→AMS 2架已恢复。",
+      "title": "沙特南部三机场关闭·PM AirLabs确认17班取消(较AM+11)",
+      "description": "PM更新：沙特南部Abha(AHB)/Jazan(GIZ)/Yanbu(YNB)三机场因胡塞袭击持续关闭。PM AirLabs(8/1 Tier1)数据显示17架取消(较AM 6架+11)：RUH→GIZ 3架(AF/SV/AI)、RUH→EAM 2架(SV/AF)、JED→GIZ 2架(SV/MH)、AMS→CDG 8架(6E/VN/KL/DL/AF/GA/KQ/MU多家航司)、LHR→MUC 2架(LH/UA)。AMS→CDG和LHR→MUC取消原因待确认。",
       "airports": [
         "AHB",
         "GIZ",
@@ -367,17 +363,17 @@
         }
       ],
       "is_new": false,
-      "last_updated": "2026-08-01T09:00:00+08:00",
+      "last_updated": "2026-08-01T16:00:00+08:00",
       "level": "P1",
       "affected_airports": "AHB/GIZ/YNB(沙特南部)+RUH/JED/TLV/IST出发受影响",
-      "affected_airlines": "Saudia/KLM/Air India/Turkish Airlines",
+      "affected_airlines": "Saudia/Air France/KLM/Air India/Malaysia Airlines/IndiGo/Vietnam Airlines/Delta/Garuda/Kenya Airways/China Eastern/Lufthansa/United",
       "passenger_impact": "沙特国内及区域航线持续中断"
     },
     {
       "id": "P1-4",
       "priority": "P1",
-      "title": "西捷航空72h罢工通知·已停泊150+架737·7/30取消76班(16%)·8/2 00:01MT截止",
-      "description": "AM更新：CUPE 8125分会代表4400名空乘7/30发出72h罢工通知，WestJet随即发出lockout通知。WestJet已开始停泊150+架737作为预防措施。7/30取消76班(约16%)，但8/1航班仍正常运行，谈判有进展。日运营600-700航班，旺季载客7.5万人。7/30-8/4免费改签/退票。EnCore Q400及代码共享航班不受影响。罢工核心争议为空乘地面工作时薪补偿。",
+      "title": "西捷航空72h罢工通知·已停泊150+架737·8/1航班仍正常·截止8/2 00:01MT仅剩23h",
+      "description": "PM更新：CUPE 8125代表4400名空乘7/30发出72h罢工通知，WestJet发出lockout通知。已停泊150+架737。7/30取消76班(16%)，但8/1航班仍正常运行。管理层提出4年涨36%+地勤津贴方案被拒，但工会称谈判未完全破裂。日运营600-700航班，旺季7.5万人。7/30-8/4免费改签/退票。EnCore Q400及代码共享不受影响。截止8/2 00:01MT(=8/2 15:01北京时间)仅剩约23小时。",
       "airports": [
         "YYC",
         "YVR"
@@ -398,7 +394,7 @@
         }
       ],
       "is_new": false,
-      "last_updated": "2026-08-01T09:00:00+08:00",
+      "last_updated": "2026-08-01T16:00:00+08:00",
       "level": "P1",
       "estimated_duration": "最早8/2 00:01 MT，谈判仍在进行"
     },
@@ -459,8 +455,8 @@
     {
       "id": "P1-7",
       "priority": "P1",
-      "title": "台风白海豚(Dolphin)·猛烈台风910hPa·8/6-7趋向冲绳/台湾/华东",
-      "description": "AM更新：台风白海豚维持猛烈台风等级(910hPa/55m/s/17级)。距陆地约4,000+km，8/6-7趋向冲绳/台湾北部/华东(福建北-浙江南)。24h内路径南移约1,000km。未进入48h预警窗口(约8/4-5进入)。越南NCHMF确认8/3起转向西移。注意与九州地震后恢复期叠加风险。",
+      "title": "台风白海豚(Dolphin)·超强台风925hPa/58m/s·距那霸3090km·8/6-7趋向冲绳/台湾/华东",
+      "description": "PM更新：JMA 09:45更新为925hPa/50m/s(17级超强台风)，距那霸约3090km。8/6-7趋向冲绳/台湾北部/华东(福建北-浙江南)。8/4起进入48h预警窗口。越南NCHMF确认8/3起转向西移。注意与九州地震后恢复期叠加风险。",
       "airports": [
         "日本东部航线(潜在)"
       ],
@@ -480,11 +476,11 @@
         }
       ],
       "is_new": false,
-      "last_updated": "2026-08-01T09:00:00+08:00",
+      "last_updated": "2026-08-01T16:00:00+08:00",
       "level": "P1",
       "affected_airports": "可能影响台湾/日本南部航线(待定)",
       "affected_airlines": "JAL/ANA/中华航空/长荣等飞东亚航司",
-      "estimated_duration": "8/6-7可能接近，距影响窗口5-6天"
+      "estimated_duration": "8/6-7可能接近，8/4-5进入48h预警窗口"
     },
     {
       "id": "P1-8",
@@ -640,6 +636,42 @@
         }
       ],
       "last_updated": "2026-07-30T09:00:00+08:00"
+    },
+    {
+      "id": "P2-6",
+      "title": "上海虹桥SHA暴雨暂停起降(7/31 14:00-16:40，已恢复)",
+      "description": "7/31下午上海虹桥机场(SHA)遭遇强暴雨，14:00-16:40期间暂停起降。目前已恢复正常运营。",
+      "affected_airports": "SHA(上海虹桥，已恢复)",
+      "affected_airlines": "东航/上航/国航等",
+      "passenger_impact": "7/31下午约2.5小时暂停起降，已恢复",
+      "estimated_duration": "已恢复",
+      "sources": [
+        {
+          "name": "此前信源",
+          "url": ""
+        }
+      ],
+      "last_updated": "2026-07-31T17:00:00+08:00",
+      "level": "P2",
+      "priority": "P2"
+    },
+    {
+      "id": "P2-7",
+      "title": "Etna火山致CTA关闭至7/31中午(154航班受影响，已重开)",
+      "description": "埃特纳火山7/31喷发，火山灰导致卡塔尼亚机场(CTA)关闭至7/31中午12:00。154架航班受影响。目前已重新开放。",
+      "affected_airports": "CTA(卡塔尼亚，已重开)",
+      "affected_airlines": "Ryanair/ITA/Wizz Air等",
+      "passenger_impact": "154架航班受影响，已恢复",
+      "estimated_duration": "已恢复",
+      "sources": [
+        {
+          "name": "此前信源",
+          "url": ""
+        }
+      ],
+      "last_updated": "2026-07-31T12:00:00+08:00",
+      "level": "P2",
+      "priority": "P2"
     },
     {
       "id": "P2-8",
