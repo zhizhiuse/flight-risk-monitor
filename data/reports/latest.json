@@ -1,21 +1,21 @@
 {
   "date": "2026-08-02",
-  "period": "morning",
-  "generated_at": "2026-08-02T09:00:00+08:00",
+  "period": "afternoon",
+  "generated_at": "2026-08-02T16:00:00+08:00",
   "summary": {
-    "p0_count": 7,
-    "p1_count": 11,
-    "p2_count": 10,
-    "total": 28,
-    "last_updated": "2026-08-02T09:00:00+08:00"
+    "p0_count": 8,
+    "p1_count": 10,
+    "p2_count": 12,
+    "total": 30,
+    "last_updated": "2026-08-02T16:00:00+08:00"
   },
   "situation": "🆕精神航空7/26停运纳入P0-6(34年终结,1.7万员工,多枢纽);美伊停火第四夜,Netanyahu今日访美见Trump,霍尔木兹航运仍瘫痪(石油流量暴跌75%);台风红霞已停编,HKG/SZX/CAN恢复,残余环流致多地延误;PMI Swissport罢工今日启动(金属行业罢工已取消,影响低于预期);LGW多处地勤纠纷ASC/Menzies/GGS 7/28-8/1罢工;AirLabs 147风险航班(ORD 95架取消)",
   "events": [
     {
       "id": "P0-1",
       "priority": "P0",
-      "title": "美伊冲突8/2重大升级·白宫宣布\"最猛烈打击日\"·伊朗反击科威特/巴林·威胁打击4国能源设施",
-      "description": "AM更新：8/2白宫宣布当日为\"开战以来最猛烈打击日\"，CENTCOM打击伊朗IRGC导弹/无人机/海军设施。伊朗同步反击：IRGC对科威特Bubiyan岛发动无人机袭击(连续第4天)，声称打击巴林Sheikh Isa空军基地美军设施。霍尔木兹方面，IRGC宣布打击2艘美方护卫油轮迫其停航+4艘返航，希腊GasLog LNG船同期遭袭。伊朗明确威胁：若美方打击伊朗能源设施，将对沙特Abqaiq(日处理700万桶)/阿联酋Ruways/卡塔尔North Field LNG/以色列能源站发动全面精确打击。Turkish Airlines取消17个赴伊航班。AirLabs AM显示DXB 24架取消。此前：霍尔木兹通行-77%，布伦特$92。",
+      "title": "美伊冲突重大转折·特朗普宣布暂停对伊攻击·MBS斡旋成功·但空域限制和航司暂停不变",
+      "description": "PM更新：特朗普8/2凌晨正式宣布取消对伊朗能源设施的计划打击，协议框架含(1)立即全面彻底开放霍尔木兹海峡(2)结束伊朗核威胁，以色列加入承诺。沙特王储MBS致电斡旋，卡塔尔/巴基斯坦/土耳其多线调解。但伊朗外长警告美方不要冒险行动，议会警告回应不限于波斯湾。当前空域限制和航司暂停状态未变。AM阶段CENTCOM执行的最猛烈打击日已打击IRGC导弹/无人机/海军设施，伊朗反击科威特Bubiyan岛+巴林美军基地+霍尔木兹油轮。AirLabs PM显示DXB取消归零(AM 24架→PM 0架)，反映暂停效果。",
       "airports": [
         "DXB",
         "RUH",
@@ -39,16 +39,12 @@
       "duration": "停火但封锁持续，EASA至8/31",
       "sources": [
         {
-          "name": "Particle.news",
-          "url": "https://particle.news/story/us-strikes-target-irgc-sites-as-iran-hits-us-bases-and-tankers"
+          "name": "Gulf News",
+          "url": "https://gulfnews.com/world/mena/us-iran-war-trump-cancels-iran-attack-after-deal-agreed-1.500628086"
         },
         {
-          "name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/iran-threatens-strike-other-nations-energy-fields-if-us-launches-fresh-attacks-6293236"
-        },
-        {
-          "name": "Iran International",
-          "url": "https://www.iranintl.com/en/202608014458"
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/mena/2026/08/02/trump-halts-iran-attacks-and-says-new-talks-are-on-to-open-hormuz/"
         }
       ],
       "is_new": false,
@@ -57,7 +53,7 @@
       "affected_airlines": "Emirates/Qatar/Saudia/Royal Jordanian(停飞3国)及所有经飞中东航司",
       "passenger_impact": "约旦皇家航空停飞3国航线，RUH一度关闭6h，海峡通行量9%基线，航煤供应链受双重封锁威胁",
       "estimated_duration": "EASA CZIB至8/31，QR BAH/EBL/KWI延长至8/7，美军空袭计划10-14天",
-      "last_updated": "2026-08-02T09:00:00+08:00",
+      "last_updated": "2026-08-02T16:00:00+08:00",
       "level": "P0"
     },
     {
@@ -139,8 +135,8 @@
     {
       "id": "P0-5",
       "priority": "P0",
-      "title": "莫斯科NOTAM至8/12·连续第5夜419架无人机·莫斯科四大机场(SVO/DME/VKO/ZIA)全部临时关闭·500+航班取消/延误",
-      "description": "AM更新：8/1夜间乌克兰连续第5夜大规模无人机袭击，俄方称拦截419架(开战以来对莫斯科最大规模袭击)。莫斯科四大机场SVO/DME/VKO/ZIA全部临时关闭(DME整夜两度限制)。8座区域机场实施临时限制：布古利马/喀山/下卡姆斯克/下诺夫哥罗德/奥伦堡/萨马拉/萨拉托夫/切博克萨雷。超500架次航班取消或延误。各机场限制于当日早间至中午前陆续解除(DME 10:30解除/萨马拉9:50解除)。NOTAM至8/12。",
+      "title": "莫斯科NOTAM至8/12·连续第6夜630+架无人机（年内最大规模）·12+机场临时限制·萨拉托夫2死",
+      "description": "PM更新：8/2夜间乌克兰发动年内最大规模无人机袭击，630+架无人机参与（AM报告419架为早期计数，PM修正为630+）。Rosaviatsiya分两批对12+座机场实施临时限制：首轮7座(彭扎/萨马拉/萨拉托夫/乌里扬诺夫斯克/布古利马/喀山/下卡姆斯克)，后续5座(格连吉克/克拉斯诺达尔/基洛夫/奥伦堡/乌法)。DME和下诺夫哥罗德协调模式运行。萨拉托夫炼油厂和Engels空军基地遭打击，萨拉托夫州2人死亡。袭击规模持续扩大(500+→630+)。NOTAM至8/12。",
       "airports": [
         "SVO",
         "DME",
@@ -158,17 +154,17 @@
       "duration": "NOTAM至8/12",
       "sources": [
         {
-          "name": "RuNews24",
-          "url": "https://www.runews24.ru/society/01/08/2026/rosaviacziya-vvela-vremennyie-ogranicheniya-v-rabote-vosmi-aeroportov-rossii"
+          "name": "Rossiyskaya Gazeta",
+          "url": "https://www.rg.ru/2026/08/02/reg-ufo/svyshe-630-bpla-chto-izvestno-o-nalete-bespilotnikov-2-avgusta-na-regiony-rossii.html"
         },
         {
-          "name": "E1.ru",
-          "url": "https://www.e1.ru/text/incidents/2026/08/01/76565964/"
+          "name": "Profile.ru",
+          "url": "https://profile.ru/news/accidents/sotni-sbityh-bpla-i-zakrytye-aeroporty-minoborony-soobshhilo-o-krupnejshej-nochnoj-atake-bespilotnikov-1887060/"
         }
       ],
       "is_new": false,
       "updated": "2026-07-28 16:00",
-      "last_updated": "2026-08-02T09:00:00+08:00",
+      "last_updated": "2026-08-02T16:00:00+08:00",
       "level": "P0",
       "estimated_duration": "NOTAM至8/12，夜间袭击已连续3夜",
       "affected_airports": "KZN/KUF/VOG/UFA/ULV/KRR/AER/MCX/IJK/PEZ等13座+此前SVO/VKO/DME/ZIA",
@@ -238,6 +234,38 @@
       "estimated_duration": "航班已恢复，余震风险持续(190+次)，JR铁路仍部分暂停",
       "last_updated": "2026-08-02T09:00:00+08:00",
       "priority": "P0"
+    },
+    {
+      "id": "P0-8",
+      "priority": "P0",
+      "title": "西捷航空(WestJet)空乘正式罢工·737/787全机队停飞·276航班取消·7.5万人/日受影响",
+      "description": "PM更新：CUPE 8125代表4400名空乘于8/2 00:01MT(北京时间14:01)正式开始罢工，72小时通知期满谈判未果。WestJet官方确认工作停止已生效，737和787全机队停飞。已取消276个航班，跨洋航线NRT/ICN/EDI等取消。日运营600+航班/75,000+旅客，恰逢加拿大August长周末出行高峰。核心分歧为地面工作薪酬。Encore Q400涡桨及代码共享航班不受影响。AirLabs PM显示YYZ 10架取消(WS627/WS437/WS2774等+代码共享DL/AM/CZ)。",
+      "airports": [
+        "YYC",
+        "YVR"
+      ],
+      "airlines": [
+        "WestJet"
+      ],
+      "passengers": "全面停飞日影响7-7.5万旅客",
+      "duration": "最早8/2罢工",
+      "sources": [
+        {
+          "name": "CTV News",
+          "url": "https://www.ctvnews.ca/canada/article/westjet-flight-attendants-go-on-strike-leaving-thousands-of-travellers-stranded/"
+        },
+        {
+          "name": "CNW官方新闻稿",
+          "url": "https://www.newswire.ca/news-releases/westjet-confirms-work-stoppage-now-in-effect-812277820.html"
+        }
+      ],
+      "is_new": false,
+      "last_updated": "2026-08-02T16:00:00+08:00",
+      "level": "P0",
+      "estimated_duration": "无固定期限，直至达成协议",
+      "affected_airports": "YYC(卡尔加里)/YVR(温哥华)/YYZ(多伦多)三大枢纽+NRT/ICN/EDI跨洋航线",
+      "affected_airlines": "WestJet(WS)+代码共享(DL/AM/CZ)",
+      "passenger_impact": "276航班取消，日7.5万人受影响，August长周末高峰"
     },
     {
       "id": "P1-1",
@@ -343,8 +371,8 @@
     {
       "id": "P1-3",
       "priority": "P1",
-      "title": "沙特南部三机场关闭·AM AirLabs确认60架取消(DXB 24+沙特9+YYZ 11等)",
-      "description": "AM更新：8/2 AirLabs(Tier1+Tier2)显示60架取消，较8/1 AM(6架)大幅上升。DXB 24架取消(Emirates长途HKT/MEL/PER/PVG/KIX/KUL/DPS/HKG/HGH/HAN)。沙特国内9架：RUH→GIZ 3(SV2+KL1)、RUH→AHB 1(SV)、JED→GIZ 2(SV+AI)、JED→AHB 3(AI+SV+AF)。YYZ→YYT 11架+LAX→MSP 4架(均为WestJet WS780/WS8642及代码共享)。PEK→XMN 3+PVG→XMN/XIY 3(中国国内)。IST→KWI 1(TK)。",
+      "title": "沙特南部三机场关闭·PM AirLabs 18架取消(DXB归零=特朗普暂停效果,YYZ 10=西捷罢工)",
+      "description": "PM更新：8/2 PM AirLabs(Tier1+Tier2)显示18架取消，较AM(60架)大幅下降。DXB归零(AM 24架→PM 0架)，反映特朗普暂停攻击后中东航线取消显著缓解。YYZ 10架取消(WS627/WS437/WS2774等西捷航班+代码共享DL/AM/CZ)，与P0-8西捷罢工吻合。PEK→CKG 3架(CA/SC/LH代码共享)。MCT→AMS 2架(阿曼航空WY171)。AMS→NCE 2架(易捷U2)。DEL→SXR 1架(香料航空)。沙特国内取消归零。",
       "airports": [
         "AHB",
         "GIZ",
@@ -367,40 +395,11 @@
         }
       ],
       "is_new": false,
-      "last_updated": "2026-08-02T09:00:00+08:00",
+      "last_updated": "2026-08-02T16:00:00+08:00",
       "level": "P1",
       "affected_airports": "AHB/GIZ/YNB(沙特南部)+RUH/JED/TLV/IST出发受影响",
-      "affected_airlines": "Emirates(24架)/Saudia/Air France/KLM/Air India/WestJet(15架)/China Eastern/Chinese carriers/Turkish Airlines",
+      "affected_airlines": "WestJet(+代码共享DL/AM/CZ)/阿曼航空/易捷/香料航空/CA/SC/LH",
       "passenger_impact": "沙特国内及区域航线持续中断"
-    },
-    {
-      "id": "P1-4",
-      "priority": "P1",
-      "title": "西捷航空罢工截止8/2 15:01北京时间仅剩约7h·已预先取消193航班·谈判仍在进行",
-      "description": "AM更新：CUPE 8125代表4400名空乘99.4%罢工授权通过。已预先取消193航班(周六92+周日101)，最高报道276架。8/1航班仍正常运行，双方仍在谈判均表示不愿罢工。管理层4年涨36%方案被拒但谈判未破裂。AirLabs显示YYZ→YYT 11架+LAX→MSP 4架取消(WS780/WS8642及代码共享)。日运营600-700航班/旺季7.5万人。7/30-8/4免费改签。截止8/2 00:01MT(=8/2 15:01北京时间)仅剩约7小时。",
-      "airports": [
-        "YYC",
-        "YVR"
-      ],
-      "airlines": [
-        "WestJet"
-      ],
-      "passengers": "全面停飞日影响7-7.5万旅客",
-      "duration": "最早8/2罢工",
-      "sources": [
-        {
-          "name": "BNN Bloomberg",
-          "url": "https://www.bnnbloomberg.ca/business/2026/07/31/westjet-to-begin-parking-737-aircraft-ahead-of-potential-strike-on-sunday/"
-        },
-        {
-          "name": "Aviation Week",
-          "url": "https://aviationweek.com/air-transport-aviation/operations-safety/westjet-begins-grounding-planes-ahead-potential-cabin-crew-strike"
-        }
-      ],
-      "is_new": false,
-      "last_updated": "2026-08-02T09:00:00+08:00",
-      "level": "P1",
-      "estimated_duration": "最早8/2 00:01 MT，谈判仍在进行"
     },
     {
       "id": "P1-5",
@@ -429,8 +428,8 @@
     {
       "id": "P1-6",
       "priority": "P1",
-      "title": "卡塔尔航空BAH/EBL/KWI已延长至8/7",
-      "description": "AM更新：卡塔尔航空7/30宣布将巴林(BAH)/埃尔比勒(EBL)/科威特(KWI)三条航线停飞期统一延长至8月7日(原7/31到期)。符合此前\"续延几乎确定\"预判。结合美军持续空袭伊朗+美沙联合空袭伊拉克PMF，冲突无缓和迹象。",
+      "title": "卡塔尔航空BAH/EBL/KWI延长至8/7·联军撤出EBL防空系统·运营风险上升",
+      "description": "PM更新：卡塔尔航空BAH/EBL/KWI航线停飞至8/7。美英法德联军72小时内从埃尔比勒机场(EBL)撤出全部防空系统(8套爱国者转移至约旦+英军Rapid Sentry+C-RAM+永久拆除PSS-T监控气球)。撤防后数小时内3架无人机袭击苏莱曼尼亚和埃尔比勒。EBL防空能力骤降，运营风险显著上升。库尔德斯坦地区自2/28以来遭950+次无人机/导弹袭击。",
       "airports": [
         "BAH",
         "EBL",
@@ -447,12 +446,12 @@
           "url": "http://www.chinaview.cn/20260731/03e5693b79b54d15a57925177ea2052e/c.html"
         },
         {
-          "name": "The Peninsula Qatar",
-          "url": "https://m.thepeninsulaqatar.com/article/30/07/2026/qatar-airways-extends-suspension-of-flights-to-kuwait-bahrain-and-erbil"
+          "name": "Rudaw/Rantburg",
+          "url": "https://www.rantburg.com/poparticle.php?D=2026-08-02&ID=860372"
         }
       ],
       "is_new": false,
-      "last_updated": "2026-07-31T09:00:00+08:00",
+      "last_updated": "2026-08-02T16:00:00+08:00",
       "level": "P1",
       "estimated_duration": "8/7到期，续延可能性大"
     },
@@ -489,8 +488,8 @@
     {
       "id": "P1-8",
       "priority": "P1",
-      "title": "BA永久撤销LHR-JED+国际航司延长中东暂停·法航DXB推迟至8/11·新航推迟至10/24·TK取消17赴伊航班",
-      "description": "AM更新：Turkish Airlines取消17个赴伊朗城市航班，AJet取消6个，Pegasus同步取消。法航迪拜复航推迟至8/11，贝鲁特延至8/18，利雅得续停至8/7。新加坡航空SIN-DXB推迟至10/24。英国航空永久撤销LHR-JED。国泰HKG-DXB至10/25；KLM至9/6；汉莎至10/24。约旦皇家航空全面停飞伊拉克/黎巴嫩/伊朗。",
+      "title": "BA永久撤销LHR-JED+国际航司延长中东暂停·法航DXB推迟至8/11·新航推迟至10/24·EBL防空撤出后风险上升",
+      "description": "PM更新：Turkish Airlines取消17个赴伊朗城市航班。法航迪拜复航推迟至8/11，贝鲁特延至8/18，利雅得续停至8/7。新加坡航空SIN-DXB推迟至10/24。英国航空永久撤销LHR-JED。国泰HKG-DXB至10/25；KLM至9/6；汉莎至10/24(含EBL)。约旦皇家航空全面停飞伊拉克/黎巴嫩/伊朗。EBL联军防空撤出后航司可能进一步暂停。",
       "airports": [
         "TLV"
       ],
@@ -512,7 +511,7 @@
       "impact": "JED(永久)·DXB·RUH·DMM·TLV·BAH·AMM·BEY",
       "created": "2026-07-28 16:00",
       "updated": "2026-07-28 16:00",
-      "last_updated": "2026-08-02T09:00:00+08:00",
+      "last_updated": "2026-08-02T16:00:00+08:00",
       "affected_airports": "JED/DXB/RUH/AMM/BEY/BAH/KWI等中东枢纽",
       "affected_airlines": "BA/法航/新航/国泰/KLM/汉莎/Royal Jordanian/Etihad/Air Arabia",
       "estimated_duration": "各航司8-10月不等，全面升级后恢复推迟"
@@ -576,6 +575,50 @@
         }
       ],
       "last_updated": "2026-08-02T09:00:00+08:00",
+      "level": "P2",
+      "priority": "P2"
+    },
+    {
+      "id": "P2-11",
+      "title": "秘鲁纳斯卡线观光飞机坠毁·13人全部遇难",
+      "description": "当地时间8/1 13:00许，秘鲁Aerodiana航空一架Cessna 208B Grand Caravan观光机在执行纳斯卡线空中观光任务时坠毁，机上13人全部遇难(11名游客+2名机组)。秘鲁总统下令皮斯科机场暂时停飞，秘鲁民航局已派调查员赴现场。",
+      "affected_airports": "皮斯科机场(暂时停飞观光机)",
+      "affected_airlines": "Aerodiana(观光航司)",
+      "passenger_impact": "13人遇难",
+      "estimated_duration": "皮斯科机场观光机暂时停飞",
+      "sources": [
+        {
+          "name": "France24",
+          "url": "https://www.france24.com/fr/info-en-continu/20260802-p%C3%A9rou-13-morts-dans-le-crash-d-un-avion-transportant-des-touristes-aux-lignes-de-nazca"
+        },
+        {
+          "name": "Andina(EFE)",
+          "url": "https://andina.pe/agencia/noticia-peru-13-dead-after-light-aircraft-crash-in-nasca-1085876.aspx"
+        }
+      ],
+      "last_updated": "2026-08-02T16:00:00+08:00",
+      "level": "P2",
+      "priority": "P2"
+    },
+    {
+      "id": "P2-12",
+      "title": "JAL子公司HAC航班起落架舱门故障·盘旋3小时后紧急备降新千岁机场",
+      "description": "8/1下午，北海道航空系统(HAC/JAL子公司)JAL2787航班(札幌丘珠→利尻)起飞后发现右侧起落架舱门松动无法闭合锁定。机组宣布紧急状态，盘旋耗油近3小时后于18:50安全备降新千岁机场。机上31名旅客和3名机组全部安全。日本国土交通省正确认是否构成严重事故征候。",
+      "affected_airports": "新千岁机场(CTS,备降)",
+      "affected_airlines": "HAC/JAL(JAL2787)",
+      "passenger_impact": "31名旅客+3名机组安全，无伤亡",
+      "estimated_duration": "已恢复",
+      "sources": [
+        {
+          "name": "民航资源网",
+          "url": "https://i.carnoc.com/detail/664927"
+        },
+        {
+          "name": "央视新闻",
+          "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?channelId=1119&item_id=6030249491540871668&toc_style_id=feeds_default"
+        }
+      ],
+      "last_updated": "2026-08-02T16:00:00+08:00",
       "level": "P2",
       "priority": "P2"
     },

@@ -17220,6 +17220,18 @@
     {
       "date": "2026-08-02",
       "reportDate": "2026-08-02",
+      "period": "afternoon",
+      "generated_at": "2026-08-02T16:00:00+08:00",
+      "summary": {
+        "p0_count": 8,
+        "p1_count": 10,
+        "p2_count": 12,
+        "total": 30
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "reportDate": "2026-08-02",
       "period": "morning",
       "generated_at": "2026-08-02T09:00:00+08:00",
       "summary": {
