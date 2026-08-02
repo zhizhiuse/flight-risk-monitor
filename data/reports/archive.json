@@ -17216,6 +17216,18 @@
           "priority": "P2"
         }
       ]
+    },
+    {
+      "date": "2026-08-02",
+      "reportDate": "2026-08-02",
+      "period": "morning",
+      "generated_at": "2026-08-02T09:00:00+08:00",
+      "summary": {
+        "p0_count": 7,
+        "p1_count": 11,
+        "p2_count": 10,
+        "total": 28
+      }
     }
   ]
 }
