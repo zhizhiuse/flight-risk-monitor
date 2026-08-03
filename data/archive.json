@@ -17240,6 +17240,18 @@
         "p2_count": 10,
         "total": 28
       }
+    },
+    {
+      "date": "2026-08-03",
+      "reportDate": "2026-08-03",
+      "period": "morning",
+      "generated_at": "2026-08-03T09:00:00+08:00",
+      "summary": {
+        "p0_count": 8,
+        "p1_count": 10,
+        "p2_count": 14,
+        "total": 32
+      }
     }
   ]
 }

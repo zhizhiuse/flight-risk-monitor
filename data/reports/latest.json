@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-02",
-  "period": "afternoon",
-  "generated_at": "2026-08-02T16:00:00+08:00",
+  "date": "2026-08-03",
+  "period": "morning",
+  "generated_at": "2026-08-03T09:00:00+08:00",
   "summary": {
     "p0_count": 8,
     "p1_count": 10,
-    "p2_count": 12,
-    "total": 30,
-    "last_updated": "2026-08-02T16:00:00+08:00"
+    "p2_count": 14,
+    "total": 32,
+    "last_updated": "2026-08-03T09:00:00+08:00"
   },
   "situation": "🆕精神航空7/26停运纳入P0-6(34年终结,1.7万员工,多枢纽);美伊停火第四夜,Netanyahu今日访美见Trump,霍尔木兹航运仍瘫痪(石油流量暴跌75%);台风红霞已停编,HKG/SZX/CAN恢复,残余环流致多地延误;PMI Swissport罢工今日启动(金属行业罢工已取消,影响低于预期);LGW多处地勤纠纷ASC/Menzies/GGS 7/28-8/1罢工;AirLabs 147风险航班(ORD 95架取消)",
   "events": [
     {
       "id": "P0-1",
       "priority": "P0",
-      "title": "美伊冲突重大转折·特朗普宣布暂停对伊攻击·MBS斡旋成功·但空域限制和航司暂停不变",
-      "description": "PM更新：特朗普8/2凌晨正式宣布取消对伊朗能源设施的计划打击，协议框架含(1)立即全面彻底开放霍尔木兹海峡(2)结束伊朗核威胁，以色列加入承诺。沙特王储MBS致电斡旋，卡塔尔/巴基斯坦/土耳其多线调解。但伊朗外长警告美方不要冒险行动，议会警告回应不限于波斯湾。当前空域限制和航司暂停状态未变。AM阶段CENTCOM执行的最猛烈打击日已打击IRGC导弹/无人机/海军设施，伊朗反击科威特Bubiyan岛+巴林美军基地+霍尔木兹油轮。AirLabs PM显示DXB取消归零(AM 24架→PM 0架)，反映暂停效果。",
+      "title": "美伊冲突·特朗普暂停攻击后局势脆弱·伊朗否认霍尔木兹重开协议·与阿曼谈判\"最终阶段\"·美国务院10国撤离警告",
+      "description": "AM更新：特朗普8/2宣布取消对伊打击计划，同步宣称\"霍尔木兹全面重开\"框架。但伊朗法尔斯通讯社明确否认达成重开协议，伊朗武装力量总参谋部强调海峡将维持管控。伊朗外长表示与阿曼新航道谈判进入\"最终阶段\"，但强调海峡\"不会恢复战前状态\"。美国务院向中东10国发最高级别安全警告。Turkish Airlines恢复BEY/AMM但仍暂停赴伊。Emirates/Etihad取消KWI/BAH航班。AirLabs PM(8/2)显示DXB归零。",
       "airports": [
         "DXB",
         "RUH",
@@ -39,12 +39,16 @@
       "duration": "停火但封锁持续，EASA至8/31",
       "sources": [
         {
-          "name": "Gulf News",
-          "url": "https://gulfnews.com/world/mena/us-iran-war-trump-cancels-iran-attack-after-deal-agreed-1.500628086"
+          "name": "凤凰网/IRNA",
+          "url": "https://news.ifeng.com/c/8vHT4t7AurQ"
         },
         {
-          "name": "The National",
-          "url": "https://www.thenationalnews.com/news/mena/2026/08/02/trump-halts-iran-attacks-and-says-new-talks-are-on-to-open-hormuz/"
+          "name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/iran-says-close-hormuz-deal-oman-after-us-suspends-attack-plan-6293956"
+        },
+        {
+          "name": "Aviationa2z",
+          "url": "https://aviationa2z.com/index.php/2026/08/03/us-warns-americans-to-be-ready-to-leave-middle-east-as-iran-crisis-deepens/"
         }
       ],
       "is_new": false,
@@ -53,14 +57,14 @@
       "affected_airlines": "Emirates/Qatar/Saudia/Royal Jordanian(停飞3国)及所有经飞中东航司",
       "passenger_impact": "约旦皇家航空停飞3国航线，RUH一度关闭6h，海峡通行量9%基线，航煤供应链受双重封锁威胁",
       "estimated_duration": "EASA CZIB至8/31，QR BAH/EBL/KWI延长至8/7，美军空袭计划10-14天",
-      "last_updated": "2026-08-02T16:00:00+08:00",
+      "last_updated": "2026-08-03T09:00:00+08:00",
       "level": "P0"
     },
     {
       "id": "P0-2",
       "priority": "P0",
-      "title": "委内瑞拉CCS机场（第44天）·5119人死亡·8月关闭状态待确认",
-      "description": "委内瑞拉政治危机持续第44天，累计死亡5119人。CCS\"关闭至7月底\"已于7/31到期，8月关闭状态待确认。EFE报道称即将恢复货运运营。",
+      "title": "委内瑞拉CCS机场（第45天）·5119人死亡·8月关闭状态待确认",
+      "description": "委内瑞拉政治危机持续第45天，累计死亡5119人。CCS\"关闭至7月底\"已于7/31到期，8月关闭状态待确认。",
       "airports": [
         "CCS"
       ],
@@ -73,7 +77,7 @@
         "https://www.aa.com.tr"
       ],
       "is_new": false,
-      "last_updated": "2026-08-02T09:00:00+08:00",
+      "last_updated": "2026-08-03T09:00:00+08:00",
       "level": "P0",
       "estimated_duration": "关闭至7月底(今日最后一天)，8月状态待确认"
     },
@@ -135,8 +139,8 @@
     {
       "id": "P0-5",
       "priority": "P0",
-      "title": "莫斯科NOTAM至8/12·连续第6夜630+架无人机（年内最大规模）·12+机场临时限制·萨拉托夫2死",
-      "description": "PM更新：8/2夜间乌克兰发动年内最大规模无人机袭击，630+架无人机参与（AM报告419架为早期计数，PM修正为630+）。Rosaviatsiya分两批对12+座机场实施临时限制：首轮7座(彭扎/萨马拉/萨拉托夫/乌里扬诺夫斯克/布古利马/喀山/下卡姆斯克)，后续5座(格连吉克/克拉斯诺达尔/基洛夫/奥伦堡/乌法)。DME和下诺夫哥罗德协调模式运行。萨拉托夫炼油厂和Engels空军基地遭打击，萨拉托夫州2人死亡。袭击规模持续扩大(500+→630+)。NOTAM至8/12。",
+      "title": "莫斯科NOTAM至8/12·第6夜630+架无人机(年内最大规模)·12+机场临时限制·萨拉托夫2死·限制已解除",
+      "description": "8/2夜间乌克兰连续第6夜大规模无人机袭击，635架无人机被拦截(年内最大规模)。Rosaviatsiya对12+座机场实施临时限制。萨拉托夫炼油厂和Engels空军基地遭打击，萨拉托夫州2人死亡。各机场限制已于当日陆续解除。NOTAM至8/12。8/2夜间至今未报告新一轮袭击。",
       "airports": [
         "SVO",
         "DME",
@@ -155,16 +159,16 @@
       "sources": [
         {
           "name": "Rossiyskaya Gazeta",
-          "url": "https://www.rg.ru/2026/08/02/reg-ufo/svyshe-630-bpla-chto-izvestno-o-nalete-bespilotnikov-2-avgusta-na-regiony-rossii.html"
+          "url": "https://rg.ru/"
         },
         {
-          "name": "Profile.ru",
-          "url": "https://profile.ru/news/accidents/sotni-sbityh-bpla-i-zakrytye-aeroporty-minoborony-soobshhilo-o-krupnejshej-nochnoj-atake-bespilotnikov-1887060/"
+          "name": "RBC Ukraine",
+          "url": "https://www.rbc.ua/"
         }
       ],
       "is_new": false,
       "updated": "2026-07-28 16:00",
-      "last_updated": "2026-08-02T16:00:00+08:00",
+      "last_updated": "2026-08-03T09:00:00+08:00",
       "level": "P0",
       "estimated_duration": "NOTAM至8/12，夜间袭击已连续3夜",
       "affected_airports": "KZN/KUF/VOG/UFA/ULV/KRR/AER/MCX/IJK/PEZ等13座+此前SVO/VKO/DME/ZIA",
@@ -238,8 +242,8 @@
     {
       "id": "P0-8",
       "priority": "P0",
-      "title": "西捷航空(WestJet)空乘正式罢工·737/787全机队停飞·276航班取消·7.5万人/日受影响",
-      "description": "PM更新：CUPE 8125代表4400名空乘于8/2 00:01MT(北京时间14:01)正式开始罢工，72小时通知期满谈判未果。WestJet官方确认工作停止已生效，737和787全机队停飞。已取消276个航班，跨洋航线NRT/ICN/EDI等取消。日运营600+航班/75,000+旅客，恰逢加拿大August长周末出行高峰。核心分歧为地面工作薪酬。Encore Q400涡桨及代码共享航班不受影响。AirLabs PM显示YYZ 10架取消(WS627/WS437/WS2774等+代码共享DL/AM/CZ)。",
+      "title": "西捷航空罢工第2天·490-600航班取消·25万旅客受影响·Alberta Business Council呼吁联邦第107条介入",
+      "description": "AM更新：CUPE 8125代表4400名空乘罢工进入第2天，737/787全机队停飞。取消架次从8/2的276架攀升至490-600架，约25万旅客出行受阻。WestJet暂停8月5日前新预订，Encore Q400及代码共享航班继续运营。已有机票允许一次性免费改签或取消。Alberta Business Council于8/3公开呼吁联邦政府依据《加拿大劳动法》第107条介入，TIAC同步呼吁。航司表示仍愿意谈判，根本矛盾为地面勤务薪酬结算制度争议。",
       "airports": [
         "YYC",
         "YVR"
@@ -251,16 +255,16 @@
       "duration": "最早8/2罢工",
       "sources": [
         {
-          "name": "CTV News",
-          "url": "https://www.ctvnews.ca/canada/article/westjet-flight-attendants-go-on-strike-leaving-thousands-of-travellers-stranded/"
+          "name": "AP News",
+          "url": "https://apnews.com/article/strike-westjet-flights-airline-attendants-travel-canada-dbd760ae8575e6bc7e8113043cc88e0d"
         },
         {
-          "name": "CNW官方新闻稿",
-          "url": "https://www.newswire.ca/news-releases/westjet-confirms-work-stoppage-now-in-effect-812277820.html"
+          "name": "Global News",
+          "url": "https://globalnews.ca/news/12006781/westjet-strike-underway/"
         }
       ],
       "is_new": false,
-      "last_updated": "2026-08-02T16:00:00+08:00",
+      "last_updated": "2026-08-03T09:00:00+08:00",
       "level": "P0",
       "estimated_duration": "无固定期限，直至达成协议",
       "affected_airports": "YYC(卡尔加里)/YVR(温哥华)/YYZ(多伦多)三大枢纽+NRT/ICN/EDI跨洋航线",
@@ -371,8 +375,8 @@
     {
       "id": "P1-3",
       "priority": "P1",
-      "title": "沙特南部三机场关闭·PM AirLabs 18架取消(DXB归零=特朗普暂停效果,YYZ 10=西捷罢工)",
-      "description": "PM更新：8/2 PM AirLabs(Tier1+Tier2)显示18架取消，较AM(60架)大幅下降。DXB归零(AM 24架→PM 0架)，反映特朗普暂停攻击后中东航线取消显著缓解。YYZ 10架取消(WS627/WS437/WS2774等西捷航班+代码共享DL/AM/CZ)，与P0-8西捷罢工吻合。PEK→CKG 3架(CA/SC/LH代码共享)。MCT→AMS 2架(阿曼航空WY171)。AMS→NCE 2架(易捷U2)。DEL→SXR 1架(香料航空)。沙特国内取消归零。",
+      "title": "沙特南部三机场关闭·AirLabs API额度耗尽今日无数据",
+      "description": "沙特南部三机场AHB/GIZ/YNB关闭状态延续。AirLabs API月度免费额度8/3耗尽(month_limit_exceeded)，8月剩余时间无法采集实时航班数据，9/1重置。上次成功采集8/2 PM: 18架取消(YYZ 10=西捷罢工, DXB归零=特朗普暂停效果)。",
       "airports": [
         "AHB",
         "GIZ",
@@ -395,7 +399,7 @@
         }
       ],
       "is_new": false,
-      "last_updated": "2026-08-02T16:00:00+08:00",
+      "last_updated": "2026-08-03T09:00:00+08:00",
       "level": "P1",
       "affected_airports": "AHB/GIZ/YNB(沙特南部)+RUH/JED/TLV/IST出发受影响",
       "affected_airlines": "WestJet(+代码共享DL/AM/CZ)/阿曼航空/易捷/香料航空/CA/SC/LH",
@@ -404,8 +408,8 @@
     {
       "id": "P1-5",
       "priority": "P1",
-      "title": "伦敦盖特威克(LGW)多处地勤纠纷·ASC/Menzies/GGS今日起罢工",
-      "description": "ASC/Menzies/GGS 7/28-8/1罢工已启动，Menzies加油投票8/11截止，DHL暂停等投票。",
+      "title": "LGW多地勤纠纷+燃油技术故障48h·Menzies加油投票8/11",
+      "description": "AM更新：伦敦盖特威克机场(LGW)多处问题叠加。ASC/Menzies/GGS地勤罢工已到期。新增：燃油农场技术故障导致48h供应受限，飞行员建议外站加满油，机场称\"所有航司正常运营\"但\"周一起可能中断\"。Menzies加油人员投票8/11截止。",
       "airports": [
         "LGW"
       ],
@@ -422,7 +426,7 @@
       ],
       "is_new": false,
       "updated": "2026-07-28 16:00",
-      "last_updated": "2026-07-29T09:00:00+08:00",
+      "last_updated": "2026-08-03T09:00:00+08:00",
       "level": "P1"
     },
     {
@@ -458,8 +462,8 @@
     {
       "id": "P1-7",
       "priority": "P1",
-      "title": "台风白海豚(Dolphin)·超强台风930hPa/55m/s/16级·距那霸2720km·8/4起进入48h预警窗口",
-      "description": "AM更新：中国天气网/JMA确认930hPa/55m/s/16级(较前日925hPa/58m/s微降)，距那霸约2720km。CCTV确认即将迎第三个强度巅峰可能增强至62m/s。8/5夜间前对中国海区无影响，8/6-7趋向冲绳/台湾/华东。8/4起进入48h预警窗口需提前预警。",
+      "title": "台风白海豚(Dolphin)·超强台风940hPa/45m/s·距陆地~2400km·8/4起进入48h预警窗口",
+      "description": "AM更新：JMA 8/3 03时确认940hPa/45m/s/\"Very Strong Typhoon\"，距陆地约2400km。8/5夜间前对中国海区无影响，8/6-7趋向冲绳/台湾/华东。8/4起进入48h预警窗口，需按优先航变P0定级规则评估。路径不确定性极高：西行登陆中国/北上日韩/罕见山东天津路径均可能。",
       "airports": [
         "日本东部航线(潜在)"
       ],
@@ -470,16 +474,16 @@
       "duration": "8月初关注",
       "sources": [
         {
-          "name": "SCMP",
-          "url": "https://www.scmp.com/news/china/science/article/3307015/typhoon-dolphin-strengthens/"
-        },
-        {
           "name": "JMA",
           "url": "http://www.jma.go.jp"
+        },
+        {
+          "name": "SCMP",
+          "url": "https://www.scmp.com/news/china/science/article/3307015/typhoon-dolphin-strengthens/"
         }
       ],
       "is_new": false,
-      "last_updated": "2026-08-02T09:00:00+08:00",
+      "last_updated": "2026-08-03T09:00:00+08:00",
       "level": "P1",
       "affected_airports": "可能影响台湾/日本南部航线(待定)",
       "affected_airlines": "JAL/ANA/中华航空/长荣等飞东亚航司",
@@ -488,8 +492,8 @@
     {
       "id": "P1-8",
       "priority": "P1",
-      "title": "BA永久撤销LHR-JED+国际航司延长中东暂停·法航DXB推迟至8/11·新航推迟至10/24·EBL防空撤出后风险上升",
-      "description": "PM更新：Turkish Airlines取消17个赴伊朗城市航班。法航迪拜复航推迟至8/11，贝鲁特延至8/18，利雅得续停至8/7。新加坡航空SIN-DXB推迟至10/24。英国航空永久撤销LHR-JED。国泰HKG-DXB至10/25；KLM至9/6；汉莎至10/24(含EBL)。约旦皇家航空全面停飞伊拉克/黎巴嫩/伊朗。EBL联军防空撤出后航司可能进一步暂停。",
+      "title": "航司中东航线调整·TK恢复BEY/AMM·EK/EY取消KWI/BAH·EK计划10月恢复BGW",
+      "description": "AM更新：Turkish Airlines已恢复贝鲁特(BEY)/安曼(AMM)航线，同步恢复AUH/DXB/DAM，但仍暂停赴伊航线。Emirates/Etihad因安全公告取消DXB-KWI和DXB-BAH往返航班。Emirates宣布计划10/1起恢复每日DXB-BGW(巴格达)航线(A350执飞)，flydubai同步恢复BGW/BSR/KWI/BAH。法航DXB至8/11，新航至10/24，国泰至10/25，KLM至9/6，汉莎至10/24。BA永久撤销LHR-JED。",
       "airports": [
         "TLV"
       ],
@@ -499,11 +503,11 @@
       "sources": [
         {
           "name": "The National",
-          "url": "https://www.thenationalnews.com/travel/2026/07/26/uae-riyadh-flights-cancellations-update/"
+          "url": "https://www.thenationalnews.com/travel/2026/08/02/uae-riyadh-flights-cancellations-update"
         },
         {
-          "name": "AirHelp",
-          "url": "https://www.airhelp.co.uk/flight-disruptions/dubai-flights-suspensions-middle-east-30072026/"
+          "name": "Gulf News",
+          "url": "https://gulfnews.com/business/aviation/flying-from-uae-today-latest-flight-cancellations-and-changes-from-etihad-emirates-air-arabia-1.500628104"
         }
       ],
       "is_new": false,
@@ -511,7 +515,7 @@
       "impact": "JED(永久)·DXB·RUH·DMM·TLV·BAH·AMM·BEY",
       "created": "2026-07-28 16:00",
       "updated": "2026-07-28 16:00",
-      "last_updated": "2026-08-02T16:00:00+08:00",
+      "last_updated": "2026-08-03T09:00:00+08:00",
       "affected_airports": "JED/DXB/RUH/AMM/BEY/BAH/KWI等中东枢纽",
       "affected_airlines": "BA/法航/新航/国泰/KLM/汉莎/Royal Jordanian/Etihad/Air Arabia",
       "estimated_duration": "各航司8-10月不等，全面升级后恢复推迟"
@@ -619,6 +623,50 @@
         }
       ],
       "last_updated": "2026-08-02T16:00:00+08:00",
+      "level": "P2",
+      "priority": "P2"
+    },
+    {
+      "id": "P2-13",
+      "title": "希腊两架Bell 214ST消防直升机空中相撞致2死·全国停飞Bell直升机",
+      "description": "8/2下午希腊两架Bell 214ST中型直升机在雅典西北约65km Psatha地区执行灭火任务时空中相撞。一架起火坠入峡谷，丹麦籍飞行员和希腊消防联络官遇难；另一架2名机组幸存。希腊当局宣布停飞全国所有Bell直升机。",
+      "affected_airports": "无商业机场直接影响",
+      "affected_airlines": "无商业航司(消防直升机)",
+      "passenger_impact": "无商业航班影响，森林灭火作业受影响",
+      "estimated_duration": "全国Bell直升机停飞，期限待定",
+      "sources": [
+        {
+          "name": "AirLive",
+          "url": "https://airlive.net/accident/2026/08/02/two-firefighting-helicopters-collided-mid-air-while-battling-wildfire-near-athens/"
+        },
+        {
+          "name": "China.org.cn",
+          "url": "https://www.china.org.cn/world/Off_the_Wire/2026-08/03/"
+        }
+      ],
+      "last_updated": "2026-08-03T09:00:00+08:00",
+      "level": "P2",
+      "priority": "P2"
+    },
+    {
+      "id": "P2-14",
+      "title": "TAP葡萄牙航空A321neo跨洋发出7700紧急代码·备降亚速尔群岛",
+      "description": "8/2 TAP葡萄牙航空A321neo(注册号CS-TXE，执行TP217里斯本-波士顿跨大西洋航班)飞行约3小时后于大西洋上空发出7700紧急代码，机组宣布紧急状态后改航至亚速尔群岛拉日什机场(LPLA)安全降落。机上人员安全，航司称系技术问题。",
+      "affected_airports": "LPLA(拉日什机场，备降)",
+      "affected_airlines": "TAP Portugal(TP)",
+      "passenger_impact": "TP217航班延误，旅客行程受阻",
+      "estimated_duration": "单一航班事件，已安全降落",
+      "sources": [
+        {
+          "name": "AirLive",
+          "url": "https://airlive.net/emergency/2026/08/02/tap-flight-tp217-just-declared-an-emergency-over-middle-of-atlantic/"
+        },
+        {
+          "name": "Correio da Manha",
+          "url": "https://www.cmjornal.pt/portugal/detalhe/voo-da-tap-que-partiu-lisboa-para-boston-aterra-de-emergencia-nos-acores"
+        }
+      ],
+      "last_updated": "2026-08-03T09:00:00+08:00",
       "level": "P2",
       "priority": "P2"
     },
