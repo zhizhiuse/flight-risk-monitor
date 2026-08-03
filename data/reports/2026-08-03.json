@@ -1,21 +1,21 @@
 {
   "date": "2026-08-03",
-  "period": "morning",
-  "generated_at": "2026-08-03T09:00:00+08:00",
+  "period": "afternoon",
+  "generated_at": "2026-08-03T16:05:00+08:00",
   "summary": {
-    "p0_count": 8,
-    "p1_count": 10,
+    "p0_count": 9,
+    "p1_count": 9,
     "p2_count": 14,
     "total": 32,
-    "last_updated": "2026-08-03T09:00:00+08:00"
+    "last_updated": "2026-08-03T16:05:00+08:00"
   },
   "situation": "🆕精神航空7/26停运纳入P0-6(34年终结,1.7万员工,多枢纽);美伊停火第四夜,Netanyahu今日访美见Trump,霍尔木兹航运仍瘫痪(石油流量暴跌75%);台风红霞已停编,HKG/SZX/CAN恢复,残余环流致多地延误;PMI Swissport罢工今日启动(金属行业罢工已取消,影响低于预期);LGW多处地勤纠纷ASC/Menzies/GGS 7/28-8/1罢工;AirLabs 147风险航班(ORD 95架取消)",
   "events": [
     {
       "id": "P0-1",
       "priority": "P0",
-      "title": "美伊冲突·特朗普暂停攻击后局势脆弱·伊朗否认霍尔木兹重开协议·与阿曼谈判\"最终阶段\"·美国务院10国撤离警告",
-      "description": "AM更新：特朗普8/2宣布取消对伊打击计划，同步宣称\"霍尔木兹全面重开\"框架。但伊朗法尔斯通讯社明确否认达成重开协议，伊朗武装力量总参谋部强调海峡将维持管控。伊朗外长表示与阿曼新航道谈判进入\"最终阶段\"，但强调海峡\"不会恢复战前状态\"。美国务院向中东10国发最高级别安全警告。Turkish Airlines恢复BEY/AMM但仍暂停赴伊。Emirates/Etihad取消KWI/BAH航班。AirLabs PM(8/2)显示DXB归零。",
+      "title": "美伊冲突·CENTCOM封锁加速35艘商船·伊朗-阿曼谈判最终阶段·UKMTO油轮爆炸·AA延长TLV至2027年3月",
+      "description": "PM更新：CENTCOM海上封锁执法加速，累计35艘商船被改道(24h内+5)、2艘瘫痪、2艘登检。USS Abraham Lincoln航母战斗群在阿曼湾执行拦截。封锁强度持续升级(7/25: 12艘→8/1: 24艘→8/2: 35艘)。伊朗外长称与阿曼新航道谈判进入最终阶段。UKMTO报告霍尔木兹入口油轮附近爆炸声。AA将TLV航线暂停延长至2027年3月(美三大航最长)，同步暂停卡塔尔航线。美国务院向中东10国发最高安全警告。",
       "airports": [
         "DXB",
         "RUH",
@@ -39,16 +39,12 @@
       "duration": "停火但封锁持续，EASA至8/31",
       "sources": [
         {
-          "name": "凤凰网/IRNA",
-          "url": "https://news.ifeng.com/c/8vHT4t7AurQ"
+          "name": "IBTimes UK",
+          "url": "https://www.ibtimes.co.uk/us-naval-forces-enforce-iran-blockade-1811961"
         },
         {
-          "name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/iran-says-close-hormuz-deal-oman-after-us-suspends-attack-plan-6293956"
-        },
-        {
-          "name": "Aviationa2z",
-          "url": "https://aviationa2z.com/index.php/2026/08/03/us-warns-americans-to-be-ready-to-leave-middle-east-as-iran-crisis-deepens/"
+          "name": "Shafaq News",
+          "url": "https://www.shafaq.com/en/World/CENTCOM-intercepts-35-ships-under-Iran-blockade"
         }
       ],
       "is_new": false,
@@ -57,14 +53,14 @@
       "affected_airlines": "Emirates/Qatar/Saudia/Royal Jordanian(停飞3国)及所有经飞中东航司",
       "passenger_impact": "约旦皇家航空停飞3国航线，RUH一度关闭6h，海峡通行量9%基线，航煤供应链受双重封锁威胁",
       "estimated_duration": "EASA CZIB至8/31，QR BAH/EBL/KWI延长至8/7，美军空袭计划10-14天",
-      "last_updated": "2026-08-03T09:00:00+08:00",
+      "last_updated": "2026-08-03T16:05:00+08:00",
       "level": "P0"
     },
     {
       "id": "P0-2",
       "priority": "P0",
-      "title": "委内瑞拉CCS机场（第45天）·5119人死亡·8月关闭状态待确认",
-      "description": "委内瑞拉政治危机持续第45天，累计死亡5119人。CCS\"关闭至7月底\"已于7/31到期，8月关闭状态待确认。",
+      "title": "委内瑞拉CCS机场第45天·5119人死亡·8/5恢复货运·月底恢复客运",
+      "description": "PM更新：委内瑞拉大选后社会动荡持续，累计5119人死亡。CCS机场计划8/5恢复货运、月底恢复客运(积极进展)。",
       "airports": [
         "CCS"
       ],
@@ -77,7 +73,7 @@
         "https://www.aa.com.tr"
       ],
       "is_new": false,
-      "last_updated": "2026-08-03T09:00:00+08:00",
+      "last_updated": "2026-08-03T16:05:00+08:00",
       "level": "P0",
       "estimated_duration": "关闭至7月底(今日最后一天)，8月状态待确认"
     },
@@ -139,8 +135,8 @@
     {
       "id": "P0-5",
       "priority": "P0",
-      "title": "莫斯科NOTAM至8/12·第6夜630+架无人机(年内最大规模)·12+机场临时限制·萨拉托夫2死·限制已解除",
-      "description": "8/2夜间乌克兰连续第6夜大规模无人机袭击，635架无人机被拦截(年内最大规模)。Rosaviatsiya对12+座机场实施临时限制。萨拉托夫炼油厂和Engels空军基地遭打击，萨拉托夫州2人死亡。各机场限制已于当日陆续解除。NOTAM至8/12。8/2夜间至今未报告新一轮袭击。",
+      "title": "莫斯科NOTAM至8/12·第7夜635架无人机(单夜最高之一)·8死·4机场临时限制·打击萨拉托夫炼油厂",
+      "description": "PM更新：俄乌第7夜大规模无人机袭击(8/2夜至8/3凌晨)，俄方拦截635架(单夜最高之一)，8人死亡。乌方打击萨拉托夫炼油厂和恩格斯战略空军基地(Tu-95MS/Tu-160驻地)。4座机场临时限制：伊万诺沃、雅罗斯拉夫尔(图诺什纳)、格连吉克、下诺夫哥罗德。格连吉克限制已解除。受影响区域：奔萨/莫尔多瓦/梁赞/鄂木斯克/科斯特罗马/奥廖尔/卡卢加/利佩茨克等多州。与第6夜(630+架/12+机场)相比受影响机场较少但袭击纵深更大。",
       "airports": [
         "SVO",
         "DME",
@@ -158,17 +154,17 @@
       "duration": "NOTAM至8/12",
       "sources": [
         {
-          "name": "Rossiyskaya Gazeta",
-          "url": "https://rg.ru/"
+          "name": "新华社",
+          "url": "http://www.chinaview.cn/europe/20260802/f650f20bc6514e7bbdc32234f1412c3a/c.html"
         },
         {
-          "name": "RBC Ukraine",
-          "url": "https://www.rbc.ua/"
+          "name": "Interfax",
+          "url": "https://www.interfax.ru/russia/1107103"
         }
       ],
       "is_new": false,
       "updated": "2026-07-28 16:00",
-      "last_updated": "2026-08-03T09:00:00+08:00",
+      "last_updated": "2026-08-03T16:05:00+08:00",
       "level": "P0",
       "estimated_duration": "NOTAM至8/12，夜间袭击已连续3夜",
       "affected_airports": "KZN/KUF/VOG/UFA/ULV/KRR/AER/MCX/IJK/PEZ等13座+此前SVO/VKO/DME/ZIA",
@@ -242,8 +238,8 @@
     {
       "id": "P0-8",
       "priority": "P0",
-      "title": "西捷航空罢工第2天·490-600航班取消·25万旅客受影响·Alberta Business Council呼吁联邦第107条介入",
-      "description": "AM更新：CUPE 8125代表4400名空乘罢工进入第2天，737/787全机队停飞。取消架次从8/2的276架攀升至490-600架，约25万旅客出行受阻。WestJet暂停8月5日前新预订，Encore Q400及代码共享航班继续运营。已有机票允许一次性免费改签或取消。Alberta Business Council于8/3公开呼吁联邦政府依据《加拿大劳动法》第107条介入，TIAC同步呼吁。航司表示仍愿意谈判，根本矛盾为地面勤务薪酬结算制度争议。",
+      "title": "西捷航空罢工第2天·约600航班取消·25万旅客受影响·预订暂停至8/5",
+      "description": "PM更新：WestJet机队罢工第2天，取消约600架次，约25万旅客受影响。预订暂停至8/5。Alberta Business Council和TIAC呼吁联邦援引第107条介入，政府尚未行动。AirLabs API额度耗尽无新数据。",
       "airports": [
         "YYC",
         "YVR"
@@ -264,12 +260,43 @@
         }
       ],
       "is_new": false,
-      "last_updated": "2026-08-03T09:00:00+08:00",
+      "last_updated": "2026-08-03T16:05:00+08:00",
       "level": "P0",
       "estimated_duration": "无固定期限，直至达成协议",
       "affected_airports": "YYC(卡尔加里)/YVR(温哥华)/YYZ(多伦多)三大枢纽+NRT/ICN/EDI跨洋航线",
       "affected_airlines": "WestJet(WS)+代码共享(DL/AM/CZ)",
       "passenger_impact": "276航班取消，日7.5万人受影响，August长周末高峰"
+    },
+    {
+      "id": "P0-9",
+      "priority": "P0",
+      "title": "台风白海豚(Dolphin)升级P0·强台风15级50m/s·8/6起影响华东·48h前预警已触发",
+      "description": "PM更新：CMA确认8/6(周四)起影响我国。强台风级(15级/50m/s/940hPa)，中心位于北纬24.6度东经147.9度，距那霸约2040km，向西偏北20-25km/h。七级风圈半径260-360km。4项P0风险维度全部达标(强台风级/180km/h/15级/260-360km)，业务阈值达标(华东主要机场>100直达目的地)。路径存不确定性(登陆华东vs近海北上)，但华东沿海大风为确定事件。8/6外围环流抵东海，8/7-8周末主体逼近华东沿海。已推P0即时告警。",
+      "airports": [
+        "日本东部航线(潜在)"
+      ],
+      "airlines": [
+        "中日航线航司"
+      ],
+      "passengers": "暂无实际影响",
+      "duration": "8月初关注",
+      "sources": [
+        {
+          "name": "央视网",
+          "url": "https://news.cctv.com/2026/08/03/ARTIlPvzFhMCUOmlOUVk21YF260803.shtml"
+        },
+        {
+          "name": "中央气象台",
+          "url": "https://www.weather.com.cn"
+        }
+      ],
+      "is_new": false,
+      "last_updated": "2026-08-03T16:05:00+08:00",
+      "level": "P0",
+      "affected_airports": "HGH杭州/NGB宁波/WNZ温州等华东沿海主要机场",
+      "affected_airlines": "多家航司(待评估)",
+      "estimated_duration": "8/6-8/9影响",
+      "passenger_impact": "8/7起可能取消/延误，潜在重大影响"
     },
     {
       "id": "P1-1",
@@ -460,40 +487,10 @@
       "estimated_duration": "8/7到期，续延可能性大"
     },
     {
-      "id": "P1-7",
-      "priority": "P1",
-      "title": "台风白海豚(Dolphin)·超强台风940hPa/45m/s·距陆地~2400km·8/4起进入48h预警窗口",
-      "description": "AM更新：JMA 8/3 03时确认940hPa/45m/s/\"Very Strong Typhoon\"，距陆地约2400km。8/5夜间前对中国海区无影响，8/6-7趋向冲绳/台湾/华东。8/4起进入48h预警窗口，需按优先航变P0定级规则评估。路径不确定性极高：西行登陆中国/北上日韩/罕见山东天津路径均可能。",
-      "airports": [
-        "日本东部航线(潜在)"
-      ],
-      "airlines": [
-        "中日航线航司"
-      ],
-      "passengers": "暂无实际影响",
-      "duration": "8月初关注",
-      "sources": [
-        {
-          "name": "JMA",
-          "url": "http://www.jma.go.jp"
-        },
-        {
-          "name": "SCMP",
-          "url": "https://www.scmp.com/news/china/science/article/3307015/typhoon-dolphin-strengthens/"
-        }
-      ],
-      "is_new": false,
-      "last_updated": "2026-08-03T09:00:00+08:00",
-      "level": "P1",
-      "affected_airports": "可能影响台湾/日本南部航线(待定)",
-      "affected_airlines": "JAL/ANA/中华航空/长荣等飞东亚航司",
-      "estimated_duration": "8/6-7可能接近，8/4起进入48h预警窗口"
-    },
-    {
       "id": "P1-8",
       "priority": "P1",
-      "title": "航司中东航线调整·TK恢复BEY/AMM·EK/EY取消KWI/BAH·EK计划10月恢复BGW",
-      "description": "AM更新：Turkish Airlines已恢复贝鲁特(BEY)/安曼(AMM)航线，同步恢复AUH/DXB/DAM，但仍暂停赴伊航线。Emirates/Etihad因安全公告取消DXB-KWI和DXB-BAH往返航班。Emirates宣布计划10/1起恢复每日DXB-BGW(巴格达)航线(A350执飞)，flydubai同步恢复BGW/BSR/KWI/BAH。法航DXB至8/11，新航至10/24，国泰至10/25，KLM至9/6，汉莎至10/24。BA永久撤销LHR-JED。",
+      "title": "AA延长TLV至2027年3月·多航司中东航线调整·TLV美军加油机增至40架致延误2h",
+      "description": "PM更新：AA将TLV航线暂停延长至2027年3月27日(美三大航最长)，同步暂停卡塔尔航线。UA预计9/7恢复、DL预计9/5恢复。AC至10/24。国泰至10/25。KLM至9/6。汉莎至10/24。法航DXB至8/11。TK恢复BEY/AMM。EK/EY取消KWI/BAH。美军向TLV增派10架加油机至40架，民航延误约2小时。8月TLV暑期高峰约260万旅客/47家航司运营。",
       "airports": [
         "TLV"
       ],
@@ -502,12 +499,12 @@
       "duration": "7/27到期待确认",
       "sources": [
         {
-          "name": "The National",
-          "url": "https://www.thenationalnews.com/travel/2026/08/02/uae-riyadh-flights-cancellations-update"
+          "name": "Jerusalem Post",
+          "url": "https://www.jpost.com/business-and-innovation/all-news/article-904354"
         },
         {
-          "name": "Gulf News",
-          "url": "https://gulfnews.com/business/aviation/flying-from-uae-today-latest-flight-cancellations-and-changes-from-etihad-emirates-air-arabia-1.500628104"
+          "name": "Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog_entry/american-airlines-wont-resume-israel-flights-before-march-27/"
         }
       ],
       "is_new": false,
@@ -515,7 +512,7 @@
       "impact": "JED(永久)·DXB·RUH·DMM·TLV·BAH·AMM·BEY",
       "created": "2026-07-28 16:00",
       "updated": "2026-07-28 16:00",
-      "last_updated": "2026-08-03T09:00:00+08:00",
+      "last_updated": "2026-08-03T16:05:00+08:00",
       "affected_airports": "JED/DXB/RUH/AMM/BEY/BAH/KWI等中东枢纽",
       "affected_airlines": "BA/法航/新航/国泰/KLM/汉莎/Royal Jordanian/Etihad/Air Arabia",
       "estimated_duration": "各航司8-10月不等，全面升级后恢复推迟"
