@@ -1,21 +1,20 @@
 {
   "date": "2026-08-04",
-  "period": "morning",
-  "generated_at": "2026-08-04T08:42:48+08:00",
+  "period": "afternoon",
+  "generated_at": "2026-08-04T16:16:14+08:00",
   "summary": {
-    "p0_count": 6,
-    "p1_count": 7,
-    "p2_count": 17,
-    "total": 30,
-    "last_updated": "2026-08-04T08:42:48+08:00"
+    "P0": 6,
+    "P1": 8,
+    "P2": 18,
+    "total": 32
   },
-  "situation": "美伊局势重大缓和(Trump取消空袭,霍尔木兹谈判接近完成)。台风白海豚今日进入48h窗口。西捷罢工结束降级P1。BCN Groundforce罢工今日启动。俄乌第8夜史上最大规模无人机袭击莫斯科。",
+  "situation": "P0-1美伊：伊朗-阿曼达成霍尔木兹管理协议框架但货船遇袭。P0-5莫斯科：圣彼得堡LED首次受限，8人死亡首次重大伤亡。P0-9台风白海豚今日进入48h窗口。新增P1：SAS挪威空乘8/8罢工。",
   "events": [
     {
       "id": "P0-1",
       "priority": "P0",
-      "title": "美伊局势重大缓和·Trump取消空袭·霍尔木兹谈判接近完成·伊朗内部分歧+威胁恢复军事行动",
-      "description": "Trump取消对伊空袭计划，称协议框架已同意。伊朗外长称与阿曼霍尔木兹新航道谈判接近完成。部分来源称已签署停火谅解备忘录、CENTCOM解除海上封锁，但未获权威交叉验证。伊朗内部存在分歧，拒绝海湾联合收费方案，坚持自行收取$2M/船通行费，威胁若不被尊重将恢复军事行动。",
+      "title": "美伊局势：伊朗-阿曼达成霍尔木兹管理协议框架·伊朗否认美伊直接谈判·海峡货船遇袭",
+      "description": "伊朗与阿曼就霍尔木兹海峡管理达成双边协议框架：进港走伊朗航道、出港走阿曼航道，收取\"服务费\"(非\"通行费\")规避Trump反对，收入五五分成。伊朗外交部确认已交换航线图。但伊朗明确否认与美方直接谈判，称精力集中于阿曼斡旋的通航磋商。8/3霍尔木兹东入口附近货船被不明弹体击中(UKMTO通报)，海峡实际通行安全未恢复。Trump尚未回应\"服务费\"方案。",
       "airports": [
         "DXB",
         "RUH",
@@ -55,7 +54,7 @@
       "estimated_duration": "EASA CZIB至8/31，QR BAH/EBL/KWI延长至8/7，美军空袭计划10-14天",
       "last_updated": "2026-08-03T16:05:00+08:00",
       "level": "P0",
-      "updated_at": "2026-08-04T09:00:00+08:00"
+      "updated_at": "2026-08-04T16:16:14+08:00"
     },
     {
       "id": "P0-2",
@@ -107,8 +106,8 @@
     {
       "id": "P0-5",
       "priority": "P0",
-      "title": "莫斯科NOTAM至8/12·第8夜~200架无人机打莫斯科(史上最大规模)·617架全境拦截·17伤·5+机场限制",
-      "description": "俄乌第8夜大规模无人机袭击(8/3夜)，约200架无人机打击莫斯科地区，为开战以来最大规模袭击首都行动。俄方拦截全境共617架，17人受伤。多座机场临时限制：格连吉克、雅罗斯拉夫尔、伊万诺沃、下诺夫哥罗德、卡卢加。叶卡捷琳堡科利佐沃机场航班延误。",
+      "title": "莫斯科NOTAM至8/12·圣彼得堡LED首次受限·19个联邦主体被袭·8人死亡(首次重大伤亡)",
+      "description": "俄乌第9夜大规模无人机袭击(8/3夜-8/4凌晨)，覆盖19个联邦主体，俄方称击落320+架。莫斯科州5死、克里米亚3死=8人死亡(此前0死，首次重大伤亡)。圣彼得堡普尔科沃机场(LED)首次实施临时起降限制(~40架次延误，1h15min)，限制范围首次扩展至俄罗斯第二大枢纽。8+座机场同步受限：普斯科夫、彭扎、切博克萨雷、切列波韦茨等。",
       "airports": [
         "SVO",
         "DME",
@@ -141,7 +140,7 @@
       "estimated_duration": "NOTAM至8/12，夜间袭击已连续3夜",
       "affected_airports": "KZN/KUF/VOG/UFA/ULV/KRR/AER/MCX/IJK/PEZ等13座+此前SVO/VKO/DME/ZIA",
       "passenger_impact": "超500架次取消/延误，乌法46+航班延误",
-      "updated_at": "2026-08-04T09:00:00+08:00"
+      "updated_at": "2026-08-04T16:16:14+08:00"
     },
     {
       "id": "P0-6",
@@ -389,8 +388,8 @@
     {
       "id": "P1-8",
       "priority": "P1",
-      "title": "AF DXB延至8/18·BEY延至8/18·AA延长TLV至2027年3月·TLV延误恶化(平均40min/高峰83min)·美军40架加油机",
-      "description": "法航DXB停飞从8/11再延至8/18，BEY延至8/18，RUH延至8/14。AA延长TLV至2027年3月，DL 9/5恢复JFK/12月18日恢复ATL。TLV机场延误恶化：平均延误40分钟，高峰83分钟，美军加油机增至40架占用停机位，缺员约400人。",
+      "title": "多航司中东航线调整·伊朗-阿曼达成协议框架·AF DXB延至8/18·TLV延误恶化·QR/EY 8/8恢复BAH",
+      "description": "伊朗-阿曼达成霍尔木兹管理双边协议框架(服务费五五分成)，但货船遇袭显示安全未恢复。法航DXB延至8/18，BEY延至8/18，RUH延至8/14。AA延长TLV至2027年3月。TLV延误恶化：平均40分钟，高峰83分钟，美军加油机40架占用停机位，缺员约400人。QR/EY 8/8恢复BAH。",
       "airports": [
         "TLV"
       ],
@@ -416,7 +415,7 @@
       "affected_airports": "JED/DXB/RUH/AMM/BEY/BAH/KWI等中东枢纽",
       "affected_airlines": "BA/法航/新航/国泰/KLM/汉莎/Royal Jordanian/Etihad/Air Arabia",
       "estimated_duration": "各航司8-10月不等，全面升级后恢复推迟",
-      "updated_at": "2026-08-04T09:00:00+08:00"
+      "updated_at": "2026-08-04T16:16:14+08:00"
     },
     {
       "id": "P2-1",
@@ -759,7 +758,51 @@
       },
       "created_at": "2026-08-04T09:00:00+08:00",
       "updated_at": "2026-08-04T09:00:00+08:00"
+    },
+    {
+      "id": "P1-12",
+      "level": "P1",
+      "priority": "P1",
+      "title": "新增：SAS挪威空乘8/8罢工·468人否决工资协议·影响挪威国内+北欧国际航线",
+      "description": "SAS挪威分部468名空乘以显著多数否决工资协议，Fellesforbundet工会8/3发出罢工通知，8/8(周六)04:00起全面停工。另一工会Parat亦以近70%反对率否决协议，保留短期通知罢工权利。影响SAS挪威国内航线及从挪威出发的北欧国际航线。距罢工仍有5天窗口期，双方可能在最后时刻达成修订协议。医疗航班和朗伊尔城航线豁免。",
+      "category": "airline_ops",
+      "impact_airports": "OSL等挪威机场",
+      "airlines": "SAS",
+      "passenger_impact": "挪威国内+北欧国际航线",
+      "duration": "8/8起",
+      "sources": [
+        "NTB/Fellesforbundet官方",
+        "Reuters/Global Banking & Finance"
+      ],
+      "source_urls": [
+        "https://kommunikasjon.ntb.no/pressemelding/19009872",
+        "https://www.globalbankingandfinance.com/sas-airline-cabin-crew-norway-plan-go-strike-august-8/"
+      ],
+      "created_at": "2026-08-04T16:16:14+08:00",
+      "updated_at": "2026-08-04T16:16:14+08:00"
+    },
+    {
+      "id": "P2-18",
+      "level": "P2",
+      "priority": "P2",
+      "title": "全日空NH968羽田空中险情·与校验机高度差仅20m·TCAS告警复飞·197人无伤",
+      "description": "当地时间8/4清晨05:44，全日空NH968航班(上海浦东-东京羽田，波音767-300ER)在羽田机场最终进近阶段与日本国土交通省飞行校验机(Cessna Citation CJ4)发生空中险情，两机垂直高度差仅约20米。TCAS发出告警后机组执行复飞，飞机安全拉升。校验机TCAS未能启动。机上197人无人受伤。日本国土交通省正在调查。",
+      "category": "aviation_safety",
+      "impact_airports": "HND羽田机场",
+      "airlines": "ANA全日空",
+      "passenger_impact": "197人(无伤亡)",
+      "duration": "已恢复",
+      "sources": [
+        "上观新闻/新民晚报",
+        "东方网"
+      ],
+      "source_urls": [
+        "https://www.shobserver.cn/staticsg/wap/newsDetail?id=1155098",
+        "https://nw.eastday.com/self/yw/20260804/7ab53d5ebfc84d629195b8f58f4e95bb.html"
+      ],
+      "created_at": "2026-08-04T16:16:14+08:00",
+      "updated_at": "2026-08-04T16:16:14+08:00"
     }
   ],
-  "push_time": "2026-08-04 09:00 AM"
+  "push_time": "16:00"
 }
