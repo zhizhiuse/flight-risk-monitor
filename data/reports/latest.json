@@ -1,15 +1,15 @@
 {
   "date": "2026-08-05",
-  "period": "morning",
-  "generated_at": "2026-08-05T09:00:00+08:00",
-  "summary": "P0×6|P1×8|P2×21=35",
-  "situation": "台风白海豚再次加强为超强台风(16级)，8/6-7进入东海；美伊外交加速推进但霍尔木兹通行量反降至战前5%；CCS今日恢复货运；莫斯科8/5再遭大规模无人机袭击",
+  "period": "afternoon",
+  "generated_at": "2026-08-05T18:14:10+08:00",
+  "summary": "P0=6 P1=9(展示6) P2=22 | 美伊协议总统级确认但未宣布·台风白海豚15级8/8进东海·easyJet France新增罢工预告·BCN罢工第2天37班·沙特4机场受影响",
+  "situation": "美伊60天临时协议接近达成(Trump称明天或后天)，但截至发稿未正式宣布。台风白海豚略减弱为15级强台风，8/8前后进入东海。easyJet France三工会联合罢工预告8/7-9/2。BCN Groundforce罢工第2天累计取消37班。AirLabs API月度额度耗尽。",
   "events": [
     {
       "id": "P0-1",
       "priority": "P0",
-      "title": "美伊局势：外交加速推进·阿拉格希称\"前所未有接近\"·霍尔木兹通行量反降至战前5%",
-      "description": "伊朗外长阿拉格希称美伊谈判\"前所未有地接近\"，美国务卿鲁比奥确认\"极短期内\"有望敲定，卡塔尔宣布协议草案文本正在各方间传阅。但霍尔木兹海峡通行量不升反降：8/4仅6艘船通过(全部经伊朗单边航道)，较8/2的17艘进一步萎缩，仅为战前日均125艘的5%。伊朗-阿曼临时航道谈判进行中。外交进展与实际通行安全仍存在落差。",
+      "title": "美伊局势：Trump总统级确认\"明天或后天\"达成·60天临时安排细节曝光·霍尔木兹通行量仅战前5%",
+      "description": "Trump 8/4晚称协议\"明天或后天\"达成，财长Bessent 8/5称\"今天或明天\"，Axios报道美方力争8/5宣布。60天临时安排核心条款曝光：伊朗-阿曼共管海峡、进港走伊朗北航道/出港走阿曼南航道、60天内不收费、3周内清除中央航道水雷。Trump警告伊朗\"如果再次退出将遭猛烈打击\"。但截至发稿协议未正式宣布，仍存主导权与让步顺序争议。霍尔木兹通行量仅战前5%。",
       "airports": [
         "DXB",
         "RUH",
@@ -47,9 +47,9 @@
       "affected_airlines": "Emirates/Qatar/Saudia/Royal Jordanian(停飞3国)及所有经飞中东航司",
       "passenger_impact": "约旦皇家航空停飞3国航线，RUH一度关闭6h，海峡通行量9%基线，航煤供应链受双重封锁威胁",
       "estimated_duration": "EASA CZIB至8/31，QR BAH/EBL/KWI延长至8/7，美军空袭计划10-14天",
-      "last_updated": "2026-08-03T16:05:00+08:00",
+      "last_updated": "2026-08-05T18:00:00+08:00",
       "level": "P0",
-      "updated_at": "2026-08-05T09:00:00+08:00"
+      "updated_at": "2026-08-05T18:14:10+08:00"
     },
     {
       "id": "P0-2",
@@ -218,8 +218,8 @@
     {
       "id": "P0-9",
       "priority": "P0",
-      "title": "台风白海豚(Dolphin)·超强台风16级52m/s·8/6-7进入东海·两种路径存分歧",
-      "description": "超强台风级(16级/52m/s/935hPa)，8/4再次加强。位于琉球群岛那霸以东约1370km，西行20-25km/h。8/6-7穿过琉球群岛进入东海，路径分两种可能：(1)西行9日前后登陆长江口至福建北部(台风级或强台风级12-14级)；(2)转向北上10-11日登陆或擦过长江口至山东半岛(强热带风暴级10-11级)。路径预计8/6后逐渐明朗。另注意南海新生热带风暴\"鲸鱼\"(KUJIRA)可能影响菲律宾。",
+      "title": "台风白海豚(Dolphin)·略减弱为15级强台风48m/s·8/8前后进入东海·两种路径存分歧",
+      "description": "8/5 8时台风白海豚为强台风级(15级/48m/s/940hPa)，位于琉球群岛那霸偏东约1070km，西行20-25km/h。8/8前后穿过琉球群岛进入东海(较此前预测推迟)，进入后移速放缓、路径不确定性增大。两种路径：浙江沿海登陆 或 浙江近海徘徊后转向北上。8/6前对我国近海无直接影响。另关注南海新生热带风暴\"鲸鱼\"(KUJIRA)。",
       "airports": [
         "日本东部航线(潜在)"
       ],
@@ -239,18 +239,18 @@
         }
       ],
       "is_new": false,
-      "last_updated": "2026-08-03T16:05:00+08:00",
+      "last_updated": "2026-08-05T18:00:00+08:00",
       "level": "P0",
       "affected_airports": "HGH杭州/NGB宁波/WNZ温州等华东沿海主要机场",
       "affected_airlines": "多家航司(待评估)",
       "estimated_duration": "8/6-8/9影响",
       "passenger_impact": "8/7起可能取消/延误，潜在重大影响",
-      "updated_at": "2026-08-05T09:00:00+08:00"
+      "updated_at": "2026-08-05T18:14:10+08:00"
     },
     {
       "id": "P1-10",
-      "title": "巴塞罗那BCN Groundforce罢工已启动·1179人·西班牙暑假高峰·~200万旅客",
-      "description": "巴塞罗那El Prat机场Groundforce地勤8/4 0时起无限期罢工，1179名工人参与，影响值机、登机、行李装卸及航班协调岗位。服务对象含Air Europa、Lufthansa、Air France、Qatar Airways、United Airlines等。罢工恰逢西班牙暑假出行高峰，预计影响约200万名旅客及1.16万架次航班。",
+      "title": "巴塞罗那BCN Groundforce罢工第2天·1179人·累计取消37班·西班牙交通部设最低服务保障·~200万旅客",
+      "description": "巴塞罗那El Prat机场Groundforce地勤8/4 0时起无限期罢工，1179名工人参与。8/4取消20班+8/5取消17班=累计37班取消。西班牙交通部设最低服务保障。服务对象含Air Europa、Lufthansa、Air France、Qatar Airways、United Airlines等。罢工恰逢西班牙暑假出行高峰，预计影响约200万名旅客。",
       "affected_airports": "BCN(巴塞罗那)全机场",
       "affected_airlines": "Air Europa/Lufthansa/Air France/Qatar Airways/United Airlines等",
       "passenger_impact": "值机/登机/行李服务中断风险，8月出行高峰",
@@ -265,10 +265,10 @@
           "url": "https://www.eldiario.es/catalunya/cgt-convoca-huelga-indefinida-partir-4-agosto-empresa-facturacion-embarque-prat_1_13416905.html"
         }
       ],
-      "last_updated": "2026-07-31T16:00:00+08:00",
+      "last_updated": "2026-08-05T18:00:00+08:00",
       "level": "P1",
       "priority": "P1",
-      "updated_at": "2026-08-04T09:00:00+08:00"
+      "updated_at": "2026-08-05T18:14:10+08:00"
     },
     {
       "id": "P1-11",
@@ -295,14 +295,15 @@
     {
       "id": "P1-3",
       "priority": "P1",
-      "title": "沙特南部三机场关闭·AirLabs API额度耗尽今日无数据",
-      "description": "沙特南部三机场AHB/GIZ/YNB关闭状态延续。AirLabs API月度免费额度8/3耗尽(month_limit_exceeded)，8月剩余时间无法采集实时航班数据，9/1重置。上次成功采集8/2 PM: 18架取消(YYZ 10=西捷罢工, DXB归零=特朗普暂停效果)。",
+      "title": "沙特南部四机场受影响·AHB/GIZ/YNB关闭+EAM主雷达被毁停运·胡塞首次打击沙特陆地机场",
+      "description": "胡塞武装8/4袭击沙特纳季兰机场EAM，军事发言人Yahya Saree声称打击EAM敏感目标，AFP确认主雷达被摧毁，机场运营停止。这是胡塞7月海上封锁后首次打击沙特陆地机场基础设施。加上此前已关闭的AHB/GIZ/YNB，沙特南部4个机场受影响。",
       "airports": [
         "AHB",
         "GIZ",
         "YNB",
         "RUH",
-        "JED"
+        "JED",
+        "EAM"
       ],
       "airlines": [
         "Saudia",
@@ -319,11 +320,12 @@
         }
       ],
       "is_new": false,
-      "last_updated": "2026-08-03T09:00:00+08:00",
+      "last_updated": "2026-08-05T18:00:00+08:00",
       "level": "P1",
       "affected_airports": "AHB/GIZ/YNB(沙特南部)+RUH/JED/TLV/IST出发受影响",
       "affected_airlines": "WestJet(+代码共享DL/AM/CZ)/阿曼航空/易捷/香料航空/CA/SC/LH",
-      "passenger_impact": "沙特国内及区域航线持续中断"
+      "passenger_impact": "沙特国内及区域航线持续中断",
+      "updated_at": "2026-08-05T18:14:10+08:00"
     },
     {
       "id": "P1-5",
@@ -774,7 +776,8 @@
         "https://www.globalbankingandfinance.com/sas-airline-cabin-crew-norway-plan-go-strike-august-8/"
       ],
       "created_at": "2026-08-04T16:16:14+08:00",
-      "updated_at": "2026-08-04T16:16:14+08:00"
+      "updated_at": "2026-08-05T18:14:10+08:00",
+      "last_updated": "2026-08-05T18:00:00+08:00"
     },
     {
       "id": "P2-18",
@@ -824,7 +827,47 @@
       "description": "8月3日危地马拉Fuego火山大规模喷发，灰柱高达2公里，La Aurora国际机场(GUA)因跑道火山灰暂时关闭，至少2个进港航班改降。午后风向改变后恢复运营。8/4已正常运营。",
       "status": "resolved",
       "updated_at": "2026-08-05T09:00:00+08:00"
+    },
+    {
+      "id": "P1-13",
+      "priority": "P1",
+      "level": "P1",
+      "title": "新增：easyJet France空乘罢工预告·8/7-9/2·三工会联合·6个法国基地全空乘覆盖",
+      "description": "easyJet France三工会(SNPNC-FO/UNAC-CFE-CGC/UNPNC-CFDT)8/4联合提交罢工预告，覆盖8/7-9/2期间。较7/23首次预告新增第三工会UNAC-CFE-CGC且明确日期范围。6个法国基地(ORY/CDG/NCE/NTE/LYS/BOD)全部空乘覆盖。具体罢工日将提前48h通知。潜在影响面大，最早8/7可能受影响。",
+      "affected_airports": "ORY/CDG/NCE/NTE/LYS/BOD(6个法国基地)",
+      "affected_airlines": "easyJet France",
+      "passenger_impact": "6个法国基地全空乘覆盖，具体罢工日48h前通知",
+      "estimated_duration": "8/7-9/2预告期，具体日期待通知",
+      "sources": [
+        {
+          "name": "Le Figaro",
+          "url": "https://www.lefigaro.fr/economie/easyjet-les-hotes-et-stewards-menacent-de-faire-greve-20260804"
+        }
+      ],
+      "is_new": true,
+      "last_updated": "2026-08-05T18:00:00+08:00",
+      "updated_at": "2026-08-05T18:14:10+08:00"
+    },
+    {
+      "id": "P2-22",
+      "priority": "P2",
+      "level": "P2",
+      "title": "新增：IndiGo暂停LHR-DEL和LHR-BOM航线·8/31起·10/25结束宽体机运营·终止Norse Atlantic湿租",
+      "description": "IndiGo(6E)宣布8/31起暂停伦敦LHR-德里DEL和LHR-孟买BOM航线，10/25全面结束宽体机运营并终止Norse Atlantic 787-9湿租协议。原因：地缘紧张/航路绕飞/燃油成本/汇率压力。待A350-900交付后恢复。",
+      "affected_airports": "LHR/DEL/BOM",
+      "affected_airlines": "IndiGo(6E)/Norse Atlantic",
+      "passenger_impact": "印英航线运力减少，旅客需改签其他航司",
+      "estimated_duration": "8/31起暂停，待A350交付后恢复",
+      "sources": [
+        {
+          "name": "Simple Flying",
+          "url": "https://simpleflying.com/indigo-london-heathrow-suspension/"
+        }
+      ],
+      "is_new": true,
+      "last_updated": "2026-08-05T18:00:00+08:00",
+      "updated_at": "2026-08-05T18:14:10+08:00"
     }
   ],
-  "push_time": "2026-08-05 09:00"
+  "push_time": "2026-08-05 18:30"
 }
