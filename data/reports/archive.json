@@ -17274,6 +17274,15 @@
       "total": 30,
       "generated_at": "2026-08-04T09:00:00+08:00",
       "file": "data/reports/2026-08-04.json"
+    },
+    {
+      "date": "2026-08-05",
+      "period": "morning",
+      "p0_count": 6,
+      "p1_count": 8,
+      "p2_count": 21,
+      "total": 35,
+      "push_time": "2026-08-05 09:00"
     }
   ]
 }
