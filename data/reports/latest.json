@@ -1,15 +1,15 @@
 {
   "date": "2026-08-06",
-  "period": "morning",
-  "generated_at": "2026-08-06T14:20:52+08:00",
-  "summary": "P0=6 P1=9(展示6) P2=27 | 台风白海豚14级8/7进东海JAL取消76班/美伊航道坐标达成共识但伊朗强调不等于立即开放/莫斯科8/5夜遭475架无人机/BCN罢工第3天37班/SAS约750人8/8罢工",
-  "situation": "台风白海豚14级强台风逼近冲绳已致大量航班取消，8/7穿过琉球进入东海。美伊霍尔木兹航道坐标达成共识联合声明终审，但伊朗强调不等于立即开放。莫斯科8/5夜遭475架无人机反击7城机场受限。BCN Groundforce罢工第3天累计37班。SAS约750人8/8罢工。AirLabs API月度额度耗尽。",
+  "period": "afternoon",
+  "generated_at": "2026-08-06T22:16:11+08:00",
+  "summary": "P0=6 P1=9(展示6) P2=29 | 台风白海豚重新增强至15级945hPa冲绳612航班取消9万人/霍尔木兹通行量骤降至2艘战前1.4%油轮听到2次爆炸声油价~80美元/EK全部BAH/KWI取消7班日/BCN罢工累计42班/美联航UA169自动驾驶双失效备降都柏林",
+  "situation": "PM推送：台风白海豚重新增强至15级(945hPa/48m/s)，冲绳612航班取消/9万人(较AM翻倍)，新增台风鲸鱼合并风险。霍尔木兹通行量骤降至2艘(战前1.4%)，油轮听到2次爆炸声，油价~80美元。EK全部BAH/KWI取消(7班/日)。BCN累计42班。P0巡查14:00/16:00/18:00/20:00均无新P0。",
   "events": [
     {
       "id": "P0-1",
       "priority": "P0",
-      "title": "美伊局势：航道坐标达成共识·伊阿联合声明终审·但伊朗强调不等于立即开放·通行量仅战前8%",
-      "description": "伊朗外交部发言人巴加埃8/5宣布，伊朗与阿曼已就霍尔木兹海峡拟定航道的地理坐标达成一致，联合声明进入终审阶段。临时安排核心条款：入湾走伊朗北航道/出湾走阿曼南航道/60天不收费/30天清雷。但巴加埃强调达成协议不意味着海峡将恢复通航，开放取决于美方停止海上封锁。通行量8/5约10艘(战前日均125艘的8%)，WTI跌至约75美元/桶。汉莎H1净亏5.42亿欧元，额外燃油成本17亿欧元，削减2万班欧洲短途航班。",
+      "title": "霍尔木兹海峡通行量骤降至2艘(战前1.4%)·油轮在海峡听到2次爆炸声·油价升至~80美元·EK全部BAH/KWI取消",
+      "description": "霍尔木兹海峡商业通行量8/6进一步急剧萎缩至仅2艘(Kpler数据)，较前日10艘再降75%，为战前日均130-140艘的约1.4%。巴布曼德海峡同日仅1艘通过(前日20艘骤降)。UKMTO通报一艘油轮在阿曼库姆扎尔东南约9海里处航行时报告听到两次爆炸声，船员船只安全无油污泄漏，为近期第3起海峡安全事件。油价升至接近80美元/桶。Emirates全部BAH(3班/日)+KWI(4班/日)取消，至少至8/6，8/7起也未列出。Etihad取消AUH-BAH+AUH-KWI。QR确认8/8恢复KWI/BAH/EBL。flydubai和Air Arabia继续运营BAH/KWI。BA/KLM/LH/AF也调整中东航线。",
       "airports": [
         "DXB",
         "RUH",
@@ -33,12 +33,12 @@
       "duration": "停火但封锁持续，EASA至8/31",
       "sources": [
         {
-          "name": "IBTimes UK",
-          "url": "https://www.ibtimes.co.uk/us-naval-forces-enforce-iran-blockade-1811961"
+          "name": "Al-Monitor/Reuters",
+          "url": "https://www.al-monitor.com/originals/2026/08/gulf-shipping-traffic-down-after-houthis-say-they-attacked-saudi-tanker"
         },
         {
-          "name": "Shafaq News",
-          "url": "https://www.shafaq.com/en/World/CENTCOM-intercepts-35-ships-under-Iran-blockade"
+          "name": "新华社/凤凰网",
+          "url": "https://news.ifeng.com/c/8vMaw8XMahH"
         }
       ],
       "is_new": false,
@@ -47,9 +47,9 @@
       "affected_airlines": "Emirates/Qatar/Saudia/Royal Jordanian(停飞3国)及所有经飞中东航司",
       "passenger_impact": "约旦皇家航空停飞3国航线，RUH一度关闭6h，海峡通行量9%基线，航煤供应链受双重封锁威胁",
       "estimated_duration": "EASA CZIB至8/31，QR BAH/EBL/KWI延长至8/7，美军空袭计划10-14天",
-      "last_updated": "2026-08-06T09:00:00+08:00",
+      "last_updated": "2026-08-06T22:16:11+08:00",
       "level": "P0",
-      "updated_at": "2026-08-06T14:20:52+08:00"
+      "updated_at": "2026-08-06T22:16:11+08:00"
     },
     {
       "id": "P0-2",
@@ -218,8 +218,8 @@
     {
       "id": "P0-9",
       "priority": "P0",
-      "title": "台风白海豚(Dolphin)·14级强台风42m/s·8/7穿过琉球进东海·JAL取消76班ANA预告120+班",
-      "description": "8/6早5时，强台风白海豚中心位于浙江温州偏东约1360km，中心最大风力14级(42m/s/955hPa)，以15-20km/h向西偏北方向移动。8/7白天穿过琉球群岛后移入东海。两种路径：(1)西行9日前后登陆长江口至福建北部(台风级12-14级)；(2)近海北上10-11日影响上海至山东半岛(强热带风暴级10-11级)。8/6-8为路径判断关键窗口。已有影响：JAL取消8/6冲绳/鹿儿岛等76班(约3334人)，ANA取消4班并预告8/7取消约120班，香港快运取消8/6-8往返HK-OKA 10+班，300+航班取消/2595延误。浙江省已启动海上防台风应急响应。",
+      "title": "台风白海豚(Dolphin)·重新增强至15级48m/s·945hPa·冲绳612航班取消/9万人受影响·JAL 205班ANA 246班",
+      "description": "JMA最新数据显示台风白海豚中心气压降至945hPa、最大风速升至48m/s(约15级)，较上午(955hPa/42m/s)再次增强。预计8/7穿过琉球群岛后移入东海。路径两种可能：(1)西行9日登陆长江口至福建北部(12-14级)；(2)近海北上10-11日影响上海至山东(10-11级)。8/6-8路径关键窗口。取消航班较AM翻倍：冲绳至少612航班取消、逾9万人受影响。JAL取消8/6-8共205班，ANA取消8/6-9共246班(约48000人)。新增：Solaseed Air 54班、Skymark 55班、Peach 52班。香港快运取消8/6-8往返HKG-OKA/ISG全部航班，大湾区航空取消8/7-8 HKG-OKA。92班渡轮取消。大东岛发布四级避难指示。新风险：第14号台风鲸鱼(Kujira)残余环流可能并入白海豚。",
       "airports": [
         "日本东部航线(潜在)"
       ],
@@ -230,27 +230,27 @@
       "duration": "8月初关注",
       "sources": [
         {
-          "name": "央视网",
-          "url": "https://news.cctv.com/2026/08/03/ARTIlPvzFhMCUOmlOUVk21YF260803.shtml"
+          "name": "JMA日本气象厅",
+          "url": "https://data.jma.go.jp/multi/cyclone/cyclone_detail.html?id=60"
         },
         {
-          "name": "中央气象台",
-          "url": "https://www.weather.com.cn"
+          "name": "星岛头条",
+          "url": "https://www.stheadline.com"
         }
       ],
       "is_new": false,
-      "last_updated": "2026-08-06T09:00:00+08:00",
+      "last_updated": "2026-08-06T22:16:11+08:00",
       "level": "P0",
-      "affected_airports": "HGH杭州/NGB宁波/WNZ温州等华东沿海主要机场",
-      "affected_airlines": "多家航司(待评估)",
-      "estimated_duration": "8/6-8/9影响",
-      "passenger_impact": "8/7起可能取消/延误，潜在重大影响",
-      "updated_at": "2026-08-06T14:20:52+08:00"
+      "affected_airports": "OKA那霸/KOJ鹿儿岛/ASZ奄美等冲绳/南九州机场",
+      "affected_airlines": "JAL/ANA/Solaseed Air/Skymark/Peach/香港快运/大湾区航空",
+      "estimated_duration": "8/6-8/12影响",
+      "passenger_impact": "612航班取消/逾9万人受影响",
+      "updated_at": "2026-08-06T22:16:11+08:00"
     },
     {
       "id": "P1-10",
-      "title": "巴塞罗那BCN Groundforce罢工第3天·1179人·累计取消37班·谈判僵局·~200万旅客",
-      "description": "巴塞罗那El Prat机场Groundforce地勤8/4 0时起无限期罢工，进入第3天，1179名工人参与。8/4取消20班+8/5取消17班=累计37班取消。首日有航班未装行李起飞。谈判仍在僵局，工会称将维持无限期罢工。西班牙交通部设最低服务保障(35%-80%)。影响约200万旅客、Air Europa/LH/AF/QR/UA等20家航司。",
+      "title": "巴塞罗那BCN Groundforce罢工第3天·1179人·累计取消42班·谈判僵局·~200万旅客",
+      "description": "巴塞罗那El Prat机场Groundforce地勤8/4 0时起无限期罢工，进入第3天，1179名工人参与。8/4取消20班+8/5取消18班+8/6取消4班=累计42班。谈判仍在僵局，CGT工会称参与率很高，将维持无限期罢工。西班牙交通部设最低服务保障(35%-80%)。影响约200万旅客、Air Europa/LH/AF/QR/UA等20家航司。",
       "affected_airports": "BCN(巴塞罗那)全机场",
       "affected_airlines": "Air Europa/Lufthansa/Air France/Qatar Airways/United Airlines等",
       "passenger_impact": "值机/登机/行李服务中断风险，8月出行高峰",
@@ -265,10 +265,10 @@
           "url": "https://www.eldiario.es/catalunya/cgt-convoca-huelga-indefinida-partir-4-agosto-empresa-facturacion-embarque-prat_1_13416905.html"
         }
       ],
-      "last_updated": "2026-08-06T09:00:00+08:00",
+      "last_updated": "2026-08-06T22:16:11+08:00",
       "level": "P1",
       "priority": "P1",
-      "updated_at": "2026-08-06T14:20:52+08:00"
+      "updated_at": "2026-08-06T22:16:11+08:00"
     },
     {
       "id": "P1-11",
@@ -385,8 +385,8 @@
     {
       "id": "P1-8",
       "priority": "P1",
-      "title": "多航司中东航线持续调整·EK/EY继续取消KWI/BAH·法航DXB延至8/18·汉莎削减2万班",
-      "description": "阿联酋EK继续取消DXB-KWI/BAH全部航班，EY取消AUH-BAH/KWI，Air Arabia取消SHJ-KWI/BAH/DOH。法航DXB延至8/18，BEY延至8/18，RUH延至8/14。QR/EY 8/8恢复BAH。汉莎因航油成本削减2万班欧洲短途航班并关闭CityLine业务线。",
+      "title": "多航司中东航线持续调整·EK全部BAH/KWI取消(7班/日)·QR确认8/8恢复KWI/BAH/EBL·汉莎削减2万班",
+      "description": "Emirates全部BAH(3班/日: EK835/837/839)+KWI(4班/日: EK853/855/857/859)取消，至少至8/6，8/7起也未列出。Etihad取消AUH-BAH+AUH-KWI(EY653/EY654)。QR确认8/8恢复KWI/BAH/EBL。flydubai和Air Arabia继续运营BAH/KWI。法航DXB延至8/18，BEY延至8/18，RUH延至8/14。BA/KLM/LH/AF也调整中东航线。汉莎削减2万班短途航班。",
       "airports": [
         "TLV"
       ],
@@ -395,12 +395,8 @@
       "duration": "7/27到期待确认",
       "sources": [
         {
-          "name": "Jerusalem Post",
-          "url": "https://www.jpost.com/business-and-innovation/all-news/article-904354"
-        },
-        {
-          "name": "Times of Israel",
-          "url": "https://www.timesofisrael.com/liveblog_entry/american-airlines-wont-resume-israel-flights-before-march-27/"
+          "name": "The National News",
+          "url": "https://www.thenationalnews.com/travel/2026/08/06/emirates-etihad-bahrain-kuwait-cancellations-us-iran/"
         }
       ],
       "is_new": false,
@@ -408,11 +404,11 @@
       "impact": "JED(永久)·DXB·RUH·DMM·TLV·BAH·AMM·BEY",
       "created": "2026-07-28 16:00",
       "updated": "2026-07-28 16:00",
-      "last_updated": "2026-08-06T09:00:00+08:00",
+      "last_updated": "2026-08-06T22:16:11+08:00",
       "affected_airports": "JED/DXB/RUH/AMM/BEY/BAH/KWI等中东枢纽",
       "affected_airlines": "BA/法航/新航/国泰/KLM/汉莎/Royal Jordanian/Etihad/Air Arabia",
       "estimated_duration": "各航司8-10月不等，全面升级后恢复推迟",
-      "updated_at": "2026-08-06T14:20:52+08:00"
+      "updated_at": "2026-08-06T22:16:11+08:00"
     },
     {
       "id": "P2-1",
@@ -980,7 +976,67 @@
       "is_new": true,
       "last_updated": "2026-08-06T09:00:00+08:00",
       "updated_at": "2026-08-06T14:20:52+08:00"
+    },
+    {
+      "id": "P2-28",
+      "priority": "P2",
+      "level": "P2",
+      "title": "新增：美联航UA169自动驾驶+自动油门双失效·北大西洋手动飞行备降都柏林·无伤亡",
+      "description": "8/4，美联航UA169航班(威尼斯-纽瓦克，波音767-400ER，机龄约25年)在北大西洋上空34000英尺巡航时，自动驾驶仪和自动油门系统同时失效。机组呼叫PAN PAN紧急状态，接管飞机改为手动操纵，在约2小时40分钟内全程手动驾驶宽体客机跨越北大西洋，最终安全降落都柏林机场。美联航确认飞机将在都柏林停场接受全面技术检查。次日使用替换飞机正常执飞。",
+      "airports": [
+        "DUB都柏林"
+      ],
+      "airlines": [
+        "United Airlines"
+      ],
+      "passengers": "无伤亡",
+      "duration": "已处置",
+      "sources": [
+        {
+          "name": "AIRLIVE",
+          "url": "https://airlive.net/tracking/2026/08/04/united-25-year-old-boeing-767-diverted-to-dublin-after-sudden-loss-of-autopilot-over-atlantic/"
+        },
+        {
+          "name": "搜狐/快科技",
+          "url": "https://m.sohu.com/a/1059340365_163726/"
+        }
+      ],
+      "is_new": true,
+      "last_updated": "2026-08-06T22:14:33+08:00",
+      "updated_at": "2026-08-06T22:14:33+08:00",
+      "affected_airports": "DUB都柏林(备降)",
+      "affected_airlines": "United Airlines",
+      "passenger_impact": "无伤亡，航班次日恢复",
+      "estimated_duration": "已处置"
+    },
+    {
+      "id": "P2-29",
+      "priority": "P2",
+      "level": "P2",
+      "title": "新增：Norse Atlantic Airways正式启动出售流程·寻求6架B787新买家·跨大西洋低成本航线或受影响",
+      "description": "Norse Atlantic Airways正式开始出售流程，为其6架波音787梦想客机寻找新买家。这标志着这家跨大西洋低成本长途航司可能逐步退出市场。若出售完成，将影响北大西洋低成本航线竞争格局。",
+      "airports": [
+        "OSL奥斯陆(基地)"
+      ],
+      "airlines": [
+        "Norse Atlantic Airways"
+      ],
+      "passengers": "潜在影响跨大西洋航线",
+      "duration": "出售流程进行中",
+      "sources": [
+        {
+          "name": "AeroTime",
+          "url": "https://www.aerotime.aero"
+        }
+      ],
+      "is_new": true,
+      "last_updated": "2026-08-06T22:14:33+08:00",
+      "updated_at": "2026-08-06T22:14:33+08:00",
+      "affected_airports": "OSL奥斯陆(基地)",
+      "affected_airlines": "Norse Atlantic Airways",
+      "passenger_impact": "潜在影响跨大西洋低成本航线",
+      "estimated_duration": "出售流程进行中"
     }
   ],
-  "push_time": "2026-08-06 14:30"
+  "push_time": "2026-08-06 22:16"
 }
