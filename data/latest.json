@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-05",
-  "period": "afternoon",
-  "generated_at": "2026-08-05T18:14:10+08:00",
-  "summary": "P0=6 P1=9(展示6) P2=22 | 美伊协议总统级确认但未宣布·台风白海豚15级8/8进东海·easyJet France新增罢工预告·BCN罢工第2天37班·沙特4机场受影响",
-  "situation": "美伊60天临时协议接近达成(Trump称明天或后天)，但截至发稿未正式宣布。台风白海豚略减弱为15级强台风，8/8前后进入东海。easyJet France三工会联合罢工预告8/7-9/2。BCN Groundforce罢工第2天累计取消37班。AirLabs API月度额度耗尽。",
+  "date": "2026-08-06",
+  "period": "morning",
+  "generated_at": "2026-08-06T14:20:52+08:00",
+  "summary": "P0=6 P1=9(展示6) P2=27 | 台风白海豚14级8/7进东海JAL取消76班/美伊航道坐标达成共识但伊朗强调不等于立即开放/莫斯科8/5夜遭475架无人机/BCN罢工第3天37班/SAS约750人8/8罢工",
+  "situation": "台风白海豚14级强台风逼近冲绳已致大量航班取消，8/7穿过琉球进入东海。美伊霍尔木兹航道坐标达成共识联合声明终审，但伊朗强调不等于立即开放。莫斯科8/5夜遭475架无人机反击7城机场受限。BCN Groundforce罢工第3天累计37班。SAS约750人8/8罢工。AirLabs API月度额度耗尽。",
   "events": [
     {
       "id": "P0-1",
       "priority": "P0",
-      "title": "美伊局势：Trump总统级确认\"明天或后天\"达成·60天临时安排细节曝光·霍尔木兹通行量仅战前5%",
-      "description": "Trump 8/4晚称协议\"明天或后天\"达成，财长Bessent 8/5称\"今天或明天\"，Axios报道美方力争8/5宣布。60天临时安排核心条款曝光：伊朗-阿曼共管海峡、进港走伊朗北航道/出港走阿曼南航道、60天内不收费、3周内清除中央航道水雷。Trump警告伊朗\"如果再次退出将遭猛烈打击\"。但截至发稿协议未正式宣布，仍存主导权与让步顺序争议。霍尔木兹通行量仅战前5%。",
+      "title": "美伊局势：航道坐标达成共识·伊阿联合声明终审·但伊朗强调不等于立即开放·通行量仅战前8%",
+      "description": "伊朗外交部发言人巴加埃8/5宣布，伊朗与阿曼已就霍尔木兹海峡拟定航道的地理坐标达成一致，联合声明进入终审阶段。临时安排核心条款：入湾走伊朗北航道/出湾走阿曼南航道/60天不收费/30天清雷。但巴加埃强调达成协议不意味着海峡将恢复通航，开放取决于美方停止海上封锁。通行量8/5约10艘(战前日均125艘的8%)，WTI跌至约75美元/桶。汉莎H1净亏5.42亿欧元，额外燃油成本17亿欧元，削减2万班欧洲短途航班。",
       "airports": [
         "DXB",
         "RUH",
@@ -47,14 +47,14 @@
       "affected_airlines": "Emirates/Qatar/Saudia/Royal Jordanian(停飞3国)及所有经飞中东航司",
       "passenger_impact": "约旦皇家航空停飞3国航线，RUH一度关闭6h，海峡通行量9%基线，航煤供应链受双重封锁威胁",
       "estimated_duration": "EASA CZIB至8/31，QR BAH/EBL/KWI延长至8/7，美军空袭计划10-14天",
-      "last_updated": "2026-08-05T18:00:00+08:00",
+      "last_updated": "2026-08-06T09:00:00+08:00",
       "level": "P0",
-      "updated_at": "2026-08-05T18:14:10+08:00"
+      "updated_at": "2026-08-06T14:20:52+08:00"
     },
     {
       "id": "P0-2",
       "priority": "P0",
-      "title": "委内瑞拉CCS机场第47天·6125人死亡·今日(8/5)恢复货运·客运8月中下旬",
+      "title": "委内瑞拉CCS机场第48天·6125人死亡·货运已恢复·客运8月中下旬",
       "description": "委内瑞拉6/24双震(7.2+7.5级)后CCS机场关闭42天，累计6125人死亡。今日(8/5)正式恢复货运运营(使用备用跑道，主跑道10R/28L仍有深层结构裂缝)。客运预计8月中下旬使用临时航站楼恢复。商业航班仍改降Valencia(VLN)。",
       "airports": [
         "CCS"
@@ -68,10 +68,10 @@
         "https://www.aa.com.tr"
       ],
       "is_new": false,
-      "last_updated": "2026-08-03T16:05:00+08:00",
+      "last_updated": "2026-08-06T09:00:00+08:00",
       "level": "P0",
       "estimated_duration": "关闭至7月底(今日最后一天)，8月状态待确认",
-      "updated_at": "2026-08-05T09:00:00+08:00"
+      "updated_at": "2026-08-06T14:20:52+08:00"
     },
     {
       "id": "P0-3",
@@ -101,8 +101,8 @@
     {
       "id": "P0-5",
       "priority": "P0",
-      "title": "莫斯科NOTAM至8/12·8/5再遭~200架无人机袭击·VKO/DME/ZIA临时限制·系列延续",
-      "description": "8/5凌晨莫斯科再遭约200架无人机袭击，VKO/DME/ZIA三座机场临时限制起降。属P0-5莫斯科NOTAM系列(至8/12)的周期性重复。8/4圣彼得堡LED首次受限(已当日解除)，8人死亡(首次重大伤亡)，19个联邦主体被袭，8+座机场同步受限。",
+      "title": "莫斯科NOTAM至8/12·8/5夜乌475架无人机反击·7城机场受限·5死6伤",
+      "description": "8/5夜乌克兰向俄罗斯17个联邦主体发射约475架无人机，为近期最大规模反击之一。Rosaviatsiya对彭扎、萨拉托夫等7座机场实施临时起降限制，莫斯科VKO/DME/ZIA三机场协调运行。莫斯科州5死6伤。所有限制8/5上午解除。另俄8/4夜对基辅发射28枚导弹+115架无人机，17死44伤。NOTAM仍有效至8/12。",
       "airports": [
         "SVO",
         "DME",
@@ -130,12 +130,12 @@
       ],
       "is_new": false,
       "updated": "2026-07-28 16:00",
-      "last_updated": "2026-08-03T16:05:00+08:00",
+      "last_updated": "2026-08-06T09:00:00+08:00",
       "level": "P0",
       "estimated_duration": "NOTAM至8/12，夜间袭击已连续3夜",
       "affected_airports": "KZN/KUF/VOG/UFA/ULV/KRR/AER/MCX/IJK/PEZ等13座+此前SVO/VKO/DME/ZIA",
       "passenger_impact": "超500架次取消/延误，乌法46+航班延误",
-      "updated_at": "2026-08-05T09:00:00+08:00"
+      "updated_at": "2026-08-06T14:20:52+08:00"
     },
     {
       "id": "P0-6",
@@ -218,8 +218,8 @@
     {
       "id": "P0-9",
       "priority": "P0",
-      "title": "台风白海豚(Dolphin)·略减弱为15级强台风48m/s·8/8前后进入东海·两种路径存分歧",
-      "description": "8/5 8时台风白海豚为强台风级(15级/48m/s/940hPa)，位于琉球群岛那霸偏东约1070km，西行20-25km/h。8/8前后穿过琉球群岛进入东海(较此前预测推迟)，进入后移速放缓、路径不确定性增大。两种路径：浙江沿海登陆 或 浙江近海徘徊后转向北上。8/6前对我国近海无直接影响。另关注南海新生热带风暴\"鲸鱼\"(KUJIRA)。",
+      "title": "台风白海豚(Dolphin)·14级强台风42m/s·8/7穿过琉球进东海·JAL取消76班ANA预告120+班",
+      "description": "8/6早5时，强台风白海豚中心位于浙江温州偏东约1360km，中心最大风力14级(42m/s/955hPa)，以15-20km/h向西偏北方向移动。8/7白天穿过琉球群岛后移入东海。两种路径：(1)西行9日前后登陆长江口至福建北部(台风级12-14级)；(2)近海北上10-11日影响上海至山东半岛(强热带风暴级10-11级)。8/6-8为路径判断关键窗口。已有影响：JAL取消8/6冲绳/鹿儿岛等76班(约3334人)，ANA取消4班并预告8/7取消约120班，香港快运取消8/6-8往返HK-OKA 10+班，300+航班取消/2595延误。浙江省已启动海上防台风应急响应。",
       "airports": [
         "日本东部航线(潜在)"
       ],
@@ -239,18 +239,18 @@
         }
       ],
       "is_new": false,
-      "last_updated": "2026-08-05T18:00:00+08:00",
+      "last_updated": "2026-08-06T09:00:00+08:00",
       "level": "P0",
       "affected_airports": "HGH杭州/NGB宁波/WNZ温州等华东沿海主要机场",
       "affected_airlines": "多家航司(待评估)",
       "estimated_duration": "8/6-8/9影响",
       "passenger_impact": "8/7起可能取消/延误，潜在重大影响",
-      "updated_at": "2026-08-05T18:14:10+08:00"
+      "updated_at": "2026-08-06T14:20:52+08:00"
     },
     {
       "id": "P1-10",
-      "title": "巴塞罗那BCN Groundforce罢工第2天·1179人·累计取消37班·西班牙交通部设最低服务保障·~200万旅客",
-      "description": "巴塞罗那El Prat机场Groundforce地勤8/4 0时起无限期罢工，1179名工人参与。8/4取消20班+8/5取消17班=累计37班取消。西班牙交通部设最低服务保障。服务对象含Air Europa、Lufthansa、Air France、Qatar Airways、United Airlines等。罢工恰逢西班牙暑假出行高峰，预计影响约200万名旅客。",
+      "title": "巴塞罗那BCN Groundforce罢工第3天·1179人·累计取消37班·谈判僵局·~200万旅客",
+      "description": "巴塞罗那El Prat机场Groundforce地勤8/4 0时起无限期罢工，进入第3天，1179名工人参与。8/4取消20班+8/5取消17班=累计37班取消。首日有航班未装行李起飞。谈判仍在僵局，工会称将维持无限期罢工。西班牙交通部设最低服务保障(35%-80%)。影响约200万旅客、Air Europa/LH/AF/QR/UA等20家航司。",
       "affected_airports": "BCN(巴塞罗那)全机场",
       "affected_airlines": "Air Europa/Lufthansa/Air France/Qatar Airways/United Airlines等",
       "passenger_impact": "值机/登机/行李服务中断风险，8月出行高峰",
@@ -265,10 +265,10 @@
           "url": "https://www.eldiario.es/catalunya/cgt-convoca-huelga-indefinida-partir-4-agosto-empresa-facturacion-embarque-prat_1_13416905.html"
         }
       ],
-      "last_updated": "2026-08-05T18:00:00+08:00",
+      "last_updated": "2026-08-06T09:00:00+08:00",
       "level": "P1",
       "priority": "P1",
-      "updated_at": "2026-08-05T18:14:10+08:00"
+      "updated_at": "2026-08-06T14:20:52+08:00"
     },
     {
       "id": "P1-11",
@@ -320,12 +320,12 @@
         }
       ],
       "is_new": false,
-      "last_updated": "2026-08-05T18:00:00+08:00",
+      "last_updated": "2026-08-06T09:00:00+08:00",
       "level": "P1",
       "affected_airports": "AHB/GIZ/YNB(沙特南部)+RUH/JED/TLV/IST出发受影响",
       "affected_airlines": "WestJet(+代码共享DL/AM/CZ)/阿曼航空/易捷/香料航空/CA/SC/LH",
       "passenger_impact": "沙特国内及区域航线持续中断",
-      "updated_at": "2026-08-05T18:14:10+08:00"
+      "updated_at": "2026-08-06T14:20:52+08:00"
     },
     {
       "id": "P1-5",
@@ -385,8 +385,8 @@
     {
       "id": "P1-8",
       "priority": "P1",
-      "title": "多航司中东航线调整·法航DXB延至8/18·霍尔木兹通行量仅战前5%·QR/EY 8/8恢复BAH",
-      "description": "法航DXB停飞延至8/18，BEY延至8/18，RUH延至8/14。AA延长TLV至2027年3月。霍尔木兹海峡8/4仅6艘船通过(战前日均125艘的5%)，海湾枢纽航空燃油供应链持续承压。QR/EY 8/8恢复BAH。",
+      "title": "多航司中东航线持续调整·EK/EY继续取消KWI/BAH·法航DXB延至8/18·汉莎削减2万班",
+      "description": "阿联酋EK继续取消DXB-KWI/BAH全部航班，EY取消AUH-BAH/KWI，Air Arabia取消SHJ-KWI/BAH/DOH。法航DXB延至8/18，BEY延至8/18，RUH延至8/14。QR/EY 8/8恢复BAH。汉莎因航油成本削减2万班欧洲短途航班并关闭CityLine业务线。",
       "airports": [
         "TLV"
       ],
@@ -408,11 +408,11 @@
       "impact": "JED(永久)·DXB·RUH·DMM·TLV·BAH·AMM·BEY",
       "created": "2026-07-28 16:00",
       "updated": "2026-07-28 16:00",
-      "last_updated": "2026-08-03T16:05:00+08:00",
+      "last_updated": "2026-08-06T09:00:00+08:00",
       "affected_airports": "JED/DXB/RUH/AMM/BEY/BAH/KWI等中东枢纽",
       "affected_airlines": "BA/法航/新航/国泰/KLM/汉莎/Royal Jordanian/Etihad/Air Arabia",
       "estimated_duration": "各航司8-10月不等，全面升级后恢复推迟",
-      "updated_at": "2026-08-05T09:00:00+08:00"
+      "updated_at": "2026-08-06T14:20:52+08:00"
     },
     {
       "id": "P2-1",
@@ -760,8 +760,8 @@
       "id": "P1-12",
       "level": "P1",
       "priority": "P1",
-      "title": "新增：SAS挪威空乘8/8罢工·468人否决工资协议·影响挪威国内+北欧国际航线",
-      "description": "SAS挪威分部468名空乘以显著多数否决工资协议，Fellesforbundet工会8/3发出罢工通知，8/8(周六)04:00起全面停工。另一工会Parat亦以近70%反对率否决协议，保留短期通知罢工权利。影响SAS挪威国内航线及从挪威出发的北欧国际航线。距罢工仍有5天窗口期，双方可能在最后时刻达成修订协议。医疗航班和朗伊尔城航线豁免。",
+      "title": "SAS挪威空乘8/8罢工·约750人(468+260)否决工资协议·今日Riksmekleren见面",
+      "description": "SAS挪威空乘Fellesforbundet468人+Parat约260人=约750人将于8/8(周六)04:00起停工。8/6(今日)双方将在Riksmekleren见面，Fellesforbundet主谈判员称未与SAS有额外接触。医疗航班和朗伊尔城航线豁免。影响SAS挪威国内航线及从挪威出发的北欧国际航线。",
       "category": "airline_ops",
       "impact_airports": "OSL等挪威机场",
       "airlines": "SAS",
@@ -776,8 +776,8 @@
         "https://www.globalbankingandfinance.com/sas-airline-cabin-crew-norway-plan-go-strike-august-8/"
       ],
       "created_at": "2026-08-04T16:16:14+08:00",
-      "updated_at": "2026-08-05T18:14:10+08:00",
-      "last_updated": "2026-08-05T18:00:00+08:00"
+      "updated_at": "2026-08-06T14:20:52+08:00",
+      "last_updated": "2026-08-06T09:00:00+08:00"
     },
     {
       "id": "P2-18",
@@ -823,17 +823,18 @@
       "id": "P2-21",
       "level": "P2",
       "priority": "P2",
-      "title": "危地马拉Fuego火山喷发·GUA机场8/3短暂关闭·当日恢复",
-      "description": "8月3日危地马拉Fuego火山大规模喷发，灰柱高达2公里，La Aurora国际机场(GUA)因跑道火山灰暂时关闭，至少2个进港航班改降。午后风向改变后恢复运营。8/4已正常运营。",
+      "title": "危地马拉Fuego火山活动显著升级·灰柱4-5km·ASHTAM发布·1700人撤离·GUA仍运营",
+      "description": "Fuego火山自8/4起活动显著升级，灰柱从2公里升至4-5公里。CONRED对三省发布红色警报，约1700人紧急撤离。DGAC已发布ASHTAM火山灰航空警告(FL140-FL250)。GUA机场目前仍保持运营但已发布安全提示。",
       "status": "resolved",
-      "updated_at": "2026-08-05T09:00:00+08:00"
+      "updated_at": "2026-08-06T14:20:52+08:00",
+      "last_updated": "2026-08-06T09:00:00+08:00"
     },
     {
       "id": "P1-13",
       "priority": "P1",
       "level": "P1",
-      "title": "新增：easyJet France空乘罢工预告·8/7-9/2·三工会联合·6个法国基地全空乘覆盖",
-      "description": "easyJet France三工会(SNPNC-FO/UNAC-CFE-CGC/UNPNC-CFDT)8/4联合提交罢工预告，覆盖8/7-9/2期间。较7/23首次预告新增第三工会UNAC-CFE-CGC且明确日期范围。6个法国基地(ORY/CDG/NCE/NTE/LYS/BOD)全部空乘覆盖。具体罢工日将提前48h通知。潜在影响面大，最早8/7可能受影响。",
+      "title": "easyJet France三工会罢工预告·8/7-9/2·6个法国基地全空乘覆盖·约1800员工",
+      "description": "三工会(SNPNC-FO/UNAC-CFE-CGC/UNPNC-CFDT)8/4联合提交罢工预告，覆盖8/7-9/2。6个法国基地(ORY/CDG/NCE/NTE/LYS/BOD)全部空乘覆盖，约1800名员工。具体罢工日将提前48h通知，目前尚未公布具体日期。工会称仍愿谈判。",
       "affected_airports": "ORY/CDG/NCE/NTE/LYS/BOD(6个法国基地)",
       "affected_airlines": "easyJet France",
       "passenger_impact": "6个法国基地全空乘覆盖，具体罢工日48h前通知",
@@ -845,8 +846,8 @@
         }
       ],
       "is_new": true,
-      "last_updated": "2026-08-05T18:00:00+08:00",
-      "updated_at": "2026-08-05T18:14:10+08:00"
+      "last_updated": "2026-08-06T09:00:00+08:00",
+      "updated_at": "2026-08-06T14:20:52+08:00"
     },
     {
       "id": "P2-22",
@@ -867,7 +868,119 @@
       "is_new": true,
       "last_updated": "2026-08-05T18:00:00+08:00",
       "updated_at": "2026-08-05T18:14:10+08:00"
+    },
+    {
+      "id": "P2-23",
+      "priority": "P2",
+      "level": "P2",
+      "title": "新增：莱比锡/哈雷机场(LEJ)爆炸物无人机+DHL货机空中碰撞·跑道短暂关闭",
+      "description": "8/4深夜23:40，德国莱比锡/哈雷机场南跑道旁发现携带爆炸装置的无人机(紧邻An-124货机)，拆弹机器人移除雷管。几乎同时一架DHL A300货机在起飞爬升阶段与不明空中物体相撞，鼻锥受损，备降汉诺威。两条跑道一度全部关闭，北跑道8/5凌晨01:55恢复。德内政部长称'新型危险'。",
+      "affected_airports": "LEJ(莱比锡/哈雷)",
+      "affected_airlines": "DHL/EAT Leipzig/Marabu",
+      "passenger_impact": "多架航班备降，跑道短暂关闭",
+      "estimated_duration": "已恢复(南跑道调查后重开)",
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://apnews.com/article/germany-leipzig-halle-airport-disruption-7812a9ca0916056dbe2530c9c8e90060"
+        },
+        {
+          "name": "AeroTime",
+          "url": "https://www.aerotime.aero/articles/leipzig-halle-airport-explosive-drone-collision"
+        }
+      ],
+      "is_new": true,
+      "last_updated": "2026-08-06T09:00:00+08:00",
+      "updated_at": "2026-08-06T14:20:52+08:00"
+    },
+    {
+      "id": "P2-24",
+      "priority": "P2",
+      "level": "P2",
+      "title": "新增：长安航空9H8470充电宝自燃备降武汉·无伤亡",
+      "description": "8/4 22:30，长安航空9H8470(南京-贵阳)巡航阶段旅客充电宝自燃起火。乘务组按锂电池失火应急程序处置，航班22:50安全备降武汉天河机场。无人员受伤，飞机状况安全适航。",
+      "affected_airports": "WUH(武汉天河)",
+      "affected_airlines": "长安航空(9H)",
+      "passenger_impact": "航班备降，无伤亡",
+      "estimated_duration": "已处置",
+      "sources": [
+        {
+          "name": "民航资源网",
+          "url": "https://i.carnoc.com/detail/665117"
+        },
+        {
+          "name": "中新网",
+          "url": "http://www.chinanews.com.cn/sh/2026/08-05/10672203.shtml"
+        }
+      ],
+      "is_new": true,
+      "last_updated": "2026-08-06T09:00:00+08:00",
+      "updated_at": "2026-08-06T14:20:52+08:00"
+    },
+    {
+      "id": "P2-25",
+      "priority": "P2",
+      "level": "P2",
+      "title": "新增：TLV本·古里安机场无人机侵入高峰时段全面停飞·已恢复",
+      "description": "8/5上午，一架民用无人机侵入以色列本·古里安机场(TLV)空域，机场在客流高峰时段暂停所有起降。以色列交通运输部总长下令调查。机场确认不构成威胁后逐步恢复运营。",
+      "affected_airports": "TLV(本·古里安)",
+      "affected_airlines": "以色列及国际航司",
+      "passenger_impact": "高峰时段短暂停飞",
+      "estimated_duration": "已恢复",
+      "sources": [
+        {
+          "name": "JPost",
+          "url": "https://www.jpost.com/israel-news/article-904691"
+        },
+        {
+          "name": "CGTN",
+          "url": "https://news.cgtn.com/news/2026-08-05/news-1PmEs73oj8Q/p.html"
+        }
+      ],
+      "is_new": true,
+      "last_updated": "2026-08-06T09:00:00+08:00",
+      "updated_at": "2026-08-06T14:20:52+08:00"
+    },
+    {
+      "id": "P2-26",
+      "priority": "P2",
+      "level": "P2",
+      "title": "新增：菲律宾棉兰老岛M6.4余震·无海啸预警·无航班影响",
+      "description": "8/5当地时间12:14，菲律宾棉兰老岛以南海域发生M6.4地震(Phivolcs测定)，震源深度13公里。为6月8日M7.8主震的余震。无海啸预警，暂无航班取消或机场受损报告。",
+      "affected_airports": "无(暂无影响)",
+      "affected_airlines": "无",
+      "passenger_impact": "无",
+      "estimated_duration": "无影响",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "http://www.xinhuanet.com/20260805/76fd865150764142911e49372d2b1df4/c.html"
+        }
+      ],
+      "is_new": true,
+      "last_updated": "2026-08-06T09:00:00+08:00",
+      "updated_at": "2026-08-06T14:20:52+08:00"
+    },
+    {
+      "id": "P2-27",
+      "priority": "P2",
+      "level": "P2",
+      "title": "新增：汉莎集团H1净亏5.42亿欧元·额外燃油成本17亿欧元·削减2万班短途航班",
+      "description": "汉莎集团公布2026年上半年净亏损5.42亿欧元(去年同期盈利1.27亿欧元)，全年额外燃油成本预计达17亿欧元。已削减2万班欧洲短途航班并关闭CityLine业务线。多家航司因航油价格翻倍而缩减运力或提价。",
+      "affected_airports": "欧洲全境枢纽",
+      "affected_airlines": "Lufthansa集团",
+      "passenger_impact": "欧洲短途航班减少，票价上涨",
+      "estimated_duration": "持续",
+      "sources": [
+        {
+          "name": "AirlineGeeks",
+          "url": "https://airlinegeeks.com/2026/08/04/lufthansa-adjusts-guidance-as-fuel-shock-continues/"
+        }
+      ],
+      "is_new": true,
+      "last_updated": "2026-08-06T09:00:00+08:00",
+      "updated_at": "2026-08-06T14:20:52+08:00"
     }
   ],
-  "push_time": "2026-08-05 18:30"
+  "push_time": "2026-08-06 14:30"
 }
