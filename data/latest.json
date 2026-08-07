@@ -1,15 +1,47 @@
 {
-  "date": "2026-08-06",
-  "period": "afternoon",
-  "generated_at": "2026-08-06T22:16:11+08:00",
-  "summary": "P0=6 P1=9(展示6) P2=29 | 台风白海豚重新增强至15级945hPa冲绳612航班取消9万人/霍尔木兹通行量骤降至2艘战前1.4%油轮听到2次爆炸声油价~80美元/EK全部BAH/KWI取消7班日/BCN罢工累计42班/美联航UA169自动驾驶双失效备降都柏林",
-  "situation": "PM推送：台风白海豚重新增强至15级(945hPa/48m/s)，冲绳612航班取消/9万人(较AM翻倍)，新增台风鲸鱼合并风险。霍尔木兹通行量骤降至2艘(战前1.4%)，油轮听到2次爆炸声，油价~80美元。EK全部BAH/KWI取消(7班/日)。BCN累计42班。P0巡查14:00/16:00/18:00/20:00均无新P0。",
+  "date": "2026-08-07",
+  "period": "morning",
+  "generated_at": "2026-08-07T08:35:00+08:00",
+  "summary": "台风白海豚路径确认登陆浙江至福建北部；霍尔木兹通航协议终审；俄乌9座+机场受限；多航司延长中东暂停至10月+；FAA要求737MAX机身检查",
+  "situation": "P0=6 P1=9(展示6) P2=31 总计46条事件",
   "events": [
+    {
+      "id": "P2-30",
+      "level": "P2",
+      "priority": 2,
+      "title": "FAA发布适航指令要求检查约1429架波音737MAX机身裂纹",
+      "description": "FAA于8/6发布AD，要求全球约1429架737 MAX 8/9/8-200进行机身结构检查。不要求立即停飞，定期维护周期内完成。",
+      "impact_airports": "全球737MAX机队",
+      "airlines": "Southwest/American/United/Alaska等",
+      "passenger_impact": "无立即影响",
+      "estimated_duration": "定期维护周期内",
+      "sources": [
+        "https://www.federalregister.gov/documents/2026/08/06/2026-15936/airworthiness-directives-the-boeing-company-airplanes"
+      ],
+      "created": "2026-08-07T08:30:00+08:00",
+      "updated": "2026-08-07T08:30:00+08:00"
+    },
+    {
+      "id": "P2-31",
+      "level": "P2",
+      "priority": 2,
+      "title": "Qantas远程飞行员投票授权罢工后达成原则性协议",
+      "description": "约1700名Qantas远程飞行员76-88%赞成授权罢工，随后达成原则性协议。暂无航班影响。",
+      "impact_airports": "Qantas国际远程航线",
+      "airlines": "Qantas",
+      "passenger_impact": "暂无影响",
+      "estimated_duration": "协议签署中",
+      "sources": [
+        "https://thewest.com.au/business/aviation/international-qantas-pilots-back-strike-action-as-pay-talks-drag-on-c-22683964"
+      ],
+      "created": "2026-08-07T08:30:00+08:00",
+      "updated": "2026-08-07T08:30:00+08:00"
+    },
     {
       "id": "P0-1",
       "priority": "P0",
-      "title": "霍尔木兹海峡通行量骤降至2艘(战前1.4%)·油轮在海峡听到2次爆炸声·油价升至~80美元·EK全部BAH/KWI取消",
-      "description": "霍尔木兹海峡商业通行量8/6进一步急剧萎缩至仅2艘(Kpler数据)，较前日10艘再降75%，为战前日均130-140艘的约1.4%。巴布曼德海峡同日仅1艘通过(前日20艘骤降)。UKMTO通报一艘油轮在阿曼库姆扎尔东南约9海里处航行时报告听到两次爆炸声，船员船只安全无油污泄漏，为近期第3起海峡安全事件。油价升至接近80美元/桶。Emirates全部BAH(3班/日)+KWI(4班/日)取消，至少至8/6，8/7起也未列出。Etihad取消AUH-BAH+AUH-KWI。QR确认8/8恢复KWI/BAH/EBL。flydubai和Air Arabia继续运营BAH/KWI。BA/KLM/LH/AF也调整中东航线。",
+      "title": "霍尔木兹通航协议进入终审 伊朗公开管理方案禁美以通行",
+      "description": "伊朗-阿曼通航协议进入终审阶段，可能数日内公布。临时协议60天不收费。伊朗8/6公开管理方案禁美以通行。通行量极低(8/5仅2艘)。EK KWI+BAH取消持续。EY KWI无限期取消。QR暂停至8/7。",
       "airports": [
         "DXB",
         "RUH",
@@ -42,7 +74,7 @@
         }
       ],
       "is_new": false,
-      "updated": "2026-07-28 16:00",
+      "updated": "2026-08-07T08:30:00+08:00",
       "affected_airports": "海湾枢纽全部(DXB/DOH/RUH/JED/MCT/BAH)、伊朗/伊拉克/约旦/黎巴嫩全境领空",
       "affected_airlines": "Emirates/Qatar/Saudia/Royal Jordanian(停飞3国)及所有经飞中东航司",
       "passenger_impact": "约旦皇家航空停飞3国航线，RUH一度关闭6h，海峡通行量9%基线，航煤供应链受双重封锁威胁",
@@ -54,7 +86,7 @@
     {
       "id": "P0-2",
       "priority": "P0",
-      "title": "委内瑞拉CCS机场第48天·6125人死亡·货运已恢复·客运8月中下旬",
+      "title": "CCS委内瑞拉第49天 6125死 货运已恢复",
       "description": "委内瑞拉6/24双震(7.2+7.5级)后CCS机场关闭42天，累计6125人死亡。今日(8/5)正式恢复货运运营(使用备用跑道，主跑道10R/28L仍有深层结构裂缝)。客运预计8月中下旬使用临时航站楼恢复。商业航班仍改降Valencia(VLN)。",
       "airports": [
         "CCS"
@@ -71,7 +103,8 @@
       "last_updated": "2026-08-06T09:00:00+08:00",
       "level": "P0",
       "estimated_duration": "关闭至7月底(今日最后一天)，8月状态待确认",
-      "updated_at": "2026-08-06T14:20:52+08:00"
+      "updated_at": "2026-08-06T14:20:52+08:00",
+      "updated": "2026-08-07T08:30:00+08:00"
     },
     {
       "id": "P0-3",
@@ -101,8 +134,8 @@
     {
       "id": "P0-5",
       "priority": "P0",
-      "title": "莫斯科NOTAM至8/12·8/5夜乌475架无人机反击·7城机场受限·5死6伤",
-      "description": "8/5夜乌克兰向俄罗斯17个联邦主体发射约475架无人机，为近期最大规模反击之一。Rosaviatsiya对彭扎、萨拉托夫等7座机场实施临时起降限制，莫斯科VKO/DME/ZIA三机场协调运行。莫斯科州5死6伤。所有限制8/5上午解除。另俄8/4夜对基辅发射28枚导弹+115架无人机，17死44伤。NOTAM仍有效至8/12。",
+      "title": "莫斯科NOTAM至8/12 俄乌8/6新一轮打击9座+机场受限 索契175班延误",
+      "description": "8/5夜-8/6俄对乌发射4枚导弹+101架无人机。乌反击致9座+机场受限。索契三度关闭175班延误。萨马拉紧急疏散。8/7凌晨限制延续。莫斯科NOTAM至8/12。",
       "airports": [
         "SVO",
         "DME",
@@ -129,7 +162,7 @@
         }
       ],
       "is_new": false,
-      "updated": "2026-07-28 16:00",
+      "updated": "2026-08-07T08:30:00+08:00",
       "last_updated": "2026-08-06T09:00:00+08:00",
       "level": "P0",
       "estimated_duration": "NOTAM至8/12，夜间袭击已连续3夜",
@@ -177,49 +210,10 @@
       "level": "P0"
     },
     {
-      "id": "P1-WSJ",
-      "priority": "P1",
-      "title": "西捷航空罢工结束·达成临时协议·累计取消900+·逐步恢复中·30天投票批准",
-      "description": "西捷空乘罢工约24小时后于8/4凌晨4:15 MT达成临时协议。罢工和锁定通知均已撤回，空乘返回工作岗位。累计取消900+架次，逐步恢复运营但仍有延误和部分取消，预计全面恢复仍需数天。临时协议须经30天工会成员投票批准。",
-      "airports": [
-        "YYC",
-        "YVR"
-      ],
-      "airlines": [
-        "WestJet"
-      ],
-      "passengers": "全面停飞日影响7-7.5万旅客",
-      "duration": "最早8/2罢工",
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://apnews.com/article/strike-westjet-flights-airline-attendants-travel-canada-dbd760ae8575e6bc7e8113043cc88e0d"
-        },
-        {
-          "name": "Global News",
-          "url": "https://globalnews.ca/news/12006781/westjet-strike-underway/"
-        }
-      ],
-      "is_new": false,
-      "last_updated": "2026-08-03T16:05:00+08:00",
-      "level": "P1",
-      "estimated_duration": "无固定期限，直至达成协议",
-      "affected_airports": "YYC(卡尔加里)/YVR(温哥华)/YYZ(多伦多)三大枢纽+NRT/ICN/EDI跨洋航线",
-      "affected_airlines": "WestJet(WS)+代码共享(DL/AM/CZ)",
-      "passenger_impact": "276航班取消，日7.5万人受影响，August长周末高峰",
-      "impact": {
-        "airports": "YYZ/YVR/YYC等加拿大全境",
-        "airlines": "WestJet全机队",
-        "passengers": "900+取消",
-        "duration": "恢复中"
-      },
-      "updated_at": "2026-08-04T09:00:00+08:00"
-    },
-    {
       "id": "P0-9",
       "priority": "P0",
-      "title": "台风白海豚(Dolphin)·重新增强至15级48m/s·945hPa·冲绳612航班取消/9万人受影响·JAL 205班ANA 246班",
-      "description": "JMA最新数据显示台风白海豚中心气压降至945hPa、最大风速升至48m/s(约15级)，较上午(955hPa/42m/s)再次增强。预计8/7穿过琉球群岛后移入东海。路径两种可能：(1)西行9日登陆长江口至福建北部(12-14级)；(2)近海北上10-11日影响上海至山东(10-11级)。8/6-8路径关键窗口。取消航班较AM翻倍：冲绳至少612航班取消、逾9万人受影响。JAL取消8/6-8共205班，ANA取消8/6-9共246班(约48000人)。新增：Solaseed Air 54班、Skymark 55班、Peach 52班。香港快运取消8/6-8往返HKG-OKA/ISG全部航班，大湾区航空取消8/7-8 HKG-OKA。92班渡轮取消。大东岛发布四级避难指示。新风险：第14号台风鲸鱼(Kujira)残余环流可能并入白海豚。",
+      "title": "台风白海豚路径确认：8/9-10登陆浙江至福建北部 OKA全天关闭744取消",
+      "description": "中央气象台8/7晨6时发布台风黄色预警：白海豚中心位于27.2°N/129.8°E（955hPa/42m/s，约14级），7日白天穿过琉球群岛后移入东海。预计8/9下午至8/10早晨在浙江至福建北部沿海登陆（35-42m/s，12-14级）——路径从此前两种可能收敛为登陆路径。福建已启动防台风三级应急响应，福州马尾至马祖\"小三通\"8/7-9双向停航。OKA 8/7全天关闭。累计744航班取消、3793航班延误。韩国四大航司+台湾航司加入。⚠️台风15号(鲸鱼)可能8/11接近日本北部。",
       "airports": [
         "日本东部航线(潜在)"
       ],
@@ -245,11 +239,12 @@
       "affected_airlines": "JAL/ANA/Solaseed Air/Skymark/Peach/香港快运/大湾区航空",
       "estimated_duration": "8/6-8/12影响",
       "passenger_impact": "612航班取消/逾9万人受影响",
-      "updated_at": "2026-08-06T22:16:11+08:00"
+      "updated_at": "2026-08-06T22:16:11+08:00",
+      "updated": "2026-08-07T08:30:00+08:00"
     },
     {
       "id": "P1-10",
-      "title": "巴塞罗那BCN Groundforce罢工第3天·1179人·累计取消42班·谈判僵局·~200万旅客",
+      "title": "BCN Groundforce罢工第4天 累计42班 谈判僵局",
       "description": "巴塞罗那El Prat机场Groundforce地勤8/4 0时起无限期罢工，进入第3天，1179名工人参与。8/4取消20班+8/5取消18班+8/6取消4班=累计42班。谈判仍在僵局，CGT工会称参与率很高，将维持无限期罢工。西班牙交通部设最低服务保障(35%-80%)。影响约200万旅客、Air Europa/LH/AF/QR/UA等20家航司。",
       "affected_airports": "BCN(巴塞罗那)全机场",
       "affected_airlines": "Air Europa/Lufthansa/Air France/Qatar Airways/United Airlines等",
@@ -268,7 +263,8 @@
       "last_updated": "2026-08-06T22:16:11+08:00",
       "level": "P1",
       "priority": "P1",
-      "updated_at": "2026-08-06T22:16:11+08:00"
+      "updated_at": "2026-08-06T22:16:11+08:00",
+      "updated": "2026-08-07T08:30:00+08:00"
     },
     {
       "id": "P1-11",
@@ -291,6 +287,50 @@
       "last_updated": "2026-08-01T09:00:00+08:00",
       "level": "P1",
       "priority": "P1"
+    },
+    {
+      "id": "P1-12",
+      "level": "P1",
+      "priority": "P1",
+      "title": "SAS挪威空乘8/8罢工 约750人 距1天",
+      "description": "SAS挪威空乘Fellesforbundet468人+Parat约260人=约750人将于8/8(周六)04:00起停工。8/6(今日)双方将在Riksmekleren见面，Fellesforbundet主谈判员称未与SAS有额外接触。医疗航班和朗伊尔城航线豁免。影响SAS挪威国内航线及从挪威出发的北欧国际航线。",
+      "category": "airline_ops",
+      "impact_airports": "OSL等挪威机场",
+      "airlines": "SAS",
+      "passenger_impact": "挪威国内+北欧国际航线",
+      "duration": "8/8起",
+      "sources": [
+        "NTB/Fellesforbundet官方",
+        "Reuters/Global Banking & Finance"
+      ],
+      "source_urls": [
+        "https://kommunikasjon.ntb.no/pressemelding/19009872",
+        "https://www.globalbankingandfinance.com/sas-airline-cabin-crew-norway-plan-go-strike-august-8/"
+      ],
+      "created_at": "2026-08-04T16:16:14+08:00",
+      "updated_at": "2026-08-06T14:20:52+08:00",
+      "last_updated": "2026-08-06T09:00:00+08:00",
+      "updated": "2026-08-07T08:30:00+08:00"
+    },
+    {
+      "id": "P1-13",
+      "priority": "P1",
+      "level": "P1",
+      "title": "easyJet France三工会罢工预告·8/7-9/2·6个法国基地全空乘覆盖·约1800员工",
+      "description": "三工会(SNPNC-FO/UNAC-CFE-CGC/UNPNC-CFDT)8/4联合提交罢工预告，覆盖8/7-9/2。6个法国基地(ORY/CDG/NCE/NTE/LYS/BOD)全部空乘覆盖，约1800名员工。具体罢工日将提前48h通知，目前尚未公布具体日期。工会称仍愿谈判。",
+      "affected_airports": "ORY/CDG/NCE/NTE/LYS/BOD(6个法国基地)",
+      "affected_airlines": "easyJet France",
+      "passenger_impact": "6个法国基地全空乘覆盖，具体罢工日48h前通知",
+      "estimated_duration": "8/7-9/2预告期，具体日期待通知",
+      "sources": [
+        {
+          "name": "Le Figaro",
+          "url": "https://www.lefigaro.fr/economie/easyjet-les-hotes-et-stewards-menacent-de-faire-greve-20260804"
+        }
+      ],
+      "is_new": true,
+      "last_updated": "2026-08-06T09:00:00+08:00",
+      "updated_at": "2026-08-06T14:20:52+08:00"
     },
     {
       "id": "P1-3",
@@ -385,8 +425,8 @@
     {
       "id": "P1-8",
       "priority": "P1",
-      "title": "多航司中东航线持续调整·EK全部BAH/KWI取消(7班/日)·QR确认8/8恢复KWI/BAH/EBL·汉莎削减2万班",
-      "description": "Emirates全部BAH(3班/日: EK835/837/839)+KWI(4班/日: EK853/855/857/859)取消，至少至8/6，8/7起也未列出。Etihad取消AUH-BAH+AUH-KWI(EY653/EY654)。QR确认8/8恢复KWI/BAH/EBL。flydubai和Air Arabia继续运营BAH/KWI。法航DXB延至8/18，BEY延至8/18，RUH延至8/14。BA/KLM/LH/AF也调整中东航线。汉莎削减2万班短途航班。",
+      "title": "多航司集中延长中东航线暂停至10月甚至2027年",
+      "description": "AC DXB+TLV延至2027年1月；KLM延至10/24；国泰延至10/25；汉莎海湾六地延至10/24；AY/ITA延至进一步通知。EK KWI+BAH取消。EY KWI无限期取消。QR暂停至8/7。",
       "airports": [
         "TLV"
       ],
@@ -403,12 +443,51 @@
       "level": "P1",
       "impact": "JED(永久)·DXB·RUH·DMM·TLV·BAH·AMM·BEY",
       "created": "2026-07-28 16:00",
-      "updated": "2026-07-28 16:00",
+      "updated": "2026-08-07T08:30:00+08:00",
       "last_updated": "2026-08-06T22:16:11+08:00",
       "affected_airports": "JED/DXB/RUH/AMM/BEY/BAH/KWI等中东枢纽",
       "affected_airlines": "BA/法航/新航/国泰/KLM/汉莎/Royal Jordanian/Etihad/Air Arabia",
       "estimated_duration": "各航司8-10月不等，全面升级后恢复推迟",
       "updated_at": "2026-08-06T22:16:11+08:00"
+    },
+    {
+      "id": "P1-WSJ",
+      "priority": "P1",
+      "title": "西捷航空罢工结束·达成临时协议·累计取消900+·逐步恢复中·30天投票批准",
+      "description": "西捷空乘罢工约24小时后于8/4凌晨4:15 MT达成临时协议。罢工和锁定通知均已撤回，空乘返回工作岗位。累计取消900+架次，逐步恢复运营但仍有延误和部分取消，预计全面恢复仍需数天。临时协议须经30天工会成员投票批准。",
+      "airports": [
+        "YYC",
+        "YVR"
+      ],
+      "airlines": [
+        "WestJet"
+      ],
+      "passengers": "全面停飞日影响7-7.5万旅客",
+      "duration": "最早8/2罢工",
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://apnews.com/article/strike-westjet-flights-airline-attendants-travel-canada-dbd760ae8575e6bc7e8113043cc88e0d"
+        },
+        {
+          "name": "Global News",
+          "url": "https://globalnews.ca/news/12006781/westjet-strike-underway/"
+        }
+      ],
+      "is_new": false,
+      "last_updated": "2026-08-03T16:05:00+08:00",
+      "level": "P1",
+      "estimated_duration": "无固定期限，直至达成协议",
+      "affected_airports": "YYC(卡尔加里)/YVR(温哥华)/YYZ(多伦多)三大枢纽+NRT/ICN/EDI跨洋航线",
+      "affected_airlines": "WestJet(WS)+代码共享(DL/AM/CZ)",
+      "passenger_impact": "276航班取消，日7.5万人受影响，August长周末高峰",
+      "impact": {
+        "airports": "YYZ/YVR/YYC等加拿大全境",
+        "airlines": "WestJet全机队",
+        "passengers": "900+取消",
+        "duration": "恢复中"
+      },
+      "updated_at": "2026-08-04T09:00:00+08:00"
     },
     {
       "id": "P2-1",
@@ -543,171 +622,6 @@
       "priority": "P2"
     },
     {
-      "id": "P2-2",
-      "level": "P2",
-      "title": "芬兰局部关闭芬兰湾领空·预防性军事措施",
-      "description": "7/28芬兰国防军因乌克兰无人机跨境风险，第三次预防性关闭芬兰湾东部领空(科特卡-哈米纳区域)。不影响赫尔辛基(HEL)等主要枢纽。",
-      "affected_airports": "芬兰湾东部区域(不影响HEL)",
-      "affected_airlines": "经飞该区域航司需改道",
-      "passenger_impact": "极小，区域有限",
-      "estimated_duration": "临时措施，已解除",
-      "sources": [
-        {
-          "name": "Defense News",
-          "url": "https://www.defensenews.com/global/europe/2026/07/28/finland-closes-airspace-restricts-maritime-traffic-near-russia-over-drone-risk/"
-        },
-        {
-          "name": "Ukrinform",
-          "url": "https://www.ukrinform.net/amp/rubric-emergencies/4148694-finland-restricts-air-and-maritime-traffic-due-to-drone-threat.html"
-        }
-      ],
-      "last_updated": "2026-07-29T09:00:00+08:00",
-      "priority": "P2"
-    },
-    {
-      "id": "P2-3",
-      "level": "P2",
-      "title": "美国航空(AA)全国IT故障·FAA停飞令1小时·7/29积压延续",
-      "description": "7/28美东18:30 AA发生全国性IT系统故障，FAA对全美所有未起飞AA航班发布ground stop，影响DFW/CLT/ORD/MIA/LAX/SFO等枢纽。19:30解除(约1小时)，7/29部分航班积压延续。",
-      "affected_airports": "DFW/CLT/ORD/MIA/LAX/SFO等AA枢纽",
-      "affected_airlines": "American Airlines",
-      "passenger_impact": "估算1.5-2万人受影响",
-      "estimated_duration": "已恢复，7/29残留积压",
-      "sources": [
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/sanfrancisco/news/american-airlines-ground-stop-nationwide-it-outage-faa/"
-        },
-        {
-          "name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/american-airlines-it-outage-faa-grounds-all-non-air-borne-american-flights-as-system-goes-down-101785279265270.html"
-        }
-      ],
-      "last_updated": "2026-07-29T09:00:00+08:00",
-      "priority": "P2"
-    },
-    {
-      "id": "P2-4",
-      "level": "P2",
-      "priority": "P2",
-      "title": "AMS→FCO 4架航班取消(KL/MF/GF/DL)",
-      "description": "AirLabs 7/29 PM数据显示阿姆斯特丹(AMS)→罗马(FCO)方向4架航班取消：KL1601(KLM)、MF9395(厦门航空)、GF5205(海湾航空)、DL9579(达美)。4家不同航司同一航线同时取消，原因待查证。",
-      "affected_airports": "AMS(阿姆斯特丹)/FCO(罗马)",
-      "affected_airlines": "KLM/厦门航空/海湾航空/达美",
-      "passenger_impact": "4架航班取消",
-      "estimated_duration": "待确认",
-      "sources": [
-        {
-          "name": "AirLabs实时数据",
-          "url": "https://airlabs.co"
-        }
-      ],
-      "last_updated": "2026-07-29T16:00:00+08:00"
-    },
-    {
-      "id": "P2-5",
-      "level": "P2",
-      "priority": "P2",
-      "title": "S7 Airlines A320发动机起火返场·166人安全",
-      "description": "7/29凌晨俄罗斯S7 Airlines航班S7 5115(新西伯利亚托尔马切沃→克拉斯诺达尔)起飞后发动机起火，机组空中灭火后安全返场托尔马切沃机场，160名乘客+6名机组共166人安全撤离，无伤亡。俄联邦侦查委员会已启动调查。",
-      "affected_airports": "OVB(新西伯利亚托尔马切沃)",
-      "affected_airlines": "S7 Airlines",
-      "passenger_impact": "1架航班返场，166人安全",
-      "estimated_duration": "已处理，调查中",
-      "sources": [
-        {
-          "name": "Interfax",
-          "url": "https://www.interfax.ru/russia/1106232"
-        },
-        {
-          "name": "KP.ru",
-          "url": "https://www.kp.ru/online/news/7095619/"
-        }
-      ],
-      "last_updated": "2026-07-30T09:00:00+08:00"
-    },
-    {
-      "id": "P2-6",
-      "title": "上海虹桥SHA暴雨暂停起降(7/31 14:00-16:40，已恢复)",
-      "description": "7/31下午上海虹桥机场(SHA)遭遇强暴雨，14:00-16:40期间暂停起降。目前已恢复正常运营。",
-      "affected_airports": "SHA(上海虹桥，已恢复)",
-      "affected_airlines": "东航/上航/国航等",
-      "passenger_impact": "7/31下午约2.5小时暂停起降，已恢复",
-      "estimated_duration": "已恢复",
-      "sources": [
-        {
-          "name": "此前信源",
-          "url": ""
-        }
-      ],
-      "last_updated": "2026-07-31T17:00:00+08:00",
-      "level": "P2",
-      "priority": "P2"
-    },
-    {
-      "id": "P2-7",
-      "title": "Etna火山致CTA关闭至7/31中午(154航班受影响，已重开)",
-      "description": "埃特纳火山7/31喷发，火山灰导致卡塔尼亚机场(CTA)关闭至7/31中午12:00。154架航班受影响。目前已重新开放。",
-      "affected_airports": "CTA(卡塔尼亚，已重开)",
-      "affected_airlines": "Ryanair/ITA/Wizz Air等",
-      "passenger_impact": "154架航班受影响，已恢复",
-      "estimated_duration": "已恢复",
-      "sources": [
-        {
-          "name": "此前信源",
-          "url": ""
-        }
-      ],
-      "last_updated": "2026-07-31T12:00:00+08:00",
-      "level": "P2",
-      "priority": "P2"
-    },
-    {
-      "id": "P2-8",
-      "title": "印尼勒沃托比火山再次喷发·警戒升至Level IV最高级·WIIE机场关闭至8/4·6航班取消",
-      "description": "印尼勒沃托比-拉基-拉基火山8/3凌晨再次喷发，灰柱约1.2公里。PVMBG将警戒升至最高Level IV。WIIE机场关闭至8/4 06:00 WITA，Wings Air和NAM AIR共6个航班取消。",
-      "affected_airports": "DPS(巴厘岛)及印尼东部小型机场",
-      "affected_airlines": "多家国际航司(具体名单待确认)",
-      "passenger_impact": "巴厘岛方向航班取消",
-      "estimated_duration": "待火山活动减弱，DPS航班恢复时间待定",
-      "sources": [
-        {
-          "name": "VAAC Toulouse",
-          "url": "https://vaac.meteo.fr/advisory/2026/211060_20260731010003/211060_20260731010003/"
-        },
-        {
-          "name": "iNews.id",
-          "url": "https://www.inews.id/regional/regional/gunung-lewotobi-laki-laki-erupsi-sore-ini-abu-tebal-menjulang-700-meter"
-        }
-      ],
-      "last_updated": "2026-08-02T09:00:00+08:00",
-      "level": "P2",
-      "priority": "P2",
-      "updated_at": "2026-08-04T09:00:00+08:00"
-    },
-    {
-      "id": "P2-9",
-      "title": "越南Bamboo Airways实质暂停商业运营·机队从44架缩至3架",
-      "description": "越南Bamboo Airways 8月1日起在官网停止显示所有商业航班可售座位，包括河内-胡志明市等主要内陆航线。机队从巅峰期44架缩减至仅约3架(实际在飞仅1架)。7/28公告向旅客致歉并开放退票，但退票处理时间延长。越南民航局尚未吊销运营证书，但商业运营实质已全面停滞。",
-      "affected_airports": "越南国内全网络(HAN/SGN/DAD等)",
-      "affected_airlines": "Bamboo Airways(QH)",
-      "passenger_impact": "已购票旅客退票处理中，越南国内航线覆盖缺口",
-      "estimated_duration": "无限期，等待正式停运或破产公告",
-      "sources": [
-        {
-          "name": "AeroCorner",
-          "url": "https://aerocorner.com/news/bamboo-airways-halts-scheduled-flights/"
-        },
-        {
-          "name": "Tuoi Tre",
-          "url": "https://news.tuoitre.vn/vietnams-bamboo-airways-shrinks-operations-continues-limited-charter-flights-103260801203016008.htm"
-        }
-      ],
-      "last_updated": "2026-08-02T09:00:00+08:00",
-      "level": "P2",
-      "priority": "P2"
-    },
-    {
       "id": "P2-15",
       "level": "P2",
       "priority": "P2",
@@ -753,29 +667,6 @@
       "updated_at": "2026-08-04T09:00:00+08:00"
     },
     {
-      "id": "P1-12",
-      "level": "P1",
-      "priority": "P1",
-      "title": "SAS挪威空乘8/8罢工·约750人(468+260)否决工资协议·今日Riksmekleren见面",
-      "description": "SAS挪威空乘Fellesforbundet468人+Parat约260人=约750人将于8/8(周六)04:00起停工。8/6(今日)双方将在Riksmekleren见面，Fellesforbundet主谈判员称未与SAS有额外接触。医疗航班和朗伊尔城航线豁免。影响SAS挪威国内航线及从挪威出发的北欧国际航线。",
-      "category": "airline_ops",
-      "impact_airports": "OSL等挪威机场",
-      "airlines": "SAS",
-      "passenger_impact": "挪威国内+北欧国际航线",
-      "duration": "8/8起",
-      "sources": [
-        "NTB/Fellesforbundet官方",
-        "Reuters/Global Banking & Finance"
-      ],
-      "source_urls": [
-        "https://kommunikasjon.ntb.no/pressemelding/19009872",
-        "https://www.globalbankingandfinance.com/sas-airline-cabin-crew-norway-plan-go-strike-august-8/"
-      ],
-      "created_at": "2026-08-04T16:16:14+08:00",
-      "updated_at": "2026-08-06T14:20:52+08:00",
-      "last_updated": "2026-08-06T09:00:00+08:00"
-    },
-    {
       "id": "P2-18",
       "level": "P2",
       "priority": "P2",
@@ -807,6 +698,28 @@
       "updated_at": "2026-08-05T09:00:00+08:00"
     },
     {
+      "id": "P2-2",
+      "level": "P2",
+      "title": "芬兰局部关闭芬兰湾领空·预防性军事措施",
+      "description": "7/28芬兰国防军因乌克兰无人机跨境风险，第三次预防性关闭芬兰湾东部领空(科特卡-哈米纳区域)。不影响赫尔辛基(HEL)等主要枢纽。",
+      "affected_airports": "芬兰湾东部区域(不影响HEL)",
+      "affected_airlines": "经飞该区域航司需改道",
+      "passenger_impact": "极小，区域有限",
+      "estimated_duration": "临时措施，已解除",
+      "sources": [
+        {
+          "name": "Defense News",
+          "url": "https://www.defensenews.com/global/europe/2026/07/28/finland-closes-airspace-restricts-maritime-traffic-near-russia-over-drone-risk/"
+        },
+        {
+          "name": "Ukrinform",
+          "url": "https://www.ukrinform.net/amp/rubric-emergencies/4148694-finland-restricts-air-and-maritime-traffic-due-to-drone-threat.html"
+        }
+      ],
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "priority": "P2"
+    },
+    {
       "id": "P2-20",
       "level": "P2",
       "priority": "P2",
@@ -824,26 +737,6 @@
       "status": "resolved",
       "updated_at": "2026-08-06T14:20:52+08:00",
       "last_updated": "2026-08-06T09:00:00+08:00"
-    },
-    {
-      "id": "P1-13",
-      "priority": "P1",
-      "level": "P1",
-      "title": "easyJet France三工会罢工预告·8/7-9/2·6个法国基地全空乘覆盖·约1800员工",
-      "description": "三工会(SNPNC-FO/UNAC-CFE-CGC/UNPNC-CFDT)8/4联合提交罢工预告，覆盖8/7-9/2。6个法国基地(ORY/CDG/NCE/NTE/LYS/BOD)全部空乘覆盖，约1800名员工。具体罢工日将提前48h通知，目前尚未公布具体日期。工会称仍愿谈判。",
-      "affected_airports": "ORY/CDG/NCE/NTE/LYS/BOD(6个法国基地)",
-      "affected_airlines": "easyJet France",
-      "passenger_impact": "6个法国基地全空乘覆盖，具体罢工日48h前通知",
-      "estimated_duration": "8/7-9/2预告期，具体日期待通知",
-      "sources": [
-        {
-          "name": "Le Figaro",
-          "url": "https://www.lefigaro.fr/economie/easyjet-les-hotes-et-stewards-menacent-de-faire-greve-20260804"
-        }
-      ],
-      "is_new": true,
-      "last_updated": "2026-08-06T09:00:00+08:00",
-      "updated_at": "2026-08-06T14:20:52+08:00"
     },
     {
       "id": "P2-22",
@@ -1036,7 +929,150 @@
       "affected_airlines": "Norse Atlantic Airways",
       "passenger_impact": "潜在影响跨大西洋低成本航线",
       "estimated_duration": "出售流程进行中"
+    },
+    {
+      "id": "P2-3",
+      "level": "P2",
+      "title": "美国航空(AA)全国IT故障·FAA停飞令1小时·7/29积压延续",
+      "description": "7/28美东18:30 AA发生全国性IT系统故障，FAA对全美所有未起飞AA航班发布ground stop，影响DFW/CLT/ORD/MIA/LAX/SFO等枢纽。19:30解除(约1小时)，7/29部分航班积压延续。",
+      "affected_airports": "DFW/CLT/ORD/MIA/LAX/SFO等AA枢纽",
+      "affected_airlines": "American Airlines",
+      "passenger_impact": "估算1.5-2万人受影响",
+      "estimated_duration": "已恢复，7/29残留积压",
+      "sources": [
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/sanfrancisco/news/american-airlines-ground-stop-nationwide-it-outage-faa/"
+        },
+        {
+          "name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/american-airlines-it-outage-faa-grounds-all-non-air-borne-american-flights-as-system-goes-down-101785279265270.html"
+        }
+      ],
+      "last_updated": "2026-07-29T09:00:00+08:00",
+      "priority": "P2"
+    },
+    {
+      "id": "P2-4",
+      "level": "P2",
+      "priority": "P2",
+      "title": "AMS→FCO 4架航班取消(KL/MF/GF/DL)",
+      "description": "AirLabs 7/29 PM数据显示阿姆斯特丹(AMS)→罗马(FCO)方向4架航班取消：KL1601(KLM)、MF9395(厦门航空)、GF5205(海湾航空)、DL9579(达美)。4家不同航司同一航线同时取消，原因待查证。",
+      "affected_airports": "AMS(阿姆斯特丹)/FCO(罗马)",
+      "affected_airlines": "KLM/厦门航空/海湾航空/达美",
+      "passenger_impact": "4架航班取消",
+      "estimated_duration": "待确认",
+      "sources": [
+        {
+          "name": "AirLabs实时数据",
+          "url": "https://airlabs.co"
+        }
+      ],
+      "last_updated": "2026-07-29T16:00:00+08:00"
+    },
+    {
+      "id": "P2-5",
+      "level": "P2",
+      "priority": "P2",
+      "title": "S7 Airlines A320发动机起火返场·166人安全",
+      "description": "7/29凌晨俄罗斯S7 Airlines航班S7 5115(新西伯利亚托尔马切沃→克拉斯诺达尔)起飞后发动机起火，机组空中灭火后安全返场托尔马切沃机场，160名乘客+6名机组共166人安全撤离，无伤亡。俄联邦侦查委员会已启动调查。",
+      "affected_airports": "OVB(新西伯利亚托尔马切沃)",
+      "affected_airlines": "S7 Airlines",
+      "passenger_impact": "1架航班返场，166人安全",
+      "estimated_duration": "已处理，调查中",
+      "sources": [
+        {
+          "name": "Interfax",
+          "url": "https://www.interfax.ru/russia/1106232"
+        },
+        {
+          "name": "KP.ru",
+          "url": "https://www.kp.ru/online/news/7095619/"
+        }
+      ],
+      "last_updated": "2026-07-30T09:00:00+08:00"
+    },
+    {
+      "id": "P2-6",
+      "title": "上海虹桥SHA暴雨暂停起降(7/31 14:00-16:40，已恢复)",
+      "description": "7/31下午上海虹桥机场(SHA)遭遇强暴雨，14:00-16:40期间暂停起降。目前已恢复正常运营。",
+      "affected_airports": "SHA(上海虹桥，已恢复)",
+      "affected_airlines": "东航/上航/国航等",
+      "passenger_impact": "7/31下午约2.5小时暂停起降，已恢复",
+      "estimated_duration": "已恢复",
+      "sources": [
+        {
+          "name": "此前信源",
+          "url": ""
+        }
+      ],
+      "last_updated": "2026-07-31T17:00:00+08:00",
+      "level": "P2",
+      "priority": "P2"
+    },
+    {
+      "id": "P2-7",
+      "title": "Etna火山致CTA关闭至7/31中午(154航班受影响，已重开)",
+      "description": "埃特纳火山7/31喷发，火山灰导致卡塔尼亚机场(CTA)关闭至7/31中午12:00。154架航班受影响。目前已重新开放。",
+      "affected_airports": "CTA(卡塔尼亚，已重开)",
+      "affected_airlines": "Ryanair/ITA/Wizz Air等",
+      "passenger_impact": "154架航班受影响，已恢复",
+      "estimated_duration": "已恢复",
+      "sources": [
+        {
+          "name": "此前信源",
+          "url": ""
+        }
+      ],
+      "last_updated": "2026-07-31T12:00:00+08:00",
+      "level": "P2",
+      "priority": "P2"
+    },
+    {
+      "id": "P2-8",
+      "title": "印尼勒沃托比火山再次喷发·警戒升至Level IV最高级·WIIE机场关闭至8/4·6航班取消",
+      "description": "印尼勒沃托比-拉基-拉基火山8/3凌晨再次喷发，灰柱约1.2公里。PVMBG将警戒升至最高Level IV。WIIE机场关闭至8/4 06:00 WITA，Wings Air和NAM AIR共6个航班取消。",
+      "affected_airports": "DPS(巴厘岛)及印尼东部小型机场",
+      "affected_airlines": "多家国际航司(具体名单待确认)",
+      "passenger_impact": "巴厘岛方向航班取消",
+      "estimated_duration": "待火山活动减弱，DPS航班恢复时间待定",
+      "sources": [
+        {
+          "name": "VAAC Toulouse",
+          "url": "https://vaac.meteo.fr/advisory/2026/211060_20260731010003/211060_20260731010003/"
+        },
+        {
+          "name": "iNews.id",
+          "url": "https://www.inews.id/regional/regional/gunung-lewotobi-laki-laki-erupsi-sore-ini-abu-tebal-menjulang-700-meter"
+        }
+      ],
+      "last_updated": "2026-08-02T09:00:00+08:00",
+      "level": "P2",
+      "priority": "P2",
+      "updated_at": "2026-08-04T09:00:00+08:00"
+    },
+    {
+      "id": "P2-9",
+      "title": "越南Bamboo Airways实质暂停商业运营·机队从44架缩至3架",
+      "description": "越南Bamboo Airways 8月1日起在官网停止显示所有商业航班可售座位，包括河内-胡志明市等主要内陆航线。机队从巅峰期44架缩减至仅约3架(实际在飞仅1架)。7/28公告向旅客致歉并开放退票，但退票处理时间延长。越南民航局尚未吊销运营证书，但商业运营实质已全面停滞。",
+      "affected_airports": "越南国内全网络(HAN/SGN/DAD等)",
+      "affected_airlines": "Bamboo Airways(QH)",
+      "passenger_impact": "已购票旅客退票处理中，越南国内航线覆盖缺口",
+      "estimated_duration": "无限期，等待正式停运或破产公告",
+      "sources": [
+        {
+          "name": "AeroCorner",
+          "url": "https://aerocorner.com/news/bamboo-airways-halts-scheduled-flights/"
+        },
+        {
+          "name": "Tuoi Tre",
+          "url": "https://news.tuoitre.vn/vietnams-bamboo-airways-shrinks-operations-continues-limited-charter-flights-103260801203016008.htm"
+        }
+      ],
+      "last_updated": "2026-08-02T09:00:00+08:00",
+      "level": "P2",
+      "priority": "P2"
     }
   ],
-  "push_time": "2026-08-06 22:16"
+  "push_time": "2026-08-07 08:35"
 }
