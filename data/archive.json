@@ -17304,6 +17304,16 @@
       "p1_count": 9,
       "p2_count": 31,
       "total": 46
+    },
+    {
+      "date": "2026-08-07",
+      "period": "afternoon",
+      "push_time": "2026-08-07 16:10",
+      "summary": "台风白海豚增强至45m/s/950hPa；霍尔木兹伊朗海军打击+油价$82.72+美军TLV撤离加油机；BALPA警告空客A320neo/A350灭火开关缺陷EASA发AD；Etna火山CTA进港暂停；勒沃托比火山WIIE关闭",
+      "p0_count": 6,
+      "p1_count": 10,
+      "p2_count": 34,
+      "total": 50
     }
   ]
 }
