@@ -1,33 +1,35 @@
 {
   "date": "2026-08-08",
-  "period": "morning",
-  "generated_at": "2026-08-08T09:44:00+08:00",
-  "push_time": "2026-08-08 09:00 AM",
-  "summary": "P0=6 P1=8(展示6) P2=38 Total=52。台风白海豚逼近华东NGB 8/9全天关闭。QR/EY恢复BAH/KWI航线EK仍停飞。SAS挪威罢工取消。EASA扩大空客检查至A350。",
-  "situation": "台风白海豚持续逼近华东，NGB宣布8/9全天关闭，WNZ取消32架次，8家航司免费退改。霍尔木兹QR/EY恢复BAH/KWI但EK仍停飞。SAS挪威罢工在最后时刻取消。BALPA空客缺陷EASA扩大检查至A350。",
+  "period": "afternoon",
+  "generated_at": "2026-08-08T16:10:00+08:00",
+  "push_time": "16:00",
+  "summary": "P0=6 P1=9(展示6) P2=41 Total=56。台风白海豚HGH杭州8/8取消69架次/台湾取消63国际航班/42座机场受影响。Collins Aerospace系统遭网络攻击欧洲多机场值机瘫痪BRU取消一半航班。Etna火山CTA连续第二日进港暂停。悉尼空管短缺连续2天延误。挪威6机场8/13罢工威胁。",
+  "situation": "台风白海豚逼近华东，HGH杭州首发实际大规模取消，42座机场纳入影响范围。Collins Aerospace网络攻击致欧洲多机场值机瘫痪。中东航线QR/EY恢复EK仍停飞。",
   "events": [
     {
       "id": "P0-9",
       "priority": 0,
       "level": "P0",
-      "title": "台风白海豚逼近华东：宁波机场8/9全天关闭 多航司发布免费退改",
-      "description": "白海豚维持强台风级(14级/45m/s/950hPa)，预计8/9晚至8/10早晨在浙江舟山到福建福鼎一带登陆(13-14级)。宁波机场NGB宣布8/8 23:30起停运，8/9全天停止运行。温州WNZ取消32架次。8家航司发布华东免费退改方案。OKA 8/7全天关闭。累计744取消/3793延误。",
-      "affected_airports": "NGB/WNZ/HGH/OKA",
+      "title": "台风白海豚：HGH杭州8/8取消69架次 台湾取消63国际航班 42座机场受影响",
+      "description": "白海豚维持强台风级(14级/45m/s/950hPa)，预计8/9晚至8/10早晨登陆浙江舟山到福建福鼎(13-14级)。HGH杭州8/8取消69架次(出港35+进港34)，台风影响从预测进入实际运营中断。WNZ取消41架次。台湾取消63个国际航班。飞常准预报42座机场纳入影响范围(含PVG/SHA/南京/福州/厦门等)。NGB 8/9全天关闭。8家航司发布华东免费退改。OKA 8/7全天关闭。累计744取消/3793延误。",
+      "affected_airports": "NGB/WNZ/HGH/PVG/SHA/OKA等42座",
       "affected_airlines": "国航/南航/东航/海南/长龙/山东/吉祥/春秋/JAL/ANA/大韩/韩亚",
-      "passenger_impact": "NGB全天关闭/WNZ 32取消/744取消/3793延误",
-      "estimated_duration": "8/8-8/10",
+      "passenger_impact": "NGB全天关闭/HGH 69取消/WNZ 41取消/台湾63取消/744取消/3793延误",
+      "estimated_duration": "8/8-8/12",
       "sources": [
-        "http://news.cnr.cn/local/dftj/20260808/t20260808_527753031.shtml",
-        "https://i.carnoc.com/detail/665327"
+        "https://www.scmp.com/news/china/article/3363380/typhoon-dolphin-causes-flight-chaos-china-shanghai-set-enter-danger-zone",
+        "https://m.jiemian.com/article/14894398.html"
       ],
       "is_new": false,
       "updated": true,
       "last_updated": "2026-08-08",
-      "updated_at": "2026-08-08T09:00:00+08:00",
+      "updated_at": "2026-08-08T16:00:00+08:00",
       "impact_airports": [
         "NGB",
         "WNZ",
         "HGH",
+        "PVG",
+        "SHA",
         "OKA"
       ]
     },
@@ -305,6 +307,30 @@
       "last_updated": "2026-08-07",
       "updated_at": "2026-08-07T16:10:00+08:00",
       "impact_airports": []
+    },
+    {
+      "id": "P1-15",
+      "level": "P1",
+      "priority": 1,
+      "title": "Collins Aerospace MUSE系统遭网络攻击 欧洲多机场值机瘫痪 BRU取消一半航班",
+      "description": "Collins Aerospace(RTX/原雷神子公司)MUSE值机/登机共享系统遭网络攻击。BRU受影响最严重，Eurocontrol要求航司8/8 04:00GMT至8/11 02:00GMT取消一半进出港航班。LHR值机排队超2h，BER同样受影响。NCSC介入调查。Collins Aerospace确认正在恢复系统。",
+      "affected_airports": "BRU/LHR/BER等欧洲枢纽",
+      "affected_airlines": "多家航司(共享MUSE系统)",
+      "passenger_impact": "BRU取消50%航班/LHR排队2h+/BER受影响",
+      "estimated_duration": "8/8-8/11",
+      "sources": [
+        "https://lenationalgeria.com/cyberattack-causes-flight-delays-cancellations-at-major-european-airports/",
+        "https://www.techshotsapp.com/technology/cyberattack-disrupts-check-in-systems-at-major-european-airports"
+      ],
+      "is_new": true,
+      "updated": true,
+      "last_updated": "2026-08-08",
+      "updated_at": "2026-08-08T16:00:00+08:00",
+      "impact_airports": [
+        "BRU",
+        "LHR",
+        "BER"
+      ]
     },
     {
       "id": "P2-30",
@@ -1056,6 +1082,72 @@
       ],
       "created": "2026-08-07 16:10",
       "updated": "2026-08-07 16:10"
+    },
+    {
+      "id": "P2-39",
+      "level": "P2",
+      "priority": 2,
+      "title": "Etna火山持续喷发 CTA卡塔尼亚机场连续第二日进港暂停",
+      "description": "意大利Etna火山8/8持续喷发释放火山灰，VAAC Toulouse发布ETNA.45/46/47号航空灰咨询。CTA进港航班再次暂停至12:00本地时间，为连续第二日受火山灰影响。部分进港航班改降巴勒莫(PMF)。",
+      "affected_airports": "CTA",
+      "affected_airlines": "多家运营CTA的航司",
+      "passenger_impact": "进港暂停/部分改降PMF",
+      "estimated_duration": "8/8(连续第2日)",
+      "sources": [
+        "https://www.fanpage.it/attualita/eruzione-etna-prosegue-lallerta-per-laeroporto-di-catania-sospesi-i-voli-in-arrivo-fino-alle-12-di-oggi/",
+        "https://tuttoggi.info/prosegue-eruzione-etna-con-cenere-vulcanica-sospesi-i-voli-in-arrivo-a-catania/1003438/"
+      ],
+      "is_new": true,
+      "updated": true,
+      "last_updated": "2026-08-08",
+      "updated_at": "2026-08-08T16:00:00+08:00",
+      "impact_airports": [
+        "CTA"
+      ]
+    },
+    {
+      "id": "P2-40",
+      "level": "P2",
+      "priority": 2,
+      "title": "悉尼机场空管人员短缺 连续两天大面积延误 110+航班受影响",
+      "description": "澳大利亚空管机构Airservices Australia因空管人员排班不足，在悉尼机场实施流量管制。8/7超110架次航班延误或取消，部分飞机停机坪等待超2h。8/8问题延续至第2天，航班延误最长达1h。影响Qantas/Virgin Australia/Jetstar/Rex等，溢出至全国及国际航线。",
+      "affected_airports": "SYD",
+      "affected_airlines": "Qantas/Virgin Australia/Jetstar/Rex",
+      "passenger_impact": "110+航班延误或取消/停机坪等待2h+",
+      "estimated_duration": "8/7-8/8(连续2天)",
+      "sources": [
+        "https://english.news.cn/asiapacific/20260808/ba98fe85f89444e982028c7bd6b933be/c.html",
+        "https://www.perthnow.com.au/news/sydney-airport-plunged-into-chaos-by-lack-of-air-traffic-controllers-c-22691079"
+      ],
+      "is_new": true,
+      "updated": true,
+      "last_updated": "2026-08-08",
+      "updated_at": "2026-08-08T16:00:00+08:00",
+      "impact_airports": [
+        "SYD"
+      ]
+    },
+    {
+      "id": "P2-41",
+      "level": "P2",
+      "priority": 2,
+      "title": "挪威6座机场8/13面临地勤罢工威胁 OSL最受影响",
+      "description": "挪威HK Norge工会8/7通知，将于8/11-12日与NHO Luftfart调解，若失败自8/13起在包括OSL在内的6座挪威机场发起地勤罢工。OSL受影响最大：Menzies Aviation 186名员工中120人准备罢工。Aviator和Widerøe Ground Handling员工亦在罢工范围内。",
+      "affected_airports": "OSL等6座挪威机场",
+      "affected_airlines": "Turkish Airlines等多家外国航司/Widerøe",
+      "passenger_impact": "潜在罢工/120人准备罢工(OSL)",
+      "estimated_duration": "8/13起(待调解结果)",
+      "sources": [
+        "https://kommunikasjon.ntb.no/pressemelding/19016095/fare-for-streik-pa-en-rekke-norske-flyplasser",
+        "https://frifagbevegelse.no/hknytt/seks-flyplasser-kan-bli-rammet-av-streik-6.158.1216836.f8ea7c41c3"
+      ],
+      "is_new": true,
+      "updated": true,
+      "last_updated": "2026-08-08",
+      "updated_at": "2026-08-08T16:00:00+08:00",
+      "impact_airports": [
+        "OSL"
+      ]
     }
   ]
 }
