@@ -17334,6 +17334,16 @@
       "p1_count": 9,
       "p2_count": 41,
       "total": 56
+    },
+    {
+      "date": "2026-08-09",
+      "period": "morning",
+      "push_time": "2026-08-09 08:35",
+      "summary": "P0=6 P1=9(展示6) P2=44 Total=59",
+      "p0_count": 6,
+      "p1_count": 9,
+      "p2_count": 44,
+      "total": 59
     }
   ]
 }
