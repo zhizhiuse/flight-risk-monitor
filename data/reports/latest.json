@@ -1,10 +1,10 @@
 {
   "date": "2026-08-09",
-  "period": "morning",
-  "generated_at": "2026-08-09T08:36:05+08:00",
-  "push_time": "2026-08-09 08:35",
-  "summary": "P0=6 P1=9(展示6) P2=44 Total=59",
-  "situation": "台风白海豚强度升级至15级，上海两场取消1384架次，宁波温州全天停飞；霍尔木兹伊朗导弹袭击ADNOC油轮并提6项条件；莫斯科397架无人机17+机场受限；Collins Aerospace网络攻击第2天",
+  "period": "afternoon",
+  "generated_at": "2026-08-09T16:07:46.250642+08:00",
+  "push_time": "2026-08-09 16:10",
+  "summary": "P0=6 P1=9(展示6) P2=46 Total=61",
+  "situation": "台风白海豚红色预警(最高级别)，HGH取消388架次，44座机场受影响，浙南5座全天停飞；莫斯科连续第二夜153架无人机，SVO/LED一度暂停；KLM 8/25恢复AMS-TLV；Collins Aerospace网络攻击第2天",
   "events": [
     {
       "id": "P2-1",
@@ -699,22 +699,64 @@
       "updated_at": "2026-08-09T08:35:00+08:00"
     },
     {
+      "id": "P2-45",
+      "level": "P2",
+      "priority": "P2",
+      "title": "悉尼机场捷星A320与卡塔尔B777地面近距碰撞险情",
+      "description": "8/9早晨7时，捷星JQ402(A320)在悉尼机场滑行时发现卡塔尔航空B777(空机被牵引)穿越前方路径，距离仅数米。捷星紧急制动，1名乘务员摔倒受伤。ATSB启动调查。事件发生在悉尼空管短缺持续流量管制背景下。",
+      "affected_airports": "SYD(悉尼)",
+      "affected_airlines": "Jetstar/Qatar Airways",
+      "passenger_impact": "1名乘务员受伤",
+      "estimated_duration": "ATSB调查中",
+      "sources": [
+        {
+          "name": "ATSB",
+          "url": "https://www.atsb.gov.au"
+        }
+      ],
+      "last_updated": "2026-08-09T16:00:00+08:00"
+    },
+    {
+      "id": "P2-46",
+      "level": "P2",
+      "priority": "P2",
+      "title": "FAA拟议787 Trent 1000发动机碎片防护适航指令",
+      "description": "FAA 8/7发布NPRM，要求检查装配RR Trent 1000的787-8/9/10右发风扇罩防护系统，存在双发同时失效风险。影响约22架美国注册787。公众意见征询期至9/21。",
+      "affected_airports": "全球787 Trent 1000机队",
+      "affected_airlines": "运营787 Trent 1000的美国航司",
+      "passenger_impact": "约22架美国注册787需检查",
+      "estimated_duration": "意见征询至9/21",
+      "sources": [
+        {
+          "name": "FAA",
+          "url": "https://www.faa.gov"
+        }
+      ],
+      "last_updated": "2026-08-09T16:00:00+08:00"
+    },
+    {
       "id": "P0-9",
       "priority": 0,
       "level": "P0",
-      "title": "台风白海豚强度升级至15级 上海两场取消1384架次 宁波温州全天停飞",
-      "description": "中央气象台8/9 06时继续发布台风橙色预警。白海豚8/9 05时中心位于温州偏东约305公里，强度进一步增强至15级（48m/s/940hPa）。预计9日晚至10日早晨在浙江舟山到福建福鼎一带沿海登陆（13-14级）。上海浦东(PVG)取消871+虹桥(SHA)取消513=1384架次（近六成）。浙江省内取消851架次：NGB 345全部取消（全天停飞），WNZ 291取消（无航班），舟山66全部取消，台州54全部取消，HGH 52取消，义乌17:00起暂停。上海+浙江超2200取消，中日累计超1000取消。8家航司发布免费退改。台风15号鲸鱼可能8/11接近日本北部。",
-      "affected_airports": "PVG/SHA/NGB/WNZ/HGH/舟山/台州/义乌等42座",
+      "title": "台风白海豚红色预警(最高级别) HGH取消388架次 44座机场受影响",
+      "description": "中央气象台8/9 10时将台风预警从橙色升级至最高级别红色预警。中心位于温州偏东约215公里，14级45m/s/950hPa。登陆路径收窄至三门到福鼎，最大可能三门至瑞安段。预计9日晚至10日早晨登陆（13-14级）。HGH实际取消388架次（↑AM的52），全天计划752架次超半数取消。受影响机场42→44座。浙南5座全天停飞（NGB/TZH/LSJ/WNZ/ZSH）。PVG/SHA八成以上取消。沪杭航班备降合肥11架。此前AM数据：PVG取消871+SHA取消513=1384架次，NGB 345全天停飞，WNZ 291无航班，浙江全省851取消，上海+浙江超2200取消。8家航司免费退改。台风15号鲸鱼可能8/11接近日本北部。",
+      "affected_airports": "PVG/SHA/HGH/NGB/WNZ/TZH/LSJ/ZSH等44座",
       "affected_airlines": "国航/南航/东航/海南/长龙/山东/吉祥/春秋/香港航空/国泰",
       "passenger_impact": "PVG+SHA 1384取消/NGB全天停飞/WNZ无航班/全省851取消",
       "estimated_duration": "8/9-8/10",
       "sources": [
-        "http://news.cnr.cn/native/gd/20260809/t20260809_527754217.shtml",
-        "http://www.xinhuanet.com/20260808/27c1e54c1fe94837b0f724c9e3a757f2/c.html"
+        {
+          "name": "央广网",
+          "url": "http://news.cnr.cn/native/gd/20260809/t20260809_527754217.shtml"
+        },
+        {
+          "name": "中国天气网",
+          "url": "http://www.weather.com.cn"
+        }
       ],
       "is_new": false,
       "updated": true,
-      "last_updated": "2026-08-09",
+      "last_updated": "2026-08-09T16:00:00+08:00",
       "updated_at": "2026-08-09T08:35:00+08:00",
       "impact_airports": [
         "NGB",
@@ -753,19 +795,25 @@
       "id": "P0-5",
       "priority": 0,
       "level": "P0",
-      "title": "莫斯科NOTAM至8/12 俄乌397架无人机袭击17+机场受限",
-      "description": "8/7夜-8/8凌晨乌克兰397架无人机袭击15个联邦主体（近期最大规模）。Rosaviatsiya对17+座机场实施临时起降限制。萨马拉/克拉斯诺达尔炼油厂被打击。12座8日上午解除限制，萨拉托夫/卡卢加/克拉斯诺达尔仍关闭。DME 8日晚再次转入协调模式。NOTAM至8/12（剩余3天）。",
+      "title": "莫斯科NOTAM至8/12 俄乌连续第二夜153架无人机 SVO/LED一度暂停",
+      "description": "PM更新：8/8夜-9/9凌晨乌克兰连续第二夜大规模袭击，153架无人机+FP-5 Flamingo巡航导弹（打击900公里外切博克萨雷军工厂）。莫斯科四大机场（SVO/VKO/DME/ZIA）受限，SVO 03:15起协调模式。LED一度暂停。10余座区域机场受限。坦波夫州7死25伤。限制白天逐步解除。AM已追踪：8/7夜-8/8凌晨397架无人机（近期最大规模），17+座机场受限，萨马拉/克拉斯诺达尔炼油厂被打击。NOTAM至8/12（剩余3天）。",
       "affected_airports": "莫斯科/索契/萨马拉等17+机场",
       "affected_airlines": "俄罗斯航司",
       "passenger_impact": "17+机场临时限制/DME超100架次延误",
       "estimated_duration": "NOTAM至8/12",
       "sources": [
-        "https://www.interfax.ru/russia/1108171",
-        "https://sputniknews.in/20260808/russian-air-defence-forces-down-397-ukrainian-drones-mod-11897025.html"
+        {
+          "name": "Interfax",
+          "url": "https://www.interfax.ru/russia/1108171"
+        },
+        {
+          "name": "Sputnik",
+          "url": "https://sputniknews.in/20260808/russian-air-defence-forces-down-397-ukrainian-drones-mod-11897025.html"
+        }
       ],
       "is_new": false,
       "updated": true,
-      "last_updated": "2026-08-09",
+      "last_updated": "2026-08-09T16:00:00+08:00",
       "updated_at": "2026-08-09T08:35:00+08:00",
       "impact_airports": [
         "SVO",
@@ -903,19 +951,25 @@
       "id": "P1-8",
       "priority": 1,
       "level": "P1",
-      "title": "多航司中东航线持续调整 QR/EY恢复BAH/KWI EK仍停飞",
-      "description": "QR 8/8恢复BAH/KWI/EBL。EY 8/8恢复BAH/KWI。EK仍停飞。AC延至2027年1月，KLM延至10/24，国泰延至10/25，汉莎延至10/24。以色列航线恢复：汉莎54→67班/周。",
-      "affected_airports": "DXB/AUH/DOH",
+      "title": "多航司中东航线持续调整 KLM 8/25恢复TLV QR/EY恢复BAH/KWI",
+      "description": "PM更新：KLM宣布8/25起恢复AMS-TLV航线，经停LCA技术经停（机组在LCA过夜），为停飞约6个月后首条恢复的欧洲方向TLV定期航班。机票已8/6开售。KLM的DXB/RUH/DMM仍延至10/24。其他：QR 8/8起恢复BAH/KWI/EBL。EY 8/8起恢复BAH/KWI。EK仍停飞。AF DXB延至8/18，BEY延至8/18，RUH延至8/14。Air Canada延至2027年1月；国泰延至10/25；汉莎海湾六地延至10/24。以色列航线逆势恢复：汉莎54→67班/周，Condor恢复FRA-TLV。",
+      "affected_airports": "DXB/AUH/DOH/AMS/TLV等",
       "affected_airlines": "EK/EY/QR/AC/KLM/国泰/汉莎/AY/ITA",
       "passenger_impact": "部分暂停至10月+",
       "estimated_duration": "各异",
       "sources": [
-        "https://gulfnews.com/business/aviation/qatar-airways-resumes-bahrain-kuwait-and-erbil-flights-1.500632642",
-        "https://www.travelpress.com/air-canada-extends-suspension-of-dubai-tel-aviv-flights/"
+        {
+          "name": "AviationA2Z",
+          "url": "https://aviationa2z.com/index.php/2026/08/08/klm-to-resume-tel-aviv-flights-from-august-25-with-cyprus-crew-stop/"
+        },
+        {
+          "name": "Gulf News",
+          "url": "https://gulfnews.com/business/aviation/qatar-airways-resumes-bahrain-kuwait-and-erbil-flights-1.500632642"
+        }
       ],
       "is_new": false,
       "updated": true,
-      "last_updated": "2026-08-08",
+      "last_updated": "2026-08-09T16:00:00+08:00",
       "updated_at": "2026-08-08T09:00:00+08:00",
       "impact_airports": [
         "DXB",
