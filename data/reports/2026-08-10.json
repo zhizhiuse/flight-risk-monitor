@@ -1285,6 +1285,300 @@
           "priority": "P2"
         }
       ]
+    },
+    {
+      "date": "2026-08-10",
+      "period": "afternoon",
+      "push_time": "2026-08-10T16:11:26+08:00",
+      "generated_at": "2026-08-10T16:11:26+08:00",
+      "summary": "P0-9台风白海豚沿海逐步恢复/全国取消1943架次/残余扩展6省14机场 | P0-1霍尔木兹IRGC接管封锁定性战场外交退步 | P1-15 Collins第4天系统未恢复BRU继续50%取消 | 新增P2-48 Etna火山再次喷发CTA进港暂停 | P2-40悉尼ATC整改措施公布",
+      "situation": "台风减弱沿海恢复但内陆影响扩展；霍尔木兹外交退步；Collins系统第4天未恢复",
+      "p0_count": 6,
+      "p1_count": 9,
+      "p2_count": 48,
+      "total": 63,
+      "events": [
+        {
+          "id": "P0-9",
+          "level": "P0",
+          "priority": 90,
+          "title": "台风白海豚减弱消散中 沿海机场逐步恢复 全国取消1943架次 残余系统扩展内陆6省",
+          "category": "自然灾害",
+          "detail": "中央气象台8/10上午发布最低级别台风预警（蓝色），白海豚已减弱为热带风暴（9级/23m/s/985hPa），中心位于浙江丽水龙泉。PM更新：全国取消1943架次(10.56%)。上海PVG642+SHA301=943取消。HGH 10:00全面复航，NGB 12:00恢复，WNZ 13:00恢复。NKG 68延误4国际备降。残余扩展至6省14机场。北京5区暴雨红色预警。超100万人疏散。",
+          "impact": "PVG/SHA/HGH/NGB/WNZ/NKG等44座",
+          "airlines": "国航/南航/东航/海南/长龙/山东/吉祥/春秋/国泰/阿联酋",
+          "passenger_impact": "全国1943取消(10.56%)",
+          "duration": "8/9-8/12+",
+          "sources": [
+            "民航资源网",
+            "Reuters/CNA"
+          ]
+        },
+        {
+          "id": "P0-1",
+          "level": "P0",
+          "priority": 91,
+          "title": "霍尔木兹：IRGC公开接管封锁立场 定性\"战场\" 外交路径退步",
+          "category": "地缘政治",
+          "detail": "IRGC发言人8/9通过Tasnim表态：海峡重开与美国接受伊朗条件挂钩，与阿曼谈判无关。将海峡定性为战场不仅是航道。特朗普称semi-negotiating。外长称仅为通过中间人交换信息。海峡关闭160+天。QR+EY恢复BAH/KWI/EBL，EK仍停飞。",
+          "impact": "DXB/AUH/DOH等海湾枢纽",
+          "airlines": "EK(停飞)/EY(恢复)/QR(恢复)/flydubai(取消)",
+          "passenger_impact": "EK仍停飞/QR+EY已恢复",
+          "duration": "第160+天",
+          "sources": [
+            "CNA",
+            "CBS News"
+          ]
+        },
+        {
+          "id": "P0-5",
+          "level": "P0",
+          "priority": 92,
+          "title": "莫斯科NOTAM至8/12 连续第三夜大规模袭击 首次昼间285架无人机",
+          "category": "地缘政治",
+          "detail": "8/9昼间乌克兰发动开战以来首次大规模昼间无人机攻击，9+联邦主体击落285架。入夜后新一轮限制：坦波夫/奔萨/萨拉托夫/萨马拉。连续第三夜：397→153→285+入夜。NOTAM至8/12（剩余2天）。",
+          "impact": "莫斯科/圣彼得堡/坦波夫/奔萨/萨拉托夫/萨马拉等",
+          "airlines": "俄罗斯航司",
+          "passenger_impact": "多座机场临时限制/喀山35班延误2取消",
+          "duration": "NOTAM至8/12",
+          "sources": [
+            "Interfax",
+            "Al Arabiya"
+          ]
+        },
+        {
+          "id": "P0-2",
+          "level": "P0",
+          "priority": 93,
+          "title": "CCS委内瑞拉第53天 6125死 货运已恢复",
+          "category": "自然灾害",
+          "detail": "委内瑞拉6/24双震后CCS机场关闭第53天，累计6125人死亡。8/5恢复货运，客运预计8月中下旬。",
+          "impact": "CCS机场",
+          "airlines": "多家国际航司",
+          "passenger_impact": "货运已恢复/客运8月中下旬",
+          "duration": "第53天",
+          "sources": [
+            "STAT Times",
+            "AP News"
+          ]
+        },
+        {
+          "id": "P0-3",
+          "level": "P0",
+          "priority": 94,
+          "title": "EASA中东CZIB预警延长至8/31",
+          "category": "地缘政治",
+          "detail": "EASA中东冲突区信息公告延长至8/31。",
+          "impact": "中东空域",
+          "airlines": "欧洲航司",
+          "passenger_impact": "航线规避",
+          "duration": "至8/31",
+          "sources": [
+            "EASA"
+          ]
+        },
+        {
+          "id": "P0-6",
+          "level": "P0",
+          "priority": 95,
+          "title": "精神航空5/2停运 34年终结 1.7万员工失业",
+          "category": "航司运营",
+          "detail": "Spirit Airlines 5月2日停运，34年历史终结，1.7万员工失业。",
+          "impact": "美国全境",
+          "airlines": "Spirit Airlines",
+          "passenger_impact": "1.7万员工",
+          "duration": "永久",
+          "sources": [
+            "AP News"
+          ]
+        },
+        {
+          "id": "P1-15",
+          "level": "P1",
+          "priority": 80,
+          "title": "Collins Aerospace MUSE系统遭网络攻击第4天 系统仍未恢复 BRU周一继续50%取消",
+          "category": "航司运营",
+          "detail": "Collins称处于完成软件更新的最终阶段，但系统未恢复。BRU继续取消50%(~140班)。LHR/BER缓解中。NCSC调查。航空业网络攻击2024-2025增长600%。",
+          "impact": "LHR/BRU/BER/DUB/ORK等",
+          "airlines": "BA(备用系统)/多航司",
+          "passenger_impact": "BRU取消50%(~140班)/LHR延误缓解",
+          "duration": "第4天系统未恢复",
+          "sources": [
+            "lenationalgeria.com(AFP)",
+            "BBC"
+          ]
+        },
+        {
+          "id": "P1-14",
+          "level": "P1",
+          "priority": 81,
+          "title": "BALPA警告空客A320neo/A350灭火开关缺陷 EASA扩大检查至A350",
+          "category": "航空安全",
+          "detail": "EASA已发AD对A320neo强制检查，新发提议AD要求检查A350。检查期限2027年11月。全球6000+架受影响。",
+          "impact": "全球A320neo/A350机队",
+          "airlines": "全球航司",
+          "passenger_impact": "6000+架受影响",
+          "duration": "检查期限2027年11月",
+          "sources": [
+            "oe24.at",
+            "FlightAware"
+          ]
+        },
+        {
+          "id": "P1-10",
+          "level": "P1",
+          "priority": 82,
+          "title": "BCN Groundforce罢工第7天 累计50班取消 1500件行李滞留",
+          "category": "航司运营",
+          "detail": "巴塞罗那Groundforce地勤8/4起无限期罢工第7天。累计50班取消，1500件行李滞留。无解决迹象。",
+          "impact": "BCN机场",
+          "airlines": "Air Europa/LH/AF/KLM/QR/EY等",
+          "passenger_impact": "约200万旅客/50班取消",
+          "duration": "无限期",
+          "sources": [
+            "Crónica Global",
+            "El Nacional"
+          ]
+        },
+        {
+          "id": "P1-13",
+          "level": "P1",
+          "priority": 83,
+          "title": "easyJet France三工会罢工预告 8/7-9/2 仍无具体日期",
+          "category": "航司运营",
+          "detail": "三工会联合提交罢工预告覆盖8/7-9/2。6个法国基地全空乘覆盖。仍无具体罢工日期，48h前通知。",
+          "impact": "ORY/CDG/NCE/NTE/LYS/BOD",
+          "airlines": "easyJet France",
+          "passenger_impact": "全空乘覆盖",
+          "duration": "8/7-9/2预告期",
+          "sources": [
+            "The Connexion",
+            "24matins.fr"
+          ]
+        },
+        {
+          "id": "P1-8",
+          "level": "P1",
+          "priority": 84,
+          "title": "多航司中东航线持续调整 UA 9/8+KLM 8/25恢复TLV IRGC\"战场\"表态",
+          "category": "地缘政治",
+          "detail": "UA 9/8恢复EWR-TLV每日2班(B787)，首个按原计划恢复TLV的美三大航。KLM 8/25恢复AMS-TLV经停LCA。IRGC 8/9将霍尔木兹定性战场。QR/EY恢复BAH/KWI/EBL，EK仍停飞。",
+          "impact": "DXB/AUH/DOH/AMS/TLV/EWR等",
+          "airlines": "EK/EY/QR/KLM/UA/AC/国泰/汉莎",
+          "passenger_impact": "部分暂停至10月+",
+          "duration": "各异",
+          "sources": [
+            "CNA",
+            "AviationA2Z"
+          ]
+        },
+        {
+          "id": "P1-3",
+          "level": "P1",
+          "priority": 85,
+          "title": "沙特南部四机场受影响 胡塞首次打击陆地机场",
+          "category": "地缘政治",
+          "detail": "胡塞8/4袭击沙特纳季兰机场EAM主雷达被毁。AHB/GIZ/YNB关闭+EAM停运。4机场受影响。",
+          "impact": "AHB/GIZ/YNB/EAM",
+          "airlines": "Saudia/flyadeal",
+          "passenger_impact": "4机场受影响",
+          "duration": "未定",
+          "sources": [
+            "briefing交叉验证"
+          ]
+        },
+        {
+          "id": "P1-5",
+          "level": "P1",
+          "priority": 86,
+          "title": "LGW地勤纠纷+燃油技术故障48h",
+          "category": "航司运营",
+          "detail": "Menzies加油投票8/11。",
+          "impact": "LGW",
+          "airlines": "多航司",
+          "passenger_impact": "延误",
+          "duration": "待定",
+          "sources": [
+            "briefing"
+          ]
+        },
+        {
+          "id": "P1-WSJ",
+          "level": "P1",
+          "priority": 87,
+          "title": "西捷罢工结束恢复中",
+          "category": "航司运营",
+          "detail": "西捷罢工已结束，恢复中。",
+          "impact": "加拿大",
+          "airlines": "WestJet",
+          "passenger_impact": "恢复中",
+          "duration": "恢复中",
+          "sources": [
+            "briefing"
+          ]
+        },
+        {
+          "id": "P1-11",
+          "level": "P1",
+          "priority": 88,
+          "title": "Izhavia AOC被撤销 8/1正式停飞",
+          "category": "航司运营",
+          "detail": "Izhavia AOC被撤销，8/1正式停飞。",
+          "impact": "俄罗斯",
+          "airlines": "Izhavia",
+          "passenger_impact": "停飞",
+          "duration": "永久",
+          "sources": [
+            "briefing"
+          ]
+        },
+        {
+          "id": "P2-1",
+          "level": "P2",
+          "priority": 50,
+          "title": "P2历史事件1-46汇总(详见AM推送)",
+          "category": "综合",
+          "detail": "P2-1至P2-46为此前推送中记录的低优先级事件。",
+          "impact": "各地",
+          "airlines": "各航司",
+          "passenger_impact": "各异",
+          "duration": "各异",
+          "sources": [
+            "历史推送"
+          ]
+        },
+        {
+          "id": "P2-47",
+          "level": "P2",
+          "priority": 51,
+          "title": "菲律宾布端机场A321neo滑行偏出跑道",
+          "category": "航空安全",
+          "detail": "Cebu Pacific A321neo(RP-C4120,5J786)8/9在布端机场(BXU)滑行偏出跑道。BXU临时关闭，11班取消。无伤亡。",
+          "impact": "BXU",
+          "airlines": "Cebu Pacific",
+          "passenger_impact": "11班取消",
+          "duration": "临时",
+          "sources": [
+            "briefing"
+          ]
+        },
+        {
+          "id": "P2-48",
+          "level": "P2",
+          "priority": 52,
+          "title": "意大利Etna火山8/10再次喷发 CTA进港暂停至17:00",
+          "category": "自然灾害",
+          "detail": "Etna火山8/10再次喷发产生火山灰云，卡塔尼亚CTA进港暂停至17:00本地时间。瑞安多个航班改降(FR9124/FR1087/FR6651)。8/7-8连续喷发后8/9短暂间歇后新一轮活跃。",
+          "impact": "CTA",
+          "airlines": "瑞安航空等",
+          "passenger_impact": "多航班改降",
+          "duration": "至17:00本地",
+          "sources": [
+            "Reuters",
+            "italiavola.com"
+          ]
+        }
+      ]
     }
   ]
 }
