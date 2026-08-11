@@ -17384,6 +17384,16 @@
       "p1_count": 10,
       "p2_count": 51,
       "total": 67
+    },
+    {
+      "date": "2026-08-11",
+      "period": "afternoon",
+      "push_time": "2026-08-11T16:11:59+08:00",
+      "summary": "P0-10哥伦比亚地震死亡上升至132/CLO已恢复/PEI受损最重 | P0-5莫斯科237架无人机袭莫斯科SVO临时停飞/NOTAM今日到期 | P2-51升级P1: Chan-hom台风NRT全部取消HND大量取消58班+/盂兰盆节高峰 | P1-8美军加油机TLV加速撤离2.48亿美元损失 | P1-15 Collins第5天 | 新增P2-52 AA鸟击MYR/P2-53 LH-VC调解",
+      "p0_count": 6,
+      "p1_count": 11,
+      "p2_count": 52,
+      "total": 69
     }
   ]
 }
