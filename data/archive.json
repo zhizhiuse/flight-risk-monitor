@@ -17735,6 +17735,19 @@
       "p1_count": 12,
       "p2_count": 62,
       "total": 80
+    },
+    {
+      "date": "2026-08-14",
+      "period": "afternoon",
+      "push_time": "2026-08-14T16:00:00+08:00",
+      "summary": {
+        "p0_count": 6,
+        "p1_count": 12,
+        "p1_display": 6,
+        "p2_count": 62,
+        "total": 80
+      },
+      "total": 80
     }
   ]
 }
