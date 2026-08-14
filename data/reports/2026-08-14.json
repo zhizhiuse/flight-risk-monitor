@@ -1,0 +1,241 @@
+{
+  "reports": [
+    {
+      "date": "2026-08-14",
+      "period": "morning",
+      "push_time": "2026-08-14T09:00:00+08:00",
+      "summary": {
+        "p0": 6,
+        "p1": 12,
+        "p2": 62,
+        "total": 80
+      },
+      "events": [
+        {
+          "id": "P0-1",
+          "priority": "P0",
+          "level": "critical",
+          "title": "霍尔木兹海峡：美防长首次表态可无限期维持封锁 ADNOC第17-18艘船遇袭 8/17停火倒计时3天",
+          "summary": "美防长赫格塞思8/13首次明确表态可无限期维持对伊朗海上封锁。ADNOC两艘船在海峡遇袭，UAE谴责为敌对的伊朗攻击。8/17停火到期倒计时3天。",
+          "airports": "DXB/DOH/AUH/BAH/KWI",
+          "airlines": "EK/QR/EY/flydubai/Air Arabia",
+          "impact": "无限期封锁/海峡不可通航/海湾航线中断",
+          "duration": "第166天",
+          "updated": "2026-08-14",
+          "sources": [
+            {
+              "name": "新华社",
+              "url": "https://app.xinhuanet.com"
+            },
+            {
+              "name": "RTE News",
+              "url": "https://www.rte.ie"
+            }
+          ]
+        },
+        {
+          "id": "P0-2",
+          "priority": "P0",
+          "level": "critical",
+          "title": "CCS委内瑞拉第57天 6125死 货运已恢复 客运8月中下旬",
+          "summary": "CCS机场关闭第57天。货运已恢复，客运预计8月中下旬。",
+          "airports": "CCS",
+          "airlines": "多家国际航司",
+          "impact": "货运已恢复/客运8月中下旬",
+          "duration": "第57天",
+          "updated": "2026-08-14",
+          "sources": [
+            {
+              "name": "AP News",
+              "url": "https://apnews.com"
+            }
+          ]
+        },
+        {
+          "id": "P0-3",
+          "priority": "P0",
+          "level": "critical",
+          "title": "EASA中东CZIB预警延长至8/31",
+          "summary": "EASA中东冲突区信息公告延长至8/31。",
+          "airports": "中东空域",
+          "airlines": "欧洲航司",
+          "impact": "航线规避",
+          "duration": "至8/31",
+          "updated": "2026-08-14",
+          "sources": [
+            {
+              "name": "EASA",
+              "url": "https://www.easa.europa.eu"
+            }
+          ]
+        },
+        {
+          "id": "P0-5",
+          "priority": "P0",
+          "level": "critical",
+          "title": "莫斯科NOTAM过期未续 362架无人机新高 DME/ZIA午后再受限 KLF一天两限",
+          "summary": "上午恢复运营后午后DME/ZIA再次受限(13:00-14:24 MSK)。KLF一天两限。此前362架无人机袭击13+机场。NOTAM已过期未续。",
+          "airports": "DME/ZIA/KLF/13+座",
+          "airlines": "俄罗斯航司",
+          "impact": "362无人机/DME/ZIA午后再限/KLF一天两限",
+          "duration": "持续",
+          "updated": "2026-08-14",
+          "sources": [
+            {
+              "name": "RIA Novosti",
+              "url": "https://ria.ru"
+            },
+            {
+              "name": "Interfax",
+              "url": "https://www.interfax-russia.ru"
+            }
+          ]
+        },
+        {
+          "id": "P0-6",
+          "priority": "P0",
+          "level": "critical",
+          "title": "精神航空5/2停运 34年终结 1.7万员工失业",
+          "summary": "Spirit Airlines 5月2日停运。",
+          "airports": "美国全境",
+          "airlines": "Spirit Airlines",
+          "impact": "1.7万员工",
+          "duration": "永久",
+          "updated": "2026-08-14",
+          "sources": [
+            {
+              "name": "AP News",
+              "url": "https://apnews.com"
+            }
+          ]
+        },
+        {
+          "id": "P0-10",
+          "priority": "P0",
+          "level": "critical",
+          "title": "哥伦比亚7.4级地震 死亡250+ 3机场恢复 PEI仍完全关闭",
+          "summary": "哥伦比亚西部8/10 M7.4地震死亡250+人。CLO/UIB/AXM恢复。PEI仍完全关闭。350+架次受影响。",
+          "airports": "PEI/MZL/CRC",
+          "airlines": "Avianca/LATAM/Copa/Iberia",
+          "impact": "PEI关闭/3仅人道/350+架次",
+          "duration": "待结构评估",
+          "updated": "2026-08-14",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com"
+            }
+          ]
+        },
+        {
+          "id": "P1-Etna",
+          "priority": "P1",
+          "level": "warning",
+          "title": "Etna火山CTA关闭延长至8/15 00:00 UTC（第8天）~700航班取消 10万+旅客",
+          "summary": "CTA关闭再延至8/15 00:00 UTC，第8天。8/13新增52架次取消，累计~700航班/10万+旅客。",
+          "airports": "CTA/MLA",
+          "airlines": "Swiss/KM/Jet2/Transavia",
+          "impact": "~700航班取消/10万+旅客",
+          "duration": "第8天/至8/15 00:00 UTC",
+          "updated": "2026-08-14",
+          "sources": [
+            {
+              "name": "LiveUniversity",
+              "url": "https://catania.liveuniversity.it"
+            }
+          ]
+        },
+        {
+          "id": "P1-Norway",
+          "priority": "P1",
+          "level": "warning",
+          "title": "挪威地勤罢工183人（8/18升至580人）OSL等6机场",
+          "summary": "地勤正式罢工183人，8/18升至580人。",
+          "airports": "OSL/特罗姆瑟等",
+          "airlines": "Menzies/Aviator/Widerøe等",
+          "impact": "183人(8/18→580人)",
+          "duration": "进行中",
+          "updated": "2026-08-14",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com"
+            }
+          ]
+        },
+        {
+          "id": "P1-10",
+          "priority": "P1",
+          "level": "warning",
+          "title": "BCN Groundforce罢工第11天 + 塔台电力故障",
+          "summary": "Groundforce罢工第11天。8/12塔台电力故障，~6000旅客受影响。",
+          "airports": "BCN",
+          "airlines": "Groundforce+ENAIRE",
+          "impact": "150班取消/塔台故障~6000旅客",
+          "duration": "无限期",
+          "updated": "2026-08-14",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es"
+            }
+          ]
+        },
+        {
+          "id": "P1-13",
+          "priority": "P1",
+          "level": "warning",
+          "title": "easyJet France空乘罢工 8/15-16 6基地1074人",
+          "summary": "easyJet France空乘罢工8/15-16，6基地1074人。明日开始。",
+          "airports": "ORY/CDG/NCE/NTE/LYS/BOD",
+          "airlines": "easyJet France",
+          "impact": "1074名空乘",
+          "duration": "8/15-16",
+          "updated": "2026-08-14",
+          "sources": [
+            {
+              "name": "La Ciutat",
+              "url": "https://laciutat.cat"
+            }
+          ]
+        },
+        {
+          "id": "P1-15",
+          "priority": "P1",
+          "level": "warning",
+          "title": "Collins Aerospace嫌疑人已捕 系统恢复中（第9天）",
+          "summary": "嫌疑人已捕，RTX提交SEC 8-K。系统恢复中(第9天)。",
+          "airports": "LHR/BRU/BER等",
+          "airlines": "BA/多航司",
+          "impact": "系统恢复中",
+          "duration": "第9天",
+          "updated": "2026-08-14",
+          "sources": [
+            {
+              "name": "Defence Connect",
+              "url": "https://www.defenceconnect.com.au"
+            }
+          ]
+        },
+        {
+          "id": "P1-BlackSea",
+          "priority": "P1",
+          "level": "warning",
+          "title": "黑海362无人机/13+机场/DME/ZIA午后再受限",
+          "summary": "362无人机新高/13+机场关闭/4军舰。午后DME/ZIA再次受限。",
+          "airports": "13+座/DME/ZIA/KLF",
+          "airlines": "俄罗斯航司/北约东翼",
+          "impact": "362无人机/午后再限",
+          "duration": "持续",
+          "updated": "2026-08-14",
+          "sources": [
+            {
+              "name": "Arab News",
+              "url": "https://www.arabnews.com"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

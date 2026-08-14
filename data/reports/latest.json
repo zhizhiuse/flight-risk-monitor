@@ -1,310 +1,236 @@
 {
-  "date": "2026-08-13",
-  "period": "afternoon",
-  "push_time": "16:00",
-  "generated_at": "2026-08-13T16:10:24+08:00",
-  "summary": "P0×6|P1×12(展示6)|P2=61 共79条事件",
-  "p0_count": 6,
-  "p1_count": 12,
-  "p2_count": 61,
-  "total": 79,
+  "date": "2026-08-14",
+  "period": "morning",
+  "generated_at": "2026-08-14T01:37:11Z",
+  "summary": {
+    "p0": 6,
+    "p1": 12,
+    "p2": 62,
+    "total": 80
+  },
   "events": [
     {
-      "id": "P2-new1",
-      "level": "P2",
-      "priority": 50,
-      "title": "FAA B787垂直尾翼螺栓腐蚀检查NPRM(116架/$38,260/架)",
-      "category": "航空安全",
-      "detail": "FAA发布B787垂直尾翼螺栓腐蚀检查拟议适航指令(NPRM)，116架美国注册787。",
-      "impact": "美国注册B787",
-      "airlines": "美国航司",
-      "passenger_impact": "检查中",
-      "duration": "NPRM阶段",
-      "sources": [
-        "FAA"
-      ]
-    },
-    {
-      "id": "P1-BlackSea",
-      "level": "P1",
-      "priority": 70,
-      "title": "362架无人机袭俄(新高) 13+座机场关闭 首次三型武器协同攻击海军基地 北约正式谴责",
-      "category": "地缘政治",
-      "detail": "首次三型武器协同打击新罗西斯克海军基地(4军舰含2艘11356型护卫舰)。362架无人机新高。13+座机场临时关闭。Aeroflot SVO 56/260班取消。北约东翼空域急剧恶化：爱沙尼亚/拉脱维亚/立陶宛。NAC正式谴责俄罗斯侵犯波兰/罗马尼亚领空。",
-      "impact": "13+座机场/波罗的海三国",
-      "airlines": "俄罗斯航司/北约东翼航司",
-      "passenger_impact": "362无人机/13+机场关闭/4军舰/波罗的海三国",
-      "duration": "持续",
-      "sources": [
-        "Arab News",
-        "Ukraina.ru"
-      ]
-    },
-    {
-      "id": "P1-Etna",
-      "level": "P1",
-      "priority": 71,
-      "title": "CTA关闭延长至8/14 02:00 UTC(第7天) 累计~700航班取消 10万+旅客",
-      "category": "自然灾害",
-      "detail": "CTA卡塔尼亚机场关闭从8/13 16:00延长至8/14 02:00 UTC，第7天。累计~700航班取消/250+改降/10万+旅客。CIY恢复。MLA继续取消。",
-      "impact": "CTA/MLA",
-      "airlines": "Swiss/KM/Jet2/Transavia等",
-      "passenger_impact": "~700航班取消/10万+旅客",
-      "duration": "第7天/CTA至8/14 02:00",
-      "sources": [
-        "oe24.at",
-        "Times of Malta"
-      ]
-    },
-    {
-      "id": "P1-Norway",
-      "level": "P1",
-      "priority": 72,
-      "title": "挪威机场地勤正式罢工 183人(8/18升至580人) OSL等6机场受影响(新增)",
-      "category": "航司运营",
-      "detail": "调解破裂后正式罢工，8/13零时起183人参与，涉及Menzies/Aviator/Widerøe Ground Handling等6家企业。8/18升至580人。",
-      "impact": "OSL/特罗姆瑟等6机场",
-      "airlines": "Menzies/Aviator/Widerøe等",
-      "passenger_impact": "183人罢工(8/18→580人)",
-      "duration": "进行中",
-      "sources": [
-        "Aviation24",
-        "Reuters"
-      ]
-    },
-    {
-      "id": "P1-13",
-      "level": "P1",
-      "priority": 73,
-      "title": "easyJet France空乘罢工日期确认 8/15-16 6基地1074名空乘",
-      "category": "航司运营",
-      "detail": "罢工日期确认8/15-16。覆盖ORY/CDG/NCE/NTE/LYS/BOD 6个基地，1074名空乘参与。",
-      "impact": "ORY/CDG/NCE/NTE/LYS/BOD",
-      "airlines": "easyJet France",
-      "passenger_impact": "1074名空乘",
-      "duration": "8/15-16",
-      "sources": [
-        "La Ciutat",
-        "easyJet"
-      ]
-    },
-    {
-      "id": "P1-15",
-      "level": "P1",
-      "priority": 74,
-      "title": "Collins Aerospace嫌疑人已捕 RTX提交SEC 8-K 系统仍离线(第8天)",
-      "category": "航司运营",
-      "detail": "英国NCA逮捕嫌疑人。RTX提交SEC 8-K。系统恢复中但未完全上线(第8天)。BRU此前要求取消50%出港航班。",
-      "impact": "LHR/BRU/BER等",
-      "airlines": "BA(备用系统)/多航司",
-      "passenger_impact": "系统恢复中(第8天)",
-      "duration": "持续",
-      "sources": [
-        "Defence Connect",
-        "Travel Weekly UK"
-      ]
-    },
-    {
-      "id": "P1-10",
-      "level": "P1",
-      "priority": 75,
-      "title": "BCN Groundforce罢工第10天 累计150班取消 2500件行李滞留",
-      "category": "航司运营",
-      "detail": "巴塞罗那El Prat机场Groundforce无限期罢工第10天。150架次取消/2000-2500件行李未装机。无解决迹象。",
-      "impact": "BCN机场",
-      "airlines": "Air Europa/LH/AF/KLM/QR/EY等",
-      "passenger_impact": "150班取消/2500件行李",
-      "duration": "无限期",
-      "sources": [
-        "La Ciutat",
-        "StrikeTracker"
-      ]
-    },
-    {
-      "id": "P1-8",
-      "level": "P1",
-      "priority": 76,
-      "title": "多航司中东航线风险",
-      "category": "地缘政治",
-      "detail": "多家航司中东航线受地缘政治影响持续调整。",
-      "impact": "中东航线",
-      "airlines": "多家",
-      "passenger_impact": "航线调整",
-      "duration": "持续",
-      "sources": [
-        "EASA"
-      ]
-    },
-    {
-      "id": "P1-3",
-      "level": "P1",
-      "priority": 77,
-      "title": "沙特南部四机场持续限制",
-      "category": "地缘政治",
-      "detail": "沙特南部四座机场因也门局势持续受限。",
-      "impact": "沙特南部机场",
-      "airlines": "沙特航司",
-      "passenger_impact": "持续限制",
-      "duration": "持续",
-      "sources": [
-        "EASA"
-      ]
-    },
-    {
-      "id": "P1-5",
-      "level": "P1",
-      "priority": 78,
-      "title": "LGW盖特威克地勤罢工",
-      "category": "航司运营",
-      "detail": "盖特威克机场地勤罢工持续。",
-      "impact": "LGW",
-      "airlines": "多航司",
-      "passenger_impact": "航班延误取消",
-      "duration": "持续",
-      "sources": [
-        "BBC"
-      ]
-    },
-    {
-      "id": "P1-WSJ",
-      "level": "P1",
-      "priority": 79,
-      "title": "西捷航空恢复运营中",
-      "category": "航司运营",
-      "detail": "WestJet逐步恢复运营。",
-      "impact": "加拿大",
-      "airlines": "WestJet",
-      "passenger_impact": "恢复中",
-      "duration": "恢复中",
-      "sources": [
-        "Reuters"
-      ]
-    },
-    {
-      "id": "P1-11",
-      "level": "P1",
-      "priority": 80,
-      "title": "Izhavia停飞",
-      "category": "航司运营",
-      "detail": "俄罗斯Izhavia停飞。",
-      "impact": "俄罗斯",
-      "airlines": "Izhavia",
-      "passenger_impact": "停飞",
-      "duration": "持续",
-      "sources": [
-        "Aviation24"
-      ]
-    },
-    {
-      "id": "P1-14",
-      "level": "P1",
-      "priority": 81,
-      "title": "BALPA空客A320neo/A350灭火开关缺陷 EASA扩大检查",
-      "category": "航空安全",
-      "detail": "BALPA警告A320neo/A350灭火开关缺陷。EASA强制检查。全球6000+架A320/300+架A350受影响。",
-      "impact": "全球A320neo/A350",
-      "airlines": "全球航司",
-      "passenger_impact": "6000+架受影响",
-      "duration": "检查至2027年11月",
-      "sources": [
-        "oe24.at",
-        "FlightAware"
-      ]
-    },
-    {
       "id": "P0-1",
-      "level": "P0",
-      "priority": 90,
-      "title": "霍尔木兹重大升级：Trump声称total control 伊朗公开驳斥 日本首相介入 停火8/17到期倒计时4天",
-      "category": "地缘政治",
-      "detail": "PM重大升级：美伊首次就霍尔木兹海峡控制权公开正面对峙。Trump 8/13在Truth Social声称total control并称WILL KEEP IT。伊朗波斯湾海峡管理局X平台驳斥称美方声明不改变现实。日本首相高市早苗与伊朗总统佩泽希齐扬第六次电话会谈。8/17停火到期仅剩4天。Kpler 8月数据：166艘通过(日均个位数,战前130-140艘)。美军首打集装箱船Vela Nova/伊朗拒绝开放/曼德海峡胡塞6死。",
-      "impact": "霍尔木兹海峡",
-      "airlines": "全球航运/海湾航司",
-      "passenger_impact": "日均通行个位数/海峡对峙/8/17停火倒计时4天",
-      "duration": "第165天",
+      "priority": "P0",
+      "level": "critical",
+      "title": "霍尔木兹海峡：美防长首次表态可无限期维持封锁 ADNOC第17-18艘船遇袭 8/17停火倒计时3天",
+      "summary": "美防长赫格塞思8/13首次明确表态可无限期维持对伊朗海上封锁。ADNOC两艘船在海峡遇袭，UAE谴责为敌对的伊朗攻击。8/17停火到期倒计时3天。",
+      "airports": "DXB/DOH/AUH/BAH/KWI",
+      "airlines": "EK/QR/EY/flydubai/Air Arabia",
+      "impact": "无限期封锁/海峡不可通航/海湾航线中断",
+      "duration": "第166天",
+      "updated": "2026-08-14",
       "sources": [
-        "Iran International",
-        "Kpler",
-        "CGTN",
-        "Arab Times"
-      ]
-    },
-    {
-      "id": "P0-10",
-      "level": "P0",
-      "priority": 91,
-      "title": "哥伦比亚7.4级地震 死亡250+ 3机场恢复 PEI仍完全关闭",
-      "category": "自然灾害",
-      "detail": "死亡250+人。3座恢复(CLO/UIB/AXM)，3座仅人道航班(MZL/CRC/布埃纳文图拉)，PEI仍完全关闭无重开日期。350+架次受影响。",
-      "impact": "PEI/MZL/CRC",
-      "airlines": "Avianca/LATAM/Copa/Iberia",
-      "passenger_impact": "PEI仍关闭/350+架次受影响",
-      "duration": "待结构评估",
-      "sources": [
-        "Sight Magazine",
-        "Reuters"
-      ]
-    },
-    {
-      "id": "P0-5",
-      "level": "P0",
-      "priority": 92,
-      "title": "莫斯科NOTAM过期未续 362架无人机攻击(新高) 13+座机场关闭 首次三型武器协同攻击海军基地",
-      "category": "地缘政治",
-      "detail": "PM重大更新：首次三型武器协同打击新罗西斯克海军基地(4军舰含2艘护卫舰)。362架无人机新高。13+座机场关闭。3死24伤(含8岁儿童)/石油终端起火/全城断水。NOTAM 8/12到期未续期。波罗的海三国空域恶化/北约正式谴责俄罗斯侵犯领空。",
-      "impact": "13+座机场(AER/KUF/UFA/PEZ/GSX/KRR等)",
-      "airlines": "俄罗斯航司",
-      "passenger_impact": "362无人机/13+机场关闭/4军舰/3死24伤/NOTAM过期",
-      "duration": "持续",
-      "sources": [
-        "Arab News",
-        "Ukraina.ru"
+        {
+          "name": "新华社",
+          "url": "https://app.xinhuanet.com"
+        },
+        {
+          "name": "RTE News",
+          "url": "https://www.rte.ie"
+        }
       ]
     },
     {
       "id": "P0-2",
-      "level": "P0",
-      "priority": 93,
-      "title": "CCS委内瑞拉第56天 6125死 货运已恢复",
-      "category": "自然灾害",
-      "detail": "CCS机场关闭第56天，累计6125人死亡。8/5已恢复货运，客运预计8月中下旬。",
-      "impact": "CCS机场",
+      "priority": "P0",
+      "level": "critical",
+      "title": "CCS委内瑞拉第57天 6125死 货运已恢复 客运8月中下旬",
+      "summary": "CCS机场关闭第57天。货运已恢复，客运预计8月中下旬。",
+      "airports": "CCS",
       "airlines": "多家国际航司",
-      "passenger_impact": "货运已恢复/客运8月中下旬",
-      "duration": "第56天",
+      "impact": "货运已恢复/客运8月中下旬",
+      "duration": "第57天",
+      "updated": "2026-08-14",
       "sources": [
-        "STAT Times",
-        "AP News"
+        {
+          "name": "AP News",
+          "url": "https://apnews.com"
+        }
       ]
     },
     {
       "id": "P0-3",
-      "level": "P0",
-      "priority": 94,
+      "priority": "P0",
+      "level": "critical",
       "title": "EASA中东CZIB预警延长至8/31",
-      "category": "地缘政治",
-      "detail": "EASA中东冲突区信息公告(CZIB)延长至8/31。",
-      "impact": "中东空域",
+      "summary": "EASA中东冲突区信息公告延长至8/31。",
+      "airports": "中东空域",
       "airlines": "欧洲航司",
-      "passenger_impact": "航线规避",
+      "impact": "航线规避",
       "duration": "至8/31",
+      "updated": "2026-08-14",
       "sources": [
-        "EASA"
+        {
+          "name": "EASA",
+          "url": "https://www.easa.europa.eu"
+        }
+      ]
+    },
+    {
+      "id": "P0-5",
+      "priority": "P0",
+      "level": "critical",
+      "title": "莫斯科NOTAM过期未续 362架无人机新高 DME/ZIA午后再受限 KLF一天两限",
+      "summary": "上午恢复运营后午后DME/ZIA再次受限(13:00-14:24 MSK)。KLF一天两限。此前362架无人机袭击13+机场。NOTAM已过期未续。",
+      "airports": "DME/ZIA/KLF/13+座",
+      "airlines": "俄罗斯航司",
+      "impact": "362无人机/DME/ZIA午后再限/KLF一天两限",
+      "duration": "持续",
+      "updated": "2026-08-14",
+      "sources": [
+        {
+          "name": "RIA Novosti",
+          "url": "https://ria.ru"
+        },
+        {
+          "name": "Interfax",
+          "url": "https://www.interfax-russia.ru"
+        }
       ]
     },
     {
       "id": "P0-6",
-      "level": "P0",
-      "priority": 95,
+      "priority": "P0",
+      "level": "critical",
       "title": "精神航空5/2停运 34年终结 1.7万员工失业",
-      "category": "航司运营",
-      "detail": "Spirit Airlines 5月2日停运，34年历史终结，1.7万员工失业。",
-      "impact": "美国全境",
+      "summary": "Spirit Airlines 5月2日停运。",
+      "airports": "美国全境",
       "airlines": "Spirit Airlines",
-      "passenger_impact": "1.7万员工",
+      "impact": "1.7万员工",
       "duration": "永久",
+      "updated": "2026-08-14",
       "sources": [
-        "AP News"
+        {
+          "name": "AP News",
+          "url": "https://apnews.com"
+        }
+      ]
+    },
+    {
+      "id": "P0-10",
+      "priority": "P0",
+      "level": "critical",
+      "title": "哥伦比亚7.4级地震 死亡250+ 3机场恢复 PEI仍完全关闭",
+      "summary": "哥伦比亚西部8/10 M7.4地震死亡250+人。CLO/UIB/AXM恢复。PEI仍完全关闭。350+架次受影响。",
+      "airports": "PEI/MZL/CRC",
+      "airlines": "Avianca/LATAM/Copa/Iberia",
+      "impact": "PEI关闭/3仅人道/350+架次",
+      "duration": "待结构评估",
+      "updated": "2026-08-14",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com"
+        }
+      ]
+    },
+    {
+      "id": "P1-Etna",
+      "priority": "P1",
+      "level": "warning",
+      "title": "Etna火山CTA关闭延长至8/15 00:00 UTC（第8天）~700航班取消 10万+旅客",
+      "summary": "CTA关闭再延至8/15 00:00 UTC，第8天。8/13新增52架次取消，累计~700航班/10万+旅客。",
+      "airports": "CTA/MLA",
+      "airlines": "Swiss/KM/Jet2/Transavia",
+      "impact": "~700航班取消/10万+旅客",
+      "duration": "第8天/至8/15 00:00 UTC",
+      "updated": "2026-08-14",
+      "sources": [
+        {
+          "name": "LiveUniversity",
+          "url": "https://catania.liveuniversity.it"
+        }
+      ]
+    },
+    {
+      "id": "P1-Norway",
+      "priority": "P1",
+      "level": "warning",
+      "title": "挪威地勤罢工183人（8/18升至580人）OSL等6机场",
+      "summary": "地勤正式罢工183人，8/18升至580人。",
+      "airports": "OSL/特罗姆瑟等",
+      "airlines": "Menzies/Aviator/Widerøe等",
+      "impact": "183人(8/18→580人)",
+      "duration": "进行中",
+      "updated": "2026-08-14",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com"
+        }
+      ]
+    },
+    {
+      "id": "P1-10",
+      "priority": "P1",
+      "level": "warning",
+      "title": "BCN Groundforce罢工第11天 + 塔台电力故障",
+      "summary": "Groundforce罢工第11天。8/12塔台电力故障，~6000旅客受影响。",
+      "airports": "BCN",
+      "airlines": "Groundforce+ENAIRE",
+      "impact": "150班取消/塔台故障~6000旅客",
+      "duration": "无限期",
+      "updated": "2026-08-14",
+      "sources": [
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es"
+        }
+      ]
+    },
+    {
+      "id": "P1-13",
+      "priority": "P1",
+      "level": "warning",
+      "title": "easyJet France空乘罢工 8/15-16 6基地1074人",
+      "summary": "easyJet France空乘罢工8/15-16，6基地1074人。明日开始。",
+      "airports": "ORY/CDG/NCE/NTE/LYS/BOD",
+      "airlines": "easyJet France",
+      "impact": "1074名空乘",
+      "duration": "8/15-16",
+      "updated": "2026-08-14",
+      "sources": [
+        {
+          "name": "La Ciutat",
+          "url": "https://laciutat.cat"
+        }
+      ]
+    },
+    {
+      "id": "P1-15",
+      "priority": "P1",
+      "level": "warning",
+      "title": "Collins Aerospace嫌疑人已捕 系统恢复中（第9天）",
+      "summary": "嫌疑人已捕，RTX提交SEC 8-K。系统恢复中(第9天)。",
+      "airports": "LHR/BRU/BER等",
+      "airlines": "BA/多航司",
+      "impact": "系统恢复中",
+      "duration": "第9天",
+      "updated": "2026-08-14",
+      "sources": [
+        {
+          "name": "Defence Connect",
+          "url": "https://www.defenceconnect.com.au"
+        }
+      ]
+    },
+    {
+      "id": "P1-BlackSea",
+      "priority": "P1",
+      "level": "warning",
+      "title": "黑海362无人机/13+机场/DME/ZIA午后再受限",
+      "summary": "362无人机新高/13+机场关闭/4军舰。午后DME/ZIA再次受限。",
+      "airports": "13+座/DME/ZIA/KLF",
+      "airlines": "俄罗斯航司/北约东翼",
+      "impact": "362无人机/午后再限",
+      "duration": "持续",
+      "updated": "2026-08-14",
+      "sources": [
+        {
+          "name": "Arab News",
+          "url": "https://www.arabnews.com"
+        }
       ]
     }
   ]
