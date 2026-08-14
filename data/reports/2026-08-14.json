@@ -251,137 +251,85 @@
       "events": [
         {
           "id": "P0-1",
-          "title": "霍尔木兹海峡封锁升级为“无限期”",
-          "summary": "美国防长赫格塞思首次明确“无限期封锁”霍尔木兹海峡，财长贝森特宣布禁止物品进出伊朗港口。IRGC海军司令Azmy正式重申“完全且决定性关闭”，任何船只通行须经伊朗武装力量许可。Kpler数据显示仅约9艘船通过（战前日均95艘）。ADNOC第17-18艘船在海峡遇袭，UAE谴责“敌对的伊朗攻击”。日本首相高市早苗首次公开施压伊朗要求“自由安全航行且无额外费用”。8/17停火到期倒计时3天，双方均无让步迹象。",
-          "fields": "EK/EY/QR等海湾航司全面停运｜海湾航线全面中断｜无限期（至少至8/17停火到期）",
-          "sources": [
-            "https://www.reuters.com",
-            "https://www.aljazeera.com"
-          ],
-          "level": "P0",
-          "priority": 0
-        },
-        {
-          "id": "P0-10",
-          "title": "哥伦比亚7.4级地震，死亡250+人",
-          "summary": "哥伦比亚发生7.4级地震，已造成250+人死亡。CLO机场已恢复运营，3个机场仅允许人道主义航班，PEI机场仍完全关闭。累计350+航次受影响。",
-          "fields": "CLO已恢复/PEI关闭/3机场仅人道主义航班｜全部航司｜350+航次受影响｜持续中",
-          "sources": [
-            "https://www.reuters.com",
-            "https://www.eltiempo.com"
-          ],
-          "level": "P0",
-          "priority": 0
-        },
-        {
-          "id": "P0-2",
-          "title": "CCS委内瑞拉局势第57天",
-          "summary": "委内瑞拉局势持续恶化，累计死亡6125人。货运航班已恢复，客运航班预计8月中下旬恢复。",
-          "fields": "CCS加拉加斯｜客运暂停（货运已恢复）｜客运预计8月中下旬恢复",
-          "sources": [
-            "https://www.reuters.com",
-            "https://www.elnacional.com"
-          ],
-          "level": "P0",
-          "priority": 0
-        },
-        {
-          "id": "P0-3",
-          "title": "EASA中东CZIB预警延长至8/31",
-          "summary": "EASA将中东冲突区CZIB预警延长至8月31日，覆盖海湾及西亚空域，所有欧洲航司受限。",
-          "fields": "海湾/西亚空域｜所有欧洲航司｜至8/31",
-          "sources": [
-            "https://www.easa.europa.eu"
-          ],
+          "title": "P0-1 🇺🇸🔥霍尔木兹“无限期封锁” IRGC重申“完全关闭” 日本首相首次施压 ADNOC第17-18艘船遇袭 停火8/17到3天",
+          "summary": "PM重大升级：美国防长赫格塞思首次明确“无限期封锁”，财长贝森特宣布禁止物品进出伊朗港口。IRGC海军司令Azmy 8/14正式重申“完全且决定性关闭”，任何船只通行须经伊朗武装力量许可。Kpler数据：仅约9艘船通过（战前日均95艘）。\\n\\nADNOC第17-18艘运营船只在海峡正常通行时遇伊朗袭击，UAE谴责“敌对的伊朗攻击”。\\n\\n日本首相高市早苗 8/13致电伊朗总统敬促“自由安全航行且无额外费用”，本轮冲突中日本首次公开施压。日本超80%石油进口依赖该海峡，航空燃油成本持续承压。\\n\\n8/17停火到期倒计时3天，双方均无让步迹象。\\n\\n霍尔木兹海峡 | 全球航运/海湾航司 | 无限期封锁/9艘通行vs战前95艘 | 第166天\\n\\n[RTE News](https://www.rte.ie) | [UAE MFA](https://www.mofa.gov.ae) | [Kpler](https://www.kpler.com)",
           "level": "P0",
           "priority": 0
         },
         {
           "id": "P0-5",
-          "title": "莫斯科四大机场再次全面受限，553架无人机创新高",
-          "summary": "乌克兰8/14凌晨发动553架无人机覆盖19个联邦主体，莫斯科四大机场（VKO/DME/ZIA/SVO）全部临时受限，IAR/PSK/GDZ/KRR/AER/KVX/CSY/PEE八座区域机场同步受限，90+航班延误。Ust-Luga港遭打击起火。NATO战斗机在拉脱维亚再次击落入侵无人机，芬兰同步限制航空和海上交通。NOTAM已过期未续。",
-          "fields": "VKO/DME/ZIA/SVO/IAR/PSK/GDZ/KRR/AER/CSY/PEE｜全部航司｜90+航班延误｜持续中",
-          "sources": [
-            "https://msk1.ru/text/transport/2026/08/14/76587733/",
-            "https://www.themoscowtimes.com"
-          ],
+          "title": "P0-5 🇷🇺莫斯科四大机场全面受限 553架无人机创新高 8座区域机场受限 Ust-Luga港起火 NATO拉脱维亚再击落无人机",
+          "summary": "8/14凌晨乌克兰发动553架无人机覆盖19个联邦主体，莫斯科四大机场(VKO/DME/ZIA/SVO)全部临时受限，90+航班延误。\\n\\nIAR/PSK/GDZ/KRR/AER/KVX/CSY/PEE八座区域机场同步受限，LED/GOJ按协调模式运行。69+架无人机在莫斯科市区附近被击落。\\n\\nUst-Luga港(俄罗斯波罗的海沿关键能源出口设施)遭打击起火。NATO战斗机在拉脱维亚Balvi地区再次击落入侵无人机(今夏第二次)，芬兰同步限制东部航空和海上交通。NOTAM已过期未续。\\n\\nVKO/DME/ZIA/SVO+8座区域机场 | 全部航司 | 553架无人机/90+航班延误/4大机场全受限 | 持续中\\n\\n[MSK1](https://msk1.ru/text/transport/2026/08/14/76587733/) | [Moscow Times](https://www.themoscowtimes.com)",
+          "level": "P0",
+          "priority": 0
+        },
+        {
+          "id": "P0-10",
+          "title": "P0-10 🇨🇴哥伦比亚7.4级地震 死亡250+ CLO已恢复 PEI仍完全关闭",
+          "summary": "哥伦比亚西部M7.4地震死亡250+人，总统宣布全国灾难状态。CLO/UIB/AXM 3座已恢复，MZL/CRC仅限人道主义航班，PEI仍完全关闭(无重开日期)。350+架次受影响。\\n\\nPEI/MZL/CRC | Avianca/LATAM/Copa | PEI关闭/350+架次 | 待结构评估\\n\\n[Sight Magazine](https://sightmagazine.com) | [Reuters](https://www.reuters.com)",
+          "level": "P0",
+          "priority": 0
+        },
+        {
+          "id": "P0-2",
+          "title": "P0-2 CCS委内瑞拉第57天 6125死 货运已恢复 客运8月中下旬",
+          "summary": "委内瑞拉局势第57天，累计6125死。货运已恢复，客运预计8月中下旬。\\n\\nCCS | 多家航司 | 货运已恢复/客运8月中下旬\\n\\n[STAT Times](https://www.stattimes.com) | [AP News](https://apnews.com)",
+          "level": "P0",
+          "priority": 0
+        },
+        {
+          "id": "P0-3",
+          "title": "P0-3 EASA中东CZIB预警延长至8/31",
+          "summary": "EASA中东冲突区CZIB预警延长至8/31，海湾及西亚空域受限。\\n\\n中东空域 | 欧洲航司 | 至8/31\\n\\n[EASA](https://www.easa.europa.eu)",
           "level": "P0",
           "priority": 0
         },
         {
           "id": "P0-6",
-          "title": "精神航空(Spirit)停运",
-          "summary": "Spirit Airlines已于5月2日停止运营，约50万旅客受影响，退票改签通道已开放。",
-          "fields": "全部航线｜Spirit(NK)｜~50万旅客｜退票改签进行中",
-          "sources": [
-            "https://www.reuters.com"
-          ],
+          "title": "P0-6 精神航空(Spirit)停运",
+          "summary": "Spirit Airlines 5/2停运，~50万旅客受影响，退票改签进行中。\\n\\n美国全境 | Spirit(NK) | ~50万旅客 | 永久\\n\\n[AP News](https://apnews.com)",
           "level": "P0",
           "priority": 0
         },
         {
-          "id": "P1-10",
-          "title": "BCN Groundforce罢工第11天+塔台故障",
-          "summary": "Groundforce罢工第11天，叠加8/12塔台电力故障导致~6000旅客受影响。",
-          "fields": "BCN｜Groundforce地服+塔台｜~6000旅客｜无限期",
-          "sources": [
-            "https://www.elperiodico.com"
-          ],
+          "id": "P1-Etna",
+          "title": "P1-Etna 🌋CTA关闭延至8/15 00:00 UTC（第8天）累计~700航班 10万+旅客",
+          "summary": "CTA卡塔尼亚机场关闭再延至8/15 00:00 UTC，第8天。8/13新增52架次取消，累计~700航班取消，10万+旅客受影响。Palermo已吸收~190架次分流。\\n\\nCTA | Swiss/KM/Jet2等 | ~700航班/10万+旅客 | 至8/15 00:00 UTC\\n\\n[LiveUniversity](https://catania.liveuniversity.it)",
+          "level": "P1",
+          "priority": 1
+        },
+        {
+          "id": "P1-Norway",
+          "title": "P1-Norway 🇳🇴地勤罢工进行中 183人（8/18升至580人）",
+          "summary": "挪威地勤罢工进行中，183人参与。8/18升级至580人，影响OSL等6机场。\\n\\nOSL等6机场 | Menzies/Aviator等 | 183人(8/18→580) | 进行中\\n\\n[Aviation24](https://www.aviation24.be)",
           "level": "P1",
           "priority": 1
         },
         {
           "id": "P1-13",
-          "title": "easyJet France罢工明日开始",
-          "summary": "罢工明日(8/15-16)启动，工会确认每日~40航班取消，覆盖LYS/NCE/NTE/BOD/ORY/CDG共6个基地1074人。适逢圣母升天节长周末。",
-          "fields": "LYS/NCE/NTE/BOD/ORY/CDG｜easyJet(U2)｜~40航班/日取消｜8/15-16",
-          "sources": [
-            "https://www.20minutes.fr"
-          ],
+          "title": "P1-13 easyJet France罢工明日启动 ~40航班/日取消 6基地1074人",
+          "summary": "PM更新：工会首次量化航班取消规模，8/15约40个出港航班取消，周日同等规模。分基地：LYS(~15架)/NCE(~8)/NTE(~4)/BOD(~2)/ORY+CDG(~11)。三大空乘工会联合发起，覆盖1074人全日停工。适逢圣母升天节长周末。\\n\\nLYS/NCE/NTE/BOD/ORY/CDG | easyJet(U2) | ~40航班/日取消 | 8/15-16\\n\\n[20 Minutes](https://www.20minutes.fr)",
           "level": "P1",
           "priority": 1
         },
         {
           "id": "P1-15",
-          "title": "Collins Aerospace系统恢复中",
-          "summary": "嫌疑人已捕，系统恢复中（第9天），部分航司报告仍受持续影响。",
-          "fields": "多航司受影响｜MUSE系统｜系统恢复中",
-          "sources": [
-            "https://www.reuters.com"
-          ],
+          "title": "P1-15 Collins Aerospace嫌疑人已捕 系统恢复中（第9天）",
+          "summary": "嫌疑人已捕，系统恢复中（第9天），部分航司报告仍受持续影响。\\n\\nLHR/BRU/BER等 | 多航司 | MUSE系统恢复中 | 持续\\n\\n[Defence Connect](https://www.defenceconnect.com.au)",
           "level": "P1",
           "priority": 1
         },
         {
-          "id": "P1-BlackSea",
-          "title": "莫斯科无人机威胁持续反复",
-          "summary": "553架无人机创新高/13+机场受限/午后DME/ZIA再次受限，反映无人机威胁持续反复。",
-          "fields": "DME/ZIA/KLF等13+机场｜多航司｜反复受限｜持续中",
-          "sources": [
-            "https://msk1.ru"
-          ],
+          "id": "P1-10",
+          "title": "P1-10 BCN Groundforce罢工第11天 + 塔台电力故障 ~6000旅客",
+          "summary": "Groundforce罢工第11天，叠加8/12塔台电力故障致~6000旅客受影响。\\n\\nBCN | Groundforce+ENAIRE | 150班取消+塔台故障~6000旅客 | 无限期\\n\\n[La Ciutat](https://laciutat.cat) | [RTVE](https://www.rtve.es)",
           "level": "P1",
           "priority": 1
         },
         {
           "id": "P1-DL-smoke",
-          "title": "Delta DL1334驾驶舱烟雾紧急返航",
-          "summary": "Delta DL1334飞行中驾驶舱出现烟雾紧急返航，5天内第二起Delta驾驶舱烟雾事件，引发对A320环境控制系统的关注。",
-          "fields": "DL航班｜Delta(DL)｜紧急返航｜调查中",
-          "sources": [
-            "https://www.reuters.com"
-          ],
-          "level": "P1",
-          "priority": 1
-        },
-        {
-          "id": "P1-Etna",
-          "title": "Etna火山CTA关闭延至8/15",
-          "summary": "埃特纳火山活动导致CTA机场关闭已达第8天，再次延期至8/15 00:00 UTC。8/13新增52架次取消，累计~700航班取消，影响10万+旅客。Palermo已吸收~190架次。",
-          "fields": "CTA｜全部航司｜~700航班取消/10万+旅客｜至8/15 00:00 UTC",
-          "sources": [
-            "https://www.enac-italia.it"
-          ],
+          "title": "P1-DL-smoke Delta DL1334驾驶舱烟雾紧急返航（5天内第2起）",
+          "summary": "Delta DL1334飞行中驾驶舱出现烟雾紧急返航，5天内第二起Delta驾驶舱烟雾事件。Air India AI2379调查也有重大发现：Airbus确认三套液压系统2秒内同时失效，升降椎和副翼失去响应约4秒，受伤人数升至24人。\\n\\nDL航班/AI2379 | Delta/Air India | 紧急返航/液压失效 | 调查中\\n\\n[Reuters](https://www.reuters.com) | [Economic Times](https://m.economictimes.com)",
           "level": "P1",
           "priority": 1
         }
