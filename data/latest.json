@@ -7,118 +7,138 @@
     "p1_count": 12,
     "p1_display": 6,
     "p2_count": 62,
-    "total": 81
+    "total": 19,
+    "note": "P2 events excluded from display by design"
   },
   "events": [
     {
+      "id": "P0-1",
       "priority": "P0",
       "level": "critical",
       "title": "霍尔木兹海峡封锁第167天",
       "summary": "IRGC击落美军MQ-9+2商船遇袭+8/17停火倒计时2天+欧洲航司延长停飞至10月/2027年+EK部分恢复巴林"
     },
     {
+      "id": "P0-2",
       "priority": "P0",
       "level": "critical",
       "title": "莫斯科四大机场全线受限",
       "summary": "480无人机连续第15夜+VKO/DME/SVO/ZIA凌晨全限+索契三度限制+NOTAM过期未续"
     },
     {
+      "id": "P0-3",
       "priority": "P0",
       "level": "critical",
       "title": "印尼弗洛勒斯岛M7.7强震",
       "summary": "海啸预警+Ruteng机场受损+余震M6.3/M6.1/M5.9+勒沃托比火山叠加(一周33次喷发)"
     },
     {
+      "id": "P0-4",
       "priority": "P0",
       "level": "critical",
       "title": "哥伦比亚7.4级地震",
       "summary": "死亡250+/3机场恢复/PEI仍完全关闭/350+架次受影响"
     },
     {
+      "id": "P0-5",
       "priority": "P0",
       "level": "high",
       "title": "CCS委内瑞拉关闭第58天",
       "summary": "6125死/货运已恢复/客运预计8月中下旬"
     },
     {
+      "id": "P0-6",
       "priority": "P0",
       "level": "high",
       "title": "EASA中东CZIB预警至8/31",
       "summary": "建议避开UAE/巴林/科威特/卡塔尔空域全高度层"
     },
     {
+      "id": "P0-7",
       "priority": "P0",
       "level": "high",
       "title": "精神航空停运",
       "summary": "5/2停运/34年终结/1.7万员工失业"
     },
     {
+      "id": "P1-1",
       "priority": "P1",
       "level": "high",
       "title": "俄罗斯无人机威胁",
       "summary": "480无人机连续第15夜/13+机场受限/索契三度限/莫斯科nightly限制常态化"
     },
     {
+      "id": "P1-2",
       "priority": "P1",
       "level": "high",
       "title": "Etna火山CTA关闭第9天",
       "summary": "再延至8/15 15:00本地时间/约720航班取消/10万+旅客/最早8/17恢复"
     },
     {
+      "id": "P1-3",
       "priority": "P1",
       "level": "high",
       "title": "Ryanair发动机NTSB报告",
       "summary": "CFM56-7B叶片疲劳断裂击穿机身/FAA拟推新AD/影响全球737NG机队"
     },
     {
+      "id": "P1-4",
       "priority": "P1",
       "level": "medium",
       "title": "easyJet France空乘罢工",
       "summary": "8/15-16启动/6基地1074人/~40航班/日取消/圣母升天节长周末"
     },
     {
+      "id": "P1-5",
       "priority": "P1",
       "level": "medium",
       "title": "BCN Groundforce罢工第11天",
       "summary": "170架次取消/3000件行李/1179工人/拒绝谈判"
     },
     {
+      "id": "P1-6",
       "priority": "P1",
       "level": "medium",
       "title": "TLV美军加油机致延误",
       "summary": "IAA首次确认/~90架次延误/三重因素叠加/加油机撤离中"
     },
     {
+      "id": "P1-7",
       "priority": "P1",
       "level": "medium",
       "title": "挪威地勤罢工",
       "summary": "183人进行中/8/18升至580人/OSL等6机场"
     },
     {
+      "id": "P1-8",
       "priority": "P1",
       "level": "medium",
       "title": "Collins Aerospace网络攻击",
       "summary": "嫌疑人已捕/系统恢复中(第9天)/LHR/BRU受影响"
     },
     {
+      "id": "P1-9",
       "priority": "P1",
       "level": "low",
       "title": "Delta+Air India飞行安全",
       "summary": "DL1334驾驶舱烟雾(5天内第二起)+AI2379液压失效/24伤/机长大麻阳性"
     },
     {
+      "id": "P1-10",
       "priority": "P1",
       "level": "low",
       "title": "BlackSea无人机威胁",
       "summary": "362无人机/13+机场/4军舰/波罗的海三国/北约谴责"
     },
     {
+      "id": "P1-11",
       "priority": "P1",
       "level": "low",
       "title": "WSJ港口罢工",
       "summary": "港口运营受影响"
     },
     {
+      "id": "P1-12",
       "priority": "P1",
       "level": "low",
       "title": "其他P1事件",
