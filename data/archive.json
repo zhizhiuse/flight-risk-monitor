@@ -17748,6 +17748,16 @@
         "total": 80
       },
       "total": 80
+    },
+    {
+      "date": "2026-08-15",
+      "period": "afternoon",
+      "push_time": "2026-08-15T16:00:00+08:00",
+      "summary": "P0×7|P1×12展示6|P2×66=85",
+      "p0_count": 7,
+      "p1_count": 12,
+      "p2_count": 66,
+      "total": 85
     }
   ]
 }

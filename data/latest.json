@@ -1,148 +1,148 @@
 {
   "date": "2026-08-15",
-  "period": "morning",
-  "generated_at": "2026-08-15T08:40:45+08:00",
+  "period": "afternoon",
+  "generated_at": "2026-08-15T16:09:40+08:00",
   "summary": {
     "p0_count": 7,
     "p1_count": 12,
     "p1_display": 6,
-    "p2_count": 62,
-    "total": 19,
+    "p2_count": 66,
+    "total": 85,
     "note": "P2 events excluded from display by design"
   },
   "events": [
     {
+      "id": "P0-5",
+      "priority": "P0",
+      "level": "critical",
+      "title": "莫斯科四大机场全线受限 598架无人机(连续第16夜)",
+      "summary": "俄国防部确认598架无人机覆盖20+联邦主体，DME/VKO/ZIA+10余座机场受限，GSX一晚两度关闭，鞑靼斯坦导弹警报，连续第16夜"
+    },
+    {
       "id": "P0-1",
       "priority": "P0",
       "level": "critical",
-      "title": "霍尔木兹海峡封锁第167天",
-      "summary": "IRGC击落美军MQ-9+2商船遇袭+8/17停火倒计时2天+欧洲航司延长停飞至10月/2027年+EK部分恢复巴林"
+      "title": "霍尔木兹海峡封锁第167天 ADNOC两天两次遇袭 Trump领土言论",
+      "summary": "ADNOC运营船8/14再遭袭击，阿联酋定性IRGC海盗行为，阿拉伯国家集体谴责。Trump称将宣布海峡为美国领土。Kpler数据8/14仅2船通过无原油运输。8/17停火倒计时2天"
+    },
+    {
+      "id": "P0-7",
+      "priority": "P0",
+      "level": "critical",
+      "title": "印尼弗洛勒斯M7.7强震 20死6伤 海啸预警解除 RTG机场受损",
+      "summary": "20人遇难6人受伤，海啸预警已解除。Ruteng机场航站楼受损航班暂停，Wings Air取消2航班影响126人。叠加勒沃托比火山活跃风险"
+    },
+    {
+      "id": "P0-10",
+      "priority": "P0",
+      "level": "critical",
+      "title": "哥伦比亚7.4级地震 死亡升至281人 超10万人受灾 PEI仍关闭",
+      "summary": "死亡281人超10万人受灾，十年最强。CLO/UIB/AXM恢复，PEI仍完全关闭。350+架次受影响"
     },
     {
       "id": "P0-2",
       "priority": "P0",
       "level": "critical",
-      "title": "莫斯科四大机场全线受限",
-      "summary": "480无人机连续第15夜+VKO/DME/SVO/ZIA凌晨全限+索契三度限制+NOTAM过期未续"
+      "title": "CCS委内瑞拉第58天 6125死 货运已恢复 客运8月中下旬",
+      "summary": "6/24双震后CCS机场关闭第58天，累计6125死。货运已恢复，客运预计8月中下旬"
     },
     {
       "id": "P0-3",
       "priority": "P0",
       "level": "critical",
-      "title": "印尼弗洛勒斯岛M7.7强震",
-      "summary": "海啸预警+Ruteng机场受损+余震M6.3/M6.1/M5.9+勒沃托比火山叠加(一周33次喷发)"
-    },
-    {
-      "id": "P0-4",
-      "priority": "P0",
-      "level": "critical",
-      "title": "哥伦比亚7.4级地震",
-      "summary": "死亡250+/3机场恢复/PEI仍完全关闭/350+架次受影响"
-    },
-    {
-      "id": "P0-5",
-      "priority": "P0",
-      "level": "high",
-      "title": "CCS委内瑞拉关闭第58天",
-      "summary": "6125死/货运已恢复/客运预计8月中下旬"
+      "title": "EASA中东CZIB预警延长至8/31",
+      "summary": "EASA中东冲突区信息公告延长至8/31，建议避开UAE/巴林/科威特/卡塔尔空域"
     },
     {
       "id": "P0-6",
       "priority": "P0",
-      "level": "high",
-      "title": "EASA中东CZIB预警至8/31",
-      "summary": "建议避开UAE/巴林/科威特/卡塔尔空域全高度层"
+      "level": "critical",
+      "title": "精神航空5/2停运 34年终结 1.7万员工失业",
+      "summary": "Spirit Airlines 5月2日停运，34年历史终结，1.7万员工失业"
     },
     {
-      "id": "P0-7",
-      "priority": "P0",
-      "level": "high",
-      "title": "精神航空停运",
-      "summary": "5/2停运/34年终结/1.7万员工失业"
-    },
-    {
-      "id": "P1-1",
+      "id": "P1-Russia",
       "priority": "P1",
-      "level": "high",
-      "title": "俄罗斯无人机威胁",
-      "summary": "480无人机连续第15夜/13+机场受限/索契三度限/莫斯科nightly限制常态化"
+      "level": "warning",
+      "title": "598无人机连续第16夜 20+联邦主体 10+机场受限",
+      "summary": "俄国防部确认598架无人机(上调)，覆盖20+联邦主体，10+机场受限，nightly限制常态化"
     },
     {
-      "id": "P1-2",
+      "id": "P1-Etna",
       "priority": "P1",
-      "level": "high",
-      "title": "Etna火山CTA关闭第9天",
-      "summary": "再延至8/15 15:00本地时间/约720航班取消/10万+旅客/最早8/17恢复"
+      "level": "warning",
+      "title": "INGV预警降级至橙色 CTA NOTAM到期未续 火山颤动恢复正常",
+      "summary": "INGV航空预警从红色降至橙色，CTA NOTAM 15:00到期未续，过去8天684班取消36%，CIY已恢复"
     },
     {
-      "id": "P1-3",
+      "id": "P1-Ryanair",
       "priority": "P1",
-      "level": "high",
-      "title": "Ryanair发动机NTSB报告",
-      "summary": "CFM56-7B叶片疲劳断裂击穿机身/FAA拟推新AD/影响全球737NG机队"
+      "level": "warning",
+      "title": "NTSB报告:发动机叶片疲劳断裂击穿机身 FAA拟推CFM56-7B新AD",
+      "summary": "NTSB初报CFM56-7B叶片疲劳断裂碎片击穿机身，FAA拟推新AD要求全系列周期检查，2028年前改装"
     },
     {
-      "id": "P1-4",
+      "id": "P1-13",
       "priority": "P1",
-      "level": "medium",
-      "title": "easyJet France空乘罢工",
-      "summary": "8/15-16启动/6基地1074人/~40航班/日取消/圣母升天节长周末"
-    },
-    {
-      "id": "P1-5",
-      "priority": "P1",
-      "level": "medium",
-      "title": "BCN Groundforce罢工第11天",
-      "summary": "170架次取消/3000件行李/1179工人/拒绝谈判"
-    },
-    {
-      "id": "P1-6",
-      "priority": "P1",
-      "level": "medium",
-      "title": "TLV美军加油机致延误",
-      "summary": "IAA首次确认/~90架次延误/三重因素叠加/加油机撤离中"
-    },
-    {
-      "id": "P1-7",
-      "priority": "P1",
-      "level": "medium",
-      "title": "挪威地勤罢工",
-      "summary": "183人进行中/8/18升至580人/OSL等6机场"
-    },
-    {
-      "id": "P1-8",
-      "priority": "P1",
-      "level": "medium",
-      "title": "Collins Aerospace网络攻击",
-      "summary": "嫌疑人已捕/系统恢复中(第9天)/LHR/BRU受影响"
-    },
-    {
-      "id": "P1-9",
-      "priority": "P1",
-      "level": "low",
-      "title": "Delta+Air India飞行安全",
-      "summary": "DL1334驾驶舱烟雾(5天内第二起)+AI2379液压失效/24伤/机长大麻阳性"
+      "level": "warning",
+      "title": "easyJet France空乘罢工首日 ~100航班取消 略超预估",
+      "summary": "easyJet France罢工8/15启动，周六+周日合计~100航班取消，覆盖6个法国基地，900名空乘超半数参与"
     },
     {
       "id": "P1-10",
       "priority": "P1",
-      "level": "low",
-      "title": "BlackSea无人机威胁",
-      "summary": "362无人机/13+机场/4军舰/波罗的海三国/北约谴责"
+      "level": "warning",
+      "title": "BCN Groundforce罢工第11天 170架次取消 3000件行李滞留",
+      "summary": "Groundforce无限期罢工第11天，170架次取消3000件行李未装机，1179工人拒绝谈判"
+    },
+    {
+      "id": "P1-TLV",
+      "priority": "P1",
+      "level": "warning",
+      "title": "IAA首次确认美军加油机驻扎致TLV ~90架次延误",
+      "summary": "IAA确认TLV约90架次延误，首次公开关联美军加油机驻扎，三重因素叠加"
+    },
+    {
+      "id": "P1-Norway",
+      "priority": "P1",
+      "level": "warning",
+      "title": "挪威HK Norge地勤罢工 8/18升级至580人",
+      "summary": "挪威地勤罢工持续，8/18将升级至580人，影响Widerøe/SAS支线"
+    },
+    {
+      "id": "P1-Collins",
+      "priority": "P1",
+      "level": "warning",
+      "title": "Collins Aerospace系统恢复 第9天",
+      "summary": "Collins Aerospace系统故障恢复中，影响航电设备供应"
+    },
+    {
+      "id": "P1-DL-smoke",
+      "priority": "P1",
+      "level": "warning",
+      "title": "达美航空烟雾事件 航班紧急返航",
+      "summary": "达美航空航班烟雾事件导致紧急返航"
+    },
+    {
+      "id": "P1-BlackSea",
+      "priority": "P1",
+      "level": "warning",
+      "title": "黑海区域航行风险持续",
+      "summary": "黑海区域因冲突航行风险持续，航司规避"
+    },
+    {
+      "id": "P1-WSJ",
+      "priority": "P1",
+      "level": "warning",
+      "title": "WSJ报道航空供应链风险",
+      "summary": "华尔街日报报道航空供应链持续性风险"
     },
     {
       "id": "P1-11",
       "priority": "P1",
-      "level": "low",
-      "title": "WSJ港口罢工",
-      "summary": "港口运营受影响"
-    },
-    {
-      "id": "P1-12",
-      "priority": "P1",
-      "level": "low",
-      "title": "其他P1事件",
-      "summary": "多个低影响事件持续监测中"
+      "level": "warning",
+      "title": "其他航空运营关注事件",
+      "summary": "其他需关注的航空运营异常"
     }
   ]
 }
