@@ -17305,6 +17305,186 @@
       "p1_count": 9,
       "p2_count": 27,
       "total": 42
+    },
+    {
+      "date": "2026-08-06",
+      "period": "afternoon",
+      "push_time": "2026-08-06T16:00:00+08:00",
+      "summary": "P0=6 P1=9 P1d=6 P2=27",
+      "p0_count": 6,
+      "p1_count": 9,
+      "p2_count": 27,
+      "total": 42
+    },
+    {
+      "date": "2026-08-07",
+      "period": "morning",
+      "push_time": "2026-08-07T09:00:00+08:00",
+      "summary": "P0=6 P1=9 P1d=6 P2=30",
+      "p0_count": 6,
+      "p1_count": 9,
+      "p2_count": 30,
+      "total": 45
+    },
+    {
+      "date": "2026-08-07",
+      "period": "afternoon",
+      "push_time": "2026-08-07T16:00:00+08:00",
+      "summary": "P0=6 P1=9 P1d=6 P2=32",
+      "p0_count": 6,
+      "p1_count": 9,
+      "p2_count": 32,
+      "total": 47
+    },
+    {
+      "date": "2026-08-08",
+      "period": "morning",
+      "push_time": "2026-08-08T09:00:00+08:00",
+      "summary": "P0=6 P1=10 P1d=6 P2=35",
+      "p0_count": 6,
+      "p1_count": 10,
+      "p2_count": 35,
+      "total": 51
+    },
+    {
+      "date": "2026-08-08",
+      "period": "afternoon",
+      "push_time": "2026-08-08T16:00:00+08:00",
+      "summary": "P0=6 P1=10 P1d=6 P2=38",
+      "p0_count": 6,
+      "p1_count": 10,
+      "p2_count": 38,
+      "total": 54
+    },
+    {
+      "date": "2026-08-09",
+      "period": "morning",
+      "push_time": "2026-08-09T09:00:00+08:00",
+      "summary": "P0=6 P1=10 P1d=6 P2=40",
+      "p0_count": 6,
+      "p1_count": 10,
+      "p2_count": 40,
+      "total": 56
+    },
+    {
+      "date": "2026-08-09",
+      "period": "afternoon",
+      "push_time": "2026-08-09T16:00:00+08:00",
+      "summary": "P0=6 P1=10 P1d=6 P2=42",
+      "p0_count": 6,
+      "p1_count": 10,
+      "p2_count": 42,
+      "total": 58
+    },
+    {
+      "date": "2026-08-10",
+      "period": "morning",
+      "push_time": "2026-08-10T09:00:00+08:00",
+      "summary": "P0=6 P1=11 P1d=6 P2=45",
+      "p0_count": 6,
+      "p1_count": 11,
+      "p2_count": 45,
+      "total": 62
+    },
+    {
+      "date": "2026-08-10",
+      "period": "afternoon",
+      "push_time": "2026-08-10T16:00:00+08:00",
+      "summary": "P0=6 P1=11 P1d=6 P2=48",
+      "p0_count": 6,
+      "p1_count": 11,
+      "p2_count": 48,
+      "total": 65
+    },
+    {
+      "date": "2026-08-11",
+      "period": "morning",
+      "push_time": "2026-08-11T09:00:00+08:00",
+      "summary": "P0=6 P1=11 P1d=6 P2=50",
+      "p0_count": 6,
+      "p1_count": 11,
+      "p2_count": 50,
+      "total": 67
+    },
+    {
+      "date": "2026-08-11",
+      "period": "afternoon",
+      "push_time": "2026-08-11T16:00:00+08:00",
+      "summary": "P0=6 P1=12 P1d=6 P2=53",
+      "p0_count": 6,
+      "p1_count": 12,
+      "p2_count": 53,
+      "total": 71
+    },
+    {
+      "date": "2026-08-12",
+      "period": "morning",
+      "push_time": "2026-08-12T09:00:00+08:00",
+      "summary": "P0=6 P1=12 P1d=6 P2=55",
+      "p0_count": 6,
+      "p1_count": 12,
+      "p2_count": 55,
+      "total": 73
+    },
+    {
+      "date": "2026-08-12",
+      "period": "afternoon",
+      "push_time": "2026-08-12T16:00:00+08:00",
+      "summary": "P0=6 P1=12 P1d=6 P2=59",
+      "p0_count": 6,
+      "p1_count": 12,
+      "p2_count": 59,
+      "total": 77
+    },
+    {
+      "date": "2026-08-13",
+      "period": "morning",
+      "push_time": "2026-08-13T09:00:00+08:00",
+      "summary": "P0=6 P1=12 P1d=6 P2=58",
+      "p0_count": 6,
+      "p1_count": 12,
+      "p2_count": 58,
+      "total": 76
+    },
+    {
+      "date": "2026-08-13",
+      "period": "afternoon",
+      "push_time": "2026-08-13T16:00:00+08:00",
+      "summary": "P0=6 P1=12 P1d=6 P2=61",
+      "p0_count": 6,
+      "p1_count": 12,
+      "p2_count": 61,
+      "total": 79
+    },
+    {
+      "date": "2026-08-14",
+      "period": "morning",
+      "push_time": "2026-08-14T09:00:00+08:00",
+      "summary": "P0=6 P1=12 P1d=6 P2=62",
+      "p0_count": 6,
+      "p1_count": 12,
+      "p2_count": 62,
+      "total": 80
+    },
+    {
+      "date": "2026-08-14",
+      "period": "afternoon",
+      "push_time": "2026-08-14T16:00:00+08:00",
+      "summary": "P0=6 P1=12 P1d=6 P2=62",
+      "p0_count": 6,
+      "p1_count": 12,
+      "p2_count": 62,
+      "total": 80
+    },
+    {
+      "date": "2026-08-15",
+      "period": "morning",
+      "push_time": "2026-08-15T09:00:00+08:00",
+      "summary": "P0=7 P1=12 P1d=6 P2=62",
+      "p0_count": 7,
+      "p1_count": 12,
+      "p2_count": 62,
+      "total": 81
     }
   ]
 }
