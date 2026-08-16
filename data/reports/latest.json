@@ -1,148 +1,286 @@
 {
-  "date": "2026-08-15",
-  "period": "afternoon",
-  "generated_at": "2026-08-15T16:09:40+08:00",
+  "date": "2026-08-16",
+  "period": "AM",
+  "generated_at": "2026-08-16T02:20:48Z",
   "summary": {
-    "p0_count": 7,
+    "p0_count": 8,
     "p1_count": 12,
-    "p1_display": 6,
-    "p2_count": 66,
-    "total": 85,
+    "p2_count": 67,
+    "total": 20,
     "note": "P2 events excluded from display by design"
   },
   "events": [
     {
       "id": "P0-5",
-      "priority": "P0",
-      "level": "critical",
-      "title": "莫斯科四大机场全线受限 598架无人机(连续第16夜)",
-      "summary": "俄国防部确认598架无人机覆盖20+联邦主体，DME/VKO/ZIA+10余座机场受限，GSX一晚两度关闭，鞑靼斯坦导弹警报，连续第16夜"
+      "level": "P0",
+      "title": "莫斯科+北高加索全面告急 1750架无人机(第17夜) 13+机场受限+威胁扩展至6共和国",
+      "detail": "AM更新：1750架无人机攻击莫斯科地区(前日480架大幅升级)，12架直飞市区被击落，10+地区拦截180架。VKO/DME/ZIA三大机场凌晨全部关闭。威胁首次扩展至北高加索6个共和国，南部13座机场暂停。索契AER延误175架次最长67小时。",
+      "airports": "北高加索13机场+VKO/DME/ZIA",
+      "airlines": "俄罗斯航司",
+      "impact": "1750无人机/13+机场/6共和国",
+      "duration": "第17夜",
+      "sources": [
+        "https://www.interfax.ru",
+        "https://www.gazeta.ru"
+      ],
+      "color": "red"
     },
     {
       "id": "P0-1",
-      "priority": "P0",
-      "level": "critical",
-      "title": "霍尔木兹海峡封锁第167天 ADNOC两天两次遇袭 Trump领土言论",
-      "summary": "ADNOC运营船8/14再遭袭击，阿联酋定性IRGC海盗行为，阿拉伯国家集体谴责。Trump称将宣布海峡为美国领土。Kpler数据8/14仅2船通过无原油运输。8/17停火倒计时2天"
+      "level": "P0",
+      "title": "霍尔木兹海峡 停火明天到期+伊朗议会推进海峡主权法案+BND恢复国内航班",
+      "detail": "AM更新：8/17停火到期仅剩1天。伊朗议会委员会通过海峡主权法案基本原则(7/14条已批)，将禁止美以及敌对国船只通行。BND机场8/15恢复国内航班(3条航线)，但国际航线未开放。",
+      "airports": "霍尔木兹海峡",
+      "airlines": "全球航运/海湾航司",
+      "impact": "停火明天到期+主权法案",
+      "duration": "第168天",
+      "sources": [
+        "https://www.islamtimes.com",
+        "https://jurist.org"
+      ],
+      "color": "red"
+    },
+    {
+      "id": "P0-11",
+      "level": "P0",
+      "title": "飓风Lala袭击夏威夷大岛 34年来首次直接登陆 ITO/KOA关闭 65班取消",
+      "detail": "NEW: 飓风Lala增强至1级飓风直接袭击夏威夷大岛(34年来首次)。ITO全天关闭(80%取消)，KOA午后关闭(40%取消)。Alaska+Hawaiian合计65班取消。加拿大发布勿前往警告。",
+      "airports": "ITO/KOA",
+      "airlines": "Alaska/Hawaiian/Air Canada/WestJet",
+      "impact": "2机场关闭/65班取消",
+      "duration": "飓风进行中",
+      "sources": [
+        "https://hidot.hawaii.gov",
+        "https://beatofhawaii.com"
+      ],
+      "color": "red"
     },
     {
       "id": "P0-7",
-      "priority": "P0",
-      "level": "critical",
-      "title": "印尼弗洛勒斯M7.7强震 20死6伤 海啸预警解除 RTG机场受损",
-      "summary": "20人遇难6人受伤，海啸预警已解除。Ruteng机场航站楼受损航班暂停，Wings Air取消2航班影响126人。叠加勒沃托比火山活跃风险"
+      "level": "P0",
+      "title": "印尼弗洛勒斯M7.7强震 死20伤6 海啸解除 RTG机场受损 趋缓",
+      "detail": "死20伤6确认，海啸预警已解除。RTG机场受损，Wings Air取消2航班影响126人。勒沃托比火山叠加风险。",
+      "airports": "RTG/MOF/LBJ",
+      "airlines": "印尼国内航司",
+      "impact": "20死6伤/海啸解除",
+      "duration": "趋缓",
+      "sources": [
+        "https://www.bmkg.go.id",
+        "https://watchers.news"
+      ],
+      "color": "red"
     },
     {
       "id": "P0-10",
-      "priority": "P0",
-      "level": "critical",
-      "title": "哥伦比亚7.4级地震 死亡升至281人 超10万人受灾 PEI仍关闭",
-      "summary": "死亡281人超10万人受灾，十年最强。CLO/UIB/AXM恢复，PEI仍完全关闭。350+架次受影响"
+      "level": "P0",
+      "title": "哥伦比亚7.4级地震 死281人 PEI仍完全关闭 350+架次",
+      "detail": "死亡升至281人，超10万人受灾。PEI仍完全关闭，3机场仅人道航班。350+架次受影响。",
+      "airports": "PEI/MZL/CRC",
+      "airlines": "Avianca/LATAM/Copa/Iberia",
+      "impact": "PEI仍关闭/350+架次",
+      "duration": "待结构评估",
+      "sources": [
+        "https://www.reuters.com"
+      ],
+      "color": "red"
     },
     {
       "id": "P0-2",
-      "priority": "P0",
-      "level": "critical",
+      "level": "P0",
       "title": "CCS委内瑞拉第58天 6125死 货运已恢复 客运8月中下旬",
-      "summary": "6/24双震后CCS机场关闭第58天，累计6125死。货运已恢复，客运预计8月中下旬"
+      "detail": "CCS机场关闭第58天，累计6125人死亡。货运已恢复，客运预计8月中下旬。",
+      "airports": "CCS机场",
+      "airlines": "多家国际航司",
+      "impact": "货运已恢复/客运8月中下旬",
+      "duration": "第58天",
+      "sources": [
+        "https://apnews.com"
+      ],
+      "color": "grey"
     },
     {
       "id": "P0-3",
-      "priority": "P0",
-      "level": "critical",
+      "level": "P0",
       "title": "EASA中东CZIB预警延长至8/31",
-      "summary": "EASA中东冲突区信息公告延长至8/31，建议避开UAE/巴林/科威特/卡塔尔空域"
+      "detail": "EASA中东冲突区信息公告延长至8/31，建议避开UAE/巴林/科威特/卡塔尔空域。",
+      "airports": "中东空域",
+      "airlines": "欧洲航司",
+      "impact": "航线规避",
+      "duration": "至8/31",
+      "sources": [
+        "https://www.easa.europa.eu"
+      ],
+      "color": "grey"
     },
     {
       "id": "P0-6",
-      "priority": "P0",
-      "level": "critical",
-      "title": "精神航空5/2停运 34年终结 1.7万员工失业",
-      "summary": "Spirit Airlines 5月2日停运，34年历史终结，1.7万员工失业"
+      "level": "P0",
+      "title": "精神航空5/2停运 34年终结",
+      "detail": "Spirit Airlines 5月2日停运，1.7万员工失业。",
+      "airports": "美国全境",
+      "airlines": "Spirit Airlines",
+      "impact": "1.7万员工",
+      "duration": "永久",
+      "sources": [
+        "https://apnews.com"
+      ],
+      "color": "grey"
     },
     {
       "id": "P1-Russia",
-      "priority": "P1",
-      "level": "warning",
-      "title": "598无人机连续第16夜 20+联邦主体 10+机场受限",
-      "summary": "俄国防部确认598架无人机(上调)，覆盖20+联邦主体，10+机场受限，nightly限制常态化"
+      "level": "P1",
+      "title": "1750无人机第17夜 北高加索6共和国13机场+莫斯科3机场全关",
+      "detail": "1750架无人机攻击莫斯科地区，VKO/DME/ZIA凌晨全关。威胁扩展至北高加索6共和国，南部13座机场暂停。",
+      "airports": "北高加索13机场+VKO/DME/ZIA",
+      "airlines": "俄罗斯航司",
+      "impact": "1750无人机/13+机场",
+      "duration": "第17夜",
+      "sources": [
+        "https://www.interfax.ru"
+      ],
+      "color": "orange"
     },
     {
       "id": "P1-Etna",
-      "priority": "P1",
-      "level": "warning",
-      "title": "INGV预警降级至橙色 CTA NOTAM到期未续 火山颤动恢复正常",
-      "summary": "INGV航空预警从红色降至橙色，CTA NOTAM 15:00到期未续，过去8天684班取消36%，CIY已恢复"
+      "level": "P1",
+      "title": "INGV降橙色/NOTAM未续 过8天684班取消(36%) 待确认CTA重开",
+      "detail": "INGV预警降橙色，CTA NOTAM到期未续，火山颤动恢复正常。684班取消(36%)。",
+      "airports": "CTA",
+      "airlines": "Swiss/KM/Jet2等",
+      "impact": "684班取消/趋缓信号",
+      "duration": "待确认重开",
+      "sources": [
+        "https://apnews.com"
+      ],
+      "color": "orange"
     },
     {
       "id": "P1-Ryanair",
-      "priority": "P1",
-      "level": "warning",
-      "title": "NTSB报告:发动机叶片疲劳断裂击穿机身 FAA拟推CFM56-7B新AD",
-      "summary": "NTSB初报CFM56-7B叶片疲劳断裂碎片击穿机身，FAA拟推新AD要求全系列周期检查，2028年前改装"
+      "level": "P1",
+      "title": "NTSB报告:叶片疲劳断裂穿机身 FAA拟推CFM56-7B新AD",
+      "detail": "NTSB报告风扇叶片因金属疲劳断裂击穿机身。FAA提案新AD，2028年前改装。",
+      "airports": "全球CFM56-7B机队",
+      "airlines": "FAA/NTSB",
+      "impact": "新AD提案/影响大量737NG",
+      "duration": "待最终规则",
+      "sources": [
+        "https://apnews.com"
+      ],
+      "color": "orange"
     },
     {
       "id": "P1-13",
-      "priority": "P1",
-      "level": "warning",
-      "title": "easyJet France空乘罢工首日 ~100航班取消 略超预估",
-      "summary": "easyJet France罢工8/15启动，周六+周日合计~100航班取消，覆盖6个法国基地，900名空乘超半数参与"
+      "level": "P1",
+      "title": "easyJet France罢工Day2 昨日~100班取消 今日继续",
+      "detail": "罢工进入第2天。昨日~100班取消(略超预估)，6基地900名空乘超半数参与。",
+      "airports": "ORY/CDG/NCE/LYS等",
+      "airlines": "easyJet France",
+      "impact": "~100班/日",
+      "duration": "8/15-16",
+      "sources": [
+        "https://euroweeklynews.com"
+      ],
+      "color": "orange"
     },
     {
       "id": "P1-10",
-      "priority": "P1",
-      "level": "warning",
-      "title": "BCN Groundforce罢工第11天 170架次取消 3000件行李滞留",
-      "summary": "Groundforce无限期罢工第11天，170架次取消3000件行李未装机，1179工人拒绝谈判"
+      "level": "P1",
+      "title": "BCN Groundforce罢工第11天 170架次取消 3000件行李",
+      "detail": "累计170架次取消、3000件行李未装机。1179名工人拒绝谈判。",
+      "airports": "BCN机场",
+      "airlines": "Groundforce",
+      "impact": "170班取消/3000件行李",
+      "duration": "无限期",
+      "sources": [
+        "https://euroweeklynews.com"
+      ],
+      "color": "orange"
     },
     {
       "id": "P1-TLV",
-      "priority": "P1",
-      "level": "warning",
-      "title": "IAA首次确认美军加油机驻扎致TLV ~90架次延误",
-      "summary": "IAA确认TLV约90架次延误，首次公开关联美军加油机驻扎，三重因素叠加"
+      "level": "P1",
+      "title": "IAA确认美军加油机致~90架次延误 三重因素叠加",
+      "detail": "IAA首次确认美军加油机与民航延误直接关联。加油机加速撤离中。",
+      "airports": "TLV",
+      "airlines": "多家航司",
+      "impact": "~90架次延误",
+      "duration": "加油机撤离中",
+      "sources": [
+        "https://www.timesofisrael.com"
+      ],
+      "color": "orange"
     },
     {
       "id": "P1-Norway",
-      "priority": "P1",
-      "level": "warning",
-      "title": "挪威HK Norge地勤罢工 8/18升级至580人",
-      "summary": "挪威地勤罢工持续，8/18将升级至580人，影响Widerøe/SAS支线"
+      "level": "P1",
+      "title": "挪威罢工8/18升级至580人",
+      "detail": "8/18升级至580人参与",
+      "airports": "OSL",
+      "airlines": "多家",
+      "impact": "待评估",
+      "duration": "8/18起",
+      "sources": [],
+      "color": "orange"
     },
     {
       "id": "P1-Collins",
-      "priority": "P1",
-      "level": "warning",
-      "title": "Collins Aerospace系统恢复 第9天",
-      "summary": "Collins Aerospace系统故障恢复中，影响航电设备供应"
+      "level": "P1",
+      "title": "Collins Aerospace供应链问题",
+      "detail": "供应链持续紧张",
+      "airports": "多机场",
+      "airlines": "多家",
+      "impact": "零部件延迟",
+      "duration": "持续",
+      "sources": [],
+      "color": "orange"
     },
     {
       "id": "P1-DL-smoke",
-      "priority": "P1",
-      "level": "warning",
-      "title": "达美航空烟雾事件 航班紧急返航",
-      "summary": "达美航空航班烟雾事件导致紧急返航"
+      "level": "P1",
+      "title": "美国西部山火烟雾影响航班",
+      "detail": "山火烟雾影响能见度",
+      "airports": "西部多机场",
+      "airlines": "DL等",
+      "impact": "延误",
+      "duration": "季节性",
+      "sources": [],
+      "color": "orange"
     },
     {
       "id": "P1-BlackSea",
-      "priority": "P1",
-      "level": "warning",
-      "title": "黑海区域航行风险持续",
-      "summary": "黑海区域因冲突航行风险持续，航司规避"
+      "level": "P1",
+      "title": "黑海无人机威胁",
+      "detail": "黑海区域无人机活动",
+      "airports": "黑海周边",
+      "airlines": "多家",
+      "impact": "航线规避",
+      "duration": "持续",
+      "sources": [],
+      "color": "orange"
     },
     {
       "id": "P1-WSJ",
-      "priority": "P1",
-      "level": "warning",
-      "title": "WSJ报道航空供应链风险",
-      "summary": "华尔街日报报道航空供应链持续性风险"
+      "level": "P1",
+      "title": "WSJ报道航运风险",
+      "detail": "WSJ报道霍尔木兹航运风险升级",
+      "airports": "-",
+      "airlines": "-",
+      "impact": "舆论关注",
+      "duration": "-",
+      "sources": [],
+      "color": "orange"
     },
     {
       "id": "P1-11",
-      "priority": "P1",
-      "level": "warning",
-      "title": "其他航空运营关注事件",
-      "summary": "其他需关注的航空运营异常"
+      "level": "P1",
+      "title": "其他关注事件",
+      "detail": "其他P1级别事件",
+      "airports": "-",
+      "airlines": "-",
+      "impact": "-",
+      "duration": "-",
+      "sources": [],
+      "color": "orange"
     }
   ]
 }
