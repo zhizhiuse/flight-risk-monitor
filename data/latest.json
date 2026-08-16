@@ -1,13 +1,14 @@
 {
   "date": "2026-08-16",
-  "period": "AM",
+  "period": "pm",
   "generated_at": "2026-08-16T02:20:48Z",
   "summary": {
     "p0_count": 8,
-    "p1_count": 12,
-    "p2_count": 67,
-    "total": 20,
-    "note": "P2 events excluded from display by design"
+    "p1_count": 13,
+    "p2_count": 70,
+    "total": 21,
+    "note": "P2 events excluded from display by design",
+    "generated_at": "2026-08-16T16:03:00+08:00"
   },
   "events": [
     {
@@ -28,32 +29,48 @@
     {
       "id": "P0-1",
       "level": "P0",
-      "title": "霍尔木兹海峡 停火明天到期+伊朗议会推进海峡主权法案+BND恢复国内航班",
+      "title": "🇺🇸🔥霍尔木兹海峡 停火确认延期但时长未定+ADNOC 48h第3艘遇袭+议会明日审议主权法案",
       "detail": "AM更新：8/17停火到期仅剩1天。伊朗议会委员会通过海峡主权法案基本原则(7/14条已批)，将禁止美以及敌对国船只通行。BND机场8/15恢复国内航班(3条航线)，但国际航线未开放。",
       "airports": "霍尔木兹海峡",
       "airlines": "全球航运/海湾航司",
       "impact": "停火明天到期+主权法案",
-      "duration": "第168天",
+      "duration": "第168天/停火延期",
       "sources": [
-        "https://www.islamtimes.com",
-        "https://jurist.org"
+        {
+          "name": "央广网",
+          "url": "http://news.cnr.cn/sq/20260816/t20260816_527764222.shtml"
+        },
+        {
+          "name": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/middle-east/iranian-parliament-to-debate-foreign-influence-hormuz-oversight-bills/4028575"
+        }
       ],
-      "color": "red"
+      "color": "red",
+      "description": "PM更新：伊斯兰堡停火双方同意延期但时长未定。ADNOC 48h内第3艘船遭无人机袭击(开战以来第19-20艘)，海峡日均通行仅22艘(战前130+)。伊朗外长称航道协议与海峡重开是独立议题。议会8/17继续审议\"智能管理计划\"法案(7/14条已批)。"
     },
     {
       "id": "P0-11",
       "level": "P0",
-      "title": "飓风Lala袭击夏威夷大岛 34年来首次直接登陆 ITO/KOA关闭 65班取消",
+      "title": "🇺🇸🌊飓风Lala 影响扩展至夏威夷全州 5机场受影响 77+班取消 HDOT计划ITO/KOA今日恢复",
       "detail": "NEW: 飓风Lala增强至1级飓风直接袭击夏威夷大岛(34年来首次)。ITO全天关闭(80%取消)，KOA午后关闭(40%取消)。Alaska+Hawaiian合计65班取消。加拿大发布勿前往警告。",
       "airports": "ITO/KOA",
-      "airlines": "Alaska/Hawaiian/Air Canada/WestJet",
+      "airlines": "Hawaiian/Alaska/United/AA/Delta",
       "impact": "2机场关闭/65班取消",
-      "duration": "飓风进行中",
+      "duration": "Lala向西北移动",
       "sources": [
-        "https://hidot.hawaii.gov",
-        "https://beatofhawaii.com"
+        {
+          "name": "Hawaii DOT",
+          "url": "https://hidot.hawaii.gov/blog/2026/08/15/tropical-cyclone-lala-port-updates/"
+        },
+        {
+          "name": "MauiNow",
+          "url": "https://mauinow.com/2026/08/15/state-of-hawai%CA%BBi-coordinated-response-to-hurricane-lala-saturday-evening-update/"
+        }
       ],
-      "color": "red"
+      "color": "red",
+      "description": "PM更新：NHC确认Lala仍1级飓风向西北移动，热带风暴警告扩展至Maui/Oahu/Kauai全域。LAX出发的跨太平洋航线多家航司取消，累计77+班取消或重大延误。Delta旅行豁免可免费改签至8/19，AA至8/21。HDOT计划ITO/KOA于8/16恢复运营。",
+      "affected_airports": "ITO/KOA/OGG/LIH/HNL",
+      "traveler_impact": "77+班取消/5机场受影响"
     },
     {
       "id": "P0-7",
@@ -281,6 +298,26 @@
       "duration": "-",
       "sources": [],
       "color": "orange"
+    },
+    {
+      "id": "P1-VN",
+      "level": "P1",
+      "title": "Vietnam Airlines VN34慕尼黑起飞冲出跑道+严重擦尾",
+      "description": "787-9(VN-A867)8/15慕尼黑起飞延迟抬轮，用尽4000m跑道后冲出末端120m，尾部严重擦地。全员安全，飞机停场数月。德国BfU调查中。",
+      "affected_airports": "MUC",
+      "airlines": "Vietnam Airlines",
+      "traveler_impact": "全员安全/飞机停场数月",
+      "duration": "BfU调查中",
+      "sources": [
+        {
+          "name": "民航资源网",
+          "url": "https://i.carnoc.com/detail/666061"
+        },
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/2026/08/16/vietnam-airlines-flight-returns-to-munich-after-technical-problems/"
+        }
+      ]
     }
   ]
 }
