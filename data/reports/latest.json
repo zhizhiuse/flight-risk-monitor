@@ -1,323 +1,126 @@
 {
-  "date": "2026-08-16",
-  "period": "pm",
-  "generated_at": "2026-08-16T02:20:48Z",
+  "date": "2026-08-17",
+  "period": "AM",
   "summary": {
     "p0_count": 8,
     "p1_count": 13,
-    "p2_count": 70,
-    "total": 21,
+    "p2_count": 72,
+    "total": 14,
     "note": "P2 events excluded from display by design",
-    "generated_at": "2026-08-16T16:03:00+08:00"
+    "generated_at": "2026-08-17T09:00:00+08:00"
   },
   "events": [
     {
       "id": "P0-5",
       "level": "P0",
-      "title": "莫斯科+北高加索全面告急 1750架无人机(第17夜) 13+机场受限+威胁扩展至6共和国",
-      "detail": "AM更新：1750架无人机攻击莫斯科地区(前日480架大幅升级)，12架直飞市区被击落，10+地区拦截180架。VKO/DME/ZIA三大机场凌晨全部关闭。威胁首次扩展至北高加索6个共和国，南部13座机场暂停。索契AER延误175架次最长67小时。",
-      "airports": "北高加索13机场+VKO/DME/ZIA",
-      "airlines": "俄罗斯航司",
-      "impact": "1750无人机/13+机场/6共和国",
-      "duration": "第17夜",
-      "sources": [
-        "https://www.interfax.ru",
-        "https://www.gazeta.ru"
-      ],
-      "color": "red"
+      "title": "莫斯科+南俄 第18夜无人机 攻击东移VOG首次受限 13+机场受限+6共和国",
+      "summary": "第18夜攻击方向东移至伏尔加格勒/里海沿岸，VOG机场首次因无人机威胁临时限制。VKO/DME/ZIA+南俄13机场受限，威胁扩展至6共和国。",
+      "status": "active",
+      "last_update": "2026-08-17"
     },
     {
       "id": "P0-1",
       "level": "P0",
-      "title": "🇺🇸🔥霍尔木兹海峡 停火确认延期但时长未定+ADNOC 48h第3艘遇袭+议会明日审议主权法案",
-      "detail": "AM更新：8/17停火到期仅剩1天。伊朗议会委员会通过海峡主权法案基本原则(7/14条已批)，将禁止美以及敌对国船只通行。BND机场8/15恢复国内航班(3条航线)，但国际航线未开放。",
-      "airports": "霍尔木兹海峡",
-      "airlines": "全球航运/海湾航司",
-      "impact": "停火明天到期+主权法案",
-      "duration": "第168天/停火延期",
-      "sources": [
-        {
-          "name": "央广网",
-          "url": "http://news.cnr.cn/sq/20260816/t20260816_527764222.shtml"
-        },
-        {
-          "name": "Anadolu Agency",
-          "url": "https://www.aa.com.tr/en/middle-east/iranian-parliament-to-debate-foreign-influence-hormuz-oversight-bills/4028575"
-        }
-      ],
-      "color": "red",
-      "description": "PM更新：伊斯兰堡停火双方同意延期但时长未定。ADNOC 48h内第3艘船遭无人机袭击(开战以来第19-20艘)，海峡日均通行仅22艘(战前130+)。伊朗外长称航道协议与海峡重开是独立议题。议会8/17继续审议\"智能管理计划\"法案(7/14条已批)。"
+      "title": "霍尔木兹海峡 停火确认延期(时长未定)+ADNOC三连袭+议会审议主权法案",
+      "summary": "美伊停火确认延期但时长未定，ADNOC 48h第3艘船遇袭(累计23艘)，海峡日通行仅22艘。伊朗议会8/17审议主权法案，BND恢复国内航班。",
+      "status": "active",
+      "last_update": "2026-08-17"
     },
     {
       "id": "P0-11",
       "level": "P0",
-      "title": "🇺🇸🌊飓风Lala 影响扩展至夏威夷全州 5机场受影响 77+班取消 HDOT计划ITO/KOA今日恢复",
-      "detail": "NEW: 飓风Lala增强至1级飓风直接袭击夏威夷大岛(34年来首次)。ITO全天关闭(80%取消)，KOA午后关闭(40%取消)。Alaska+Hawaiian合计65班取消。加拿大发布勿前往警告。",
-      "airports": "ITO/KOA",
-      "airlines": "Hawaiian/Alaska/United/AA/Delta",
-      "impact": "2机场关闭/65班取消",
-      "duration": "Lala向西北移动",
-      "sources": [
-        {
-          "name": "Hawaii DOT",
-          "url": "https://hidot.hawaii.gov/blog/2026/08/15/tropical-cyclone-lala-port-updates/"
-        },
-        {
-          "name": "MauiNow",
-          "url": "https://mauinow.com/2026/08/15/state-of-hawai%CA%BBi-coordinated-response-to-hurricane-lala-saturday-evening-update/"
-        }
-      ],
-      "color": "red",
-      "description": "PM更新：NHC确认Lala仍1级飓风向西北移动，热带风暴警告扩展至Maui/Oahu/Kauai全域。LAX出发的跨太平洋航线多家航司取消，累计77+班取消或重大延误。Delta旅行豁免可免费改签至8/19，AA至8/21。HDOT计划ITO/KOA于8/16恢复运营。",
-      "affected_airports": "ITO/KOA/OGG/LIH/HNL",
-      "traveler_impact": "77+班取消/5机场受影响"
+      "title": "飓风Lala降为热带风暴 夏威夷全州影响 HNL/OGG 80+班取消 ITO/KOA已恢复",
+      "summary": "Lala降级为热带风暴但仍在影响夏威夷，HNL 49班+OGG 31班取消，ITO/KOA已恢复。10万+用户断电，航司豁免已到期。",
+      "status": "active",
+      "last_update": "2026-08-17"
     },
     {
       "id": "P0-7",
       "level": "P0",
-      "title": "印尼弗洛勒斯M7.7强震 死20伤6 海啸解除 RTG机场受损 趋缓",
-      "detail": "死20伤6确认，海啸预警已解除。RTG机场受损，Wings Air取消2航班影响126人。勒沃托比火山叠加风险。",
-      "airports": "RTG/MOF/LBJ",
-      "airlines": "印尼国内航司",
-      "impact": "20死6伤/海啸解除",
-      "duration": "趋缓",
-      "sources": [
-        "https://www.bmkg.go.id",
-        "https://watchers.news"
-      ],
-      "color": "red"
+      "title": "印尼Flores M7.7强震 死53伤135 LBJ机场限制运营 14天紧急状态",
+      "summary": "死亡升至53人，14天紧急状态(至8/28)。LBJ机场滑行道裂缝限制运营，Wings Air取消12班。Trans-Flores公路中断。",
+      "status": "active",
+      "last_update": "2026-08-17"
     },
     {
       "id": "P0-10",
       "level": "P0",
       "title": "哥伦比亚7.4级地震 死281人 PEI仍完全关闭 350+架次",
-      "detail": "死亡升至281人，超10万人受灾。PEI仍完全关闭，3机场仅人道航班。350+架次受影响。",
-      "airports": "PEI/MZL/CRC",
-      "airlines": "Avianca/LATAM/Copa/Iberia",
-      "impact": "PEI仍关闭/350+架次",
-      "duration": "待结构评估",
-      "sources": [
-        "https://www.reuters.com"
-      ],
-      "color": "red"
+      "summary": "死亡281人，超10万人受灾。PEI仍完全关闭，3机场仅人道航班。Avianca/LATAM/Copa/Iberia 350+架次受影响。",
+      "status": "active",
+      "last_update": "2026-08-16"
     },
     {
       "id": "P0-2",
       "level": "P0",
-      "title": "CCS委内瑞拉第58天 6125死 货运已恢复 客运8月中下旬",
-      "detail": "CCS机场关闭第58天，累计6125人死亡。货运已恢复，客运预计8月中下旬。",
-      "airports": "CCS机场",
-      "airlines": "多家国际航司",
-      "impact": "货运已恢复/客运8月中下旬",
-      "duration": "第58天",
-      "sources": [
-        "https://apnews.com"
-      ],
-      "color": "grey"
+      "title": "CCS委内瑞拉第60天 6125死 货运已恢复 客运8月中下旬",
+      "summary": "CCS机场关闭第60天，累计6125人死亡。8/5已恢复货运，客运预计8月中下旬。",
+      "status": "active",
+      "last_update": "2026-08-16"
     },
     {
       "id": "P0-3",
       "level": "P0",
       "title": "EASA中东CZIB预警延长至8/31",
-      "detail": "EASA中东冲突区信息公告延长至8/31，建议避开UAE/巴林/科威特/卡塔尔空域。",
-      "airports": "中东空域",
-      "airlines": "欧洲航司",
-      "impact": "航线规避",
-      "duration": "至8/31",
-      "sources": [
-        "https://www.easa.europa.eu"
-      ],
-      "color": "grey"
+      "summary": "EASA中东冲突区信息公告延长至8/31。建议避开UAE/巴林/科威特/卡塔尔空域全高度层。",
+      "status": "active",
+      "last_update": "2026-08-16"
     },
     {
       "id": "P0-6",
       "level": "P0",
-      "title": "精神航空5/2停运 34年终结",
-      "detail": "Spirit Airlines 5月2日停运，1.7万员工失业。",
-      "airports": "美国全境",
-      "airlines": "Spirit Airlines",
-      "impact": "1.7万员工",
-      "duration": "永久",
-      "sources": [
-        "https://apnews.com"
-      ],
-      "color": "grey"
+      "title": "精神航空5/2停运 34年终结 1.7万员工失业",
+      "summary": "Spirit Airlines 5月2日停运，34年历史终结，1.7万员工失业。",
+      "status": "permanent",
+      "last_update": "2026-08-16"
     },
     {
       "id": "P1-Russia",
       "level": "P1",
-      "title": "1750无人机第17夜 北高加索6共和国13机场+莫斯科3机场全关",
-      "detail": "1750架无人机攻击莫斯科地区，VKO/DME/ZIA凌晨全关。威胁扩展至北高加索6共和国，南部13座机场暂停。",
-      "airports": "北高加索13机场+VKO/DME/ZIA",
-      "airlines": "俄罗斯航司",
-      "impact": "1750无人机/13+机场",
-      "duration": "第17夜",
-      "sources": [
-        "https://www.interfax.ru"
-      ],
-      "color": "orange"
+      "title": "无人机第18夜攻击东移 VOG首次受限 南俄多方向同步攻击",
+      "summary": "第18夜攻击方向东移至伏尔加格勒，VOG机场首次受限。覆盖克里米亚/罗斯托夫/伏尔加格勒/阿斯特拉罕/卡尔梅克。",
+      "status": "active",
+      "last_update": "2026-08-17"
+    },
+    {
+      "id": "P1-VN",
+      "level": "P1",
+      "title": "越南航空787慕尼黑擦尾 全员安全 停场数月 BfU调查中",
+      "summary": "VN34慕尼黑起飞延迟抬轮冲出跑道末端120m，尾部严重擦地。全员安全，德国BfU调查中。",
+      "status": "active",
+      "last_update": "2026-08-16"
+    },
+    {
+      "id": "P1-13",
+      "level": "P1",
+      "title": "easyJet France空乘罢工 Day2 ~100班取消 6基地900名空乘",
+      "summary": "罢工第2天，昨日~100班取消，6基地900名空乘超半数参与。",
+      "status": "active",
+      "last_update": "2026-08-17"
     },
     {
       "id": "P1-Etna",
       "level": "P1",
       "title": "INGV降橙色/NOTAM未续 过8天684班取消(36%) 待确认CTA重开",
-      "detail": "INGV预警降橙色，CTA NOTAM到期未续，火山颤动恢复正常。684班取消(36%)。",
-      "airports": "CTA",
-      "airlines": "Swiss/KM/Jet2等",
-      "impact": "684班取消/趋缓信号",
-      "duration": "待确认重开",
-      "sources": [
-        "https://apnews.com"
-      ],
-      "color": "orange"
-    },
-    {
-      "id": "P1-Ryanair",
-      "level": "P1",
-      "title": "NTSB报告:叶片疲劳断裂穿机身 FAA拟推CFM56-7B新AD",
-      "detail": "NTSB报告风扇叶片因金属疲劳断裂击穿机身。FAA提案新AD，2028年前改装。",
-      "airports": "全球CFM56-7B机队",
-      "airlines": "FAA/NTSB",
-      "impact": "新AD提案/影响大量737NG",
-      "duration": "待最终规则",
-      "sources": [
-        "https://apnews.com"
-      ],
-      "color": "orange"
-    },
-    {
-      "id": "P1-13",
-      "level": "P1",
-      "title": "easyJet France罢工Day2 昨日~100班取消 今日继续",
-      "detail": "罢工进入第2天。昨日~100班取消(略超预估)，6基地900名空乘超半数参与。",
-      "airports": "ORY/CDG/NCE/LYS等",
-      "airlines": "easyJet France",
-      "impact": "~100班/日",
-      "duration": "8/15-16",
-      "sources": [
-        "https://euroweeklynews.com"
-      ],
-      "color": "orange"
+      "summary": "INGV预警降橙色，CTA NOTAM到期未续，颤动恢复正常。累计684班取消，CIY已恢复。",
+      "status": "monitoring",
+      "last_update": "2026-08-16"
     },
     {
       "id": "P1-10",
       "level": "P1",
       "title": "BCN Groundforce罢工第11天 170架次取消 3000件行李",
-      "detail": "累计170架次取消、3000件行李未装机。1179名工人拒绝谈判。",
-      "airports": "BCN机场",
-      "airlines": "Groundforce",
-      "impact": "170班取消/3000件行李",
-      "duration": "无限期",
-      "sources": [
-        "https://euroweeklynews.com"
-      ],
-      "color": "orange"
+      "summary": "无限期罢工第11天，累计170架次取消、3000件行李未装机，1179名工人拒绝谈判。",
+      "status": "active",
+      "last_update": "2026-08-16"
     },
     {
-      "id": "P1-TLV",
+      "id": "P1-SZB",
       "level": "P1",
-      "title": "IAA确认美军加油机致~90架次延误 三重因素叠加",
-      "detail": "IAA首次确认美军加油机与民航延误直接关联。加油机加速撤离中。",
-      "airports": "TLV",
-      "airlines": "多家航司",
-      "impact": "~90架次延误",
-      "duration": "加油机撤离中",
-      "sources": [
-        "https://www.timesofisrael.com"
-      ],
-      "color": "orange"
-    },
-    {
-      "id": "P1-Norway",
-      "level": "P1",
-      "title": "挪威罢工8/18升级至580人",
-      "detail": "8/18升级至580人参与",
-      "airports": "OSL",
-      "airlines": "多家",
-      "impact": "待评估",
-      "duration": "8/18起",
-      "sources": [],
-      "color": "orange"
-    },
-    {
-      "id": "P1-Collins",
-      "level": "P1",
-      "title": "Collins Aerospace供应链问题",
-      "detail": "供应链持续紧张",
-      "airports": "多机场",
-      "airlines": "多家",
-      "impact": "零部件延迟",
-      "duration": "持续",
-      "sources": [],
-      "color": "orange"
-    },
-    {
-      "id": "P1-DL-smoke",
-      "level": "P1",
-      "title": "美国西部山火烟雾影响航班",
-      "detail": "山火烟雾影响能见度",
-      "airports": "西部多机场",
-      "airlines": "DL等",
-      "impact": "延误",
-      "duration": "季节性",
-      "sources": [],
-      "color": "orange"
-    },
-    {
-      "id": "P1-BlackSea",
-      "level": "P1",
-      "title": "黑海无人机威胁",
-      "detail": "黑海区域无人机活动",
-      "airports": "黑海周边",
-      "airlines": "多家",
-      "impact": "航线规避",
-      "duration": "持续",
-      "sources": [],
-      "color": "orange"
-    },
-    {
-      "id": "P1-WSJ",
-      "level": "P1",
-      "title": "WSJ报道航运风险",
-      "detail": "WSJ报道霍尔木兹航运风险升级",
-      "airports": "-",
-      "airlines": "-",
-      "impact": "舆论关注",
-      "duration": "-",
-      "sources": [],
-      "color": "orange"
-    },
-    {
-      "id": "P1-11",
-      "level": "P1",
-      "title": "其他关注事件",
-      "detail": "其他P1级别事件",
-      "airports": "-",
-      "airlines": "-",
-      "impact": "-",
-      "duration": "-",
-      "sources": [],
-      "color": "orange"
-    },
-    {
-      "id": "P1-VN",
-      "level": "P1",
-      "title": "Vietnam Airlines VN34慕尼黑起飞冲出跑道+严重擦尾",
-      "description": "787-9(VN-A867)8/15慕尼黑起飞延迟抬轮，用尽4000m跑道后冲出末端120m，尾部严重擦地。全员安全，飞机停场数月。德国BfU调查中。",
-      "affected_airports": "MUC",
-      "airlines": "Vietnam Airlines",
-      "traveler_impact": "全员安全/飞机停场数月",
-      "duration": "BfU调查中",
-      "sources": [
-        {
-          "name": "民航资源网",
-          "url": "https://i.carnoc.com/detail/666061"
-        },
-        {
-          "name": "The National",
-          "url": "https://www.thenationalnews.com/news/2026/08/16/vietnam-airlines-flight-returns-to-munich-after-technical-problems/"
-        }
-      ]
+      "title": "马来西亚梳邦机场Ka-32S直升机地面测试起火 跑道关闭2h+",
+      "summary": "乌克兰注册Ka-32S直升机维修后试车起火焚毁，4人逃生(1轻伤)。跑道关闭2h+，8架改道。CAAM调查中。",
+      "status": "active",
+      "last_update": "2026-08-17"
     }
   ]
 }
