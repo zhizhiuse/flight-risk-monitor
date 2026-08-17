@@ -16,7 +16,8 @@
       "title": "莫斯科+南俄 第18夜无人机 攻击东移VOG首次受限 13+机场受限+6共和国",
       "summary": "第18夜攻击方向东移至伏尔加格勒/里海沿岸，VOG机场首次因无人机威胁临时限制。VKO/DME/ZIA+南俄13机场受限，威胁扩展至6共和国。",
       "status": "active",
-      "last_update": "2026-08-17"
+      "last_update": "2026-08-17",
+      "priority": "P0"
     },
     {
       "id": "P0-1",
@@ -24,7 +25,8 @@
       "title": "霍尔木兹海峡 停火确认延期(时长未定)+ADNOC三连袭+议会审议主权法案",
       "summary": "美伊停火确认延期但时长未定，ADNOC 48h第3艘船遇袭(累计23艘)，海峡日通行仅22艘。伊朗议会8/17审议主权法案，BND恢复国内航班。",
       "status": "active",
-      "last_update": "2026-08-17"
+      "last_update": "2026-08-17",
+      "priority": "P0"
     },
     {
       "id": "P0-11",
@@ -32,7 +34,8 @@
       "title": "飓风Lala降为热带风暴 夏威夷全州影响 HNL/OGG 80+班取消 ITO/KOA已恢复",
       "summary": "Lala降级为热带风暴但仍在影响夏威夷，HNL 49班+OGG 31班取消，ITO/KOA已恢复。10万+用户断电，航司豁免已到期。",
       "status": "active",
-      "last_update": "2026-08-17"
+      "last_update": "2026-08-17",
+      "priority": "P0"
     },
     {
       "id": "P0-7",
@@ -40,7 +43,8 @@
       "title": "印尼Flores M7.7强震 死53伤135 LBJ机场限制运营 14天紧急状态",
       "summary": "死亡升至53人，14天紧急状态(至8/28)。LBJ机场滑行道裂缝限制运营，Wings Air取消12班。Trans-Flores公路中断。",
       "status": "active",
-      "last_update": "2026-08-17"
+      "last_update": "2026-08-17",
+      "priority": "P0"
     },
     {
       "id": "P0-10",
@@ -48,7 +52,8 @@
       "title": "哥伦比亚7.4级地震 死281人 PEI仍完全关闭 350+架次",
       "summary": "死亡281人，超10万人受灾。PEI仍完全关闭，3机场仅人道航班。Avianca/LATAM/Copa/Iberia 350+架次受影响。",
       "status": "active",
-      "last_update": "2026-08-16"
+      "last_update": "2026-08-16",
+      "priority": "P0"
     },
     {
       "id": "P0-2",
@@ -56,7 +61,8 @@
       "title": "CCS委内瑞拉第60天 6125死 货运已恢复 客运8月中下旬",
       "summary": "CCS机场关闭第60天，累计6125人死亡。8/5已恢复货运，客运预计8月中下旬。",
       "status": "active",
-      "last_update": "2026-08-16"
+      "last_update": "2026-08-16",
+      "priority": "P0"
     },
     {
       "id": "P0-3",
@@ -64,7 +70,8 @@
       "title": "EASA中东CZIB预警延长至8/31",
       "summary": "EASA中东冲突区信息公告延长至8/31。建议避开UAE/巴林/科威特/卡塔尔空域全高度层。",
       "status": "active",
-      "last_update": "2026-08-16"
+      "last_update": "2026-08-16",
+      "priority": "P0"
     },
     {
       "id": "P0-6",
@@ -72,7 +79,8 @@
       "title": "精神航空5/2停运 34年终结 1.7万员工失业",
       "summary": "Spirit Airlines 5月2日停运，34年历史终结，1.7万员工失业。",
       "status": "permanent",
-      "last_update": "2026-08-16"
+      "last_update": "2026-08-16",
+      "priority": "P0"
     },
     {
       "id": "P1-Russia",
@@ -80,7 +88,8 @@
       "title": "无人机第18夜攻击东移 VOG首次受限 南俄多方向同步攻击",
       "summary": "第18夜攻击方向东移至伏尔加格勒，VOG机场首次受限。覆盖克里米亚/罗斯托夫/伏尔加格勒/阿斯特拉罕/卡尔梅克。",
       "status": "active",
-      "last_update": "2026-08-17"
+      "last_update": "2026-08-17",
+      "priority": "P1"
     },
     {
       "id": "P1-VN",
@@ -88,7 +97,8 @@
       "title": "越南航空787慕尼黑擦尾 全员安全 停场数月 BfU调查中",
       "summary": "VN34慕尼黑起飞延迟抬轮冲出跑道末端120m，尾部严重擦地。全员安全，德国BfU调查中。",
       "status": "active",
-      "last_update": "2026-08-16"
+      "last_update": "2026-08-16",
+      "priority": "P1"
     },
     {
       "id": "P1-13",
@@ -96,7 +106,8 @@
       "title": "easyJet France空乘罢工 Day2 ~100班取消 6基地900名空乘",
       "summary": "罢工第2天，昨日~100班取消，6基地900名空乘超半数参与。",
       "status": "active",
-      "last_update": "2026-08-17"
+      "last_update": "2026-08-17",
+      "priority": "P1"
     },
     {
       "id": "P1-Etna",
@@ -104,7 +115,8 @@
       "title": "INGV降橙色/NOTAM未续 过8天684班取消(36%) 待确认CTA重开",
       "summary": "INGV预警降橙色，CTA NOTAM到期未续，颤动恢复正常。累计684班取消，CIY已恢复。",
       "status": "monitoring",
-      "last_update": "2026-08-16"
+      "last_update": "2026-08-16",
+      "priority": "P1"
     },
     {
       "id": "P1-10",
@@ -112,7 +124,8 @@
       "title": "BCN Groundforce罢工第11天 170架次取消 3000件行李",
       "summary": "无限期罢工第11天，累计170架次取消、3000件行李未装机，1179名工人拒绝谈判。",
       "status": "active",
-      "last_update": "2026-08-16"
+      "last_update": "2026-08-16",
+      "priority": "P1"
     },
     {
       "id": "P1-SZB",
@@ -120,7 +133,8 @@
       "title": "马来西亚梳邦机场Ka-32S直升机地面测试起火 跑道关闭2h+",
       "summary": "乌克兰注册Ka-32S直升机维修后试车起火焚毁，4人逃生(1轻伤)。跑道关闭2h+，8架改道。CAAM调查中。",
       "status": "active",
-      "last_update": "2026-08-17"
+      "last_update": "2026-08-17",
+      "priority": "P1"
     }
   ]
 }
