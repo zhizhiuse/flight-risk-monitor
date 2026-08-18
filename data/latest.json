@@ -20,7 +20,8 @@
       "sources": [
         "https://russian.rt.com",
         "https://www.vesti.ru"
-      ]
+      ],
+      "level": "P0"
     },
     {
       "id": "P0-1",
@@ -34,7 +35,8 @@
       "sources": [
         "https://apnews.com",
         "https://jurist.org"
-      ]
+      ],
+      "level": "P0"
     },
     {
       "id": "P0-11",
@@ -48,7 +50,8 @@
       "sources": [
         "https://www.nhc.noaa.gov",
         "https://hidot.hawaii.gov"
-      ]
+      ],
+      "level": "P0"
     },
     {
       "id": "P0-7",
@@ -62,7 +65,8 @@
       "sources": [
         "https://en.antaranews.com",
         "https://aviawire.com"
-      ]
+      ],
+      "level": "P0"
     },
     {
       "id": "P0-10",
@@ -75,7 +79,8 @@
       "duration": "待结构评估",
       "sources": [
         "https://www.reuters.com"
-      ]
+      ],
+      "level": "P0"
     },
     {
       "id": "P0-2",
@@ -88,7 +93,8 @@
       "duration": "持续中",
       "sources": [
         "https://apnews.com"
-      ]
+      ],
+      "level": "P0"
     },
     {
       "id": "P0-3",
@@ -101,7 +107,8 @@
       "duration": "至8/31",
       "sources": [
         "https://www.easa.europa.eu"
-      ]
+      ],
+      "level": "P0"
     },
     {
       "id": "P0-6",
@@ -114,7 +121,8 @@
       "duration": "永久",
       "sources": [
         "https://apnews.com"
-      ]
+      ],
+      "level": "P0"
     },
     {
       "id": "P1-Russia",
@@ -127,7 +135,8 @@
       "duration": "持续中",
       "sources": [
         "https://m.ridus.ru"
-      ]
+      ],
+      "level": "P1"
     },
     {
       "id": "P1-VN",
@@ -140,7 +149,8 @@
       "duration": "BfU调查中",
       "sources": [
         "https://avherald.com"
-      ]
+      ],
+      "level": "P1"
     },
     {
       "id": "P1-Etna",
@@ -153,7 +163,8 @@
       "duration": "至14:00本地时间",
       "sources": [
         "https://www.tgcom24.mediaset.it"
-      ]
+      ],
+      "level": "P1"
     },
     {
       "id": "P1-10",
@@ -166,7 +177,8 @@
       "duration": "无限期",
       "sources": [
         "https://euroweeklynews.com"
-      ]
+      ],
+      "level": "P1"
     },
     {
       "id": "P1-SZB",
@@ -179,7 +191,8 @@
       "duration": "调查中",
       "sources": [
         "https://www.caa.gov.my"
-      ]
+      ],
+      "level": "P1"
     },
     {
       "id": "P1-13",
@@ -192,7 +205,8 @@
       "duration": "8/15-17",
       "sources": [
         "https://euroweeklynews.com"
-      ]
+      ],
+      "level": "P1"
     }
   ]
 }
