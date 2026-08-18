@@ -5,38 +5,37 @@
     "p2_count": 72,
     "total": 14,
     "note": "P2 events excluded from display by design",
-    "generated_at": "2026-08-17T16:00:00+08:00"
+    "generated_at": "2026-08-18T16:00:00+08:00"
   },
   "events": [
     {
       "id": "P0-5",
       "priority": "P0",
-      "title": "莫斯科+南俄 第18夜无人机 攻击东移VOG首次受限",
-      "description": "8/16-17夜间第18夜，攻击方向东移至伏尔加格勒/里海沿岸。VOG机场首次受限，50+架无人机群突破。关联：NATO 8/16罗马尼亚击落疑似俄无人机。",
-      "affected_airports": "VKO/DME/ZIA/VOG+南俄13机场",
+      "title": "莫斯科+南俄 第19夜无人机 5机场受限350班取消6万旅客",
+      "description": "8/17-18第19夜，VKO/DME/ZIA/GDZ/KLF 5机场受限。350航班取消/6万旅客受阻。7架无人机被击落。",
+      "affected_airports": "VKO/DME/ZIA/GDZ/KLF",
       "airlines": "俄罗斯航司",
-      "traveler_impact": "第18夜/VOG首次受限/攻击东移",
+      "traveler_impact": "第19夜/350班取消/6万旅客",
       "duration": "持续中",
       "sources": [
         "https://russian.rt.com",
         "https://www.vesti.ru"
-      ],
-      "level": "P0"
+      ]
     },
     {
       "id": "P0-1",
       "priority": "P0",
-      "title": "霍尔木兹海峡 MoU 8/17正式到期未延期 停火框架终结+EK/FZ恢复伊朗领空",
-      "description": "6/18伊斯兰堡MoU于8/17正式到期，双方未达成延期，停火框架实质终结。伊朗无意延长。Emirates/flydubai 8/16起恢复飞越伊朗领空(开战以来首次)。",
+      "title": "霍尔木兹海峡 停火终结+MoU到期后首起致命遇袭+伊朗设数周最后期限",
+      "description": "8/18霍尔木兹船只遇袭1死(UAE归因伊朗)，MoU到期后首起致命事件。伊朗设数周最后期限威胁军事打击。WSJ揭露IRGC系统备战。海峡日均通行降至3艘。",
       "affected_airports": "霍尔木兹海峡/BND",
       "airlines": "全球航运/海湾航司",
-      "traveler_impact": "MoU到期+停火终结+EK/FZ恢复伊朗领空",
-      "duration": "第169天",
+      "traveler_impact": "停火终结+首次遇袭+伊朗最后期限+IRGC备战",
+      "duration": "第170天",
       "sources": [
         "https://apnews.com",
-        "https://jurist.org"
-      ],
-      "level": "P0"
+        "https://www.reuters.com",
+        "https://www.wsj.com"
+      ]
     },
     {
       "id": "P0-11",
@@ -50,37 +49,34 @@
       "sources": [
         "https://www.nhc.noaa.gov",
         "https://hidot.hawaii.gov"
-      ],
-      "level": "P0"
+      ]
     },
     {
       "id": "P0-7",
       "priority": "P0",
-      "title": "印尼Flores M7.7强震 死53伤135 LBJ限制运营",
-      "description": "死亡53人/135伤。14天紧急状态至8/28。LBJ滑行道裂缝+消防站受损限制运营。Wings Air取消12班。",
-      "affected_airports": "LBJ/ENE",
+      "title": "印尼Flores M7.7强震 死53伤135 PM更新:6座机场全部正常运营",
+      "description": "交通部8/18确认6座机场虽有损伤但全部正常运营，LBJ航空连通性恢复。死亡53/伤135。14天紧急状态至8/28。",
+      "affected_airports": "LBJ/ENE等6座机场",
       "airlines": "Wings Air/印尼国内航司",
-      "traveler_impact": "53死135伤/14天紧急状态/LBJ限制",
+      "traveler_impact": "53死135伤/6座机场全部正常运营",
       "duration": "紧急状态至8/28",
       "sources": [
         "https://en.antaranews.com",
-        "https://aviawire.com"
-      ],
-      "level": "P0"
+        "https://www.inews.id"
+      ]
     },
     {
       "id": "P0-10",
       "priority": "P0",
       "title": "哥伦比亚7.4级地震 死281人 PEI仍完全关闭",
-      "description": "死亡281人，超10万人受灾。PEI仍完全关闭，3机场仅人道航班。350+架次受影响。",
+      "description": "死亡281人，超10万人受灾。PEI仍完全关闭。350+架次受影响。",
       "affected_airports": "PEI/MZL/CRC",
       "airlines": "Avianca/LATAM/Copa/Iberia",
       "traveler_impact": "PEI仍关闭/350+架次",
       "duration": "待结构评估",
       "sources": [
         "https://www.reuters.com"
-      ],
-      "level": "P0"
+      ]
     },
     {
       "id": "P0-2",
@@ -93,8 +89,7 @@
       "duration": "持续中",
       "sources": [
         "https://apnews.com"
-      ],
-      "level": "P0"
+      ]
     },
     {
       "id": "P0-3",
@@ -107,8 +102,7 @@
       "duration": "至8/31",
       "sources": [
         "https://www.easa.europa.eu"
-      ],
-      "level": "P0"
+      ]
     },
     {
       "id": "P0-6",
@@ -121,22 +115,20 @@
       "duration": "永久",
       "sources": [
         "https://apnews.com"
-      ],
-      "level": "P0"
+      ]
     },
     {
       "id": "P1-Russia",
       "priority": "P1",
-      "title": "无人机第18夜攻击东移 VOG首次受限",
-      "description": "第18夜攻击东移至伏尔加格勒/里海沿岸。VOG机场首次受限。",
-      "affected_airports": "VOG+南俄13机场/VKO/DME/ZIA",
+      "title": "无人机第19夜 5机场受限 350班取消 6万旅客",
+      "description": "第19夜，VKO/DME/ZIA/GDZ/KLF 5机场受限。350班取消/6万旅客。",
+      "affected_airports": "VKO/DME/ZIA/GDZ/KLF",
       "airlines": "俄罗斯航司",
-      "traveler_impact": "第18夜/VOG首次受限",
+      "traveler_impact": "第19夜/350班取消",
       "duration": "持续中",
       "sources": [
         "https://m.ridus.ru"
-      ],
-      "level": "P1"
+      ]
     },
     {
       "id": "P1-VN",
@@ -149,36 +141,33 @@
       "duration": "BfU调查中",
       "sources": [
         "https://avherald.com"
-      ],
-      "level": "P1"
+      ]
     },
     {
       "id": "P1-Etna",
       "priority": "P1",
-      "title": "Etna 8/16晚再喷发 CTA进港限流5班/h",
-      "description": "8/16晚Voragine再次强烈喷发。CTA进港限流5班/h至14:00本地时间。过8天684班取消。",
+      "title": "Etna CTA限流放宽至12班/h(最大容量) 恢复趋势",
+      "description": "8/18 CTA进港限流从5班/h放宽至12班/h(最大容量)，B1扇区仍关闭。恢复趋势明确。",
       "affected_airports": "CTA",
       "airlines": "Swiss/KM/Jet2等",
-      "traveler_impact": "再喷发/进港限流",
-      "duration": "至14:00本地时间",
+      "traveler_impact": "限流放宽至最大容量",
+      "duration": "恢复中",
       "sources": [
-        "https://www.tgcom24.mediaset.it"
-      ],
-      "level": "P1"
+        "https://www.latiburtinanews.it"
+      ]
     },
     {
       "id": "P1-10",
       "priority": "P1",
       "title": "BCN Groundforce罢工第11天 170架次取消",
-      "description": "Groundforce无限期罢工第11天。累计170架次取消/3000件行李。1179名工人拒绝谈判。",
+      "description": "Groundforce无限期罢工第11天。累计170架次取消/3000件行李。",
       "affected_airports": "BCN",
       "airlines": "Groundforce",
       "traveler_impact": "170班取消/3000件行李",
       "duration": "无限期",
       "sources": [
         "https://euroweeklynews.com"
-      ],
-      "level": "P1"
+      ]
     },
     {
       "id": "P1-SZB",
@@ -191,22 +180,20 @@
       "duration": "调查中",
       "sources": [
         "https://www.caa.gov.my"
-      ],
-      "level": "P1"
+      ]
     },
     {
       "id": "P1-13",
       "priority": "P1",
       "title": "easyJet France空乘罢工 Day3 8/17最后一天",
-      "description": "罢工第3天(最后一天)。前2日各~100班取消，6基地900名空乘。",
+      "description": "罢工第3天(最后一天)。前2日各~100班取消。",
       "affected_airports": "ORY/CDG/NCE/LYS等",
       "airlines": "easyJet France",
       "traveler_impact": "~100班/日",
       "duration": "8/15-17",
       "sources": [
         "https://euroweeklynews.com"
-      ],
-      "level": "P1"
+      ]
     }
   ]
 }
