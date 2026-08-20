@@ -1,213 +1,111 @@
 {
+  "date": "2026-08-20",
+  "period": "AM",
   "summary": {
     "p0_count": 8,
-    "p1_count": 16,
-    "p2_count": 75,
-    "total": 14,
-    "note": "P2 events excluded from display by design",
-    "generated_at": "2026-08-19T16:00:00+08:00"
+    "p1_count": 17,
+    "p2_count": 77,
+    "total": 25,
+    "note": "P2 events excluded from display by design"
   },
   "events": [
     {
-      "id": "P0-1",
+      "id": "p0-1",
       "priority": "P0",
       "level": "priority",
-      "title": "霍尔木兹海峡 伊朗向UAE发射弹道导弹+美伊外交正式破裂",
-      "description": "8/18伊朗首次直接向UAE发射2枚弹道导弹(开战以来首次)。UAE冻结对伊贸易。美伊外交正式破裂(Trump永久拒绝谈判)。伊朗否认形成对峙。伊朗拒绝临时停火。80%+船只转向阿曼航道，通行降至6艘/日。",
-      "affected_airports": "霍尔木兹海峡/DXB/DOH/AUH",
-      "airlines": "全球航运/海湾航司",
-      "traveler_impact": "伊朗向UAE发射弹道导弹+外交破裂+通行6艘/日",
-      "duration": "第171天",
-      "sources": [
-        "http://www.xinhuanet.com",
-        "https://gulfnews.com",
-        "https://www.reuters.com"
-      ]
+      "title": "P0-1  AM重大升级：美军大规模空袭伊朗+IRGC导弹命中约旦美军基地+Trump威胁机场",
+      "summary": "⚠️ AM重大升级：CENTCOM于北京时间8/20 08:00发动\"重浪\"大规模空袭，B-1轰炸机深入伊朗境内打击数十个IRGC目标(军事指挥中心/导弹无人机设施/沿海雷达/海上力量)。Qeshm岛遭MK-84炸弹命中致3平民死亡(含2岁幼童)。伊朗海军阿曼湾活动两天内降至零。开战以来50+军事基地已被命中。"
     },
     {
-      "id": "P0-5",
+      "id": "p0-2",
       "priority": "P0",
       "level": "priority",
-      "title": "莫斯科+南俄 第20夜620架无人机(两年之最) 四大机场首次全部受限",
-      "description": "8/18-19第20夜，620架无人机飞向莫斯科(两年之最)。四大枢纽机场首次全部受限(VKO/DME/ZIA暂停+SVO部分限制)。150+航班延误取消。",
-      "affected_airports": "VKO/DME/ZIA/SVO/KRR/AER",
-      "airlines": "俄罗斯航司",
-      "traveler_impact": "第20夜/620架/四大机场全受限/150+航班",
-      "duration": "持续中",
-      "sources": [
-        "http://www.chinaview.cn",
-        "https://eutoday.net"
-      ]
+      "title": "P0-5 莫斯科+南俄 第21夜无人机战 攻击东扩至伏尔加河流域 VKO/DME再次受限",
+      "summary": "8/19-20第21夜，攻击方向明显东扩至伏尔加河流域。VKO/DME再次实施协调模式限制运行。新增ULV乌里扬诺夫斯克/GOJ下诺夫哥罗德/SKX萨兰斯克/UUA布古利马/NBC下卡姆斯克等区域机场同步受限。"
     },
     {
-      "id": "P0-11",
+      "id": "p0-3",
       "priority": "P0",
       "level": "priority",
-      "title": "飓风Lala降为热带风暴 夏威夷 HNL/OGG 80+班取消",
-      "description": "Lala降级为热带风暴远离中。HNL 49班取消/OGG 31班取消，ITO/KOA已恢复。10万+断电。",
-      "affected_airports": "HNL/OGG/ITO/KOA",
-      "airlines": "Hawaiian/United/AA/Southwest/Delta/Alaska",
-      "traveler_impact": "80+班取消/10万+断电",
-      "duration": "周一基本恢复",
-      "sources": [
-        "https://www.nhc.noaa.gov",
-        "https://hidot.hawaii.gov"
-      ]
+      "title": "P0-11 飓风Lala降为热带风暴 夏威夷 HNL/OGG 80+班取消 ITO/KOA已恢复",
+      "summary": "Lala降级为热带风暴(65mph)远离中。HNL 49班取消、OGG 31班取消；ITO/KOA已恢复。10万+断电，周一基本恢复。航司豁免已到期。"
     },
     {
-      "id": "P0-7",
+      "id": "p0-4",
       "priority": "P0",
       "level": "priority",
-      "title": "印尼Flores M7.7强震 死53伤135 6座机场全部正常运营",
-      "description": "交通部确认6座机场全部正常运营。死亡53/伤135。14天紧急状态至8/28。",
-      "affected_airports": "LBJ/ENE等6座机场",
-      "airlines": "Wings Air/印尼国内航司",
-      "traveler_impact": "53死135伤/6座机场全部正常运营",
-      "duration": "紧急状态至8/28",
-      "sources": [
-        "https://en.antaranews.com",
-        "https://www.inews.id"
-      ]
+      "title": "P0-7 印尼Flores M7.7强震 死53伤135 交通部确认6座机场全部正常运营",
+      "summary": "交通部8/18确认6座机场虽有设施损伤但全部正常运营。死亡53人/135伤。14天紧急状态至8/28。5000+人疏散，1300+房屋受损。"
     },
     {
-      "id": "P0-10",
+      "id": "p0-5",
       "priority": "P0",
       "level": "priority",
-      "title": "哥伦比亚7.4级地震 死281人 PEI仍完全关闭",
-      "description": "死亡281人，超10万人受灾。PEI仍完全关闭。350+架次受影响。",
-      "affected_airports": "PEI/MZL/CRC",
-      "airlines": "Avianca/LATAM/Copa/Iberia",
-      "traveler_impact": "PEI仍关闭/350+架次",
-      "duration": "待结构评估",
-      "sources": [
-        "https://www.reuters.com"
-      ]
+      "title": "P0-10 哥伦比亚7.4级地震 死281人 PEI仍完全关闭 350+架次",
+      "summary": "死亡升至281人，超10万人受灾。PEI仍完全关闭(机场玻璃破碎/天花板脱落)。Avianca/LATAM/Copa/Iberia 350+架次受影响。"
     },
     {
-      "id": "P0-2",
+      "id": "p0-6",
       "priority": "P0",
       "level": "priority",
-      "title": "CCS委内瑞拉第60天+ 6125死 货运已恢复",
-      "description": "CCS机场关闭第60天+，累计6125人死亡。8/5已恢复货运，客运预计8月中下旬。",
-      "affected_airports": "CCS",
-      "airlines": "多家国际航司",
-      "traveler_impact": "货运已恢复/客运8月中下旬",
-      "duration": "持续中",
-      "sources": [
-        "https://apnews.com"
-      ]
+      "title": "P0-2 CCS委内瑞拉第60天+ 6125死 货运已恢复 客运8月中下旬",
+      "summary": "CCS机场关闭第60天+，累计6125人死亡。8/5已恢复货运，客运预计8月中下旬。"
     },
     {
-      "id": "P0-3",
+      "id": "p0-7",
       "priority": "P0",
       "level": "priority",
-      "title": "EASA中东CZIB预警延长至8/31",
-      "description": "EASA中东冲突区信息公告延长至8/31。建议避开UAE/巴林/科威特/卡塔尔空域。",
-      "affected_airports": "中东空域",
-      "airlines": "欧洲航司",
-      "traveler_impact": "航线规避",
-      "duration": "至8/31",
-      "sources": [
-        "https://www.easa.europa.eu"
-      ]
+      "title": "P0-3 EASA中东CZIB预警延长至8/31",
+      "summary": "EASA中东冲突区信息公告延长至8/31。建议避开UAE/巴林/科威特/卡塔尔空域全高度层。美军大规模空袭伊朗+IRGC导弹命中约旦后，预警必要性进一步上升。"
     },
     {
-      "id": "P0-6",
+      "id": "p0-8",
       "priority": "P0",
       "level": "priority",
-      "title": "精神航空5/2停运 34年终结",
-      "description": "Spirit Airlines 5月2日停运，34年历史终结，1.7万员工失业。",
-      "affected_airports": "美国全境",
-      "airlines": "Spirit Airlines",
-      "traveler_impact": "1.7万员工",
-      "duration": "永久",
-      "sources": [
-        "https://apnews.com"
-      ]
+      "title": "P0-6 精神航空5/2停运 34年终结 1.7万员工失业",
+      "summary": "Spirit Airlines 5月2日停运，34年历史终结，1.7万员工失业。"
     },
     {
-      "id": "P1-Russia",
+      "id": "p1-9",
       "priority": "P1",
       "level": "priority",
-      "title": "第20夜620架无人机(两年之最) 四大机场首次全受限",
-      "description": "8/18-19第20夜，620架无人机飞向莫斯科(两年之最)。四大枢纽机场首次全部受限。150+航班延误取消。",
-      "affected_airports": "VKO/DME/ZIA/SVO",
-      "airlines": "俄罗斯航司",
-      "traveler_impact": "第20夜/620架/四大机场全受限",
-      "duration": "持续中",
-      "sources": [
-        "http://www.chinaview.cn"
-      ]
+      "title": "🇳🇱史基浦安检员启动工业行动 约5000人涉及 可能升级全面罢工",
+      "summary": "8/19起FNV/CNV两大工会启动短时工作暂停+严格执行规则行动(stiptheidsacties)，仅提前数小时通知。涉及约5000名安检员(Securitas/I-SEC/Trigion)。资方未承诺降低工作负荷。不排除升级为全面罢工。同日起约350名清洁工罢工2小时。"
     },
     {
-      "id": "P1-10",
+      "id": "p1-10",
       "priority": "P1",
       "level": "priority",
-      "title": "BCN Groundforce罢工第15天 270架次取消 6000件行李",
-      "description": "Groundforce无限期罢工第15天。累计270架次取消/6000件行李，较4天前增长59%/100%。",
-      "affected_airports": "BCN",
-      "airlines": "Groundforce",
-      "traveler_impact": "270班取消/6000件行李",
-      "duration": "无限期",
-      "sources": [
-        "https://www.catalannews.com"
-      ]
+      "title": "🇷🇺第21夜无人机战 攻击东扩至伏尔加河流域 VKO/DME受限",
+      "summary": "8/19-20第21夜，攻击方向明显东扩至伏尔加河流域。VKO/DME再次协调模式限制。ULV/GOJ/SKX/UUA/NBC等5+区域机场同步受限。俄军同夜弹道导弹+高超音速导弹大规模袭击基辅。"
     },
     {
-      "id": "P1-13",
+      "id": "p1-11",
+      "priority": "P1",
+      "level": "priority",
+      "title": "BCN Groundforce罢工第15天 270架次取消 6000件行李(恶化)",
+      "summary": "Groundforce无限期罢工第15天。累计270架次取消/6000件行李未装机，较4天前分别增长59%/100%，恶化趋势明显。CGT称公司拒绝谈判。"
+    },
+    {
+      "id": "p1-12",
       "priority": "P1",
       "level": "priority",
       "title": "easyJet France 调解破裂 第二轮周末罢工即将启动",
-      "description": "首轮70%员工参与/取消约100航班。调解破裂，第二轮周末罢工日期待通知。",
-      "affected_airports": "ORY/CDG/NCE/LYS等",
-      "airlines": "easyJet France",
-      "traveler_impact": "70%参与首轮/第二轮即将启动",
-      "duration": "至9/2",
-      "sources": [
-        "https://monacolife.net"
-      ]
+      "summary": "首轮8/15-16罢工70%员工参与、取消约100航班。调解会议破裂，工会称航司\"空手而来\"。罢工通知覆盖至9/2，第二轮周末罢工日期待48小时前通知。"
     },
     {
-      "id": "P1-Norway-NFF",
+      "id": "p1-13",
       "priority": "P1",
       "level": "priority",
-      "title": "挪威空管员工会调解8/19-20 若失败OSL周日关闭5小时",
-      "description": "NFF调解8/19-20进行。若失败8/21起罢工，周日OSL可能关闭5小时。",
-      "affected_airports": "OSL/BGO",
-      "airlines": "所有经OSL航司",
-      "traveler_impact": "周日OSL关闭5小时",
-      "duration": "调解中",
-      "sources": [
-        "https://sosialnytt.com"
-      ]
+      "title": "NFF 🇳🇴空管员工会调解8/19-20 若失败OSL周日关闭5小时",
+      "summary": "NFF与Avinor调解8/19-20进行。若失败8/21起罢工：周五OSL/BGO延误，周六西海岸大面积受限，周日OSL可能关闭5小时(06:30-11:30)，周一余波。独立于HK Norge地勤罢工。"
     },
     {
-      "id": "P1-AirAstana",
+      "id": "p1-14",
       "priority": "P1",
       "level": "priority",
-      "title": "Air Astana迪拜航线暂停第三次延至9/30",
-      "description": "阿拉木图/努尔苏丹-迪拜航线暂停延至9/30(第三次延长)，10月也削减。",
-      "affected_airports": "ALA/NQZ-DXB",
-      "airlines": "Air Astana/FlyArystan",
-      "traveler_impact": "暂停至9/30",
-      "duration": "持续",
-      "sources": [
-        "https://www.aerotime.aero"
-      ]
-    },
-    {
-      "id": "P1-VN",
-      "priority": "P1",
-      "level": "priority",
-      "title": "越南航空787慕尼黑擦尾 停场数月",
-      "description": "VN34慕尼黑起飞擦尾，尾部严重受损。全员安全，BfU调查。",
-      "affected_airports": "MUC",
-      "airlines": "Vietnam Airlines",
-      "traveler_impact": "全员安全/飞机停场数月",
-      "duration": "BfU调查中",
-      "sources": [
-        "https://avherald.com"
-      ]
+      "title": "Astana 🇰🇿迪拜航线暂停第三次延至9/30 10月也削减",
+      "summary": "Air Astana/FlyArystan将阿拉木图/努尔苏丹-迪拜航线暂停从8/31延至9/30(2026年第三次延长)，10月航班也削减频次。旅客可改签至11/20或退款。"
     }
   ]
 }
