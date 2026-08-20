@@ -1,11 +1,11 @@
 {
   "date": "2026-08-20",
-  "period": "AM",
+  "period": "PM",
   "summary": {
     "p0_count": 8,
-    "p1_count": 17,
-    "p2_count": 77,
-    "total": 25,
+    "p1_count": 18,
+    "p2_count": 79,
+    "total": 26,
     "note": "P2 events excluded from display by design"
   },
   "events": [
@@ -13,8 +13,8 @@
       "id": "p0-1",
       "priority": "P0",
       "level": "priority",
-      "title": "P0-1  AM重大升级：美军大规模空袭伊朗+IRGC导弹命中约旦美军基地+Trump威胁机场",
-      "summary": "⚠️ AM重大升级：CENTCOM于北京时间8/20 08:00发动\"重浪\"大规模空袭，B-1轰炸机深入伊朗境内打击数十个IRGC目标(军事指挥中心/导弹无人机设施/沿海雷达/海上力量)。Qeshm岛遭MK-84炸弹命中致3平民死亡(含2岁幼童)。伊朗海军阿曼湾活动两天内降至零。开战以来50+军事基地已被命中。"
+      "title": "P0-1  PM再升级：IRGC扣押商船+胡塞关闭曼德海峡+伊朗评估打击欧洲",
+      "summary": "美军\"重浪\"空袭后伊朗三维度反制："
     },
     {
       "id": "p0-2",
@@ -56,7 +56,7 @@
       "priority": "P0",
       "level": "priority",
       "title": "P0-3 EASA中东CZIB预警延长至8/31",
-      "summary": "EASA中东冲突区信息公告延长至8/31。建议避开UAE/巴林/科威特/卡塔尔空域全高度层。美军大规模空袭伊朗+IRGC导弹命中约旦后，预警必要性进一步上升。"
+      "summary": "EASA中东冲突区信息公告延长至8/31。IRGC扣押商船+胡塞关闭曼德海峡+伊朗评估打击欧洲，预警必要性进一步上升。建议避开UAE/巴林/科威特/卡塔尔/约旦空域全高度层。"
     },
     {
       "id": "p0-8",
@@ -69,43 +69,43 @@
       "id": "p1-9",
       "priority": "P1",
       "level": "priority",
+      "title": "🇫🇷法国全国空管罢工8/20-21 Ryanair取消170+航班影响3万+旅客",
+      "summary": "法国两个空管工会因工作条件争议发起8/20-21全国罢工。Ryanair取消170+航班，影响3万+旅客，涉及法国起降及飞越法国空域航线(UK/IE/ES/GR等)。预计巴黎CDG/Orly航班量减少约40%。交通部长批评工会、Ryanair CEO致函欧盟委员会。罢工预计持续至10月。"
+    },
+    {
+      "id": "p1-10",
+      "priority": "P1",
+      "level": "priority",
       "title": "🇳🇱史基浦安检员启动工业行动 约5000人涉及 可能升级全面罢工",
       "summary": "8/19起FNV/CNV两大工会启动短时工作暂停+严格执行规则行动(stiptheidsacties)，仅提前数小时通知。涉及约5000名安检员(Securitas/I-SEC/Trigion)。资方未承诺降低工作负荷。不排除升级为全面罢工。同日起约350名清洁工罢工2小时。"
     },
     {
-      "id": "p1-10",
+      "id": "p1-11",
       "priority": "P1",
       "level": "priority",
       "title": "🇷🇺第21夜无人机战 攻击东扩至伏尔加河流域 VKO/DME受限",
       "summary": "8/19-20第21夜，攻击方向明显东扩至伏尔加河流域。VKO/DME再次协调模式限制。ULV/GOJ/SKX/UUA/NBC等5+区域机场同步受限。俄军同夜弹道导弹+高超音速导弹大规模袭击基辅。"
     },
     {
-      "id": "p1-11",
+      "id": "p1-12",
       "priority": "P1",
       "level": "priority",
       "title": "BCN Groundforce罢工第15天 270架次取消 6000件行李(恶化)",
       "summary": "Groundforce无限期罢工第15天。累计270架次取消/6000件行李未装机，较4天前分别增长59%/100%，恶化趋势明显。CGT称公司拒绝谈判。"
     },
     {
-      "id": "p1-12",
+      "id": "p1-13",
       "priority": "P1",
       "level": "priority",
       "title": "easyJet France 调解破裂 第二轮周末罢工即将启动",
       "summary": "首轮8/15-16罢工70%员工参与、取消约100航班。调解会议破裂，工会称航司\"空手而来\"。罢工通知覆盖至9/2，第二轮周末罢工日期待48小时前通知。"
     },
     {
-      "id": "p1-13",
+      "id": "p1-14",
       "priority": "P1",
       "level": "priority",
       "title": "NFF 🇳🇴空管员工会调解8/19-20 若失败OSL周日关闭5小时",
       "summary": "NFF与Avinor调解8/19-20进行。若失败8/21起罢工：周五OSL/BGO延误，周六西海岸大面积受限，周日OSL可能关闭5小时(06:30-11:30)，周一余波。独立于HK Norge地勤罢工。"
-    },
-    {
-      "id": "p1-14",
-      "priority": "P1",
-      "level": "priority",
-      "title": "Astana 🇰🇿迪拜航线暂停第三次延至9/30 10月也削减",
-      "summary": "Air Astana/FlyArystan将阿拉木图/努尔苏丹-迪拜航线暂停从8/31延至9/30(2026年第三次延长)，10月航班也削减频次。旅客可改签至11/20或退款。"
     }
   ]
 }
