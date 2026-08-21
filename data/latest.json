@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-20",
-  "period": "PM",
+  "date": "2026-08-21",
+  "period": "AM",
   "summary": {
     "p0_count": 8,
     "p1_count": 18,
-    "p2_count": 79,
+    "p2_count": 82,
     "total": 26,
     "note": "P2 events excluded from display by design"
   },
@@ -13,14 +13,14 @@
       "id": "p0-1",
       "priority": "P0",
       "level": "priority",
-      "title": "P0-1  PM再升级：IRGC扣押商船+胡塞关闭曼德海峡+伊朗评估打击欧洲",
-      "summary": "美军\"重浪\"空袭后伊朗三维度反制："
+      "title": "P0-1  8/21再升级：伊朗攻击沙特美军基地+向Diego Garcia发射导弹+霍尔木兹水雷+冲突扩展至海湾全域",
+      "summary": "⚠️ 冲突重大升级：伊朗打击范围从约旦扩展至海湾多国"
     },
     {
       "id": "p0-2",
       "priority": "P0",
       "level": "priority",
-      "title": "P0-5 莫斯科+南俄 第21夜无人机战 攻击东扩至伏尔加河流域 VKO/DME再次受限",
+      "title": "P0-5 莫斯科+南俄 第21夜无人机战 攻击东扩至伏尔加河流域 VKO/DME受限",
       "summary": "8/19-20第21夜，攻击方向明显东扩至伏尔加河流域。VKO/DME再次实施协调模式限制运行。新增ULV乌里扬诺夫斯克/GOJ下诺夫哥罗德/SKX萨兰斯克/UUA布古利马/NBC下卡姆斯克等区域机场同步受限。"
     },
     {
@@ -56,7 +56,7 @@
       "priority": "P0",
       "level": "priority",
       "title": "P0-3 EASA中东CZIB预警延长至8/31",
-      "summary": "EASA中东冲突区信息公告延长至8/31。IRGC扣押商船+胡塞关闭曼德海峡+伊朗评估打击欧洲，预警必要性进一步上升。建议避开UAE/巴林/科威特/卡塔尔/约旦空域全高度层。"
+      "summary": "EASA中东冲突区信息公告延长至8/31。伊朗攻击沙特美军基地+Diego Garcia导弹+霍尔木兹水雷，预警必要性进一步上升。建议避开UAE/巴林/科威特/卡塔尔/约旦/沙特东部空域全高度层。"
     },
     {
       "id": "p0-8",
