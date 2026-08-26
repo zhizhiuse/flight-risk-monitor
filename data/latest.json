@@ -1,11 +1,11 @@
 {
-  "date": "2026-08-25",
-  "period": "PM",
+  "date": "2026-08-26",
+  "period": "AM",
   "summary": {
     "p0_count": 8,
-    "p1_count": 24,
-    "p2_count": 92,
-    "total": 32,
+    "p1_count": 25,
+    "p2_count": 90,
+    "total": 33,
     "note": "P2 events excluded from display by design"
   },
   "events": [
@@ -13,15 +13,15 @@
       "id": "p0-1",
       "priority": "P0",
       "level": "priority",
-      "title": "P0-1  8/25 PM: Operation Economic Outcast正式落地 航空制裁首次 霍尔木兹跌至3个月最低 油轮阿曼遇袭",
-      "summary": "⚠️ 美财长Bessent宣布Operation Economic Outcast正式落地，史上最强制裁首次纳入航空领域，覆盖航司/出租人/飞机登记机构及零部件服务商。近60个涉伊实体被制裁(UAE/香港/新加坡/瑞士)。"
+      "title": "P0-1  8/26 AM: 开战116天首个正式海峡通行框架 Emirates恢复DXB-KWI AF今日恢复DXB",
+      "summary": "⚠️ 伊朗-阿曼联合声明：开战116天来首个正式霍尔木兹通行框架。7海里临时走廊+联合扫雷+30-60天谈永久航线。仅限商船、军舰禁行。伊朗强调\"不等于海峡开放\"，需结束所有战事+解除封锁+解决也门问题。"
     },
     {
       "id": "p0-2",
       "priority": "P0",
       "level": "priority",
-      "title": "P0-5  第26夜：无人机攻击方向调整为南线+莫斯科复合打击 Afipsky炼油厂第5次被打击",
-      "summary": "俄乌无人机战第26夜(8/24-25)，攻击方向从偏东调整为南线+莫斯科复合打击。"
+      "title": "P0-5  第27夜：攻击范围扩大至莫斯科+沃罗涅日纵深 8座机场受限 Afipsky第6次",
+      "summary": "俄乌无人机战第27夜(8/25-26)，攻击范围从南部扩展至莫斯科+沃罗涅日纵深，受限机场从6座增至8座。"
     },
     {
       "id": "p0-3",
@@ -56,7 +56,7 @@
       "priority": "P0",
       "level": "priority",
       "title": "P0-3 EASA中东CZIB预警延长至8/31",
-      "summary": "EASA中东冲突区信息公告延长至8/31。Operation Economic Outcast落地后局势高度不确定。建议避开UAE/巴林/科威特/卡塔尔/约旦/沙特东部空域全高度层。"
+      "summary": "EASA中东冲突区信息公告延长至8/31(剩余5天)。Operation Economic Outcast落地后局势高度不确定。建议避开UAE/巴林/科威特/卡塔尔/约旦/沙特东部空域全高度层。"
     },
     {
       "id": "p0-8",
@@ -69,43 +69,43 @@
       "id": "p1-9",
       "priority": "P1",
       "level": "priority",
-      "title": "P1-Typhoon Saudel 🌊 超强台风沙德尔逼近冲绳 433班取消 华东12座机场预警",
-      "summary": "超强台风No.18沙德尔逼近冲绳，433班取消(ANA 147/JAL 168/Skymark 32/Peach 52)，较此前预报129班扩大3倍+。HK Express/HK航空调整航线。华东预警12座机场受影响(WNZ/HSN/HGN/NGB/FOC/JJN/HGH/SHA/PVG/CAN/SZX/XMN)，8/27-28登陆浙闽。"
+      "title": "P1-Collins MUSE 🇪🇺值机系统遭网络攻击 Heathrow/Brussels/Berlin/Dublin瘫痪 Brussels最严重",
+      "summary": "Collins Aerospace MUSE共享值机系统遭网络攻击，Heathrow/Brussels/Berlin/Dublin值机和行李系统中断。Heathrow 47%出港延误。Brussels最严重：周日取消44个出港航班，周一仍维持取消半数出港。航司被迫纸质人工值机。RTX确认\"网络相关中断\"未披露细节，英国NCSC介入调查。截至8/26 Berlin/Heathrow部分恢复，Brus"
     },
     {
       "id": "p1-10",
       "priority": "P1",
       "level": "priority",
-      "title": "P1-AMS 🇳🇱史基浦安检升级为定时停工 周二3次周三5次 KLM 8/27计划8h罢工",
-      "summary": "FNV/CNV宣布8/25起定时停工(周二3次10:00/14:00/19:00各15分钟，周三扩至5次)。背景：Schiphol安保公司从5家缩至3家，工作量增加。KLM地勤计划8/27发起8小时罢工。工会表示后续还将有更多行动。"
+      "title": "P1-Typhoon 🌊 双台风并行：紫檀登陆海南HAK 30+班取消 沙德尔进入东海橙色预警",
+      "summary": "双台风并行影响中国。🌀 台风紫檀(No.19)8/25 18:40登陆海南昌江(12级)，HAK取消30+航班，琼州海峡全线停运，将二次登陆雷州半岛。🌀 台风沙德尔(No.18)降为强台风级(14级/42m/s)，中央气象台升级橙色预警，预计8/27夜-28上午登陆浙闽(12-14级)。华东12座机场预警持续。Scoot取消SIN-OKA、HKG-OKA调整。"
     },
     {
       "id": "p1-11",
       "priority": "P1",
       "level": "priority",
-      "title": "P1-Germany Verdi 🇩🇪今日8机场安保罢工 23000人 15万+旅客 信息矛盾待确认",
-      "summary": "Verdi德国第三轮安保罢工今日(8/25)执行，覆盖FRA/MUC/CGN/DUS/HAJ/HAM/BER/LEJ共8机场(较前轮缩至8个)。约23000名地勤安检人员参与。FRA预计罢工期间无出港航班。预计15万+旅客受影响。"
+      "title": "P1-AMS 🇳🇱今日周三定时停工5次 KLM 8/27计划8h罢工",
+      "summary": "FNV/CNV定时停工：周三(今日)5次(10:00/12:00/14:00/16:00/19:00各15分钟)。背景：Schiphol安保公司从5家缩至3家。KLM地勤计划明日(8/27)发起8小时罢工。工会表示后续还将有更多行动。"
     },
     {
       "id": "p1-12",
+      "priority": "P1",
+      "level": "priority",
+      "title": "P1-Germany Verdi 🇩🇪 8/25第三轮8机场安保罢工 23000人 15万+旅客 执行情况待确认",
+      "summary": "Verdi德国第三轮安保罢工8/25执行，覆盖FRA/MUC/CGN/DUS/HAJ/HAM/BER/LEJ共8机场。约23000名地勤安检人员参与。FRA预计罢工期间无出港航班。预计15万+旅客受影响。"
+    },
+    {
+      "id": "p1-13",
       "priority": "P1",
       "level": "priority",
       "title": "P1-A320 ELAC ⚠️ 6000架A320紧急软件更新 太阳辐射干扰飞控 合规截止11/29",
       "summary": "EASA紧急指令：太阳辐射可干扰A320/A321 ELAC 2飞控系统，约6000架需紧急更新。中国部分航司已出现延误取消，越南航空进入紧急排查。多数可软件补丁修复，部分老旧飞机需硬件更换长期停场。"
     },
     {
-      "id": "p1-13",
+      "id": "p1-14",
       "priority": "P1",
       "level": "priority",
       "title": "P1-HKG 🇭🇰EK9788货运747冲出跑道坠海 2名地勤死亡 北跑道无限期关闭",
       "summary": "8/22凌晨03:50，阿联酋航空货运EK9788(747-481F, 湿租土耳其Act Airlines, 机龄32年, 空机)降落HKG时冲出北跑道坠海。2名地勤死亡，北跑道无限期关闭，南/中跑道维持运营。黑匣子尚未打捞。"
-    },
-    {
-      "id": "p1-14",
-      "priority": "P1",
-      "level": "priority",
-      "title": "P1-10 BCN Groundforce罢工第20天 270架次取消 6000件行李",
-      "summary": "Groundforce无限期罢工第20天。累计270架次取消/6000件行李未装机。CGT称公司拒绝谈判。无新调解安排。"
     }
   ]
 }
