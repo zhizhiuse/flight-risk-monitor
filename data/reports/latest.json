@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "period": "AM",
   "summary": {
     "p0_count": 8,
@@ -13,15 +13,15 @@
       "id": "p0-1",
       "priority": "P0",
       "level": "priority",
-      "title": "P0-1  8/26 AM: 开战116天首个正式海峡通行框架 Emirates恢复DXB-KWI AF今日恢复DXB",
-      "summary": "⚠️ 伊朗-阿曼联合声明：开战116天来首个正式霍尔木兹通行框架。7海里临时走廊+联合扫雷+30-60天谈永久航线。仅限商船、军舰禁行。伊朗强调\"不等于海峡开放\"，需结束所有战事+解除封锁+解决也门问题。"
+      "title": "P0-1  8/27 AM: AF确认恢复DXB/RUH 收益分配协议达成 海峡仍事实关闭",
+      "summary": "⚠️ AF 8/26确认恢复DXB/RUH航班，结束六个月停航，冲突以来首家恢复海湾航线的欧洲大型航司。DXB机场CEO确认\"Air France have already started\"。但BEY仍暂停至9/1。KLM/SQ/BA/加航仍暂停至10月+，欧洲航司整体仍谨慎。"
     },
     {
       "id": "p0-2",
       "priority": "P0",
       "level": "priority",
-      "title": "P0-5  第27夜：攻击范围扩大至莫斯科+沃罗涅日纵深 8座机场受限 Afipsky第6次",
-      "summary": "俄乌无人机战第27夜(8/25-26)，攻击范围从南部扩展至莫斯科+沃罗涅日纵深，受限机场从6座增至8座。"
+      "title": "P0-5  第28夜：攻击转向黑海+伏尔加 15座机场受限(近期单次最大规模)",
+      "summary": "第28夜(8/26晚-27凌晨)攻击方向从莫斯科大幅转向黑海沿岸和伏尔加流域，15座机场受限为近期单次最大规模。"
     },
     {
       "id": "p0-3",
@@ -35,7 +35,7 @@
       "priority": "P0",
       "level": "priority",
       "title": "P0-7 印尼Flores M7.7强震 死53伤135 交通部确认6座机场全部正常运营",
-      "summary": "交通部8/18确认6座机场虽有设施损伤但全部正常运营。死亡53人/135伤。14天紧急状态至8/28。5000+人疏散，1300+房屋受损。8/22新增M5.1余震。"
+      "summary": "交通部确认6座机场虽有设施损伤但全部正常运营。死亡53人/135伤。14天紧急状态至8/28(明日到期)。5000+人疏散，1300+房屋受损。"
     },
     {
       "id": "p0-5",
@@ -48,15 +48,15 @@
       "id": "p0-6",
       "priority": "P0",
       "level": "priority",
-      "title": "P0-2 CCS委内瑞拉第61天+ 6125死 货运已恢复 客运8月中下旬",
-      "summary": "CCS机场关闭第61天+，累计6125人死亡。8/5已恢复货运，客运预计8月中下旬。"
+      "title": "P0-2 CCS委内瑞拉第62天+ 6125死 货运已恢复 客运8月中下旬",
+      "summary": "CCS机场关闭第62天+，累计6125人死亡。8/5已恢复货运，客运预计8月中下旬。"
     },
     {
       "id": "p0-7",
       "priority": "P0",
       "level": "priority",
       "title": "P0-3 EASA中东CZIB预警延长至8/31",
-      "summary": "EASA中东冲突区信息公告延长至8/31(剩余5天)。Operation Economic Outcast落地后局势高度不确定。建议避开UAE/巴林/科威特/卡塔尔/约旦/沙特东部空域全高度层。"
+      "summary": "EASA中东冲突区信息公告延长至8/31(剩余4天)。AF恢复DXB/RUH但海峡仍关闭，建议避开UAE/巴林/科威特/卡塔尔/约旦/沙特东部空域全高度层。"
     },
     {
       "id": "p0-8",
@@ -69,43 +69,43 @@
       "id": "p1-9",
       "priority": "P1",
       "level": "priority",
-      "title": "P1-Collins MUSE 🇪🇺值机系统遭网络攻击 Heathrow/Brussels/Berlin/Dublin瘫痪 Brussels最严重",
-      "summary": "Collins Aerospace MUSE共享值机系统遭网络攻击，Heathrow/Brussels/Berlin/Dublin值机和行李系统中断。Heathrow 47%出港延误。Brussels最严重：周日取消44个出港航班，周一仍维持取消半数出港。航司被迫纸质人工值机。RTX确认\"网络相关中断\"未披露细节，英国NCSC介入调查。截至8/26 Berlin/Heathrow部分恢复，Brus"
+      "title": "P1-Typhoon  台风沙德尔逼近浙闽 NGB 8/27 23:30起全面停航 华东多机场取消",
+      "summary": "🌀 台风沙德尔(No.18/强台风级)预计8/27夜-28上午登陆浙闽(12-14级)，中央气象台台风橙色预警持续。"
     },
     {
       "id": "p1-10",
       "priority": "P1",
       "level": "priority",
-      "title": "P1-Typhoon 🌊 双台风并行：紫檀登陆海南HAK 30+班取消 沙德尔进入东海橙色预警",
-      "summary": "双台风并行影响中国。🌀 台风紫檀(No.19)8/25 18:40登陆海南昌江(12级)，HAK取消30+航班，琼州海峡全线停运，将二次登陆雷州半岛。🌀 台风沙德尔(No.18)降为强台风级(14级/42m/s)，中央气象台升级橙色预警，预计8/27夜-28上午登陆浙闽(12-14级)。华东12座机场预警持续。Scoot取消SIN-OKA、HKG-OKA调整。"
+      "title": "P1-Collins MUSE 值机系统遭网络攻击 Brussels/Heathrow/Berlin/Dublin 恢复中",
+      "summary": "Collins Aerospace MUSE共享值机系统遭网络攻击。8/25-26期间Heathrow/Brussels/Berlin/Dublin值机和行李系统中断。Brussels最严重：取消44个出港航班+维持取消半数出港。Heathrow 47%出港延误。航司被迫纸质人工值机。RTX确认\"网络相关中断\"，英国NCSC介入调查。截至8/26末Berlin/Heathrow部分恢复，Bruss"
     },
     {
       "id": "p1-11",
       "priority": "P1",
       "level": "priority",
-      "title": "P1-AMS 🇳🇱今日周三定时停工5次 KLM 8/27计划8h罢工",
-      "summary": "FNV/CNV定时停工：周三(今日)5次(10:00/12:00/14:00/16:00/19:00各15分钟)。背景：Schiphol安保公司从5家缩至3家。KLM地勤计划明日(8/27)发起8小时罢工。工会表示后续还将有更多行动。"
+      "title": "P1-BRU 比利时全国总罢工 BRU全部出港取消 CRL完全停运",
+      "summary": "三大工会三天滚动罢工升级为全国总罢工。BRU取消全部出港航班，CRL完全停运。Eurostar布鲁塞尔-巴黎线取消。Ryanair/Wizz Air/Brussels Airlines受影响。罢工仍在持续中，后续恢复时间待观察。"
     },
     {
       "id": "p1-12",
       "priority": "P1",
       "level": "priority",
-      "title": "P1-Germany Verdi 🇩🇪 8/25第三轮8机场安保罢工 23000人 15万+旅客 执行情况待确认",
-      "summary": "Verdi德国第三轮安保罢工8/25执行，覆盖FRA/MUC/CGN/DUS/HAJ/HAM/BER/LEJ共8机场。约23000名地勤安检人员参与。FRA预计罢工期间无出港航班。预计15万+旅客受影响。"
+      "title": "P1-787 AD  FAA发布波音787机翼结构疲劳裂纹最终适航指令",
+      "summary": "FAA 8/26发布最终AD，要求对787-8/9/10执行超声波检查。制造环节垫片间隙超公差可能导致紧固件孔疲劳裂纹，威胁主翼结构承载能力。影响全球787机队，各运营商需按AD要求制定检查计划。"
     },
     {
       "id": "p1-13",
       "priority": "P1",
       "level": "priority",
-      "title": "P1-A320 ELAC ⚠️ 6000架A320紧急软件更新 太阳辐射干扰飞控 合规截止11/29",
-      "summary": "EASA紧急指令：太阳辐射可干扰A320/A321 ELAC 2飞控系统，约6000架需紧急更新。中国部分航司已出现延误取消，越南航空进入紧急排查。多数可软件补丁修复，部分老旧飞机需硬件更换长期停场。"
+      "title": "P1-AMS  KLM地勤8/27罢工 周三定时停工5次已执行",
+      "summary": "KLM地勤8/27发起8小时罢工。此前周三(8/26)已完成5次定时停工(每次15分钟)。背景：Schiphol安保公司从5家缩至3家，工会表示后续还将有更多行动。"
     },
     {
       "id": "p1-14",
       "priority": "P1",
       "level": "priority",
-      "title": "P1-HKG 🇭🇰EK9788货运747冲出跑道坠海 2名地勤死亡 北跑道无限期关闭",
-      "summary": "8/22凌晨03:50，阿联酋航空货运EK9788(747-481F, 湿租土耳其Act Airlines, 机龄32年, 空机)降落HKG时冲出北跑道坠海。2名地勤死亡，北跑道无限期关闭，南/中跑道维持运营。黑匣子尚未打捞。"
+      "title": "P1-Iran Sepehran  737-500 Mashhad跑道冲出 127人安全 跑道临时关闭",
+      "summary": "8/25 Sepehran Airlines 737-500在Mashhad着陆后偏出跑道+前起落架collapse，127人全部安全无伤亡。跑道13R临时关闭。CAO(伊朗民航组织)已派调查组。"
     }
   ]
 }
