@@ -1,10 +1,10 @@
 {
   "date": "2026-08-27",
-  "period": "AM",
+  "period": "PM",
   "summary": {
     "p0_count": 8,
     "p1_count": 25,
-    "p2_count": 90,
+    "p2_count": 92,
     "total": 33,
     "note": "P2 events excluded from display by design"
   },
@@ -13,7 +13,7 @@
       "id": "p0-1",
       "priority": "P0",
       "level": "priority",
-      "title": "P0-1  8/27 AM: AF确认恢复DXB/RUH 收益分配协议达成 海峡仍事实关闭",
+      "title": "P0-1  8/27 PM: AF确认恢复DXB/RUH 收益分配协议达成 海峡仍事实关闭",
       "summary": "⚠️ AF 8/26确认恢复DXB/RUH航班，结束六个月停航，冲突以来首家恢复海湾航线的欧洲大型航司。DXB机场CEO确认\"Air France have already started\"。但BEY仍暂停至9/1。KLM/SQ/BA/加航仍暂停至10月+，欧洲航司整体仍谨慎。"
     },
     {
@@ -77,35 +77,35 @@
       "priority": "P1",
       "level": "priority",
       "title": "P1-Collins MUSE 值机系统遭网络攻击 Brussels/Heathrow/Berlin/Dublin 恢复中",
-      "summary": "Collins Aerospace MUSE共享值机系统遭网络攻击。8/25-26期间Heathrow/Brussels/Berlin/Dublin值机和行李系统中断。Brussels最严重：取消44个出港航班+维持取消半数出港。Heathrow 47%出港延误。航司被迫纸质人工值机。RTX确认\"网络相关中断\"，英国NCSC介入调查。截至8/26末Berlin/Heathrow部分恢复，Bruss"
+      "summary": "Collins Aerospace MUSE共享值机系统遭网络攻击。8/25-26期间Heathrow/Brussels/Berlin/Dublin值机和行李系统中断。Brussels最严重：取消44个出港+维持取消半数出港。截至8/26末Berlin/Heathrow部分恢复，Brussels仍大面积取消。恢复预计持续至本周。"
     },
     {
       "id": "p1-11",
       "priority": "P1",
       "level": "priority",
       "title": "P1-BRU 比利时全国总罢工 BRU全部出港取消 CRL完全停运",
-      "summary": "三大工会三天滚动罢工升级为全国总罢工。BRU取消全部出港航班，CRL完全停运。Eurostar布鲁塞尔-巴黎线取消。Ryanair/Wizz Air/Brussels Airlines受影响。罢工仍在持续中，后续恢复时间待观察。"
+      "summary": "三大工会三天滚动罢工升级为全国总罢工。BRU取消全部出港航班，CRL完全停运。Eurostar布鲁塞尔-巴黎线取消。Ryanair/Wizz Air/Brussels Airlines受影响。罢工仍在持续中。"
     },
     {
       "id": "p1-12",
       "priority": "P1",
       "level": "priority",
       "title": "P1-787 AD  FAA发布波音787机翼结构疲劳裂纹最终适航指令",
-      "summary": "FAA 8/26发布最终AD，要求对787-8/9/10执行超声波检查。制造环节垫片间隙超公差可能导致紧固件孔疲劳裂纹，威胁主翼结构承载能力。影响全球787机队，各运营商需按AD要求制定检查计划。"
+      "summary": "FAA 8/26发布最终AD，要求对787-8/9/10执行超声波检查。制造环节垫片间隙超公差可能导致紧固件孔疲劳裂纹，威胁主翼结构承载能力。影响全球787机队。"
     },
     {
       "id": "p1-13",
       "priority": "P1",
       "level": "priority",
-      "title": "P1-AMS  KLM地勤8/27罢工 周三定时停工5次已执行",
-      "summary": "KLM地勤8/27发起8小时罢工。此前周三(8/26)已完成5次定时停工(每次15分钟)。背景：Schiphol安保公司从5家缩至3家，工会表示后续还将有更多行动。"
+      "title": "P1-AMS  KLM地勤8/27罢工已执行 工会表示后续更多行动",
+      "summary": "KLM地勤8/27发起8小时罢工已执行。此前周三(8/26)已完成5次定时停工。背景：Schiphol安保公司从5家缩至3家，工会表示后续还将有更多行动。"
     },
     {
       "id": "p1-14",
       "priority": "P1",
       "level": "priority",
       "title": "P1-Iran Sepehran  737-500 Mashhad跑道冲出 127人安全 跑道临时关闭",
-      "summary": "8/25 Sepehran Airlines 737-500在Mashhad着陆后偏出跑道+前起落架collapse，127人全部安全无伤亡。跑道13R临时关闭。CAO(伊朗民航组织)已派调查组。"
+      "summary": "8/25 Sepehran Airlines 737-500在Mashhad着陆后偏出跑道+前起落架collapse，127人全部安全无伤亡。跑道13R临时关闭。CAO已派调查组。"
     }
   ]
 }
