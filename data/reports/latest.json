@@ -1,111 +1,150 @@
 {
-  "date": "2026-08-28",
-  "period": "AM",
-  "summary": {
-    "p0_count": 8,
-    "p1_count": 25,
-    "p2_count": 0,
-    "total": 33,
-    "note": "P0-1 major escalation: IRGC tanker attack + offensive doctrine + US carrier deployment; P0-5 Day 29 Baltic expansion + NATO airspace breach; P2 events excluded from display"
-  },
+  "report_id": "2026-08-28-pm",
+  "generated_at": "2026-08-28T16:00:00+08:00",
+  "period": "PM",
+  "summary": "法国航空业三重罢工(空管8/27-28+French bee D3+Volotea 9/4-6)/沙德尔二次登陆浙闽5座机场停运/Moldova领空一周三被侵入/印尼林火烟雾航空影响扩大/UA1403发动机故障改降",
+  "p0_count": 8,
+  "p1_display_count": 6,
   "events": [
     {
-      "id": "p0-1",
+      "id": "P0-1",
       "priority": "P0",
-      "level": "priority",
-      "title": "P0-1  IRGC攻击科威特油轮 🇮🇷🇴🇲宣布进攻方针 🇺🇸部署Roosevelt航母",
-      "summary": "🚨 8/28重大升级："
+      "level": "critical",
+      "title": "美伊全面战争【重大升级】",
+      "summary": "IRGC攻击科威特国有油轮AL SALAM II(水线上方小洞+火灾/商船首次遭直接攻击)。伊朗军方宣布军事方针从防御转为进攻，首次点名打击目标含曼德海峡+能源设施+水下电缆。美军部署罗斯福号航母CVN-71+5000人赴中东接替华盛顿号。海峡仍事实关闭，通行量降至7艘/日(正常110+)。Bessent大型金融机构二级制裁8/28仍未落地。",
+      "fields": "韩国油轮→美军护航尝试 | IRGC宣称2艘油轮南部爆炸瘫痪 | CVN-71替换华盛顿号",
+      "sources": ["Argus", "Nordic Times", "新华社", "Press TV"],
+      "updated": "2026-08-28"
     },
     {
-      "id": "p0-2",
+      "id": "P0-5",
       "priority": "P0",
-      "level": "priority",
-      "title": "P0-5  第29夜：攻击首次扩展至波罗的海 9座机场受限 🇺🇦无人机首入北约领空",
-      "summary": "第29夜(8/27晚-28凌晨)乌方发射约310架无人机。攻击方向首次扩展至波罗的海(Leningrad Primorsk石油终端遇袭)。9座俄机场受限(Gelendzhik/Krasnodar/Sochi/Penza/Saratov/Saransk/Ulyanovsk/Kaluga/Tambov)，南俄3座凌晨恢复。"
+      "level": "critical",
+      "title": "俄乌无人机战【第29夜+】",
+      "summary": "~310架无人机攻击，方向首次扩展至波罗的海(Leningrad Primorsk石油终端遇袭/9座俄机场受限)。乌克兰无人机首次侵入北约领空，爱沙尼亚上空被NATO F-16击落，拉脱维亚Kraslava坠毁，立陶宛发警报，波罗的海三国联合向EU紧急呼吁。Moldova领空一周内第三次被侵入(8/24→8/27 5架→8/28 2架)，民航空域被迫临时关闭。",
+      "fields": "Primorsk石油终端遇袭 | NATO F-16击落乌无人机 | Moldova KIV航线风险",
+      "sources": ["MOLDPRES", "European Pravda", "Radio Moldova"],
+      "updated": "2026-08-28"
     },
     {
-      "id": "p0-3",
+      "id": "P0-11",
       "priority": "P0",
-      "level": "priority",
-      "title": "P0-11  飓风Lala降为热带风暴 HNL/OGG 80+班取消 ITO/KOA已恢复",
-      "summary": "Lala降为热带风暴远离中。HNL 49班+OGG 34班取消；ITO/KOA已恢复。10万+断电周一基本恢复。航司豁免已到期。"
+      "level": "high",
+      "title": "夏威夷Lala飓风",
+      "summary": "降为热带风暴/HNL+OGG 80+班取消/ITO+KOA已恢复",
+      "fields": "降为热带风暴 | HNL+OGG 80+班取消 | ITO+KOA已恢复",
+      "sources": ["NHC", "当地媒体"],
+      "updated": "2026-08-28"
     },
     {
-      "id": "p0-4",
+      "id": "P0-7",
       "priority": "P0",
-      "level": "priority",
-      "title": "P0-10 哥伦比亚地震 死281人 PEI仍完全关闭 350+架次",
-      "summary": "死亡升至281人，超10万人受灾。PEI仍完全关闭(机场玻璃破碎/天花板脱落)。Avianca/LATAM/Copa/Iberia 350+架次受影响。"
+      "level": "high",
+      "title": "印尼弗洛勒斯M7.7",
+      "summary": "53死135伤/14天紧急状态今日(8/28)到期/6座机场全部正常/关注是否延续",
+      "fields": "53死135伤 | 紧急状态8/28到期 | 6座机场正常",
+      "sources": ["BNPB", "多源"],
+      "updated": "2026-08-28"
     },
     {
-      "id": "p0-5",
+      "id": "P0-10",
       "priority": "P0",
-      "level": "priority",
-      "title": "P0-7 印尼Flores M7.7强震 死53伤135 紧急状态今日(8/28)到期",
-      "summary": "死亡53人/135伤。14天紧急状态至8/28(今日到期)，关注是否延续。6座机场全部正常运营。5000+人疏散，1300+房屋受损。"
+      "level": "high",
+      "title": "哥伦比亚地震",
+      "summary": "281死/10万+受灾/PEI仍完全关闭/350+架次取消",
+      "fields": "281死 | 10万+受灾 | PEI仍完全关闭",
+      "sources": ["多源"],
+      "updated": "2026-08-28"
     },
     {
-      "id": "p0-6",
+      "id": "P0-2",
       "priority": "P0",
-      "level": "priority",
-      "title": "P0-2 CCS委内瑞拉第64天 6247死 货运已恢复 客运8月中下旬",
-      "summary": "CCS机场关闭第64天，累计6247人死亡。8/5已恢复货运，客运预计8月中下旬。"
+      "level": "high",
+      "title": "CCS委内瑞拉【第64天+】",
+      "summary": "6247死/货运已恢复/客运8月中下旬起",
+      "fields": "6247死 | 货运已恢复 | 客运8月中下旬",
+      "sources": ["多源"],
+      "updated": "2026-08-28"
     },
     {
-      "id": "p0-7",
+      "id": "P0-3",
       "priority": "P0",
-      "level": "priority",
-      "title": "P0-3 EASA中东CZIB预警延长至8/31(剩余3天)",
-      "summary": "EASA中东冲突区信息公告至8/31(剩余3天)。AF恢复DXB/RUH但海峡仍关闭+IRGC攻击油轮，建议避开UAE/巴林/科威特/卡塔尔/约旦/沙特东部空域全高度层。"
+      "level": "high",
+      "title": "EASA中东CZIB预警",
+      "summary": "延长至8/31【剩余3天】/关注是否续期",
+      "fields": "延长至8/31 | 剩余3天",
+      "sources": ["EASA"],
+      "updated": "2026-08-28"
     },
     {
-      "id": "p0-8",
+      "id": "P0-6",
       "priority": "P0",
-      "level": "priority",
-      "title": "P0-6 精神航空5/2停运 34年终结 1.7万员工失业",
-      "summary": "Spirit Airlines 5月2日停运，34年历史终结，1.7万员工失业。"
+      "level": "medium",
+      "title": "精神航空5月2日停运",
+      "summary": "Spirit Airlines 5月2日起停运",
+      "fields": "5月2日停运",
+      "sources": ["多源"],
+      "updated": "2026-08-28"
     },
     {
-      "id": "p1-9",
+      "id": "P1-Typhoon",
       "priority": "P1",
-      "level": "warning",
-      "title": "P1-Typhoon  台风沙德尔已登陆浙闽(08:05玉环/12级) NGB计划11:00后恢复 华东大面积取消",
-      "summary": "🌀 台风沙德尔(No.18/台风级)8/28 08:05在浙江台州玉环登陆，12级(35m/s)。"
+      "level": "medium",
+      "title": "台风沙德尔二次登陆浙闽",
+      "summary": "09:10温州龙湾区二次登陆(12级/33m/s)/WNZ取消86%/HSN 82%/HYN 79%/NGB取消45%/温州晚间计划恢复82架次/飞常准预计38座机场受影响/影响范围将向福建江西湖南广西推进",
+      "fields": "二次登陆温州12级 | 5座机场停运 | 38座机场受影响",
+      "sources": ["澎湃新闻", "央视新闻", "民航资源网"],
+      "updated": "2026-08-28"
     },
     {
-      "id": "p1-10",
+      "id": "P1-NATO",
       "priority": "P1",
-      "level": "warning",
-      "title": "P1-NATO 🇺🇦 乌克兰无人机首次侵入北约领空(爱沙尼亚/拉脱维亚) NATO F-16击落",
-      "summary": "乌克兰无人机首次侵入北约成员国领空！8/27约12:00LST，一架无人机从俄方进入爱沙尼亚领空，被NATO Baltic Air Patrol罗马尼亚F-16击落(Poltsamaa附近)。另一架进入拉脱维亚Kraslava坠毁；爱沙尼亚Auvere电厂烟囱被击中。立陶宛发无人机警报，VNO航班一度暂停。"
+      "level": "medium",
+      "title": "乌无人机首次侵入北约领空",
+      "summary": "爱沙尼亚上空被NATO F-16击落/拉脱维亚Kraslava坠毁/立陶宛发警报/波罗的海三国联合呼吁EU/乌克兰外交部归因于俄方电子战并致歉",
+      "fields": "NATO F-16击落 | 三国联合呼吁EU | 乌克兰归因俄电子战",
+      "sources": ["European Pravda", "MOLDPRES"],
+      "updated": "2026-08-28"
     },
     {
-      "id": "p1-11",
+      "id": "P1-France-Strike",
       "priority": "P1",
-      "level": "warning",
-      "title": "P1-French bee  PNC罢工D2 巴黎-洛杉矶已取消 ACMI湿租应对",
-      "summary": "French bee空乘(PNC)罢工(8/27-31)进入D2。航司租借西班牙Wamos Air飞机+机组(ACMI湿租)维持跨大西洋航线。"
+      "level": "medium",
+      "title": "法国航空业三重罢工",
+      "summary": "①全国空管罢工(8/27-28): Ryanair取消170+航班/3万旅客受影响/CDG+Orly削减40%/easyJet同受影响。②French bee PNC罢工D3(8/27-31): La Réunion基地100%参与/Orly 90%主任乘务长参与/威胁延续至9月/ACMI湿租Wamos Air应对。③Volotea法国基地飞行员宣布9/4-6罢工。",
+      "fields": "空管8/27-28 | French bee D3威胁延至9月 | Volotea 9/4-6",
+      "sources": ["BBC", "TourMag", "SNPL工会", "NextPulse"],
+      "updated": "2026-08-28"
     },
     {
-      "id": "p1-12",
+      "id": "P1-Karhutla",
       "priority": "P1",
-      "level": "warning",
-      "title": "P1-Collins MUSE 🇪🇺值机系统遭网络攻击 Brussels/Heathrow/Berlin/Dublin 恢复中",
-      "summary": "Collins Aerospace MUSE共享值机系统遭网络攻击。8/25-26期间Heathrow/Brussels/Berlin/Dublin值机和行李系统中断。Brussels最严重：取消44个出港航班+维持取消半数出港。Heathrow 47%出港延误。航司被迫纸质人工值机。RTX确认\"网络相关中断\"，英国NCSC介入调查。截至8/26末Berlin/Heathrow部分恢复，Bruss"
+      "level": "medium",
+      "title": "印尼林火烟雾航空影响扩大",
+      "summary": "INACA发声呼吁加速灭火/西加里曼丹Supadio+Singkawang能见度<1000m/21+架次受影响/Muara Teweh连续8天全取消",
+      "fields": "INACA发声 | 能见度<1000m | 21+架次受影响",
+      "sources": ["detik.com", "GENPI"],
+      "updated": "2026-08-28"
     },
     {
-      "id": "p1-13",
+      "id": "P1-UA1403",
       "priority": "P1",
-      "level": "warning",
-      "title": "P1-DHL LAX 🇺🇸 DHL货运737洛杉矶制动系统故障起火 25L跑道临时关闭",
-      "summary": "8/26晚约23:00当地，DHL货运K5-1814(PHX-LAX，Kalitta Charters II运营，737-800BDSF)在LAX 25L跑道着陆时制动锁定，4轮胎爆裂起火(火焰从机身底部冒出)。3名机组全部安全。25L跑道临时关闭，次日上午飞机仍在跑道等待拖离。FAA已介入调查。"
+      "level": "medium",
+      "title": "UA1403巡航发动机故障改降",
+      "summary": "United 757-200 LAX→EWR巡航31000ft发动机故障/紧急改降拉斯维加斯Harry Reid/176旅客+7机组全部无伤/FAA调查",
+      "fields": "巡航31000ft发动机故障 | 176人安全 | FAA调查",
+      "sources": ["FAA", "ePlane AI", "BizInet"],
+      "updated": "2026-08-28"
     },
     {
-      "id": "p1-14",
+      "id": "P1-Collins-MUSE",
       "priority": "P1",
-      "level": "warning",
-      "title": "P1-Sepehran 🇮🇷 737-500 Mashhad跑道冲出 127人安全 跑道临时关闭",
-      "summary": "8/25 Sepehran Airlines 737-500在Mashhad着陆后偏出跑道+前起落架collapse，127人全部安全无伤亡。跑道13R临时关闭。CAO(伊朗民航组织)已派调查组。"
+      "level": "medium",
+      "title": "Collins MUSE恢复中",
+      "summary": "欧洲多机场值机系统网络攻击/恢复中/Brussels仍大面积取消",
+      "fields": "网络攻击 | 恢复中 | Brussels仍受影响",
+      "sources": ["多源"],
+      "updated": "2026-08-28"
     }
   ]
 }
