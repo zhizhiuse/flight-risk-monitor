@@ -1,62 +1,62 @@
 {
-  "date": "2026-08-27",
-  "period": "PM",
+  "date": "2026-08-28",
+  "period": "AM",
   "summary": {
     "p0_count": 8,
     "p1_count": 25,
-    "p2_count": 92,
+    "p2_count": 0,
     "total": 33,
-    "note": "P2 events excluded from display by design"
+    "note": "P0-1 major escalation: IRGC tanker attack + offensive doctrine + US carrier deployment; P0-5 Day 29 Baltic expansion + NATO airspace breach; P2 events excluded from display"
   },
   "events": [
     {
       "id": "p0-1",
       "priority": "P0",
       "level": "priority",
-      "title": "P0-1  8/27 PM: AF确认恢复DXB/RUH 收益分配协议达成 海峡仍事实关闭",
-      "summary": "⚠️ AF 8/26确认恢复DXB/RUH航班，结束六个月停航，冲突以来首家恢复海湾航线的欧洲大型航司。DXB机场CEO确认\"Air France have already started\"。但BEY仍暂停至9/1。KLM/SQ/BA/加航仍暂停至10月+，欧洲航司整体仍谨慎。"
+      "title": "P0-1  IRGC攻击科威特油轮 🇮🇷🇴🇲宣布进攻方针 🇺🇸部署Roosevelt航母",
+      "summary": "🚨 8/28重大升级："
     },
     {
       "id": "p0-2",
       "priority": "P0",
       "level": "priority",
-      "title": "P0-5  第28夜：攻击转向黑海+伏尔加 15座机场受限(近期单次最大规模)",
-      "summary": "第28夜(8/26晚-27凌晨)攻击方向从莫斯科大幅转向黑海沿岸和伏尔加流域，15座机场受限为近期单次最大规模。"
+      "title": "P0-5  第29夜：攻击首次扩展至波罗的海 9座机场受限 🇺🇦无人机首入北约领空",
+      "summary": "第29夜(8/27晚-28凌晨)乌方发射约310架无人机。攻击方向首次扩展至波罗的海(Leningrad Primorsk石油终端遇袭)。9座俄机场受限(Gelendzhik/Krasnodar/Sochi/Penza/Saratov/Saransk/Ulyanovsk/Kaluga/Tambov)，南俄3座凌晨恢复。"
     },
     {
       "id": "p0-3",
       "priority": "P0",
       "level": "priority",
       "title": "P0-11  飓风Lala降为热带风暴 HNL/OGG 80+班取消 ITO/KOA已恢复",
-      "summary": "Lala降为热带风暴远离中。HNL 49班+OGG 34班取消；ITO/KOA已恢复。10万+断电，周一基本恢复。航司豁免已到期。"
+      "summary": "Lala降为热带风暴远离中。HNL 49班+OGG 34班取消；ITO/KOA已恢复。10万+断电周一基本恢复。航司豁免已到期。"
     },
     {
       "id": "p0-4",
-      "priority": "P0",
-      "level": "priority",
-      "title": "P0-7 印尼Flores M7.7强震 死53伤135 交通部确认6座机场全部正常运营",
-      "summary": "交通部确认6座机场虽有设施损伤但全部正常运营。死亡53人/135伤。14天紧急状态至8/28(明日到期)。5000+人疏散，1300+房屋受损。"
-    },
-    {
-      "id": "p0-5",
       "priority": "P0",
       "level": "priority",
       "title": "P0-10 哥伦比亚地震 死281人 PEI仍完全关闭 350+架次",
       "summary": "死亡升至281人，超10万人受灾。PEI仍完全关闭(机场玻璃破碎/天花板脱落)。Avianca/LATAM/Copa/Iberia 350+架次受影响。"
     },
     {
+      "id": "p0-5",
+      "priority": "P0",
+      "level": "priority",
+      "title": "P0-7 印尼Flores M7.7强震 死53伤135 紧急状态今日(8/28)到期",
+      "summary": "死亡53人/135伤。14天紧急状态至8/28(今日到期)，关注是否延续。6座机场全部正常运营。5000+人疏散，1300+房屋受损。"
+    },
+    {
       "id": "p0-6",
       "priority": "P0",
       "level": "priority",
-      "title": "P0-2 CCS委内瑞拉第62天+ 6125死 货运已恢复 客运8月中下旬",
-      "summary": "CCS机场关闭第62天+，累计6125人死亡。8/5已恢复货运，客运预计8月中下旬。"
+      "title": "P0-2 CCS委内瑞拉第64天 6247死 货运已恢复 客运8月中下旬",
+      "summary": "CCS机场关闭第64天，累计6247人死亡。8/5已恢复货运，客运预计8月中下旬。"
     },
     {
       "id": "p0-7",
       "priority": "P0",
       "level": "priority",
-      "title": "P0-3 EASA中东CZIB预警延长至8/31",
-      "summary": "EASA中东冲突区信息公告延长至8/31(剩余4天)。AF恢复DXB/RUH但海峡仍关闭，建议避开UAE/巴林/科威特/卡塔尔/约旦/沙特东部空域全高度层。"
+      "title": "P0-3 EASA中东CZIB预警延长至8/31(剩余3天)",
+      "summary": "EASA中东冲突区信息公告至8/31(剩余3天)。AF恢复DXB/RUH但海峡仍关闭+IRGC攻击油轮，建议避开UAE/巴林/科威特/卡塔尔/约旦/沙特东部空域全高度层。"
     },
     {
       "id": "p0-8",
@@ -68,44 +68,44 @@
     {
       "id": "p1-9",
       "priority": "P1",
-      "level": "priority",
-      "title": "P1-Typhoon  台风沙德尔逼近浙闽 NGB 8/27 23:30起全面停航 华东多机场取消",
-      "summary": "🌀 台风沙德尔(No.18/强台风级)预计8/27夜-28上午登陆浙闽(12-14级)，中央气象台台风橙色预警持续。"
+      "level": "warning",
+      "title": "P1-Typhoon  台风沙德尔已登陆浙闽(08:05玉环/12级) NGB计划11:00后恢复 华东大面积取消",
+      "summary": "🌀 台风沙德尔(No.18/台风级)8/28 08:05在浙江台州玉环登陆，12级(35m/s)。"
     },
     {
       "id": "p1-10",
       "priority": "P1",
-      "level": "priority",
-      "title": "P1-Collins MUSE 值机系统遭网络攻击 Brussels/Heathrow/Berlin/Dublin 恢复中",
-      "summary": "Collins Aerospace MUSE共享值机系统遭网络攻击。8/25-26期间Heathrow/Brussels/Berlin/Dublin值机和行李系统中断。Brussels最严重：取消44个出港+维持取消半数出港。截至8/26末Berlin/Heathrow部分恢复，Brussels仍大面积取消。恢复预计持续至本周。"
+      "level": "warning",
+      "title": "P1-NATO 🇺🇦 乌克兰无人机首次侵入北约领空(爱沙尼亚/拉脱维亚) NATO F-16击落",
+      "summary": "乌克兰无人机首次侵入北约成员国领空！8/27约12:00LST，一架无人机从俄方进入爱沙尼亚领空，被NATO Baltic Air Patrol罗马尼亚F-16击落(Poltsamaa附近)。另一架进入拉脱维亚Kraslava坠毁；爱沙尼亚Auvere电厂烟囱被击中。立陶宛发无人机警报，VNO航班一度暂停。"
     },
     {
       "id": "p1-11",
       "priority": "P1",
-      "level": "priority",
-      "title": "P1-BRU 比利时全国总罢工 BRU全部出港取消 CRL完全停运",
-      "summary": "三大工会三天滚动罢工升级为全国总罢工。BRU取消全部出港航班，CRL完全停运。Eurostar布鲁塞尔-巴黎线取消。Ryanair/Wizz Air/Brussels Airlines受影响。罢工仍在持续中。"
+      "level": "warning",
+      "title": "P1-French bee  PNC罢工D2 巴黎-洛杉矶已取消 ACMI湿租应对",
+      "summary": "French bee空乘(PNC)罢工(8/27-31)进入D2。航司租借西班牙Wamos Air飞机+机组(ACMI湿租)维持跨大西洋航线。"
     },
     {
       "id": "p1-12",
       "priority": "P1",
-      "level": "priority",
-      "title": "P1-787 AD  FAA发布波音787机翼结构疲劳裂纹最终适航指令",
-      "summary": "FAA 8/26发布最终AD，要求对787-8/9/10执行超声波检查。制造环节垫片间隙超公差可能导致紧固件孔疲劳裂纹，威胁主翼结构承载能力。影响全球787机队。"
+      "level": "warning",
+      "title": "P1-Collins MUSE 🇪🇺值机系统遭网络攻击 Brussels/Heathrow/Berlin/Dublin 恢复中",
+      "summary": "Collins Aerospace MUSE共享值机系统遭网络攻击。8/25-26期间Heathrow/Brussels/Berlin/Dublin值机和行李系统中断。Brussels最严重：取消44个出港航班+维持取消半数出港。Heathrow 47%出港延误。航司被迫纸质人工值机。RTX确认\"网络相关中断\"，英国NCSC介入调查。截至8/26末Berlin/Heathrow部分恢复，Bruss"
     },
     {
       "id": "p1-13",
       "priority": "P1",
-      "level": "priority",
-      "title": "P1-AMS  KLM地勤8/27罢工已执行 工会表示后续更多行动",
-      "summary": "KLM地勤8/27发起8小时罢工已执行。此前周三(8/26)已完成5次定时停工。背景：Schiphol安保公司从5家缩至3家，工会表示后续还将有更多行动。"
+      "level": "warning",
+      "title": "P1-DHL LAX 🇺🇸 DHL货运737洛杉矶制动系统故障起火 25L跑道临时关闭",
+      "summary": "8/26晚约23:00当地，DHL货运K5-1814(PHX-LAX，Kalitta Charters II运营，737-800BDSF)在LAX 25L跑道着陆时制动锁定，4轮胎爆裂起火(火焰从机身底部冒出)。3名机组全部安全。25L跑道临时关闭，次日上午飞机仍在跑道等待拖离。FAA已介入调查。"
     },
     {
       "id": "p1-14",
       "priority": "P1",
-      "level": "priority",
-      "title": "P1-Iran Sepehran  737-500 Mashhad跑道冲出 127人安全 跑道临时关闭",
-      "summary": "8/25 Sepehran Airlines 737-500在Mashhad着陆后偏出跑道+前起落架collapse，127人全部安全无伤亡。跑道13R临时关闭。CAO已派调查组。"
+      "level": "warning",
+      "title": "P1-Sepehran 🇮🇷 737-500 Mashhad跑道冲出 127人安全 跑道临时关闭",
+      "summary": "8/25 Sepehran Airlines 737-500在Mashhad着陆后偏出跑道+前起落架collapse，127人全部安全无伤亡。跑道13R临时关闭。CAO(伊朗民航组织)已派调查组。"
     }
   ]
 }
