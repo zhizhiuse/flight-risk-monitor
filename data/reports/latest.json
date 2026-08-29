@@ -1,150 +1,161 @@
 {
-  "report_id": "2026-08-28-pm",
-  "generated_at": "2026-08-28T16:00:00+08:00",
-  "period": "PM",
-  "summary": "法国航空业三重罢工(空管8/27-28+French bee D3+Volotea 9/4-6)/沙德尔二次登陆浙闽5座机场停运/Moldova领空一周三被侵入/印尼林火烟雾航空影响扩大/UA1403发动机故障改降",
-  "p0_count": 8,
-  "p1_display_count": 6,
+  "date": "2026-08-29",
+  "period": "AM",
+  "summary": {
+    "p0_count": 8,
+    "p1_count": 25,
+    "p2_count": 0,
+    "total": 33,
+    "note": "8/29 AM: 沙德尔减弱热带低压内陆推进; 印尼林火扩至Jambi/Nabire跨境协调; 俄乌第30夜4机场临时限制后恢复; 航空安全/中东/航司运营暂无新动态"
+  },
   "events": [
     {
-      "id": "P0-1",
+      "id": "p0-1",
       "priority": "P0",
-      "level": "critical",
-      "title": "美伊全面战争【重大升级】",
-      "summary": "IRGC攻击科威特国有油轮AL SALAM II(水线上方小洞+火灾/商船首次遭直接攻击)。伊朗军方宣布军事方针从防御转为进攻，首次点名打击目标含曼德海峡+能源设施+水下电缆。美军部署罗斯福号航母CVN-71+5000人赴中东接替华盛顿号。海峡仍事实关闭，通行量降至7艘/日(正常110+)。Bessent大型金融机构二级制裁8/28仍未落地。",
-      "fields": "韩国油轮→美军护航尝试 | IRGC宣称2艘油轮南部爆炸瘫痪 | CVN-71替换华盛顿号",
-      "sources": ["Argus", "Nordic Times", "新华社", "Press TV"],
-      "updated": "2026-08-28"
+      "level": "priority",
+      "title": "P0-1 美伊全面战争【重大升级】",
+      "summary": "IRGC攻击科威特国有油轮AL SALAM II(水线上方小洞+火灾/商船首次遭直接攻击)。伊朗军方宣布军事方针从防御转为进攻，首次点名打击目标含曼德海峡+能源设施+水下电缆。美军部署罗斯福号航母CVN-71赴中东。海峡仍事实关闭，通行量降至4-7艘/日(正常110+)。伊朗议长卡利巴夫8/28重申强硬立场，短期开放可能性低。Bessent大型金融机构二级制裁仍未落地。",
+      "sources": [
+        "Argus",
+        "新华社",
+        "Press TV"
+      ]
     },
     {
-      "id": "P0-5",
+      "id": "p0-5",
       "priority": "P0",
-      "level": "critical",
-      "title": "俄乌无人机战【第29夜+】",
-      "summary": "~310架无人机攻击，方向首次扩展至波罗的海(Leningrad Primorsk石油终端遇袭/9座俄机场受限)。乌克兰无人机首次侵入北约领空，爱沙尼亚上空被NATO F-16击落，拉脱维亚Kraslava坠毁，立陶宛发警报，波罗的海三国联合向EU紧急呼吁。Moldova领空一周内第三次被侵入(8/24→8/27 5架→8/28 2架)，民航空域被迫临时关闭。",
-      "fields": "Primorsk石油终端遇袭 | NATO F-16击落乌无人机 | Moldova KIV航线风险",
-      "sources": ["MOLDPRES", "European Pravda", "Radio Moldova"],
-      "updated": "2026-08-28"
+      "level": "priority",
+      "title": "P0-5 俄乌无人机战【第30夜】",
+      "summary": "8/28-29夜间第30夜攻击多方向展开(Voronezh/Moscow/Bryansk/Crimea/Krasnodar)。Rosaviatsiya对Krasnodar/Kaluga/Tambov/Penza 4座民用机场实施临时起降限制，8/29上午均恢复。乌方打击距前线约1000公里Yaroslavl炼油厂。此前第29夜攻击首扩波罗的海，乌无人机首次侵入北约领空被NATO F-16击落；Moldova领空一周三被侵入。",
+      "sources": [
+        "Interfax",
+        "RIA",
+        "avia-pro"
+      ]
     },
     {
-      "id": "P0-11",
+      "id": "p0-11",
       "priority": "P0",
-      "level": "high",
-      "title": "夏威夷Lala飓风",
-      "summary": "降为热带风暴/HNL+OGG 80+班取消/ITO+KOA已恢复",
-      "fields": "降为热带风暴 | HNL+OGG 80+班取消 | ITO+KOA已恢复",
-      "sources": ["NHC", "当地媒体"],
-      "updated": "2026-08-28"
+      "level": "priority",
+      "title": "P0-11 夏威夷Lala飓风",
+      "summary": "降为热带风暴/HNL+OGG 80+班取消/ITO+KOA已恢复。",
+      "sources": [
+        "NHC"
+      ]
     },
     {
-      "id": "P0-7",
+      "id": "p0-7",
       "priority": "P0",
-      "level": "high",
-      "title": "印尼弗洛勒斯M7.7",
-      "summary": "53死135伤/14天紧急状态今日(8/28)到期/6座机场全部正常/关注是否延续",
-      "fields": "53死135伤 | 紧急状态8/28到期 | 6座机场正常",
-      "sources": ["BNPB", "多源"],
-      "updated": "2026-08-28"
+      "level": "priority",
+      "title": "P0-7 印尼弗洛勒斯M7.7",
+      "summary": "53死135伤/14天紧急状态8/28到期/6座机场全部正常/关注是否延续。",
+      "sources": [
+        "BNPB"
+      ]
     },
     {
-      "id": "P0-10",
+      "id": "p0-10",
       "priority": "P0",
-      "level": "high",
-      "title": "哥伦比亚地震",
-      "summary": "281死/10万+受灾/PEI仍完全关闭/350+架次取消",
-      "fields": "281死 | 10万+受灾 | PEI仍完全关闭",
-      "sources": ["多源"],
-      "updated": "2026-08-28"
+      "level": "priority",
+      "title": "P0-10 哥伦比亚地震",
+      "summary": "281死/10万+受灾/PEI仍完全关闭/350+架次取消。",
+      "sources": [
+        "多源"
+      ]
     },
     {
-      "id": "P0-2",
+      "id": "p0-2",
       "priority": "P0",
-      "level": "high",
-      "title": "CCS委内瑞拉【第64天+】",
-      "summary": "6247死/货运已恢复/客运8月中下旬起",
-      "fields": "6247死 | 货运已恢复 | 客运8月中下旬",
-      "sources": ["多源"],
-      "updated": "2026-08-28"
+      "level": "priority",
+      "title": "P0-2 CCS委内瑞拉【第65天+】",
+      "summary": "6247死/货运已恢复/客运8月中下旬起。",
+      "sources": [
+        "多源"
+      ]
     },
     {
-      "id": "P0-3",
+      "id": "p0-3",
       "priority": "P0",
-      "level": "high",
-      "title": "EASA中东CZIB预警",
-      "summary": "延长至8/31【剩余3天】/关注是否续期",
-      "fields": "延长至8/31 | 剩余3天",
-      "sources": ["EASA"],
-      "updated": "2026-08-28"
+      "level": "priority",
+      "title": "P0-3 EASA中东CZIB预警",
+      "summary": "延长至8/31【剩余2天】/关注是否续期。",
+      "sources": [
+        "EASA"
+      ]
     },
     {
-      "id": "P0-6",
+      "id": "p0-6",
       "priority": "P0",
-      "level": "medium",
-      "title": "精神航空5月2日停运",
-      "summary": "Spirit Airlines 5月2日起停运",
-      "fields": "5月2日停运",
-      "sources": ["多源"],
-      "updated": "2026-08-28"
+      "level": "priority",
+      "title": "P0-6 精神航空停运",
+      "summary": "Spirit Airlines 5月2日起停运。",
+      "sources": [
+        "多源"
+      ]
     },
     {
-      "id": "P1-Typhoon",
+      "id": "p1-typhoon",
       "priority": "P1",
-      "level": "medium",
-      "title": "台风沙德尔二次登陆浙闽",
-      "summary": "09:10温州龙湾区二次登陆(12级/33m/s)/WNZ取消86%/HSN 82%/HYN 79%/NGB取消45%/温州晚间计划恢复82架次/飞常准预计38座机场受影响/影响范围将向福建江西湖南广西推进",
-      "fields": "二次登陆温州12级 | 5座机场停运 | 38座机场受影响",
-      "sources": ["澎湃新闻", "央视新闻", "民航资源网"],
-      "updated": "2026-08-28"
+      "level": "warning",
+      "title": "台风沙德尔二次登陆后减弱低压",
+      "summary": "8/28 18:58温州WNZ恢复(当日82架次)/台州HYN 18:05首班；8/29 05:00减弱为热带低压位于江西南丰(7级)，西偏南移动，8/29-30赣湘桂粤局地特大暴雨250-270mm，KHN/CSX/NNG/CAN内陆机场持续受影响。",
+      "sources": [
+        "澎湃",
+        "中央气象台"
+      ]
     },
     {
-      "id": "P1-NATO",
+      "id": "p1-nato",
       "priority": "P1",
-      "level": "medium",
+      "level": "warning",
       "title": "乌无人机首次侵入北约领空",
-      "summary": "爱沙尼亚上空被NATO F-16击落/拉脱维亚Kraslava坠毁/立陶宛发警报/波罗的海三国联合呼吁EU/乌克兰外交部归因于俄方电子战并致歉",
-      "fields": "NATO F-16击落 | 三国联合呼吁EU | 乌克兰归因俄电子战",
-      "sources": ["European Pravda", "MOLDPRES"],
-      "updated": "2026-08-28"
+      "summary": "爱沙尼亚上空被NATO F-16击落/拉脱维亚Kraslava坠毁/波罗的海三国联合呼吁EU；Moldova领空一周三被侵入。",
+      "sources": [
+        "European Pravda",
+        "MOLDPRES"
+      ]
     },
     {
-      "id": "P1-France-Strike",
+      "id": "p1-france-strike",
       "priority": "P1",
-      "level": "medium",
+      "level": "warning",
       "title": "法国航空业三重罢工",
-      "summary": "①全国空管罢工(8/27-28): Ryanair取消170+航班/3万旅客受影响/CDG+Orly削减40%/easyJet同受影响。②French bee PNC罢工D3(8/27-31): La Réunion基地100%参与/Orly 90%主任乘务长参与/威胁延续至9月/ACMI湿租Wamos Air应对。③Volotea法国基地飞行员宣布9/4-6罢工。",
-      "fields": "空管8/27-28 | French bee D3威胁延至9月 | Volotea 9/4-6",
-      "sources": ["BBC", "TourMag", "SNPL工会", "NextPulse"],
-      "updated": "2026-08-28"
+      "summary": "①全国空管8/27-28:Ryanair取消170+航班/3万旅客/CDG+Orly削减40%②French bee PNC D3(8/27-31):La Réunion 100%参与/威胁延至9月/湿租Wamos Air③Volotea飞行员9/4-6罢工。",
+      "sources": [
+        "BBC",
+        "TourMag"
+      ]
     },
     {
-      "id": "P1-Karhutla",
+      "id": "p1-karhutla",
       "priority": "P1",
-      "level": "medium",
+      "level": "warning",
       "title": "印尼林火烟雾航空影响扩大",
-      "summary": "INACA发声呼吁加速灭火/西加里曼丹Supadio+Singkawang能见度<1000m/21+架次受影响/Muara Teweh连续8天全取消",
-      "fields": "INACA发声 | 能见度<1000m | 21+架次受影响",
-      "sources": ["detik.com", "GENPI"],
-      "updated": "2026-08-28"
+      "summary": "INACA披露PNK/SKJ能见度<1000m，新增DJB(800m holding改航)/NBX延误，BDJ能见度仅200米；印尼与马来西亚启动跨境人工增雨，砂拉越API达195。",
+      "sources": [
+        "detik",
+        "Bernama"
+      ]
     },
     {
-      "id": "P1-UA1403",
+      "id": "p1-ua1403",
       "priority": "P1",
-      "level": "medium",
+      "level": "warning",
       "title": "UA1403巡航发动机故障改降",
-      "summary": "United 757-200 LAX→EWR巡航31000ft发动机故障/紧急改降拉斯维加斯Harry Reid/176旅客+7机组全部无伤/FAA调查",
-      "fields": "巡航31000ft发动机故障 | 176人安全 | FAA调查",
-      "sources": ["FAA", "ePlane AI", "BizInet"],
-      "updated": "2026-08-28"
+      "summary": "United 757-200 LAX→EWR巡航31000ft发动机故障/紧急改降拉斯维加斯/176+7人全部无伤/FAA调查。",
+      "sources": [
+        "FAA"
+      ]
     },
     {
-      "id": "P1-Collins-MUSE",
+      "id": "p1-collins",
       "priority": "P1",
-      "level": "medium",
+      "level": "warning",
       "title": "Collins MUSE恢复中",
-      "summary": "欧洲多机场值机系统网络攻击/恢复中/Brussels仍大面积取消",
-      "fields": "网络攻击 | 恢复中 | Brussels仍受影响",
-      "sources": ["多源"],
-      "updated": "2026-08-28"
+      "summary": "欧洲多机场值机系统网络攻击/恢复中/Brussels仍大面积取消。",
+      "sources": [
+        "多源"
+      ]
     }
   ]
 }
