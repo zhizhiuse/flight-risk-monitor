@@ -1,161 +1,174 @@
 {
-  "date": "2026-08-29",
-  "period": "AM",
-  "summary": {
-    "p0_count": 8,
-    "p1_count": 25,
-    "p2_count": 0,
-    "total": 33,
-    "note": "8/29 AM: 沙德尔减弱热带低压内陆推进; 印尼林火扩至Jambi/Nabire跨境协调; 俄乌第30夜4机场临时限制后恢复; 航空安全/中东/航司运营暂无新动态"
+ "date": "2026-08-29",
+ "period": "PM",
+ "summary": {
+  "p0_count": 8,
+  "p1_count": 27,
+  "p2_count": 0,
+  "total": 35,
+  "note": "8/29 PM: 俄乌第30夜转向莫斯科(313架无人机/10机场受限); 美航Delta/United首恢以色列直飞; IRGC再向海峡射导弹/通行量降至4艘; 特朗普暗示制裁中国银行; SAS无限期推迟迪拜; 航空安全/自然灾害/航司运营PM无新动态"
+ },
+ "events": [
+  {
+   "id": "p0-1",
+   "priority": "P0",
+   "level": "priority",
+   "title": "P0-1 美伊全面战争【重大升级】",
+   "summary": "IRGC 8/28晚从Sirik海岸向霍尔木兹海峡发射弹道导弹（8月第6次），区域传爆炸声，存NOTAM更新风险。8/28海峡仅4艘商船通过（战前日均88-110艘）再创新低。特朗普8/27暗示将制裁涉伊业务的中国银行，Bessent称本周末拟宣布对大型金融机构制裁，若落地为历史首次可能冲击航空支付清算体系。波斯湾枢纽DXB/AUH/DOH/BAH持续承压。",
+   "sources": [
+    "Cedar News",
+    "AP",
+    "Reuters",
+    "Times of Israel"
+   ]
   },
-  "events": [
-    {
-      "id": "p0-1",
-      "priority": "P0",
-      "level": "priority",
-      "title": "P0-1 美伊全面战争【重大升级】",
-      "summary": "IRGC攻击科威特国有油轮AL SALAM II(水线上方小洞+火灾/商船首次遭直接攻击)。伊朗军方宣布军事方针从防御转为进攻，首次点名打击目标含曼德海峡+能源设施+水下电缆。美军部署罗斯福号航母CVN-71赴中东。海峡仍事实关闭，通行量降至4-7艘/日(正常110+)。伊朗议长卡利巴夫8/28重申强硬立场，短期开放可能性低。Bessent大型金融机构二级制裁仍未落地。",
-      "sources": [
-        "Argus",
-        "新华社",
-        "Press TV"
-      ]
-    },
-    {
-      "id": "p0-5",
-      "priority": "P0",
-      "level": "priority",
-      "title": "P0-5 俄乌无人机战【第30夜】",
-      "summary": "8/28-29夜间第30夜攻击多方向展开(Voronezh/Moscow/Bryansk/Crimea/Krasnodar)。Rosaviatsiya对Krasnodar/Kaluga/Tambov/Penza 4座民用机场实施临时起降限制，8/29上午均恢复。乌方打击距前线约1000公里Yaroslavl炼油厂。此前第29夜攻击首扩波罗的海，乌无人机首次侵入北约领空被NATO F-16击落；Moldova领空一周三被侵入。",
-      "sources": [
-        "Interfax",
-        "RIA",
-        "avia-pro"
-      ]
-    },
-    {
-      "id": "p0-11",
-      "priority": "P0",
-      "level": "priority",
-      "title": "P0-11 夏威夷Lala飓风",
-      "summary": "降为热带风暴/HNL+OGG 80+班取消/ITO+KOA已恢复。",
-      "sources": [
-        "NHC"
-      ]
-    },
-    {
-      "id": "p0-7",
-      "priority": "P0",
-      "level": "priority",
-      "title": "P0-7 印尼弗洛勒斯M7.7",
-      "summary": "53死135伤/14天紧急状态8/28到期/6座机场全部正常/关注是否延续。",
-      "sources": [
-        "BNPB"
-      ]
-    },
-    {
-      "id": "p0-10",
-      "priority": "P0",
-      "level": "priority",
-      "title": "P0-10 哥伦比亚地震",
-      "summary": "281死/10万+受灾/PEI仍完全关闭/350+架次取消。",
-      "sources": [
-        "多源"
-      ]
-    },
-    {
-      "id": "p0-2",
-      "priority": "P0",
-      "level": "priority",
-      "title": "P0-2 CCS委内瑞拉【第65天+】",
-      "summary": "6247死/货运已恢复/客运8月中下旬起。",
-      "sources": [
-        "多源"
-      ]
-    },
-    {
-      "id": "p0-3",
-      "priority": "P0",
-      "level": "priority",
-      "title": "P0-3 EASA中东CZIB预警",
-      "summary": "延长至8/31【剩余2天】/关注是否续期。",
-      "sources": [
-        "EASA"
-      ]
-    },
-    {
-      "id": "p0-6",
-      "priority": "P0",
-      "level": "priority",
-      "title": "P0-6 精神航空停运",
-      "summary": "Spirit Airlines 5月2日起停运。",
-      "sources": [
-        "多源"
-      ]
-    },
-    {
-      "id": "p1-typhoon",
-      "priority": "P1",
-      "level": "warning",
-      "title": "台风沙德尔二次登陆后减弱低压",
-      "summary": "8/28 18:58温州WNZ恢复(当日82架次)/台州HYN 18:05首班；8/29 05:00减弱为热带低压位于江西南丰(7级)，西偏南移动，8/29-30赣湘桂粤局地特大暴雨250-270mm，KHN/CSX/NNG/CAN内陆机场持续受影响。",
-      "sources": [
-        "澎湃",
-        "中央气象台"
-      ]
-    },
-    {
-      "id": "p1-nato",
-      "priority": "P1",
-      "level": "warning",
-      "title": "乌无人机首次侵入北约领空",
-      "summary": "爱沙尼亚上空被NATO F-16击落/拉脱维亚Kraslava坠毁/波罗的海三国联合呼吁EU；Moldova领空一周三被侵入。",
-      "sources": [
-        "European Pravda",
-        "MOLDPRES"
-      ]
-    },
-    {
-      "id": "p1-france-strike",
-      "priority": "P1",
-      "level": "warning",
-      "title": "法国航空业三重罢工",
-      "summary": "①全国空管8/27-28:Ryanair取消170+航班/3万旅客/CDG+Orly削减40%②French bee PNC D3(8/27-31):La Réunion 100%参与/威胁延至9月/湿租Wamos Air③Volotea飞行员9/4-6罢工。",
-      "sources": [
-        "BBC",
-        "TourMag"
-      ]
-    },
-    {
-      "id": "p1-karhutla",
-      "priority": "P1",
-      "level": "warning",
-      "title": "印尼林火烟雾航空影响扩大",
-      "summary": "INACA披露PNK/SKJ能见度<1000m，新增DJB(800m holding改航)/NBX延误，BDJ能见度仅200米；印尼与马来西亚启动跨境人工增雨，砂拉越API达195。",
-      "sources": [
-        "detik",
-        "Bernama"
-      ]
-    },
-    {
-      "id": "p1-ua1403",
-      "priority": "P1",
-      "level": "warning",
-      "title": "UA1403巡航发动机故障改降",
-      "summary": "United 757-200 LAX→EWR巡航31000ft发动机故障/紧急改降拉斯维加斯/176+7人全部无伤/FAA调查。",
-      "sources": [
-        "FAA"
-      ]
-    },
-    {
-      "id": "p1-collins",
-      "priority": "P1",
-      "level": "warning",
-      "title": "Collins MUSE恢复中",
-      "summary": "欧洲多机场值机系统网络攻击/恢复中/Brussels仍大面积取消。",
-      "sources": [
-        "多源"
-      ]
-    }
-  ]
+  {
+   "id": "p0-5",
+   "priority": "P0",
+   "level": "priority",
+   "title": "P0-5 俄乌无人机战【第30夜·转向莫斯科】",
+   "summary": "8/28-29夜乌军发射313架固定翼无人机，攻击方向转向莫斯科：VKO伏努科沃/DME多莫杰多沃/Zhukovsky三座莫斯科机场全部临时起降限制，加Izhevsk/Kirov等全国10座机场同时受限，为近期对俄民航影响最大一轮。莫斯科50万+居民一度断电，乌方确认打击距前线1000km的Yaroslavl炼油厂。",
+   "sources": [
+    "gazeta.ru",
+    "avia-pro",
+    "Sever Press",
+    "Interfax"
+   ]
+  },
+  {
+   "id": "p0-11",
+   "priority": "P0",
+   "level": "priority",
+   "title": "P0-11 夏威夷Lala飓风",
+   "summary": "降为热带风暴/HNL+OGG 80+班取消/ITO+KOA已恢复。",
+   "sources": [
+    "NHC",
+    "Hawaii News Now"
+   ]
+  },
+  {
+   "id": "p0-7",
+   "priority": "P0",
+   "level": "priority",
+   "title": "P0-7 印尼弗洛勒斯M7.7",
+   "summary": "53死135伤/14天紧急状态8/28到期/6座机场正常/关注是否延续。",
+   "sources": [
+    "BNPB",
+    "Reuters"
+   ]
+  },
+  {
+   "id": "p0-10",
+   "priority": "P0",
+   "level": "priority",
+   "title": "P0-10 哥伦比亚地震",
+   "summary": "281死/10万+受灾/PEI仍完全关闭/350+架次取消。",
+   "sources": [
+    "UN OCHA",
+    "El Tiempo"
+   ]
+  },
+  {
+   "id": "p0-2",
+   "priority": "P0",
+   "level": "priority",
+   "title": "P0-2 CCS委内瑞拉【第66天+】",
+   "summary": "6247死/货运已恢复/客运恢复中。",
+   "sources": [
+    "Reuters",
+    "FlightRadar24"
+   ]
+  },
+  {
+   "id": "p0-3",
+   "priority": "P0",
+   "level": "priority",
+   "title": "P0-3 EASA中东CZIB预警",
+   "summary": "8/31到期（剩余2天），关注是否续期。",
+   "sources": [
+    "EASA"
+   ]
+  },
+  {
+   "id": "p0-6",
+   "priority": "P0",
+   "level": "priority",
+   "title": "P0-6 精神航空停运",
+   "summary": "精神航空5月2日停运。",
+   "sources": [
+    "Spirit Airlines"
+   ]
+  },
+  {
+   "id": "p1-moscow-drone",
+   "priority": "P1",
+   "level": "warning",
+   "title": "俄乌无人机转向莫斯科（第30夜）",
+   "summary": "8/28-29夜313架无人机攻击莫斯科，VKO/DME/Zhukovsky三座莫斯科机场+多州10座机场临时限制，50万+人断电，上午陆续恢复。",
+   "sources": [
+    "gazeta.ru",
+    "avia-pro",
+    "Sever Press"
+   ]
+  },
+  {
+   "id": "p1-us-tlv",
+   "priority": "P1",
+   "level": "warning",
+   "title": "美航首恢以色列直飞",
+   "summary": "Delta 9/6恢复JFK-TLV每日直飞(A330-900neo)，United 9/8从EWR恢复，2/28战争以来美三大航首次恢复，恰逢犹太新年(9/11)前夕。",
+   "sources": [
+    "Delta官方",
+    "AeroTime",
+    "AeroCrew News"
+   ]
+  },
+  {
+   "id": "p1-typhoon",
+   "priority": "P1",
+   "level": "warning",
+   "title": "台风沙德尔减弱低压内陆暴雨",
+   "summary": "温州WNZ 8/28晚恢复/台州HYN 18:05首班；8/29 05:00减弱为热带低压位于江西南丰(7级)；8/29-30赣湘桂粤特大暴雨250-270mm，KHN/CSX/NNG/CAN内陆机场持续受影响。",
+   "sources": [
+    "中央气象台",
+    "澎湃"
+   ]
+  },
+  {
+   "id": "p1-karhutla",
+   "priority": "P1",
+   "level": "warning",
+   "title": "印尼林火烟雾航空影响跨境协调",
+   "summary": "新增Jambi DJB(800m/holding改航)+Nabire NBX延误，BDJ能见度仅200米；印尼BNPB与马来西亚启动跨境人工增雨，砂拉越API达195临近不健康阈值。",
+   "sources": [
+    "detik",
+    "Bernama",
+    "Antara"
+   ]
+  },
+  {
+   "id": "p1-france-strike",
+   "priority": "P1",
+   "level": "warning",
+   "title": "法国航空业罢工持续",
+   "summary": "French bee PNC罢工D4(8/27-31)/La Réunion 100%参上/威胁延至9月，湿租Wamos Air；Volotea法国基地飞行员9/4-6罢工预告（SNPL/UNAC/SPL三工会联合）。",
+   "sources": [
+    "BBC",
+    "TourMag",
+    "SNPL"
+   ]
+  },
+  {
+   "id": "p1-sas-dubai",
+   "priority": "P1",
+   "level": "warning",
+   "title": "SAS无限期推迟迪拜航线",
+   "summary": "SAS从冬季2026/27计划撤回Copenhagen-Dubai DWC航线（原定10/25开通），无限期推迟恢复迪拜服务，北欧航司持续退出中东市场。",
+   "sources": [
+    "Aviawire",
+    "AeroTelegraph",
+    "Aviation Direct"
+   ]
+  }
+ ]
 }
