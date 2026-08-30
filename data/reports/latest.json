@@ -1,12 +1,12 @@
 {
- "date": "2026-08-29",
- "period": "PM",
+ "date": "2026-08-30",
+ "period": "AM",
  "summary": {
   "p0_count": 8,
-  "p1_count": 27,
+  "p1_count": 28,
   "p2_count": 0,
-  "total": 35,
-  "note": "8/29 PM: 俄乌第30夜转向莫斯科(313架无人机/10机场受限); 美航Delta/United首恢以色列直飞; IRGC再向海峡射导弹/通行量降至4艘; 特朗普暗示制裁中国银行; SAS无限期推迟迪拜; 航空安全/自然灾害/航司运营PM无新动态"
+  "total": 36,
+  "note": "8/30 AM: 台风Kalmaegi登陆越南6机场关闭; 印尼林火部长首声明班机RTB/改航; 尼日尔兵变NIM机场临关已恢复; TLV地勤罢工干扰; 海峡仍完全关闭/美伊维持对峙; 航空安全/航司运营暂无新动态"
  },
  "events": [
   {
@@ -14,12 +14,11 @@
    "priority": "P0",
    "level": "priority",
    "title": "P0-1 美伊全面战争【重大升级】",
-   "summary": "IRGC 8/28晚从Sirik海岸向霍尔木兹海峡发射弹道导弹（8月第6次），区域传爆炸声，存NOTAM更新风险。8/28海峡仅4艘商船通过（战前日均88-110艘）再创新低。特朗普8/27暗示将制裁涉伊业务的中国银行，Bessent称本周末拟宣布对大型金融机构制裁，若落地为历史首次可能冲击航空支付清算体系。波斯湾枢纽DXB/AUH/DOH/BAH持续承压。",
+   "summary": "伊朗副外长8/29重申霍尔木兹海峡“完全关闭”，任何船只通过需伊朗协调许可，美履义务前不重开；新华社确认8月美伊军事上未直接冲突，维持非战非和对峙，美转向经济制裁；Bessent大型金融机构制裁窗口待落地，DXB/AUH/DOH/KWI/BAH枢纽承压。",
    "sources": [
-    "Cedar News",
-    "AP",
-    "Reuters",
-    "Times of Israel"
+    "新华社",
+    "央视新闻",
+    "中国网"
    ]
   },
   {
@@ -27,12 +26,11 @@
    "priority": "P0",
    "level": "priority",
    "title": "P0-5 俄乌无人机战【第30夜·转向莫斯科】",
-   "summary": "8/28-29夜乌军发射313架固定翼无人机，攻击方向转向莫斯科：VKO伏努科沃/DME多莫杰多沃/Zhukovsky三座莫斯科机场全部临时起降限制，加Izhevsk/Kirov等全国10座机场同时受限，为近期对俄民航影响最大一轮。莫斯科50万+居民一度断电，乌方确认打击距前线1000km的Yaroslavl炼油厂。",
+   "summary": "8/28-29夜313架无人机攻击莫斯科，VKO/DME/Zhukovsky三座莫斯科机场+全国10座机场同时临时限制，50万+断电，上午陆续恢复；乌打击Yaroslavl炼油厂(1000km)。",
    "sources": [
     "gazeta.ru",
     "avia-pro",
-    "Sever Press",
-    "Interfax"
+    "Sever Press"
    ]
   },
   {
@@ -51,7 +49,7 @@
    "priority": "P0",
    "level": "priority",
    "title": "P0-7 印尼弗洛勒斯M7.7",
-   "summary": "53死135伤/14天紧急状态8/28到期/6座机场正常/关注是否延续。",
+   "summary": "53死135伤/14天紧急状态8/28已到期/6座机场正常/关注是否延续。",
    "sources": [
     "BNPB",
     "Reuters"
@@ -72,7 +70,7 @@
    "id": "p0-2",
    "priority": "P0",
    "level": "priority",
-   "title": "P0-2 CCS委内瑞拉【第66天+】",
+   "title": "P0-2 CCS委内瑞拉【第67天+】",
    "summary": "6247死/货运已恢复/客运恢复中。",
    "sources": [
     "Reuters",
@@ -84,7 +82,7 @@
    "priority": "P0",
    "level": "priority",
    "title": "P0-3 EASA中东CZIB预警",
-   "summary": "8/31到期（剩余2天），关注是否续期。",
+   "summary": "8/31到期（明日到期），关注是否续期。",
    "sources": [
     "EASA"
    ]
@@ -100,11 +98,34 @@
    ]
   },
   {
+   "id": "p1-kalmaegi",
+   "priority": "P1",
+   "level": "warning",
+   "title": "台风Kalmaegi登陆越南6座机场关闭",
+   "summary": "Kalmaegi(越南名Tino)8/28 19:29登陆越南中部(92mph)，全国6座机场关闭含岲港DAD/BMV/PXU/THD/HPH，Vietnam Airlines取消HCMC↔THD 6班，数百架次受影响；已移入柬埔寨/老挝，中部机场预计8/30-31恢复。菲律宾致114+死。",
+   "sources": [
+    "BBC",
+    "AFP"
+   ]
+  },
+  {
+   "id": "p1-karhutla",
+   "priority": "P1",
+   "level": "warning",
+   "title": "印尼林火交通部长首次声明+班机返航改航",
+   "summary": "印尼交通部长8/28首次正式声明林火烟雾影响航空并要求运营商动态调整（尚无机场因烟关闭）；JATSC 8/29记录5架次受影响(CGK→PNK RTB返航/PLM→DJB返回/DJB改航BTH)，PNK/DJB/PLM/BTH visibility warning。",
+   "sources": [
+    "CNN Indonesia",
+    "Kompas",
+    "新华网"
+   ]
+  },
+  {
    "id": "p1-moscow-drone",
    "priority": "P1",
    "level": "warning",
    "title": "俄乌无人机转向莫斯科（第30夜）",
-   "summary": "8/28-29夜313架无人机攻击莫斯科，VKO/DME/Zhukovsky三座莫斯科机场+多州10座机场临时限制，50万+人断电，上午陆续恢复。",
+   "summary": "313架无人机攻击莫斯科，VKO/DME/Zhukovsky+10座机场临时限制，50万+断电，上午恢复，莫斯科国际航班大面积延误。",
    "sources": [
     "gazeta.ru",
     "avia-pro",
@@ -115,35 +136,12 @@
    "id": "p1-us-tlv",
    "priority": "P1",
    "level": "warning",
-   "title": "美航首恢以色列直飞",
-   "summary": "Delta 9/6恢复JFK-TLV每日直飞(A330-900neo)，United 9/8从EWR恢复，2/28战争以来美三大航首次恢复，恰逢犹太新年(9/11)前夕。",
+   "title": "美航首恢TLV直飞+TLV地勤罢工干扰",
+   "summary": "Delta 9/6恢复JFK-TLV(A330-900neo)/United 9/8从EWR恢复，战争以来美航首次；TLV 8/29地勤工人罢工值机中断，Etihad EY608取消/EY594限客，多航班延误返航，当日约600班次10万人受影响。",
    "sources": [
     "Delta官方",
     "AeroTime",
-    "AeroCrew News"
-   ]
-  },
-  {
-   "id": "p1-typhoon",
-   "priority": "P1",
-   "level": "warning",
-   "title": "台风沙德尔减弱低压内陆暴雨",
-   "summary": "温州WNZ 8/28晚恢复/台州HYN 18:05首班；8/29 05:00减弱为热带低压位于江西南丰(7级)；8/29-30赣湘桂粤特大暴雨250-270mm，KHN/CSX/NNG/CAN内陆机场持续受影响。",
-   "sources": [
-    "中央气象台",
-    "澎湃"
-   ]
-  },
-  {
-   "id": "p1-karhutla",
-   "priority": "P1",
-   "level": "warning",
-   "title": "印尼林火烟雾航空影响跨境协调",
-   "summary": "新增Jambi DJB(800m/holding改航)+Nabire NBX延误，BDJ能见度仅200米；印尼BNPB与马来西亚启动跨境人工增雨，砂拉越API达195临近不健康阈值。",
-   "sources": [
-    "detik",
-    "Bernama",
-    "Antara"
+    "ikada-news"
    ]
   },
   {
@@ -151,7 +149,7 @@
    "priority": "P1",
    "level": "warning",
    "title": "法国航空业罢工持续",
-   "summary": "French bee PNC罢工D4(8/27-31)/La Réunion 100%参上/威胁延至9月，湿租Wamos Air；Volotea法国基地飞行员9/4-6罢工预告（SNPL/UNAC/SPL三工会联合）。",
+   "summary": "French bee PNC罢工延长至9/6威胁延9月，湿租Wamos Air；Volotea法国基地飞行员9/4-6罢工预告（SNPL/UNAC/SPL三工会联合）。",
    "sources": [
     "BBC",
     "TourMag",
@@ -159,15 +157,15 @@
    ]
   },
   {
-   "id": "p1-sas-dubai",
+   "id": "p1-niger",
    "priority": "P1",
    "level": "warning",
-   "title": "SAS无限期推迟迪拜航线",
-   "summary": "SAS从冬季2026/27计划撤回Copenhagen-Dubai DWC航线（原定10/25开通），无限期推迟恢复迪拜服务，北欧航司持续退出中东市场。",
+   "title": "尼日尔未遂兵变尼亚美机场临时关闭已恢复",
+   "summary": "8/29凌晨尼亚美101空军基地(与NIM机场同址)士兵兵变攻击总统府，机场关闭近一天航班取消备降；叛乱被控制(俄非洲军团支援)，民航局8/29下午确认机场全面恢复。",
    "sources": [
-    "Aviawire",
-    "AeroTelegraph",
-    "Aviation Direct"
+    "AP",
+    "新华社",
+    "Reuters"
    ]
   }
  ]
